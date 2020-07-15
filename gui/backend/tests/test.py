@@ -322,6 +322,16 @@ class MicroworldAgentTests(AgentTests):
                          [-1], 'Goodbye, ending dialog as requested by user')
 
 
+    def test_typed_random_agent(self):
+        agent = create_agent('agents.random_agent.TypedRandomAgent', None, None, self.interfaces, domain=self.domain, seed=123)
+        self.app.rooms['0'].set_agent(agent)
+
+        self.socket_client.get_received()
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'starbucks', 'roomId': '0'})
+        print('received', self._get_received())
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'how far is it?', 'roomId': '0'})
+        print('received', self._get_received())
+
 class WeatherAgentTests(AgentTests):
     def setUp(self):
         self.app = AppFactory(weather_domain)
@@ -355,6 +365,17 @@ class WeatherAgentTests(AgentTests):
             '/message', {'sender': 'user', 'body': 'quit', 'roomId': '0'})
         self.assertEqual(self._get_received()
                          [-1], 'Goodbye, ending dialog as requested by user')
+
+
+    def test_typed_random_agent(self):
+        agent = create_agent('agents.random_agent.TypedRandomAgent', None, None, self.interfaces, domain=self.domain, seed=123)
+        self.app.rooms['0'].set_agent(agent)
+
+        self.socket_client.get_received()
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'california', 'roomId': '0'})
+        print('received', self._get_received())
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'whats the weather in california', 'roomId': '0'})
+        print('received', self._get_received())
 
 
 class NumberAgentTests(AgentTests):

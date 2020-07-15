@@ -1,104 +1,16 @@
 --- Filler ---
-**** NOTE: These templates are not synced to the normal maps interface****
-Sure, give me a moment.
-Please wait a minute, while I quickly look up this information.
+--- **** NOTE: These templates are not synced to the normal maps interface**** ---
 --- Specifying time/distance ---
-{} is closest.
-It is {} away from {}.
-{} is {} away.
-You will reach there in {}.
-It will take us {} to get there.
-It is {} away.
-{} is {} away from {}.
-It is {} and {} away.
+{placename} is {distance} away.
+It is {distance} away.
+It is {duration} and {time} away.
 --- Identifying places ---
-{} has a price level of {}.
-It is a {}.
-{} is on {}.
-It is on {}.
-It is on {} in {}.
-The address is {}.
-{} is in {}.
-It is in {}.
-It's called {}.
-The one on {}?
-{} on {}?
-There is {} on {}.
-There is a {} on {}.
-There is a {} in {}.
-I found {} in {}.
-I found a {} called {} on {} in {}.
-I found {} on {}, is that ok?
-Is the address {}?
-{} is at {}.
-{} in {}?
-Do you mean {}?
-How about {}?
-How about one on {}? It is {} away.
-There is a {} nearby.
-{} is a {}.
-{} on {} is open.
-It is open.
-It is not open.
+It is a {streetname}.
+The address is {address}.
+It is in {city}.
+How about {placename}?
 --- Confirmations ---
-{} is the closest {} I could find.
-Shall we go to {} on {}?
-Shall we go?
-Are you okay with that one?
-You are all set!
-Going to {} in {}.
-We are going to the {} in {}.
-Great, we are going to {}.
-Pleasure serving you!
---- Rating ---
-It has a rating of {}.
-{} has a rating of {}.
-There is no rating available.
---- Enumeration ---
-I found two {} in {} and {}.
-They are all in {}
-Their ratings are {} and {} respectively.
-I also found {} and {}.
-I found two {} {}s. The addresses are {} and {}.
-They are {}, {}, {} away respectively.
-Their ratings are {}, {} and {} respectively.
-They are all on {}.
-They are all rated {}.
-I found two places: {} and {}.
-I found three places: {}, {}, and {}.
-Is it one of those?
-It's {} {}, {}.
-Which one would you like to go to?
---- Can’t find the place ---
-I could not find a {} close to {}.
-I could not find a {} closer than that.
-I could not find a {} in {}.
-I am sorry I am unable to find that information
-I could not find a place called {}.
-I could not find {} on {}.
-I am sorry I am unable to find the place.
-I don't know.
---- Providing information ---
-Do you know the name of the place?
-Is there anything else you want me to look up?
-Is that all?
-Do you want to know how long it takes to get there?
---- Requesting more information ---
-Do you happen to know the neigborhood or cross street?
-Can you be more specific?
-Which would you like to go to? 
-This road is very long, can you narrow down the location?
-{} is very large, can you be more specific?
-I can't find any places for your request, can you give me more information?
-Could you please give me the cross streets or a major landmark?
---- Airport Related ---
-Which airline are you flying?
---- New templates ---
-I am not sure if it matches your criteria.
-Sorry, I'm not able to do that yet.
-I don't know. But it is currently open. 
-{} has {} category.
-Do you mean near {}, or near {}?
-{}.
-Yes.
-No.
+Going to {placename}
+--- Rating and price ---
+It has a rating of {rating}.
+It has a price level of {pricelevel}.
