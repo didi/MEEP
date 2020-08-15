@@ -1,15 +1,20 @@
 --- Filler ---
 --- **** NOTE: These templates are not synced to the normal maps interface**** ---
 --- Specifying time/distance ---
+It is {distance} away from {placename}.
 {placename} is {distance} away.
 It is {distance} away.
-It is {duration} and {time} away.
+It is {distance} and {time} away.
 --- Identifying places ---
-It is a {streetname}.
+The address is {address}
+I found {placename} on {streetname}.
+How about {placename} on {streetname}?
+It is a {type}.
 The address is {address}.
 It is in {city}.
 How about {placename}?
 --- Confirmations ---
+Great! We will arrive in {duration}
 Going to {placename}
 --- Rating and price ---
 It has a rating of {rating}.

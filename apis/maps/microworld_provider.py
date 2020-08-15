@@ -16,8 +16,7 @@ class MicroworldMapProvider(MapsProvider):
         with open(self.places_path) as fh:
             reader = csv.reader(
                 filter(
-                    lambda line: line.strip() and not line.startswith('#'),
-                    fh))
+                    lambda line: line.strip() and not line.startswith('#'), fh))
             self.places = [self._read_line(row) for row in reader]
 
     # Helpers
@@ -47,7 +46,7 @@ class MicroworldMapProvider(MapsProvider):
         if matching_places:
             return matching_places
 
-        # Try matching words
+        # Try matching individual words from the query
         matching_places = [
             p for p in self.places if any(
                 self._query_matches(
@@ -91,8 +90,9 @@ class MicroworldMapProvider(MapsProvider):
                 {'name': i, 'value': type_} for i, type_ in enumerate(p.types)
             ]},
             {'name': 'rating', 'value': p.rating},
-            {'name': 'distance', 'value': '{} mins'.format(dist)},
-            {'name': 'duration', 'value': '{} mi'.format(dist)},
+            {'name': 'price', 'value': p.price},
+            {'name': 'distance', 'value': '{} mi'.format(dist)},
+            {'name': 'duration', 'value': '{} mins'.format(dist)},
             {'name': 'neighborhood', 'value': city},
         ]
 
@@ -170,3 +170,59 @@ class MicroworldMapProvider(MapsProvider):
 
     def start_driving(self, latitude, longitude, place_id):
         return self.start_driving_no_map(latitude, longitude)
+
+
+class MicroworldMapProvider2(MicroworldMapProvider):
+    def _place_to_response(self, p: Place, src_lat: str, src_lng: str):
+        '''convert a Place, `p`, to the format expected by the api'''
+        dist = self._dist(src_lat, src_lng, p.lat, p.lng)
+
+        if float(p.lat) <= 5 and float(p.lng) <= 5:
+            city = 'Marina del Rey'
+        elif float(p.lat) <= 5 and float(p.lng) > 5:
+            city = 'Santa Monica'
+        elif float(p.lat) > 5 and float(p.lng) <= 5:
+            city = 'Culver City'
+        elif float(p.lat) > 5 and float(p.lng) > 5:
+            city = 'Sawtelle'
+        else:
+            city = 'Los Angeles'
+
+        street_names = [
+            'First',
+            'Second',
+            'Third',
+            'Fourth',
+            'Fifth',
+            'Sixth',
+            'Seventh',
+            'Eighth',
+            'Ninth',
+            'Tenth']
+
+        try:
+            streetname = street_names[int(p.lng) - 1] + ' Street'
+            address = p.lat + ' ' + streetname
+        except ValueError:
+            streetname = ''
+            address = ''
+
+        result = [
+            {'name': 'name', 'value': p.name},
+            {'name': 'address_simple', 'value': address},
+            {'name': 'streetname', 'value': streetname},
+            {'name': 'latitude', 'value': p.lat},
+            {'name': 'longitude', 'value': p.lng},
+            {'name': 'types', 'value': [
+                {'name': i, 'value': type_} for i, type_ in enumerate(p.types)
+            ]},
+            {'name': 'rating', 'value': p.rating},
+            {'name': 'price', 'value': p.price},
+            {'name': 'distance', 'value': '{} mi'.format(dist)},
+            {'name': 'duration', 'value': '{} mins'.format(dist)},
+            {'name': 'neighborhood', 'value': city},
+        ]
+
+        # remove blank values
+        result = [variable for variable in result if variable['value']]
+        return result
