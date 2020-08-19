@@ -31,9 +31,8 @@ class MicroworldMapProvider(MapsProvider):
 
     def _query_matches(self, query: str, place: Place) -> bool:
         '''Test if query matches place.'''
-        return (query == place.name.lower()
-                or query in place.types
-                or any(fuzz.token_sort_ratio(query, type_) > 85 for type_ in place.types)
+        return (fuzz.partial_ratio(query, place.name.lower()) > 80
+                or any(fuzz.token_sort_ratio(query, type_) > 80 for type_ in place.types)
                 )
 
     def get_matching_places(self, query: str):
@@ -108,8 +107,8 @@ class MicroworldMapProvider(MapsProvider):
         except ValueError:
             return []
         return [
-            {'name': 'distance', 'value': '{} mins'.format(dist)},
-            {'name': 'duration', 'value': '{} mi'.format(dist)},
+            {'name': 'distance', 'value': '{} mi'.format(dist)},
+            {'name': 'duration', 'value': '{} mins'.format(dist)},
         ]
 
     def find_place(self, query, latitude, longitude):

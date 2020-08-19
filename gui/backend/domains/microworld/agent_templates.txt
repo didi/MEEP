@@ -1,12 +1,14 @@
 --- Filler ---
 --- **** NOTE: These templates are not synced to the normal maps interface**** ---
 --- Specifying time/distance ---
+It will take {time}.
+{placename} is {distance} away from {placename}.
 It is {distance} away from {placename}.
 {placename} is {distance} away.
 It is {distance} away.
 It is {distance} and {time} away.
 --- Identifying places ---
-The address is {address}
+What about {placename} in {city}?
 I found {placename} on {streetname}.
 How about {placename} on {streetname}?
 It is a {type}.
