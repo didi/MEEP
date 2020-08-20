@@ -1,0 +1,19 @@
+.error_variable {
+    display: inline-block;
+    border: solid thin red;
+    border-radius: 2px;
+    padding: 5px;
+    min-width: 1.5em;
+    min-height: 1.5em;
+    margin-right: 2px;
+}
+
+.error_variable.traceback {
+    font-size: 0.7em;
+    white-space: pre-wrap;
+}
+
+
+.variableValue {
+    padding: 0;
+}

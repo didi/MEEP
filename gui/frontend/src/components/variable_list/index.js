@@ -3,6 +3,7 @@ import { h, Component } from 'preact';
 
 import VariableContainer from '../variable_container/index'
 import Variable from '../variable/index'
+import ErrorVariable from '../error_variable/index'
 
 export default class VariableList extends Component {
     componentWillReceiveProps(props) {
@@ -24,10 +25,18 @@ export default class VariableList extends Component {
                     {variable.value.map(v => this.renderVariable(props, v))}
                 </ul>
             )
-        } else {
+        }
+        else if (variable.name == 'error' || variable.name == 'traceback') {
             return (
                 <li class={style[props.variableListType]}>
-                    <Variable showName={props.variableListType === 'request_variables'} v={variable} clickHandler={props.selectVariable} isError={variable.name == 'error'} />
+                    <ErrorVariable v={variable}/>
+                </li>
+            )
+        }
+        else {
+            return (
+                <li class={style[props.variableListType]}>
+                    <Variable showName={props.variableListType === 'request_variables'} v={variable} clickHandler={props.selectVariable} />
                 </li>
             );
         }

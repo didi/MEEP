@@ -1,12 +1,12 @@
 import style from './style';
 import { h, Component } from 'preact';
 
-export default function Variable(props) {
+export default function ErrorVariable(props) {
     let {v, clickHandler, showName, typeHint, isActive, isError} = props;
 
-    const variableStyle = "variable " + style.variable + ' ' + (isActive ? style.variableIsActive : '') + ' ' + (isError ? style.variableIsError : '');
+    const variableStyle = "variable " + style.variable + ' ' + (isActive ? style.variableIsActive : '');
     return (
-        <div class={variableStyle} onclick={(clickHandler && !isError) ? e => clickHandler(v, e) : null}>
+        <div class={variableStyle} onclick={clickHandler ? e => clickHandler(v, e) : null}>
           {showName &&
             <span class={style.variableName}>{v.name + ": "}</span>
           }

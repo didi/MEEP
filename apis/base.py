@@ -1,5 +1,6 @@
 from functools import wraps
 import inspect
+import traceback
 
 from flask import jsonify, request
 from apis.utils import add_full_names
@@ -92,6 +93,10 @@ class BaseInterface():
             variables = [{
                 'name': 'error',
                 'value': str(e),
+            },
+            {
+                'name': 'traceback',
+                'value': traceback.format_exc()
             }]
 
         # Update saved variable state
