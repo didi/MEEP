@@ -1,6 +1,6 @@
-source_address = 150 Avro Rd, Maple, ON L6A 1Y2, Canada
-source_latitude = 43.84815930000001
-source_longitude = -79.52523070000001
+source_address = 121 Avro Rd, Maple, ON L6A 1Y2, Canada
+source_latitude = 43.848
+source_longitude = -79.525
 u1_0 = I
 u1_1 = 'd
 u1_2 = like
@@ -11,8 +11,8 @@ u1_6 = at
 u1_7 = horseshoe
 PREDICT: find_place
 PREDICT: skiing at horseshoe
-PREDICT: 43.84815930000001
-PREDICT: -79.52523070000001
+PREDICT: 43.848
+PREDICT: -79.525
 v1_name = Horseshoe Resort
 v1_address = 1101 Horseshoe Valley Rd W, Barrie, ON L4M 4Y8, Canada
 v1_rating = 4.2
