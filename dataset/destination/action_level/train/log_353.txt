@@ -1,0 +1,59 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = ocean
+u1_5 = fishing
+u1_6 = .
+PREDICT: [ACTION] places_nearby [PARAM] ocean fishing [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = Sea Esta Charters
+v1_0_rating = 5
+v1_0_is_open = True
+v1_0_types_0 = travel agency
+v1_0_types_1 = point of interest
+v1_0_types_2 = establishment
+v1_0_latitude = 33.983359
+v1_0_longitude = -118.449533
+v1_0_address_simple = 4333 Admiralty Way, Marina del Rey
+v1_0_street_number = 4333
+v1_0_street_name = Admiralty Way
+v1_0_locality = Marina del Rey
+v1_0_distance = 1.4 mi
+v1_0_duration = 5 mins
+v1_1_name = Marina Del Rey Sportfishing
+v1_1_rating = 4.1
+v1_1_is_open = True
+v1_1_types_0 = point of interest
+v1_1_types_1 = establishment
+v1_1_latitude = 33.9718488
+v1_1_longitude = -118.4462696
+v1_1_address_simple = 13759 Fiji Way, Marina del Rey
+v1_1_street_number = 13759
+v1_1_street_name = Fiji Way
+v1_1_locality = Marina del Rey
+v1_1_distance = 1.0 mi
+v1_1_duration = 5 mins
+v1_2_name = The Duchess Yacht Charter Service
+v1_2_rating = 4.9
+v1_2_is_open = True
+v1_2_types_0 = travel agency
+v1_2_types_1 = point of interest
+v1_2_types_2 = establishment
+v1_2_latitude = 33.9731663
+v1_2_longitude = -118.4563305
+v1_2_address_simple = 14120 Tahiti Way, Marina del Rey
+v1_2_street_number = 14120
+v1_2_street_name = Tahiti Way
+v1_2_locality = Marina del Rey
+v1_2_distance = 2.0 mi
+v1_2_duration = 7 mins
+PREDICT: [ACTION] I found two places: {} and {}. [PARAM] Sea Esta Charters [PARAM] Marina Del Rey Sportfishing
+PREDICT: [ACTION] Their ratings are {} and {} respectively. [PARAM] 5 [PARAM] 4.1
+PREDICT: [ACTION] wait_for_user
+u2_0 = Sea
+u2_1 = Esta
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 33.983359 [PARAM] -118.449533

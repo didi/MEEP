@@ -1,0 +1,114 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = hey
+u1_1 = can
+u1_2 = you
+u1_3 = take
+u1_4 = me
+u1_5 = to
+u1_6 = stc
+u1_7 = ?
+PREDICT: find_place
+PREDICT: stc
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v1_name = [STC] Scott Thornley + Company Inc.
+v1_address = 2 Pardee Ave #101, Toronto, ON M6K 3H5, Canada
+v1_rating = 3
+v1_latitude = 43.6365146
+v1_longitude = -79.4226754
+v1_street_number = 2
+v1_street_name = Pardee Avenue
+v1_locality = Toronto
+v1_distance = 3.4 mi
+v1_duration = 18 mins
+PREDICT: find_place
+PREDICT: [STC] Scott Thornley + Company Inc.
+PREDICT: 43.6365146
+PREDICT: -79.4226754
+v2_name = [STC] Scott Thornley + Company Inc.
+v2_address = 2 Pardee Ave #101, Toronto, ON M6K 3H5, Canada
+v2_rating = 3
+v2_latitude = 43.6365146
+v2_longitude = -79.4226754
+v2_street_number = 2
+v2_street_name = Pardee Avenue
+v2_locality = Toronto
+v2_distance = 1 ft
+v2_duration = 1 min
+PREDICT: I found {} on {}, is that ok?
+PREDICT: [STC] Scott Thornley + Company Inc.
+PREDICT: Pardee Avenue
+PREDICT: places_nearby
+PREDICT: stc
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v3_0_name = STC
+v3_0_rating = 0
+v3_0_types = ['point_of_interest', 'establishment']
+v3_0_latitude = 43.648528
+v3_0_longitude = -79.38333589999999
+v3_0_address = 130 King St W #1800, Exchange Tower, Toronto, ON M5X 2A2, Canada
+v3_0_locality = Toronto
+v3_0_distance = 2.4 mi
+v3_0_duration = 14 mins
+v3_1_name = [STC] Scott Thornley + Company Inc.
+v3_1_rating = 3
+v3_1_types = ['point_of_interest', 'establishment']
+v3_1_latitude = 43.6365146
+v3_1_longitude = -79.4226754
+v3_1_address = 2 Pardee Ave #101, Toronto, ON M6K 3H5, Canada
+v3_1_street_number = 2
+v3_1_street_name = Pardee Avenue
+v3_1_locality = Toronto
+v3_1_distance = 3.4 mi
+v3_1_duration = 18 mins
+v3_2_name = STC Working at Heights training centre
+v3_2_rating = 5
+v3_2_is_open = False
+v3_2_types = ['local_government_office', 'school', 'point_of_interest', 'establishment']
+v3_2_latitude = 43.7830444
+v3_2_longitude = -79.55301209999999
+v3_2_address = 231 Rowntree Dairy Rd, Woodbridge, ON L4L 8B8, Canada
+v3_2_street_number = 231
+v3_2_street_name = Rowntree Dairy Road
+v3_2_neighborhood = Woodbridge
+v3_2_locality = Vaughan
+v3_2_distance = 17.8 mi
+v3_2_duration = 33 mins
+PREDICT: wait_for_user
+u2_0 = no
+u2_1 = scarborough
+u2_2 = town
+u2_3 = centre
+PREDICT: find_place
+PREDICT: scarborough town centre
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v4_name = Scarborough Town Centre
+v4_address = 300 Borough Dr, Toronto, ON M1P 4P5, Canada
+v4_rating = 4.3
+v4_is_open = True
+v4_latitude = 43.7756054
+v4_longitude = -79.2578685
+v4_street_number = 300
+v4_street_name = Borough Drive
+v4_locality = Toronto
+v4_distance = 14.7 mi
+v4_duration = 29 mins
+PREDICT: There is {} on {}
+PREDICT: Scarborough Town Centre
+PREDICT: Borough Drive
+PREDICT: It is {} and {} away.
+PREDICT: 29 mins
+PREDICT: 14.7 mi
+PREDICT: wait_for_user
+u3_0 = yup
+u3_1 = thanks
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = yup
+PREDICT: start_driving
+PREDICT: 43.7756054
+PREDICT: -79.2578685

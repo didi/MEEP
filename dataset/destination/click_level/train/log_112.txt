@@ -1,0 +1,42 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = nearest
+u1_7 = subway
+u1_8 = station
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: find_place
+PREDICT: nearest subway station
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Vaughan Metropolitan Centre
+v1_address = 3150 Hwy 7, Vaughan, ON L4K 4R6, Canada
+v1_rating = 4.1
+v1_latitude = 43.7942439
+v1_longitude = -79.5274867
+v1_street_number = 3150
+v1_street_name = Highway 7
+v1_neighborhood = Concord
+v1_locality = Vaughan
+v1_distance = 4.3 mi
+v1_duration = 13 mins
+PREDICT: There is a {} on {}.
+PREDICT: Vaughan Metropolitan Centre
+PREDICT: Highway 7
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 43.7942439
+PREDICT: -79.5274867

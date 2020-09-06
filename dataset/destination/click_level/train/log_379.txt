@@ -1,0 +1,55 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Runyon
+u1_6 = Canyon
+u1_7 = to
+u1_8 = jog
+u1_9 = .
+PREDICT: find_place
+PREDICT: Runyon Canyon
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Runyon Canyon Rd
+v1_address = Runyon Canyon Rd, Los Angeles, CA 90046, USA
+v1_latitude = 34.1124691
+v1_longitude = -118.3502231
+v1_types_0 = route
+v1_address_simple = Los Angeles
+v1_street_name = Runyon Canyon Road
+v1_neighborhood = Central LA
+v1_locality = Los Angeles
+v1_distance = 17.1 mi
+v1_duration = 43 mins
+PREDICT: find_place
+PREDICT: Runyon Canyon jog
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Runyon Canyon Park
+v2_address = 2000 N Fuller Ave, Los Angeles, CA 90046, United States
+v2_latitude = 34.1052437
+v2_longitude = -118.3489574
+v2_types_0 = park
+v2_types_1 = tourist attraction
+v2_types_2 = point of interest
+v2_types_3 = establishment
+v2_rating = 4.7
+v2_address_simple = 2000 North Fuller Avenue, Los Angeles
+v2_street_number = 2000
+v2_street_name = North Fuller Avenue
+v2_neighborhood = Central LA
+v2_locality = Los Angeles
+v2_distance = 15.6 mi
+v2_duration = 40 mins
+PREDICT: Do you mean {}?
+PREDICT: Runyon Canyon Park
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: start_driving
+PREDICT: 34.1052437
+PREDICT: -118.3489574

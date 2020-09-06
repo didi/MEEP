@@ -1,0 +1,39 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = play
+u1_7 = baseball
+PREDICT: find_place
+PREDICT: baseball
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Sports Village Baseball Diamond
+v1_address = Vaughan, ON L6A 2H3, Canada
+v1_rating = 4.8
+v1_latitude = 43.8370956
+v1_longitude = -79.5212974
+v1_neighborhood = Maple
+v1_locality = Vaughan
+v1_distance = 0.9 mi
+v1_duration = 3 mins
+PREDICT: There is a {} in {}.
+PREDICT: Sports Village Baseball Diamond
+PREDICT: Maple
+PREDICT: It is {} away.
+PREDICT: 3 mins
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: Going to {} in {}.
+PREDICT: Sports Village Baseball Diamond
+PREDICT: Vaughan
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 43.8370956
+PREDICT: -79.5212974

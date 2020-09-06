@@ -1,0 +1,96 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = would
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = grocery
+u1_8 = store
+u1_9 = .
+PREDICT: [ACTION] find_place [PARAM] grocery store [PARAM] 43.848 [PARAM] -79.525
+v1_name = Nature's Emporium
+v1_address = 2535 Major MacKenzie Dr W, Maple, ON L6A 1C6, Canada
+v1_rating = 4.4
+v1_is_open = True
+v1_latitude = 43.85198
+v1_longitude = -79.521545
+v1_street_number = 2535
+v1_street_name = Major Mackenzie Drive West
+v1_neighborhood = Maple
+v1_locality = Vaughan
+v1_distance = 0.8 mi
+v1_duration = 3 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] Nature's Emporium [PARAM] Major Mackenzie Drive West
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 3 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = No
+u2_1 = ,
+u2_2 = that
+u2_3 = one
+u2_4 = 's
+u2_5 = too
+u2_6 = expensive
+u2_7 = .
+u2_8 = Are
+u2_9 = there
+u2_10 = any
+u2_11 = others
+u2_12 = ?
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] places_nearby [PARAM] grocery store [PARAM] 43.848 [PARAM] -79.525
+v2_0_name = Nature's Emporium
+v2_0_rating = 4.4
+v2_0_is_open = True
+v2_0_types = ['grocery_or_supermarket', 'cafe', 'restaurant', 'food', 'health', 'point_of_interest', 'store', 'establishment']
+v2_0_latitude = 43.85198
+v2_0_longitude = -79.521545
+v2_0_address = 2535 Major MacKenzie Dr W, Maple, ON L6A 1C6, Canada
+v2_0_street_number = 2535
+v2_0_street_name = Major Mackenzie Drive West
+v2_0_neighborhood = Maple
+v2_0_locality = Vaughan
+v2_0_distance = 0.8 mi
+v2_0_duration = 3 mins
+v2_1_name = Fortinos
+v2_1_rating = 4.3
+v2_1_is_open = True
+v2_1_types = ['grocery_or_supermarket', 'pharmacy', 'bakery', 'food', 'health', 'point_of_interest', 'store', 'establishment']
+v2_1_latitude = 43.8492237
+v2_1_longitude = -79.53276939999999
+v2_1_address = 2911 Major MacKenzie Dr W, Maple, ON L6A 3N9, Canada
+v2_1_street_number = 2911
+v2_1_street_name = Major Mackenzie Drive West
+v2_1_neighborhood = Maple
+v2_1_locality = Vaughan
+v2_1_distance = 0.5 mi
+v2_1_duration = 2 mins
+v2_2_name = King Groceries & Halal Meat
+v2_2_rating = 4.5
+v2_2_is_open = True
+v2_2_types = ['grocery_or_supermarket', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'store', 'establishment']
+v2_2_latitude = 43.84512300000001
+v2_2_longitude = -79.534284
+v2_2_address = 9699 Jane St #10, Maple, ON L6A 0A5, Canada
+v2_2_street_number = 9699
+v2_2_street_name = Jane Street
+v2_2_neighborhood = Maple
+v2_2_locality = Vaughan
+v2_2_distance = 0.6 mi
+v2_2_duration = 2 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] Fortinos [PARAM] Major Mackenzie Drive West
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u3_0 = Yes
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = there
+u3_6 = .
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 43.8492237 [PARAM] -79.53276939999999

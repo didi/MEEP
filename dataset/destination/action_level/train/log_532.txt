@@ -1,0 +1,78 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = get
+u1_6 = my
+u1_7 = eyebrows
+u1_8 = done
+PREDICT: [ACTION] places_nearby [PARAM] eyebrows [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = Microblading Hollywood Brows- The Eyebrow Repair Center
+v1_0_rating = 5
+v1_0_is_open = True
+v1_0_types_0 = point of interest
+v1_0_types_1 = establishment
+v1_0_latitude = 33.9891884
+v1_0_longitude = -118.4502889
+v1_0_address_simple = 3007 Washington Boulevard #110, Marina del Rey
+v1_0_street_number = 3007
+v1_0_street_name = Washington Boulevard
+v1_0_neighborhood = Venice
+v1_0_locality = Marina del Rey
+v1_0_distance = 1.8 mi
+v1_0_duration = 6 mins
+v1_1_name = CandiBrows
+v1_1_rating = 5
+v1_1_is_open = True
+v1_1_types_0 = beauty salon
+v1_1_types_1 = point of interest
+v1_1_types_2 = establishment
+v1_1_latitude = 33.9746363
+v1_1_longitude = -118.4298677
+v1_1_address_simple = 13151 Fountain Park Drive, Playa Vista
+v1_1_street_number = 13151
+v1_1_street_name = Fountain Park Drive
+v1_1_neighborhood = Playa Vista
+v1_1_locality = Los Angeles
+v1_1_distance = 1.4 mi
+v1_1_duration = 6 mins
+v1_2_name = Beauty Secrets Skin Care & Threading Studio
+v1_2_rating = 4.4
+v1_2_is_open = True
+v1_2_types_0 = beauty salon
+v1_2_types_1 = point of interest
+v1_2_types_2 = establishment
+v1_2_latitude = 33.995751
+v1_2_longitude = -118.437777
+v1_2_address_simple = 12833 West Washington Boulevard, Los Angeles
+v1_2_street_number = 12833
+v1_2_street_name = West Washington Boulevard
+v1_2_neighborhood = Culver - West
+v1_2_locality = Los Angeles
+v1_2_distance = 1.6 mi
+v1_2_duration = 8 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Microblading Hollywood Brows- The Eyebrow Repair Center [PARAM] CandiBrows [PARAM] Beauty Secrets Skin Care & Threading Studio
+PREDICT: [ACTION] wait_for_user
+u2_0 = How
+u2_1 = far
+u2_2 = is
+u2_3 = the
+u2_4 = threading
+u2_5 = one
+u2_6 = ?
+PREDICT: [ACTION] {} is {} away. [PARAM] Beauty Secrets Skin Care & Threading Studio [PARAM] 8 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Sounds
+u3_1 = good
+u3_2 = ,
+u3_3 = let
+u3_4 = 's
+u3_5 = go
+u3_6 = there
+u3_7 = .
+PREDICT: [ACTION] We are going to the {} in {}. [PARAM] Beauty Secrets Skin Care & Threading Studio [PARAM] West Washington Boulevard
+PREDICT: [ACTION] start_driving [PARAM] 33.995751 [PARAM] -118.437777

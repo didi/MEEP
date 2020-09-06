@@ -1,0 +1,320 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = is
+u1_1 = there
+u1_2 = any
+u1_3 = place
+u1_4 = that
+u1_5 = specializes
+u1_6 = in
+u1_7 = old
+u1_8 = books
+u1_9 = ?
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] old books place [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Dreamworld Comics
+v1_address = 12402 Washington Pl, Los Angeles, CA 90066, United States
+v1_latitude = 33.9989607
+v1_longitude = -118.4304311
+v1_types_0 = book store
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = 12402 Washington Place, Los Angeles
+v1_street_number = 12402
+v1_street_name = Washington Place
+v1_neighborhood = Culver - West
+v1_locality = Los Angeles
+v1_distance = 1.8 mi
+v1_duration = 9 mins
+PREDICT: [ACTION] places_nearby [PARAM] old books place [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = Barnes & Noble
+v2_0_rating = 4.6
+v2_0_is_open = True
+v2_0_price_level = 2
+v2_0_types_0 = book store
+v2_0_types_1 = point of interest
+v2_0_types_2 = store
+v2_0_types_3 = establishment
+v2_0_latitude = 33.9868448
+v2_0_longitude = -118.440387
+v2_0_address_simple = 13400 Maxella Avenue, Marina del Rey
+v2_0_street_number = 13400
+v2_0_street_name = Maxella Avenue
+v2_0_locality = Marina del Rey
+v2_0_distance = 0.6 mi
+v2_0_duration = 5 mins
+v2_1_name = Dreamworld Comics
+v2_1_rating = 4.3
+v2_1_is_open = True
+v2_1_types_0 = book store
+v2_1_types_1 = point of interest
+v2_1_types_2 = store
+v2_1_types_3 = establishment
+v2_1_latitude = 33.9989607
+v2_1_longitude = -118.4304311
+v2_1_address_simple = 12402 Washington Place, Los Angeles
+v2_1_street_number = 12402
+v2_1_street_name = Washington Place
+v2_1_neighborhood = Culver - West
+v2_1_locality = Los Angeles
+v2_1_distance = 1.8 mi
+v2_1_duration = 9 mins
+v2_2_name = Angel City Books & Records
+v2_2_rating = 4.6
+v2_2_is_open = True
+v2_2_types_0 = book store
+v2_2_types_1 = electronics store
+v2_2_types_2 = home goods store
+v2_2_types_3 = point of interest
+v2_2_types_4 = store
+v2_2_types_5 = establishment
+v2_2_latitude = 33.9988017
+v2_2_longitude = -118.4795145
+v2_2_address_simple = 218 Pier Avenue, Santa Monica
+v2_2_street_number = 218
+v2_2_street_name = Pier Avenue
+v2_2_neighborhood = Ocean Park
+v2_2_locality = Santa Monica
+v2_2_distance = 3.1 mi
+v2_2_duration = 13 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Barnes & Noble [PARAM] Dreamworld Comics [PARAM] Angel City Books & Records
+PREDICT: [ACTION] Is it one of those?
+PREDICT: [ACTION] wait_for_user
+u2_0 = i
+u2_1 = mean
+u2_2 = used
+u2_3 = books
+u2_4 = ,
+u2_5 = antique
+u2_6 = books
+PREDICT: [ACTION] I am not sure if it matches your criteria.
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] places_nearby [PARAM] books antique books used [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_0_name = Barnes & Noble
+v3_0_rating = 4.6
+v3_0_is_open = True
+v3_0_price_level = 2
+v3_0_types_0 = book store
+v3_0_types_1 = point of interest
+v3_0_types_2 = store
+v3_0_types_3 = establishment
+v3_0_latitude = 33.9868448
+v3_0_longitude = -118.440387
+v3_0_address_simple = 13400 Maxella Avenue, Marina del Rey
+v3_0_street_number = 13400
+v3_0_street_name = Maxella Avenue
+v3_0_locality = Marina del Rey
+v3_0_distance = 0.6 mi
+v3_0_duration = 5 mins
+v3_1_name = Pepe's Thrifty Shop
+v3_1_rating = 4.5
+v3_1_is_open = True
+v3_1_types_0 = home goods store
+v3_1_types_1 = point of interest
+v3_1_types_2 = store
+v3_1_types_3 = establishment
+v3_1_latitude = 33.991343
+v3_1_longitude = -118.4216939
+v3_1_address_simple = 4577 South Centinela Avenue, Los Angeles
+v3_1_street_number = 4577
+v3_1_street_name = South Centinela Avenue
+v3_1_locality = Los Angeles
+v3_1_distance = 1.7 mi
+v3_1_duration = 7 mins
+v3_2_name = The Mart Collective
+v3_2_rating = 4.1
+v3_2_is_open = True
+v3_2_types_0 = furniture store
+v3_2_types_1 = home goods store
+v3_2_types_2 = point of interest
+v3_2_types_3 = clothing store
+v3_2_types_4 = store
+v3_2_types_5 = establishment
+v3_2_latitude = 33.9971265
+v3_2_longitude = -118.4587101
+v3_2_address_simple = 1600 Lincoln Boulevard, Venice
+v3_2_street_number = 1600
+v3_2_street_name = Lincoln Boulevard
+v3_2_neighborhood = Venice
+v3_2_locality = Los Angeles
+v3_2_distance = 1.6 mi
+v3_2_duration = 8 mins
+PREDICT: [ACTION] places_nearby [PARAM] used books antique books [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_0_name = Barnes & Noble
+v4_0_rating = 4.6
+v4_0_is_open = True
+v4_0_price_level = 2
+v4_0_types_0 = book store
+v4_0_types_1 = point of interest
+v4_0_types_2 = store
+v4_0_types_3 = establishment
+v4_0_latitude = 33.9868448
+v4_0_longitude = -118.440387
+v4_0_address_simple = 13400 Maxella Avenue, Marina del Rey
+v4_0_street_number = 13400
+v4_0_street_name = Maxella Avenue
+v4_0_locality = Marina del Rey
+v4_0_distance = 0.6 mi
+v4_0_duration = 5 mins
+v4_1_name = Pepe's Thrifty Shop
+v4_1_rating = 4.5
+v4_1_is_open = True
+v4_1_types_0 = home goods store
+v4_1_types_1 = point of interest
+v4_1_types_2 = store
+v4_1_types_3 = establishment
+v4_1_latitude = 33.991343
+v4_1_longitude = -118.4216939
+v4_1_address_simple = 4577 South Centinela Avenue, Los Angeles
+v4_1_street_number = 4577
+v4_1_street_name = South Centinela Avenue
+v4_1_locality = Los Angeles
+v4_1_distance = 1.7 mi
+v4_1_duration = 7 mins
+v4_2_name = The Mart Collective
+v4_2_rating = 4.1
+v4_2_is_open = True
+v4_2_types_0 = furniture store
+v4_2_types_1 = home goods store
+v4_2_types_2 = point of interest
+v4_2_types_3 = clothing store
+v4_2_types_4 = store
+v4_2_types_5 = establishment
+v4_2_latitude = 33.9971265
+v4_2_longitude = -118.4587101
+v4_2_address_simple = 1600 Lincoln Boulevard, Venice
+v4_2_street_number = 1600
+v4_2_street_name = Lincoln Boulevard
+v4_2_neighborhood = Venice
+v4_2_locality = Los Angeles
+v4_2_distance = 1.6 mi
+v4_2_duration = 8 mins
+PREDICT: [ACTION] I found two places: {} and {}. [PARAM] Pepe's Thrifty Shop [PARAM] The Mart Collective
+PREDICT: [ACTION] Is it one of those?
+PREDICT: [ACTION] find_place [PARAM] antique books [PARAM] 33.9816425 [PARAM] -118.4409761
+v5_name = Michael Thompson Books
+v5_address = 8242 W 3rd St #230, Los Angeles, CA 90048, United States
+v5_latitude = 34.0723901
+v5_longitude = -118.369435
+v5_types_0 = book store
+v5_types_1 = point of interest
+v5_types_2 = store
+v5_types_3 = establishment
+v5_rating = 4.1
+v5_is_open = True
+v5_address_simple = 8242 West 3rd Street #230, Los Angeles
+v5_street_number = 8242
+v5_street_name = West 3rd Street
+v5_neighborhood = Central LA
+v5_locality = Los Angeles
+v5_distance = 12.6 mi
+v5_duration = 28 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Michael Thompson Books [PARAM] Central LA
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u3_0 = Mart
+u3_1 = collective
+u3_2 = has
+u3_3 = all
+u3_4 = kinds
+u3_5 = of
+u3_6 = antiques
+u3_7 = ,
+u3_8 = not
+u3_9 = books
+u3_10 = .
+u3_11 = What
+u3_12 = 's
+u3_13 = the
+u3_14 = other
+u3_15 = one
+u3_16 = ?
+PREDICT: [ACTION] places_nearby [PARAM] antique books [PARAM] 33.9816425 [PARAM] -118.4409761
+v6_0_name = Pepe's Thrifty Shop
+v6_0_rating = 4.5
+v6_0_is_open = True
+v6_0_types_0 = home goods store
+v6_0_types_1 = point of interest
+v6_0_types_2 = store
+v6_0_types_3 = establishment
+v6_0_latitude = 33.991343
+v6_0_longitude = -118.4216939
+v6_0_address_simple = 4577 South Centinela Avenue, Los Angeles
+v6_0_street_number = 4577
+v6_0_street_name = South Centinela Avenue
+v6_0_locality = Los Angeles
+v6_0_distance = 1.7 mi
+v6_0_duration = 7 mins
+v6_1_name = The Mart Collective
+v6_1_rating = 4.1
+v6_1_is_open = True
+v6_1_types_0 = furniture store
+v6_1_types_1 = home goods store
+v6_1_types_2 = point of interest
+v6_1_types_3 = clothing store
+v6_1_types_4 = store
+v6_1_types_5 = establishment
+v6_1_latitude = 33.9971265
+v6_1_longitude = -118.4587101
+v6_1_address_simple = 1600 Lincoln Boulevard, Venice
+v6_1_street_number = 1600
+v6_1_street_name = Lincoln Boulevard
+v6_1_neighborhood = Venice
+v6_1_locality = Los Angeles
+v6_1_distance = 1.6 mi
+v6_1_duration = 8 mins
+v6_2_name = Santa Monica Airport Outdoor Antique & Collectible Market
+v6_2_rating = 3.9
+v6_2_is_open = False
+v6_2_types_0 = home goods store
+v6_2_types_1 = point of interest
+v6_2_types_2 = store
+v6_2_types_3 = establishment
+v6_2_latitude = 34.0176871
+v6_2_longitude = -118.4472099
+v6_2_address_simple = 3223 Donald Douglas Loop South, Santa Monica
+v6_2_street_number = 3223
+v6_2_street_name = Donald Douglas Loop South
+v6_2_neighborhood = Sunset Park
+v6_2_locality = Santa Monica
+v6_2_distance = 3.5 mi
+v6_2_duration = 15 mins
+PREDICT: [ACTION] How about {}? [PARAM] Pepe's Thrifty Shop
+PREDICT: [ACTION] wait_for_user
+u4_0 = Do
+u4_1 = they
+u4_2 = have
+u4_3 = books
+u4_4 = ?
+PREDICT: [ACTION] I am not sure if it matches your criteria.
+PREDICT: [ACTION] How about {}? [PARAM] Santa Monica Airport Outdoor Antique & Collectible Market
+PREDICT: [ACTION] wait_for_user
+u5_0 = does
+u5_1 = n't
+u5_2 = sound
+u5_3 = like
+u5_4 = books
+u5_5 = .
+u5_6 = what
+u5_7 = about
+u5_8 = the
+u5_9 = other
+u5_10 = one
+u5_11 = you
+u5_12 = mentioned
+u5_13 = ?
+PREDICT: [ACTION] Do you mean {}? [PARAM] Michael Thompson Books
+PREDICT: [ACTION] wait_for_user
+u6_0 = yes
+PREDICT: [ACTION] It is {} away. [PARAM] 28 mins
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.1
+PREDICT: [ACTION] {} is a {}. [PARAM] Michael Thompson Books [PARAM] book store
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u7_0 = yes
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Michael Thompson Books
+PREDICT: [ACTION] start_driving [PARAM] 34.0723901 [PARAM] -118.369435

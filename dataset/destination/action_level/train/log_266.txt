@@ -1,0 +1,86 @@
+source_address = 990 N Pleasant St, Amherst, MA 01002, United States
+source_latitude = 42.403
+source_longitude = -72.533
+u1_0 = I
+u1_1 = would
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Atkins
+PREDICT: [ACTION] places_nearby [PARAM] Atkins [PARAM] 42.403 [PARAM] -72.533
+v1_0_name = Atkins Farms - Your Local Market
+v1_0_rating = 4.3
+v1_0_is_open = True
+v1_0_types_0 = Grocery or supermarket
+v1_0_types_1 = Food
+v1_0_types_2 = Point of interest
+v1_0_types_3 = Store
+v1_0_types_4 = Establishment
+v1_0_latitude = 42.414517
+v1_0_longitude = -72.5293453
+v1_0_address_simple = 113 Cowls Road, Amherst
+v1_0_street_number = 113
+v1_0_street_name = Cowls Road
+v1_0_neighborhood = North Amherst
+v1_0_locality = Amherst
+v1_0_distance = 1.1 mi
+v1_0_duration = 4 mins
+v1_1_name = Atkins Farm Amherst
+v1_1_rating = 4.9
+v1_1_is_open = True
+v1_1_types_0 = Cafe
+v1_1_types_1 = Food
+v1_1_types_2 = Point of interest
+v1_1_types_3 = Establishment
+v1_1_latitude = 42.31957999999999
+v1_1_longitude = -72.528694
+v1_1_address_simple = Swallow Farms Road, Amherst
+v1_1_street_name = Swallow Farms Road
+v1_1_neighborhood = South Amherst
+v1_1_locality = Amherst
+v1_1_distance = 6.3 mi
+v1_1_duration = 17 mins
+v1_2_name = Atkins Farms Country Market
+v1_2_rating = 4.6
+v1_2_is_open = True
+v1_2_types_0 = Florist
+v1_2_types_1 = Bakery
+v1_2_types_2 = Grocery or supermarket
+v1_2_types_3 = Food
+v1_2_types_4 = Point of interest
+v1_2_types_5 = Store
+v1_2_types_6 = Establishment
+v1_2_latitude = 42.319069
+v1_2_longitude = -72.52928899999999
+v1_2_address_simple = 1151 West Street, Amherst
+v1_2_street_number = 1151
+v1_2_street_name = West Street
+v1_2_locality = Amherst
+v1_2_distance = 6.4 mi
+v1_2_duration = 18 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Atkins Farms - Your Local Market [PARAM] Atkins Farm Amherst [PARAM] Atkins Farms Country Market
+PREDICT: [ACTION] Is it one of those?
+PREDICT: [ACTION] wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = its
+u2_3 = the
+u2_4 = first
+u2_5 = one
+u3_0 = is
+u3_1 = it
+u3_2 = the
+u3_3 = closest
+u3_4 = ?
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u4_0 = great
+u4_1 = let
+u4_2 = 's
+u4_3 = go
+PREDICT: [ACTION] {} is {} away. [PARAM] Atkins Farms - Your Local Market [PARAM] 1.1 mi
+PREDICT: [ACTION] wait_for_user
+u5_0 = sure
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 42.414517 [PARAM] -72.5293453

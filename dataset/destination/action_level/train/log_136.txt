@@ -1,0 +1,37 @@
+source_address = Buccleuch Pl, Edinburgh EH8 9LW, UK
+source_latitude = 55.9427087
+source_longitude = -3.185840999999982
+u1_0 = the
+u1_1 = zoo
+u1_2 = please
+PREDICT: [ACTION] find_place [PARAM] zoo [PARAM] 55.9427087 [PARAM] -3.185840999999982
+v1_name = RZSS Edinburgh Zoo
+v1_address = Royal Zoological Society of Scotland, 134 Corstorphine Rd, Edinburgh EH12 6TS, United Kingdom
+v1_rating = 4.3
+v1_is_open = False
+v1_latitude = 55.94236189999999
+v1_longitude = -3.2685938
+v1_street_number = 134
+v1_street_name = Corstorphine Road
+v1_distance = 4.0 mi
+v1_duration = 20 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] RZSS Edinburgh Zoo
+PREDICT: [ACTION] wait_for_user
+u2_0 = yep
+u2_1 = only
+u2_2 = zoo
+u2_3 = in
+u2_4 = the
+u2_5 = city
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+u3_4 = ?
+PREDICT: [ACTION] It is {} away. [PARAM] 4.0 mi
+PREDICT: [ACTION] wait_for_user
+u4_0 = good
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 55.94236189999999 [PARAM] -3.2685938

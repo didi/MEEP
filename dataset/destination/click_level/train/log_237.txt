@@ -1,0 +1,132 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = wan
+u1_2 = na
+u1_3 = to
+u1_4 = find
+u1_5 = a
+u1_6 = chinese
+u1_7 = hotpot
+u1_8 = restaurant
+u1_9 = in
+u1_10 = San
+u1_11 = Gabriel
+PREDICT: places_nearby
+PREDICT: chinese hotpot restaurant San Gabriel
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Hot Pot, Hot Pot!
+v1_0_rating = 4.2
+v1_0_is_open = False
+v1_0_price_level = 2
+v1_0_types_0 = Restaurant
+v1_0_types_1 = Food
+v1_0_types_2 = Point of interest
+v1_0_types_3 = Establishment
+v1_0_latitude = 34.0617982
+v1_0_longitude = -118.1339413
+v1_0_address_simple = 120 South Atlantic Boulevard, Monterey Park
+v1_0_street_number = 120
+v1_0_street_name = South Atlantic Boulevard
+v1_0_locality = Monterey Park
+v1_0_distance = 25.7 mi
+v1_0_duration = 37 mins
+v1_1_name = Uniboil
+v1_1_rating = 4.1
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types_0 = Restaurant
+v1_1_types_1 = Food
+v1_1_types_2 = Point of interest
+v1_1_types_3 = Establishment
+v1_1_latitude = 34.0673714
+v1_1_longitude = -118.1341134
+v1_1_address_simple = 500 North Atlantic Boulevard #127, Monterey Park
+v1_1_street_number = 500
+v1_1_street_name = North Atlantic Boulevard
+v1_1_locality = Monterey Park
+v1_1_distance = 25.6 mi
+v1_1_duration = 35 mins
+v1_2_name = Little Sheep Mongolian Hot Pot, Pasadena
+v1_2_rating = 4.3
+v1_2_is_open = False
+v1_2_price_level = 2
+v1_2_types_0 = Restaurant
+v1_2_types_1 = Food
+v1_2_types_2 = Point of interest
+v1_2_types_3 = Establishment
+v1_2_latitude = 34.1449715
+v1_2_longitude = -118.1506038
+v1_2_address_simple = 45 South Fair Oaks Avenue, Pasadena
+v1_2_street_number = 45
+v1_2_street_name = South Fair Oaks Avenue
+v1_2_neighborhood = South Arroyo
+v1_2_locality = Pasadena
+v1_2_distance = 27.0 mi
+v1_2_duration = 44 mins
+u2_0 = with
+u2_1 = good
+u2_2 = rating
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Hot Pot, Hot Pot!
+PREDICT: Uniboil
+PREDICT: Little Sheep Mongolian Hot Pot, Pasadena
+PREDICT: Their ratings are {}, {} and {} respectively
+PREDICT: 4.2
+PREDICT: 4.1
+PREDICT: 4.3
+PREDICT: Which one would you like to go to?
+PREDICT: find_place
+PREDICT: San Gabriel
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = San Gabriel
+v2_address = San Gabriel, CA, USA
+v2_latitude = 34.09611110000001
+v2_longitude = -118.1058333
+v2_types_0 = Locality
+v2_types_1 = Political
+v2_address_simple = San Gabriel
+v2_locality = San Gabriel
+v2_distance = 28.9 mi
+v2_duration = 42 mins
+PREDICT: distance_matrix
+PREDICT: 34.09611110000001
+PREDICT: -118.1058333
+PREDICT: 34.0617982
+PREDICT: -118.1339413
+v3_distance = 4.2 mi
+v3_duration = 11 mins
+PREDICT: wait_for_user
+u3_0 = what
+u3_1 = 's
+u3_2 = the
+u3_3 = address
+u3_4 = for
+u3_5 = the
+u3_6 = first
+u3_7 = one
+u3_8 = ?
+PREDICT: The address is {}.
+PREDICT: 120 South Atlantic Boulevard, Monterey Park
+PREDICT: wait_for_user
+u4_0 = how
+u4_1 = far
+u4_2 = is
+u4_3 = it
+u4_4 = to
+u4_5 = go
+u4_6 = there
+u4_7 = ?
+PREDICT: {} is {} away.
+PREDICT: Hot Pot, Hot Pot!
+PREDICT: 37 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u5_0 = sure
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.0617982
+PREDICT: -118.1339413

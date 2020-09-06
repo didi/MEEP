@@ -1,0 +1,52 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Let
+u1_1 = 's
+u1_2 = go
+u1_3 = to
+u1_4 = Watts
+u1_5 = Towers
+u1_6 = .
+PREDICT: [ACTION] find_place [PARAM] Watts Towers [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Watts Towers Arts Center
+v1_address = 1727 E 107th St, Los Angeles, CA 90002, United States
+v1_latitude = 33.9388598
+v1_longitude = -118.2419477
+v1_types_0 = Tourist attraction
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 1727 East 107th Street, Los Angeles
+v1_street_number = 1727
+v1_street_name = East 107th Street
+v1_neighborhood = South Los Angeles
+v1_locality = Los Angeles
+v1_distance = 16.2 mi
+v1_duration = 23 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Watts Towers Arts Center [PARAM] East 107th Street
+PREDICT: [ACTION] wait_for_user
+u2_0 = What
+u2_1 = part
+u2_2 = of
+u2_3 = town
+u2_4 = is
+u2_5 = that
+u2_6 = ?
+PREDICT: [ACTION] It is in {}. [PARAM] South Los Angeles
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = that
+u3_3 = 's
+u3_4 = it
+u3_5 = .
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 16.2 mi [PARAM] 23 mins
+PREDICT: [ACTION] wait_for_user
+u4_0 = cool
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = yes
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 33.9388598 [PARAM] -118.2419477

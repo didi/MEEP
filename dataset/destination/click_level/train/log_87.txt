@@ -1,0 +1,45 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = john
+u1_1 = wayne
+u1_2 = airport
+PREDICT: find_place
+PREDICT: john wayne airport
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 18601 Airport Way, Santa Ana, CA 92707, United States
+v1_name = John Wayne Airport
+v1_latitude = 33.6761901
+v1_longitude = -117.8674759
+v1_place_id = ChIJ70Cry-3e3IAR4hkRw_XoQck
+v1_street_number = 18601
+v1_street_name = Airport Way
+v1_locality = Santa Ana
+v1_distance = 44.4 mi
+v1_duration = 50 mins
+PREDICT: There is {} on {}
+PREDICT: John Wayne Airport
+PREDICT: Santa Ana
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = do
+u2_1 = you
+u2_2 = mean
+u2_3 = in
+u2_4 = the
+u2_5 = city
+u2_6 = of
+u2_7 = Santa
+u2_8 = Ana
+u2_9 = ?
+PREDICT: It is {} away.
+PREDICT: 50 mins
+PREDICT: Yes.
+PREDICT: wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = yes
+PREDICT: start_driving
+PREDICT: 33.6761901
+PREDICT: -117.8674759

@@ -1,0 +1,98 @@
+source_address = 990 N Pleasant St, Amherst, MA 01002, United States
+source_latitude = 42.403
+source_longitude = -72.533
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = this
+u1_7 = Indian
+u1_8 = restaurant
+u1_9 = in
+u1_10 = Northampton
+PREDICT: find_place
+PREDICT: Northampton
+PREDICT: 42.403
+PREDICT: -72.533
+v1_name = Northampton
+v1_address = Northampton, MA, USA
+v1_latitude = 42.3250896
+v1_longitude = -72.64120129999999
+v1_types_0 = Locality
+v1_types_1 = Political
+v1_address_simple = Northampton
+v1_locality = Northampton
+v1_distance = 10.6 mi
+v1_duration = 24 mins
+PREDICT: places_nearby
+PREDICT: Indian restaurant
+PREDICT: 42.3250896
+PREDICT: -72.64120129999999
+v2_0_name = India House
+v2_0_rating = 4.4
+v2_0_is_open = True
+v2_0_price_level = 2
+v2_0_types_0 = Restaurant
+v2_0_types_1 = Food
+v2_0_types_2 = Point of interest
+v2_0_types_3 = Establishment
+v2_0_latitude = 42.3191065
+v2_0_longitude = -72.6339705
+v2_0_address_simple = 45 State Street, Northampton
+v2_0_street_number = 45
+v2_0_street_name = State Street
+v2_0_locality = Northampton
+v2_0_distance = 0.9 mi
+v2_0_duration = 4 mins
+v2_1_name = India Palace
+v2_1_rating = 4.2
+v2_1_is_open = True
+v2_1_price_level = 2
+v2_1_types_0 = Restaurant
+v2_1_types_1 = Food
+v2_1_types_2 = Point of interest
+v2_1_types_3 = Establishment
+v2_1_latitude = 42.3198548
+v2_1_longitude = -72.62882470000001
+v2_1_address_simple = 28 Main Street, Northampton
+v2_1_street_number = 28
+v2_1_street_name = Main Street
+v2_1_locality = Northampton
+v2_1_distance = 1.0 mi
+v2_1_duration = 5 mins
+v2_2_name = Bombay Royale
+v2_2_rating = 4.5
+v2_2_is_open = True
+v2_2_price_level = 2
+v2_2_types_0 = Restaurant
+v2_2_types_1 = Food
+v2_2_types_2 = Point of interest
+v2_2_types_3 = Establishment
+v2_2_latitude = 42.3168706
+v2_2_longitude = -72.6317729
+v2_2_address_simple = 1 Roundhouse Plaza #4, Northampton
+v2_2_street_number = 1
+v2_2_street_name = Roundhouse Plaza
+v2_2_locality = Northampton
+v2_2_distance = 1.3 mi
+v2_2_duration = 7 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: India House
+PREDICT: India Palace
+PREDICT: Bombay Royale
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u2_0 = Bombay
+u2_1 = Royale
+u2_2 = please
+u2_3 = ..
+u2_4 = thanks
+u2_5 = !
+PREDICT: We are going to the {} in {}.
+PREDICT: Bombay Royale
+PREDICT: Northampton
+PREDICT: start_driving
+PREDICT: 42.3168706
+PREDICT: -72.6317729

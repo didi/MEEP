@@ -1,0 +1,31 @@
+source_address = 4035 Grand View Blvd, Los Angeles, CA 90066, United States
+source_latitude = 33.999
+source_longitude = -118.427
+u1_0 = id
+u1_1 = like
+u1_2 = to
+u1_3 = watch
+u1_4 = the
+u1_5 = sun
+u1_6 = come
+u1_7 = up
+u1_8 = over
+u1_9 = Santa
+u1_10 = Monica
+u1_11 = boulevard
+PREDICT: [ACTION] find_place [PARAM] sun come up over Santa Monica boulevard [PARAM] 33.999 [PARAM] -118.427
+v1_name = Santa Monica Blvd
+v1_address = Santa Monica Blvd, California, USA
+v1_latitude = 34.09071
+v1_longitude = -118.3378059
+v1_types_0 = route
+v1_street_name = Santa Monica Boulevard
+v1_distance = 12.1 mi
+v1_duration = 30 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Santa Monica Blvd [PARAM] 12.1 mi
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+u3_0 = lets
+u3_1 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.09071 [PARAM] -118.3378059

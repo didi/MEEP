@@ -1,0 +1,59 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Vagabond
+u1_7 = Inn
+u1_8 = ,
+u1_9 = in
+u1_10 = Bishop
+PREDICT: [ACTION] find_place [PARAM] Vagabond Inn Bishop [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Vagabond Inn - Bishop
+v1_address = 1030 N Main St, Bishop, CA 93514, United States
+v1_latitude = 37.3721522
+v1_longitude = -118.3936264
+v1_types_0 = Lodging
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4
+v1_is_open = True
+v1_address_simple = 1030 North Main Street, Bishop
+v1_street_number = 1030
+v1_street_name = North Main Street
+v1_locality = Bishop
+v1_distance = 270 mi
+v1_duration = 4 hours 16 mins
+PREDICT: [ACTION] Do you want to know how long it takes to get there?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Definitely
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 4 hours 16 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Okay
+u3_1 = ,
+u3_2 = that
+u3_3 = 's
+u3_4 = expected
+u3_5 = .
+u3_6 = We
+u3_7 = should
+u3_8 = make
+u3_9 = it
+u3_10 = in
+u3_11 = time
+u3_12 = .
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = Yeah
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = head
+u4_5 = out
+u4_6 = .
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 37.3721522 [PARAM] -118.3936264

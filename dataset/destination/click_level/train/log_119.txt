@@ -1,0 +1,60 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Scotiabank
+u1_6 = Theatre
+PREDICT: find_place
+PREDICT: Scotiabank
+PREDICT: 43.657
+PREDICT: -79.401
+v1_name = Scotiabank
+v1_address = 410 Bathurst St Unit 2A, Toronto, ON M5T 2S6, Canada
+v1_rating = 1.6
+v1_is_open = False
+v1_latitude = 43.6548169
+v1_longitude = -79.4072367
+v1_street_number = 410
+v1_street_name = Bathurst Street
+v1_locality = Toronto
+v1_distance = 0.5 mi
+v1_duration = 3 mins
+PREDICT: find_place
+PREDICT: Scotiabank Theatre
+PREDICT: 43.657
+PREDICT: -79.401
+v2_name = Cineplex Cinemas
+v2_address = 259 Richmond St W, Toronto, ON M5V 3M6, Canada
+v2_rating = 4.4
+v2_latitude = 43.6489106
+v2_longitude = -79.3912347
+v2_street_number = 259
+v2_street_name = Richmond Street West
+v2_locality = Toronto
+v2_distance = 1.1 mi
+v2_duration = 8 mins
+PREDICT: There is {} on {}
+PREDICT: Cineplex Cinemas
+PREDICT: Richmond Street West
+PREDICT: wait_for_user
+u2_0 = Right
+u2_1 = I
+u2_2 = think
+u2_3 = they
+u2_4 = changed
+u2_5 = the
+u2_6 = name
+u2_7 = .
+u2_8 = Ok
+u2_9 = ,
+u2_10 = let
+u2_11 = 's
+u2_12 = go
+u2_13 = !
+PREDICT: start_driving
+PREDICT: 43.6489106
+PREDICT: -79.3912347

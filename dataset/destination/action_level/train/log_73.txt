@@ -1,0 +1,103 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = trailhead
+u1_8 = for
+u1_9 = Mt
+u1_10 = Baldy
+u1_11 = .
+PREDICT: [ACTION] find_place [PARAM] Mt Baldy trailhead [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = Baldy Bowl Trail, California, USA
+v1_name = Baldy Bowl Trail
+v1_latitude = 34.2749719
+v1_longitude = -117.6338768
+v1_place_id = ChIJBUhvfKM-w4ARe4RXFwudQQQ
+v1_street_name = Baldy Bowl Trail
+v1_distance = 70.9 mi
+v1_duration = 1 hour 33 mins
+PREDICT: [ACTION] find_place [PARAM] Mt Baldy [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = Mt Baldy, CA 91759, USA
+v2_name = Mt Baldy
+v2_latitude = 34.2363809
+v2_longitude = -117.6589752
+v2_place_id = ChIJmWXw1-g7w4ARe_VUr0hIQDk
+v2_locality = Mount Baldy
+v2_distance = 65.9 mi
+v2_duration = 1 hour 19 mins
+PREDICT: [ACTION] places_nearby [PARAM] trailhead [PARAM] 34.2363809 [PARAM] -117.6589752
+v3_0_name = Sunset Peak Trail
+v3_0_rating = 4.7
+v3_0_place_id = ChIJj4RtTr47w4ART8ShkvaJXX0
+v3_0_types = ['tourist_attraction', 'park', 'point_of_interest', 'establishment']
+v3_0_latitude = 34.228
+v3_0_longitude = -117.6703
+v3_0_address = Glendora Ridge Rd, Mt Baldy, CA 91759, USA
+v3_0_street_name = Glendora Ridge Road
+v3_0_locality = Mount Baldy
+v3_1_name = Icehouse Canyon Trailhead
+v3_1_rating = 4.8
+v3_1_place_id = ChIJDZ_Z6VA5w4AR9qFDptGXAbc
+v3_1_types = ['park', 'point_of_interest', 'establishment']
+v3_1_latitude = 34.2501815
+v3_1_longitude = -117.6362382
+v3_1_address = Ice House Canyon Rd, Mt Baldy, CA 91759, USA
+v3_1_street_name = Ice House Canyon Road
+v3_1_locality = Mount Baldy
+v3_2_name = Baldy Bowl Trailhead
+v3_2_rating = 5
+v3_2_place_id = ChIJQ3rFf0A_w4ARcVwe6ftLDng
+v3_2_types = ['park', 'point_of_interest', 'establishment']
+v3_2_latitude = 34.2609202
+v3_2_longitude = -117.6355592
+v3_2_address = 637 Mt Baldy Rd, Mt Baldy, CA 91759, USA
+v3_2_street_number = 637
+v3_2_street_name = Mount Baldy Road
+v3_2_locality = Mount Baldy
+PREDICT: [ACTION] distance_matrix [PARAM] 34.2363809 [PARAM] -117.6589752 [PARAM] 34.228 [PARAM] -117.6703
+v4_distance = 0.9 mi
+v4_duration = 2 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 34.2363809 [PARAM] -117.6589752 [PARAM] 34.2609202 [PARAM] -117.6355592
+v5_distance = 3.6 mi
+v5_duration = 10 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Sunset Peak Trail [PARAM] Icehouse Canyon Trailhead [PARAM] Baldy Bowl Trailhead
+PREDICT: [ACTION] wait_for_user
+u2_0 = Ah
+u2_1 = ,
+u2_2 = perfect
+u2_3 = ,
+u2_4 = I
+u2_5 = was
+u2_6 = thinking
+u2_7 = of
+u2_8 = Baldy
+u2_9 = Bowl
+u2_10 = !
+u3_0 = How
+u3_1 = long
+u3_2 = will
+u3_3 = it
+u3_4 = take
+u3_5 = to
+u3_6 = get
+u3_7 = there
+u3_8 = ?
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 34.2609202 [PARAM] -117.6355592
+v6_distance = 69.6 mi
+v6_duration = 1 hour 28 mins
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 1 hour 28 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = Yes
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = !
+PREDICT: [ACTION] start_driving [PARAM] 34.2609202 [PARAM] -117.6355592

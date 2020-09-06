@@ -1,0 +1,188 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = USC
+u1_7 = 's
+u1_8 = medical
+u1_9 = campus
+u1_10 = .
+PREDICT: find_place
+PREDICT: USC 's medical campus
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = Los Angeles, CA 90007, United States
+v1_name = University of Southern California
+v1_latitude = 34.0223519
+v1_longitude = -118.285117
+v1_place_id = ChIJ7aVxnOTHwoARxKIntFtakKo
+v1_locality = Los Angeles
+v1_neighborhood = South Los Angeles
+v1_distance = 15.7 mi
+v1_duration = 28 mins
+PREDICT: find_place
+PREDICT: USC medical
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = 2051 Marengo St, Los Angeles, CA 90033, United States
+v2_name = LAC+USC Medical Center
+v2_latitude = 34.0581614
+v2_longitude = -118.2073815
+v2_place_id = ChIJl9YownXGwoARQB-wmzyy1gY
+v2_street_number = 2051
+v2_street_name = Marengo Street
+v2_neighborhood = Lincoln Heights
+v2_locality = Los Angeles
+v2_distance = 21.9 mi
+v2_duration = 35 mins
+PREDICT: Do you mean {}?
+PREDICT: LAC+USC Medical Center
+PREDICT: It is in {}
+PREDICT: Lincoln Heights
+PREDICT: wait_for_user
+u2_0 = Hmm
+u2_1 = ,
+u2_2 = I
+u2_3 = 'm
+u2_4 = not
+u2_5 = sure
+u2_6 = .
+u2_7 = Can
+u2_8 = you
+u2_9 = check
+u2_10 = how
+u2_11 = far
+u2_12 = away
+u2_13 = that
+u2_14 = is
+u2_15 = from
+u2_16 = the
+u2_17 = 110
+u2_18 = freeway
+u2_19 = ?
+PREDICT: find_place
+PREDICT: 110 freeway
+PREDICT: 34.0581614
+PREDICT: -118.2073815
+v3_address = I-110, California, USA
+v3_name = I-110
+v3_latitude = 34.0385646
+v3_longitude = -118.2738752
+v3_place_id = ChIJi_E2BmLKwoARQKw5-1UqJLs
+v3_street_name = Interstate 110
+v3_distance = 10.1 mi
+v3_duration = 20 mins
+PREDICT: {} is {} away from {}.
+PREDICT: LAC+USC Medical Center
+PREDICT: 10.1 mi
+PREDICT: I-110
+PREDICT: wait_for_user
+u3_0 = Hmm
+u3_1 = ,
+u3_2 = not
+u3_3 = sure
+u3_4 = if
+u3_5 = that
+u3_6 = 's
+u3_7 = right
+u3_8 = .
+u3_9 = What
+u3_10 = is
+u3_11 = Lincoln
+u3_12 = Heights
+u3_13 = near
+u3_14 = to
+u3_15 = ?
+PREDICT: I'm sorry, I'm not sure what you mean.
+PREDICT: wait_for_user
+u4_0 = Hmm
+u4_1 = okay
+u4_2 = .
+u4_3 = Let
+u4_4 = 's
+u4_5 = go
+u4_6 = to
+u4_7 = the
+u4_8 = UCLA
+u4_9 = hospital
+u4_10 = instead
+u4_11 = ,
+u4_12 = do
+u4_13 = you
+u4_14 = know
+u4_15 = how
+u4_16 = far
+u4_17 = away
+u4_18 = it
+u4_19 = is
+u4_20 = ?
+PREDICT: find_place
+PREDICT: UCLA hospital
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_address = 757 Westwood Plaza, Los Angeles, CA 90095, United States
+v4_name = Ronald Reagan UCLA Medical Center
+v4_latitude = 34.0664764
+v4_longitude = -118.4465738
+v4_place_id = ChIJZQ9c8IW8woARA7ZLKfVusSg
+v4_street_number = 757
+v4_street_name = Westwood Plaza
+v4_neighborhood = Westwood
+v4_locality = Los Angeles
+v4_distance = 9.5 mi
+v4_duration = 21 mins
+PREDICT: Do you mean {}?
+PREDICT: Ronald Reagan UCLA Medical Center
+PREDICT: It is {} away.
+PREDICT: 9.5 mi
+PREDICT: wait_for_user
+u5_0 = I
+u5_1 = think
+u5_2 = so
+u5_3 = ,
+u5_4 = is
+u5_5 = it
+u5_6 = close
+u5_7 = to
+u5_8 = UCLA
+u5_9 = ?
+PREDICT: find_place
+PREDICT: UCLA
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v5_address = Los Angeles, CA 90095, United States
+v5_name = University of California, Los Angeles
+v5_latitude = 34.068921
+v5_longitude = -118.4451811
+v5_place_id = ChIJZQ9c8IW8woARN0gTXFiTqSU
+v5_locality = Los Angeles
+v5_neighborhood = Westwood
+v5_distance = 9.9 mi
+v5_duration = 22 mins
+PREDICT: distance_matrix
+PREDICT: 34.0664764
+PREDICT: -118.4465738
+PREDICT: 34.068921
+PREDICT: -118.4451811
+v6_distance = 0.4 mi
+v6_duration = 4 mins
+PREDICT: {} is {} away from {}.
+PREDICT: Ronald Reagan UCLA Medical Center
+PREDICT: 0.4 mi
+PREDICT: University of California, Los Angeles
+PREDICT: wait_for_user
+u6_0 = Perfect
+u6_1 = ,
+u6_2 = let
+u6_3 = 's
+u6_4 = go
+u6_5 = !
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.0664764
+PREDICT: -118.4465738

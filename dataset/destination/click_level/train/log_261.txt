@@ -1,0 +1,52 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = find
+u1_1 = golf
+u1_2 = place
+u1_3 = in
+u1_4 = santa
+u1_5 = anita
+PREDICT: find_place
+PREDICT: golf place santa anita
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Santa Anita Golf Course
+v1_address = 405 S Santa Anita Ave, Arcadia, CA 91006, United States
+v1_latitude = 34.1355747
+v1_longitude = -118.0337263
+v1_types_0 = Tourist attraction
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.1
+v1_is_open = True
+v1_address_simple = 405 South Santa Anita Avenue, Arcadia
+v1_street_number = 405
+v1_street_name = South Santa Anita Avenue
+v1_locality = Arcadia
+v1_distance = 35.8 mi
+v1_duration = 54 mins
+PREDICT: There is a {} on {}.
+PREDICT: Santa Anita Golf Course
+PREDICT: South Santa Anita Avenue
+PREDICT: It is {} away.
+PREDICT: 54 mins
+PREDICT: wait_for_user
+u2_0 = is
+u2_1 = it
+u2_2 = good
+u2_3 = ?
+PREDICT: It has a rating of {}.
+PREDICT: 4.1
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u3_0 = sounds
+u3_1 = good
+u4_0 = let
+u4_1 = 's
+u4_2 = go
+PREDICT: Great, we are going to {}.
+PREDICT: Santa Anita Golf Course
+PREDICT: start_driving
+PREDICT: 34.1355747
+PREDICT: -118.0337263

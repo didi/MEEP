@@ -1,0 +1,66 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = take
+u1_1 = me
+u1_2 = to
+u1_3 = the
+u1_4 = climbing
+u1_5 = shop
+u1_6 = on
+u1_7 = the
+u1_8 = Ave
+u1_9 = please
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: the Ave
+PREDICT: 47.676
+PREDICT: -122.306
+v1_name = The Ave
+v1_address = The Ave, Seattle, WA 98105, USA
+v1_latitude = 47.6627422
+v1_longitude = -122.3131099
+v1_types_0 = route
+v1_address_simple = Seattle
+v1_street_name = The Ave
+v1_neighborhood = Northeast Seattle
+v1_locality = Seattle
+v1_distance = 1.2 mi
+v1_duration = 5 mins
+PREDICT: find_place
+PREDICT: climbing shop
+PREDICT: 47.6627422
+PREDICT: -122.3131099
+v2_name = Pro Mountain Sports
+v2_address = 5625 University Way, Seattle, WA 98105, United States
+v2_latitude = 47.6701718
+v2_longitude = -122.313312
+v2_types_0 = point of interest
+v2_types_1 = store
+v2_types_2 = establishment
+v2_rating = 3.9
+v2_is_open = True
+v2_address_simple = 5625 University Way, Seattle
+v2_street_number = 5625
+v2_street_name = University Way
+v2_neighborhood = Northeast Seattle
+v2_locality = Seattle
+v2_distance = 0.5 mi
+v2_duration = 4 mins
+PREDICT: How about {}?
+PREDICT: Pro Mountain Sports
+PREDICT: It is {} and {} away.
+PREDICT: 0.5 mi
+PREDICT: 4 mins
+PREDICT: wait_for_user
+u2_0 = yeah
+u2_1 = that
+u2_2 = 's
+u2_3 = the
+u2_4 = place
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = please
+PREDICT: start_driving
+PREDICT: 47.6701718
+PREDICT: -122.313312

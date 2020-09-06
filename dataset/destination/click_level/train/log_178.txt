@@ -1,0 +1,51 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Honest
+u1_7 = Ed
+u1_8 = 's
+PREDICT: find_place
+PREDICT: Honest Ed 's
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v1_name = Honest Ed's
+v1_address = 581 Bloor St W, Toronto, ON M6G 1K3, Canada
+v1_rating = 4
+v1_latitude = 43.66462019999999
+v1_longitude = -79.4119228
+v1_street_number = 581
+v1_street_name = Bloor Street West
+v1_locality = Toronto
+v1_distance = 0.6 mi
+v1_duration = 4 mins
+PREDICT: {} on {}?
+PREDICT: Honest Ed's
+PREDICT: Bloor Street West
+PREDICT: wait_for_user
+u2_0 = yup
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = the
+u2_5 = one
+u2_6 = .
+u2_7 = is
+u2_8 = it
+u2_9 = open
+u2_10 = ?
+PREDICT: I don't know.
+PREDICT: wait_for_user
+u3_0 = OK
+u3_1 = let
+u3_2 = 's
+u3_3 = go
+u3_4 = there
+PREDICT: start_driving
+PREDICT: 43.66462019999999
+PREDICT: -79.4119228

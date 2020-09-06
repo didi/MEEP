@@ -1,0 +1,280 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = bet
+u1_4 = on
+u1_5 = horse
+u1_6 = races
+u1_7 = .
+PREDICT: [ACTION] places_nearby [PARAM] horse races [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = Amerman Racing LLC
+v1_0_rating = 3
+v1_0_types_0 = point of interest
+v1_0_types_1 = establishment
+v1_0_latitude = 33.9026736
+v1_0_longitude = -118.3879223
+v1_0_address_simple = 2101 Rosecrans Avenue # 6280, El Segundo
+v1_0_street_number = 2101
+v1_0_street_name = Rosecrans Avenue
+v1_0_locality = El Segundo
+v1_0_distance = 10.5 mi
+v1_0_duration = 17 mins
+v1_1_name = Hollywood Park OTB
+v1_1_rating = 0
+v1_1_types_0 = point of interest
+v1_1_types_1 = establishment
+v1_1_latitude = 33.947811
+v1_1_longitude = -118.3394374
+v1_1_address_simple = 3883 West Century Boulevard, Inglewood
+v1_1_street_number = 3883
+v1_1_street_name = West Century Boulevard
+v1_1_neighborhood = South Los Angeles
+v1_1_locality = Inglewood
+v1_1_distance = 10.7 mi
+v1_1_duration = 21 mins
+v1_2_name = Spot Motorsport
+v1_2_rating = 4
+v1_2_is_open = True
+v1_2_types_0 = point of interest
+v1_2_types_1 = establishment
+v1_2_latitude = 33.8274551
+v1_2_longitude = -118.2866904
+v1_2_address_simple = 22029 South Figueroa Street, Carson
+v1_2_street_number = 22029
+v1_2_street_name = South Figueroa Street
+v1_2_locality = Carson
+v1_2_distance = 17.9 mi
+v1_2_duration = 23 mins
+PREDICT: [ACTION] find_place [PARAM] horse races bet [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Santa Anita Park
+v2_address = 285 W Huntington Dr, Arcadia, CA 91007, United States
+v2_latitude = 34.1380461
+v2_longitude = -118.0448898
+v2_price_level = 1
+v2_types_0 = tourist attraction
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 4.6
+v2_is_open = False
+v2_address_simple = 285 West Huntington Drive, Arcadia
+v2_street_number = 285
+v2_street_name = West Huntington Drive
+v2_locality = Arcadia
+v2_distance = 37.0 mi
+v2_duration = 53 mins
+PREDICT: [ACTION] How about {}? [PARAM] Santa Anita Park
+PREDICT: [ACTION] wait_for_user
+u2_0 = oh
+u2_1 = cool
+u2_2 = .
+u2_3 = i
+u2_4 = usually
+u2_5 = go
+u2_6 = to
+u2_7 = highland
+u2_8 = park
+u2_9 = .
+PREDICT: [ACTION] find_place [PARAM] highland park horse races [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_name = Santa Anita Park
+v3_address = 285 W Huntington Dr, Arcadia, CA 91007, United States
+v3_latitude = 34.1380461
+v3_longitude = -118.0448898
+v3_price_level = 1
+v3_types_0 = tourist attraction
+v3_types_1 = point of interest
+v3_types_2 = establishment
+v3_rating = 4.6
+v3_is_open = False
+v3_address_simple = 285 West Huntington Drive, Arcadia
+v3_street_number = 285
+v3_street_name = West Huntington Drive
+v3_locality = Arcadia
+v3_distance = 37.0 mi
+v3_duration = 53 mins
+PREDICT: [ACTION] find_place [PARAM] highland park [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = Highland Park
+v4_address = Highland Park, Los Angeles, CA, USA
+v4_latitude = 34.1154946
+v4_longitude = -118.1843898
+v4_types_0 = neighborhood
+v4_types_1 = political
+v4_address_simple = Los Angeles
+v4_neighborhood = Highland Park
+v4_locality = Los Angeles
+v4_distance = 23.9 mi
+v4_duration = 38 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Highland Park [PARAM] 23.9 mi [PARAM] 4640 Admiralty Way, Marina del Rey
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u3_0 = I
+u3_1 = thought
+u3_2 = it
+u3_3 = was
+u3_4 = close
+u3_5 = .
+u3_6 = There
+u3_7 = 's
+u3_8 = a
+u3_9 = close
+u3_10 = by
+u3_11 = one
+u3_12 = in
+u3_13 = Inglewood
+u3_14 = .
+PREDICT: [ACTION] find_place [PARAM] highland park in Inglewood [PARAM] 33.9816425 [PARAM] -118.4409761
+v5_name = Highland Elementary School
+v5_address = 430 Venice Way, Inglewood, CA 90302, United States
+v5_latitude = 33.9723835
+v5_longitude = -118.3630149
+v5_types_0 = primary school
+v5_types_1 = school
+v5_types_2 = point of interest
+v5_types_3 = establishment
+v5_rating = 3.8
+v5_address_simple = 430 Venice Way, Inglewood
+v5_street_number = 430
+v5_street_name = Venice Way
+v5_locality = Inglewood
+v5_distance = 6.0 mi
+v5_duration = 13 mins
+PREDICT: [ACTION] find_place [PARAM] horse races in Inglewood [PARAM] 33.9816425 [PARAM] -118.4409761
+v6_name = Hollywood Park OTB
+v6_address = 3883 W Century Blvd, Inglewood, CA 90303, United States
+v6_latitude = 33.947811
+v6_longitude = -118.3394374
+v6_types_0 = point of interest
+v6_types_1 = establishment
+v6_rating = 0
+v6_address_simple = 3883 West Century Boulevard, Inglewood
+v6_street_number = 3883
+v6_street_name = West Century Boulevard
+v6_neighborhood = South Los Angeles
+v6_locality = Inglewood
+v6_distance = 10.7 mi
+v6_duration = 21 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Hollywood Park OTB
+PREDICT: [ACTION] The address is {}. [PARAM] 3883 West Century Boulevard, Inglewood
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+u4_1 = ,
+u4_2 = Hollywood
+u4_3 = Park
+u4_4 = .
+u4_5 = but
+u4_6 = not
+u4_7 = OTB
+u4_8 = .
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] find_place [PARAM] Hollywood Park [PARAM] 33.9816425 [PARAM] -118.4409761
+v7_name = Lake Hollywood Park
+v7_address = 3160 Canyon Lake Dr, Los Angeles, CA 90068, United States
+v7_latitude = 34.127035
+v7_longitude = -118.325934
+v7_types_0 = park
+v7_types_1 = tourist attraction
+v7_types_2 = point of interest
+v7_types_3 = establishment
+v7_rating = 4.6
+v7_address_simple = 3160 Canyon Lake Drive, Los Angeles
+v7_street_number = 3160
+v7_street_name = Canyon Lake Drive
+v7_neighborhood = Central LA
+v7_locality = Los Angeles
+v7_distance = 26.2 mi
+v7_duration = 44 mins
+PREDICT: [ACTION] wait_for_user
+u5_0 = Is
+u5_1 = it
+u5_2 = the
+u5_3 = Hollywood
+u5_4 = park
+u5_5 = racetrack
+u5_6 = ?
+u6_0 = That
+u6_1 = 's
+u6_2 = where
+u6_3 = I
+u6_4 = want
+u6_5 = to
+u6_6 = go
+u6_7 = .
+PREDICT: [ACTION] find_place [PARAM] Hollywood park racetrack [PARAM] 33.9816425 [PARAM] -118.4409761
+v8_name = Hollywood Park OTB
+v8_address = 3883 W Century Blvd, Inglewood, CA 90303, United States
+v8_latitude = 33.947811
+v8_longitude = -118.3394374
+v8_types_0 = point of interest
+v8_types_1 = establishment
+v8_rating = 0
+v8_address_simple = 3883 West Century Boulevard, Inglewood
+v8_street_number = 3883
+v8_street_name = West Century Boulevard
+v8_neighborhood = South Los Angeles
+v8_locality = Inglewood
+v8_distance = 10.7 mi
+v8_duration = 21 mins
+PREDICT: [ACTION] I could not find a place called {}. [PARAM] Hollywood park racetrack
+PREDICT: [ACTION] Could you please give me the cross streets or a major landmark?
+PREDICT: [ACTION] wait_for_user
+u7_0 = it
+u7_1 = 's
+u7_2 = in
+u7_3 = inglewood
+u7_4 = ,
+u7_5 = off
+u7_6 = the
+u7_7 = 405.
+u7_8 = might
+u7_9 = be
+u7_10 = on
+u7_11 = century
+u7_12 = .
+PREDICT: [ACTION] find_place [PARAM] century in inglewood [PARAM] 33.9816425 [PARAM] -118.4409761
+v9_name = W Century Blvd
+v9_address = W Century Blvd, Inglewood, CA, USA
+v9_latitude = 33.9454516
+v9_longitude = -118.3482807
+v9_types_0 = route
+v9_address_simple = Inglewood
+v9_street_name = West Century Boulevard
+v9_locality = Inglewood
+v9_distance = 7.7 mi
+v9_duration = 16 mins
+PREDICT: [ACTION] places_nearby [PARAM] Hollywood park racetrack [PARAM] 33.9454516 [PARAM] -118.3482807
+v10_0_name = Hollywood Park OTB
+v10_0_rating = 0
+v10_0_types_0 = point of interest
+v10_0_types_1 = establishment
+v10_0_latitude = 33.947811
+v10_0_longitude = -118.3394374
+v10_0_address_simple = 3883 West Century Boulevard, Inglewood
+v10_0_street_number = 3883
+v10_0_street_name = West Century Boulevard
+v10_0_neighborhood = South Los Angeles
+v10_0_locality = Inglewood
+v10_0_distance = 1.1 mi
+v10_0_duration = 6 mins
+v10_1_name = Hollywood Park Race Track
+v10_1_rating = 4.1
+v10_1_types_0 = point of interest
+v10_1_types_1 = establishment
+v10_1_latitude = 33.95032
+v10_1_longitude = -118.3379459
+v10_1_address_simple = 1050 S. Prairie Ave., Inglewood
+v10_1_permanently_closed = True
+v10_1_locality = Inglewood
+v10_1_neighborhood = South Los Angeles
+v10_1_distance = 1.9 mi
+v10_1_duration = 8 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Hollywood Park Race Track [PARAM] 1050 S. Prairie Ave., Inglewood
+PREDICT: [ACTION] wait_for_user
+u8_0 = thanks
+u8_1 = !
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 1.9 mi [PARAM] 8 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u9_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 33.95032 [PARAM] -118.3379459

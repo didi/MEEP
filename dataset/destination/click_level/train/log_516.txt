@@ -1,0 +1,167 @@
+source_address = City Hall MRT, Singapore
+source_latitude = 1.2924789
+source_longitude = 103.85233199999993
+u1_0 = Clark
+u1_1 = Quay
+u1_2 = please
+PREDICT: find_place
+PREDICT: Clark Quay
+PREDICT: 1.2924789
+PREDICT: 103.85233199999993
+v1_name = Clarke Quay
+v1_address = 3 River Valley Rd, Singapore 179024
+v1_latitude = 1.2906024
+v1_longitude = 103.8464742
+v1_types_0 = shopping mall
+v1_types_1 = tourist attraction
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.5
+v1_is_open = False
+v1_address_simple = 3 River Valley Road
+v1_street_number = 3
+v1_street_name = River Valley Road
+v1_neighborhood = Singapore River
+v1_locality = Singapore
+v1_distance = 0.6 mi
+v1_duration = 3 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Clarke Quay
+PREDICT: River Valley Road
+PREDICT: wait_for_user
+u2_0 = Just
+u2_1 = to
+u2_2 = check
+u2_3 = ,
+u2_4 = it
+u2_5 = 's
+u2_6 = near
+u2_7 = the
+u2_8 = MRT
+u2_9 = station
+u2_10 = ,
+u2_11 = right
+u2_12 = ?
+PREDICT: find_place
+PREDICT: MRT station
+PREDICT: 1.2906024
+PREDICT: 103.8464742
+v2_name = City Hall
+v2_address = 150 North Bridge Road, Singapore 179100
+v2_latitude = 1.293076
+v2_longitude = 103.8520677
+v2_types_0 = subway station
+v2_types_1 = transit station
+v2_types_2 = point of interest
+v2_types_3 = establishment
+v2_rating = 4.3
+v2_address_simple = 150 North Bridge Road
+v2_neighborhood = Downtown Core
+v2_locality = Singapore
+v2_distance = 1.2 mi
+v2_duration = 7 mins
+PREDICT: places_nearby
+PREDICT: MRT station
+PREDICT: 1.2906024
+PREDICT: 103.8464742
+v3_0_name = City Hall
+v3_0_rating = 4.3
+v3_0_types_0 = subway station
+v3_0_types_1 = transit station
+v3_0_types_2 = point of interest
+v3_0_types_3 = establishment
+v3_0_latitude = 1.293076
+v3_0_longitude = 103.8520677
+v3_0_address_simple = 150 North Bridge Road
+v3_0_neighborhood = Downtown Core
+v3_0_locality = Singapore
+v3_0_distance = 1.2 mi
+v3_0_duration = 7 mins
+v3_1_name = Bras Basah
+v3_1_rating = 4.3
+v3_1_types_0 = subway station
+v3_1_types_1 = transit station
+v3_1_types_2 = point of interest
+v3_1_types_3 = establishment
+v3_1_latitude = 1.2969461
+v3_1_longitude = 103.8507366
+v3_1_address_simple = Singapore
+v3_1_neighborhood = Museum
+v3_1_locality = Singapore
+v3_1_distance = 1.4 mi
+v3_1_duration = 6 mins
+v3_2_name = Raffles Place
+v3_2_rating = 4.4
+v3_2_types_0 = subway station
+v3_2_types_1 = transit station
+v3_2_types_2 = point of interest
+v3_2_types_3 = establishment
+v3_2_latitude = 1.2839687
+v3_2_longitude = 103.8515395
+v3_2_address_simple = Singapore
+v3_2_neighborhood = Downtown Core
+v3_2_locality = Singapore
+v3_2_distance = 1.4 mi
+v3_2_duration = 8 mins
+PREDICT: {} is {} away from {}.
+PREDICT: Clarke Quay
+PREDICT: 1.2 mi
+PREDICT: City Hall
+PREDICT: {} has {} category.
+PREDICT: City Hall
+PREDICT: subway station
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = I
+u3_1 = think
+u3_2 = there
+u3_3 = 's
+u3_4 = a
+u3_5 = clarke
+u3_6 = quay
+u3_7 = station
+u3_8 = .
+u3_9 = is
+u3_10 = the
+u3_11 = place
+u3_12 = you
+u3_13 = found
+u3_14 = close
+u3_15 = to
+u3_16 = there
+u3_17 = ?
+PREDICT: find_place
+PREDICT: clarke quay station
+PREDICT: 1.2924789
+PREDICT: 103.85233199999993
+v4_name = Clarke Quay
+v4_address = Singapore
+v4_latitude = 1.2881554
+v4_longitude = 103.8467181
+v4_types_0 = subway station
+v4_types_1 = transit station
+v4_types_2 = point of interest
+v4_types_3 = establishment
+v4_rating = 4.2
+v4_address_simple = Singapore
+v4_neighborhood = Singapore River
+v4_locality = Singapore
+v4_distance = 0.6 mi
+v4_duration = 4 mins
+PREDICT: distance_matrix
+PREDICT: 1.2881554
+PREDICT: 103.8467181
+PREDICT: 1.2906024
+PREDICT: 103.8464742
+v5_distance = 0.3 mi
+v5_duration = 1 min
+PREDICT: Yes.
+PREDICT: wait_for_user
+u4_0 = great
+u4_1 = let
+u4_2 = 's
+u4_3 = go
+u4_4 = there
+PREDICT: start_driving
+PREDICT: 1.2906024
+PREDICT: 103.8464742

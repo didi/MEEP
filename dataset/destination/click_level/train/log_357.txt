@@ -1,0 +1,112 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Is
+u1_1 = there
+u1_2 = an
+u1_3 = accountant
+u1_4 = nearby
+u1_5 = ?
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: accountant
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Kokuso Accounting Service, CPA
+v1_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9816008
+v1_longitude = -118.4409554
+v1_types_0 = accounting
+v1_types_1 = finance
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 0
+v1_address_simple = 4640 Admiralty Way, Marina del Rey
+v1_street_number = 4640
+v1_street_name = Admiralty Way
+v1_locality = Marina del Rey
+v1_distance = 16 ft
+v1_duration = 1 min
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Kokuso Accounting Service, CPA
+PREDICT: Admiralty Way
+PREDICT: wait_for_user
+u2_0 = what
+u2_1 = 's
+u2_2 = the
+u2_3 = best
+u2_4 = rated
+u2_5 = one
+u2_6 = around
+u2_7 = here
+u2_8 = ?
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: places_nearby
+PREDICT: accountant
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Kokuso Accounting Service, CPA
+v2_0_rating = 0
+v2_0_types_0 = accounting
+v2_0_types_1 = finance
+v2_0_types_2 = point of interest
+v2_0_types_3 = establishment
+v2_0_latitude = 33.9816008
+v2_0_longitude = -118.4409554
+v2_0_address_simple = 4640 Admiralty Way, Marina del Rey
+v2_0_street_number = 4640
+v2_0_street_name = Admiralty Way
+v2_0_locality = Marina del Rey
+v2_0_distance = 16 ft
+v2_0_duration = 1 min
+v2_1_name = Richard J Lauter & Co
+v2_1_rating = 0
+v2_1_types_0 = accounting
+v2_1_types_1 = finance
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 33.9816009
+v2_1_longitude = -118.4409503
+v2_1_address_simple = 4640 Admiralty Way # 700, Marina del Rey
+v2_1_street_number = 4640
+v2_1_street_name = Admiralty Way
+v2_1_locality = Marina del Rey
+v2_1_distance = 16 ft
+v2_1_duration = 1 min
+v2_2_name = Tax Planner 1040
+v2_2_rating = 0
+v2_2_types_0 = accounting
+v2_2_types_1 = finance
+v2_2_types_2 = point of interest
+v2_2_types_3 = establishment
+v2_2_latitude = 33.9816009
+v2_2_longitude = -118.4409503
+v2_2_address_simple = 4640 Admiralty Way # 500, Marina del Rey
+v2_2_street_number = 4640
+v2_2_street_name = Admiralty Way
+v2_2_locality = Marina del Rey
+v2_2_distance = 16 ft
+v2_2_duration = 1 min
+PREDICT: I am sorry I am unable to find that information
+PREDICT: wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = no
+u3_3 = worries
+PREDICT: I also found {} and {}.
+PREDICT: Richard J Lauter & Co
+PREDICT: Tax Planner 1040
+PREDICT: They are all on {}.
+PREDICT: Admiralty Way
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u4_0 = Kokuso
+u4_1 = I
+u4_2 = guess
+PREDICT: You are all set!
+PREDICT: We are going to the {} in {}.
+PREDICT: Kokuso Accounting Service, CPA
+PREDICT: Marina del Rey
+PREDICT: start_driving
+PREDICT: 33.9816008
+PREDICT: -118.4409554

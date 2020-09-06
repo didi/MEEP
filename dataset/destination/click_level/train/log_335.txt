@@ -1,0 +1,44 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = King
+u1_1 = Harbor
+u1_2 = ,
+u1_3 = please
+u1_4 = .
+PREDICT: find_place
+PREDICT: King Harbor
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = King Harbor Marina
+v1_address = 208 Yacht Club Way, Redondo Beach, CA 90277, United States
+v1_latitude = 33.8510613
+v1_longitude = -118.397846
+v1_types_0 = point of interest
+v1_types_1 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 208 Yacht Club Way, Redondo Beach
+v1_street_number = 208
+v1_street_name = Yacht Club Way
+v1_neighborhood = South Redondo
+v1_locality = Redondo Beach
+v1_distance = 14.5 mi
+v1_duration = 28 mins
+PREDICT: Do you mean {}?
+PREDICT: King Harbor Marina
+PREDICT: It is in {}.
+PREDICT: Redondo Beach
+PREDICT: wait_for_user
+u2_0 = In
+u2_1 = Redondo
+PREDICT: It is {} away.
+PREDICT: 28 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = Thanks
+u3_1 = !
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.8510613
+PREDICT: -118.397846

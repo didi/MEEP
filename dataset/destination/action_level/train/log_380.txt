@@ -1,0 +1,169 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = bar
+u1_8 = near
+u1_9 = the
+u1_10 = Pinterest
+u1_11 = office
+PREDICT: [ACTION] find_place [PARAM] Pinterest office [PARAM] 37.760 [PARAM] -122.429
+v1_name = Pinterest HQ
+v1_address = 651 Brannan St, San Francisco, CA 94107, United States
+v1_latitude = 37.775454
+v1_longitude = -122.399961
+v1_types_0 = point of interest
+v1_types_1 = establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = 651 Brannan Street, San Francisco
+v1_street_number = 651
+v1_street_name = Brannan Street
+v1_neighborhood = SoMa
+v1_locality = San Francisco
+v1_distance = 2.3 mi
+v1_duration = 13 mins
+PREDICT: [ACTION] find_place [PARAM] bar [PARAM] 37.775454 [PARAM] -122.399961
+v2_name = Slide On En Bar
+v2_address = 698 Brannan St, San Francisco, CA 94107, United States
+v2_latitude = 37.7750692
+v2_longitude = -122.4009269
+v2_types_0 = bar
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 0
+v2_address_simple = 698 Brannan Street, San Francisco
+v2_street_number = 698
+v2_street_name = Brannan Street
+v2_neighborhood = SoMa
+v2_locality = San Francisco
+v2_distance = 0.7 mi
+v2_duration = 5 mins
+PREDICT: [ACTION] How about {}? [PARAM] Slide On En Bar
+PREDICT: [ACTION] wait_for_user
+u2_0 = How
+u2_1 = far
+u2_2 = is
+u2_3 = it
+u2_4 = from
+u2_5 = Pinterest
+u2_6 = ?
+PREDICT: [ACTION] It is {} away. [PARAM] 0.7 mi
+PREDICT: [ACTION] wait_for_user
+u3_0 = I
+u3_1 = 'd
+u3_2 = like
+u3_3 = to
+u3_4 = go
+u3_5 = to
+u3_6 = one
+u3_7 = closer
+u3_8 = than
+u3_9 = that
+u3_10 = -
+u3_11 = within
+u3_12 = walking
+u3_13 = distance
+PREDICT: [ACTION] places_nearby [PARAM] bar [PARAM] 37.775454 [PARAM] -122.399961
+v3_0_name = Slide On En Bar
+v3_0_rating = 0
+v3_0_types_0 = bar
+v3_0_types_1 = point of interest
+v3_0_types_2 = establishment
+v3_0_latitude = 37.7750692
+v3_0_longitude = -122.4009269
+v3_0_address_simple = 698 Brannan Street, San Francisco
+v3_0_street_number = 698
+v3_0_street_name = Brannan Street
+v3_0_neighborhood = SoMa
+v3_0_locality = San Francisco
+v3_0_distance = 0.7 mi
+v3_0_duration = 5 mins
+v3_1_name = Ted’s Sports Bar & Grill
+v3_1_rating = 4.6
+v3_1_is_open = True
+v3_1_types_0 = bar
+v3_1_types_1 = point of interest
+v3_1_types_2 = establishment
+v3_1_latitude = 37.7753369
+v3_1_longitude = -122.402832
+v3_1_address_simple = 314 Harriet Street, San Francisco
+v3_1_street_number = 314
+v3_1_street_name = Harriet Street
+v3_1_neighborhood = SoMa
+v3_1_locality = San Francisco
+v3_1_distance = 0.9 mi
+v3_1_duration = 5 mins
+v3_2_name = Mars Bar & Restaurant
+v3_2_rating = 4.3
+v3_2_is_open = True
+v3_2_price_level = 1
+v3_2_types_0 = bar
+v3_2_types_1 = restaurant
+v3_2_types_2 = food
+v3_2_types_3 = point of interest
+v3_2_types_4 = establishment
+v3_2_latitude = 37.7732839
+v3_2_longitude = -122.4032609
+v3_2_address_simple = 798 Brannan Street, San Francisco
+v3_2_street_number = 798
+v3_2_street_name = Brannan Street
+v3_2_neighborhood = SoMa
+v3_2_locality = San Francisco
+v3_2_distance = 0.7 mi
+v3_2_duration = 4 mins
+PREDICT: [ACTION] It is {} away. [PARAM] 0.7 mi
+PREDICT: [ACTION] find_place [PARAM] bar near Pinterest office [PARAM] 37.775454 [PARAM] -122.399961
+PREDICT: [ACTION] find_place [PARAM] bar within walking distance [PARAM] 37.775454 [PARAM] -122.399961
+v5_name = Slide On En Bar
+v5_address = 698 Brannan St, San Francisco, CA 94107, United States
+v5_latitude = 37.7750692
+v5_longitude = -122.4009269
+v5_types_0 = bar
+v5_types_1 = point of interest
+v5_types_2 = establishment
+v5_rating = 0
+v5_address_simple = 698 Brannan Street, San Francisco
+v5_street_number = 698
+v5_street_name = Brannan Street
+v5_neighborhood = SoMa
+v5_locality = San Francisco
+v5_distance = 0.7 mi
+v5_duration = 5 mins
+PREDICT: [ACTION] How about {}? [PARAM] Mars Bar & Restaurant
+PREDICT: [ACTION] It is {} away. [PARAM] 0.7 mi
+PREDICT: [ACTION] wait_for_user
+u4_0 = Sure
+u4_1 = ,
+u4_2 = that
+u4_3 = 'll
+u4_4 = do
+u4_5 = .
+u4_6 = Where
+u4_7 = is
+u4_8 = it
+u4_9 = ?
+PREDICT: [ACTION] {} is the closest {} I could find. [PARAM] Slide On En Bar [PARAM] bar
+PREDICT: [ACTION] It is in {}. [PARAM] SoMa
+PREDICT: [ACTION] wait_for_user
+u5_0 = What
+u5_1 = is
+u5_2 = the
+u5_3 = address
+u5_4 = ?
+PREDICT: [ACTION] {}. [PARAM] 698 Brannan Street, San Francisco
+PREDICT: [ACTION] wait_for_user
+u6_0 = Ok
+u6_1 = ,
+u6_2 = let
+u6_3 = 's
+u6_4 = go
+u6_5 = .
+PREDICT: [ACTION] Going to {} in {}. [PARAM] Slide On En Bar [PARAM] SoMa
+PREDICT: [ACTION] start_driving [PARAM] 37.7750692 [PARAM] -122.4009269

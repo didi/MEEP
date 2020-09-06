@@ -1,0 +1,120 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Walt
+u1_7 = Disney
+u1_8 = Concert
+u1_9 = hall
+u1_10 = .
+PREDICT: [ACTION] find_place [PARAM] Walt Disney Concert hall [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Walt Disney Concert Hall
+v1_address = 111 S Grand Ave, Los Angeles, CA 90012, United States
+v1_latitude = 34.0553454
+v1_longitude = -118.249845
+v1_types_0 = Tourist attraction
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 111 South Grand Avenue, Los Angeles
+v1_street_number = 111
+v1_street_name = South Grand Avenue
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 17.9 mi
+v1_duration = 30 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Walt Disney Concert Hall [PARAM] 30 mins
+PREDICT: [ACTION] It is in {}. [PARAM] Downtown Los Angeles
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Hm
+u2_1 = ,
+u2_2 = actually
+u2_3 = ,
+u2_4 = I
+u2_5 = 'm
+u2_6 = kind
+u2_7 = of
+u2_8 = hungry
+u2_9 = .
+u2_10 = Are
+u2_11 = there
+u2_12 = any
+u2_13 = healthy
+u2_14 = food
+u2_15 = options
+u2_16 = nearby
+u2_17 = ?
+PREDICT: [ACTION] Do you mean near {}, or near {}? [PARAM] Walt Disney Concert Hall [PARAM] 4640 Admiralty Way, Marina del Rey
+PREDICT: [ACTION] wait_for_user
+u3_0 = Ah
+u3_1 = I
+u3_2 = should
+u3_3 = have
+u3_4 = specified
+u3_5 = ,
+u3_6 = I
+u3_7 = meant
+u3_8 = near
+u3_9 = the
+u3_10 = concert
+u3_11 = hall
+u3_12 = .
+PREDICT: [ACTION] find_place [PARAM] healthy food [PARAM] 34.0553454 [PARAM] -118.249845
+v2_name = Health Winner
+v2_address = 404 S Figueroa St # 401A, Los Angeles, CA 90071, United States
+v2_latitude = 34.0529106
+v2_longitude = -118.2561946
+v2_types_0 = Restaurant
+v2_types_1 = Food
+v2_types_2 = Point of interest
+v2_types_3 = Establishment
+v2_rating = 3.4
+v2_address_simple = 404 South Figueroa Street # 401A, Los Angeles
+v2_street_number = 404
+v2_street_name = South Figueroa Street
+v2_neighborhood = Downtown Los Angeles
+v2_locality = Los Angeles
+v2_distance = 0.7 mi
+v2_duration = 4 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Health Winner [PARAM] South Figueroa Street
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 3.4
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u4_0 = That
+u4_1 = 's
+u4_2 = fine
+u4_3 = ,
+u4_4 = as
+u4_5 = long
+u4_6 = as
+u4_7 = it
+u4_8 = 's
+u4_9 = open
+u4_10 = and
+u4_11 = not
+u4_12 = too
+u4_13 = far
+u4_14 = from
+u4_15 = the
+u4_16 = venue
+u4_17 = .
+PREDICT: [ACTION] distance_matrix [PARAM] 34.0529106 [PARAM] -118.2561946 [PARAM] 34.0553454 [PARAM] -118.249845
+v3_distance = 0.7 mi
+v3_duration = 3 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Health Winner [PARAM] 3 mins [PARAM] Walt Disney Concert Hall
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = Kk
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 34.0529106 [PARAM] -118.2561946

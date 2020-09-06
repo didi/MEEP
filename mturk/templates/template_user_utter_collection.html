@@ -1,0 +1,73 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form>
+    <div>
+        <strong>Task Description:</strong><br>
+        You will be having conversations with an agent to specify a taxi trip destination.<br>
+        Please go to our web page <a href="http://35.212.174.248:30011/user" target="_blank">http://35.212.174.248:30011/user</a>
+        <strong>Instructions: </strong>
+        <ol>
+            <li>This is our dialog data collection interface you will be using (link is provided at the bottom):</li>
+            <img style="width:600px; display: block" src="https://i.imgur.com/nHbBtor.png"/>
+            <li><b>Change "Starting address"</b> on the left side of the page according to the starting address of the topic.</li>
+            <li>Chat with the agent by following the topics we provide you at the bottom. Please send message step by step, and one message <b>should not</b> contain information from multiple bullets.</li>
+            <li>At the end, the agent will show you a map. Select whether the destination is correct or not.</li>
+            <li>IMPORTANT: Please come back to this page and submit the task after you finish 5 conversations.</li>
+        </ol>
+        <ul>
+            <li>(Do not modify anything else in the settings panel: language, input method, etc.)</li>
+        </ul>
+        <div>
+            <div>
+                <p><strong>Link to the website (opens in new tab):</strong></p>
+                <!-- Your website URLs will be substituted for the "url" variable when you publish
+                       a batch with an input file containing multiple website URLs -->
+                <a href="http://35.212.174.248:30011/user" target="_blank">http://35.212.174.248:30011/user</a>
+            </div>
+        </div>
+        <div>
+            <p><strong>Stories to follow:</strong></p>
+            Please paraphrase your messanges. They should be <b>different</b> from the sentences in the stories.
+            <ol>
+                <li>
+                    * change your starting address to "121 Avro Rd, Maple, ON L6A 1Y2, Canada"<br>
+                    * you want to "ski" at "Horseshoe".<br>
+                    * you ask the agent about the time and distance to get there.<br>
+                    (at the end, the agent should take you to "Horseshoe Resort, 1101 Horseshoe Valley Rd W, Barrie, ON L4M 4Y8, Canada")
+                </li><br>
+                <li>
+                    * change your starting address to "Marina Del Rey, CA 90292, USA" <br>
+                    * you want to know how long it takes to get to "golden gate bakery" <br>
+                    * you want to know how long to get there with the current traffic. <br>
+                    (at the end, the agent should take you to "Golden Gate Bakery, 1029 Grant Ave, San Francisco, CA 94133")
+                </li><br>
+                <li>
+                    * change your starting address to "Brunswick - College Parkette, Toronto, ON M5T 1S2, Canada" <br>
+                    * you want to go to a "vegetarian chinese restaurant in Kensington Market" <br>
+                    * you want to know whether the restaurant is on Augusta avenue. <br>
+                    * the restaurant name is King's Cafe. <br>
+                    (at the end, the agent should take you to "King's Cafe, 192 Augusta Ave, Toronto, ON M5T 2L6, Canada")
+                </li><br>
+                <li>
+                    * change your starting address to "371 Bloor St W, Toronto, ON M5S 2R7, Canada" <br>
+                    * you want to go to a movie theatre with the big cube on top. <br>
+                    * the theatre's name is Cineplex Cinemas <br>
+                    * you want to know whethe it's near MEC Toronto. <br>
+                    (at the end, the agent should take you to "Cineplex Cinemas Scotiabank Theatre, 259 Richmond St W, Toronto, ON M5V 3M6, Canada")
+                </li><br>
+                <li>
+                    * change your starting address to "4640 Admiralty Way, Marina del Rey" <br>
+                    * you want to go to a gas station near UCLA. <br>
+                    * you want to know the ratings of the gas stations. <br>
+                    * you want to go to the gas station with a high rating. <br>
+                    (at the end, the agent should take you to "any gas station near UCLA with high rating")
+                </li><br>
+            </ol>
+        </div>
+    </div>
+</crowd-form>

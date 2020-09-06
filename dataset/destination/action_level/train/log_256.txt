@@ -1,0 +1,38 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = UCI
+PREDICT: [ACTION] find_place [PARAM] UCI [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = University of California Irvine
+v1_address = Irvine, CA 92697, United States
+v1_latitude = 33.6404952
+v1_longitude = -117.8442962
+v1_types_0 = University
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.2
+v1_address_simple = Irvine
+v1_locality = Irvine
+v1_distance = 48.1 mi
+v1_duration = 52 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] University of California Irvine
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] It is {} away. [PARAM] 52 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = what
+u3_1 = 's
+u3_2 = the
+u3_3 = address
+u3_4 = ?
+PREDICT: [ACTION] It is in {}. [PARAM] Irvine
+PREDICT: [ACTION] The address is {}. [PARAM] Irvine, CA 92697, United States
+PREDICT: [ACTION] wait_for_user
+u4_0 = ok
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] wait_for_user
+u5_0 = let
+u5_1 = 's
+u5_2 = go
+PREDICT: [ACTION] start_driving [PARAM] 33.6404952 [PARAM] -117.8442962

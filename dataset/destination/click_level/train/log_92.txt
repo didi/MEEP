@@ -1,0 +1,86 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hi
+u1_1 = ,
+u1_2 = i
+u1_3 = want
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = dodger
+u1_8 = satdium
+PREDICT: Sure, give me a moment.
+PREDICT: wait_for_user
+u2_0 = *stadium
+PREDICT: find_place
+PREDICT: dodger satdium
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 1000 Vin Scully Ave, Los Angeles, CA 90012, United States
+v1_name = Dodger Stadium
+v1_latitude = 34.073851
+v1_longitude = -118.2399583
+v1_place_id = ChIJdVYAVPnGwoAR3wmcg09VlJ4
+v1_street_number = 1000
+v1_street_name = Vin Scully Ave
+v1_neighborhood = Echo Park
+v1_locality = Los Angeles
+v1_distance = 19.4 mi
+v1_duration = 36 mins
+PREDICT: {} in {}?
+PREDICT: Dodger Stadium
+PREDICT: Echo Park
+PREDICT: It is {} and {} away.
+PREDICT: 19.4 mi
+PREDICT: 36 mins
+PREDICT: wait_for_user
+u3_0 = is
+u3_1 = it
+u3_2 = near
+u3_3 = LA
+u3_4 = downtown
+u3_5 = ?
+PREDICT: find_place
+PREDICT: LA downtown
+PREDICT: 34.073851
+PREDICT: -118.2399583
+v2_address = Downtown Los Angeles, Los Angeles, CA, USA
+v2_name = Downtown Los Angeles
+v2_latitude = 34.040713
+v2_longitude = -118.2467693
+v2_place_id = ChIJAf09JTTGwoARIKmlGd9S_iY
+v2_neighborhood = Downtown Los Angeles
+v2_locality = Los Angeles
+v2_distance = 3.3 mi
+v2_duration = 13 mins
+PREDICT: {} is {} away from {}.
+PREDICT: Downtown Los Angeles
+PREDICT: 3.3 mi
+PREDICT: Dodger Stadium
+PREDICT: wait_for_user
+u4_0 = how
+u4_1 = far
+u4_2 = is
+u4_3 = it
+u4_4 = from
+u4_5 = here
+u4_6 = ?
+PREDICT: {} is {} away from {}.
+PREDICT: Dodger Stadium
+PREDICT: 19.4 mi
+PREDICT: 4640 Admiralty Way, Marina del Rey
+PREDICT: It will take us {} to get there.
+PREDICT: 36 mins
+PREDICT: wait_for_user
+u5_0 = ok
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+u5_5 = there
+u5_6 = !
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 34.073851
+PREDICT: -118.2399583

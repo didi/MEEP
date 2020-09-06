@@ -1,0 +1,64 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = bagel
+u1_1 = place
+u1_2 = please
+u2_0 = the
+u2_1 = one
+u2_2 = on
+u2_3 = 12th
+PREDICT: [ACTION] find_place [PARAM] 12th [PARAM] 47.676 [PARAM] -122.306
+v1_name = 12th Ave NE & NE 65th St
+v1_address = Seattle, WA 98115, United States
+v1_latitude = 47.6760521
+v1_longitude = -122.315567
+v1_types_0 = transit station
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 3
+v1_address_simple = United States
+v1_neighborhood = Northeast Seattle
+v1_locality = Seattle
+v1_distance = 0.5 mi
+v1_duration = 2 mins
+PREDICT: [ACTION] find_place [PARAM] bagel place on 12th [PARAM] 47.676 [PARAM] -122.306
+v2_name = Eltana
+v2_address = 1538 12th Ave, Seattle, WA 98122, United States
+v2_latitude = 47.6150271
+v2_longitude = -122.3165276
+v2_price_level = 1
+v2_types_0 = bakery
+v2_types_1 = cafe
+v2_types_2 = restaurant
+v2_types_3 = food
+v2_types_4 = point of interest
+v2_types_5 = store
+v2_types_6 = establishment
+v2_rating = 4.3
+v2_is_open = True
+v2_address_simple = 1538 12th Avenue, Seattle
+v2_street_number = 1538
+v2_street_name = 12th Avenue
+v2_neighborhood = Capitol Hill
+v2_locality = Seattle
+v2_distance = 5.3 mi
+v2_duration = 16 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Eltana [PARAM] 12th Avenue
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.3
+PREDICT: [ACTION] wait_for_user
+u3_0 = is
+u3_1 = that
+u3_2 = the
+u3_3 = 12th
+u3_4 = on
+u3_5 = Capitol
+u3_6 = Hill
+u3_7 = ?
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 5.3 mi [PARAM] 16 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = lets
+u4_1 = roll
+PREDICT: [ACTION] start_driving [PARAM] 47.6150271 [PARAM] -122.3165276

@@ -1,0 +1,72 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Huntington
+u1_7 = Gardens
+u1_8 = .
+PREDICT: Let me check that for you. 
+PREDICT: find_place
+PREDICT: Huntington Gardens
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 1151 Oxford Rd, San Marino, CA 91108, United States
+v1_name = The Huntington Library, Art Collections, and Botanical Gardens
+v1_latitude = 34.1290452
+v1_longitude = -118.1145242
+v1_place_id = ChIJc1xhAk3bwoARBBlfKQzXKLM
+v1_street_number = 1151
+v1_street_name = Oxford Road
+v1_locality = San Marino
+v1_distance = 28.6 mi
+v1_duration = 48 mins
+PREDICT: find_place
+PREDICT: Huntington Gardens
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = 1151 Oxford Rd, San Marino, CA 91108, United States
+v2_name = The Huntington Library, Art Collections, and Botanical Gardens
+v2_latitude = 34.1290452
+v2_longitude = -118.1145242
+v2_place_id = ChIJc1xhAk3bwoARBBlfKQzXKLM
+v2_street_number = 1151
+v2_street_name = Oxford Road
+v2_locality = San Marino
+v2_distance = 28.6 mi
+v2_duration = 48 mins
+PREDICT: Do you mean {}?
+PREDICT: The Huntington Library, Art Collections, and Botanical Gardens
+PREDICT: wait_for_user
+u2_0 = Ah
+u2_1 = yes
+u2_2 = ,
+u2_3 = can
+u2_4 = you
+u2_5 = confirm
+u2_6 = what
+u2_7 = city
+u2_8 = it
+u2_9 = 's
+u2_10 = in
+u2_11 = ?
+PREDICT: It is in {}
+PREDICT: San Marino
+PREDICT: Does that sound correct?
+PREDICT: wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = yes
+u3_3 = !
+u4_0 = Let
+u4_1 = 's
+u4_2 = go
+u4_3 = !
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.1290452
+PREDICT: -118.1145242

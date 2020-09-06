@@ -1,0 +1,85 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = lax
+PREDICT: [ACTION] find_place [PARAM] lax [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Los Angeles International Airport
+v1_address = 1 World Way, Los Angeles, CA 90045, United States
+v1_latitude = 33.9415889
+v1_longitude = -118.40853
+v1_types_0 = airport
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 3.5
+v1_address_simple = 1 World Way, Los Angeles
+v1_street_number = 1
+v1_street_name = World Way
+v1_locality = Los Angeles
+v1_distance = 4.7 mi
+v1_duration = 17 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Los Angeles International Airport [PARAM] 17 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = do
+u2_1 = you
+u2_2 = which
+u2_3 = terminal
+u2_4 = for
+u2_5 = air
+u2_6 = china
+u2_7 = ?
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] lax air china [PARAM] 33.9415889 [PARAM] -118.40853
+v2_name = Air China
+v2_address = 200 World Way, Los Angeles, CA 90045, United States
+v2_latitude = 33.9434775
+v2_longitude = -118.408959
+v2_types_0 = point of interest
+v2_types_1 = establishment
+v2_rating = 2.6
+v2_address_simple = 200 World Way, Los Angeles
+v2_street_number = 200
+v2_street_name = World Way
+v2_locality = Los Angeles
+v2_distance = 2.5 mi
+v2_duration = 14 mins
+PREDICT: [ACTION] I don't know.
+PREDICT: [ACTION] There is {} on {}. [PARAM] Air China [PARAM] World Way
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9434775 [PARAM] -118.408959 [PARAM] 33.9415889 [PARAM] -118.40853
+v3_distance = 427 ft
+v3_duration = 1 min
+PREDICT: [ACTION] It is {} away from {}. [PARAM] 1 min [PARAM] Los Angeles International Airport
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = i
+u3_3 = guess
+u3_4 = it
+u3_5 = is
+u3_6 = terminal
+u3_7 = 4
+u4_0 = oh
+u4_1 = sorry
+u4_2 = terminal
+u4_3 = B
+PREDICT: [ACTION] find_place [PARAM] lax terminal B [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = BURBERRY LAX TERMINAL B
+v4_address = 380 World Way Los Angeles, Los Angeles, CA 90045, United States
+v4_latitude = 33.9436181
+v4_longitude = -118.4104678
+v4_types_0 = clothing store
+v4_types_1 = point of interest
+v4_types_2 = store
+v4_types_3 = establishment
+v4_rating = 4.2
+v4_is_open = True
+v4_address_simple = 380 World Way Los Angeles, Los Angeles
+v4_street_number = 380
+v4_street_name = World Way Los Angeles
+v4_locality = Los Angeles
+v4_distance = 4.6 mi
+v4_duration = 16 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] BURBERRY LAX TERMINAL B [PARAM] World Way Los Angeles
+PREDICT: [ACTION] wait_for_user
+u5_0 = yes
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 33.9436181 [PARAM] -118.4104678

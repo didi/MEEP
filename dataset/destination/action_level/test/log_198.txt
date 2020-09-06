@@ -1,0 +1,28 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = IISc
+PREDICT: [ACTION] find_place [PARAM] IISc [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Indian Institute of Science
+v1_address = CV Raman Rd, Bengaluru, Karnataka 560012, India
+v1_rating = 4.7
+v1_is_open = False
+v1_latitude = 13.0218597
+v1_longitude = 77.5671423
+v1_street_name = CV Raman Road
+v1_locality = Bengaluru
+v1_distance = 7.4 mi
+v1_duration = 35 mins
+PREDICT: [ACTION] {} in {}? [PARAM] Indian Institute of Science [PARAM] Bengaluru
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 7.4 mi [PARAM] 35 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = sure
+PREDICT: [ACTION] start_driving [PARAM] 13.0218597 [PARAM] 77.5671423

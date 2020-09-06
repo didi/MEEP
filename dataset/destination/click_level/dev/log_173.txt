@@ -1,0 +1,90 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = see
+u1_5 = a
+u1_6 = movie
+PREDICT: find_place
+PREDICT: movie
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v1_name = Chandrodaya Theatre
+v1_address = Ashokanagar 14th Cross Rd, Vidyapeeta Layout, Ashok Nagar, Banashankari Stage I, Banashankari, Bengaluru, Karnataka 560050, India
+v1_rating = 3.5
+v1_latitude = 12.9355867
+v1_longitude = 77.5615514
+v1_street_name = Ashokanagar 14th Cross Road
+v1_neighborhood = Vidyapeeta Layout
+v1_locality = Bengaluru
+v1_distance = 0.9 mi
+v1_duration = 6 mins
+PREDICT: How about {}?
+PREDICT: Chandrodaya Theatre
+PREDICT: wait_for_user
+u2_0 = is
+u2_1 = there
+u2_2 = a
+u2_3 = multiplex
+u2_4 = nearby
+u2_5 = ?
+PREDICT: find_place
+PREDICT: multiplex movie
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v2_name = Vinayaka Theatre
+v2_address = 125, JJR Nagar, 98, Mysore Rd, Chamrajpet, Bengaluru, Karnataka 560018, India
+v2_rating = 3.1
+v2_latitude = 12.9632205
+v2_longitude = 77.5663841
+v2_street_number = 98
+v2_street_name = Mysore Road
+v2_locality = Bengaluru
+v2_distance = 2.5 mi
+v2_duration = 13 mins
+PREDICT: Do you mean {}?
+PREDICT: Vinayaka Theatre
+PREDICT: wait_for_user
+u3_0 = is
+u3_1 = there
+u3_2 = a
+u3_3 = big
+u3_4 = cinemas
+u3_5 = multiple
+u3_6 = around
+u3_7 = there
+u3_8 = ?
+u4_0 = I
+u4_1 = mean
+u4_2 = multiplex
+PREDICT: places_nearby
+PREDICT: cinemas multiplex
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v3_0_name = PVR Koramangla
+v3_0_rating = 4.3
+v3_0_is_open = False
+v3_0_types = ['movie_theater', 'point_of_interest', 'establishment']
+v3_0_latitude = 12.9346338
+v3_0_longitude = 77.6113155
+v3_0_address = The Forum Mall, 21-22, Adugodi Main Road Koramangala, Chikku Lakshmaiah Layout, Adugodi, Bengaluru, Karnataka 560095, India
+v3_0_locality = Bengaluru
+v3_0_distance = 3.6 mi
+v3_0_duration = 18 mins
+PREDICT: How about {}?
+PREDICT: PVR Koramangla
+PREDICT: wait_for_user
+u5_0 = ok
+u5_1 = nice
+u6_0 = lets
+u6_1 = go
+u6_2 = there
+PREDICT: We are going to the {} in {}.
+PREDICT: PVR Koramangla
+PREDICT: Bengaluru
+PREDICT: start_driving
+PREDICT: 12.9346338
+PREDICT: 77.6113155

@@ -1,0 +1,61 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = new
+u1_8 = mall
+u1_9 = in
+u1_10 = Playa
+u1_11 = Vista
+PREDICT: find_place
+PREDICT: mall Playa Vista
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Runway Mall
+v1_address = 12746 W Jefferson Blvd, Playa Vista, CA 90094, United States
+v1_latitude = 33.977
+v1_longitude = -118.4173381
+v1_types_0 = shopping mall
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 12746 West Jefferson Boulevard, Playa Vista
+v1_street_number = 12746
+v1_street_name = West Jefferson Boulevard
+v1_neighborhood = Playa Vista
+v1_locality = Los Angeles
+v1_distance = 1.8 mi
+v1_duration = 7 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: shopping mall
+PREDICT: Runway Mall
+PREDICT: West Jefferson Boulevard
+PREDICT: Playa Vista
+PREDICT: It is {} away.
+PREDICT: 7 mins
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = Yep
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = the
+u2_5 = one
+u2_6 = .
+u2_7 = Let
+u2_8 = 's
+u2_9 = go
+u2_10 = there
+u2_11 = .
+PREDICT: Great, we are going to {}.
+PREDICT: Runway Mall
+PREDICT: start_driving
+PREDICT: 33.977
+PREDICT: -118.4173381

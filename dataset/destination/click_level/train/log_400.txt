@@ -1,0 +1,208 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = need
+u1_2 = running
+u1_3 = shoes
+u1_4 = .
+u1_5 = is
+u1_6 = there
+u1_7 = a
+u1_8 = place
+u1_9 = in
+u1_10 = Santa
+u1_11 = Monica
+u1_12 = ?
+PREDICT: find_place
+PREDICT: running shoes
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Road Runner Sports
+v1_address = 1338 4th St, Santa Monica, CA 90401, United States
+v1_latitude = 34.016855
+v1_longitude = -118.4959
+v1_types_0 = shoe store
+v1_types_1 = point of interest
+v1_types_2 = clothing store
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 1338 4th Street, Santa Monica
+v1_street_number = 1338
+v1_street_name = 4th Street
+v1_neighborhood = Downtown
+v1_locality = Santa Monica
+v1_distance = 4.4 mi
+v1_duration = 20 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: shoe store
+PREDICT: Road Runner Sports
+PREDICT: 4th Street
+PREDICT: Santa Monica
+PREDICT: wait_for_user
+u2_0 = that
+u2_1 = could
+u2_2 = work
+u2_3 = .
+u2_4 = are
+u2_5 = there
+u2_6 = other
+u2_7 = options
+u2_8 = ?
+PREDICT: places_nearby
+PREDICT: running shoes in Santa Monica
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = O MY SOLE
+v2_0_rating = 3.9
+v2_0_is_open = True
+v2_0_types_0 = shoe store
+v2_0_types_1 = point of interest
+v2_0_types_2 = store
+v2_0_types_3 = establishment
+v2_0_latitude = 33.9858579
+v2_0_longitude = -118.4395924
+v2_0_address_simple = 4325 Glencoe Avenue C-3, Marina del Rey
+v2_0_street_number = 4325
+v2_0_street_name = Glencoe Avenue
+v2_0_locality = Marina del Rey
+v2_0_distance = 0.7 mi
+v2_0_duration = 6 mins
+v2_1_name = DSW Designer Shoe Warehouse
+v2_1_rating = 4.1
+v2_1_is_open = True
+v2_1_price_level = 2
+v2_1_types_0 = shoe store
+v2_1_types_1 = point of interest
+v2_1_types_2 = store
+v2_1_types_3 = establishment
+v2_1_latitude = 33.986249
+v2_1_longitude = -118.441318
+v2_1_address_simple = 13450 Maxella Avenue, Marina del Rey
+v2_1_street_number = 13450
+v2_1_street_name = Maxella Avenue
+v2_1_locality = Marina del Rey
+v2_1_distance = 0.7 mi
+v2_1_duration = 5 mins
+v2_2_name = adidas Originals
+v2_2_rating = 4.3
+v2_2_is_open = True
+v2_2_types_0 = shoe store
+v2_2_types_1 = point of interest
+v2_2_types_2 = clothing store
+v2_2_types_3 = store
+v2_2_types_4 = establishment
+v2_2_latitude = 33.9909344
+v2_2_longitude = -118.4662542
+v2_2_address_simple = 1349 Abbot Kinney Boulevard, Venice
+v2_2_street_number = 1349
+v2_2_street_name = Abbot Kinney Boulevard
+v2_2_neighborhood = Venice
+v2_2_locality = Los Angeles
+v2_2_distance = 2.8 mi
+v2_2_duration = 11 mins
+PREDICT: find_place
+PREDICT: Santa Monica
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_name = Santa Monica
+v3_address = Santa Monica, CA, USA
+v3_latitude = 34.0194543
+v3_longitude = -118.4911912
+v3_types_0 = locality
+v3_types_1 = political
+v3_address_simple = Santa Monica
+v3_locality = Santa Monica
+v3_distance = 4.1 mi
+v3_duration = 17 mins
+PREDICT: places_nearby
+PREDICT: running shoes
+PREDICT: 34.0194543
+PREDICT: -118.4911912
+v4_0_name = REI
+v4_0_rating = 4.4
+v4_0_is_open = True
+v4_0_types_0 = shoe store
+v4_0_types_1 = bicycle store
+v4_0_types_2 = point of interest
+v4_0_types_3 = clothing store
+v4_0_types_4 = store
+v4_0_types_5 = establishment
+v4_0_latitude = 34.016428
+v4_0_longitude = -118.494671
+v4_0_address_simple = 402 Santa Monica Boulevard, Santa Monica
+v4_0_street_number = 402
+v4_0_street_name = Santa Monica Boulevard
+v4_0_neighborhood = Downtown
+v4_0_locality = Santa Monica
+v4_0_distance = 0.3 mi
+v4_0_duration = 2 mins
+v4_1_name = Road Runner Sports
+v4_1_rating = 4.4
+v4_1_is_open = True
+v4_1_types_0 = shoe store
+v4_1_types_1 = point of interest
+v4_1_types_2 = clothing store
+v4_1_types_3 = store
+v4_1_types_4 = establishment
+v4_1_latitude = 34.016855
+v4_1_longitude = -118.4959
+v4_1_address_simple = 1338 4th Street, Santa Monica
+v4_1_street_number = 1338
+v4_1_street_name = 4th Street
+v4_1_neighborhood = Downtown
+v4_1_locality = Santa Monica
+v4_1_distance = 0.4 mi
+v4_1_duration = 3 mins
+v4_2_name = adidas Store
+v4_2_rating = 4.1
+v4_2_is_open = True
+v4_2_types_0 = point of interest
+v4_2_types_1 = clothing store
+v4_2_types_2 = store
+v4_2_types_3 = establishment
+v4_2_latitude = 34.0164451
+v4_2_longitude = -118.4965478
+v4_2_address_simple = 1337 3rd Street Promenade, Santa Monica
+v4_2_street_number = 1337
+v4_2_street_name = 3rd Street Promenade
+v4_2_neighborhood = Downtown
+v4_2_locality = Santa Monica
+v4_2_distance = 0.6 mi
+v4_2_duration = 4 mins
+PREDICT: I found two places: {} and {}.
+PREDICT: REI
+PREDICT: adidas Store
+PREDICT: wait_for_user
+u3_0 = are
+u3_1 = they
+u3_2 = close
+u3_3 = together
+u3_4 = ?
+PREDICT: distance_matrix
+PREDICT: 34.016428
+PREDICT: -118.494671
+PREDICT: 34.0164451
+PREDICT: -118.4965478
+v5_distance = 0.6 mi
+v5_duration = 5 mins
+PREDICT: {} is {} away from {}.
+PREDICT: REI
+PREDICT: 0.6 mi
+PREDICT: adidas Store
+PREDICT: wait_for_user
+u4_0 = cool
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = try
+u4_5 = roadrunner
+u4_6 = sports
+u4_7 = first
+PREDICT: Great, we are going to {}.
+PREDICT: Road Runner Sports
+PREDICT: start_driving
+PREDICT: 34.016855
+PREDICT: -118.4959

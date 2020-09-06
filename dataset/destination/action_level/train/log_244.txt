@@ -1,0 +1,241 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hey
+u1_1 = ,
+u1_2 = i
+u1_3 = want
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = a
+u1_8 = BBQ
+u1_9 = restaurant
+u1_10 = in
+u1_11 = ktown
+PREDICT: [ACTION] places_nearby [PARAM] BBQ restaurant ktown [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = Sun Ha Jang Restaurant
+v1_0_rating = 3.9
+v1_0_is_open = False
+v1_0_types_0 = Restaurant
+v1_0_types_1 = Food
+v1_0_types_2 = Point of interest
+v1_0_types_3 = Establishment
+v1_0_latitude = 34.0538932
+v1_0_longitude = -118.3216978
+v1_0_address_simple = 4032 West Olympic Boulevard, Los Angeles
+v1_0_street_number = 4032
+v1_0_street_name = West Olympic Boulevard
+v1_0_neighborhood = Mid City
+v1_0_locality = Los Angeles
+v1_0_distance = 13.6 mi
+v1_0_duration = 25 mins
+v1_1_name = Bak Kung
+v1_1_rating = 4.4
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types_0 = Restaurant
+v1_1_types_1 = Food
+v1_1_types_2 = Point of interest
+v1_1_types_3 = Establishment
+v1_1_latitude = 34.0530012
+v1_1_longitude = -118.3190338
+v1_1_address_simple = 3700 West Olympic Boulevard, Los Angeles
+v1_1_street_number = 3700
+v1_1_street_name = West Olympic Boulevard
+v1_1_neighborhood = Mid City
+v1_1_locality = Los Angeles
+v1_1_distance = 13.8 mi
+v1_1_duration = 25 mins
+v1_2_name = Road to Seoul
+v1_2_rating = 4.4
+v1_2_is_open = True
+v1_2_price_level = 2
+v1_2_types_0 = Restaurant
+v1_2_types_1 = Food
+v1_2_types_2 = Point of interest
+v1_2_types_3 = Establishment
+v1_2_latitude = 34.0484855
+v1_2_longitude = -118.308862
+v1_2_address_simple = 1230 South Western Avenue, Los Angeles
+v1_2_street_number = 1230
+v1_2_street_name = South Western Avenue
+v1_2_neighborhood = Mid City
+v1_2_locality = Los Angeles
+v1_2_distance = 14.3 mi
+v1_2_duration = 24 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Sun Ha Jang Restaurant [PARAM] Bak Kung [PARAM] Road to Seoul
+PREDICT: [ACTION] Their ratings are {}, {} and {} respectively [PARAM] 3.9 [PARAM] 4.4 [PARAM] 4.4
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u2_0 = i
+u2_1 = ca
+u2_2 = n't
+u2_3 = remember
+u2_4 = the
+u2_5 = full
+u2_6 = name
+u2_7 = ,
+u2_8 = but
+u2_9 = has
+u2_10 = two
+u2_11 = o
+u2_12 = at
+u2_13 = the
+u2_14 = beginning
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] two o beginning BBQ restaurant ktown [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Park's BBQ
+v2_address = 955 S Vermont Ave G, Los Angeles, CA 90006, United States
+v2_latitude = 34.0539567
+v2_longitude = -118.292058
+v2_price_level = 2
+v2_types_0 = Bar
+v2_types_1 = Restaurant
+v2_types_2 = Food
+v2_types_3 = Point of interest
+v2_types_4 = Establishment
+v2_rating = 4.4
+v2_is_open = True
+v2_address_simple = 955 South Vermont Avenue G, Los Angeles
+v2_street_number = 955
+v2_street_name = South Vermont Avenue
+v2_neighborhood = Koreatown
+v2_locality = Los Angeles
+v2_distance = 15.7 mi
+v2_duration = 28 mins
+PREDICT: [ACTION] find_place [PARAM] ktown [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_name = KTown Pho
+v3_address = 974 S Western Ave, Los Angeles, CA 90006, United States
+v3_latitude = 34.0534317
+v3_longitude = -118.3088845
+v3_price_level = 1
+v3_types_0 = Restaurant
+v3_types_1 = Food
+v3_types_2 = Point of interest
+v3_types_3 = Establishment
+v3_rating = 4.6
+v3_is_open = True
+v3_address_simple = 974 South Western Avenue, Los Angeles
+v3_street_number = 974
+v3_street_name = South Western Avenue
+v3_neighborhood = Koreatown
+v3_locality = Los Angeles
+v3_distance = 14.7 mi
+v3_duration = 26 mins
+PREDICT: [ACTION] places_nearby [PARAM] BBQ restaurant [PARAM] 34.0534317 [PARAM] -118.3088845
+v4_0_name = Chosun Galbee
+v4_0_rating = 4.2
+v4_0_is_open = True
+v4_0_price_level = 3
+v4_0_types_0 = Bar
+v4_0_types_1 = Restaurant
+v4_0_types_2 = Food
+v4_0_types_3 = Point of interest
+v4_0_types_4 = Establishment
+v4_0_latitude = 34.0524295
+v4_0_longitude = -118.310468
+v4_0_address_simple = 3330 West Olympic Boulevard, Los Angeles
+v4_0_street_number = 3330
+v4_0_street_name = West Olympic Boulevard
+v4_0_neighborhood = Mid City
+v4_0_locality = Los Angeles
+v4_0_distance = 0.2 mi
+v4_0_duration = 1 min
+v4_1_name = Ssam Korean BBQ
+v4_1_rating = 4.2
+v4_1_is_open = True
+v4_1_price_level = 2
+v4_1_types_0 = Restaurant
+v4_1_types_1 = Food
+v4_1_types_2 = Point of interest
+v4_1_types_3 = Establishment
+v4_1_latitude = 34.051371
+v4_1_longitude = -118.3088415
+v4_1_address_simple = 1040 South Western Avenue, Los Angeles
+v4_1_street_number = 1040
+v4_1_street_name = South Western Avenue
+v4_1_neighborhood = Mid City
+v4_1_locality = Los Angeles
+v4_1_distance = 0.2 mi
+v4_1_duration = 1 min
+v4_2_name = Eight Korean BBQ
+v4_2_rating = 4.4
+v4_2_is_open = True
+v4_2_price_level = 2
+v4_2_types_0 = Restaurant
+v4_2_types_1 = Food
+v4_2_types_2 = Point of interest
+v4_2_types_3 = Establishment
+v4_2_latitude = 34.0560304
+v4_2_longitude = -118.3099275
+v4_2_address_simple = 863 South Western Avenue, Los Angeles
+v4_2_street_number = 863
+v4_2_street_name = South Western Avenue
+v4_2_neighborhood = Central LA
+v4_2_locality = Los Angeles
+v4_2_distance = 0.2 mi
+v4_2_duration = 1 min
+PREDICT: [ACTION] I am sorry I am unable to find the place.
+PREDICT: [ACTION] Could you please give me the cross streets or a major landmark?
+PREDICT: [ACTION] How about {}? [PARAM] Chosun Galbee
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.2
+PREDICT: [ACTION] wait_for_user
+u3_0 = no
+u3_1 = ,
+u3_2 = maybe
+u3_3 = it
+u3_4 = is
+u3_5 = called
+u3_6 = Oo
+u3_7 = kok
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] Oo kok BBQ ktown [PARAM] 33.9816425 [PARAM] -118.4409761
+v5_name = Oo Kook Korean BBQ
+v5_address = 3385 W 8th St, Los Angeles, CA 90005, United States
+v5_latitude = 34.0580039
+v5_longitude = -118.3028343
+v5_price_level = 2
+v5_types_0 = Restaurant
+v5_types_1 = Food
+v5_types_2 = Point of interest
+v5_types_3 = Establishment
+v5_rating = 4.2
+v5_is_open = True
+v5_address_simple = 3385 West 8th Street, Los Angeles
+v5_street_number = 3385
+v5_street_name = West 8th Street
+v5_neighborhood = Koreatown
+v5_locality = Los Angeles
+v5_distance = 15.3 mi
+v5_duration = 29 mins
+PREDICT: [ACTION] wait_for_user
+u4_0 = sorry
+u4_1 = i
+u4_2 = do
+u4_3 = n't
+u4_4 = know
+u4_5 = any
+u4_6 = major
+u4_7 = landmark
+u4_8 = nearby
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Oo Kook Korean BBQ [PARAM] West 8th Street
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.2
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 29 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = yes
+u5_1 = that
+u5_2 = 's
+u5_3 = the
+u5_4 = one
+u5_5 = i
+u5_6 = am
+u5_7 = looking
+u5_8 = for
+u5_9 = !
+u6_0 = let
+u6_1 = 's
+u6_2 = go
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Oo Kook Korean BBQ
+PREDICT: [ACTION] start_driving [PARAM] 34.0580039 [PARAM] -118.3028343

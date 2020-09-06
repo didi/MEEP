@@ -1,0 +1,60 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = There
+u1_1 = 's
+u1_2 = a
+u1_3 = vegetarian
+u1_4 = chinese
+u1_5 = restaurant
+u1_6 = in
+u1_7 = Kensington
+u1_8 = Market
+u1_9 = ,
+u1_10 = can
+u1_11 = we
+u1_12 = go
+u1_13 = there
+u1_14 = ?
+PREDICT: find_place
+PREDICT: vegetarian chinese restaurant in Kensington Market
+PREDICT: 43.657
+PREDICT: -79.401
+v1_name = King's Café
+v1_address = 192 Augusta Ave, Toronto, ON M5T 2L6, Canada
+v1_price_level = 2
+v1_rating = 4.5
+v1_is_open = True
+v1_latitude = 43.6542507
+v1_longitude = -79.402061
+v1_street_number = 192
+v1_street_name = Augusta Avenue
+v1_locality = Toronto
+v1_distance = 0.6 mi
+v1_duration = 4 mins
+PREDICT: Do you mean {}?
+PREDICT: King's Café
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = so
+u2_3 = ,
+u2_4 = is
+u2_5 = it
+u2_6 = on
+u2_7 = Augusta
+u2_8 = ?
+PREDICT: It is on {}.
+PREDICT: Augusta Avenue
+PREDICT: wait_for_user
+u3_0 = That
+u3_1 = 's
+u3_2 = the
+u3_3 = one
+u3_4 = ,
+u3_5 = let
+u3_6 = 's
+u3_7 = go
+PREDICT: start_driving
+PREDICT: 43.6542507
+PREDICT: -79.402061

@@ -1,0 +1,45 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Staples
+u1_6 = Center
+u1_7 = .
+PREDICT: find_place
+PREDICT: Staples Center
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 1111 S Figueroa St, Los Angeles, CA 90015, United States
+v1_name = STAPLES Center
+v1_latitude = 34.0430175
+v1_longitude = -118.2672541
+v1_place_id = ChIJkyrqXbjHwoAR1bJ76zx89B8
+v1_street_number = 1111
+v1_street_name = South Figueroa Street
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 16.8 mi
+v1_duration = 29 mins
+PREDICT: {} on {}?
+PREDICT: STAPLES Center
+PREDICT: Downtown Los Angeles
+PREDICT: wait_for_user
+u2_0 = Yes
+PREDICT: It is {} and {} away.
+PREDICT: 16.8 mi
+PREDICT: 29 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = Yes
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = .
+PREDICT: start_driving
+PREDICT: 34.0430175
+PREDICT: -118.2672541

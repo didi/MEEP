@@ -1,0 +1,27 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = gladstone
+u1_1 = 's
+u1_2 = for
+u1_3 = fish
+PREDICT: [ACTION] find_place [PARAM] gladstone 's [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 17300 Pacific Coast Hwy, Pacific Palisades, CA 90272, United States
+v1_name = Gladstones Restaurant
+v1_latitude = 34.038338
+v1_longitude = -118.556578
+v1_place_id = ChIJ08qT1PKjwoARY8Fo8DyaBwY
+v1_street_number = 17300
+v1_street_name = Pacific Coast Highway
+v1_neighborhood = Pacific Palisades
+v1_locality = Los Angeles
+v1_distance = 10.5 mi
+v1_duration = 31 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Gladstones Restaurant [PARAM] Pacific Coast Highway
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+u2_1 = the
+u2_2 = seafood
+u2_3 = place
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.038338 [PARAM] -118.556578

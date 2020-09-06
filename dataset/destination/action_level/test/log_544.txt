@@ -1,0 +1,48 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = comic
+u1_8 = book
+u1_9 = store
+PREDICT: [ACTION] find_place [PARAM] comic book store [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Dreamworld Comics
+v1_address = 12402 Washington Pl, Los Angeles, CA 90066, United States
+v1_latitude = 33.9989607
+v1_longitude = -118.4304311
+v1_types_0 = book store
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = 12402 Washington Place, Los Angeles
+v1_street_number = 12402
+v1_street_name = Washington Place
+v1_neighborhood = Culver - West
+v1_locality = Los Angeles
+v1_distance = 1.8 mi
+v1_duration = 9 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Dreamworld Comics [PARAM] Culver - West
+PREDICT: [ACTION] wait_for_user
+u2_0 = How
+u2_1 = far
+u2_2 = is
+u2_3 = it
+u2_4 = ?
+PREDICT: [ACTION] It is {} away. [PARAM] 1.8 mi
+PREDICT: [ACTION] wait_for_user
+u3_0 = Ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Dreamworld Comics
+PREDICT: [ACTION] start_driving [PARAM] 33.9989607 [PARAM] -118.4304311

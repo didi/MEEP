@@ -1,0 +1,35 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Big
+u1_6 = Bull
+u2_0 = its
+u2_1 = a
+u2_2 = temple
+PREDICT: find_place
+PREDICT: Big Bull temple
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v1_name = Shree Dodda Ganapathi Temple
+v1_address = Bull Temple Rd, Basavanagudi, Bengaluru, Karnataka 560004, India
+v1_rating = 4.7
+v1_latitude = 12.942898
+v1_longitude = 77.56819660000001
+v1_street_name = Bull Temple Road
+v1_locality = Bengaluru
+v1_distance = 0.6 mi
+v1_duration = 4 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Shree Dodda Ganapathi Temple
+PREDICT: Bull Temple Road
+PREDICT: wait_for_user
+u3_0 = yes
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 12.942898
+PREDICT: 77.56819660000001

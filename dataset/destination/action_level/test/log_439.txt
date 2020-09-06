@@ -1,0 +1,122 @@
+source_address = Holyoke, MA, USA
+source_latitude = 42.2042586
+source_longitude = -72.61620089999997
+u1_0 = is
+u1_1 = there
+u1_2 = a
+u1_3 = climbing
+u1_4 = gym
+u1_5 = around
+u1_6 = here
+PREDICT: [ACTION] places_nearby [PARAM] climbing gym [PARAM] 42.2042586 [PARAM] -72.61620089999997
+v1_0_name = Cliffhangers-Rock Wall Party Rentals
+v1_0_rating = 0
+v1_0_is_open = True
+v1_0_types_0 = food
+v1_0_types_1 = point of interest
+v1_0_types_2 = establishment
+v1_0_latitude = 42.17882789999999
+v1_0_longitude = -72.5258475
+v1_0_address_simple = 72 Fairway Drive, Chicopee
+v1_0_street_number = 72
+v1_0_street_name = Fairway Drive
+v1_0_locality = Chicopee
+v1_0_distance = 8.1 mi
+v1_0_duration = 18 mins
+v1_1_name = drews rock climbing gym
+v1_1_rating = 0
+v1_1_types_0 = gym
+v1_1_types_1 = health
+v1_1_types_2 = point of interest
+v1_1_types_3 = establishment
+v1_1_latitude = 42.3230307
+v1_1_longitude = -72.6255901
+v1_1_address_simple = 96 Bridge Street, Northampton
+v1_1_street_number = 96
+v1_1_street_name = Bridge Street
+v1_1_locality = Northampton
+v1_1_distance = 11.8 mi
+v1_1_duration = 17 mins
+v1_2_name = Northampton Athletic Club
+v1_2_rating = 4.6
+v1_2_is_open = True
+v1_2_types_0 = gym
+v1_2_types_1 = health
+v1_2_types_2 = point of interest
+v1_2_types_3 = establishment
+v1_2_latitude = 42.332457
+v1_2_longitude = -72.635758
+v1_2_address_simple = 306 King Street, Northampton
+v1_2_street_number = 306
+v1_2_street_name = King Street
+v1_2_locality = Northampton
+v1_2_distance = 12.3 mi
+v1_2_duration = 20 mins
+PREDICT: [ACTION] I found two places: {} and {}. [PARAM] Cliffhangers-Rock Wall Party Rentals [PARAM] drews rock climbing gym
+PREDICT: [ACTION] They are all rated {}. [PARAM] 0
+PREDICT: [ACTION] wait_for_user
+u2_0 = party
+u2_1 = rentals
+u2_2 = is
+u2_3 = definitely
+u2_4 = not
+u2_5 = it
+u3_0 = is
+u3_1 = n't
+u3_2 = there
+u3_3 = something
+u3_4 = in
+u3_5 = Hadley
+u3_6 = ?
+PREDICT: [ACTION] places_nearby [PARAM] climbing gym Hadley [PARAM] 42.2042586 [PARAM] -72.61620089999997
+v2_0_name = Central Rock Gym
+v2_0_rating = 4.7
+v2_0_is_open = True
+v2_0_types_0 = gym
+v2_0_types_1 = health
+v2_0_types_2 = point of interest
+v2_0_types_3 = establishment
+v2_0_latitude = 42.3420669
+v2_0_longitude = -72.5844906
+v2_0_address_simple = 165 Russell Street, Hadley
+v2_0_street_number = 165
+v2_0_street_name = Russell Street
+v2_0_locality = Hadley
+v2_0_distance = 13.0 mi
+v2_0_duration = 19 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Central Rock Gym
+PREDICT: [ACTION] wait_for_user
+u4_0 = is
+u4_1 = that
+u4_2 = in
+u4_3 = Hadley
+u4_4 = ?
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u5_0 = ok
+u5_1 = .
+u5_2 = I
+u5_3 = hope
+u5_4 = it
+u5_5 = 's
+u5_6 = not
+u5_7 = rated
+u5_8 = 0
+u5_9 = ...
+u5_10 = how
+u5_11 = long
+u5_12 = will
+u5_13 = it
+u5_14 = take
+u5_15 = to
+u5_16 = get
+u5_17 = there
+u5_18 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.7
+PREDICT: [ACTION] It is {} away. [PARAM] 19 mins
+PREDICT: [ACTION] wait_for_user
+u6_0 = take
+u6_1 = me
+u6_2 = there
+u6_3 = please
+PREDICT: [ACTION] start_driving [PARAM] 42.3420669 [PARAM] -72.5844906

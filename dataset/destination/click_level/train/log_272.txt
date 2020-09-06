@@ -1,0 +1,47 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = nearest
+u1_8 = UnionBank
+u1_9 = .
+PREDICT: find_place
+PREDICT: UnionBank
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Union Bank
+v1_address = 4240 Lincoln Blvd, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9862953
+v1_longitude = -118.4435584
+v1_types_0 = Bank
+v1_types_1 = Atm
+v1_types_2 = Finance
+v1_types_3 = Point of interest
+v1_types_4 = Establishment
+v1_rating = 3.4
+v1_is_open = True
+v1_address_simple = 4240 Lincoln Boulevard, Marina del Rey
+v1_street_number = 4240
+v1_street_name = Lincoln Boulevard
+v1_locality = Marina del Rey
+v1_distance = 0.5 mi
+v1_duration = 4 mins
+PREDICT: How about one on {}? It is {} away.
+PREDICT: Lincoln Boulevard
+PREDICT: 0.5 mi
+PREDICT: wait_for_user
+u2_0 = Perfect
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+u2_5 = .
+PREDICT: start_driving
+PREDICT: 33.9862953
+PREDICT: -118.4435584

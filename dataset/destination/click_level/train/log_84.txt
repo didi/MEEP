@@ -1,0 +1,211 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hey
+u1_1 = i
+u1_2 = wan
+u1_3 = na
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = museum
+u1_8 = near
+u1_9 = USC
+u2_0 = i
+u2_1 = ca
+u2_2 = n't
+u2_3 = remember
+u2_4 = the
+u2_5 = exact
+u2_6 = name
+PREDICT: find_place
+PREDICT: USC
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = Los Angeles, CA 90007, United States
+v1_name = University of Southern California
+v1_latitude = 34.0223519
+v1_longitude = -118.285117
+v1_place_id = ChIJ7aVxnOTHwoARxKIntFtakKo
+v1_locality = Los Angeles
+v1_neighborhood = South Los Angeles
+v1_distance = 15.7 mi
+v1_duration = 28 mins
+PREDICT: places_nearby
+PREDICT: museum
+PREDICT: 34.0223519
+PREDICT: -118.285117
+v2_0_name = Hancock Memorial Museum
+v2_0_rating = 3.5
+v2_0_is_open = False
+v2_0_place_id = ChIJaSqPRuTHwoARibTlM__oxq8
+v2_0_price_level = 2
+v2_0_types = ['museum', 'tourist_attraction', 'point_of_interest', 'establishment']
+v2_0_latitude = 34.0196019
+v2_0_longitude = -118.285231
+v2_0_address = University Ave At Childs Way, Los Angeles, CA 90089, USA
+v2_0_street_name = University Ave At Childs Way
+v2_0_neighborhood = South Los Angeles
+v2_0_locality = Los Angeles
+v2_1_name = USC Fisher Museum of Art
+v2_1_rating = 4.8
+v2_1_is_open = True
+v2_1_place_id = ChIJ7wU93vzHwoARWzQtB31pxE8
+v2_1_price_level = 2
+v2_1_types = ['tourist_attraction', 'museum', 'point_of_interest', 'establishment']
+v2_1_latitude = 34.0185904
+v2_1_longitude = -118.2873007
+v2_1_address = 823 W Exposition Blvd, Los Angeles, CA 90089, USA
+v2_1_street_number = 823
+v2_1_street_name = West Exposition Boulevard
+v2_1_neighborhood = South Los Angeles
+v2_1_locality = Los Angeles
+v2_2_name = Viterbi museum
+v2_2_rating = 2
+v2_2_place_id = ChIJfSP44XzHwoARaUdMUsH1Uw4
+v2_2_types = ['museum', 'point_of_interest', 'establishment']
+v2_2_latitude = 34.0201369
+v2_2_longitude = -118.2899273
+v2_2_address = Tutor Hall, 941 W 37th St, Los Angeles, CA 90089, USA
+v2_2_establishment = Tutor Hall
+v2_2_street_number = 941
+v2_2_street_name = West 37th Street
+v2_2_neighborhood = South Los Angeles
+v2_2_locality = Los Angeles
+PREDICT: Do you mean {}?
+PREDICT: Hancock Memorial Museum
+PREDICT: wait_for_user
+u3_0 = no
+u4_0 = i
+u4_1 = think
+u4_2 = the
+u4_3 = topic
+u4_4 = is
+u4_5 = about
+u4_6 = history
+PREDICT: Do you mean {}?
+PREDICT: Viterbi museum
+PREDICT: wait_for_user
+u5_0 = no
+u5_1 = ,
+u5_2 = it
+u5_3 = 's
+u5_4 = just
+u5_5 = next
+u5_6 = to
+u5_7 = LA
+u5_8 = Memorial
+u5_9 = Coliseum
+PREDICT: find_place
+PREDICT: LA Memorial Coliseum
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_address = 3911 S Figueroa St, Los Angeles, CA 90037, United States
+v3_name = LA Memorial Coliseum
+v3_latitude = 34.0140526
+v3_longitude = -118.2878754
+v3_place_id = ChIJ-2dO1wfIwoARNj2U1XAKz1Q
+v3_street_number = 3911
+v3_street_name = South Figueroa Street
+v3_neighborhood = South Los Angeles
+v3_locality = Los Angeles
+v3_distance = 19.2 mi
+v3_duration = 29 mins
+PREDICT: places_nearby
+PREDICT: history museum
+PREDICT: 34.0140526
+PREDICT: -118.2878754
+v4_0_name = Space Shuttle Endeavour
+v4_0_rating = 4.9
+v4_0_is_open = True
+v4_0_place_id = ChIJN2jFqeLHwoARsow_cjImohI
+v4_0_types = ['tourist_attraction', 'museum', 'point_of_interest', 'establishment']
+v4_0_latitude = 34.0162494
+v4_0_longitude = -118.2873699
+v4_0_address = 700 Exposition Park Dr, Los Angeles, CA 90037, USA
+v4_0_street_number = 700
+v4_0_street_name = Exposition Park Drive
+v4_0_neighborhood = South Los Angeles
+v4_0_locality = Los Angeles
+v4_1_name = Natural History Research Library
+v4_1_rating = 4.7
+v4_1_is_open = True
+v4_1_place_id = ChIJXzARBf3HwoAR-3YILnciod4
+v4_1_types = ['library', 'point_of_interest', 'establishment']
+v4_1_latitude = 34.0166954
+v4_1_longitude = -118.2887435
+v4_1_address = 900 Exposition Blvd, Los Angeles, CA 90007, USA
+v4_1_street_number = 900
+v4_1_street_name = Exposition Boulevard
+v4_1_neighborhood = South Los Angeles
+v4_1_locality = Los Angeles
+v4_2_name = Natural History Museum of Los Angeles County (NHM)
+v4_2_rating = 4.7
+v4_2_is_open = True
+v4_2_place_id = ChIJXzARBf3HwoARJyT7uZSV-G4
+v4_2_types = ['tourist_attraction', 'museum', 'point_of_interest', 'establishment']
+v4_2_latitude = 34.0169567
+v4_2_longitude = -118.2887703
+v4_2_address = 900 W Exposition Blvd, Los Angeles, CA 90007, USA
+v4_2_street_number = 900
+v4_2_street_name = West Exposition Boulevard
+v4_2_neighborhood = South Los Angeles
+v4_2_locality = Los Angeles
+PREDICT: distance_matrix
+PREDICT: 34.0169567
+PREDICT: -118.2887703
+PREDICT: 34.0140526
+PREDICT: -118.2878754
+v5_distance = 1.1 mi
+v5_duration = 7 mins
+PREDICT: Do you mean {}?
+PREDICT: Natural History Museum of Los Angeles County (NHM)
+PREDICT: {} is {} away from {}.
+PREDICT: Natural History Museum of Los Angeles County (NHM)
+PREDICT: 1.1 mi
+PREDICT: LA Memorial Coliseum
+PREDICT: wait_for_user
+u6_0 = yes
+u6_1 = !
+u6_2 = that
+u6_3 = 's
+u6_4 = the
+u6_5 = one
+u6_6 = i
+u6_7 = am
+u6_8 = looking
+u6_9 = for
+u6_10 = !
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u7_0 = how
+u7_1 = long
+u7_2 = will
+u7_3 = it
+u7_4 = take
+u7_5 = if
+u7_6 = i
+u7_7 = leave
+u7_8 = now
+u7_9 = ?
+PREDICT: distance_matrix
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: 34.0169567
+PREDICT: -118.2887703
+v6_distance = 10.3 mi
+v6_duration = 29 mins
+PREDICT: It will take us {} to get there.
+PREDICT: 29 mins
+PREDICT: wait_for_user
+u8_0 = sounds
+u8_1 = good
+u8_2 = ,
+u8_3 = let
+u8_4 = 's
+u8_5 = go
+u8_6 = .
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 34.0169567
+PREDICT: -118.2887703

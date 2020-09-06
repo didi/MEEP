@@ -1,0 +1,71 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = sushi
+u1_7 = restaurant
+u1_8 = in
+u1_9 = king
+u1_10 = city
+PREDICT: find_place
+PREDICT: sushi restaurant king city
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Paper Crane Sushi Bar & Bistro
+v1_address = 12975 Keele St #1, King City, ON L7B 1G2, Canada
+v1_rating = 4.7
+v1_is_open = True
+v1_latitude = 43.9280342
+v1_longitude = -79.5278972
+v1_street_number = 12975
+v1_street_name = Keele Street
+v1_locality = King City
+v1_distance = 6.1 mi
+v1_duration = 13 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Paper Crane Sushi Bar & Bistro
+PREDICT: Keele Street
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = what
+u2_3 = is
+u2_4 = its
+u2_5 = rating
+u2_6 = ?
+PREDICT: Sure, give me a moment.
+PREDICT: places_nearby
+PREDICT: sushi restaurant king city
+PREDICT: 43.848
+PREDICT: -79.525
+v2_0_name = Paper Crane Sushi Bar & Bistro
+v2_0_rating = 4.7
+v2_0_is_open = True
+v2_0_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v2_0_latitude = 43.9280342
+v2_0_longitude = -79.5278972
+v2_0_address = 12975 Keele St #1, King City, ON L7B 1G2, Canada
+v2_0_street_number = 12975
+v2_0_street_name = Keele Street
+v2_0_locality = King City
+v2_0_distance = 6.1 mi
+v2_0_duration = 13 mins
+PREDICT: It has a rating of {}.
+PREDICT: 4.7
+PREDICT: wait_for_user
+u3_0 = Awesome
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = !
+PREDICT: Pleasure serving you!
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 43.9280342
+PREDICT: -79.5278972

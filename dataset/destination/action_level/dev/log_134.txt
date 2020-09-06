@@ -1,0 +1,54 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Christmas
+u1_8 = Market
+PREDICT: [ACTION] find_place [PARAM] Christmas Market [PARAM] 43.657 [PARAM] -79.401
+v1_name = Toronto Christmas Market
+v1_address = 373 Front St E, Toronto, ON M5A 1G4, Canada
+v1_rating = 4.2
+v1_is_open = True
+v1_latitude = 43.6503526
+v1_longitude = -79.3598732
+v1_street_number = 373
+v1_street_name = Front Street East
+v1_locality = Toronto
+v1_distance = 2.9 mi
+v1_duration = 17 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Toronto Christmas Market [PARAM] 373 Front St E, Toronto, ON M5A 1G4, Canada
+PREDICT: [ACTION] wait_for_user
+u2_0 = Is
+u2_1 = that
+u2_2 = near
+u2_3 = the
+u2_4 = Distillery
+u2_5 = District
+u2_6 = ?
+PREDICT: [ACTION] find_place [PARAM] Distillery District [PARAM] 43.657 [PARAM] -79.401
+v2_name = Distillery District
+v2_address = Distillery District, Toronto, ON, Canada
+v2_latitude = 43.65030549999999
+v2_longitude = -79.35958
+v2_neighborhood = Distillery District
+v2_locality = Toronto
+v2_distance = 2.9 mi
+v2_duration = 17 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 43.6503526 [PARAM] -79.3598732 [PARAM] 43.65030549999999 [PARAM] -79.35958
+v3_distance = 1 ft
+v3_duration = 1 min
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Toronto Christmas Market [PARAM] 1 min [PARAM] Distillery District
+PREDICT: [ACTION] wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = .
+PREDICT: [ACTION] start_driving [PARAM] 43.6503526 [PARAM] -79.3598732

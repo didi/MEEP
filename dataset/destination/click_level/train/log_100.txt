@@ -1,0 +1,38 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = universal
+u1_6 = studios
+u1_7 = .
+PREDICT: find_place
+PREDICT: universal studios
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 100 Universal City Plaza, Universal City, CA 91608, United States
+v1_name = Universal Studios Hollywood
+v1_latitude = 34.13811680000001
+v1_longitude = -118.3533783
+v1_place_id = ChIJzzgyJU--woARcZqceSdQ3dM
+v1_street_number = 100
+v1_street_name = Universal City Plaza
+v1_neighborhood = Central LA
+v1_locality = Universal City
+v1_distance = 24.2 mi
+v1_duration = 39 mins
+PREDICT: {} is {} away.
+PREDICT: Universal Studios Hollywood
+PREDICT: 24.2 mi
+PREDICT: wait_for_user
+u2_0 = let
+u2_1 = 's
+u2_2 = roll
+u2_3 = !
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 34.13811680000001
+PREDICT: -118.3533783

@@ -1,0 +1,78 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = supreme
+PREDICT: [ACTION] find_place [PARAM] supreme [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Supreme
+v1_address = 439 N Fairfax Ave, Los Angeles, CA 90036, United States
+v1_latitude = 34.0792947
+v1_longitude = -118.3617683
+v1_types_0 = clothing store
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 3.7
+v1_is_open = True
+v1_address_simple = 439 North Fairfax Avenue, Los Angeles
+v1_street_number = 439
+v1_street_name = North Fairfax Avenue
+v1_neighborhood = Central LA
+v1_locality = Los Angeles
+v1_distance = 13.3 mi
+v1_duration = 31 mins
+PREDICT: [ACTION] There is a {} on {}. [PARAM] Supreme [PARAM] North Fairfax Avenue
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 13.3 mi [PARAM] 31 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = is
+u2_1 = it
+u2_2 = in
+u2_3 = West
+u2_4 = LA
+u2_5 = ?
+PREDICT: [ACTION] It is in {}. [PARAM] Central LA
+PREDICT: [ACTION] find_place [PARAM] West LA [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = West Los Angeles
+v2_address = West Los Angeles, Los Angeles, CA, USA
+v2_latitude = 34.0412085
+v2_longitude = -118.442596
+v2_types_0 = neighborhood
+v2_types_1 = political
+v2_address_simple = Los Angeles
+v2_neighborhood = West Los Angeles
+v2_locality = Los Angeles
+v2_distance = 8.2 mi
+v2_duration = 17 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 34.0412085 [PARAM] -118.442596 [PARAM] 34.0792947 [PARAM] -118.3617683
+v3_distance = 6.6 mi
+v3_duration = 25 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Supreme [PARAM] 6.6 mi [PARAM] West Los Angeles
+PREDICT: [ACTION] wait_for_user
+u3_0 = is
+u3_1 = it
+u3_2 = close
+u3_3 = to
+u3_4 = beverly
+u3_5 = hill
+u3_6 = ?
+PREDICT: [ACTION] find_place [PARAM] beverly hill [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = Beverly Hills
+v4_address = Beverly Hills, CA, USA
+v4_latitude = 34.0736204
+v4_longitude = -118.4003563
+v4_types_0 = locality
+v4_types_1 = political
+v4_address_simple = Beverly Hills
+v4_locality = Beverly Hills
+v4_distance = 11.7 mi
+v4_duration = 25 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 34.0736204 [PARAM] -118.4003563 [PARAM] 34.0792947 [PARAM] -118.3617683
+v5_distance = 2.5 mi
+v5_duration = 11 mins
+PREDICT: [ACTION] It is {} away from {}. [PARAM] 2.5 mi [PARAM] Beverly Hills
+PREDICT: [ACTION] wait_for_user
+u4_0 = sounds
+u4_1 = correct
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 34.0792947 [PARAM] -118.3617683

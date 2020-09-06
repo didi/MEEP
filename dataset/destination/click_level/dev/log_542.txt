@@ -1,0 +1,48 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = MedMen
+u1_7 = on
+u1_8 = Abbot
+u1_9 = Kinney
+PREDICT: find_place
+PREDICT: MedMen Abbot Kinney
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = MedMen Venice Beach - Abbot Kinney
+v1_address = 1310 Abbot Kinney Blvd, Venice, CA 90291, United States
+v1_latitude = 33.9909123
+v1_longitude = -118.4679156
+v1_types_0 = point of interest
+v1_types_1 = store
+v1_types_2 = establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 1310 Abbot Kinney Boulevard, Venice
+v1_street_number = 1310
+v1_street_name = Abbot Kinney Boulevard
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 2.2 mi
+v1_duration = 10 mins
+PREDICT: {} is {} away.
+PREDICT: MedMen Venice Beach - Abbot Kinney
+PREDICT: 2.2 mi
+PREDICT: wait_for_user
+u2_0 = Perfect
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: start_driving
+PREDICT: 33.9909123
+PREDICT: -118.4679156
+PREDICT: start_driving
+PREDICT: 33.9909123
+PREDICT: -118.4679156

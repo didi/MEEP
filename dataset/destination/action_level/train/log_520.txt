@@ -1,0 +1,4 @@
+source_address = City Hall MRT, Singapore
+source_latitude = 1.2924789
+source_longitude = 103.85233199999993
+PREDICT: [ACTION] start_driving [PARAM] 1.2846292 [PARAM] 103.8646975

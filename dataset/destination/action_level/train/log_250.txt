@@ -1,0 +1,93 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = surf
+u1_8 = shop
+u1_9 = .
+u2_0 = Nearby
+PREDICT: [ACTION] find_place [PARAM] surf shop [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Action Watersports
+v1_address = 4144 Lincoln Blvd, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9873848
+v1_longitude = -118.4445876
+v1_types_0 = Bicycle store
+v1_types_1 = Point of interest
+v1_types_2 = Store
+v1_types_3 = Establishment
+v1_rating = 3.6
+v1_is_open = True
+v1_address_simple = 4144 Lincoln Boulevard, Marina del Rey
+v1_street_number = 4144
+v1_street_name = Lincoln Boulevard
+v1_locality = Marina del Rey
+v1_distance = 0.6 mi
+v1_duration = 4 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Action Watersports [PARAM] Lincoln Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 4 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = That
+u3_1 = does
+u3_2 = n't
+u3_3 = sound
+u3_4 = very
+u3_5 = promising
+u3_6 = .
+u3_7 = Is
+u3_8 = n't
+u3_9 = there
+u3_10 = one
+u3_11 = super
+u3_12 = close
+u3_13 = by
+u3_14 = on
+u3_15 = Washington
+u3_16 = ?
+PREDICT: [ACTION] find_place [PARAM] surf shop Washington [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Rider Shack
+v2_address = 13211 W Washington Blvd, Los Angeles, CA 90066, United States
+v2_latitude = 33.9936179
+v2_longitude = -118.441945
+v2_types_0 = Point of interest
+v2_types_1 = Store
+v2_types_2 = Establishment
+v2_rating = 4.3
+v2_is_open = True
+v2_address_simple = 13211 West Washington Boulevard, Los Angeles
+v2_street_number = 13211
+v2_street_name = West Washington Boulevard
+v2_neighborhood = Culver - West
+v2_locality = Los Angeles
+v2_distance = 1.3 mi
+v2_duration = 8 mins
+PREDICT: [ACTION] There is a {} nearby. [PARAM] Rider Shack
+PREDICT: [ACTION] It is on {}. [PARAM] West Washington Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 8 mins
+PREDICT: [ACTION] wait_for_user
+u4_0 = Yeah
+u4_1 = that
+u4_2 = 's
+u4_3 = the
+u4_4 = one
+u4_5 = .
+u4_6 = How
+u4_7 = 's
+u4_8 = it
+u4_9 = rated
+u4_10 = ?
+PREDICT: [ACTION] {} has a rating of {}. [PARAM] Rider Shack [PARAM] 4.3
+PREDICT: [ACTION] wait_for_user
+u5_0 = KK
+u5_1 = solid
+u6_0 = let
+u6_1 = 's
+u6_2 = go
+u6_3 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Rider Shack
+PREDICT: [ACTION] start_driving [PARAM] 33.9936179 [PARAM] -118.441945

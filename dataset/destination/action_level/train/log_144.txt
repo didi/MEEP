@@ -1,0 +1,33 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = GO
+u1_7 = station
+PREDICT: [ACTION] find_place [PARAM] GO station [PARAM] 43.848 [PARAM] -79.525
+v1_name = Rutherford
+v1_address = Vaughan, ON L4K 4Z1, Canada
+v1_rating = 2.7
+v1_latitude = 43.8384447
+v1_longitude = -79.4987921
+v1_neighborhood = Concord
+v1_locality = Vaughan
+v1_distance = 2.4 mi
+v1_duration = 9 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Rutherford
+PREDICT: [ACTION] wait_for_user
+u2_0 = the
+u2_1 = go
+u2_2 = station
+u2_3 = on
+u2_4 = Rutherford
+u2_5 = ,
+u2_6 = yes
+PREDICT: [ACTION] Going to {} in {}. [PARAM] Rutherford [PARAM] Vaughan
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 43.8384447 [PARAM] -79.4987921

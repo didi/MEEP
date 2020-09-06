@@ -1,0 +1,163 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = boxing
+u1_8 = match
+u1_9 = ,
+u1_10 = it
+u1_11 = 's
+u1_12 = at
+u1_13 = a
+u1_14 = large
+u1_15 = venue
+u1_16 = ,
+u1_17 = not
+u1_18 = Staples
+u1_19 = Center
+u1_20 = .
+PREDICT: [ACTION] find_place [PARAM] boxing match [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Mongoose Fight System
+v1_address = 17228 Saticoy St, Van Nuys, CA 91406, United States
+v1_latitude = 34.207145
+v1_longitude = -118.5080736
+v1_types_0 = gym
+v1_types_1 = health
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 0
+v1_address_simple = 17228 Saticoy Street, Van Nuys
+v1_street_number = 17228
+v1_street_name = Saticoy Street
+v1_neighborhood = Van Nuys
+v1_locality = Los Angeles
+v1_distance = 21.9 mi
+v1_duration = 33 mins
+PREDICT: [ACTION] find_place [PARAM] boxing match large venue [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] places_nearby [PARAM] large boxing venue [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] find_place [PARAM] boxing match venue [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = Dignity Health Sports Park
+v4_address = 18400 S Avalon Blvd, Carson, CA 90746, United States
+v4_latitude = 33.8643777
+v4_longitude = -118.2611426
+v4_types_0 = stadium
+v4_types_1 = gym
+v4_types_2 = health
+v4_types_3 = point of interest
+v4_types_4 = establishment
+v4_rating = 4.5
+v4_address_simple = 18400 South Avalon Boulevard, Carson
+v4_street_number = 18400
+v4_street_name = South Avalon Boulevard
+v4_locality = Carson
+v4_distance = 17.5 mi
+v4_duration = 27 mins
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] stadium [PARAM] Dignity Health Sports Park [PARAM] South Avalon Boulevard [PARAM] Carson
+PREDICT: [ACTION] wait_for_user
+u2_0 = Oh
+u2_1 = ,
+u2_2 = I
+u2_3 = know
+u2_4 = that
+u2_5 = one
+u2_6 = .
+u2_7 = That
+u2_8 = 's
+u2_9 = too
+u2_10 = far
+u2_11 = the
+u2_12 = one
+u2_13 = I
+u2_14 = 'm
+u2_15 = thinking
+u2_16 = of
+u2_17 = is
+u2_18 = where
+u2_19 = the
+u2_20 = Lakers
+u2_21 = used
+u2_22 = to
+u2_23 = play
+u2_24 = .
+u3_0 = I
+u3_1 = believe
+u3_2 = it
+u3_3 = 's
+u3_4 = in
+u3_5 = Inglewood
+u3_6 = .
+PREDICT: [ACTION] find_place [PARAM] where the Lakers used to play [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] find_place [PARAM] Inglewood [PARAM] 33.9816425 [PARAM] -118.4409761
+v6_name = Inglewood
+v6_address = Inglewood, CA, USA
+v6_latitude = 33.9616801
+v6_longitude = -118.3531311
+v6_types_0 = locality
+v6_types_1 = political
+v6_address_simple = Inglewood
+v6_locality = Inglewood
+v6_distance = 6.5 mi
+v6_duration = 14 mins
+PREDICT: [ACTION] find_place [PARAM] Lakers play [PARAM] 33.9616801 [PARAM] -118.3531311
+v7_name = Los Angeles Lakers
+v7_address = 2275 E Mariposa Ave, El Segundo, CA 90245, United States
+v7_latitude = 33.9242555
+v7_longitude = -118.3840595
+v7_types_0 = point of interest
+v7_types_1 = establishment
+v7_rating = 4.4
+v7_is_open = True
+v7_address_simple = 2275 East Mariposa Avenue, El Segundo
+v7_street_number = 2275
+v7_street_name = East Mariposa Avenue
+v7_locality = El Segundo
+v7_distance = 5.2 mi
+v7_duration = 13 mins
+u4_0 = The
+u4_1 = venue
+u4_2 = is
+u4_3 = huge
+u4_4 = ,
+u4_5 = it
+u4_6 = holds
+u4_7 = large
+u4_8 = concerts
+u4_9 = and
+u4_10 = sporting
+u4_11 = events
+u4_12 = .
+PREDICT: [ACTION] find_place [PARAM] large concerts and sporting events [PARAM] 33.9616801 [PARAM] -118.3531311
+v8_name = The Forum
+v8_address = 3900 W Manchester Blvd, Inglewood, CA 90305, United States
+v8_latitude = 33.9582109
+v8_longitude = -118.3419015
+v8_types_0 = point of interest
+v8_types_1 = establishment
+v8_rating = 4.5
+v8_is_open = True
+v8_address_simple = 3900 West Manchester Boulevard, Inglewood
+v8_street_number = 3900
+v8_street_name = West Manchester Boulevard
+v8_neighborhood = South Los Angeles
+v8_locality = Inglewood
+v8_distance = 1.0 mi
+v8_duration = 5 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] The Forum
+PREDICT: [ACTION] wait_for_user
+u5_0 = Yup
+u5_1 = ,
+u5_2 = that
+u5_3 = 's
+u5_4 = it
+u5_5 = .
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u6_0 = Yes
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] The Forum
+PREDICT: [ACTION] start_driving [PARAM] 33.9582109 [PARAM] -118.3419015

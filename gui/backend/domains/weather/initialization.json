@@ -1,0 +1,21 @@
+{
+  "initial_message": {
+        "body": "Hello, what would you like to know about the weather?",
+        "template": "Hello, what would you like to know about the weather?",
+        "variables": [],
+        "sender": "agent"
+    },
+  "initial_variables": {
+    "variable_group": "source",
+    "variables": [
+      {
+        "name": "name",
+        "value": "Marina del Rey, CA"
+      },
+      {
+        "name": "latlon",
+        "value": "33.9816425,-118.4409761"
+      }
+    ]
+  }
+}

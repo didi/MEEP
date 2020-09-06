@@ -1,0 +1,85 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+PREDICT: Please let me know where you would like to go now. 
+PREDICT: wait_for_user
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = get
+u1_5 = some
+u1_6 = Thai
+u1_7 = food
+u1_8 = in
+u1_9 = Hollywood
+u1_10 = ,
+u1_11 = I
+u1_12 = think
+u1_13 = the
+u1_14 = place
+u1_15 = is
+u1_16 = called
+u1_17 = Love
+u1_18 = To
+u1_19 = Eat
+u1_20 = .
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: Thai food Love To Eat Hollywood
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 6660 Sunset Blvd, Los Angeles, CA 90028, United States
+v1_name = Luv2eat Thai Bistro
+v1_latitude = 34.0977048
+v1_longitude = -118.3359536
+v1_place_id = ChIJice5PyW_woARfsR5aDz03K0
+v1_street_number = 6660
+v1_street_name = Sunset Boulevard
+v1_neighborhood = Central LA
+v1_locality = Los Angeles
+v1_distance = 16.0 mi
+v1_duration = 37 mins
+PREDICT: The one on {}?
+PREDICT: Sunset Boulevard
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = so
+u2_3 = ,
+u2_4 = can
+u2_5 = you
+u2_6 = confirm
+u2_7 = that
+u2_8 = it
+u2_9 = is
+u2_10 = a
+u2_11 = Thai
+u2_12 = restaurant
+u2_13 = ?
+PREDICT: It's called {}.
+PREDICT: Luv2eat Thai Bistro
+PREDICT: wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = how
+u3_3 = far
+u3_4 = is
+u3_5 = it
+u3_6 = ?
+PREDICT: It is {} and {} away.
+PREDICT: 16.0 mi
+PREDICT: 37 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = Great
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = !
+PREDICT: Great, we are going to {}.
+PREDICT: Luv2eat Thai Bistro
+PREDICT: start_driving
+PREDICT: 34.0977048
+PREDICT: -118.3359536

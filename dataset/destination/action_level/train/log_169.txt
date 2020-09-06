@@ -1,0 +1,64 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Old
+u1_7 = Mill
+u1_8 = station
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] Old Mill station [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Old Mill Station
+v1_address = Toronto, ON M8X 1G6, Canada
+v1_rating = 3.4
+v1_latitude = 43.650204
+v1_longitude = -79.495049
+v1_locality = Toronto
+v1_distance = 5.0 mi
+v1_duration = 24 mins
+PREDICT: [ACTION] Is the address {}? [PARAM] Toronto, ON M8X 1G6, Canada
+PREDICT: [ACTION] wait_for_user
+u2_0 = That
+u2_1 = address
+u2_2 = is
+u2_3 = not
+u2_4 = helpful
+u2_5 = for
+u2_6 = me
+u2_7 = .
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 5.0 mi [PARAM] 24 mins
+PREDICT: [ACTION] It is on {}. [PARAM] Toronto
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u3_0 = is
+u3_1 = it
+u3_2 = close
+u3_3 = to
+u3_4 = Jane
+u3_5 = station
+u3_6 = ?
+PREDICT: [ACTION] find_place [PARAM] Jane station [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v2_name = Jane Station
+v2_address = Toronto, ON M6S 1P9, Canada
+v2_rating = 3.5
+v2_latitude = 43.6500102
+v2_longitude = -79.4837178
+v2_locality = Toronto
+v2_distance = 4.5 mi
+v2_duration = 23 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 43.6500102 [PARAM] -79.4837178 [PARAM] 43.650204 [PARAM] -79.495049
+v3_distance = 0.8 mi
+v3_duration = 4 mins
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u4_0 = OK
+u4_1 = let
+u4_2 = 's
+u4_3 = go
+u4_4 = there
+u4_5 = then
+PREDICT: [ACTION] start_driving [PARAM] 43.650204 [PARAM] -79.495049

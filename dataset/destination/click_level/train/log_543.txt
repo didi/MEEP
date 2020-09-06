@@ -1,0 +1,44 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Is
+u1_1 = there
+u1_2 = a
+u1_3 = library
+u1_4 = on
+u1_5 = LMU
+u1_6 = campus
+u1_7 = ?
+PREDICT: find_place
+PREDICT: library LMU
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = William H. Hannon Library
+v1_address = 1 LMU Drive MS8200, Los Angeles, CA 90045, United States
+v1_latitude = 33.9707666
+v1_longitude = -118.4192316
+v1_types_0 = library
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 1 LMU Drive MS8200, Los Angeles
+v1_locality = Los Angeles
+v1_neighborhood = Westchester
+v1_distance = 2.2 mi
+v1_duration = 9 mins
+PREDICT: {} is on {}.
+PREDICT: William H. Hannon Library
+PREDICT: 1 LMU Drive MS8200, Los Angeles
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = Yep
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+u2_5 = !
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.9707666
+PREDICT: -118.4192316

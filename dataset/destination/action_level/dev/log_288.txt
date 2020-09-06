@@ -1,0 +1,35 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Hi
+u1_1 = ,
+u1_2 = I
+u1_3 = want
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = Activision
+u1_8 = headquarters
+u1_9 = .
+PREDICT: [ACTION] find_place [PARAM] Activision headquarters [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Activision Blizzard
+v1_address = 3100 Ocean Park Blvd, Santa Monica, CA 90405, United States
+v1_latitude = 34.0198026
+v1_longitude = -118.4524457
+v1_types_0 = Point of interest
+v1_types_1 = Establishment
+v1_rating = 4
+v1_is_open = True
+v1_address_simple = 3100 Ocean Park Boulevard, Santa Monica
+v1_street_number = 3100
+v1_street_name = Ocean Park Boulevard
+v1_neighborhood = Sunset Park
+v1_locality = Santa Monica
+v1_distance = 3.9 mi
+v1_duration = 16 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Activision Blizzard [PARAM] Ocean Park Boulevard
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 16 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Activision Blizzard
+PREDICT: [ACTION] start_driving [PARAM] 34.0198026 [PARAM] -118.4524457

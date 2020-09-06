@@ -1,0 +1,37 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = IISc
+PREDICT: find_place
+PREDICT: IISc
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v1_name = Indian Institute of Science
+v1_address = CV Raman Rd, Bengaluru, Karnataka 560012, India
+v1_rating = 4.7
+v1_is_open = False
+v1_latitude = 13.0218597
+v1_longitude = 77.5671423
+v1_street_name = CV Raman Road
+v1_locality = Bengaluru
+v1_distance = 7.4 mi
+v1_duration = 35 mins
+PREDICT: {} in {}?
+PREDICT: Indian Institute of Science
+PREDICT: Bengaluru
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: It is {} and {} away.
+PREDICT: 7.4 mi
+PREDICT: 35 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = sure
+PREDICT: start_driving
+PREDICT: 13.0218597
+PREDICT: 77.5671423

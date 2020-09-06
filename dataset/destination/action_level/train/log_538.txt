@@ -1,0 +1,111 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = rooftop
+u1_8 = bar
+PREDICT: [ACTION] find_place [PARAM] rooftop bar [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = High Rooftop Lounge
+v1_address = 1697 Pacific Ave, Venice, CA 90291, United States
+v1_latitude = 33.9871171
+v1_longitude = -118.4720732
+v1_price_level = 3
+v1_types_0 = night club
+v1_types_1 = bar
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.2
+v1_is_open = True
+v1_address_simple = 1697 Pacific Avenue, Venice
+v1_street_number = 1697
+v1_street_name = Pacific Avenue
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 2.4 mi
+v1_duration = 10 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] High Rooftop Lounge [PARAM] Venice
+PREDICT: [ACTION] wait_for_user
+u2_0 = Is
+u2_1 = it
+u2_2 = close
+u2_3 = to
+u2_4 = the
+u2_5 = beach
+u2_6 = ?
+PREDICT: [ACTION] find_place [PARAM] beach [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Marina Beach
+v2_address = 4135 Admiralty Way, Marina Del Rey, CA 90292, United States
+v2_latitude = 33.9816135
+v2_longitude = -118.4581142
+v2_types_0 = tourist attraction
+v2_types_1 = natural feature
+v2_types_2 = point of interest
+v2_types_3 = establishment
+v2_rating = 4.5
+v2_address_simple = 4135 Admiralty Way, Marina del Rey
+v2_street_number = 4135
+v2_street_name = Admiralty Way
+v2_locality = Marina del Rey
+v2_distance = 1.4 mi
+v2_duration = 5 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9871171 [PARAM] -118.4720732 [PARAM] 33.9816135 [PARAM] -118.4581142
+v3_distance = 1.4 mi
+v3_duration = 8 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] High Rooftop Lounge [PARAM] 1.4 mi [PARAM] Marina Beach
+PREDICT: [ACTION] wait_for_user
+u3_0 = That
+u3_1 = sounds
+u3_2 = far
+u3_3 = ,
+u3_4 = how
+u3_5 = far
+u3_6 = is
+u3_7 = it
+u3_8 = from
+u3_9 = the
+u3_10 = rec
+u3_11 = center
+u3_12 = on
+u3_13 = Venice
+u3_14 = Beach
+u3_15 = ?
+PREDICT: [ACTION] find_place [PARAM] rec center on Venice Beach [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = Venice Beach Recreation Center
+v4_address = 1800 Ocean Front Walk, Venice, CA 90291, United States
+v4_latitude = 33.9853771
+v4_longitude = -118.4727913
+v4_types_0 = point of interest
+v4_types_1 = establishment
+v4_rating = 4.5
+v4_is_open = True
+v4_address_simple = 1800 Ocean Front Walk, Venice
+v4_street_number = 1800
+v4_street_name = Ocean Front Walk
+v4_neighborhood = Venice
+v4_locality = Los Angeles
+v4_distance = 2.5 mi
+v4_duration = 11 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9871171 [PARAM] -118.4720732 [PARAM] 33.9853771 [PARAM] -118.4727913
+v5_distance = 0.1 mi
+v5_duration = 1 min
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] High Rooftop Lounge [PARAM] 0.1 mi [PARAM] Venice Beach Recreation Center
+PREDICT: [ACTION] wait_for_user
+u4_0 = Great
+u4_1 = ,
+u4_2 = that
+u4_3 = sounds
+u4_4 = good
+u4_5 = .
+u4_6 = Let
+u4_7 = 's
+u4_8 = go
+u4_9 = there
+u4_10 = .
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 33.9871171 [PARAM] -118.4720732

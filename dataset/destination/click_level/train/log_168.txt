@@ -1,0 +1,48 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = this
+u1_6 = pizza
+u1_7 = place
+u1_8 = ..
+u1_9 = it
+u1_10 = has
+u1_11 = some
+u1_12 = organic
+u1_13 = pizza
+PREDICT: places_nearby
+PREDICT: organic pizza
+PREDICT: 32.225
+PREDICT: -110.861
+v1_0_name = Renee's Organic Oven
+v1_0_rating = 4.6
+v1_0_is_open = True
+v1_0_price_level = 2
+v1_0_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_0_latitude = 32.2524328
+v1_0_longitude = -110.8415181
+v1_0_address = 7065 E Tanque Verde Rd, Tucson, AZ 85715, USA
+v1_0_street_number = 7065
+v1_0_street_name = East Tanque Verde Road
+v1_0_locality = Tucson
+v1_0_distance = 2.8 mi
+v1_0_duration = 10 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Renee's Organic Oven
+PREDICT: East Tanque Verde Road
+PREDICT: wait_for_user
+u2_0 = yes
+u2_1 = that
+u2_2 = 's
+u2_3 = it
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = yes
+PREDICT: start_driving
+PREDICT: 32.2524328
+PREDICT: -110.8415181

@@ -1,0 +1,95 @@
+source_address = Marina Del Rey, CA 90292, USA
+source_latitude = 33.9802893
+source_longitude = -118.4517449
+u1_0 = there
+u1_1 = 's
+u1_2 = a
+u1_3 = Mexican
+u1_4 = restaurant
+u1_5 = in
+u1_6 = ktown
+u1_7 = .
+u1_8 = name
+u1_9 = is
+u1_10 = like
+u1_11 = quetzacoatl
+u1_12 = .
+u1_13 = can
+u1_14 = you
+u1_15 = find
+u1_16 = it
+u1_17 = ?
+PREDICT: [ACTION] find_place [PARAM] Mexican restaurant in ktown quetzacoatl [PARAM] 33.9802893 [PARAM] -118.4517449
+v1_name = Guelaguetza Restaurante
+v1_address = 3014 W Olympic Blvd, Los Angeles, CA 90006, United States
+v1_price_level = 2
+v1_rating = 4.4
+v1_is_open = True
+v1_latitude = 34.0523155
+v1_longitude = -118.300918
+v1_street_number = 3014 W
+v1_street_name = Olympic Boulevard
+v1_neighborhood = Mid City
+v1_locality = Los Angeles
+v1_distance = 17.0 mi
+v1_duration = 33 mins
+PREDICT: [ACTION] places_nearby [PARAM] Mexican restaurant in ktown [PARAM] 34.0523155 [PARAM] -118.300918
+v2_0_name = Guelaguetza Restaurante
+v2_0_rating = 4.4
+v2_0_is_open = True
+v2_0_price_level = 2
+v2_0_types = ['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']
+v2_0_latitude = 34.0523155
+v2_0_longitude = -118.300918
+v2_0_address = 3014 W Olympic Blvd, Los Angeles, CA 90006, USA
+v2_0_street_number = 3014 W
+v2_0_street_name = Olympic Boulevard
+v2_0_neighborhood = Mid City
+v2_0_locality = Los Angeles
+v2_0_distance = 1 ft
+v2_0_duration = 1 min
+v2_1_name = Sabores Oaxaquenos
+v2_1_rating = 4.3
+v2_1_is_open = True
+v2_1_price_level = 1
+v2_1_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v2_1_latitude = 34.0578921
+v2_1_longitude = -118.301376
+v2_1_address = 3337 1/2 W 8th St, Los Angeles, CA 90005, USA
+v2_1_street_number = 3337 1/2
+v2_1_street_name = West 8th Street
+v2_1_neighborhood = Koreatown
+v2_1_locality = Los Angeles
+v2_1_distance = 0.6 mi
+v2_1_duration = 3 mins
+v2_2_name = El Cholo - The Original
+v2_2_rating = 4.3
+v2_2_is_open = True
+v2_2_price_level = 2
+v2_2_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v2_2_latitude = 34.0502276
+v2_2_longitude = -118.3093764
+v2_2_address = 1121 S Western Ave, Los Angeles, CA 90006, USA
+v2_2_street_number = 1121
+v2_2_street_name = South Western Avenue
+v2_2_neighborhood = Mid City
+v2_2_locality = Los Angeles
+v2_2_distance = 0.7 mi
+v2_2_duration = 4 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Sabores Oaxaquenos
+PREDICT: [ACTION] wait_for_user
+u2_0 = no
+u2_1 = ,
+u2_2 = one
+u2_3 = on
+u2_4 = olympic
+u2_5 = .
+PREDICT: [ACTION] How about {}? [PARAM] Guelaguetza Restaurante
+PREDICT: [ACTION] wait_for_user
+u3_0 = ah
+u3_1 = yes
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Guelaguetza Restaurante
+PREDICT: [ACTION] start_driving [PARAM] 34.0523155 [PARAM] -118.300918

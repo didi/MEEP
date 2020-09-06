@@ -1,0 +1,149 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hey
+u1_1 = i
+u1_2 = wan
+u1_3 = na
+u1_4 = go
+u1_5 = to
+u1_6 = costco
+u1_7 = near
+u1_8 = LA
+u1_9 = downtown
+u1_10 = .
+PREDICT: find_place
+PREDICT: costco
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 13463 Washington Blvd, Marina Del Rey, CA 90292, United States
+v1_name = Costco Wholesale
+v1_latitude = 33.9927636
+v1_longitude = -118.4465308
+v1_place_id = ChIJVUXEro66woAR9eHVdsY_-sk
+v1_street_number = 13463
+v1_street_name = Washington Boulevard
+v1_neighborhood = Culver - West
+v1_locality = Marina del Rey
+v1_distance = 1.1 mi
+v1_duration = 7 mins
+PREDICT: find_place
+PREDICT: costco LA downtown
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = 2901 Los Feliz Blvd, Los Angeles, CA 90039, United States
+v2_name = Costco Wholesale
+v2_latitude = 34.1290149
+v2_longitude = -118.2638085
+v2_place_id = ChIJrTt6BObAwoARvxX5VDDKFa8
+v2_street_number = 2901
+v2_street_name = Los Feliz Boulevard
+v2_neighborhood = Northeast Los Angeles
+v2_locality = Los Angeles
+v2_distance = 24.4 mi
+v2_duration = 41 mins
+PREDICT: find_place
+PREDICT: LA downtown
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_address = Downtown Los Angeles, Los Angeles, CA, USA
+v3_name = Downtown Los Angeles
+v3_latitude = 34.040713
+v3_longitude = -118.2467693
+v3_place_id = ChIJAf09JTTGwoARIKmlGd9S_iY
+v3_neighborhood = Downtown Los Angeles
+v3_locality = Los Angeles
+v3_distance = 18.1 mi
+v3_duration = 30 mins
+PREDICT: places_nearby
+PREDICT: costco
+PREDICT: 34.040713
+PREDICT: -118.2467693
+v4_0_name = Costco Food Court
+v4_0_rating = 4.4
+v4_0_is_open = True
+v4_0_place_id = ChIJrTt6BObAwoARj1OSUrOGPy8
+v4_0_price_level = 1
+v4_0_types = ['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']
+v4_0_latitude = 34.128413
+v4_0_longitude = -118.2636456
+v4_0_address = 2901 Los Feliz Blvd, Los Angeles, CA 90039, USA
+v4_0_street_number = 2901
+v4_0_street_name = Los Feliz Boulevard
+v4_0_neighborhood = Northeast Los Angeles
+v4_0_locality = Los Angeles
+v4_1_name = Costco Wholesale
+v4_1_rating = 4.5
+v4_1_is_open = True
+v4_1_place_id = ChIJrTt6BObAwoARvxX5VDDKFa8
+v4_1_price_level = 2
+v4_1_types = ['department_store', 'point_of_interest', 'store', 'establishment']
+v4_1_latitude = 34.1290149
+v4_1_longitude = -118.2638085
+v4_1_address = 2901 Los Feliz Blvd, Los Angeles, CA 90039, USA
+v4_1_street_number = 2901
+v4_1_street_name = Los Feliz Boulevard
+v4_1_neighborhood = Northeast Los Angeles
+v4_1_locality = Los Angeles
+v4_2_name = Costco Wholesale Pharmacy
+v4_2_rating = 3
+v4_2_is_open = True
+v4_2_place_id = ChIJVUrwGebAwoAR6m4uHzVC1vM
+v4_2_price_level = 2
+v4_2_types = ['pharmacy', 'health', 'point_of_interest', 'store', 'establishment']
+v4_2_latitude = 34.1290304
+v4_2_longitude = -118.2639142
+v4_2_address = 2901 Los Feliz Blvd, Los Angeles, CA 90039, USA
+v4_2_street_number = 2901
+v4_2_street_name = Los Feliz Boulevard
+v4_2_neighborhood = Northeast Los Angeles
+v4_2_locality = Los Angeles
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Costco Wholesale
+PREDICT: Los Feliz Boulevard
+PREDICT: wait_for_user
+u2_0 = how
+u2_1 = far
+u2_2 = is
+u2_3 = it
+u2_4 = from
+u2_5 = LA
+u2_6 = downtown
+u2_7 = ?
+PREDICT: distance_matrix
+PREDICT: 34.1290149
+PREDICT: -118.2638085
+PREDICT: 34.040713
+PREDICT: -118.2467693
+v5_distance = 8.7 mi
+v5_duration = 23 mins
+PREDICT: It is {} and {} away.
+PREDICT: 8.7 mi
+PREDICT: 23 mins
+PREDICT: wait_for_user
+u3_0 = sound
+u3_1 = 's
+u3_2 = good
+u3_3 = ,
+u3_4 = how
+u3_5 = long
+u3_6 = would
+u3_7 = it
+u3_8 = take
+u3_9 = if
+u3_10 = we
+u3_11 = leave
+u3_12 = now
+u3_13 = ?
+PREDICT: It will take us {} to get there.
+PREDICT: 41 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = yep
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+PREDICT: start_driving
+PREDICT: 34.1290149
+PREDICT: -118.2638085

@@ -1,0 +1,235 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+    <crowd-instructions link-text="View instructions" link-type="button">
+        <short-summary>
+            <p>Write a few sentences about a place you want to travel or an activity you want to do</p>
+        </short-summary>
+
+        <detailed-instructions>
+            <p>Write a few sentences about one of the following two topics:</p>
+            <p><b>A. a place you want to travel</b></p>
+            <ol>
+                <li>Pick a place in your city. It should be a destination you might get to by taxi. (we provide you some tips to help you think of a place.) It can be arbitrary, e.g. "any gas station near UCLA with high rating".</li>
+                <li>The task is to write how you would talk about it with an virtual agent, for example Alexa, to call a Uber taxi.</li>
+                <li>Provide detailed descriptions of the place to help the virtual agent to locate the destination, e.g. "It's on Commonwealth", "I want to go to the In-n-out near Costco.", etc.</li>
+                <li>Provide your questions about the trip, e.g. distance, rating, travel time, etc.</li>
+            </ol>
+            <p><b>B. an activity goal</b></p>
+            <ol>
+                <li>Choose an activity goal for which you need location suggestions: "go bowling near downtown", "hardware store nearest me", "i want to go to a rooftop bar".</li>
+                <li>The task is to write how you would talk about it with an virtual agent, for example Alexa, to call a Uber taxi.</li>
+                <li>Please include detailed descriptions of the kind of place you want, and all criteria: e.g. price range, distance, rating, travel time. These descriptions should be specific and helpful for the virtual agent to locate the destination.</li>
+
+            </ol>
+            <p>It's okay if the story has many turns, for example, at the beginning, "I want to go to costco", but later on "I change my mind. I want to go to Target instead because it's closer."</p>
+            <p><b>Please make sure the whole paragraph only has ONE final destination.</b></p>
+            <p>Please be creative. :)</p>
+
+        </detailed-instructions>
+
+        <positive-example>
+            <ol>
+                <li>Starting address: 121 Avro Rd, Maple, ON L6A 1Y2, Canada</li>
+                <li>I want to "ski" at "Horseshoe".</li>
+                <li>I want to know how far does it take to get there. It should be within 60 mins with normal traffic.</li>
+                <li>Destination name: Horseshoe Resort</li>
+                <li>Destination address: 1101 Horseshoe Valley Rd W, Barrie, ON L4M 4Y8, Canada</li>
+            </ol>
+        </positive-example>
+
+        <positive-example>
+            <ol>
+                <li>Starting address: Brunswick - College Parkette, Toronto, ON M5T 1S2, Canada</li>
+                <li>I want to go to a "vegetarian chinese restaurant in Kensington Market"</li>
+                <li>I want to know whether the restaurant is on Augusta avenue.</li>
+                <li>the restaurant name should be King's Cafe.</li>
+                <li>Destination name: King's Cafe</li>
+                <li>Destination address: 192 Augusta Ave, Toronto, ON M5T 2L6, Canada</li>
+            </ol>
+        </positive-example>
+
+        <positive-example>
+            <ol>
+                <li>Starting address: 4640 Admiralty Way, Marina del Rey</li>
+                <li>I want to go to a gas station near UCLA.</li>
+                <li>I want to know the ratings of the gas stations.</li>
+                <li>I want to go to the gas station with a high rating. </li>
+                <li>Destination name: any gas station near UCLA with high rating</li>
+                <li>Destination address: any gas station near UCLA with high rating</li>
+            </ol>
+        </positive-example>
+
+        <negative-example>
+            <ol>
+                <li>Starting address: #1-112, Haveli family park, zp circle, New Delhi</li>
+                <li>I want to go to Park and Restaurant.</li>
+                <li>I want to know about taste and quality is very good.</li>
+                <li>After that i want to go to movie Theater to saw a movie. </li>
+                <li>In the restaurant to spend lot of time with my family.</li>
+                <li>Destination name: <a style="color:red">(destination name missing.)</a></li>
+                <li>Destination address: #1-112, Haveli family park, zp circle, New delhi</li>
+            </ol>
+            <p><a style="color:red">this paragraph contains multiple destinations.</a></p>
+        </negative-example>
+
+        <negative-example>
+            <ol>
+                <li>Starting address: NO 20, KINGSTON STREET, CHENNEI - 600071</li>
+                <li>I WANT TO GO QUEENSLAND , ON THE WAY WANT TO GO TO SOME RESTAURANT</li>
+                <li>HOW MUCH DISTANCE WILL BE</li>
+                <li>AND HOW MUCH COST WILL BE THERE, IN BETWEEN ANY TOLL WILL BE THERE. PLEASE CONFIRM ME.</li>
+                <li>Destination name: GREEN TUNDER</li>
+                <li>Destination address: Kanchipuram - Vellore Bypass Road, NH 46, Arcot, Tamil Nadu 632503</li>
+            </ol>
+            <p><a style="color:red">this paragraph contains multiple destinations.</a></p>
+        </negative-example>
+
+    </crowd-instructions>
+
+    <h3>Write a few sentences about <a style="color:red">${topic}</a></h3>
+
+    <p><b>* If this is your first time to do the task, please carefully read the instructions and the examples (click "View instructions").</b></p>
+
+    <p>places you can talk about: <p id='useful-name'></p>
+
+    <crowd-input name="starting_address" placeholder="Your starting address (Google map address of a nearby landmark in your city)..." required></crowd-input>
+    <crowd-input name="sentence_1" placeholder="1st sentence..." required></crowd-input>
+    <crowd-input name="sentence_2" placeholder="2nd sentence..." required></crowd-input>
+    <crowd-input name="sentence_3" placeholder="3rd sentence..." required></crowd-input>
+    <crowd-input name="sentence_4" placeholder="4th sentence (optional)..." optional></crowd-input>
+    <crowd-input name="sentence_5" placeholder="5th sentence (optional)..." optional></crowd-input>
+    <crowd-input name="sentence_6" placeholder="6th sentence (optional)..." optional></crowd-input>
+    <crowd-input name="destination_name" placeholder="Your destination name (if applicable)..." optional></crowd-input>
+    <crowd-input name="destination_address" placeholder="Google map address of your destination..." required></crowd-input>
+</crowd-form>
+
+<script>
+    function shuffle(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
+    var place_of_interest = [
+        "accounting",
+        "airport",
+        "amusement park",
+        "aquarium",
+        "art gallery",
+        "atm",
+        "bakery",
+        "bank",
+        "bar",
+        "beauty salon",
+        "bicycle store",
+        "book store",
+        "bowling alley",
+        "bus station",
+        "cafe",
+        "campground",
+        "car dealer",
+        "car rental",
+        "car repair",
+        "car wash",
+        "casino",
+        "cemetery",
+        "church",
+        "city hall",
+        "clothing store",
+        "convenience store",
+        "courthouse",
+        "dentist",
+        "department store",
+        "doctor",
+        "drugstored",
+        "electrician",
+        "electronics store",
+        "embassy",
+        "fire station",
+        "florist",
+        "funeral home",
+        "furniture store",
+        "gas station",
+        "grocery or supermarket",
+        "gym",
+        "hair care",
+        "hardware store",
+        "hindu temple",
+        "home goods store",
+        "hospital",
+        "insurance agency",
+        "jewelry store",
+        "laundry",
+        "lawyer",
+        "library",
+        "light rail station",
+        "liquor store",
+        "local government office",
+        "locksmith",
+        "lodging",
+        "meal delivery",
+        "meal takeaway",
+        "mosque",
+        "movie rental",
+        "movie theater",
+        "moving company",
+        "museum",
+        "night club",
+        "painter",
+        "park",
+        "parking",
+        "pet store",
+        "pharmacy",
+        "physiotherapist",
+        "plumber",
+        "police",
+        "post office",
+        "primary school",
+        "real estate agency",
+        "restaurant",
+        "roofing contractor",
+        "rv park",
+        "school",
+        "secondary school",
+        "shoe store",
+        "shopping mall",
+        "spa",
+        "stadium",
+        "storage",
+        "store",
+        "subway station",
+        "supermarket",
+        "synagogue",
+        "taxi stand",
+        "tourist attraction",
+        "train station",
+        "transit station",
+        "travel agency",
+        "university",
+        "veterinary care",
+        "zoo"
+    ];
+    shuffle(place_of_interest);
+    $('#useful-name').text(place_of_interest.slice(0, 10).join(", "));
+</script>

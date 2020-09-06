@@ -1,0 +1,51 @@
+.recordButton {
+    position: relative;
+    margin: 300px auto;
+    background-color: #c72c41;
+    width:200px;
+    height:200px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.recordButtonRecording {
+    position: absolute;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+    transition: border-radius .1s ease;
+}
+
+.recordButton:active {
+    user-select: none;
+    background-color: #6c0a02;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0% {
+    background-color: #6c0a02;
+  }
+  50% {
+    background-color: #801336;
+  }
+  100% {
+    background-color: #6c0a02;
+  }
+}
+
+.recordButton:active .recordButtonRecording {
+    border-radius: 0;
+}
+
+

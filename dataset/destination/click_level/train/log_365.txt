@@ -1,0 +1,58 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Wharton
+u1_7 = ,
+u1_8 = they
+u1_9 = have
+u1_10 = a
+u1_11 = campus
+u1_12 = downtown
+u2_0 = The
+u2_1 = business
+u2_2 = school
+PREDICT: find_place
+PREDICT: Wharton business school downtown
+PREDICT: 37.760
+PREDICT: -122.429
+v1_name = Wharton San Francisco
+v1_address = 2 Harrison St floor 6, San Francisco, CA 94105, United States
+v1_latitude = 37.7894748
+v1_longitude = -122.3892934
+v1_types_0 = university
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.9
+v1_is_open = True
+v1_address_simple = 2 Harrison Street floor 6, San Francisco
+v1_street_number = 2
+v1_street_name = Harrison Street
+v1_neighborhood = South Beach
+v1_locality = San Francisco
+v1_distance = 4.0 mi
+v1_duration = 16 mins
+PREDICT: {} on {}?
+PREDICT: Wharton San Francisco
+PREDICT: Harrison Street
+PREDICT: It is in {}.
+PREDICT: South Beach
+PREDICT: wait_for_user
+u3_0 = That
+u3_1 = sounds
+u3_2 = right
+u3_3 = ,
+u3_4 = let
+u3_5 = 's
+u3_6 = go
+u3_7 = .
+PREDICT: Great, we are going to {}.
+PREDICT: Wharton San Francisco
+PREDICT: start_driving
+PREDICT: 37.7894748
+PREDICT: -122.3892934

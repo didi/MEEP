@@ -1,0 +1,56 @@
+--- Current weather ---
+It is slightly {}.
+Today's weather in {} is {}.
+No
+It is {temp} degrees
+It is {temp} degrees in {placename}
+Today's weather is {summary}
+
+--- Forecast ---
+{time} it will be {weather}
+The weather in {place} over {time_period} will be {summary}.
+The forecast for {date_time} is {summary}.
+The weather in {} {} will be {}.
+The weather in {place} in {date} will be {weather}.
+It will be {} at {time}.
+It was {weather}. 
+The weather in {place}, {date} was {}.
+{precipIntensity} of {precipType}.
+{time interval}, there will be a high of {} and low of {}.
+It will {forecast}.
+From {state_date} to {end_date} there will be {weather}.
+It will be {} on {date}, {time}.
+The high is {highTemp}, the low is {lowTemp}
+From {start_date} to {end_date} it will be {summary}
+There will be a high of {} and low of {}.
+On {date} there is a {prob} chance of {precipType}.
+The weather in {place} on {date} will be {summary}
+The forecast is {summary}.
+The average temperature will be {}.
+There is a {prob} chance of {precipType} in {place}.
+There is a {prob} chance of {precipType} {time}.
+It will be {} in {} on {}.
+It will be {} on {}.
+It will be {}.
+There is a {prob} chance of {precipType}
+There will be {precipAccum} of {precipType}
+It will be {temp} degrees
+Today's high is {temp} and low is {temp}
+
+--- Place name ---
+Fetching the weather for {placename}...
+
+--- Prompt ---
+I can't provide forecasts for more than 1 week from now
+Do you mean {place}, {state} ? 
+Enjoy your travel!
+This is according to the information I have. 
+You are welcome. 
+Enjoy the rest of your day!
+Have a nice day!
+Is there anything else you would want me to look up ?
+Sorry, I don't have that information.
+Do you mean {place} ?
+Sorry, I don't know that information.
+I couldn't find the place {}, could you be more specific?
+Oh I see

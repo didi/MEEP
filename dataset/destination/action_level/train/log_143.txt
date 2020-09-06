@@ -1,0 +1,34 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = community
+u1_8 = centre
+PREDICT: [ACTION] find_place [PARAM] community centre [PARAM] 43.848 [PARAM] -79.525
+v1_name = Maple Community Centre
+v1_address = 10190 Keele St, Maple, ON L6A 1R7, Canada
+v1_rating = 4.3
+v1_is_open = True
+v1_latitude = 43.85968159999999
+v1_longitude = -79.5148502
+v1_street_number = 10190
+v1_street_name = Keele Street
+v1_neighborhood = Maple
+v1_locality = Vaughan
+v1_distance = 1.3 mi
+v1_duration = 5 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Maple Community Centre
+PREDICT: [ACTION] wait_for_user
+u2_0 = yep
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 43.85968159999999 [PARAM] -79.5148502

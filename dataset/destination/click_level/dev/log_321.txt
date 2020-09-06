@@ -1,0 +1,88 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Where
+u1_1 = are
+u1_2 = the
+u1_3 = best
+u1_4 = tacos
+u1_5 = in
+u1_6 = Venice
+u1_7 = ?
+PREDICT: places_nearby
+PREDICT: best tacos in Venice
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Taqueria Chihuahua
+v1_0_rating = 4.4
+v1_0_is_open = True
+v1_0_price_level = 1
+v1_0_types_0 = Restaurant
+v1_0_types_1 = Food
+v1_0_types_2 = Point of interest
+v1_0_types_3 = Establishment
+v1_0_latitude = 33.9830032
+v1_0_longitude = -118.46105
+v1_0_address_simple = 505 Washington Boulevard, Marina del Rey
+v1_0_street_number = 505
+v1_0_street_name = Washington Boulevard
+v1_0_locality = Marina del Rey
+v1_0_distance = 1.5 mi
+v1_0_duration = 6 mins
+v1_1_name = Paco's Tacos
+v1_1_rating = 4.5
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types_0 = Restaurant
+v1_1_types_1 = Food
+v1_1_types_2 = Point of interest
+v1_1_types_3 = Establishment
+v1_1_latitude = 33.9961177
+v1_1_longitude = -118.427781
+v1_1_address_simple = 4141 South Centinela Avenue, Los Angeles
+v1_1_street_number = 4141
+v1_1_street_name = South Centinela Avenue
+v1_1_locality = Los Angeles
+v1_1_distance = 1.6 mi
+v1_1_duration = 8 mins
+v1_2_name = El Charro
+v1_2_rating = 4.2
+v1_2_is_open = True
+v1_2_price_level = 1
+v1_2_types_0 = Restaurant
+v1_2_types_1 = Food
+v1_2_types_2 = Point of interest
+v1_2_types_3 = Establishment
+v1_2_latitude = 34.0002171
+v1_2_longitude = -118.4411992
+v1_2_address_simple = 12819 Venice Boulevard, Los Angeles
+v1_2_street_number = 12819
+v1_2_street_name = Venice Boulevard
+v1_2_neighborhood = Mar Vista
+v1_2_locality = Los Angeles
+v1_2_distance = 2.1 mi
+v1_2_duration = 10 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Taqueria Chihuahua
+PREDICT: Paco's Tacos
+PREDICT: El Charro
+PREDICT: wait_for_user
+u2_0 = Whatever
+u2_1 = you
+u2_2 = think
+u2_3 = .
+PREDICT: Their ratings are {}, {} and {} respectively
+PREDICT: 4.4
+PREDICT: 4.5
+PREDICT: 4.2
+PREDICT: How about {}?
+PREDICT: Paco's Tacos
+PREDICT: wait_for_user
+u3_0 = ok
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = for
+u4_1 = sure
+PREDICT: start_driving
+PREDICT: 33.9961177
+PREDICT: -118.427781

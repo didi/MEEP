@@ -1,0 +1,84 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Coliseum
+u1_8 = .
+PREDICT: find_place
+PREDICT: Coliseum
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 3911 S Figueroa St, Los Angeles, CA 90037, United States
+v1_name = LA Memorial Coliseum
+v1_latitude = 34.0140526
+v1_longitude = -118.2878754
+v1_place_id = ChIJ-2dO1wfIwoARNj2U1XAKz1Q
+v1_street_number = 3911
+v1_street_name = South Figueroa Street
+v1_neighborhood = South Los Angeles
+v1_locality = Los Angeles
+v1_distance = 19.2 mi
+v1_duration = 29 mins
+PREDICT: Do you mean {}?
+PREDICT: LA Memorial Coliseum
+PREDICT: It is on {}.
+PREDICT: South Figueroa Street
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = so
+u2_3 = ...
+u2_4 = it
+u2_5 = should
+u2_6 = be
+u2_7 = close
+u2_8 = to
+u2_9 = the
+u2_10 = Natural
+u2_11 = History
+u2_12 = Museum
+u2_13 = .
+PREDICT: find_place
+PREDICT: Natural History Museum
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = 900 W Exposition Blvd, Los Angeles, CA 90007, United States
+v2_name = Natural History Museum of Los Angeles County (NHM)
+v2_latitude = 34.0169567
+v2_longitude = -118.2887703
+v2_place_id = ChIJXzARBf3HwoARJyT7uZSV-G4
+v2_street_number = 900
+v2_street_name = West Exposition Boulevard
+v2_neighborhood = South Los Angeles
+v2_locality = Los Angeles
+v2_distance = 10.3 mi
+v2_duration = 29 mins
+PREDICT: distance_matrix
+PREDICT: 34.0169567
+PREDICT: -118.2887703
+PREDICT: 34.0140526
+PREDICT: -118.2878754
+v3_distance = 1.1 mi
+v3_duration = 7 mins
+PREDICT: {} is {} away from {}.
+PREDICT: LA Memorial Coliseum
+PREDICT: 1.1 mi
+PREDICT: Natural History Museum of Los Angeles County (NHM)
+PREDICT: Does that sound correct?
+PREDICT: wait_for_user
+u3_0 = That
+u3_1 = sounds
+u3_2 = right
+u3_3 = !
+u3_4 = Let
+u3_5 = 's
+u3_6 = go1
+PREDICT: start_driving
+PREDICT: 34.0140526
+PREDICT: -118.2878754

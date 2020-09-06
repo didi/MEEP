@@ -1,0 +1,55 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = beach
+u1_8 = where
+u1_9 = I
+u1_10 = can
+u1_11 = make
+u1_12 = a
+u1_13 = bonfire
+PREDICT: find_place
+PREDICT: beach bonfire
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Dockweiler Beach
+v1_address = 12000 Vista Del Mar, Playa Del Rey, CA 90293, United States
+v1_latitude = 33.93053039999999
+v1_longitude = -118.4356632
+v1_types_0 = tourist attraction
+v1_types_1 = park
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 12000 Vista Del Mar, Playa del Rey
+v1_street_number = 12000
+v1_street_name = Vista Del Mar
+v1_neighborhood = Playa del Rey
+v1_distance = 4.5 mi
+v1_duration = 13 mins
+PREDICT: Yes.
+PREDICT: {} is in {}.
+PREDICT: Dockweiler Beach
+PREDICT: Playa del Rey
+PREDICT: It is {} away.
+PREDICT: 13 mins
+PREDICT: wait_for_user
+u2_0 = Ok
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+u2_5 = there
+PREDICT: Great, we are going to {}.
+PREDICT: Dockweiler Beach
+PREDICT: start_driving
+PREDICT: 33.93053039999999
+PREDICT: -118.4356632

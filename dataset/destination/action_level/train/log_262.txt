@@ -1,0 +1,49 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Upright
+u1_7 = Citizens
+u1_8 = Brigade
+u1_9 = .
+PREDICT: [ACTION] find_place [PARAM] Upright Citizens Brigade [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Upright Citizens Brigade Sunset
+v1_address = 5419 Sunset Blvd, Los Angeles, CA 90027, United States
+v1_latitude = 34.0984638
+v1_longitude = -118.3079614
+v1_types_0 = Point of interest
+v1_types_1 = Establishment
+v1_rating = 4.7
+v1_address_simple = 5419 Sunset Boulevard, Los Angeles
+v1_street_number = 5419
+v1_street_name = Sunset Boulevard
+v1_neighborhood = East Hollywood
+v1_locality = Los Angeles
+v1_distance = 23.1 mi
+v1_duration = 39 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Upright Citizens Brigade Sunset [PARAM] East Hollywood
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 23.1 mi [PARAM] 39 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Great
+u2_1 = ,
+u2_2 = what
+u2_3 = 's
+u2_4 = it
+u2_5 = rated
+u2_6 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.7
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = Awesome
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = head
+u3_5 = out
+u3_6 = .
+PREDICT: [ACTION] start_driving [PARAM] 34.0984638 [PARAM] -118.3079614

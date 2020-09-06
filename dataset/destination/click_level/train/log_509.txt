@@ -1,0 +1,99 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hai
+u1_1 = di
+u1_2 = lao
+PREDICT: find_place
+PREDICT: hai di lao
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = HaiDiLao Hotpot
+v1_address = 400 S Baldwin Ave Suite 2015, Arcadia, CA 91007, United States
+v1_latitude = 34.1333726
+v1_longitude = -118.0529968
+v1_price_level = 3
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 400 South Baldwin Avenue Suite 2015, Arcadia
+v1_street_number = 400
+v1_street_name = South Baldwin Avenue
+v1_locality = Arcadia
+v1_distance = 34.7 mi
+v1_duration = 52 mins
+PREDICT: Do you mean {}?
+PREDICT: HaiDiLao Hotpot
+PREDICT: It is {} away.
+PREDICT: 52 mins
+PREDICT: It is in {}.
+PREDICT: Arcadia
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: Great, we are going to {}.
+PREDICT: HaiDiLao Hotpot
+PREDICT: wait_for_user
+u3_0 = is
+u3_1 = it
+u3_2 = the
+u3_3 = closest
+u3_4 = one
+u3_5 = ?
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: places_nearby
+PREDICT: hai di lao
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = HaiDiLao Hotpot
+v2_0_rating = 4.4
+v2_0_is_open = True
+v2_0_price_level = 3
+v2_0_types_0 = restaurant
+v2_0_types_1 = food
+v2_0_types_2 = point of interest
+v2_0_types_3 = establishment
+v2_0_latitude = 34.1333726
+v2_0_longitude = -118.0529968
+v2_0_address_simple = 400 South Baldwin Avenue Suite 2015, Arcadia
+v2_0_street_number = 400
+v2_0_street_name = South Baldwin Avenue
+v2_0_locality = Arcadia
+v2_0_distance = 34.7 mi
+v2_0_duration = 52 mins
+v2_1_name = Haidilao Hotpot Rowland
+v2_1_rating = 4.5
+v2_1_is_open = True
+v2_1_types_0 = restaurant
+v2_1_types_1 = food
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 33.9944876
+v2_1_longitude = -117.9269373
+v2_1_address_simple = 1600 South Azusa Avenue Unit 178, City of Industry
+v2_1_street_number = 1600
+v2_1_street_name = South Azusa Avenue
+v2_1_locality = City of Industry
+v2_1_distance = 37.1 mi
+v2_1_duration = 48 mins
+PREDICT: I found {} in {}.
+PREDICT: Haidilao Hotpot Rowland
+PREDICT: City of Industry
+PREDICT: It is {} away.
+PREDICT: 48 mins
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u4_0 = the
+u4_1 = one
+u4_2 = in
+u4_3 = City
+u4_4 = of
+u4_5 = Industry
+PREDICT: Great, we are going to {}.
+PREDICT: Haidilao Hotpot Rowland
+PREDICT: start_driving
+PREDICT: 33.9944876
+PREDICT: -117.9269373

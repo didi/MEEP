@@ -1,0 +1,35 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = auto
+u1_1 = parts
+u1_2 = store
+u1_3 = near
+u1_4 = Culver
+u1_5 = city
+PREDICT: [ACTION] find_place [PARAM] auto parts store Culver city [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = O'Reilly Auto Parts
+v1_address = 3899 Overland Ave, Culver City, CA 90232, United States
+v1_latitude = 34.0164598
+v1_longitude = -118.4063087
+v1_types_0 = electronics store
+v1_types_1 = car repair
+v1_types_2 = point of interest
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.2
+v1_is_open = True
+v1_address_simple = 3899 Overland Avenue, Culver City
+v1_street_number = 3899
+v1_street_name = Overland Avenue
+v1_neighborhood = Washington Culver
+v1_locality = Culver City
+v1_distance = 5.2 mi
+v1_duration = 12 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] O'Reilly Auto Parts [PARAM] Overland Avenue
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 5.2 mi [PARAM] 12 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = sure
+u2_1 = that
+u2_2 = works
+PREDICT: [ACTION] start_driving [PARAM] 34.0164598 [PARAM] -118.4063087

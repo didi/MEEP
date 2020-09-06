@@ -1,0 +1,29 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Japanese
+u1_1 = museum
+PREDICT: [ACTION] find_place [PARAM] Japanese museum [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Japanese American National Museum
+v1_address = 100 N Central Ave, Los Angeles, CA 90012, United States
+v1_latitude = 34.0496239
+v1_longitude = -118.2385887
+v1_types_0 = museum
+v1_types_1 = tourist attraction
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.6
+v1_is_open = False
+v1_address_simple = 100 North Central Avenue, Los Angeles
+v1_street_number = 100
+v1_street_name = North Central Avenue
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 18.9 mi
+v1_duration = 32 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Japanese American National Museum
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 32 mins
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.0496239 [PARAM] -118.2385887

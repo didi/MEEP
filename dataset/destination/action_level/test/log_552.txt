@@ -1,0 +1,38 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Venice
+u1_8 = canals
+PREDICT: [ACTION] find_place [PARAM] Venice canals [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Venice Canals
+v1_address = Venice, CA 90292, United States
+v1_latitude = 33.9835027
+v1_longitude = -118.4676805
+v1_types_0 = tourist attraction
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.6
+v1_is_open = True
+v1_address_simple = Venice
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 1.9 mi
+v1_duration = 9 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Venice Canals [PARAM] Venice
+PREDICT: [ACTION] It is {} away. [PARAM] 1.9 mi
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+u2_5 = .
+PREDICT: [ACTION] start_driving [PARAM] 33.9835027 [PARAM] -118.4676805

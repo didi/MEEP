@@ -1,0 +1,127 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Can
+u1_1 = you
+u1_2 = take
+u1_3 = me
+u1_4 = to
+u1_5 = a
+u1_6 = soccer
+u1_7 = field
+u1_8 = in
+u1_9 = Playa
+u1_10 = Vista
+PREDICT: [ACTION] find_place [PARAM] soccer field in Playa Vista [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Soccer Field at Central Park, the Campus at Playa Vista
+v1_address = 12045 E Waterfront Dr, Los Angeles, CA 90094, United States
+v1_latitude = 33.9813856
+v1_longitude = -118.405765
+v1_types_0 = point of interest
+v1_types_1 = establishment
+v1_rating = 4.6
+v1_address_simple = 12045 West Waterfront Drive, Los Angeles
+v1_street_number = 12045
+v1_street_name = West Waterfront Drive
+v1_neighborhood = Westchester
+v1_locality = Los Angeles
+v1_distance = 2.5 mi
+v1_duration = 8 mins
+PREDICT: [ACTION] How about {}? [PARAM] Soccer Field at Central Park, the Campus at Playa Vista
+PREDICT: [ACTION] It is {} away. [PARAM] 8 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = that
+u2_3 = 's
+u2_4 = the
+u2_5 = one
+u2_6 = ,
+u2_7 = what
+u2_8 = 's
+u2_9 = the
+u2_10 = address
+u2_11 = ?
+u3_0 = There
+u3_1 = are
+u3_2 = two
+u3_3 = close
+u3_4 = together
+u3_5 = .
+PREDICT: [ACTION] The address is {}. [PARAM] 12045 West Waterfront Drive, Los Angeles
+PREDICT: [ACTION] wait_for_user
+u4_0 = Is
+u4_1 = there
+u4_2 = one
+u4_3 = on
+u4_4 = Bluff
+u4_5 = Creek
+u4_6 = drive
+u4_7 = ?
+PREDICT: [ACTION] find_place [PARAM] soccer field Bluff Creek drive [PARAM] 33.9813856 [PARAM] -118.405765
+v2_name = Randy Johnson Park Bluff Creek Fields
+v2_address = Los Angeles, CA 90094, United States
+v2_latitude = 33.9747824
+v2_longitude = -118.4142311
+v2_types_0 = point of interest
+v2_types_1 = establishment
+v2_rating = 4.6
+v2_is_open = True
+v2_address_simple = Los Angeles
+v2_locality = Los Angeles
+v2_neighborhood = Westchester
+v2_distance = 0.8 mi
+v2_duration = 3 mins
+PREDICT: [ACTION] places_nearby [PARAM] soccer field [PARAM] 33.9813856 [PARAM] -118.405765
+v3_0_name = Soccer Field at Central Park, the Campus at Playa Vista
+v3_0_rating = 4.6
+v3_0_types_0 = point of interest
+v3_0_types_1 = establishment
+v3_0_latitude = 33.9813856
+v3_0_longitude = -118.405765
+v3_0_address_simple = 12045 West Waterfront Drive, Los Angeles
+v3_0_street_number = 12045
+v3_0_street_name = West Waterfront Drive
+v3_0_neighborhood = Westchester
+v3_0_locality = Los Angeles
+v3_0_distance = 1 ft
+v3_0_duration = 1 min
+v3_1_name = Randy Johnson Park Bluff Creek Fields
+v3_1_rating = 4.6
+v3_1_is_open = True
+v3_1_types_0 = point of interest
+v3_1_types_1 = establishment
+v3_1_latitude = 33.9747824
+v3_1_longitude = -118.4142311
+v3_1_address_simple = Los Angeles
+v3_1_locality = Los Angeles
+v3_1_neighborhood = Westchester
+v3_1_distance = 0.8 mi
+v3_1_duration = 3 mins
+v3_2_name = Playa Champions, Soccer League and Pickups for Adults
+v3_2_rating = 4.9
+v3_2_is_open = True
+v3_2_types_0 = point of interest
+v3_2_types_1 = establishment
+v3_2_latitude = 33.974988
+v3_2_longitude = -118.414463
+v3_2_address_simple = Village Drive, Los Angeles
+v3_2_street_name = Village Drive
+v3_2_neighborhood = Westchester
+v3_2_locality = Los Angeles
+v3_2_distance = 1.1 mi
+v3_2_duration = 5 mins
+PREDICT: [ACTION] How about {}? [PARAM] Randy Johnson Park Bluff Creek Fields
+PREDICT: [ACTION] It is {} away from {}. [PARAM] 3 mins [PARAM] Soccer Field at Central Park, the Campus at Playa Vista
+PREDICT: [ACTION] wait_for_user
+u5_0 = That
+u5_1 = 's
+u5_2 = the
+u5_3 = one
+u5_4 = ,
+u5_5 = let
+u5_6 = 's
+u5_7 = go
+u5_8 = there
+u5_9 = !
+PREDICT: [ACTION] start_driving [PARAM] 33.9747824 [PARAM] -118.4142311

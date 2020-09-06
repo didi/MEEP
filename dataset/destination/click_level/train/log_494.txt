@@ -1,0 +1,131 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = see
+u1_5 = an
+u1_6 = improv
+u1_7 = show
+u1_8 = in
+u1_9 = Hollywood
+u1_10 = .
+PREDICT: find_place
+PREDICT: improv show in Hollywood
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Hollywood Improv
+v1_address = 8162 Melrose Ave, Hollywood, CA 90046, United States
+v1_latitude = 34.0834621
+v1_longitude = -118.3674136
+v1_price_level = 3
+v1_types_0 = point of interest
+v1_types_1 = establishment
+v1_rating = 4.6
+v1_is_open = False
+v1_address_simple = 8162 Melrose Avenue, Hollywood
+v1_street_number = 8162
+v1_street_name = Melrose Avenue
+v1_neighborhood = Hollywood
+v1_locality = Los Angeles
+v1_distance = 13.4 mi
+v1_duration = 30 mins
+PREDICT: I found {} in {}.
+PREDICT: Hollywood Improv
+PREDICT: Hollywood
+PREDICT: wait_for_user
+u2_0 = What
+u2_1 = 's
+u2_2 = it
+u2_3 = rated
+u2_4 = ?
+PREDICT: It has a rating of {}.
+PREDICT: 4.6
+PREDICT: wait_for_user
+u3_0 = Not
+u3_1 = bad
+u3_2 = ,
+u3_3 = are
+u3_4 = there
+u3_5 = any
+u3_6 = other
+u3_7 = options
+u3_8 = though
+u3_9 = ?
+PREDICT: places_nearby
+PREDICT: improv show in Hollywood
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Hollywood Improv
+v2_0_rating = 4.6
+v2_0_is_open = False
+v2_0_price_level = 3
+v2_0_types_0 = point of interest
+v2_0_types_1 = establishment
+v2_0_latitude = 34.0834621
+v2_0_longitude = -118.3674136
+v2_0_address_simple = 8162 Melrose Avenue, Hollywood
+v2_0_street_number = 8162
+v2_0_street_name = Melrose Avenue
+v2_0_neighborhood = Hollywood
+v2_0_locality = Los Angeles
+v2_0_distance = 13.4 mi
+v2_0_duration = 30 mins
+v2_1_name = The Groundlings Theatre & School
+v2_1_rating = 4.7
+v2_1_is_open = True
+v2_1_price_level = 2
+v2_1_types_0 = school
+v2_1_types_1 = point of interest
+v2_1_types_2 = establishment
+v2_1_latitude = 34.083764
+v2_1_longitude = -118.3489799
+v2_1_address_simple = 7307 Melrose Avenue, Los Angeles
+v2_1_street_number = 7307
+v2_1_street_name = Melrose Avenue
+v2_1_neighborhood = Fairfax
+v2_1_locality = Los Angeles
+v2_1_distance = 15.1 mi
+v2_1_duration = 34 mins
+v2_2_name = Improv-LA
+v2_2_rating = 5
+v2_2_is_open = True
+v2_2_types_0 = point of interest
+v2_2_types_1 = establishment
+v2_2_latitude = 34.090642
+v2_2_longitude = -118.330414
+v2_2_address_simple = 1607 North Vermont Avenue, Los Angeles
+v2_2_street_number = 1607
+v2_2_street_name = North Vermont Avenue
+v2_2_neighborhood = Central LA
+v2_2_locality = Los Angeles
+v2_2_distance = 15.8 mi
+v2_2_duration = 35 mins
+PREDICT: I found two places: {} and {}.
+PREDICT: The Groundlings Theatre & School
+PREDICT: Improv-LA
+PREDICT: wait_for_user
+u4_0 = What
+u4_1 = are
+u4_2 = their
+u4_3 = ratings
+u4_4 = ?
+PREDICT: Their ratings are {} and {} respectively.
+PREDICT: 4.7
+PREDICT: 5
+PREDICT: wait_for_user
+u5_0 = Let
+u5_1 = 's
+u5_2 = do
+u5_3 = the
+u5_4 = highest
+u5_5 = rated
+u5_6 = one
+u5_7 = !
+PREDICT: Great, we are going to {}.
+PREDICT: Improv-LA
+PREDICT: start_driving
+PREDICT: 34.090642
+PREDICT: -118.330414

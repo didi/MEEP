@@ -1,0 +1,163 @@
+source_address = Buccleuch Pl, Edinburgh EH8 9LW, UK
+source_latitude = 55.9427087
+source_longitude = -3.185840999999982
+u1_0 = castle
+u1_1 = wynd
+u1_2 = north
+u1_3 = please
+PREDICT: [ACTION] find_place [PARAM] castle wynd north [PARAM] 55.9427087 [PARAM] -3.185840999999982
+v1_name = Castle Wynd N
+v1_address = Castle Wynd N, Edinburgh, UK
+v1_latitude = 55.94864639999999
+v1_longitude = -3.1963598
+v1_street_name = Castle Wynd North
+v1_distance = 1.2 mi
+v1_duration = 10 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Castle Wynd N
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 1.2 mi [PARAM] 10 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = which
+u2_1 = end
+u2_2 = are
+u2_3 = we
+u2_4 = going
+u2_5 = to
+u2_6 = ?
+u3_0 = we
+u3_1 = can
+u3_2 = not
+u3_3 = drive
+u3_4 = on
+u3_5 = it
+u3_6 = .
+u3_7 = id
+u3_8 = like
+u3_9 = to
+u3_10 = be
+u3_11 = dropped
+u3_12 = off
+u3_13 = at
+u3_14 = the
+u3_15 = upper
+u3_16 = end
+u3_17 = on
+u3_18 = high
+u3_19 = street
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] wait_for_user
+u4_0 = I
+u4_1 = guess
+u4_2 = technically
+u4_3 = it
+u4_4 = 's
+u4_5 = on
+u4_6 = castlehill
+u4_7 = ,
+u4_8 = by
+u4_9 = the
+u4_10 = castle
+u4_11 = car
+u4_12 = park
+PREDICT: [ACTION] find_place [PARAM] high street [PARAM] 55.94864639999999 [PARAM] -3.1963598
+v2_name = High St
+v2_address = High St, Edinburgh, UK
+v2_latitude = 55.9501163
+v2_longitude = -3.1880165
+v2_street_name = High Street
+v2_distance = 0.7 mi
+v2_duration = 7 mins
+u5_0 = lets
+u5_1 = just
+u5_2 = go
+u5_3 = to
+u5_4 = the
+u5_5 = castle
+u5_6 = carpark
+u5_7 = ,
+u5_8 = that
+u5_9 = 's
+u5_10 = easier
+PREDICT: [ACTION] find_place [PARAM] castle carpark [PARAM] 55.9427087 [PARAM] -3.185840999999982
+v3_name = NCP Car Park Edinburgh Castle Terrace
+v3_address = Castle Terrace, Edinburgh EH1 2EW, United Kingdom
+v3_rating = 3.4
+v3_is_open = True
+v3_latitude = 55.9479858
+v3_longitude = -3.2034162
+v3_street_name = Castle Terrace
+v3_distance = 1.4 mi
+v3_duration = 10 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] NCP Car Park Edinburgh Castle Terrace
+PREDICT: [ACTION] distance_matrix [PARAM] 55.9479858 [PARAM] -3.2034162 [PARAM] 55.94864639999999 [PARAM] -3.1963598
+v4_distance = 0.8 mi
+v4_duration = 7 mins
+PREDICT: [ACTION] wait_for_user
+u6_0 = no
+u6_1 = ,
+u6_2 = it
+u6_3 = 's
+u6_4 = at
+u6_5 = the
+u6_6 = main
+u6_7 = gate
+u6_8 = of
+u6_9 = the
+u6_10 = castle
+u6_11 = .
+u6_12 = might
+u6_13 = not
+u6_14 = have
+u6_15 = a
+u6_16 = name
+u6_17 = .
+u6_18 = it
+u6_19 = 's
+u6_20 = just
+u6_21 = the
+u6_22 = castle
+u6_23 = tourist
+u6_24 = entrance
+u6_25 = .
+u7_0 = (
+u7_1 = castle
+u7_2 = terrace
+u7_3 = is
+u7_4 = below
+u7_5 = the
+u7_6 = castle
+u7_7 = )
+PREDICT: [ACTION] find_place [PARAM] castle car park main gate [PARAM] 55.9479858 [PARAM] -3.2034162
+v5_name = NCP Car Park Edinburgh Castle Terrace
+v5_address = Castle Terrace, Edinburgh EH1 2EW, United Kingdom
+v5_rating = 3.4
+v5_is_open = True
+v5_latitude = 55.9479858
+v5_longitude = -3.2034162
+v5_street_name = Castle Terrace
+v5_distance = 1 ft
+v5_duration = 1 min
+PREDICT: [ACTION] I am sorry I am unable to find the place.
+PREDICT: [ACTION] wait_for_user
+u8_0 = ah
+u8_1 = well
+u8_2 = .
+u8_3 = then
+u8_4 = let
+u8_5 = 's
+u8_6 = just
+u8_7 = go
+u8_8 = to
+u8_9 = castle
+u8_10 = wynd
+u8_11 = north
+u8_12 = .
+u8_13 = I
+u8_14 = will
+u8_15 = figure
+u8_16 = it
+u8_17 = out
+u8_18 = when
+u8_19 = we
+u8_20 = get
+u8_21 = there
+PREDICT: [ACTION] start_driving [PARAM] 55.94864639999999 [PARAM] -3.1963598

@@ -1,0 +1,242 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = lax
+PREDICT: [ACTION] find_place [PARAM] lax [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Los Angeles International Airport
+v1_address = 1 World Way, Los Angeles, CA 90045, United States
+v1_latitude = 33.9415889
+v1_longitude = -118.40853
+v1_types_0 = airport
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 3.5
+v1_address_simple = 1 World Way, Los Angeles
+v1_street_number = 1
+v1_street_name = World Way
+v1_locality = Los Angeles
+v1_distance = 4.7 mi
+v1_duration = 17 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Los Angeles International Airport
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 4.7 mi [PARAM] 17 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = my
+u3_1 = flight
+u3_2 = is
+u3_3 = sichuan
+u3_4 = airline
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] wait_for_user
+u4_0 = do
+u4_1 = you
+u4_2 = know
+u4_3 = which
+u4_4 = terminal
+u4_5 = it
+u4_6 = is
+u4_7 = ?
+PREDICT: [ACTION] find_place [PARAM] lax sichuan airline terminal [PARAM] 33.9415889 [PARAM] -118.40853
+v2_name = Los Angeles International Airport
+v2_address = 1 World Way, Los Angeles, CA 90045, United States
+v2_latitude = 33.9415889
+v2_longitude = -118.40853
+v2_types_0 = airport
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 3.5
+v2_address_simple = 1 World Way, Los Angeles
+v2_street_number = 1
+v2_street_name = World Way
+v2_locality = Los Angeles
+v2_distance = 1 ft
+v2_duration = 1 min
+PREDICT: [ACTION] find_place [PARAM] sichuan airline [PARAM] 33.9415889 [PARAM] -118.40853
+v3_name = Air China
+v3_address = 200 World Way, Los Angeles, CA 90045, United States
+v3_latitude = 33.9434775
+v3_longitude = -118.408959
+v3_types_0 = point of interest
+v3_types_1 = establishment
+v3_rating = 2.6
+v3_address_simple = 200 World Way, Los Angeles
+v3_street_number = 200
+v3_street_name = World Way
+v3_locality = Los Angeles
+v3_distance = 2.5 mi
+v3_duration = 14 mins
+PREDICT: [ACTION] find_place [PARAM] sichuan airline terminal [PARAM] 33.9415889 [PARAM] -118.40853
+v4_name = Los Angeles International Airport
+v4_address = 1 World Way, Los Angeles, CA 90045, United States
+v4_latitude = 33.9415889
+v4_longitude = -118.40853
+v4_types_0 = airport
+v4_types_1 = point of interest
+v4_types_2 = establishment
+v4_rating = 3.5
+v4_address_simple = 1 World Way, Los Angeles
+v4_street_number = 1
+v4_street_name = World Way
+v4_locality = Los Angeles
+v4_distance = 1 ft
+v4_duration = 1 min
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Air China [PARAM] 200 World Way, Los Angeles
+PREDICT: [ACTION] wait_for_user
+u5_0 = i
+u5_1 = do
+u5_2 = n't
+u5_3 = want
+u5_4 = address
+u6_0 = do
+u6_1 = you
+u6_2 = know
+u6_3 = which
+u6_4 = terminal
+u6_5 = ?
+PREDICT: [ACTION] find_place [PARAM] 200 World Way, Los Angeles, CA 90045, United States [PARAM] 33.9816425 [PARAM] -118.4409761
+v5_name = 200 World Way
+v5_address = 200 World Way, Los Angeles, CA 90045, USA
+v5_latitude = 33.9434775
+v5_longitude = -118.408959
+v5_types_0 = street address
+v5_address_simple = Los Angeles
+v5_street_number = 200
+v5_street_name = World Way
+v5_locality = Los Angeles
+v5_distance = 4.7 mi
+v5_duration = 16 mins
+PREDICT: [ACTION] find_place [PARAM] terminal [PARAM] 33.9434775 [PARAM] -118.408959
+v6_name = LAX Tom Bradley International Terminal (TBIT) Upper Level FlyAway Stop
+v6_address = Los Angeles, CA 90045, United States
+v6_latitude = 33.94397
+v6_longitude = -118.40831
+v6_types_0 = bus station
+v6_types_1 = transit station
+v6_types_2 = point of interest
+v6_types_3 = establishment
+v6_rating = 3.9
+v6_address_simple = Los Angeles
+v6_locality = Los Angeles
+v6_distance = 2.5 mi
+v6_duration = 15 mins
+PREDICT: [ACTION] places_nearby [PARAM] terminal [PARAM] 33.9434775 [PARAM] -118.408959
+v7_0_name = Etihad Airlines Terminal B
+v7_0_rating = 2.8
+v7_0_is_open = True
+v7_0_types_0 = point of interest
+v7_0_types_1 = establishment
+v7_0_latitude = 33.9432419
+v7_0_longitude = -118.4085359
+v7_0_address_simple = 209 World Way, Los Angeles
+v7_0_street_number = 209
+v7_0_street_name = World Way
+v7_0_locality = Los Angeles
+v7_0_distance = 102 ft
+v7_0_duration = 1 min
+v7_1_name = LAX Tom Bradley International Terminal (TBIT) Upper Level FlyAway Stop
+v7_1_rating = 3.9
+v7_1_types_0 = bus station
+v7_1_types_1 = transit station
+v7_1_types_2 = point of interest
+v7_1_types_3 = establishment
+v7_1_latitude = 33.94397
+v7_1_longitude = -118.40831
+v7_1_address_simple = Los Angeles
+v7_1_locality = Los Angeles
+v7_1_distance = 2.5 mi
+v7_1_duration = 15 mins
+v7_2_name = G Shuttle Stop at Int'l Terminal Lower Level
+v7_2_rating = 4.2
+v7_2_types_0 = bus station
+v7_2_types_1 = transit station
+v7_2_types_2 = point of interest
+v7_2_types_3 = establishment
+v7_2_latitude = 33.94460979999999
+v7_2_longitude = -118.4080924
+v7_2_address_simple = United States
+v7_2_locality = Los Angeles
+v7_2_distance = 1.4 mi
+v7_2_duration = 11 mins
+PREDICT: [ACTION] I am sorry I am unable to find that information
+PREDICT: [ACTION] wait_for_user
+u7_0 = ok
+u7_1 = i
+u7_2 = think
+u7_3 = it
+u7_4 = 's
+u7_5 = terminal
+u7_6 = B
+u8_0 = can
+u8_1 = you
+u8_2 = take
+u8_3 = me
+u8_4 = there
+u8_5 = ?
+PREDICT: [ACTION] find_place [PARAM] terminal B [PARAM] 33.9816425 [PARAM] -118.4409761
+v8_name = Etihad Airlines Terminal B
+v8_address = 209 World Way, Los Angeles, CA 90045, United States
+v8_latitude = 33.9432419
+v8_longitude = -118.4085359
+v8_types_0 = point of interest
+v8_types_1 = establishment
+v8_rating = 2.8
+v8_is_open = True
+v8_address_simple = 209 World Way, Los Angeles
+v8_street_number = 209
+v8_street_name = World Way
+v8_locality = Los Angeles
+v8_distance = 4.7 mi
+v8_duration = 16 mins
+PREDICT: [ACTION] places_nearby [PARAM] terminal B [PARAM] 33.9415889 [PARAM] -118.40853
+v9_0_name = Los Angeles International Airport
+v9_0_rating = 3.5
+v9_0_types_0 = airport
+v9_0_types_1 = point of interest
+v9_0_types_2 = establishment
+v9_0_latitude = 33.9415889
+v9_0_longitude = -118.40853
+v9_0_address_simple = 1 World Way, Los Angeles
+v9_0_street_number = 1
+v9_0_street_name = World Way
+v9_0_locality = Los Angeles
+v9_0_distance = 1 ft
+v9_0_duration = 1 min
+v9_1_name = Starbucks
+v9_1_rating = 3.6
+v9_1_is_open = True
+v9_1_price_level = 2
+v9_1_types_0 = cafe
+v9_1_types_1 = food
+v9_1_types_2 = point of interest
+v9_1_types_3 = store
+v9_1_types_4 = establishment
+v9_1_latitude = 33.9405217
+v9_1_longitude = -118.4099753
+v9_1_address_simple = 1 World Way, Los Angeles
+v9_1_street_number = 1
+v9_1_street_name = World Way
+v9_1_locality = Los Angeles
+v9_1_distance = 2.5 mi
+v9_1_duration = 15 mins
+v9_2_name = LAX Flyaway Terminal 4 Lower Level
+v9_2_rating = 4.3
+v9_2_types_0 = point of interest
+v9_2_types_1 = establishment
+v9_2_latitude = 33.9425264
+v9_2_longitude = -118.4069515
+v9_2_address_simple = 425-523 World Way, Los Angeles
+v9_2_street_number = 425-523
+v9_2_street_name = World Way
+v9_2_locality = Los Angeles
+v9_2_distance = 2.3 mi
+v9_2_duration = 14 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Etihad Airlines Terminal B
+PREDICT: [ACTION] wait_for_user
+u9_0 = yes
+u9_1 = ,
+u9_2 = i
+u9_3 = guess
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 16 mins
+PREDICT: [ACTION] start_driving [PARAM] 33.9432419 [PARAM] -118.4085359

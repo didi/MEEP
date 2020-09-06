@@ -1,0 +1,41 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Physical
+u1_7 = TherapyWorks
+PREDICT: [ACTION] find_place [PARAM] Physical TherapyWorks [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Physical Therapyworks
+v1_address = 719 Santa Monica Blvd, Santa Monica, CA 90401, United States
+v1_latitude = 34.0193224
+v1_longitude = -118.4919119
+v1_types_0 = Physiotherapist
+v1_types_1 = Health
+v1_types_2 = Point of interest
+v1_types_3 = Establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = 719 Santa Monica Boulevard, Santa Monica
+v1_street_number = 719
+v1_street_name = Santa Monica Boulevard
+v1_neighborhood = Downtown
+v1_locality = Santa Monica
+v1_distance = 4.1 mi
+v1_duration = 18 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Physical Therapyworks [PARAM] Santa Monica
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 18 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yup
+u2_1 = ,
+u2_2 = you
+u2_3 = got
+u2_4 = it
+u3_0 = lets
+u3_1 = go
+PREDICT: [ACTION] start_driving [PARAM] 34.0193224 [PARAM] -118.4919119

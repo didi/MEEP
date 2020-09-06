@@ -1,0 +1,65 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = airport
+PREDICT: [ACTION] find_place [PARAM] airport [PARAM] 37.760 [PARAM] -122.429
+v1_name = San Francisco International Airport
+v1_address = San Francisco, CA 94128, United States
+v1_latitude = 37.6213129
+v1_longitude = -122.3789554
+v1_types_0 = airport
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 3.9
+v1_address_simple = San Francisco
+v1_locality = San Francisco
+v1_distance = 14.3 mi
+v1_duration = 24 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] San Francisco International Airport
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = to
+u2_3 = the
+u2_4 = Air
+u2_5 = Canada
+u2_6 = terminal
+PREDICT: [ACTION] find_place [PARAM] Air Canada terminal [PARAM] 37.6213129 [PARAM] -122.3789554
+v2_name = Air Canada
+v2_address = 780 S Airport Blvd, San Francisco, CA 94128, United States
+v2_latitude = 37.6139585
+v2_longitude = -122.3886002
+v2_types_0 = travel agency
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 2.2
+v2_address_simple = 780 South Airport Boulevard, San Francisco
+v2_street_number = 780
+v2_street_name = South Airport Boulevard
+v2_locality = San Francisco
+v2_distance = 2.0 mi
+v2_duration = 7 mins
+PREDICT: [ACTION] find_place [PARAM] Air Canada [PARAM] 37.6213129 [PARAM] -122.3789554
+v3_name = Air Canada
+v3_address = 780 S Airport Blvd, San Francisco, CA 94128, United States
+v3_latitude = 37.6139585
+v3_longitude = -122.3886002
+v3_types_0 = travel agency
+v3_types_1 = point of interest
+v3_types_2 = establishment
+v3_rating = 2.2
+v3_address_simple = 780 South Airport Boulevard, San Francisco
+v3_street_number = 780
+v3_street_name = South Airport Boulevard
+v3_locality = San Francisco
+v3_distance = 2.0 mi
+v3_duration = 7 mins
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Air Canada
+PREDICT: [ACTION] start_driving [PARAM] 37.6139585 [PARAM] -122.3886002

@@ -1,0 +1,45 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = Russian
+u1_8 = grocery
+u1_9 = store
+PREDICT: find_place
+PREDICT: Russian grocery store
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Yummy Market
+v1_address = 4400 Dufferin St, North York, ON M3H 6A8, Canada
+v1_rating = 4.5
+v1_is_open = True
+v1_latitude = 43.764577
+v1_longitude = -79.4679471
+v1_street_number = 4400
+v1_street_name = Dufferin Street
+v1_locality = Toronto
+v1_distance = 11.7 mi
+v1_duration = 23 mins
+PREDICT: There is {} on {}
+PREDICT: Yummy Market
+PREDICT: Dufferin Street
+PREDICT: It is {} away.
+PREDICT: 23 mins
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: Great, we are going to {}.
+PREDICT: Yummy Market
+PREDICT: start_driving
+PREDICT: 43.764577
+PREDICT: -79.4679471

@@ -1,0 +1,61 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = get
+u1_7 = bubble
+u1_8 = tea
+u1_9 = in
+u1_10 = Markham
+PREDICT: [ACTION] find_place [PARAM] bubble tea Markham [PARAM] 43.848 [PARAM] -79.525
+v1_name = COMEBUY Bubble Tea Markham
+v1_address = 8110 Birchmount Rd #4, Markham, ON L6G 0E3, Canada
+v1_rating = 4.6
+v1_is_open = True
+v1_latitude = 43.8506661
+v1_longitude = -79.3256004
+v1_street_number = 8110
+v1_street_name = Birchmount Road
+v1_locality = Markham
+v1_distance = 19.2 mi
+v1_duration = 24 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] COMEBUY Bubble Tea Markham [PARAM] Birchmount Road
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] It is {} away. [PARAM] 24 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Is
+u2_1 = there
+u2_2 = a
+u2_3 = CoCo
+u2_4 = ?
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] CoCo Markham [PARAM] 43.848 [PARAM] -79.525
+v2_name = CoCo Fresh Tea & Juice
+v2_address = 3636 Steeles Ave E #103a, Markham, ON L3R 1K9, Canada
+v2_price_level = 1
+v2_rating = 4
+v2_is_open = True
+v2_latitude = 43.8188284
+v2_longitude = -79.33059589999999
+v2_street_number = 3636
+v2_street_name = Steeles Avenue East
+v2_locality = Markham
+v2_distance = 20.2 mi
+v2_duration = 26 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] CoCo Fresh Tea & Juice [PARAM] Steeles Avenue East
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 26 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Great
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = there
+u3_6 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] CoCo Fresh Tea & Juice
+PREDICT: [ACTION] start_driving [PARAM] 43.8188284 [PARAM] -79.33059589999999

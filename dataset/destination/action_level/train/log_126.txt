@@ -1,0 +1,52 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Starbucks
+u1_6 = in
+u1_7 = the
+u1_8 = Vaughan
+u1_9 = Mills
+u1_10 = Plaza
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] Starbucks Vaughan Mills Plaza [PARAM] 43.848 [PARAM] -79.525
+v1_name = Starbucks
+v1_address = 1 Bass Pro Mills Dr K1, Vaughan Mills Mall, Concord, ON L4K 5W4, Canada
+v1_rating = 4.1
+v1_is_open = True
+v1_latitude = 43.825728
+v1_longitude = -79.5388518
+v1_neighborhood = Concord
+v1_locality = Vaughan
+v1_distance = 2.2 mi
+v1_duration = 9 mins
+PREDICT: [ACTION] {} in {}? [PARAM] Starbucks [PARAM] Vaughan
+PREDICT: [ACTION] It is {} away. [PARAM] 9 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Ok
+u2_1 = ,
+u2_2 = what
+u2_3 = street
+u2_4 = is
+u2_5 = it
+u2_6 = on
+u2_7 = ?
+PREDICT: [ACTION] I am sorry I am unable to find the place.
+PREDICT: [ACTION] Is the address {}? [PARAM] 1 Bass Pro Mills Dr K1, Vaughan Mills Mall, Concord, ON L4K 5W4, Canada
+PREDICT: [ACTION] wait_for_user
+u3_0 = That
+u3_1 = 's
+u3_2 = Vaughan
+u3_3 = mills
+u3_4 = .
+u3_5 = Ok
+u3_6 = ,
+u3_7 = let
+u3_8 = 's
+u3_9 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 43.825728 [PARAM] -79.5388518

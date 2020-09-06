@@ -1,0 +1,116 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = devils
+u1_1 = punmchbowl
+u2_0 = punchbowl
+PREDICT: [ACTION] find_place [PARAM] devils punchbowl [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Devil's Punchbowl
+v1_address = Devil's Punchbowl, California 93553, USA
+v1_latitude = 34.4202755
+v1_longitude = -117.8522854
+v1_types_0 = natural feature
+v1_types_1 = establishment
+v1_rating = 4.6
+v1_natural_feature establishment = Devil's Punchbowl
+v1_distance = 79.3 mi
+v1_duration = 1 hour 26 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Devil's Punchbowl [PARAM] 79.3 mi
+PREDICT: [ACTION] wait_for_user
+u3_0 = can
+u3_1 = we
+u3_2 = go
+u3_3 = to
+u3_4 = the
+u3_5 = campground
+u3_6 = on
+u3_7 = the
+u3_8 = eastern
+u3_9 = entrance
+PREDICT: [ACTION] find_place [PARAM] campground on the eastern entrance [PARAM] 34.4202755 [PARAM] -117.8522854
+v2_name = Bonelli Bluffs RV Resort & Campground, formerly East Shore RV Park
+v2_address = 1440 Camper View Rd, San Dimas, CA 91773, United States
+v2_latitude = 34.0861283
+v2_longitude = -117.79574
+v2_types_0 = rv park
+v2_types_1 = tourist attraction
+v2_types_2 = lodging
+v2_types_3 = park
+v2_types_4 = point of interest
+v2_types_5 = establishment
+v2_rating = 4.4
+v2_is_open = True
+v2_address_simple = 1440 Camper View Road, San Dimas
+v2_street_number = 1440
+v2_street_name = Camper View Road
+v2_locality = San Dimas
+v2_distance = 75.7 mi
+v2_duration = 1 hour 21 mins
+PREDICT: [ACTION] How about {}? [PARAM] Bonelli Bluffs RV Resort & Campground, formerly East Shore RV Park
+PREDICT: [ACTION] wait_for_user
+u4_0 = hrm
+u4_1 = no
+u4_2 = .
+u4_3 = is
+u4_4 = there
+u4_5 = something
+u4_6 = on
+u4_7 = Big
+u4_8 = Rock
+u4_9 = Creek
+u4_10 = ?
+PREDICT: [ACTION] find_place [PARAM] Big Rock Creek [PARAM] 34.4202755 [PARAM] -117.8522854
+v3_name = Big Rock Creek Rd
+v3_address = Big Rock Creek Rd, California, USA
+v3_latitude = 34.3949139
+v3_longitude = -117.7972331
+v3_types_0 = route
+v3_street_name = Big Rock Creek Road
+v3_distance = 13.6 mi
+v3_duration = 22 mins
+PREDICT: [ACTION] find_place [PARAM] campground on Big Rock Creek [PARAM] 34.4202755 [PARAM] -117.8522854
+v4_name = Big Rock Campground
+v4_address = Fenner Canyon, Big Rock Creek Rd, Valyermo, CA 93563, United States
+v4_latitude = 34.3877803
+v4_longitude = -117.7767249
+v4_types_0 = campground
+v4_types_1 = lodging
+v4_types_2 = park
+v4_types_3 = point of interest
+v4_types_4 = establishment
+v4_rating = 4.6
+v4_address_simple = Fenner Canyon, Big Rock Creek Road, Valyermo
+v4_establishment = Fenner Canyon
+v4_street_name = Big Rock Creek Road
+v4_locality = Valyermo
+v4_distance = 15.0 mi
+v4_duration = 24 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Big Rock Campground
+PREDICT: [ACTION] wait_for_user
+u5_0 = that
+u5_1 = sounds
+u5_2 = about
+u5_3 = right
+u5_4 = .
+u5_5 = it
+u5_6 = 's
+u5_7 = by
+u5_8 = devils
+u5_9 = punchbowl
+u5_10 = ,
+u5_11 = and
+u5_12 = not
+u5_13 = some
+u5_14 = random
+u5_15 = other
+u5_16 = park
+u5_17 = ?
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Big Rock Campground [PARAM] 15.0 mi [PARAM] Devil's Punchbowl
+PREDICT: [ACTION] wait_for_user
+u6_0 = great
+u6_1 = ,
+u6_2 = that
+u6_3 = will
+u6_4 = do
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.3877803 [PARAM] -117.7767249

@@ -1,0 +1,95 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Hi
+u1_1 = ,
+u1_2 = I
+u1_3 = 'd
+u1_4 = like
+u1_5 = to
+u1_6 = go
+u1_7 = to
+u1_8 = a
+u1_9 = local
+u1_10 = farmer
+u1_11 = 's
+u1_12 = market
+u1_13 = .
+PREDICT: [ACTION] find_place [PARAM] local farmer 's market [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = Vía Marina &, Panay Way, Marina Del Rey, CA 90292, United States
+v1_name = Marina Del Rey Farmer's Market
+v1_latitude = 33.9790142
+v1_longitude = -118.4590506
+v1_place_id = ChIJw5_TO5m6woARt3WQ8MGjLwA
+v1_street_name = Panay Way
+v1_locality = Marina del Rey
+v1_distance = 1.5 mi
+v1_duration = 5 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Marina Del Rey Farmer's Market [PARAM] Panay Way
+PREDICT: [ACTION] It is {} away. [PARAM] 5 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Actually
+u2_1 = I
+u2_2 = was
+u2_3 = thinking
+u2_4 = one
+u2_5 = in
+u2_6 = Culver
+u2_7 = City
+u2_8 = .
+PREDICT: [ACTION] find_place [PARAM] Culver City [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = Culver City, CA, USA
+v2_name = Culver City
+v2_latitude = 34.0211224
+v2_longitude = -118.3964665
+v2_place_id = ChIJnXN32x66woAR_lnrS9HphTE
+v2_locality = Culver City
+v2_distance = 5.5 mi
+v2_duration = 14 mins
+PREDICT: [ACTION] places_nearby [PARAM] local farmer 's market [PARAM] 34.0211224 [PARAM] -118.3964665
+v3_0_name = Culver City Farmers Market
+v3_0_rating = 4.6
+v3_0_is_open = False
+v3_0_place_id = ChIJb-4Wiim6woARO8Me1iv9eqQ
+v3_0_types = ['point_of_interest', 'establishment']
+v3_0_latitude = 34.0250711
+v3_0_longitude = -118.3945889
+v3_0_address = Main St, Culver City, CA 90232, USA
+v3_0_street_name = Main Street
+v3_0_neighborhood = Downtown
+v3_0_locality = Culver City
+v3_1_name = Motor Avenue Farmers' Market
+v3_1_rating = 4.1
+v3_1_is_open = False
+v3_1_place_id = ChIJj_n3hsu7woARSopUJAz64IM
+v3_1_types = ['point_of_interest', 'establishment']
+v3_1_latitude = 34.0292204
+v3_1_longitude = -118.4106979
+v3_1_address = &, National Blvd & Motor Ave, Los Angeles, CA 90034, USA
+v3_1_locality = Los Angeles
+v3_1_neighborhood = Palms
+v3_2_name = La Cienega Farmers' Market
+v3_2_rating = 4.4
+v3_2_is_open = False
+v3_2_place_id = ChIJabL02nG5woAR16tUWDaKyl0
+v3_2_types = ['point_of_interest', 'establishment']
+v3_2_latitude = 34.043485
+v3_2_longitude = -118.379316
+v3_2_address = 1835 S La Cienega Blvd, Los Angeles, CA 90035, USA
+v3_2_street_number = 1835
+v3_2_street_name = South La Cienega Boulevard
+v3_2_neighborhood = Mid City
+v3_2_locality = Los Angeles
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 34.0250711 [PARAM] -118.3945889
+v4_distance = 5.8 mi
+v4_duration = 16 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Culver City Farmers Market [PARAM] Main Street
+PREDICT: [ACTION] It is {} away. [PARAM] 5.8 mi
+PREDICT: [ACTION] wait_for_user
+u3_0 = Great
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = !
+PREDICT: [ACTION] start_driving [PARAM] 34.0250711 [PARAM] -118.3945889

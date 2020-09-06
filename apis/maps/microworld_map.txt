@@ -1,0 +1,22 @@
+# Microworld v.1.0
+# Values are: lat, lng, name, rating, price, types
+1, 1, Gap, 2, 2, clothes, gap
+1, 2, Coffee-Connection, 5, 2, cafe, coffee, connection
+1, 3, Starbucks, 2, 3, cafe, starbucks, coffee
+1, 4, In-n-out, 4, 2, burger, in-n-out, food, restaurant
+1, 5, Starbucks-Deluxe, 4, 5, cafe, starbucks, coffee, deluxe
+1, 6, Gap, 3, 2, clothes, gap
+1, 7, Boiling-Crab, 5, 4, seafood, shrimp, crab, boiling, food, restaurant
+1, 8, Gap, 2, 2, clothes, gap
+1, 9, Trim, 4, 4, haircut, trim, hair
+1, 10, Killer-Shrimp, 3, 3, seafood, shrimp, food, restaurant
+1, 11, Starbucks, 3, 3, cafe, starbucks, coffee
+1, 12, In-n-out, 4, 2, burger, in-n-out, food, restaurant
+1, 13, Fatburger, 4, 1, burger, fatburger, food, restaurant
+1, 14, Starbucks, 2, 3, cafe, starbucks, coffee
+1, 15, Gap, 3, 2, clothes, gap
+1, 16, Dogtown, 5, 2, cafe, dogtown, coffee
+1, 17, Ubercuts, 2, 2, haircut, ubercuts, supercuts, hair
+1, 18, In-n-out, 3, 2, burger, in-n-out, food, restaurant
+1, 19, Boiling-Crab, 4, 4, seafood, shrimp, crab, boiling, food, restaurant
+1, 20, Starbucks, 3, 4, cafe, starbucks, coffee

@@ -1,0 +1,56 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = could
+u1_1 = we
+u1_2 = go
+u1_3 = to
+u1_4 = avenue
+u1_5 = road
+u1_6 = seafood
+u1_7 = ?
+PREDICT: [ACTION] find_place [PARAM] avenue road seafood [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Avenue Seafood
+v1_address = 1751 Avenue Rd, North York, ON M5M 3Y8, Canada
+v1_rating = 4.3
+v1_is_open = True
+v1_latitude = 43.7291062
+v1_longitude = -79.41818339999999
+v1_street_number = 1751
+v1_street_name = Avenue Road
+v1_locality = Toronto
+v1_distance = 5.1 mi
+v1_duration = 19 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] Avenue Seafood [PARAM] Avenue Road
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 5.1 mi [PARAM] 19 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = it
+u2_1 = should
+u2_2 = be
+u2_3 = near
+u2_4 = no
+u2_5 = frills
+u2_6 = ,
+u2_7 = is
+u2_8 = that
+u2_9 = right
+u2_10 = ?
+PREDICT: [ACTION] find_place [PARAM] no frills [PARAM] 43.7291062 [PARAM] -79.41818339999999
+v2_name = Dino's No Frills
+v2_address = 1811 Avenue Rd, North York, ON M5M 3Z3, Canada
+v2_rating = 3.8
+v2_is_open = True
+v2_latitude = 43.7307098
+v2_longitude = -79.418581
+v2_street_number = 1811
+v2_street_name = Avenue Road
+v2_locality = Toronto
+v2_distance = 0.1 mi
+v2_duration = 1 min
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Avenue Seafood [PARAM] 1 min [PARAM] Dino's No Frills
+PREDICT: [ACTION] wait_for_user
+u3_0 = perfect
+u3_1 = let
+u3_2 = 's
+u3_3 = go
+PREDICT: [ACTION] start_driving [PARAM] 43.7291062 [PARAM] -79.41818339999999

@@ -1,0 +1,94 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = comedy
+u1_8 = show
+u1_9 = in
+u1_10 = Hollywood
+u1_11 = .
+u1_12 = I
+u1_13 = think
+u1_14 = the
+u1_15 = place
+u1_16 = is
+u1_17 = called
+u1_18 = Comedy
+u1_19 = Store
+u1_20 = .
+PREDICT: find_place
+PREDICT: Hollywood
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = Hollywood, Los Angeles, CA, USA
+v1_name = Hollywood
+v1_latitude = 34.0928092
+v1_longitude = -118.3286614
+v1_place_id = ChIJv3lSBAe_woAR5Pq9l2eaevY
+v1_neighborhood = Hollywood
+v1_locality = Los Angeles
+v1_distance = 16.0 mi
+v1_duration = 36 mins
+PREDICT: find_place
+PREDICT: Comedy Store
+PREDICT: 34.0928092
+PREDICT: -118.3286614
+v2_address = 8433 Sunset Blvd, Los Angeles, CA 90069, United States
+v2_name = The Comedy Store
+v2_latitude = 34.0951345
+v2_longitude = -118.3739278
+v2_place_id = ChIJg7DLab6-woARHyVknPRuxJA
+v2_street_number = 8433
+v2_street_name = Sunset Boulevard
+v2_neighborhood = Sunset Strip
+v2_locality = Los Angeles
+v2_distance = 2.9 mi
+v2_duration = 12 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: The Comedy Store
+PREDICT: Sunset Boulevard
+PREDICT: wait_for_user
+u2_0 = What
+u2_1 = city
+u2_2 = is
+u2_3 = it
+u2_4 = ?
+PREDICT: It is in {}
+PREDICT: Sunset Strip
+PREDICT: wait_for_user
+u3_0 = Do
+u3_1 = you
+u3_2 = know
+u3_3 = how
+u3_4 = far
+u3_5 = it
+u3_6 = is
+u3_7 = from
+u3_8 = Hollywood
+u3_9 = ?
+PREDICT: {} is {} away from {}.
+PREDICT: The Comedy Store
+PREDICT: 2.9 mi
+PREDICT: Hollywood
+PREDICT: wait_for_user
+u4_0 = Okay
+u4_1 = ,
+u4_2 = that
+u4_3 = sounds
+u4_4 = about
+u4_5 = right
+u4_6 = ,
+u4_7 = let
+u4_8 = 's
+u4_9 = go1
+PREDICT: Great, we are going to {}.
+PREDICT: The Comedy Store
+PREDICT: start_driving
+PREDICT: 34.0951345
+PREDICT: -118.3739278

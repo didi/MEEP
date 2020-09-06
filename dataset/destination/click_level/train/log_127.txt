@@ -1,0 +1,80 @@
+source_address = Hollywood, Los Angeles, CA, USA
+source_latitude = 34.0928092
+source_longitude = -118.32866139999999
+u1_0 = the
+u1_1 = climbing
+u1_2 = gym
+u1_3 = please
+u2_0 = the
+u2_1 = touchstone
+u2_2 = one
+u2_3 = near
+u2_4 = here
+PREDICT: places_nearby
+PREDICT: touchstone climbing gym
+PREDICT: 34.0928092
+PREDICT: -118.32866139999999
+v1_0_name = Hollywood Boulders
+v1_0_rating = 4.8
+v1_0_is_open = True
+v1_0_types = ['point_of_interest', 'establishment']
+v1_0_latitude = 34.0912218
+v1_0_longitude = -118.318296
+v1_0_address = 1107 N Bronson Ave, Los Angeles, CA 90038, USA
+v1_0_street_number = 1107
+v1_0_street_name = North Bronson Avenue
+v1_0_neighborhood = Central LA
+v1_0_locality = Los Angeles
+v1_0_distance = 0.8 mi
+v1_0_duration = 3 mins
+v1_1_name = Cliffs of Id
+v1_1_rating = 4.7
+v1_1_is_open = True
+v1_1_types = ['gym', 'health', 'point_of_interest', 'establishment']
+v1_1_latitude = 34.033047
+v1_1_longitude = -118.3708085
+v1_1_address = 2537 S Fairfax Ave, Culver City, CA 90232, USA
+v1_1_street_number = 2537
+v1_1_street_name = South Fairfax Avenue
+v1_1_neighborhood = McManus
+v1_1_locality = Culver City
+v1_1_distance = 5.8 mi
+v1_1_duration = 22 mins
+v1_2_name = Verdigo Boulders
+v1_2_rating = 4.8
+v1_2_is_open = True
+v1_2_types = ['point_of_interest', 'establishment']
+v1_2_latitude = 34.1836665
+v1_2_longitude = -118.3105994
+v1_2_address = 266 E Magnolia Blvd, Burbank, CA 91502, USA
+v1_2_street_number = 266
+v1_2_street_name = East Magnolia Boulevard
+v1_2_locality = Burbank
+v1_2_distance = 7.5 mi
+v1_2_duration = 23 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Hollywood Boulders
+PREDICT: Cliffs of Id
+PREDICT: Verdigo Boulders
+PREDICT: Is it one of those?
+PREDICT: wait_for_user
+u3_0 = which
+u3_1 = one
+u3_2 = is
+u3_3 = closest
+u3_4 = ?
+PREDICT: {} is closest.
+PREDICT: Hollywood Boulders
+PREDICT: wait_for_user
+u4_0 = well
+u4_1 = ,
+u4_2 = then
+u4_3 = that
+u4_4 = 's
+u4_5 = the
+u4_6 = one
+PREDICT: Great, we are going to {}.
+PREDICT: Hollywood Boulders
+PREDICT: start_driving
+PREDICT: 34.0912218
+PREDICT: -118.318296

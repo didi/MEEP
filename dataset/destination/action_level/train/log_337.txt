@@ -1,0 +1,51 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = Brazilian
+u1_7 = place
+u1_8 = .
+u1_9 = It
+u1_10 = 's
+u1_11 = near
+u1_12 = King
+u1_13 = Harbor
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] Brazilian place near King Harbor [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Samba Brazilian Steakhouse
+v1_address = 207 N Harbor Dr, Redondo Beach, CA 90277, United States
+v1_latitude = 33.8426234
+v1_longitude = -118.392995
+v1_price_level = 3
+v1_types_0 = night club
+v1_types_1 = bar
+v1_types_2 = restaurant
+v1_types_3 = food
+v1_types_4 = point of interest
+v1_types_5 = establishment
+v1_rating = 4.2
+v1_is_open = False
+v1_address_simple = 207 North Harbor Drive, Redondo Beach
+v1_street_number = 207
+v1_street_name = North Harbor Drive
+v1_neighborhood = South Redondo
+v1_locality = Redondo Beach
+v1_distance = 14.9 mi
+v1_duration = 31 mins
+PREDICT: [ACTION] How about {}? [PARAM] Samba Brazilian Steakhouse
+PREDICT: [ACTION] wait_for_user
+u2_0 = Samba
+u2_1 = is
+u2_2 = so
+u2_3 = fun
+u2_4 = .
+u2_5 = Yes
+u2_6 = .
+PREDICT: [ACTION] It is in {}. [PARAM] South Redondo
+PREDICT: [ACTION] Going to {} in {}. [PARAM] Samba Brazilian Steakhouse [PARAM] South Redondo
+PREDICT: [ACTION] start_driving [PARAM] 33.8426234 [PARAM] -118.392995

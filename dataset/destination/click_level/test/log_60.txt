@@ -1,0 +1,51 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = get
+u1_5 = some
+u1_6 = lunch
+u1_7 = at
+u1_8 = Urth
+u1_9 = Cafe
+u1_10 = .
+PREDICT: Pleasure serving you!
+PREDICT: find_place
+PREDICT: Urth Cafe
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 2327 Main St, Santa Monica, CA 90405, United States
+v1_name = Urth Caffé Santa Monica
+v1_latitude = 34.004361
+v1_longitude = -118.485779
+v1_place_id = ChIJh7mX0NS6woARseCGkcbQVJ8
+v1_street_number = 2327
+v1_street_name = Main Street
+v1_neighborhood = Ocean Park
+v1_locality = Santa Monica
+v1_distance = 3.6 mi
+v1_duration = 15 mins
+PREDICT: Do you mean {}?
+PREDICT: Urth Caffé Santa Monica
+PREDICT: wait_for_user
+u2_0 = Yes
+PREDICT: It is {} and {} away.
+PREDICT: 3.6 mi
+PREDICT: 15 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = Yes
+u3_1 = ,
+u3_2 = I
+u3_3 = 'm
+u3_4 = hungry
+u3_5 = let
+u3_6 = 's
+u3_7 = go1
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.004361
+PREDICT: -118.485779

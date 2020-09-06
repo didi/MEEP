@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Find place",
+        "endpoint": "/maps/find_place",
+        "params": [
+            {
+                "name": "query"
+            },
+            {
+                "name": "src latitude"
+            },
+            {
+                "name": "src longitude"
+            }
+        ]
+    },
+    {
+        "name": "Places nearby",
+        "endpoint": "/maps/places_nearby",
+        "params": [
+            {
+                "name": "query"
+            },
+            {
+                "name": "src latitude"
+            },
+            {
+                "name": "src longitude"
+            }
+        ]
+    },
+    {
+        "name": "Distance matrix",
+        "endpoint": "/maps/distance_matrix",
+        "params": [
+            {
+                "name": "src latitude"
+            },
+            {
+                "name": "src longitude"
+            },
+            {
+                "name": "dest latitude"
+            },
+            {
+                "name": "dest longitude"
+            }
+        ]
+    },
+    {
+        "name": "Start driving",
+        "endpoint": "/maps/start_driving",
+        "params": [
+            {
+                "name": "dest latitude"
+            },
+            {
+                "name": "dest longitude"
+            }
+        ],
+        "completesDialog":  true
+    },
+    {
+        "name": "Give up: could not find destination",
+        "endpoint": "/give_up",
+        "params": []
+    }
+]

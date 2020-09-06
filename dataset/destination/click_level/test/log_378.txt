@@ -1,0 +1,91 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = pharmacy
+PREDICT: places_nearby
+PREDICT: pharmacy
+PREDICT: 37.760
+PREDICT: -122.429
+v1_0_name = AHF Pharmacy - CASTRO (SF)
+v1_0_rating = 3.3
+v1_0_is_open = True
+v1_0_types_0 = pharmacy
+v1_0_types_1 = health
+v1_0_types_2 = point of interest
+v1_0_types_3 = store
+v1_0_types_4 = establishment
+v1_0_latitude = 37.7608261
+v1_0_longitude = -122.4344075
+v1_0_address_simple = 4071 18th Street, San Francisco
+v1_0_street_number = 4071
+v1_0_street_name = 18th Street
+v1_0_neighborhood = Eureka Valley
+v1_0_locality = San Francisco
+v1_0_distance = 0.3 mi
+v1_0_duration = 2 mins
+v1_1_name = CVS Pharmacy Specialty Services
+v1_1_rating = 2.7
+v1_1_is_open = True
+v1_1_types_0 = pharmacy
+v1_1_types_1 = health
+v1_1_types_2 = point of interest
+v1_1_types_3 = store
+v1_1_types_4 = establishment
+v1_1_latitude = 37.7617763
+v1_1_longitude = -122.4348318
+v1_1_address_simple = 445 Castro Street, San Francisco
+v1_1_street_number = 445
+v1_1_street_name = Castro Street
+v1_1_neighborhood = Eureka Valley
+v1_1_locality = San Francisco
+v1_1_distance = 0.4 mi
+v1_1_duration = 3 mins
+v1_2_name = Walgreens Pharmacy
+v1_2_rating = 3.5
+v1_2_is_open = True
+v1_2_price_level = 2
+v1_2_types_0 = pharmacy
+v1_2_types_1 = health
+v1_2_types_2 = point of interest
+v1_2_types_3 = store
+v1_2_types_4 = establishment
+v1_2_latitude = 37.761015
+v1_2_longitude = -122.4352027
+v1_2_address_simple = 498 Castro Street, San Francisco
+v1_2_street_number = 498
+v1_2_street_name = Castro Street
+v1_2_neighborhood = Eureka Valley
+v1_2_locality = San Francisco
+v1_2_distance = 0.3 mi
+v1_2_duration = 2 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: AHF Pharmacy - CASTRO (SF)
+PREDICT: CVS Pharmacy Specialty Services
+PREDICT: Walgreens Pharmacy
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u2_0 = How
+u2_1 = far
+u2_2 = is
+u2_3 = the
+u2_4 = CVS
+u2_5 = ?
+PREDICT: {} is {} away.
+PREDICT: CVS Pharmacy Specialty Services
+PREDICT: 0.4 mi
+PREDICT: wait_for_user
+u3_0 = Great
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 37.7617763
+PREDICT: -122.4348318

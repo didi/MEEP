@@ -1,0 +1,51 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = buy
+u1_4 = a
+u1_5 = toaster
+u1_6 = oven
+u1_7 = .
+PREDICT: [ACTION] find_place [PARAM] toaster oven [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Bed Bath & Beyond
+v1_address = 8820 S Sepulveda Blvd, Westchester, CA 90045, United States
+v1_latitude = 33.9563352
+v1_longitude = -118.3957687
+v1_price_level = 2
+v1_types_0 = Department store
+v1_types_1 = Home goods store
+v1_types_2 = Point of interest
+v1_types_3 = Store
+v1_types_4 = Establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 8820 South Sepulveda Boulevard, Westchester
+v1_street_number = 8820
+v1_street_name = South Sepulveda Boulevard
+v1_neighborhood = Westchester
+v1_locality = Los Angeles
+v1_distance = 3.6 mi
+v1_duration = 12 mins
+PREDICT: [ACTION] How about one on {}? It is {} away. [PARAM] Bed Bath & Beyond [PARAM] 3.6 mi
+PREDICT: [ACTION] wait_for_user
+u2_0 = Sure
+u2_1 = ,
+u2_2 = where
+u2_3 = is
+u2_4 = it
+u2_5 = ?
+PREDICT: [ACTION] The address is {}. [PARAM] 8820 South Sepulveda Boulevard, Westchester
+PREDICT: [ACTION] wait_for_user
+u3_0 = Westchester
+u3_1 = is
+u3_2 = close
+u3_3 = ,
+u3_4 = okay
+u3_5 = .
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 33.9563352 [PARAM] -118.3957687

@@ -1,0 +1,146 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = nice
+u1_8 = italian
+u1_9 = restaurant
+u1_10 = in
+u1_11 = Arts
+u1_12 = District
+PREDICT: find_place
+PREDICT: italian restaurant in Arts District
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = The Factory Kitchen
+v1_address = 1300 Factory Pl, Los Angeles, CA 90013, United States
+v1_latitude = 34.0389746
+v1_longitude = -118.2359076
+v1_price_level = 3
+v1_types_0 = Restaurant
+v1_types_1 = Food
+v1_types_2 = Point of interest
+v1_types_3 = Establishment
+v1_rating = 4.5
+v1_is_open = False
+v1_address_simple = 1300 Factory Place, Los Angeles
+v1_street_number = 1300
+v1_street_name = Factory Place
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 19.1 mi
+v1_duration = 32 mins
+PREDICT: There is a {} in {}.
+PREDICT: The Factory Kitchen
+PREDICT: Downtown Los Angeles
+PREDICT: wait_for_user
+u2_0 = Hmm
+u2_1 = ,
+u2_2 = I
+u2_3 = 'm
+u2_4 = thinking
+u2_5 = of
+u2_6 = a
+u2_7 = different
+u2_8 = place
+u2_9 = ,
+u2_10 = ca
+u2_11 = n't
+u2_12 = recall
+u2_13 = the
+u2_14 = name
+u2_15 = .
+u3_0 = Can
+u3_1 = you
+u3_2 = offer
+u3_3 = some
+u3_4 = more
+u3_5 = suggestions
+u3_6 = ?
+u4_0 = Nearby
+u4_1 = ?
+PREDICT: places_nearby
+PREDICT: italian restaurant in Arts District
+PREDICT: 34.0389746
+PREDICT: -118.2359076
+v2_0_name = The Factory Kitchen
+v2_0_rating = 4.5
+v2_0_is_open = False
+v2_0_price_level = 3
+v2_0_types_0 = Restaurant
+v2_0_types_1 = Food
+v2_0_types_2 = Point of interest
+v2_0_types_3 = Establishment
+v2_0_latitude = 34.0389746
+v2_0_longitude = -118.2359076
+v2_0_address_simple = 1300 Factory Place, Los Angeles
+v2_0_street_number = 1300
+v2_0_street_name = Factory Place
+v2_0_neighborhood = Downtown Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 1 ft
+v2_0_duration = 1 min
+v2_1_name = BRERA Ristorante
+v2_1_rating = 4.4
+v2_1_is_open = False
+v2_1_price_level = 3
+v2_1_types_0 = Bar
+v2_1_types_1 = Restaurant
+v2_1_types_2 = Food
+v2_1_types_3 = Point of interest
+v2_1_types_4 = Establishment
+v2_1_latitude = 34.0384646
+v2_1_longitude = -118.2347398
+v2_1_address_simple = 1331 East 6th Street, Los Angeles
+v2_1_street_number = 1331
+v2_1_street_name = East 6th Street
+v2_1_neighborhood = Downtown Los Angeles
+v2_1_locality = Los Angeles
+v2_1_distance = 0.1 mi
+v2_1_duration = 1 min
+v2_2_name = Bestia
+v2_2_rating = 4.6
+v2_2_is_open = False
+v2_2_price_level = 2
+v2_2_types_0 = Restaurant
+v2_2_types_1 = Food
+v2_2_types_2 = Point of interest
+v2_2_types_3 = Establishment
+v2_2_latitude = 34.0338216
+v2_2_longitude = -118.2293285
+v2_2_address_simple = 2121 East 7th Place, Los Angeles
+v2_2_street_number = 2121
+v2_2_street_name = East 7th Place
+v2_2_neighborhood = Downtown Los Angeles
+v2_2_locality = Los Angeles
+v2_2_distance = 1.0 mi
+v2_2_duration = 6 mins
+PREDICT: I found two places: {} and {}.
+PREDICT: BRERA Ristorante
+PREDICT: Bestia
+PREDICT: wait_for_user
+u5_0 = Ah
+u5_1 = ,
+u5_2 = right
+u5_3 = it
+u5_4 = 's
+u5_5 = the
+u5_6 = second
+u5_7 = one
+u5_8 = !
+u5_9 = Let
+u5_10 = 's
+u5_11 = go
+u5_12 = !
+PREDICT: Going to {} in {}.
+PREDICT: Bestia
+PREDICT: Downtown Los Angeles
+PREDICT: start_driving
+PREDICT: 34.0338216
+PREDICT: -118.2293285

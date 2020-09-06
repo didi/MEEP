@@ -1,0 +1,53 @@
+source_address = Edinburgh, UK
+source_latitude = 55.953252
+source_longitude = -3.188266999999996
+u1_0 = calton
+u1_1 = hill
+u1_2 = please
+PREDICT: find_place
+PREDICT: calton hill
+PREDICT: 55.953252
+PREDICT: -3.188266999999996
+v1_name = Calton Hill
+v1_address = Calton Hill, Edinburgh EH7 5AA, UK
+v1_rating = 4.7
+v1_latitude = 55.9550465
+v1_longitude = -3.1827409
+v1_natural_feature establishment = Calton Hill
+v1_distance = 0.2 mi
+v1_duration = 1 min
+PREDICT: Is the address {}?
+PREDICT: Calton Hill, Edinburgh EH7 5AA, UK
+PREDICT: It is {} and {} away.
+PREDICT: 0.2 mi
+PREDICT: 1 min
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = dont
+u2_2 = know
+u2_3 = the
+u2_4 = address
+u2_5 = .
+u2_6 = is
+u2_7 = it
+u2_8 = a
+u2_9 = hill
+u2_10 = ?
+PREDICT: Yes.
+PREDICT: wait_for_user
+u3_0 = it
+u3_1 = 's
+u3_2 = got
+u3_3 = a
+u3_4 = monument
+u3_5 = on
+u3_6 = it
+u3_7 = and
+u3_8 = stuff
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = aye
+u4_1 = lets
+PREDICT: start_driving
+PREDICT: 55.9550465
+PREDICT: -3.1827409

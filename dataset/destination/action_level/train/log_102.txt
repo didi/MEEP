@@ -1,0 +1,49 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = play
+u1_4 = go-carts
+PREDICT: [ACTION] find_place [PARAM] play go-carts [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 17221 Von Karman Ave, Irvine, CA 92614, United States
+v1_name = K1 Speed - Indoor Go Karts, Corporate Event Venue, Team Building Activities
+v1_latitude = 33.6910181
+v1_longitude = -117.8418087
+v1_place_id = ChIJLaN5x5ne3IARWZT-H0YEsgM
+v1_street_number = 17221
+v1_street_name = Von Karman Avenue
+v1_neighborhood = Irvine Business Complex
+v1_locality = Irvine
+v1_distance = 46.7 mi
+v1_duration = 52 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] K1 Speed - Indoor Go Karts, Corporate Event Venue, Team Building Activities [PARAM] Irvine
+PREDICT: [ACTION] It is {} away. [PARAM] 52 mins
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u2_0 = anything
+u2_1 = closer
+u2_2 = ?
+PREDICT: [ACTION] find_place [PARAM] go-carts [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = 21830 Recreation Rd, Carson, CA 90745, United States
+v2_name = Go Kart World
+v2_latitude = 33.8298977
+v2_longitude = -118.253239
+v2_place_id = ChIJpc8jQB013YARi7S-ib8cFjo
+v2_street_number = 21830
+v2_street_name = Recreation Road
+v2_locality = Carson
+v2_distance = 18.6 mi
+v2_duration = 22 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Go Kart World [PARAM] Carson
+PREDICT: [ACTION] It is {} away. [PARAM] 22 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = much
+u3_1 = better
+u3_2 = ,
+u3_3 = let
+u3_4 = 's
+u3_5 = go
+PREDICT: [ACTION] Going to {} in {}. [PARAM] Go Kart World [PARAM] Carson
+PREDICT: [ACTION] start_driving [PARAM] 33.8298977 [PARAM] -118.253239

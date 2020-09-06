@@ -1,0 +1,36 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Del
+u1_1 = Amo
+u1_2 = Mall
+u1_3 = ,
+u1_4 = please
+u1_5 = .
+PREDICT: [ACTION] find_place [PARAM] Del Amo Mall [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Del Amo Fashion Center
+v1_address = 3525 W Carson St, Torrance, CA 90503, United States
+v1_latitude = 33.83068069999999
+v1_longitude = -118.3499017
+v1_types_0 = shopping mall
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 3525 West Carson Street, Torrance
+v1_street_number = 3525
+v1_street_name = West Carson Street
+v1_locality = Torrance
+v1_distance = 15.0 mi
+v1_duration = 27 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Del Amo Fashion Center [PARAM] West Carson Street
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = !
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 15.0 mi [PARAM] 27 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 33.83068069999999 [PARAM] -118.3499017

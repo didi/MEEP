@@ -1,0 +1,82 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Let
+u1_1 = 's
+u1_2 = go
+u1_3 = to
+u1_4 = Palm
+u1_5 = Springs
+PREDICT: find_place
+PREDICT: Palm Springs
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = Palm Springs, CA, USA
+v1_name = Palm Springs
+v1_latitude = 33.8302961
+v1_longitude = -116.5452921
+v1_place_id = ChIJs-Xb_9Qa24ARfHntwodp5aE
+v1_locality = Palm Springs
+v1_distance = 126 mi
+v1_duration = 2 hours 7 mins
+u2_0 = i
+u2_1 = have
+u2_2 = a
+u2_3 = movie
+u2_4 = festival
+u2_5 = there
+PREDICT: find_place
+PREDICT: Palm Springs movie festival
+PREDICT: 33.8302961
+PREDICT: -116.5452921
+v2_address = 1700 E Tahquitz Canyon Way # 3, Palm Springs, CA 92262, United States
+v2_name = Palm Springs International Film Festival
+v2_latitude = 33.8233019
+v2_longitude = -116.5273264
+v2_place_id = ChIJeyDj6Jwb24AR3_6cYXRBwsA
+v2_street_number = 1700
+v2_street_name = East Tahquitz Canyon Way
+v2_locality = Palm Springs
+v2_distance = 1.6 mi
+v2_duration = 5 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Palm Springs International Film Festival
+PREDICT: East Tahquitz Canyon Way
+PREDICT: distance_matrix
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: 33.8233019
+PREDICT: -116.5273264
+v3_distance = 128 mi
+v3_duration = 2 hours 11 mins
+PREDICT: wait_for_user
+u3_0 = i
+u3_1 = do
+u3_2 = n't
+u3_3 = know
+u3_4 = ,
+u3_5 = but
+u3_6 = you
+u3_7 = can
+u3_8 = just
+u3_9 = take
+u3_10 = me
+u3_11 = to
+u3_12 = palm
+u3_13 = springs
+u3_14 = ,
+u3_15 = and
+u3_16 = i
+u3_17 = can
+u3_18 = find
+u3_19 = it
+u3_20 = from
+u3_21 = there
+u3_22 = .
+PREDICT: You will reach there in {}.
+PREDICT: 2 hours 11 mins
+PREDICT: Great, we are going to {}.
+PREDICT: Palm Springs, CA, USA
+PREDICT: start_driving
+PREDICT: 33.8302961
+PREDICT: -116.5452921

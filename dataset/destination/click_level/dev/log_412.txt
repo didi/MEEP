@@ -1,0 +1,72 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = a
+u1_1 = secondhand
+u1_2 = bookstore
+u1_3 = on
+u1_4 = Capitol
+u1_5 = Hill
+PREDICT: find_place
+PREDICT: Capitol Hill
+PREDICT: 47.676
+PREDICT: -122.306
+v1_name = Capitol Hill
+v1_address = Capitol Hill, Seattle, WA, USA
+v1_latitude = 47.625305
+v1_longitude = -122.3221835
+v1_types_0 = neighborhood
+v1_types_1 = political
+v1_address_simple = Seattle
+v1_neighborhood = Capitol Hill
+v1_locality = Seattle
+v1_distance = 4.5 mi
+v1_duration = 12 mins
+PREDICT: find_place
+PREDICT: secondhand bookstore
+PREDICT: 47.625305
+PREDICT: -122.3221835
+v2_name = Twice Sold Tales
+v2_address = 1833 Harvard Ave, Seattle, WA 98122, United States
+v2_latitude = 47.6185998
+v2_longitude = -122.3223588
+v2_types_0 = book store
+v2_types_1 = home goods store
+v2_types_2 = point of interest
+v2_types_3 = store
+v2_types_4 = establishment
+v2_rating = 4.8
+v2_is_open = True
+v2_address_simple = 1833 Harvard Avenue, Seattle
+v2_street_number = 1833
+v2_street_name = Harvard Avenue
+v2_neighborhood = Capitol Hill
+v2_locality = Seattle
+v2_distance = 0.6 mi
+v2_duration = 4 mins
+PREDICT: I found {} in {}.
+PREDICT: Twice Sold Tales
+PREDICT: Harvard Avenue
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = lovely
+u2_1 = .
+u2_2 = how
+u2_3 = long
+u2_4 = will
+u2_5 = it
+u2_6 = take
+u2_7 = to
+u2_8 = get
+u2_9 = there
+u2_10 = ?
+PREDICT: It is {} and {} away.
+PREDICT: 0.6 mi
+PREDICT: 4 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = yep
+u3_1 = please
+PREDICT: start_driving
+PREDICT: 47.6185998
+PREDICT: -122.3223588

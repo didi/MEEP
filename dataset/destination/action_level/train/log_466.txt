@@ -1,0 +1,32 @@
+source_address = 4035 Grand View Blvd, Los Angeles, CA 90066, United States
+source_latitude = 33.999
+source_longitude = -118.427
+u1_0 = Patagonia
+u1_1 = store
+u1_2 = please
+PREDICT: [ACTION] find_place [PARAM] Patagonia store [PARAM] 33.999 [PARAM] -118.427
+v1_name = Patagonia
+v1_address = 1344 4th St, Santa Monica, CA 90401, United States
+v1_latitude = 34.0166523
+v1_longitude = -118.4958513
+v1_types_0 = clothing store
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 4.6
+v1_is_open = True
+v1_address_simple = 1344 4th Street, Santa Monica
+v1_street_number = 1344
+v1_street_name = 4th Street
+v1_neighborhood = Downtown
+v1_locality = Santa Monica
+v1_distance = 7.1 mi
+v1_duration = 15 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Patagonia [PARAM] Santa Monica
+PREDICT: [ACTION] wait_for_user
+u2_0 = yeah
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = please
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Patagonia
+PREDICT: [ACTION] start_driving [PARAM] 34.0166523 [PARAM] -118.4958513

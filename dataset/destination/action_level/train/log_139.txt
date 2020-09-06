@@ -1,0 +1,43 @@
+source_address = Marina Del Rey, CA 90292, USA
+source_latitude = 33.9802893
+source_longitude = -118.4517449
+u1_0 = toping
+u1_1 = canyon
+u1_2 = trailhead
+u1_3 = please
+u2_0 = topanga
+PREDICT: [ACTION] find_place [PARAM] topanga canyon trailhead [PARAM] 33.9802893 [PARAM] -118.4517449
+v1_name = Topanga State Park
+v1_address = 20828 Entrada Rd, Topanga, CA 90290, United States
+v1_rating = 4.7
+v1_is_open = True
+v1_latitude = 34.0931823
+v1_longitude = -118.5873146
+v1_street_number = 20828
+v1_street_name = Entrada Road
+v1_locality = Topanga
+v1_distance = 15.1 mi
+v1_duration = 40 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Topanga State Park [PARAM] 15.1 mi
+PREDICT: [ACTION] wait_for_user
+u3_0 = but
+u3_1 = the
+u3_2 = road
+u3_3 = is
+u3_4 = quite
+u3_5 = twisty
+u3_6 = .
+u3_7 = how
+u3_8 = long
+u3_9 = will
+u3_10 = it
+u3_11 = take
+u3_12 = ?
+PREDICT: [ACTION] It is {} away. [PARAM] 40 mins
+PREDICT: [ACTION] wait_for_user
+u4_0 = sounds
+u4_1 = about
+u4_2 = right
+u4_3 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Topanga State Park
+PREDICT: [ACTION] start_driving [PARAM] 34.0931823 [PARAM] -118.5873146

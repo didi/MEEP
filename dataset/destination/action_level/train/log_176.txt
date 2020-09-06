@@ -1,0 +1,30 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Clumax
+u1_6 = diagnostics
+PREDICT: [ACTION] find_place [PARAM] Clumax diagnostics [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Medall Clumax Diagnostics
+v1_address = Lakshmi Towers, 68/150/3 Sri, 9th Main Rd, Jayanagar East, Jayanagar, Bengaluru, Karnataka 560011, India
+v1_rating = 2.2
+v1_is_open = False
+v1_latitude = 12.934059
+v1_longitude = 77.5838279
+v1_street_name = 9th Main Road
+v1_neighborhood = Jayanagar East
+v1_locality = Bengaluru
+v1_distance = 1.1 mi
+v1_duration = 7 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Medall Clumax Diagnostics [PARAM] Jayanagar East
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+u2_1 = that
+u2_2 = is
+u2_3 = right
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 12.934059 [PARAM] 77.5838279

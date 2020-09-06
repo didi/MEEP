@@ -1,0 +1,72 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = Watergate
+PREDICT: [ACTION] find_place [PARAM] Watergate [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v1_name = The Watergate Hotel
+v1_address = 2650 Virginia Ave NW, Washington, DC 20037, United States
+v1_latitude = 38.8995671
+v1_longitude = -77.05508590000001
+v1_types_0 = night club
+v1_types_1 = lodging
+v1_types_2 = bar
+v1_types_3 = restaurant
+v1_types_4 = food
+v1_types_5 = point of interest
+v1_types_6 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 2650 Virginia Avenue Northwest, Washington
+v1_street_number = 2650
+v1_street_name = Virginia Avenue Northwest
+v1_neighborhood = Northwest Washington
+v1_locality = Washington
+v1_distance = 4.3 mi
+v1_duration = 13 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] The Watergate Hotel
+PREDICT: [ACTION] wait_for_user
+u2_0 = iiiii
+u2_1 = ...
+u2_2 = ca
+u2_3 = n't
+u2_4 = stand
+u2_5 = it
+u2_6 = /
+u2_7 = I
+u2_8 = know
+u2_9 = you
+u2_10 = planned
+u2_11 = it
+u2_12 = /
+u2_13 = imma
+u2_14 = set
+u2_15 = this
+u2_16 = straight
+u2_17 = ,
+u2_18 = this
+u2_19 = Watergate
+u2_20 = .
+u2_21 = such
+u2_22 = a
+u2_23 = good
+u2_24 = song
+u2_25 = .
+u3_0 = yeah
+u3_1 = the
+u3_2 = hotel
+PREDICT: [ACTION] The address is {}. [PARAM] 2650 Virginia Avenue Northwest, Washington
+PREDICT: [ACTION] wait_for_user
+u4_0 = perfect
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 4.3 mi [PARAM] 13 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = guess
+u5_1 = your
+u5_2 = crystal
+u5_3 = ball
+u5_4 = *was*
+u5_5 = so
+u5_6 = crystal
+u5_7 = clear
+u6_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 38.8995671 [PARAM] -77.05508590000001

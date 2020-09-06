@@ -1,0 +1,50 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = nearest
+u1_7 = pharmacy
+u1_8 = that
+u1_9 = is
+u1_10 = still
+u1_11 = open
+u1_12 = .
+PREDICT: [ACTION] find_place [PARAM] pharmacy [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Marina Del Rey Pharmacy
+v1_address = 4558 Admiralty Way, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.98273289999999
+v1_longitude = -118.4418824
+v1_types_0 = Pharmacy
+v1_types_1 = Drugstore
+v1_types_2 = Health
+v1_types_3 = Point of interest
+v1_types_4 = Store
+v1_types_5 = Establishment
+v1_rating = 4
+v1_is_open = True
+v1_address_simple = 4558 Admiralty Way, Marina del Rey
+v1_street_number = 4558
+v1_street_name = Admiralty Way
+v1_locality = Marina del Rey
+v1_distance = 0.2 mi
+v1_duration = 1 min
+PREDICT: [ACTION] {} on {} is open. [PARAM] Marina Del Rey Pharmacy [PARAM] Admiralty Way
+PREDICT: [ACTION] It is {} away. [PARAM] 1 min
+PREDICT: [ACTION] wait_for_user
+u2_0 = Phew
+u2_1 = ,
+u2_2 = okay
+u2_3 = .
+u3_0 = Let
+u3_1 = 's
+u3_2 = go
+u3_3 = right
+u3_4 = away
+u3_5 = .
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 33.98273289999999 [PARAM] -118.4418824

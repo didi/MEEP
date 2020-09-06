@@ -1,0 +1,25 @@
+{
+  "initial_message": {
+        "body": "Hello! Where would you like to go today?",
+        "template": "Hello! Where would you like to go today?",
+        "variables": [],
+        "sender": "agent"
+    },
+  "initial_variables": {
+    "variable_group": "source",
+    "variables": [
+      {
+        "name": "address",
+        "value": "6.5 Main Street, Marina del Rey, CA"
+      },
+      {
+        "name": "latitude",
+        "value": 0
+      },
+      {
+        "name": "longitude",
+        "value": 1
+      }
+    ]
+  }
+}

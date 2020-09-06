@@ -1,0 +1,86 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = observatory
+u1_7 = .
+PREDICT: find_place
+PREDICT: observatory
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 2800 E Observatory Rd, Los Angeles, CA 90027, United States
+v1_name = Griffith Observatory
+v1_latitude = 34.1184341
+v1_longitude = -118.3003935
+v1_place_id = ChIJywjU6WG_woAR3NrWwrEH_3M
+v1_street_number = 2800
+v1_street_name = East Observatory Road
+v1_locality = Los Angeles
+v1_distance = 26.7 mi
+v1_duration = 50 mins
+PREDICT: Do you mean {}?
+PREDICT: Griffith Observatory
+PREDICT: wait_for_user
+u2_0 = yes
+u2_1 = that
+u2_2 = 's
+u2_3 = the
+u2_4 = one
+PREDICT: It is {} and {} away.
+PREDICT: 26.7 mi
+PREDICT: 50 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = that
+u3_1 = seems
+u3_2 = far
+u3_3 = .
+u3_4 = is
+u3_5 = it
+u3_6 = near
+u3_7 = runyon
+u3_8 = canyon
+u3_9 = ?
+PREDICT: find_place
+PREDICT: runyon canyon
+PREDICT: 34.1184341
+PREDICT: -118.3003935
+v2_address = Runyon Canyon Rd, Los Angeles, CA 90046, USA
+v2_name = Runyon Canyon Rd
+v2_latitude = 34.1124691
+v2_longitude = -118.3502231
+v2_place_id = ChIJCQ6sSeO-woARg4u9Dxqugew
+v2_street_name = Runyon Canyon Road
+v2_neighborhood = Central LA
+v2_locality = Los Angeles
+v2_distance = 5.7 mi
+v2_duration = 22 mins
+PREDICT: {} is {} away from {}.
+PREDICT: Runyon Canyon Rd
+PREDICT: 5.7 mi
+PREDICT: Griffith Observatory
+PREDICT: distance_matrix
+PREDICT: 34.1184341
+PREDICT: -118.3003935
+PREDICT: 34.1124691
+PREDICT: -118.3502231
+v3_distance = 5.7 mi
+v3_duration = 22 mins
+PREDICT: wait_for_user
+u4_0 = ok
+u4_1 = ,
+u4_2 = that
+u4_3 = must
+u4_4 = be
+u4_5 = it
+u4_6 = .
+PREDICT: Great, we are going to {}.
+PREDICT: Griffith Observatory
+PREDICT: start_driving
+PREDICT: 34.1184341
+PREDICT: -118.3003935

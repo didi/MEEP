@@ -1,0 +1,86 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Let
+u1_1 = 's
+u1_2 = go
+u1_3 = to
+u1_4 = the
+u1_5 = farmer
+u1_6 = 's
+u1_7 = market
+u1_8 = .
+PREDICT: [ACTION] places_nearby [PARAM] farmer 's market [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = Del Rey Farmers Market
+v1_0_rating = 5
+v1_0_is_open = False
+v1_0_place_id = ChIJwb0_0yO7woARdyVJgW7busk
+v1_0_types = ['point_of_interest', 'establishment']
+v1_0_latitude = 33.9847023
+v1_0_longitude = -118.431441
+v1_0_address = 4601 Alla Rd, Marina Del Rey, CA 90292, USA
+v1_0_street_number = 4601
+v1_0_street_name = Alla Road
+v1_0_locality = Marina del Rey
+v1_1_name = Marina Del Rey Farmer's Market
+v1_1_rating = 4.6
+v1_1_is_open = False
+v1_1_place_id = ChIJw5_TO5m6woARt3WQ8MGjLwA
+v1_1_types = ['point_of_interest', 'establishment']
+v1_1_latitude = 33.9790142
+v1_1_longitude = -118.4590506
+v1_1_address = Vía Marina &, Panay Way, Marina Del Rey, CA 90292, USA
+v1_1_street_name = Panay Way
+v1_1_locality = Marina del Rey
+v1_2_name = Farmers market
+v1_2_rating = 4.7
+v1_2_is_open = False
+v1_2_place_id = ChIJbQUqm5iwwoARALaFcm27QZ8
+v1_2_types = ['grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment']
+v1_2_latitude = 33.9766487
+v1_2_longitude = -118.4168555
+v1_2_address = Runway Blvd, Los Angeles, CA 90066, USA
+v1_2_street_name = Runway Boulevard
+v1_2_neighborhood = Westchester
+v1_2_locality = Los Angeles
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Del Rey Farmers Market [PARAM] Marina Del Rey Farmer's Market [PARAM] Farmers market
+PREDICT: [ACTION] wait_for_user
+u2_0 = the
+u2_1 = marina
+u2_2 = del
+u2_3 = rey
+u2_4 = one
+u2_5 = ,
+u2_6 = in
+u2_7 = the
+u2_8 = parking
+u2_9 = lot
+u2_10 = of
+u2_11 = the
+u2_12 = cheesecake
+u2_13 = factory
+PREDICT: [ACTION] find_place [PARAM] cheesecake factory [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = 4142 Vía Marina, Marina Del Rey, CA 90292, United States
+v2_name = The Cheesecake Factory
+v2_latitude = 33.9798862
+v2_longitude = -118.4585969
+v2_place_id = ChIJp6SyFJm6woAR8P9VHRGsqlQ
+v2_street_number = 4142
+v2_street_name = Vía Marina
+v2_locality = Marina del Rey
+v2_distance = 1.5 mi
+v2_duration = 6 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9798862 [PARAM] -118.4585969 [PARAM] 33.9847023 [PARAM] -118.431441
+v3_distance = 2.3 mi
+v3_duration = 10 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9798862 [PARAM] -118.4585969 [PARAM] 33.9790142 [PARAM] -118.4590506
+v4_distance = 0.2 mi
+v4_duration = 2 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9798862 [PARAM] -118.4585969 [PARAM] 33.9766487 [PARAM] -118.4168555
+v5_distance = 3.5 mi
+v5_duration = 12 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Marina Del Rey Farmer's Market [PARAM] 0.2 mi [PARAM] The Cheesecake Factory
+PREDICT: [ACTION] wait_for_user
+u3_0 = perfect
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 33.9766487 [PARAM] -118.4168555

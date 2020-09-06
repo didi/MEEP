@@ -1,0 +1,197 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = park
+PREDICT: [ACTION] find_place [PARAM] park [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Burton Chace Park
+v1_address = 13650 Mindanao Way, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.977905
+v1_longitude = -118.44399
+v1_types_0 = park
+v1_types_1 = tourist attraction
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.6
+v1_is_open = True
+v1_address_simple = 13650 Mindanao Way, Marina del Rey
+v1_street_number = 13650
+v1_street_name = Mindanao Way
+v1_locality = Marina del Rey
+v1_distance = 0.4 mi
+v1_duration = 3 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Burton Chace Park [PARAM] Marina del Rey
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 3 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = i
+u2_1 = 've
+u2_2 = been
+u2_3 = there
+u2_4 = before
+u2_5 = ,
+u2_6 = looking
+u2_7 = for
+u2_8 = a
+u2_9 = new
+u2_10 = one
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] places_nearby [PARAM] park [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = Burton Chace Park
+v2_0_rating = 4.6
+v2_0_is_open = True
+v2_0_types_0 = park
+v2_0_types_1 = tourist attraction
+v2_0_types_2 = point of interest
+v2_0_types_3 = establishment
+v2_0_latitude = 33.977905
+v2_0_longitude = -118.44399
+v2_0_address_simple = 13650 Mindanao Way, Marina del Rey
+v2_0_street_number = 13650
+v2_0_street_name = Mindanao Way
+v2_0_locality = Marina del Rey
+v2_0_distance = 0.4 mi
+v2_0_duration = 3 mins
+v2_1_name = Yvonne B. Burke Park
+v2_1_rating = 4.6
+v2_1_is_open = True
+v2_1_types_0 = park
+v2_1_types_1 = point of interest
+v2_1_types_2 = establishment
+v2_1_latitude = 33.9842526
+v2_1_longitude = -118.4472942
+v2_1_address_simple = 4350 Admiralty Way, Marina del Rey
+v2_1_street_number = 4350
+v2_1_street_name = Admiralty Way
+v2_1_neighborhood = Venice
+v2_1_locality = Marina del Rey
+v2_1_distance = 0.5 mi
+v2_1_duration = 2 mins
+v2_2_name = Glen Alla Park
+v2_2_rating = 4.5
+v2_2_is_open = True
+v2_2_types_0 = park
+v2_2_types_1 = tourist attraction
+v2_2_types_2 = point of interest
+v2_2_types_3 = establishment
+v2_2_latitude = 33.9843496
+v2_2_longitude = -118.4317191
+v2_2_address_simple = 4601 Alla Road, Marina del Rey
+v2_2_street_number = 4601
+v2_2_street_name = Alla Road
+v2_2_locality = Marina del Rey
+v2_2_distance = 0.8 mi
+v2_2_duration = 5 mins
+PREDICT: [ACTION] I found two places: {} and {}. [PARAM] Yvonne B. Burke Park [PARAM] Glen Alla Park
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u3_0 = how
+u3_1 = far
+u3_2 = are
+u3_3 = they
+u3_4 = ?
+PREDICT: [ACTION] {} is {} away. [PARAM] Yvonne B. Burke Park [PARAM] 2 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Glen Alla Park [PARAM] 5 mins
+PREDICT: [ACTION] wait_for_user
+u4_0 = can
+u4_1 = i
+u4_2 = go
+u4_3 = to
+u4_4 = one
+u4_5 = that
+u4_6 = 's
+u4_7 = not
+u4_8 = in
+u4_9 = marina
+u4_10 = del
+u4_11 = rey
+u4_12 = ?
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] places_nearby [PARAM] park not in marina del rey [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_0_name = Marina del Rey Public Parking Lot 5
+v3_0_rating = 4.8
+v3_0_types_0 = parking
+v3_0_types_1 = point of interest
+v3_0_types_2 = establishment
+v3_0_latitude = 33.9824066
+v3_0_longitude = -118.4424761
+v3_0_address_simple = 4545 Admiralty Way, Marina del Rey
+v3_0_street_number = 4545
+v3_0_street_name = Admiralty Way
+v3_0_locality = Marina del Rey
+v3_0_distance = 0.5 mi
+v3_0_duration = 3 mins
+v3_1_name = Marina Del Rey Hotel
+v3_1_rating = 4.3
+v3_1_is_open = True
+v3_1_types_0 = lodging
+v3_1_types_1 = point of interest
+v3_1_types_2 = establishment
+v3_1_latitude = 33.9799859
+v3_1_longitude = -118.4456637
+v3_1_address_simple = 13534 Bali Way, Marina del Rey
+v3_1_street_number = 13534
+v3_1_street_name = Bali Way
+v3_1_locality = Marina del Rey
+v3_1_distance = 0.4 mi
+v3_1_duration = 4 mins
+v3_2_name = Burton Chace Park
+v3_2_rating = 4.6
+v3_2_is_open = True
+v3_2_types_0 = park
+v3_2_types_1 = tourist attraction
+v3_2_types_2 = point of interest
+v3_2_types_3 = establishment
+v3_2_latitude = 33.977905
+v3_2_longitude = -118.44399
+v3_2_address_simple = 13650 Mindanao Way, Marina del Rey
+v3_2_street_number = 13650
+v3_2_street_name = Mindanao Way
+v3_2_locality = Marina del Rey
+v3_2_distance = 0.4 mi
+v3_2_duration = 3 mins
+PREDICT: [ACTION] Do you happen to know the neigborhood or cross street?
+PREDICT: [ACTION] wait_for_user
+u5_0 = i
+u5_1 = guess
+u5_2 = i
+u5_3 = would
+u5_4 = go
+u5_5 = to
+u5_6 = a
+u5_7 = park
+u5_8 = in
+u5_9 = santa
+u5_10 = monica
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] park in santa monica [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = Tongva Park
+v4_address = 1615 Ocean Ave, Santa Monica, CA 90401, United States
+v4_latitude = 34.0111203
+v4_longitude = -118.4932405
+v4_types_0 = park
+v4_types_1 = tourist attraction
+v4_types_2 = point of interest
+v4_types_3 = establishment
+v4_rating = 4.5
+v4_is_open = True
+v4_address_simple = 1615 Ocean Avenue, Santa Monica
+v4_street_number = 1615
+v4_street_name = Ocean Avenue
+v4_locality = Santa Monica
+v4_distance = 4.3 mi
+v4_duration = 17 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Tongva Park [PARAM] Ocean Avenue
+PREDICT: [ACTION] It is {} away. [PARAM] 17 mins
+PREDICT: [ACTION] wait_for_user
+u6_0 = that
+u6_1 = works
+u6_2 = !
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Tongva Park
+PREDICT: [ACTION] start_driving [PARAM] 34.0111203 [PARAM] -118.4932405

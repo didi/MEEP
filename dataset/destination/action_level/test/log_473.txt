@@ -1,0 +1,28 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = the
+u1_1 = zoo
+u1_2 = please
+PREDICT: [ACTION] find_place [PARAM] the zoo [PARAM] 47.676 [PARAM] -122.306
+v1_name = Woodland Park Zoo
+v1_address = 5500 Phinney Ave N, Seattle, WA 98103, United States
+v1_latitude = 47.6685161
+v1_longitude = -122.3543444
+v1_types_0 = zoo
+v1_types_1 = tourist attraction
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.6
+v1_is_open = False
+v1_address_simple = 5500 Phinney Avenue North, Seattle
+v1_street_number = 5500
+v1_street_name = Phinney Avenue North
+v1_neighborhood = Northwest Seattle
+v1_locality = Seattle
+v1_distance = 3.0 mi
+v1_duration = 11 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Woodland Park Zoo [PARAM] 11 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 47.6685161 [PARAM] -122.3543444

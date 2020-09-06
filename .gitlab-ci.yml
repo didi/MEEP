@@ -1,0 +1,40 @@
+stages:
+  - build
+  - test
+
+cache:
+  paths:
+    - env
+
+build:
+  stage: build
+  script:
+    # Commands to run tests on our server
+    # Workaround for Ubuntu python that doesn't include ensurepip
+    - python3.6 -m venv env --without-pip
+    - source env/bin/activate
+
+    # Download get-pip script if necessary. Only needs to be done once per machine
+    # curl https://bootstrap.pypa.io/get-pip.py -o /home/shared/scripts/get-pip.py
+
+    # Run get-pip
+    - python /home/shared/scripts/get-pip.py
+    # `which pip` should show the version in your environment
+
+
+    - pip install -r requirements-full.txt
+
+    # Can set up frontend, but we don't have tests for this yet
+    # - cd ../../gui/frontend
+    # - npm install
+  only:
+    - master
+
+test:
+  stage: test
+  script:
+    - source env/bin/activate
+    - cd gui/backend
+    - python -m unittest discover
+  only:
+    - master

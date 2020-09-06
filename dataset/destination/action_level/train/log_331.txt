@@ -1,0 +1,43 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = nearest
+u1_8 = BART
+u1_9 = station
+PREDICT: [ACTION] find_place [PARAM] BART station [PARAM] 37.760 [PARAM] -122.429
+v1_name = 16th St Mission
+v1_address = Qa, 2000 Mission St, San Francisco, CA 94110, United States
+v1_latitude = 37.7653618
+v1_longitude = -122.4195684
+v1_types_0 = subway station
+v1_types_1 = transit station
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 3
+v1_address_simple = Qa, 2000 Mission Street, San Francisco
+v1_street_number = 2000
+v1_street_name = Mission Street
+v1_neighborhood = Mission District
+v1_locality = San Francisco
+v1_distance = 0.8 mi
+v1_duration = 6 mins
+PREDICT: [ACTION] {} is the closest {} I could find. [PARAM] 16th St Mission [PARAM] subway station
+PREDICT: [ACTION] It is {} away. [PARAM] 0.8 mi
+PREDICT: [ACTION] wait_for_user
+u2_0 = Ok
+u2_1 = that
+u2_2 = sounds
+u2_3 = good
+u2_4 = ,
+u2_5 = let
+u2_6 = 's
+u2_7 = go
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] 16th St Mission
+PREDICT: [ACTION] start_driving [PARAM] 37.7653618 [PARAM] -122.4195684

@@ -1,0 +1,50 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = The
+u1_1 = TD
+u1_2 = tower
+u1_3 = please
+PREDICT: [ACTION] find_place [PARAM] TD tower [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Toronto Dominion Centre
+v1_address = 66 Wellington St W Suite 3800, Toronto, ON M5K 1A1, Canada
+v1_rating = 4.3
+v1_is_open = True
+v1_latitude = 43.6476385
+v1_longitude = -79.3816258
+v1_street_number = 66
+v1_street_name = Wellington Street West
+v1_locality = Toronto
+v1_distance = 2.1 mi
+v1_duration = 11 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Toronto Dominion Centre [PARAM] Wellington Street West
+PREDICT: [ACTION] wait_for_user
+u2_0 = that
+u2_1 = 's
+u2_2 = across
+u2_3 = the
+u2_4 = street
+u2_5 = from
+u2_6 = FCP
+u2_7 = right
+u2_8 = ?
+PREDICT: [ACTION] find_place [PARAM] FCP [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v2_name = First Canadian Place
+v2_address = First Canadian Place, Toronto, ON, Canada
+v2_latitude = 43.6488906
+v2_longitude = -79.38087259999999
+v2_locality = Toronto
+v2_distance = 2.1 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 43.6488906 [PARAM] -79.38087259999999 [PARAM] 43.6476385 [PARAM] -79.3816258
+v3_distance = 259 ft
+v3_duration = 1 min
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+u3_1 = ty
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] First Canadian Place [PARAM] 259 ft [PARAM] Toronto Dominion Centre
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yup
+PREDICT: [ACTION] start_driving [PARAM] 43.6476385 [PARAM] -79.3816258

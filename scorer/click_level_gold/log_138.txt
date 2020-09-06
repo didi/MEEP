@@ -1,0 +1,42 @@
+source_address = 121 Avro Rd, Maple, ON L6A 1Y2, Canada
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = skiing
+u1_6 = at
+u1_7 = horseshoe
+PREDICT: find_place
+PREDICT: skiing at horseshoe
+PREDICT: 43.84815930000001
+PREDICT: -79.52523070000001
+v1_name = Horseshoe Resort
+v1_address = 1101 Horseshoe Valley Rd W, Barrie, ON L4M 4Y8, Canada
+v1_rating = 4.2
+v1_is_open = True
+v1_latitude = 44.5494768
+v1_longitude = -79.672466
+v1_street_number = 1101
+v1_street_name = Horseshoe Valley Road West
+v1_locality = Barrie
+v1_distance = 56.0 mi
+v1_duration = 55 mins
+PREDICT: There is a {} on {}.
+PREDICT: Horseshoe Resort
+PREDICT: Horseshoe Valley Road West
+PREDICT: It is {} away.
+PREDICT: 55 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Perfect
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+u2_5 = !
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 44.5494768
+PREDICT: -79.672466

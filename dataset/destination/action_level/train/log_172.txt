@@ -1,0 +1,55 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = Hi
+u1_1 = ,
+u1_2 = I
+u1_3 = 'd
+u1_4 = like
+u1_5 = to
+u1_6 = go
+u1_7 = to
+u1_8 = the
+u1_9 = brickworks
+PREDICT: [ACTION] find_place [PARAM] brickworks [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Evergreen Brick Works
+v1_address = 550 Bayview Ave, Toronto, ON M4W 3X8, Canada
+v1_rating = 4.6
+v1_is_open = False
+v1_latitude = 43.6846206
+v1_longitude = -79.3654466
+v1_street_number = 550
+v1_street_name = Bayview Avenue
+v1_locality = Toronto
+v1_distance = 3.8 mi
+v1_duration = 15 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Evergreen Brick Works
+PREDICT: [ACTION] wait_for_user
+u2_0 = It
+u2_1 = 's
+u2_2 = in
+u2_3 = rosedale
+u2_4 = ,
+u2_5 = right
+u2_6 = ?
+PREDICT: [ACTION] find_place [PARAM] rosedale [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v2_name = Rosedale
+v2_address = Rosedale, Toronto, ON, Canada
+v2_latitude = 43.683375
+v2_longitude = -79.377172
+v2_neighborhood = Rosedale
+v2_locality = Toronto
+v2_distance = 2.7 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 43.683375 [PARAM] -79.377172 [PARAM] 43.6846206 [PARAM] -79.3654466
+v3_distance = 2.2 mi
+v3_duration = 8 mins
+PREDICT: [ACTION] It is on {}. [PARAM] Bayview Avenue
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Evergreen Brick Works [PARAM] 2.2 mi [PARAM] Rosedale
+PREDICT: [ACTION] wait_for_user
+u3_0 = OK
+u3_1 = let
+u3_2 = 's
+u3_3 = go
+u3_4 = there
+PREDICT: [ACTION] start_driving [PARAM] 43.6846206 [PARAM] -79.3654466

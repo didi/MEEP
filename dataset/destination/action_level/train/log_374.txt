@@ -1,0 +1,118 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Is
+u1_1 = there
+u1_2 = a
+u1_3 = Michelin
+u1_4 = star
+u1_5 = restaurant
+u1_6 = downtown
+u1_7 = ?
+PREDICT: [ACTION] find_place [PARAM] downtown [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Downtown Los Angeles
+v1_address = Downtown Los Angeles, Los Angeles, CA, USA
+v1_latitude = 34.040713
+v1_longitude = -118.2467693
+v1_types_0 = neighborhood
+v1_types_1 = political
+v1_address_simple = Los Angeles
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 18.1 mi
+v1_duration = 30 mins
+PREDICT: [ACTION] places_nearby [PARAM] Michelin star restaurant [PARAM] 34.040713 [PARAM] -118.2467693
+v2_0_name = BROKEN MOUTH | Lee's Homestyle
+v2_0_rating = 4.8
+v2_0_is_open = False
+v2_0_price_level = 1
+v2_0_types_0 = restaurant
+v2_0_types_1 = food
+v2_0_types_2 = point of interest
+v2_0_types_3 = establishment
+v2_0_latitude = 34.0402363
+v2_0_longitude = -118.2533473
+v2_0_address_simple = 231 East 9th Street, Los Angeles
+v2_0_street_number = 231
+v2_0_street_name = East 9th Street
+v2_0_neighborhood = Downtown Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 0.6 mi
+v2_0_duration = 3 mins
+v2_1_name = Orsa & Winston
+v2_1_rating = 4.5
+v2_1_is_open = False
+v2_1_price_level = 2
+v2_1_types_0 = restaurant
+v2_1_types_1 = food
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 34.0484284
+v2_1_longitude = -118.248019
+v2_1_address_simple = 122 West 4th Street, Los Angeles
+v2_1_street_number = 122
+v2_1_street_name = West 4th Street
+v2_1_neighborhood = Downtown Los Angeles
+v2_1_locality = Los Angeles
+v2_1_distance = 0.8 mi
+v2_1_duration = 5 mins
+v2_2_name = Shojin
+v2_2_rating = 4.5
+v2_2_is_open = False
+v2_2_price_level = 3
+v2_2_types_0 = restaurant
+v2_2_types_1 = food
+v2_2_types_2 = point of interest
+v2_2_types_3 = establishment
+v2_2_latitude = 34.0450139
+v2_2_longitude = -118.2388682
+v2_2_address_simple = 333 South Alameda Street Suite310, Los Angeles
+v2_2_street_number = 333
+v2_2_street_name = South Alameda Street
+v2_2_neighborhood = Downtown Los Angeles
+v2_2_locality = Los Angeles
+v2_2_distance = 0.8 mi
+v2_2_duration = 4 mins
+PREDICT: [ACTION] find_place [PARAM] Michelin star restaurant [PARAM] 34.040713 [PARAM] -118.2467693
+v3_name = Orsa & Winston
+v3_address = 122 W 4th St, Los Angeles, CA 90013, United States
+v3_latitude = 34.0484284
+v3_longitude = -118.248019
+v3_price_level = 2
+v3_types_0 = restaurant
+v3_types_1 = food
+v3_types_2 = point of interest
+v3_types_3 = establishment
+v3_rating = 4.5
+v3_is_open = False
+v3_address_simple = 122 West 4th Street, Los Angeles
+v3_street_number = 122
+v3_street_name = West 4th Street
+v3_neighborhood = Downtown Los Angeles
+v3_locality = Los Angeles
+v3_distance = 0.8 mi
+v3_duration = 5 mins
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] restaurant [PARAM] Orsa & Winston [PARAM] 122 West 4th Street, Los Angeles [PARAM] Downtown Los Angeles
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.5
+PREDICT: [ACTION] wait_for_user
+u2_0 = Maybe
+u2_1 = .
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u3_0 = Does
+u3_1 = it
+u3_2 = have
+u3_3 = a
+u3_4 = Michelin
+u3_5 = star
+u3_6 = ?
+PREDICT: [ACTION] I don't know.
+PREDICT: [ACTION] I am sorry I am unable to find that information
+PREDICT: [ACTION] wait_for_user
+u4_0 = Ok
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = .
+PREDICT: [ACTION] start_driving [PARAM] 34.0484284 [PARAM] -118.248019

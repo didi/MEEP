@@ -1,0 +1,140 @@
+source_address = 150 North Bridge Road, Singapore 179100
+source_latitude = 1.293076
+source_longitude = 103.85206770000002
+u1_0 = Hi
+u1_1 = ,
+u1_2 = is
+u1_3 = there
+u1_4 = a
+u1_5 = hawker
+u1_6 = centre
+u1_7 = nearby
+u1_8 = ?
+u1_0 = Hi
+u1_1 = ,
+u1_2 = is
+u1_3 = there
+u1_4 = a
+u1_5 = nearby
+u1_6 = hawker
+u1_7 = center
+u1_8 = ?
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] places_nearby [PARAM] hawker [PARAM] 1.293076 [PARAM] 103.85206770000002
+v1_0_name = Liao Fan Hawker Chan Chinatown
+v1_0_rating = 4
+v1_0_is_open = False
+v1_0_price_level = 1
+v1_0_types_0 = restaurant
+v1_0_types_1 = food
+v1_0_types_2 = point of interest
+v1_0_types_3 = establishment
+v1_0_latitude = 1.2831547
+v1_0_longitude = 103.8429817
+v1_0_address_simple = 78 Smith Street
+v1_0_street_number = 78
+v1_0_street_name = Smith Street
+v1_0_neighborhood = Outram
+v1_0_locality = Singapore
+v1_0_distance = 1.2 mi
+v1_0_duration = 7 mins
+v1_1_name = Maxwell Food Centre
+v1_1_rating = 4.3
+v1_1_is_open = False
+v1_1_price_level = 1
+v1_1_types_0 = tourist attraction
+v1_1_types_1 = restaurant
+v1_1_types_2 = food
+v1_1_types_3 = point of interest
+v1_1_types_4 = establishment
+v1_1_latitude = 1.2804817
+v1_1_longitude = 103.844489
+v1_1_address_simple = 1 Kadayanallur Street
+v1_1_street_number = 1
+v1_1_street_name = Kadayanallur Street
+v1_1_neighborhood = Downtown Core
+v1_1_locality = Singapore
+v1_1_distance = 1.1 mi
+v1_1_duration = 6 mins
+PREDICT: [ACTION] places_nearby [PARAM] hawker center [PARAM] 1.293076 [PARAM] 103.85206770000002
+v2_0_name = Albert Centre Market & Food Centre
+v2_0_rating = 4.1
+v2_0_is_open = False
+v2_0_types_0 = tourist attraction
+v2_0_types_1 = restaurant
+v2_0_types_2 = food
+v2_0_types_3 = point of interest
+v2_0_types_4 = establishment
+v2_0_latitude = 1.3011001
+v2_0_longitude = 103.8541446
+v2_0_address_simple = 270 Queen Street
+v2_0_street_number = 270
+v2_0_street_name = Queen Street
+v2_0_neighborhood = Rochor
+v2_0_locality = Singapore
+v2_0_distance = 1.1 mi
+v2_0_duration = 8 mins
+v2_1_name = Albert Hawker Centre
+v2_1_rating = 4.2
+v2_1_price_level = 1
+v2_1_types_0 = restaurant
+v2_1_types_1 = food
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 1.3012337
+v2_1_longitude = 103.8542474
+v2_1_address_simple = No. 270, Queen Street #01-81, Albert Centre Market & Food Centre
+v2_1_neighborhood = Rochor
+v2_1_locality = Singapore
+v2_1_distance = 1.2 mi
+v2_1_duration = 8 mins
+v2_2_name = Hong Lim Market & Food Centre
+v2_2_rating = 4.2
+v2_2_is_open = False
+v2_2_price_level = 1
+v2_2_types_0 = tourist attraction
+v2_2_types_1 = restaurant
+v2_2_types_2 = food
+v2_2_types_3 = point of interest
+v2_2_types_4 = establishment
+v2_2_latitude = 1.2854139
+v2_2_longitude = 103.845807
+v2_2_address_simple = 531A Upper Cross Street
+v2_2_street_number = 531A
+v2_2_street_name = Upper Cross Street
+v2_2_neighborhood = Outram
+v2_2_locality = Singapore
+v2_2_distance = 0.8 mi
+v2_2_duration = 5 mins
+PREDICT: [ACTION] I found two places: {} and {}. [PARAM] Albert Hawker Centre [PARAM] Hong Lim Market & Food Centre
+PREDICT: [ACTION] wait_for_user
+u2_0 = what
+u2_1 = are
+u2_2 = their
+u2_3 = ratings
+u2_4 = ?
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u3_0 = whichever
+u3_1 = one
+u3_2 = has
+u3_3 = a
+u3_4 = higher
+u3_5 = rating
+u3_6 = please
+PREDICT: [ACTION] They are all rated {}. [PARAM] 4.2
+PREDICT: [ACTION] wait_for_user
+u4_0 = oh
+u4_1 = ok.
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = to
+u4_6 = the
+u4_7 = second
+u4_8 = one
+PREDICT: [ACTION] {} is the closest {} I could find. [PARAM] Hong Lim Market & Food Centre [PARAM] hawker center
+PREDICT: [ACTION] wait_for_user
+u5_0 = great
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Hong Lim Market & Food Centre
+PREDICT: [ACTION] start_driving [PARAM] 1.2854139 [PARAM] 103.845807

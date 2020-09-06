@@ -1,0 +1,39 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = watch
+u1_4 = a
+u1_5 = movie
+u1_6 = .
+PREDICT: find_place
+PREDICT: movie
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = AMC Marina Marketplace 6
+v1_address = 4335 Glencoe Ave, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9860341
+v1_longitude = -118.4400371
+v1_types_0 = movie theater
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.2
+v1_address_simple = 4335 Glencoe Avenue, Marina del Rey
+v1_street_number = 4335
+v1_street_name = Glencoe Avenue
+v1_locality = Marina del Rey
+v1_distance = 0.8 mi
+v1_duration = 6 mins
+PREDICT: I found {} in {}.
+PREDICT: AMC Marina Marketplace 6
+PREDICT: Marina del Rey
+PREDICT: wait_for_user
+u2_0 = OK
+PREDICT: You are all set!
+PREDICT: Great, we are going to {}.
+PREDICT: AMC Marina Marketplace 6
+PREDICT: start_driving
+PREDICT: 33.9860341
+PREDICT: -118.4400371

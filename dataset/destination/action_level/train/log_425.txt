@@ -1,0 +1,302 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = the
+u1_1 = fancy
+u1_2 = burger
+u1_3 = place
+u1_4 = by
+u1_5 = cal
+u1_6 = anderson
+PREDICT: [ACTION] find_place [PARAM] cal anderson [PARAM] 47.676 [PARAM] -122.306
+v1_name = Cal Anderson Park Reflecting Pool
+v1_address = 1635 11th Ave, Seattle, WA 98122, United States
+v1_latitude = 47.6172908
+v1_longitude = -122.3194892
+v1_types_0 = park
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = 1635 11th Avenue, Seattle
+v1_street_number = 1635
+v1_street_name = 11th Avenue
+v1_neighborhood = Capitol Hill
+v1_locality = Seattle
+v1_distance = 5.6 mi
+v1_duration = 16 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Cal Anderson Park Reflecting Pool
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+u2_1 = the
+u2_2 = fancy
+u2_3 = burger
+u2_4 = place
+u2_5 = by
+u2_6 = it
+PREDICT: [ACTION] find_place [PARAM] fancy burger place [PARAM] 47.6172908 [PARAM] -122.3194892
+v2_name = Lecosho
+v2_address = 89 University St, Seattle, WA 98101, United States
+v2_latitude = 47.6064579
+v2_longitude = -122.3387257
+v2_price_level = 3
+v2_types_0 = restaurant
+v2_types_1 = food
+v2_types_2 = point of interest
+v2_types_3 = establishment
+v2_rating = 4.5
+v2_is_open = True
+v2_address_simple = 89 University Street, Seattle
+v2_street_number = 89
+v2_street_name = University Street
+v2_neighborhood = Downtown Seattle
+v2_locality = Seattle
+v2_distance = 2.9 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] restaurant [PARAM] Lecosho [PARAM] University Street [PARAM] Downtown Seattle
+PREDICT: [ACTION] The address is {}. [PARAM] 89 University Street, Seattle
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.5
+PREDICT: [ACTION] wait_for_user
+u3_0 = that
+u3_1 = 's
+u3_2 = not
+u3_3 = near
+u3_4 = cal
+u3_5 = anderson
+PREDICT: [ACTION] distance_matrix [PARAM] 47.6172908 [PARAM] -122.3194892 [PARAM] 47.6064579 [PARAM] -122.3387257
+v3_distance = 2.9 mi
+v3_duration = 12 mins
+u4_0 = what
+u4_1 = can
+u4_2 = you
+u4_3 = find
+u4_4 = near
+u4_5 = it
+u4_6 = ?
+PREDICT: [ACTION] places_nearby [PARAM] fancy burger place [PARAM] 47.6172908 [PARAM] -122.3194892
+PREDICT: [ACTION] places_nearby [PARAM] fancy burger place [PARAM] 47.6172908 [PARAM] -122.3194892
+PREDICT: [ACTION] places_nearby [PARAM] burger place [PARAM] 47.6172908 [PARAM] -122.3194892
+v6_0_name = Dick's Drive-In
+v6_0_rating = 4.5
+v6_0_is_open = True
+v6_0_price_level = 1
+v6_0_types_0 = restaurant
+v6_0_types_1 = food
+v6_0_types_2 = point of interest
+v6_0_types_3 = establishment
+v6_0_latitude = 47.6193226
+v6_0_longitude = -122.3211806
+v6_0_address_simple = 115 Broadway East, Seattle
+v6_0_street_number = 115
+v6_0_street_name = Broadway East
+v6_0_neighborhood = Capitol Hill
+v6_0_locality = Seattle
+v6_0_distance = 0.2 mi
+v6_0_duration = 2 mins
+v6_1_name = Little Big Burger - Capitol Hill
+v6_1_rating = 4
+v6_1_is_open = True
+v6_1_price_level = 1
+v6_1_types_0 = restaurant
+v6_1_types_1 = food
+v6_1_types_2 = point of interest
+v6_1_types_3 = establishment
+v6_1_latitude = 47.6142778
+v6_1_longitude = -122.3165507
+v6_1_address_simple = 1200 East Pike Street, Seattle
+v6_1_street_number = 1200
+v6_1_street_name = East Pike Street
+v6_1_neighborhood = Capitol Hill
+v6_1_locality = Seattle
+v6_1_distance = 0.4 mi
+v6_1_duration = 3 mins
+v6_2_name = 8oz Burger & Co
+v6_2_rating = 4.4
+v6_2_is_open = False
+v6_2_price_level = 2
+v6_2_types_0 = bar
+v6_2_types_1 = restaurant
+v6_2_types_2 = food
+v6_2_types_3 = point of interest
+v6_2_types_4 = establishment
+v6_2_latitude = 47.6131159
+v6_2_longitude = -122.3209749
+v6_2_address_simple = 1401 Broadway, Seattle
+v6_2_street_number = 1401
+v6_2_street_name = Broadway
+v6_2_neighborhood = Downtown Seattle
+v6_2_locality = Seattle
+v6_2_distance = 0.4 mi
+v6_2_duration = 3 mins
+PREDICT: [ACTION] I found two {} {}s. The addresses are {} and {}. [PARAM] Little Big Burger - Capitol Hill [PARAM] 8oz Burger & Co [PARAM] 1200 East Pike Street, Seattle [PARAM] 1401 Broadway, Seattle
+PREDICT: [ACTION] wait_for_user
+u5_0 = hrm
+u5_1 = no
+u5_2 = .
+u5_3 = I
+u5_4 = 'm
+u5_5 = thinking
+u5_6 = around
+u5_7 = 10th
+u5_8 = and
+u5_9 = pike
+PREDICT: [ACTION] find_place [PARAM] 10th and pike [PARAM] 47.676 [PARAM] -122.306
+v7_name = 10th Ave & E Pike St
+v7_address = 10th Ave & E Pike St, Seattle, WA 98122, USA
+v7_latitude = 47.614087
+v7_longitude = -122.319443
+v7_types_0 = intersection
+v7_address_simple = Seattle
+v7_neighborhood = First Hill
+v7_locality = Seattle
+v7_distance = 6.1 mi
+v7_duration = 15 mins
+PREDICT: [ACTION] find_place [PARAM] fancy burger place [PARAM] 47.614087 [PARAM] -122.319443
+v8_name = 8oz Burger & Co
+v8_address = 1401 Broadway, Seattle, WA 98122, United States
+v8_latitude = 47.6131159
+v8_longitude = -122.3209749
+v8_price_level = 2
+v8_types_0 = bar
+v8_types_1 = restaurant
+v8_types_2 = food
+v8_types_3 = point of interest
+v8_types_4 = establishment
+v8_rating = 4.4
+v8_is_open = False
+v8_address_simple = 1401 Broadway, Seattle
+v8_street_number = 1401
+v8_street_name = Broadway
+v8_neighborhood = Downtown Seattle
+v8_locality = Seattle
+v8_distance = 0.2 mi
+v8_duration = 2 mins
+PREDICT: [ACTION] places_nearby [PARAM] fancy burger [PARAM] 47.614087 [PARAM] -122.319443
+u6_0 = there
+u6_1 = 's
+u6_2 = a
+u6_3 = gastropub
+u6_4 = across
+u6_5 = from
+u6_6 = Neumo
+u6_7 = 's
+PREDICT: [ACTION] distance_matrix [PARAM] 47.6131159 [PARAM] -122.3209749 [PARAM] 47.614087 [PARAM] -122.319443
+v10_distance = 0.1 mi
+v10_duration = 1 min
+PREDICT: [ACTION] {} is closest. [PARAM] 8oz Burger & Co
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] 8oz Burger & Co [PARAM] 0.1 mi [PARAM] 10th Ave & E Pike St
+PREDICT: [ACTION] wait_for_user
+u7_0 = no
+u7_1 = ,
+u7_2 = that
+u7_3 = 's
+u7_4 = not
+u7_5 = it
+u7_6 = sorry
+u7_7 = .
+u7_8 = 8oz
+u7_9 = is
+u7_10 = on
+u7_11 = 12th
+u7_12 = .
+u8_0 = I
+u8_1 = want
+u8_2 = the
+u8_3 = place
+u8_4 = on
+u8_5 = 10th
+u8_6 = .
+u9_0 = can
+u9_1 = you
+u9_2 = find
+u9_3 = other
+u9_4 = gastropubs
+u9_5 = on
+u9_6 = Capitol
+u9_7 = Hill
+u9_8 = ?
+PREDICT: [ACTION] find_place [PARAM] gastropubs on Capitol Hill [PARAM] 47.676 [PARAM] -122.306
+v11_name = The Tin Table | Restaurant & Bar
+v11_address = 915 E Pine St, Seattle, WA 98122, United States
+v11_latitude = 47.6150771
+v11_longitude = -122.319941
+v11_price_level = 2
+v11_types_0 = restaurant
+v11_types_1 = bar
+v11_types_2 = food
+v11_types_3 = point of interest
+v11_types_4 = establishment
+v11_rating = 4.5
+v11_is_open = False
+v11_address_simple = 915 East Pine Street, Seattle
+v11_street_number = 915
+v11_street_name = East Pine Street
+v11_neighborhood = Capitol Hill
+v11_locality = Seattle
+v11_distance = 5.5 mi
+v11_duration = 15 mins
+PREDICT: [ACTION] find_place [PARAM] Capitol Hill [PARAM] 47.676 [PARAM] -122.306
+v12_name = Capitol Hill
+v12_address = Capitol Hill, Seattle, WA, USA
+v12_latitude = 47.625305
+v12_longitude = -122.3221835
+v12_types_0 = neighborhood
+v12_types_1 = political
+v12_address_simple = Seattle
+v12_neighborhood = Capitol Hill
+v12_locality = Seattle
+v12_distance = 4.5 mi
+v12_duration = 12 mins
+PREDICT: [ACTION] find_place [PARAM] gastropubs [PARAM] 47.625305 [PARAM] -122.3221835
+v13_name = Quinn's Pub
+v13_address = 1001 E Pike St, Seattle, WA 98122, United States
+v13_latitude = 47.6139812
+v13_longitude = -122.3192205
+v13_price_level = 2
+v13_types_0 = bar
+v13_types_1 = restaurant
+v13_types_2 = food
+v13_types_3 = point of interest
+v13_types_4 = establishment
+v13_rating = 4.3
+v13_is_open = False
+v13_address_simple = 1001 East Pike Street, Seattle
+v13_street_number = 1001
+v13_street_name = East Pike Street
+v13_neighborhood = Pike/Pine
+v13_locality = Seattle
+v13_distance = 1.1 mi
+v13_duration = 6 mins
+PREDICT: [ACTION] How about {}? [PARAM] Quinn's Pub
+PREDICT: [ACTION] wait_for_user
+u10_0 = whats
+u10_1 = the
+u10_2 = address
+u10_3 = ?
+PREDICT: [ACTION] The address is {}. [PARAM] 1001 East Pike Street, Seattle
+PREDICT: [ACTION] wait_for_user
+u11_0 = yeah
+u11_1 = that
+u11_2 = 's
+u11_3 = the
+u11_4 = right
+u11_5 = place
+u11_6 = .
+u11_7 = that
+u11_8 = 's
+u11_9 = 10th
+u11_10 = and
+u11_11 = pike
+u11_12 = .
+u12_0 = how
+u12_1 = long
+u12_2 = will
+u12_3 = it
+u12_4 = take
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Quinn's Pub [PARAM] 6 mins [PARAM] 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u13_0 = great
+u14_0 = yes
+u14_1 = please
+PREDICT: [ACTION] start_driving [PARAM] 47.6139812 [PARAM] -122.3192205

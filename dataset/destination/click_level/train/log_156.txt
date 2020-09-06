@@ -1,0 +1,45 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Bombay
+u1_7 = Chutney
+PREDICT: find_place
+PREDICT: Bombay Chutney
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Bombay's Chutney
+v1_address = 1070 Major Mackenzie Dr E H1, Richmond Hill, ON L4S 1P3, Canada
+v1_price_level = 2
+v1_rating = 3.9
+v1_is_open = True
+v1_latitude = 43.87692
+v1_longitude = -79.4150581
+v1_street_number = 1070
+v1_street_name = Major Mackenzie Drive East
+v1_locality = Richmond Hill
+v1_distance = 6.3 mi
+v1_duration = 18 mins
+PREDICT: There is {} on {}
+PREDICT: Bombay's Chutney
+PREDICT: Major Mackenzie Drive East
+PREDICT: You will reach there in {}.
+PREDICT: 18 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = Sounds
+u2_1 = good
+u2_2 = ,
+u2_3 = let
+u2_4 = 's
+u2_5 = go
+PREDICT: Great, we are going to {}.
+PREDICT: Bombay's Chutney
+PREDICT: start_driving
+PREDICT: 43.87692
+PREDICT: -79.4150581

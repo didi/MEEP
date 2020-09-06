@@ -1,0 +1,60 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = Hi
+u1_1 = ,
+u1_2 = can
+u1_3 = we
+u1_4 = go
+u1_5 = to
+u1_6 = Yonge
+u1_7 = and
+u1_8 = eg
+u1_9 = ?
+PREDICT: [ACTION] find_place [PARAM] Yonge and eg [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Yonge–Eglinton
+v1_address = Yonge–Eglinton, Toronto, ON, Canada
+v1_latitude = 43.70643099999999
+v1_longitude = -79.398642
+v1_neighborhood = Yonge–Eglinton
+v1_locality = Toronto
+v1_distance = 3.7 mi
+v1_duration = 15 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Yonge–Eglinton
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 15 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = yeah
+u2_1 = ,
+u2_2 = could
+u2_3 = we
+u2_4 = go
+u2_5 = to
+u2_6 = the
+u2_7 = mandarin
+u2_8 = there
+u2_9 = ?
+PREDICT: [ACTION] find_place [PARAM] mandarin [PARAM] 43.70643099999999 [PARAM] -79.398642
+v2_name = Mandarin Restaurant
+v2_address = 2200 Yonge St, Toronto, ON M4S 2C6, Canada
+v2_price_level = 2
+v2_rating = 4.2
+v2_is_open = True
+v2_latitude = 43.7059991
+v2_longitude = -79.3984414
+v2_street_number = 2200
+v2_street_name = Yonge Street
+v2_locality = Toronto
+v2_distance = 0.6 mi
+v2_duration = 4 mins
+PREDICT: [ACTION] {} on {}? [PARAM] Mandarin Restaurant [PARAM] Yonge Street
+PREDICT: [ACTION] distance_matrix [PARAM] 43.6665705 [PARAM] -79.40243049999998 [PARAM] 43.7059991 [PARAM] -79.3984414
+v3_distance = 3.6 mi
+v3_duration = 15 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Mandarin Restaurant [PARAM] 4 mins [PARAM] Yonge–Eglinton
+PREDICT: [ACTION] wait_for_user
+u3_0 = perfect
+u4_0 = let
+u4_1 = 's
+u4_2 = go
+u4_3 = there
+PREDICT: [ACTION] start_driving [PARAM] 43.7059991 [PARAM] -79.3984414

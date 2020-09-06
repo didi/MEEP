@@ -1,0 +1,27 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = airport
+PREDICT: [ACTION] find_place [PARAM] airport [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Kempegowda International Airport Bengaluru
+v1_address = KIAL Rd, Devanahalli, Bengaluru, Karnataka 560300, India
+v1_rating = 4.5
+v1_latitude = 13.1986348
+v1_longitude = 77.7065928
+v1_street_name = KIAL Road
+v1_locality = Bengaluru
+v1_distance = 24.3 mi
+v1_duration = 1 hour 3 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Kempegowda International Airport Bengaluru
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 24.3 mi [PARAM] 1 hour 3 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+u3_0 = lets
+u3_1 = go
+PREDICT: [ACTION] start_driving [PARAM] 13.1986348 [PARAM] 77.7065928

@@ -1,0 +1,47 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = UCI
+PREDICT: find_place
+PREDICT: UCI
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = University of California Irvine
+v1_address = Irvine, CA 92697, United States
+v1_latitude = 33.6404952
+v1_longitude = -117.8442962
+v1_types_0 = University
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.2
+v1_address_simple = Irvine
+v1_locality = Irvine
+v1_distance = 48.1 mi
+v1_duration = 52 mins
+PREDICT: Do you mean {}?
+PREDICT: University of California Irvine
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: It is {} away.
+PREDICT: 52 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = what
+u3_1 = 's
+u3_2 = the
+u3_3 = address
+u3_4 = ?
+PREDICT: It is in {}.
+PREDICT: Irvine
+PREDICT: The address is {}.
+PREDICT: Irvine, CA 92697, United States
+PREDICT: wait_for_user
+u4_0 = ok
+PREDICT: Pleasure serving you!
+PREDICT: wait_for_user
+u5_0 = let
+u5_1 = 's
+u5_2 = go
+PREDICT: start_driving
+PREDICT: 33.6404952
+PREDICT: -117.8442962

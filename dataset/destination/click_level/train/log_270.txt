@@ -1,0 +1,95 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Are
+u1_1 = there
+u1_2 = are
+u1_3 = any
+u1_4 = Arts/Craft
+u1_5 = stores
+u1_6 = nearby
+u1_7 = ?
+PREDICT: find_place
+PREDICT: Arts/Craft stores
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Michaels
+v1_address = 11260 W Olympic Blvd, Los Angeles, CA 90064, United States
+v1_latitude = 34.0382875
+v1_longitude = -118.4405425
+v1_types_0 = Point of interest
+v1_types_1 = Store
+v1_types_2 = Establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 11260 West Olympic Boulevard, Los Angeles
+v1_street_number = 11260
+v1_street_name = West Olympic Boulevard
+v1_neighborhood = West Los Angeles
+v1_locality = Los Angeles
+v1_distance = 7.1 mi
+v1_duration = 16 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Michaels
+PREDICT: West Olympic Boulevard
+PREDICT: It is {} away.
+PREDICT: 16 mins
+PREDICT: wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = kinda
+u2_3 = far
+u2_4 = ,
+u2_5 = any
+u2_6 = art
+u2_7 = stores
+u2_8 = closer
+u2_9 = ?
+u3_0 = Anything
+u3_1 = that
+u3_2 = has
+u3_3 = art
+u3_4 = supplies
+u3_5 = .
+PREDICT: find_place
+PREDICT: art supplies
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Mittel's Art & Frame Center
+v2_address = 2499 Lincoln Blvd, Venice, CA 90291, United States
+v2_latitude = 33.9922975
+v2_longitude = -118.4497343
+v2_types_0 = Point of interest
+v2_types_1 = Store
+v2_types_2 = Establishment
+v2_rating = 4.9
+v2_is_open = True
+v2_address_simple = 2499 Lincoln Boulevard, Venice
+v2_street_number = 2499
+v2_street_name = Lincoln Boulevard
+v2_neighborhood = Venice
+v2_locality = Los Angeles
+v2_distance = 1.0 mi
+v2_duration = 6 mins
+PREDICT: {} is {} away.
+PREDICT: Mittel's Art & Frame Center
+PREDICT: 6 mins
+PREDICT: wait_for_user
+u4_0 = That
+u4_1 = sounds
+u4_2 = much
+u4_3 = better
+u4_4 = ,
+u4_5 = let
+u4_6 = 's
+u4_7 = go
+u4_8 = !
+PREDICT: It has a rating of {}.
+PREDICT: 4.9
+PREDICT: Great, we are going to {}.
+PREDICT: Mittel's Art & Frame Center
+PREDICT: wait_for_user
+u5_0 = Great
+PREDICT: start_driving
+PREDICT: 33.9922975
+PREDICT: -118.4497343

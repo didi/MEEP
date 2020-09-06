@@ -1,0 +1,33 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = North
+u1_6 = side
+u1_7 = hospital
+PREDICT: find_place
+PREDICT: North side hospital
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v1_name = Manipal Hospitals Outpatient Department - Malleshwaram
+v1_address = 8th Main Road, 5/2, 13th Cross Road, Malleshwaram West, Bengaluru, Karnataka 560003, India
+v1_rating = 4.2
+v1_is_open = True
+v1_latitude = 13.0036028
+v1_longitude = 77.5655589
+v1_locality = Bengaluru
+v1_neighborhood = Mount Layout
+v1_distance = 5.6 mi
+v1_duration = 28 mins
+PREDICT: Do you mean {}?
+PREDICT: Manipal Hospitals Outpatient Department - Malleshwaram
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 13.0036028
+PREDICT: 77.5655589

@@ -1,0 +1,39 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = have
+u1_2 = some
+u1_3 = glass
+u1_4 = I
+u1_5 = need
+u1_6 = custom
+u1_7 = cut
+u1_8 = .
+PREDICT: [ACTION] find_place [PARAM] custom cut glass [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Blue Moon Glass & Mirrors Inc
+v1_address = 3547 Overland Ave, Los Angeles, CA 90034, United States
+v1_latitude = 34.023446
+v1_longitude = -118.41092
+v1_types_0 = point of interest
+v1_types_1 = store
+v1_types_2 = establishment
+v1_rating = 4.1
+v1_is_open = False
+v1_address_simple = 3547 Overland Avenue, Los Angeles
+v1_street_number = 3547
+v1_street_name = Overland Avenue
+v1_neighborhood = Palms
+v1_locality = Los Angeles
+v1_distance = 6.2 mi
+v1_duration = 14 mins
+PREDICT: [ACTION] How about {}? [PARAM] Blue Moon Glass & Mirrors Inc
+PREDICT: [ACTION] It is {} away. [PARAM] 14 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = sounds
+u2_1 = promising
+u2_2 = .
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 34.023446 [PARAM] -118.41092

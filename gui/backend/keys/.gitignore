@@ -1,0 +1,8 @@
+# This folder is reserved for API keys
+
+# Ignore all files in this dir...
+*
+
+# ... except for these
+!.gitignore
+!__init__.py

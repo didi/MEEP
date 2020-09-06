@@ -1,0 +1,65 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Vekata
+u1_6 = Krishna
+u1_7 = temple
+u1_8 = in
+u1_9 = tempe
+PREDICT: find_place
+PREDICT: Vekata Krishna temple tempe
+PREDICT: 32.225
+PREDICT: -110.861
+v1_name = Sri Venkata Krishna Kshetra Temple
+v1_address = 615 S Beck Ave, Tempe, AZ 85281, United States
+v1_rating = 4.8
+v1_is_open = False
+v1_latitude = 33.4239309
+v1_longitude = -111.9562082
+v1_street_number = 615
+v1_street_name = South Beck Avenue
+v1_neighborhood = Sunset
+v1_locality = Tempe
+v1_distance = 117 mi
+v1_duration = 1 hour 53 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Sri Venkata Krishna Kshetra Temple
+PREDICT: South Beck Avenue
+PREDICT: It is on {}.
+PREDICT: Tempe
+PREDICT: wait_for_user
+u2_0 = yes
+u2_1 = ..
+u2_2 = that
+u2_3 = 's
+u2_4 = the
+u2_5 = one
+u2_6 = ..
+u2_7 = how
+u2_8 = long
+u2_9 = does
+u2_10 = it
+u2_11 = take
+u2_12 = to
+u2_13 = get
+u2_14 = there
+u2_15 = ?
+PREDICT: It is {} and {} away.
+PREDICT: 1 hour 53 mins
+PREDICT: 117 mi
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = great
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.4239309
+PREDICT: -111.9562082

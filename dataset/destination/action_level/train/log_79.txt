@@ -1,0 +1,126 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = Galleria
+PREDICT: [ACTION] find_place [PARAM] Galleria [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 1815 Hawthorne Blvd, Redondo Beach, CA 90278, United States
+v1_name = South Bay Galleria
+v1_latitude = 33.8710071
+v1_longitude = -118.3550266
+v1_place_id = ChIJo2cBevm0woARJtDspbm05OQ
+v1_street_number = 1815
+v1_street_name = Hawthorne Boulevard
+v1_neighborhood = North Redondo
+v1_locality = Redondo Beach
+v1_distance = 12.4 mi
+v1_duration = 20 mins
+PREDICT: [ACTION] The one on {}? [PARAM] Hawthorne Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 20 mins
+PREDICT: [ACTION] It's called {}. [PARAM] South Bay Galleria
+PREDICT: [ACTION] wait_for_user
+u2_0 = is
+u2_1 = it
+u2_2 = up
+u2_3 = the
+u2_4 = 405
+u2_5 = ,
+u2_6 = over
+u2_7 = the
+u2_8 = hill
+u2_9 = ?
+u2_10 = in
+u2_11 = the
+u2_12 = valley
+u2_13 = ?
+u3_0 = yes
+u3_1 = that
+u3_2 = 's
+u3_3 = it
+u4_0 = wait
+u4_1 = ,
+u4_2 = no
+u4_3 = that
+u4_4 = 's
+u4_5 = not
+u4_6 = it
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] Galleria 405 hill valley [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] I can't find any places for your request, can you give me more information?
+PREDICT: [ACTION] wait_for_user
+u5_0 = it
+u5_1 = in
+u5_2 = the
+u5_3 = valley
+u5_4 = ,
+u5_5 = in
+u5_6 = studio
+u5_7 = city
+u5_8 = or
+u5_9 = nearby
+PREDICT: [ACTION] find_place [PARAM] Galleria studio city [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_address = 11763 Laurelwood Dr, Studio City, CA 91604, United States
+v3_name = Galleria Del A
+v3_latitude = 34.1402659
+v3_longitude = -118.388879
+v3_place_id = ChIJm3Vwawm-woARj7z0brdnmCs
+v3_street_number = 11763
+v3_street_name = Laurelwood Drive
+v3_neighborhood = Studio City
+v3_locality = Los Angeles
+v3_distance = 21.7 mi
+v3_duration = 35 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Galleria Del A
+PREDICT: [ACTION] It is on {}. [PARAM] Laurelwood Drive
+PREDICT: [ACTION] wait_for_user
+u6_0 = it
+u6_1 = 's
+u6_2 = where
+u6_3 = the
+u6_4 = 405
+u6_5 = meets
+u6_6 = ventura
+u6_7 = boulevard
+PREDICT: [ACTION] find_place [PARAM] 405 ventura boulevard [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_address = Ventura Blvd, Los Angeles, CA, USA
+v4_name = Ventura Blvd
+v4_latitude = 34.1588264
+v4_longitude = -118.4992693
+v4_place_id = ChIJ9YTicY2XwoARU7rVyvMHf7M
+v4_street_name = Ventura Boulevard
+v4_locality = Los Angeles
+v4_distance = 18.8 mi
+v4_duration = 27 mins
+u7_0 = it
+u7_1 = 's
+u7_2 = a
+u7_3 = mall
+PREDICT: [ACTION] distance_matrix [PARAM] 34.1402659 [PARAM] -118.388879 [PARAM] 34.1588264 [PARAM] -118.4992693
+v5_distance = 8.0 mi
+v5_duration = 16 mins
+PREDICT: [ACTION] find_place [PARAM] Galleria mall studio city [PARAM] 33.9816425 [PARAM] -118.4409761
+v6_address = 15301 Ventura Blvd, Sherman Oaks, CA 91403, United States
+v6_name = Sherman Oaks Galleria
+v6_latitude = 34.1556213
+v6_longitude = -118.4675503
+v6_place_id = ChIJcXAJyJSXwoAR8PLO1IrKPgg
+v6_street_number = 15301
+v6_street_name = Ventura Boulevard
+v6_neighborhood = Sherman Oaks
+v6_locality = Los Angeles
+v6_distance = 16.1 mi
+v6_duration = 25 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] Sherman Oaks Galleria [PARAM] Ventura Boulevard
+PREDICT: [ACTION] wait_for_user
+u8_0 = that
+u8_1 = 's
+u8_2 = it
+u8_3 = !
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.1556213 [PARAM] -118.4675503

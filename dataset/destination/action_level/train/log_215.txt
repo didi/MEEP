@@ -1,0 +1,82 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = party
+u1_7 = rental
+u1_8 = store
+PREDICT: [ACTION] places_nearby [PARAM] party rental store [PARAM] 32.225 [PARAM] -110.861
+v1_0_name = Party City
+v1_0_rating = 4.1
+v1_0_is_open = True
+v1_0_price_level = 2
+v1_0_types = ['home_goods_store', 'food', 'point_of_interest', 'clothing_store', 'store', 'establishment']
+v1_0_latitude = 32.2210307
+v1_0_longitude = -110.8734667
+v1_0_address = 5566 E Broadway Blvd, Tucson, AZ 85711, USA
+v1_0_street_number = 5566
+v1_0_street_name = East Broadway Boulevard
+v1_0_locality = Tucson
+v1_0_distance = 1.3 mi
+v1_0_duration = 5 mins
+v1_1_name = Gaslight Costume Shoppe
+v1_1_rating = 4.6
+v1_1_is_open = True
+v1_1_types = ['home_goods_store', 'point_of_interest', 'clothing_store', 'store', 'establishment']
+v1_1_latitude = 32.2206249
+v1_1_longitude = -110.8432203
+v1_1_address = 7004 E Broadway Blvd, Tucson, AZ 85710, USA
+v1_1_street_number = 7004
+v1_1_street_name = East Broadway Boulevard
+v1_1_locality = Tucson
+v1_1_distance = 1.3 mi
+v1_1_duration = 4 mins
+v1_2_name = Fun Farm Choo-Choo
+v1_2_rating = 0
+v1_2_types = ['home_goods_store', 'point_of_interest', 'store', 'establishment']
+v1_2_latitude = 32.212218
+v1_2_longitude = -110.882312
+v1_2_address = 632 S Magnolia Ave, Tucson, AZ 85711, USA
+v1_2_street_number = 632
+v1_2_street_name = South Magnolia Avenue
+v1_2_locality = Tucson
+v1_2_distance = 2.4 mi
+v1_2_duration = 8 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Party City [PARAM] Gaslight Costume Shoppe [PARAM] Fun Farm Choo-Choo
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Is
+u2_1 = anyone
+u2_2 = on
+u2_3 = Speedway
+u2_4 = ?
+PREDICT: [ACTION] find_place [PARAM] party rental store Speedway [PARAM] 32.225 [PARAM] -110.861
+v2_name = Arizona Party Rental
+v2_address = 3619 E Speedway Blvd, Tucson, AZ 85716, United States
+v2_rating = 4.7
+v2_is_open = False
+v2_latitude = 32.236522
+v2_longitude = -110.915297
+v2_street_number = 3619
+v2_street_name = East Speedway Boulevard
+v2_neighborhood = Palo Verde
+v2_locality = Tucson
+v2_distance = 4.4 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] There is a {} on {}. [PARAM] Arizona Party Rental [PARAM] East Speedway Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 12 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+u3_1 = ,
+u3_2 = lets
+u3_3 = go
+u3_4 = to
+u3_5 = that
+u3_6 = one
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Arizona Party Rental
+PREDICT: [ACTION] start_driving [PARAM] 32.236522 [PARAM] -110.915297

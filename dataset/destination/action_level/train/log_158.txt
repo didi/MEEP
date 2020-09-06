@@ -1,0 +1,76 @@
+source_address = Buccleuch Pl, Edinburgh EH8 9LW, UK
+source_latitude = 55.9427087
+source_longitude = -3.185840999999982
+u1_0 = the
+u1_1 = falkirk
+u1_2 = wheel
+u1_3 = please
+PREDICT: [ACTION] find_place [PARAM] falkirk wheel [PARAM] 55.9427087 [PARAM] -3.185840999999982
+v1_name = The Falkirk Wheel
+v1_address = Lime Rd, Tamfourhill, Falkirk FK1 4RS, United Kingdom
+v1_rating = 4.5
+v1_is_open = False
+v1_latitude = 56.0003318
+v1_longitude = -3.8416667
+v1_street_name = Lime Road
+v1_locality = Tamfourhill
+v1_distance = 30.7 mi
+v1_duration = 56 mins
+PREDICT: [ACTION] {} in {}? [PARAM] The Falkirk Wheel [PARAM] Tamfourhill
+PREDICT: [ACTION] wait_for_user
+u2_0 = I
+u2_1 = dont
+u2_2 = know
+u2_3 = what
+u2_4 = tamfourhill
+u2_5 = is
+u3_0 = it
+u3_1 = 's
+u3_2 = the
+u3_3 = falkirk
+u3_4 = wheel
+u3_5 = ,
+u3_6 = should
+u3_7 = be
+u3_8 = in
+u3_9 = falkirk
+PREDICT: [ACTION] find_place [PARAM] falkirk [PARAM] 55.9427087 [PARAM] -3.185840999999982
+v2_name = Falkirk
+v2_address = Falkirk, UK
+v2_latitude = 56.00187750000001
+v2_longitude = -3.7839131
+v2_locality = Falkirk
+v2_distance = 28.3 mi
+v2_duration = 51 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 56.0003318 [PARAM] -3.8416667 [PARAM] 56.00187750000001 [PARAM] -3.7839131
+v3_distance = 2.5 mi
+v3_duration = 8 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] The Falkirk Wheel [PARAM] 8 mins [PARAM] Falkirk
+PREDICT: [ACTION] wait_for_user
+u4_0 = and
+u4_1 = just
+u4_2 = to
+u4_3 = be
+u4_4 = sure
+u4_5 = ,
+u4_6 = it
+u4_7 = 's
+u4_8 = the
+u4_9 = canal-looking
+u4_10 = thing
+u4_11 = ?
+PREDICT: [ACTION] I don't know.
+PREDICT: [ACTION] wait_for_user
+u5_0 = well
+u5_1 = ,
+u5_2 = hopefully
+u5_3 = it
+u5_4 = is
+u5_5 = .
+u5_6 = can
+u5_7 = you
+u5_8 = drive
+u5_9 = there
+u5_10 = ?
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] start_driving [PARAM] 56.0003318 [PARAM] -3.8416667

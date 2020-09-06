@@ -1,0 +1,41 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = GO
+u1_7 = station
+PREDICT: find_place
+PREDICT: GO station
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Rutherford
+v1_address = Vaughan, ON L4K 4Z1, Canada
+v1_rating = 2.7
+v1_latitude = 43.8384447
+v1_longitude = -79.4987921
+v1_neighborhood = Concord
+v1_locality = Vaughan
+v1_distance = 2.4 mi
+v1_duration = 9 mins
+PREDICT: Do you mean {}?
+PREDICT: Rutherford
+PREDICT: wait_for_user
+u2_0 = the
+u2_1 = go
+u2_2 = station
+u2_3 = on
+u2_4 = Rutherford
+u2_5 = ,
+u2_6 = yes
+PREDICT: Going to {} in {}.
+PREDICT: Rutherford
+PREDICT: Vaughan
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 43.8384447
+PREDICT: -79.4987921

@@ -1,0 +1,28 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = beaches
+PREDICT: [ACTION] find_place [PARAM] the beaches [PARAM] 43.657 [PARAM] -79.401
+v1_name = The Beaches
+v1_address = The Beaches, Toronto, ON, Canada
+v1_latitude = 43.6673479
+v1_longitude = -79.29669299999999
+v1_neighborhood = The Beaches
+v1_locality = Toronto
+v1_distance = 7.2 mi
+v1_duration = 25 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] The Beaches [PARAM] 25 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Ok
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: [ACTION] start_driving [PARAM] 43.6673479 [PARAM] -79.29669299999999

@@ -1,0 +1,104 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = apartment
+u2_0 = it
+u2_1 = 's
+u2_2 = on
+u2_3 = marquesas
+u3_0 = i
+u3_1 = ca
+u3_2 = n't
+u3_3 = remember
+u3_4 = its
+u3_5 = name
+PREDICT: [ACTION] find_place [PARAM] marquesas [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = Marquesas Islands, French Polynesia
+v1_name = Marquesas Islands
+v1_latitude = -9.781216200000001
+v1_longitude = -139.0817124
+v1_place_id = ChIJbaR5OmrmNXYRjrl-CTmvpxY
+PREDICT: [ACTION] Could you please give me the cross streets or a major landmark?
+PREDICT: [ACTION] wait_for_user
+u4_0 = it
+u4_1 = is
+u4_2 = close
+u4_3 = to
+u4_4 = marquesas
+u4_5 = way
+u4_6 = and
+u4_7 = via
+u4_8 = marina
+u4_9 = .
+PREDICT: [ACTION] find_place [PARAM] marquesas way [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = Marquesas Way, California 90292, USA
+v2_name = Marquesas Way
+v2_latitude = 33.9764552
+v2_longitude = -118.45649
+v2_place_id = ChIJ66DIzJ26woAREPQPrU0K_zM
+v2_street_name = Marquesas Way
+v2_distance = 2.4 mi
+v2_duration = 10 mins
+PREDICT: [ACTION] places_nearby [PARAM] apartment [PARAM] 33.9764552 [PARAM] -118.45649
+v3_0_name = Villa del Mar Apartments
+v3_0_rating = 4
+v3_0_is_open = True
+v3_0_place_id = ChIJkfnUq526woARCywQCFH9-jY
+v3_0_types = ['point_of_interest', 'establishment']
+v3_0_latitude = 33.9767151
+v3_0_longitude = -118.4549901
+v3_0_address = 13999 Marquesas Way, Marina Del Rey, CA 90292, USA
+v3_0_street_number = 13999
+v3_0_street_name = Marquesas Way
+v3_0_locality = Marina del Rey
+v3_1_name = Neptune Marina Apartments
+v3_1_rating = 3.5
+v3_1_is_open = True
+v3_1_place_id = ChIJ9baoYFW7woARm_bPFumyu2c
+v3_1_types = ['real_estate_agency', 'point_of_interest', 'establishment']
+v3_1_latitude = 33.976244
+v3_1_longitude = -118.4584748
+v3_1_address = 14126 Marquesas Way, Marina Del Rey, CA 90292, USA
+v3_1_street_number = 14126
+v3_1_street_name = Marquesas Way
+v3_1_locality = Marina del Rey
+v3_2_name = AMLI Marina Del Rey
+v3_2_rating = 4.3
+v3_2_is_open = True
+v3_2_place_id = ChIJnzPXt566woARbMrPbX7i3tE
+v3_2_types = ['real_estate_agency', 'point_of_interest', 'establishment']
+v3_2_latitude = 33.97779430000001
+v3_2_longitude = -118.458586
+v3_2_address = 4242 Vía Marina, Marina Del Rey, CA 90292, USA
+v3_2_street_number = 4242
+v3_2_street_name = Vía Marina
+v3_2_locality = Marina del Rey
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Villa del Mar Apartments [PARAM] Neptune Marina Apartments [PARAM] AMLI Marina Del Rey
+PREDICT: [ACTION] Is it one of those?
+PREDICT: [ACTION] wait_for_user
+u5_0 = yes
+u5_1 = ,
+u5_2 = the
+u5_3 = first
+u5_4 = one
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 33.9767151 [PARAM] -118.4549901
+v4_distance = 2.3 mi
+v4_duration = 9 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Villa del Mar Apartments [PARAM] 2.3 mi
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 9 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u6_0 = cool
+u6_1 = ,
+u6_2 = let
+u6_3 = 's
+u6_4 = go
+u6_5 = now
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 33.9767151 [PARAM] -118.4549901

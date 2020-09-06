@@ -1,0 +1,80 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = Hi
+u1_1 = ,
+u1_2 = I
+u1_3 = 'm
+u1_4 = running
+u1_5 = late
+u1_6 = .
+u1_7 = Could
+u1_8 = you
+u1_9 = get
+u1_10 = me
+u1_11 = a
+u1_12 = ride
+u1_13 = to
+u1_14 = school
+u1_15 = ?
+u2_0 = I
+u2_1 = go
+u2_2 = to
+u2_3 = Lawrence
+u2_4 = Park
+PREDICT: [ACTION] find_place [PARAM] school Lawrence Park [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Lawrence Park School
+v1_address = 2180 Bayview Ave, North York, ON M4N 3K7, Canada
+v1_rating = 5
+v1_is_open = False
+v1_latitude = 43.72518789999999
+v1_longitude = -79.38039169999999
+v1_street_number = 2180
+v1_street_name = Bayview Avenue
+v1_locality = Toronto
+v1_distance = 6.6 mi
+v1_duration = 23 mins
+PREDICT: [ACTION] {} on {}? [PARAM] Lawrence Park School [PARAM] Bayview Avenue
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 6.6 mi [PARAM] 23 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = no
+u3_1 = ,
+u3_2 = not
+u3_3 = on
+u3_4 = bayview
+PREDICT: [ACTION] places_nearby [PARAM] Lawrence Park School [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v2_0_name = Lawrence Park Collegiate Institute
+v2_0_rating = 3.9
+v2_0_types = ['secondary_school', 'school', 'point_of_interest', 'establishment']
+v2_0_latitude = 43.7221392
+v2_0_longitude = -79.41035269999999
+v2_0_address = 125 Chatsworth Dr, Toronto, ON M4R 1S1, Canada
+v2_0_street_number = 125
+v2_0_street_name = Chatsworth Drive
+v2_0_locality = Toronto
+v2_0_distance = 5.2 mi
+v2_0_duration = 19 mins
+v2_1_name = Lawrence Park School
+v2_1_rating = 5
+v2_1_is_open = False
+v2_1_types = ['school', 'point_of_interest', 'establishment']
+v2_1_latitude = 43.72518789999999
+v2_1_longitude = -79.38039169999999
+v2_1_address = 2180 Bayview Ave, North York, ON M4N 3K7, Canada
+v2_1_street_number = 2180
+v2_1_street_name = Bayview Avenue
+v2_1_locality = Toronto
+v2_1_distance = 6.6 mi
+v2_1_duration = 23 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Lawrence Park Collegiate Institute
+PREDICT: [ACTION] It is on {}. [PARAM] Chatsworth Drive
+PREDICT: [ACTION] wait_for_user
+u4_0 = yup
+u4_1 = that
+u4_2 = 's
+u4_3 = the
+u4_4 = one
+u5_0 = let
+u5_1 = 's
+u5_2 = go
+PREDICT: [ACTION] start_driving [PARAM] 43.7221392 [PARAM] -79.41035269999999

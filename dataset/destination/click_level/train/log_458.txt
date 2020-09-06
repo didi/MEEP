@@ -1,0 +1,78 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = can
+u1_1 = you
+u1_2 = take
+u1_3 = me
+u1_4 = to
+u1_5 = a
+u1_6 = red
+u1_7 = line
+u1_8 = metro
+u1_9 = station
+u1_10 = please
+PREDICT: places_nearby
+PREDICT: red line metro station
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v1_0_name = Woodley Park-Zoo/Adams Morgan Station
+v1_0_rating = 4.2
+v1_0_types_0 = subway station
+v1_0_types_1 = transit station
+v1_0_types_2 = point of interest
+v1_0_types_3 = establishment
+v1_0_latitude = 38.9245045
+v1_0_longitude = -77.0523798
+v1_0_address_simple = 2700 Connecticut Avenue Northwest, Washington
+v1_0_street_number = 2700
+v1_0_street_name = Connecticut Avenue Northwest
+v1_0_neighborhood = Northwest Washington
+v1_0_locality = Washington
+v1_0_distance = 2.2 mi
+v1_0_duration = 9 mins
+v1_1_name = Cleveland Park Station
+v1_1_rating = 4.4
+v1_1_types_0 = subway station
+v1_1_types_1 = transit station
+v1_1_types_2 = point of interest
+v1_1_types_3 = establishment
+v1_1_latitude = 38.9361408
+v1_1_longitude = -77.05901759999999
+v1_1_address_simple = 3599 Connecticut Avenue Northwest, Washington
+v1_1_street_number = 3599
+v1_1_street_name = Connecticut Avenue Northwest
+v1_1_neighborhood = Northwest Washington
+v1_1_locality = Washington
+v1_1_distance = 1.3 mi
+v1_1_duration = 6 mins
+v1_2_name = Dupont Circle Station
+v1_2_rating = 4.3
+v1_2_types_0 = subway station
+v1_2_types_1 = transit station
+v1_2_types_2 = point of interest
+v1_2_types_3 = establishment
+v1_2_latitude = 38.9086635
+v1_2_longitude = -77.0433177
+v1_2_address_simple = 1525 20th Street Northwest, Washington
+v1_2_street_number = 1525
+v1_2_street_name = 20th Street Northwest
+v1_2_neighborhood = Northwest Washington
+v1_2_locality = Washington
+v1_2_distance = 2.0 mi
+v1_2_duration = 13 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Woodley Park-Zoo/Adams Morgan Station
+PREDICT: Cleveland Park Station
+PREDICT: Dupont Circle Station
+PREDICT: wait_for_user
+u2_0 = perfect
+u2_1 = take
+u2_2 = me
+u2_3 = to
+u2_4 = Dupont
+u2_5 = circle
+u2_6 = please
+PREDICT: start_driving
+PREDICT: 38.9086635
+PREDICT: -77.0433177

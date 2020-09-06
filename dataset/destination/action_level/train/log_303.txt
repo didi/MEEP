@@ -1,0 +1,47 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = buy
+u1_4 = a
+u1_5 = classic
+u1_6 = car
+u1_7 = .
+PREDICT: [ACTION] find_place [PARAM] classic car [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Chequered Flag International
+v1_address = 4128 Lincoln Blvd, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9878926
+v1_longitude = -118.4449336
+v1_types_0 = Car dealer
+v1_types_1 = Point of interest
+v1_types_2 = Store
+v1_types_3 = Establishment
+v1_rating = 4.8
+v1_is_open = True
+v1_address_simple = 4128 Lincoln Boulevard, Marina del Rey
+v1_street_number = 4128
+v1_street_name = Lincoln Boulevard
+v1_locality = Marina del Rey
+v1_distance = 0.6 mi
+v1_duration = 4 mins
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] Car dealer [PARAM] Chequered Flag International [PARAM] Lincoln Boulevard [PARAM] Marina del Rey
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.8
+PREDICT: [ACTION] wait_for_user
+u2_0 = I
+u2_1 = 've
+u2_2 = been
+u2_3 = there
+u2_4 = before
+u2_5 = ,
+u2_6 = it
+u2_7 = 's
+u2_8 = good
+u2_9 = .
+u2_10 = Let
+u2_11 = 's
+u2_12 = go
+u2_13 = .
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 4 mins
+PREDICT: [ACTION] start_driving [PARAM] 33.9878926 [PARAM] -118.4449336

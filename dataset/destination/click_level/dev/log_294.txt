@@ -1,0 +1,56 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = little
+u1_7 = train
+u1_8 = .
+u1_9 = I
+u1_10 = think
+u1_11 = it
+u1_12 = 's
+u1_13 = called
+u1_14 = Angel
+u1_15 = Incline
+u1_16 = .
+PREDICT: find_place
+PREDICT: Angel Incline
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Angels Flight Railway
+v1_address = 350 S Grand Ave, Los Angeles, CA 90071, United States
+v1_latitude = 34.0513417
+v1_longitude = -118.2502182
+v1_types_0 = Tourist attraction
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 350 South Grand Avenue, Los Angeles
+v1_street_number = 350
+v1_street_name = South Grand Avenue
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 18.2 mi
+v1_duration = 31 mins
+PREDICT: Do you mean {}?
+PREDICT: Angels Flight Railway
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = !
+PREDICT: It is in {}.
+PREDICT: Downtown Los Angeles
+PREDICT: It is {} and {} away.
+PREDICT: 18.2 mi
+PREDICT: 31 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = yes
+PREDICT: start_driving
+PREDICT: 34.0513417
+PREDICT: -118.2502182

@@ -1,0 +1,101 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = badminton
+u1_1 = court
+PREDICT: find_place
+PREDICT: badminton court
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Badminton Center Court Inc.
+v1_address = 3699 Industry Ave, Lakewood, CA 90712, United States
+v1_latitude = 33.8244444
+v1_longitude = -118.1661111
+v1_types_0 = point of interest
+v1_types_1 = establishment
+v1_rating = 4.1
+v1_is_open = False
+v1_address_simple = 3699 Industry Avenue, Lakewood
+v1_street_number = 3699
+v1_street_name = Industry Avenue
+v1_locality = Lakewood
+v1_distance = 24.6 mi
+v1_duration = 31 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: badminton court
+PREDICT: Badminton Center Court Inc.
+PREDICT: Industry Avenue
+PREDICT: Lakewood
+PREDICT: Are you okay with that one?
+PREDICT: It is not open.
+PREDICT: places_nearby
+PREDICT: badminton court
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Manhattan Beach Badminton Club
+v2_0_rating = 4.8
+v2_0_types_0 = point of interest
+v2_0_types_1 = establishment
+v2_0_latitude = 33.8901308
+v2_0_longitude = -118.4089163
+v2_0_address_simple = 516 18th Street, Manhattan Beach
+v2_0_street_number = 516
+v2_0_street_name = 18th Street
+v2_0_locality = Manhattan Beach
+v2_0_distance = 8.2 mi
+v2_0_duration = 21 mins
+v2_1_name = Badminton Center Court Inc.
+v2_1_rating = 4.1
+v2_1_is_open = False
+v2_1_types_0 = point of interest
+v2_1_types_1 = establishment
+v2_1_latitude = 33.8244444
+v2_1_longitude = -118.1661111
+v2_1_address_simple = 3699 Industry Avenue, Lakewood
+v2_1_street_number = 3699
+v2_1_street_name = Industry Avenue
+v2_1_locality = Lakewood
+v2_1_distance = 24.6 mi
+v2_1_duration = 31 mins
+v2_2_name = San Gabriel Valley Badminton Club
+v2_2_rating = 4.1
+v2_2_is_open = True
+v2_2_types_0 = point of interest
+v2_2_types_1 = establishment
+v2_2_latitude = 34.0693985
+v2_2_longitude = -118.0674984
+v2_2_address_simple = 9255 Telstar Avenue, El Monte
+v2_2_street_number = 9255
+v2_2_street_name = Telstar Avenue
+v2_2_locality = El Monte
+v2_2_distance = 29.4 mi
+v2_2_duration = 39 mins
+PREDICT: wait_for_user
+u2_0 = any
+u2_1 = open
+u2_2 = one
+u2_3 = ?
+PREDICT: I found {} in {}.
+PREDICT: Manhattan Beach Badminton Club
+PREDICT: Manhattan Beach
+PREDICT: {} on {} is open.
+PREDICT: Manhattan Beach Badminton Club
+PREDICT: 18th Street
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+u3_4 = ?
+PREDICT: It is {} and {} away.
+PREDICT: 8.2 mi
+PREDICT: 21 mins
+PREDICT: wait_for_user
+u4_0 = ok
+u4_1 = sounds
+u4_2 = goodd
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 33.8901308
+PREDICT: -118.4089163

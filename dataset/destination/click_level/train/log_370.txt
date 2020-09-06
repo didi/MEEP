@@ -1,0 +1,54 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = Sharks
+u1_7 = game
+PREDICT: find_place
+PREDICT: Sharks game
+PREDICT: 37.760
+PREDICT: -122.429
+v1_name = SAP Center at San Jose
+v1_address = 525 W Santa Clara St, San Jose, CA 95113, United States
+v1_latitude = 37.3327507
+v1_longitude = -121.9012447
+v1_types_0 = stadium
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.6
+v1_address_simple = 525 West Santa Clara Street, San Jose
+v1_street_number = 525
+v1_street_name = West Santa Clara Street
+v1_neighborhood = Downtown San Jose
+v1_locality = San Jose
+v1_distance = 53.7 mi
+v1_duration = 56 mins
+PREDICT: Do you mean {}?
+PREDICT: SAP Center at San Jose
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = so
+u2_3 = ,
+u2_4 = is
+u2_5 = it
+u2_6 = downtown
+u2_7 = ?
+PREDICT: It is in {}.
+PREDICT: Downtown San Jose
+PREDICT: wait_for_user
+u3_0 = Great
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: Great, we are going to {}.
+PREDICT: SAP Center at San Jose
+PREDICT: start_driving
+PREDICT: 37.3327507
+PREDICT: -121.9012447

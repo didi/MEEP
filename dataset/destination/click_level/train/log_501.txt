@@ -1,0 +1,188 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = site-seeing
+u1_6 = .
+u1_7 = What
+u1_8 = are
+u1_9 = the
+u1_10 = major
+u1_11 = monuments
+u1_12 = around
+u1_13 = here
+u1_14 = ?
+PREDICT: places_nearby
+PREDICT: monuments
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v1_0_name = Joan of Arc Memorial
+v1_0_rating = 4.7
+v1_0_is_open = True
+v1_0_types_0 = church
+v1_0_types_1 = place of worship
+v1_0_types_2 = point of interest
+v1_0_types_3 = establishment
+v1_0_latitude = 38.920705
+v1_0_longitude = -77.0357037
+v1_0_address_simple = Washington
+v1_0_locality = Washington
+v1_0_neighborhood = Northwest Washington
+v1_0_distance = 1.3 mi
+v1_0_duration = 7 mins
+v1_1_name = James Buchanan Memorial
+v1_1_rating = 3.6
+v1_1_is_open = True
+v1_1_types_0 = tourist attraction
+v1_1_types_1 = point of interest
+v1_1_types_2 = establishment
+v1_1_latitude = 38.9197659
+v1_1_longitude = -77.03513500000001
+v1_1_address_simple = Washington
+v1_1_locality = Washington
+v1_1_neighborhood = Northwest Washington
+v1_1_distance = 1.2 mi
+v1_1_duration = 7 mins
+v1_2_name = Taras Shevchenko Statue
+v1_2_rating = 4.6
+v1_2_types_0 = tourist attraction
+v1_2_types_1 = point of interest
+v1_2_types_2 = establishment
+v1_2_latitude = 38.9100694
+v1_2_longitude = -77.04899739999999
+v1_2_address_simple = 1512 22nd Street Northwest, Washington
+v1_2_street_number = 1512
+v1_2_street_name = 22nd Street Northwest
+v1_2_neighborhood = Northwest Washington
+v1_2_locality = Washington
+v1_2_distance = 2.1 mi
+v1_2_duration = 12 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Joan of Arc Memorial
+PREDICT: James Buchanan Memorial
+PREDICT: Taras Shevchenko Statue
+PREDICT: They are all in {}
+PREDICT: Northwest Washington
+PREDICT: {} has a rating of {}.
+PREDICT: Joan of Arc Memorial
+PREDICT: 4.7
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = Hmm
+u2_1 = ,
+u2_2 = what
+u2_3 = about
+u2_4 = like
+u2_5 = the
+u2_6 = Abe
+u2_7 = Lincoln
+u2_8 = statue
+u2_9 = ,
+u2_10 = or
+u2_11 = the
+u2_12 = battle
+u2_13 = of
+u2_14 = Gettysburg
+u2_15 = memorial
+u2_16 = ?
+u2_17 = Or
+u2_18 = the
+u2_19 = giant
+u2_20 = spire
+u2_21 = monument
+u2_22 = thing
+u2_23 = ?
+u2_24 = Any
+u2_25 = of
+u2_26 = those
+u2_27 = close
+u2_28 = ?
+PREDICT: find_place
+PREDICT: Lincoln monuments
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v2_name = Lincoln Memorial
+v2_address = 2 Lincoln Memorial Cir NW, Washington, DC 20037, United States
+v2_latitude = 38.8892686
+v2_longitude = -77.050176
+v2_types_0 = tourist attraction
+v2_types_1 = park
+v2_types_2 = point of interest
+v2_types_3 = establishment
+v2_rating = 4.8
+v2_is_open = True
+v2_address_simple = 2 Lincoln Memorial Circle Northwest, Washington
+v2_street_number = 2
+v2_street_name = Lincoln Memorial Circle Northwest
+v2_neighborhood = Southwest Washington
+v2_locality = Washington
+v2_distance = 5.2 mi
+v2_duration = 17 mins
+PREDICT: {} is {} away.
+PREDICT: Lincoln Memorial
+PREDICT: 17 mins
+PREDICT: find_place
+PREDICT: Gettysburg memorial
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v3_name = State of Pennsylvania Monument
+v3_address = Hancock Ave, Gettysburg, PA 17325, United States
+v3_latitude = 39.8075828
+v3_longitude = -77.23516649999999
+v3_types_0 = tourist attraction
+v3_types_1 = point of interest
+v3_types_2 = establishment
+v3_rating = 4.9
+v3_is_open = True
+v3_address_simple = Hancock Avenue, Gettysburg
+v3_street_name = Hancock Avenue
+v3_locality = Gettysburg
+v3_distance = 76.1 mi
+v3_duration = 1 hour 31 mins
+PREDICT: {} is {} away.
+PREDICT: Gettysburg
+PREDICT: 1 hour 31 mins
+PREDICT: Which would you like to go to? 
+PREDICT: wait_for_user
+u3_0 = Okay
+u3_1 = ,
+u3_2 = that
+u3_3 = 's
+u3_4 = not
+u3_5 = terrible
+u3_6 = ,
+u3_7 = I
+u3_8 = 've
+u3_9 = always
+u3_10 = wanted
+u3_11 = to
+u3_12 = visit
+u3_13 = Gettysburg
+u3_14 = .
+PREDICT: find_place
+PREDICT: Gettysburg memorial
+PREDICT: 39.8075828
+PREDICT: -77.23516649999999
+v4_name = State of Pennsylvania Monument
+v4_address = Hancock Ave, Gettysburg, PA 17325, United States
+v4_latitude = 39.8075828
+v4_longitude = -77.23516649999999
+v4_types_0 = tourist attraction
+v4_types_1 = point of interest
+v4_types_2 = establishment
+v4_rating = 4.9
+v4_is_open = True
+v4_address_simple = Hancock Avenue, Gettysburg
+v4_street_name = Hancock Avenue
+v4_locality = Gettysburg
+v4_distance = 1 ft
+v4_duration = 1 min
+PREDICT: Great, we are going to {}.
+PREDICT: Gettysburg
+PREDICT: start_driving
+PREDICT: 39.8075828
+PREDICT: -77.23516649999999

@@ -1,0 +1,94 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = downtown
+u1_8 = Hyatt
+PREDICT: places_nearby
+PREDICT: Hyatt downtown
+PREDICT: 37.760
+PREDICT: -122.429
+v1_0_name = Grand Hyatt San Francisco
+v1_0_rating = 4.4
+v1_0_is_open = True
+v1_0_types_0 = lodging
+v1_0_types_1 = point of interest
+v1_0_types_2 = establishment
+v1_0_latitude = 37.7891412
+v1_0_longitude = -122.4072161
+v1_0_address_simple = 345 Stockton Street, San Francisco
+v1_0_street_number = 345
+v1_0_street_name = Stockton Street
+v1_0_locality = San Francisco
+v1_0_distance = 4.2 mi
+v1_0_duration = 18 mins
+v1_1_name = Hyatt Place San Francisco / Downtown
+v1_1_rating = 4.3
+v1_1_is_open = True
+v1_1_types_0 = lodging
+v1_1_types_1 = point of interest
+v1_1_types_2 = establishment
+v1_1_latitude = 37.7788559
+v1_1_longitude = -122.3924135
+v1_1_address_simple = 701 3rd Street, San Francisco
+v1_1_street_number = 701
+v1_1_street_name = 3rd Street
+v1_1_neighborhood = South Beach
+v1_1_locality = San Francisco
+v1_1_distance = 3.5 mi
+v1_1_duration = 14 mins
+v1_2_name = Hyatt Regency San Francisco
+v1_2_rating = 4.4
+v1_2_is_open = True
+v1_2_types_0 = lodging
+v1_2_types_1 = point of interest
+v1_2_types_2 = establishment
+v1_2_latitude = 37.7942169
+v1_2_longitude = -122.3956663
+v1_2_address_simple = 5 Embarcadero Center, San Francisco
+v1_2_street_number = 5
+v1_2_street_name = Embarcadero Center
+v1_2_neighborhood = Financial District
+v1_2_locality = San Francisco
+v1_2_distance = 4.5 mi
+v1_2_duration = 19 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Grand Hyatt San Francisco
+PREDICT: Hyatt Place San Francisco / Downtown
+PREDICT: Hyatt Regency San Francisco
+PREDICT: Which would you like to go to? 
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = the
+u2_3 = one
+u2_4 = I
+u2_5 = 'm
+u2_6 = thinking
+u2_7 = of
+u2_8 = is
+u2_9 = close
+u2_10 = to
+u2_11 = the
+u2_12 = Embarcadero
+PREDICT: {} is on {}.
+PREDICT: Hyatt Regency San Francisco
+PREDICT: Embarcadero Center
+PREDICT: It is in {}.
+PREDICT: Financial District
+PREDICT: wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 37.7942169
+PREDICT: -122.3956663

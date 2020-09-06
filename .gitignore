@@ -1,0 +1,19 @@
+node_modules
+__pycache__
+*.py[cod]
+.idea
+**/.DS_Store
+gui/backend/server_log.txt
+
+agents/bert_agent/models
+agents/gpt_method/
+
+agents/gpt2_agent/dataset
+agents/gpt2_agent/models
+agents/gpt2_agent/eval_output
+agents/gpt2_agent/runs
+
+
+
+# Javascript dotenv environment variables
+gui/frontend/.env

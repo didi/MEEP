@@ -1,0 +1,37 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Is
+u1_1 = there
+u1_2 = a
+u1_3 = WeWork
+u1_4 = nearby
+u1_5 = ?
+PREDICT: [ACTION] find_place [PARAM] WeWork [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = WeWork Coworking & Office Space
+v1_address = 12655 W Jefferson Blvd, Los Angeles, CA 90066, United States
+v1_latitude = 33.9794817
+v1_longitude = -118.4143266
+v1_types_0 = real estate agency
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 12655 West Jefferson Boulevard, Los Angeles
+v1_street_number = 12655
+v1_street_name = West Jefferson Boulevard
+v1_neighborhood = Playa Vista
+v1_locality = Los Angeles
+v1_distance = 2.0 mi
+v1_duration = 7 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] WeWork Coworking & Office Space [PARAM] Playa Vista
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 7 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Perfect
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+u2_5 = .
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 33.9794817 [PARAM] -118.4143266

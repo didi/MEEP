@@ -1,0 +1,31 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = walt
+u1_1 = disney
+u1_2 = concert
+u1_3 = hall
+PREDICT: [ACTION] find_place [PARAM] walt disney concert hall [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Walt Disney Concert Hall
+v1_address = 111 S Grand Ave, Los Angeles, CA 90012, United States
+v1_latitude = 34.0553454
+v1_longitude = -118.249845
+v1_types_0 = Tourist attraction
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 111 South Grand Avenue, Los Angeles
+v1_street_number = 111
+v1_street_name = South Grand Avenue
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 17.9 mi
+v1_duration = 30 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Walt Disney Concert Hall [PARAM] Downtown Los Angeles
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 30 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Walt Disney Concert Hall
+PREDICT: [ACTION] start_driving [PARAM] 34.0553454 [PARAM] -118.249845

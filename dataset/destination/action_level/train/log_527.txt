@@ -1,0 +1,120 @@
+source_address = 150 North Bridge Road, Singapore 179100
+source_latitude = 1.293076
+source_longitude = 103.85206770000002
+u1_0 = can
+u1_1 = we
+u1_2 = go
+u1_3 = to
+u1_4 = Sentosa
+u1_5 = ?
+PREDICT: [ACTION] places_nearby [PARAM] Sentosa [PARAM] 1.293076 [PARAM] 103.85206770000002
+v1_0_name = Sentosa
+v1_0_rating = 4.6
+v1_0_types_0 = natural feature
+v1_0_types_1 = establishment
+v1_0_latitude = 1.2494041
+v1_0_longitude = 103.8303209
+v1_0_natural_feature establishment = Sentosa
+v1_0_neighborhood = Southern Islands
+v1_0_distance = 4.9 mi
+v1_0_duration = 19 mins
+PREDICT: [ACTION] {} is in {}. [PARAM] Sentosa [PARAM] Southern Islands
+PREDICT: [ACTION] It is {} away. [PARAM] 19 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = is
+u2_1 = there
+u2_2 = a
+u2_3 = ferry
+u2_4 = there
+u2_5 = ?
+PREDICT: [ACTION] find_place [PARAM] Sentosa ferry [PARAM] 1.2494041 [PARAM] 103.8303209
+v2_name = Singapore Island Cruise & Ferry Services Pte Ltd
+v2_address = 31 Marina Coastal Dr, #01-04, Singapore 018988
+v2_latitude = 1.2710096
+v2_longitude = 103.8632179
+v2_types_0 = travel agency
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 4.2
+v2_is_open = False
+v2_address_simple = 31 Marina Coastal Drive, #01-04
+v2_street_number = 31
+v2_street_name = Marina Coastal Drive
+v2_neighborhood = Straits View
+v2_locality = Singapore
+v2_distance = 5.2 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] {} is a {}. [PARAM] Singapore Island Cruise & Ferry Services Pte Ltd [PARAM] ferry
+PREDICT: [ACTION] It is {} away. [PARAM] 12 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = sure
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = try
+u3_5 = that
+PREDICT: [ACTION] It is not open.
+PREDICT: [ACTION] wait_for_user
+u4_0 = :
+u4_1 = (
+PREDICT: [ACTION] Is there anything else you want me to look up?
+PREDICT: [ACTION] wait_for_user
+u5_0 = actually
+u5_1 = I
+u5_2 = think
+u5_3 = we
+u5_4 = can
+u5_5 = just
+u5_6 = drive
+u5_7 = to
+u5_8 = universal
+u5_9 = studios
+PREDICT: [ACTION] places_nearby [PARAM] universal studios [PARAM] 1.293076 [PARAM] 103.85206770000002
+PREDICT: [ACTION] I could not find a {} in {}. [PARAM] universal studios [PARAM] Singapore
+PREDICT: [ACTION] find_place [PARAM] universal studios [PARAM] 1.293076 [PARAM] 103.85206770000002
+v4_name = Universal Studios Singapore
+v4_address = 8 Sentosa Gateway, Singapore 098269
+v4_latitude = 1.2540421
+v4_longitude = 103.8238084
+v4_types_0 = tourist attraction
+v4_types_1 = amusement park
+v4_types_2 = point of interest
+v4_types_3 = establishment
+v4_rating = 4.6
+v4_is_open = False
+v4_address_simple = 8 Sentosa Gateway
+v4_street_number = 8
+v4_street_name = Sentosa Gateway
+v4_neighborhood = Southern Islands
+v4_distance = 4.7 mi
+v4_duration = 19 mins
+PREDICT: [ACTION] wait_for_user
+u6_0 = nevermind
+u6_1 = .
+u6_2 = I
+u6_3 = 'll
+u6_4 = just
+u6_5 = take
+u6_6 = Uber
+u6_7 = instead
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Universal Studios Singapore [PARAM] Sentosa Gateway
+PREDICT: [ACTION] It is {} away. [PARAM] 19 mins
+PREDICT: [ACTION] wait_for_user
+u7_0 = yeah
+u7_1 = that
+u7_2 = 's
+u7_3 = the
+u7_4 = one
+PREDICT: [ACTION] It is not open.
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u8_0 = let
+u8_1 = 's
+u8_2 = go
+u8_3 = and
+u8_4 = I
+u8_5 = 'll
+u8_6 = wait
+u8_7 = outside
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Universal Studios Singapore
+PREDICT: [ACTION] start_driving [PARAM] 1.2540421 [PARAM] 103.8238084

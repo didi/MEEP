@@ -1,0 +1,110 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = LA
+u1_8 = Zoo
+u1_9 = ,
+u1_10 = if
+u1_11 = traffic
+u1_12 = is
+u1_13 = n't
+u1_14 = too
+u1_15 = bad
+u1_16 = right
+u1_17 = now
+u1_18 = .
+PREDICT: find_place
+PREDICT: LA Zoo
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Los Angeles Zoo
+v1_address = 5333 Zoo Dr, Los Angeles, CA 90027, United States
+v1_latitude = 34.1483445
+v1_longitude = -118.2841086
+v1_types_0 = Zoo
+v1_types_1 = Tourist attraction
+v1_types_2 = Point of interest
+v1_types_3 = Establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 5333 Zoo Drive, Los Angeles
+v1_street_number = 5333
+v1_street_name = Zoo Drive
+v1_locality = Los Angeles
+v1_distance = 27.4 mi
+v1_duration = 40 mins
+PREDICT: It is {} away.
+PREDICT: 40 mins
+PREDICT: wait_for_user
+u2_0 = Hrm
+u2_1 = ,
+u2_2 = okay
+u2_3 = ,
+u2_4 = what
+u2_5 = about
+u2_6 = the
+u2_7 = Natural
+u2_8 = History
+u2_9 = Museum
+u2_10 = ?
+u3_0 = is
+u3_1 = it
+u3_2 = closer
+u3_3 = ?
+PREDICT: find_place
+PREDICT: Natural History Museum
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Natural History Museum of Los Angeles County (NHM)
+v2_address = 900 W Exposition Blvd, Los Angeles, CA 90007, United States
+v2_latitude = 34.0169567
+v2_longitude = -118.2887703
+v2_types_0 = Tourist attraction
+v2_types_1 = Museum
+v2_types_2 = Point of interest
+v2_types_3 = Establishment
+v2_rating = 4.7
+v2_is_open = True
+v2_address_simple = 900 West Exposition Boulevard, Los Angeles
+v2_street_number = 900
+v2_street_name = West Exposition Boulevard
+v2_neighborhood = South Los Angeles
+v2_locality = Los Angeles
+v2_distance = 10.3 mi
+v2_duration = 29 mins
+PREDICT: {} is {} away.
+PREDICT: Natural History Museum of Los Angeles County (NHM)
+PREDICT: 29 mins
+PREDICT: wait_for_user
+u4_0 = Alright
+u4_1 = ,
+u4_2 = not
+u4_3 = much
+u4_4 = better
+u4_5 = .
+u4_6 = Let
+u4_7 = 's
+u4_8 = stick
+u4_9 = with
+u4_10 = the
+u4_11 = original
+u4_12 = plan
+u4_13 = and
+u4_14 = go
+u4_15 = to
+u4_16 = the
+u4_17 = zoo
+u4_18 = .
+PREDICT: Great, we are going to {}.
+PREDICT: Los Angeles Zoo
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 34.1483445
+PREDICT: -118.2841086

@@ -1,0 +1,37 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = six
+u1_1 = flag
+PREDICT: [ACTION] find_place [PARAM] six flag [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Six Flags Magic Mountain
+v1_address = 26101 Magic Mountain Pkwy, Valencia, CA 91355, United States
+v1_latitude = 34.4253305
+v1_longitude = -118.5972191
+v1_types_0 = tourist attraction
+v1_types_1 = amusement park
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.6
+v1_address_simple = 26101 Magic Mountain Parkway, Valencia
+v1_street_number = 26101
+v1_street_name = Magic Mountain Parkway
+v1_neighborhood = Valencia
+v1_distance = 38.9 mi
+v1_duration = 50 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Six Flags Magic Mountain
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 50 mins [PARAM] 38.9 mi
+PREDICT: [ACTION] wait_for_user
+u2_0 = where
+u2_1 = is
+u2_2 = it
+u2_3 = ?
+PREDICT: [ACTION] It is on {} in {}. [PARAM] Magic Mountain Parkway [PARAM] Valencia
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+u4_0 = sounds
+u4_1 = correct
+u5_0 = let
+u5_1 = 's
+u5_2 = go
+PREDICT: [ACTION] start_driving [PARAM] 34.4253305 [PARAM] -118.5972191

@@ -1,0 +1,6 @@
+--- Comparisons ---
+{num1} is {comparator} {num2}.
+--- Request numbers ---
+Sorry I didn't understand, please give me exactly two numbers to compare in integer or float formats.
+--- Goodbye ---
+Pleasure serving you!

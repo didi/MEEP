@@ -1,0 +1,70 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = practice
+u1_4 = golf
+u1_5 = .
+u1_6 = is
+u1_7 = there
+u1_8 = a
+u1_9 = driving
+u1_10 = range
+u1_11 = nearby
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: find_place
+PREDICT: golf driving range
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 3680 Wilshire Blvd, Los Angeles, CA 90010, United States
+v1_name = Aroma Golf Range
+v1_latitude = 34.0609513
+v1_longitude = -118.3062167
+v1_place_id = ChIJo_XTkYS4woARZ9aBLCOmNmw
+v1_street_number = 3680
+v1_street_name = Wilshire Boulevard
+v1_neighborhood = Koreatown
+v1_locality = Los Angeles
+v1_distance = 15.3 mi
+v1_duration = 29 mins
+PREDICT: There is {} on {}
+PREDICT: Aroma Golf Range
+PREDICT: Wilshire Boulevard
+PREDICT: It is {} away.
+PREDICT: 29 mins
+PREDICT: wait_for_user
+u2_0 = is
+u2_1 = there
+u2_2 = one
+u2_3 = on
+u2_4 = manchester
+u2_5 = ?
+PREDICT: find_place
+PREDICT: golf manchester driving range
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = 6900 W Manchester Ave, Los Angeles, CA 90045, United States
+v2_name = Westchester Golf Course
+v2_latitude = 33.9594587
+v2_longitude = -118.4115875
+v2_place_id = ChIJBaBCZcGwwoARaUNhLwSNDdI
+v2_street_number = 6900
+v2_street_name = West Manchester Avenue
+v2_neighborhood = Westchester
+v2_locality = Los Angeles
+v2_distance = 2.5 mi
+v2_duration = 8 mins
+PREDICT: There is {} on {}
+PREDICT: Westchester Golf Course
+PREDICT: West Manchester Avenue
+PREDICT: It is {} away.
+PREDICT: 8 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = yes
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.9594587
+PREDICT: -118.4115875

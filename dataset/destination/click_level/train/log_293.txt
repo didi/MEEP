@@ -1,0 +1,54 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = Last
+u1_7 = Bookstore
+u1_8 = .
+PREDICT: find_place
+PREDICT: the Last Bookstore
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = The Last Bookstore
+v1_address = 453 S Spring St, Los Angeles, CA 90013, United States
+v1_latitude = 34.0477656
+v1_longitude = -118.2494896
+v1_types_0 = Tourist attraction
+v1_types_1 = Book store
+v1_types_2 = Electronics store
+v1_types_3 = Home goods store
+v1_types_4 = Point of interest
+v1_types_5 = Store
+v1_types_6 = Establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 453 South Spring Street, Los Angeles
+v1_street_number = 453
+v1_street_name = South Spring Street
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 17.9 mi
+v1_duration = 31 mins
+PREDICT: {} in {}?
+PREDICT: The Last Bookstore
+PREDICT: Downtown Los Angeles
+PREDICT: wait_for_user
+u2_0 = Right
+u2_1 = .
+PREDICT: It is {} and {} away.
+PREDICT: 17.9 mi
+PREDICT: 31 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = Sure
+u3_1 = .
+PREDICT: Great, we are going to {}.
+PREDICT: The Last Bookstore
+PREDICT: start_driving
+PREDICT: 34.0477656
+PREDICT: -118.2494896

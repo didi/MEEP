@@ -1,0 +1,69 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = mattress
+u1_8 = store
+PREDICT: [ACTION] places_nearby [PARAM] mattress store [PARAM] 43.657 [PARAM] -79.401
+v1_0_name = 现代家私| Modern Furniture Store Toronto
+v1_0_rating = 4.1
+v1_0_is_open = False
+v1_0_types = ['furniture_store', 'home_goods_store', 'point_of_interest', 'store', 'establishment']
+v1_0_latitude = 43.653354
+v1_0_longitude = -79.395157
+v1_0_address = 419 Dundas St W, Toronto, ON M5T 1G6, Canada
+v1_0_street_number = 419
+v1_0_street_name = Dundas Street West
+v1_0_locality = Toronto
+v1_0_distance = 0.6 mi
+v1_0_duration = 5 mins
+v1_1_name = Casper
+v1_1_rating = 4.4
+v1_1_is_open = True
+v1_1_types = ['furniture_store', 'home_goods_store', 'point_of_interest', 'store', 'establishment']
+v1_1_latitude = 43.6491858
+v1_1_longitude = -79.39513769999999
+v1_1_address = 342 Queen St W, Toronto, ON M5V 2A5, Canada
+v1_1_street_number = 342
+v1_1_street_name = Queen Street West
+v1_1_locality = Toronto
+v1_1_distance = 0.8 mi
+v1_1_duration = 6 mins
+v1_2_name = Try The Endy Mattress at Urban Mode
+v1_2_rating = 0
+v1_2_is_open = False
+v1_2_types = ['furniture_store', 'home_goods_store', 'point_of_interest', 'store', 'establishment']
+v1_2_latitude = 43.646271
+v1_2_longitude = -79.4061979
+v1_2_address = 145 Tecumseth St #1, Toronto, ON M6J 2H5, Canada
+v1_2_street_number = 145
+v1_2_street_name = Tecumseth Street
+v1_2_locality = Toronto
+v1_2_distance = 1.2 mi
+v1_2_duration = 7 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] 现代家私| Modern Furniture Store Toronto [PARAM] Casper [PARAM] Try The Endy Mattress at Urban Mode
+PREDICT: [ACTION] wait_for_user
+u2_0 = Let
+u2_1 = 's
+u2_2 = go
+u2_3 = to
+u2_4 = Casper
+u3_0 = Where
+u3_1 = is
+u3_2 = it
+u3_3 = ?
+PREDICT: [ACTION] It is on {}. [PARAM] Queen Street West
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 0.8 mi [PARAM] 6 mins
+PREDICT: [ACTION] wait_for_user
+u4_0 = Great
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+PREDICT: [ACTION] start_driving [PARAM] 43.6491858 [PARAM] -79.39513769999999

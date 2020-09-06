@@ -1,0 +1,157 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = whole
+u1_1 = foods
+PREDICT: [ACTION] find_place [PARAM] whole foods [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Whole Foods Market
+v1_address = 12746 W Jefferson Blvd, Playa Vista, CA 90094, United States
+v1_latitude = 33.9767818
+v1_longitude = -118.4180924
+v1_price_level = 3
+v1_types_0 = grocery or supermarket
+v1_types_1 = supermarket
+v1_types_2 = food
+v1_types_3 = health
+v1_types_4 = point of interest
+v1_types_5 = store
+v1_types_6 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 12746 West Jefferson Boulevard, Playa Vista
+v1_street_number = 12746
+v1_street_name = West Jefferson Boulevard
+v1_neighborhood = Playa Vista
+v1_locality = Los Angeles
+v1_distance = 1.7 mi
+v1_duration = 6 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Whole Foods Market [PARAM] West Jefferson Boulevard
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 6 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = no
+u2_1 = ,
+u2_2 = i
+u2_3 = 'd
+u2_4 = like
+u2_5 = to
+u2_6 = go
+u2_7 = to
+u2_8 = the
+u2_9 = one
+u2_10 = across
+u2_11 = the
+u2_12 = street
+u2_13 = from
+u2_14 = casablanca
+PREDICT: [ACTION] find_place [PARAM] casablanca [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Casablanca
+v2_address = Casablanca, Morocco
+v2_latitude = 33.5731104
+v2_longitude = -7.589843399999999
+v2_types_0 = locality
+v2_types_1 = political
+v2_address_simple = Casablanca
+v2_locality = Casablanca
+PREDICT: [ACTION] places_nearby [PARAM] casablanca [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] find_place [PARAM] whole foods casablanca [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = Whole Foods Market
+v4_address = 225 Lincoln Blvd, Venice, CA 90291, United States
+v4_latitude = 34.0011613
+v4_longitude = -118.4698813
+v4_price_level = 3
+v4_types_0 = grocery or supermarket
+v4_types_1 = supermarket
+v4_types_2 = food
+v4_types_3 = health
+v4_types_4 = point of interest
+v4_types_5 = store
+v4_types_6 = establishment
+v4_rating = 4.4
+v4_is_open = True
+v4_address_simple = 225 Lincoln Boulevard, Venice
+v4_street_number = 225
+v4_street_name = Lincoln Boulevard
+v4_neighborhood = Venice
+v4_locality = Los Angeles
+v4_distance = 2.4 mi
+v4_duration = 11 mins
+PREDICT: [ACTION] How about one on {}? It is {} away. [PARAM] Lincoln Boulevard [PARAM] 11 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = great
+u3_1 = ,
+u3_2 = how
+u3_3 = far
+u3_4 = from
+u3_5 = casablanca
+u3_6 = is
+u3_7 = it
+u3_8 = ?
+PREDICT: [ACTION] find_place [PARAM] casablanca foods [PARAM] 33.9816425 [PARAM] -118.4409761
+v5_name = Casablanca Foods
+v5_address = 3246 Nicollet Ave, Minneapolis, MN 55408, United States
+v5_latitude = 44.9431281
+v5_longitude = -93.2784562
+v5_types_0 = grocery or supermarket
+v5_types_1 = food
+v5_types_2 = point of interest
+v5_types_3 = store
+v5_types_4 = establishment
+v5_rating = 3.8
+v5_is_open = True
+v5_address_simple = 3246 Nicollet Avenue, Minneapolis
+v5_street_number = 3246
+v5_street_name = Nicollet Avenue
+v5_neighborhood = Powderhorn
+v5_locality = Minneapolis
+v5_distance = 1,944 mi
+v5_duration = 1 day 4 hours
+PREDICT: [ACTION] Can you be more specific?
+PREDICT: [ACTION] wait_for_user
+u4_0 = i
+u4_1 = 'm
+u4_2 = getting
+u4_3 = dinner
+u4_4 = at
+u4_5 = casablanca
+u4_6 = after
+u4_7 = ,
+u4_8 = so
+u4_9 = i
+u4_10 = want
+u4_11 = to
+u4_12 = go
+u4_13 = to
+u4_14 = the
+u4_15 = one
+u4_16 = that
+u4_17 = 's
+u4_18 = across
+u4_19 = the
+u4_20 = street
+PREDICT: [ACTION] find_place [PARAM] casablanca dinner [PARAM] 33.9816425 [PARAM] -118.4409761
+v6_name = Casablanca
+v6_address = 220 Lincoln Blvd, Venice, CA 90291, United States
+v6_latitude = 34.0016498
+v6_longitude = -118.4680046
+v6_price_level = 2
+v6_types_0 = restaurant
+v6_types_1 = food
+v6_types_2 = point of interest
+v6_types_3 = establishment
+v6_rating = 4.5
+v6_is_open = False
+v6_address_simple = 220 Lincoln Boulevard, Venice
+v6_street_number = 220
+v6_street_name = Lincoln Boulevard
+v6_neighborhood = Venice
+v6_locality = Los Angeles
+v6_distance = 2.3 mi
+v6_duration = 10 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 34.0016498 [PARAM] -118.4680046 [PARAM] 34.0011613 [PARAM] -118.4698813
+v7_distance = 0.1 mi
+v7_duration = 1 min
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Whole Foods Market [PARAM] 1 min [PARAM] Casablanca
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = yea
+PREDICT: [ACTION] start_driving [PARAM] 34.0011613 [PARAM] -118.4698813

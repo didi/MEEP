@@ -1,0 +1,56 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = the
+u1_1 = ice
+u1_2 = cream
+u1_3 = shop
+u1_4 = on
+u1_5 = P
+u1_6 = st
+PREDICT: [ACTION] find_place [PARAM] P st [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v1_name = P St NW
+v1_address = P St NW, Washington, DC, USA
+v1_latitude = 38.9096514
+v1_longitude = -77.0457713
+v1_types_0 = route
+v1_address_simple = Washington
+v1_street_name = P Street Northwest
+v1_neighborhood = Northwest Washington
+v1_locality = Washington
+v1_distance = 2.0 mi
+v1_duration = 13 mins
+u2_0 = actually
+u2_1 = it
+u2_2 = 's
+u2_3 = gelato
+PREDICT: [ACTION] find_place [PARAM] ice cream shop gelato [PARAM] 38.9096514 [PARAM] -77.0457713
+v2_name = Dolcezza Gelato and Coffee
+v2_address = 1704 Connecticut Ave NW, Washington, DC 20009, United States
+v2_latitude = 38.9128487
+v2_longitude = -77.0456011
+v2_price_level = 2
+v2_types_0 = cafe
+v2_types_1 = food
+v2_types_2 = point of interest
+v2_types_3 = store
+v2_types_4 = establishment
+v2_rating = 4.6
+v2_is_open = True
+v2_address_simple = 1704 Connecticut Avenue Northwest, Washington
+v2_street_number = 1704
+v2_street_name = Connecticut Avenue Northwest
+v2_neighborhood = Northwest Washington
+v2_locality = Washington
+v2_distance = 0.7 mi
+v2_duration = 5 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Dolcezza Gelato and Coffee
+PREDICT: [ACTION] The address is {}. [PARAM] 1704 Connecticut Avenue Northwest, Washington
+PREDICT: [ACTION] wait_for_user
+u3_0 = yeah
+u3_1 = exactly
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+u4_1 = please
+PREDICT: [ACTION] start_driving [PARAM] 38.9128487 [PARAM] -77.0456011

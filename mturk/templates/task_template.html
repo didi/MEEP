@@ -1,0 +1,36 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form>
+    <div>
+        <strong>Instructions: </strong>
+        <ol>
+            <li>Click the link below to open our dialog data collection interface.</li>
+            <li>Modify "Starting address" on the left side of the page to a nearby landmark in your city.</li>
+            <li>Think of 5 places in your city where you might take a taxi trip to. This can be a specific destination or a general type of place.</li>
+            <li>Talk to the agent to convey to them the destination you have in mind.</li>
+            <li>Ask questions about the destination until you are satisfied that the agent is taking you to the right place. The agent may take a few seconds to reply.</li>
+            <li>When the agent ends a dialog, you will see a map showing the destination. Select whether the destination was correct or not.</li>
+            <li>The conversation will clear, and a new one will start. Continue until you have finished 5 dialogs with 5 different destinations.</li>
+            <li>IMPORTANT: Come back to this page and submit the task.</li>
+        </ol>
+        <ul>
+            <li>Do not modify anything else in the settings panel (language, input method)</li>
+        </ul>
+        <strong>Example: </strong>
+        <img style="width:800px; display: block" src="https://imgur.com/3C864RX.png"/>
+        <div>
+            <div>
+                <p><strong>Link to the website (opens in new tab):</strong></p>
+
+                <!-- Your website URLs will be substituted for the "url" variable when you publish 
+                       a batch with an input file containing multiple website URLs -->
+                <a href="http://35.212.195.67/user" target="_blank">http://35.212.195.67/user</a>
+            </div>
+        </div>
+    </div>
+</crowd-form>

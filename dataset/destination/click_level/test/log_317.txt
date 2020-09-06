@@ -1,0 +1,59 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Let
+u1_1 = 's
+u1_2 = go
+u1_3 = to
+u1_4 = Snap
+u1_5 = headquarters
+u1_6 = .
+PREDICT: find_place
+PREDICT: Snap headquarters
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Snap Inc.
+v1_address = 2772 Donald Douglas Loop N, Santa Monica, CA 90405, United States
+v1_latitude = 34.0162966
+v1_longitude = -118.4534959
+v1_types_0 = Point of interest
+v1_types_1 = Establishment
+v1_rating = 3.8
+v1_is_open = True
+v1_address_simple = 2772 Donald Douglas Loop North, Santa Monica
+v1_street_number = 2772
+v1_street_name = Donald Douglas Loop North
+v1_neighborhood = Sunset Park
+v1_locality = Santa Monica
+v1_distance = 3.9 mi
+v1_duration = 16 mins
+PREDICT: Do you mean {}?
+PREDICT: Snap Inc.
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = exactly
+u2_3 = .
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Snap Inc.
+PREDICT: Donald Douglas Loop North
+PREDICT: wait_for_user
+u3_0 = They
+u3_1 = moved
+u3_2 = ,
+u3_3 = I
+u3_4 = know
+u3_5 = .
+u4_0 = I
+u4_1 = guess
+u4_2 = so
+u4_3 = .
+PREDICT: It is {} and {} away.
+PREDICT: 3.9 mi
+PREDICT: 16 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u5_0 = yes
+PREDICT: start_driving
+PREDICT: 34.0162966
+PREDICT: -118.4534959

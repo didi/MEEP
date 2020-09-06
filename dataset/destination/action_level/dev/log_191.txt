@@ -1,0 +1,35 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = 4th
+u1_6 = block
+u1_7 = shopping
+u1_8 = complex
+PREDICT: [ACTION] find_place [PARAM] 4th block shopping complex [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Jayanagar Shopping Complex
+v1_address = Jayanagar Shopping Complex, 9th Main Rd, Jaya Nagar 1st Block, 4th Block, Jayanagar, Bengaluru, Karnataka 560011, India
+v1_latitude = 12.9299108
+v1_longitude = 77.5843498
+v1_street_name = 9th Main Road
+v1_locality = Bengaluru
+v1_distance = 1.4 mi
+v1_duration = 9 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Jayanagar Shopping Complex [PARAM] 9th Main Road
+PREDICT: [ACTION] wait_for_user
+u2_0 = how
+u2_1 = far
+u2_2 = is
+u2_3 = it
+u2_4 = ?
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 1.4 mi [PARAM] 9 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = great
+u3_1 = lets
+u3_2 = go
+PREDICT: [ACTION] start_driving [PARAM] 12.9299108 [PARAM] 77.5843498
+PREDICT: [ACTION] start_driving [PARAM] 12.9299108 [PARAM] 77.5843498

@@ -1,0 +1,30 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = santa
+u1_1 = anita
+u1_2 = racetrack
+PREDICT: [ACTION] find_place [PARAM] santa anita racetrack [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Santa Anita Park
+v1_address = 285 W Huntington Dr, Arcadia, CA 91007, United States
+v1_latitude = 34.1380461
+v1_longitude = -118.0448898
+v1_price_level = 1
+v1_types_0 = tourist attraction
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.6
+v1_is_open = False
+v1_address_simple = 285 West Huntington Drive, Arcadia
+v1_street_number = 285
+v1_street_name = West Huntington Drive
+v1_locality = Arcadia
+v1_distance = 37.0 mi
+v1_duration = 53 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Santa Anita Park [PARAM] Arcadia
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 37.0 mi [PARAM] 53 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = great
+u2_1 = !
+PREDICT: [ACTION] start_driving [PARAM] 34.1380461 [PARAM] -118.0448898

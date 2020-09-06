@@ -1,0 +1,54 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hi
+u1_1 = i
+u1_2 = want
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = ernst
+u1_7 = &
+u1_8 = young
+PREDICT: [ACTION] find_place [PARAM] ernst & young [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 725 S Figueroa St #200, Los Angeles, CA 90017, United States
+v1_name = Ernst & Young
+v1_latitude = 34.0494257
+v1_longitude = -118.2607293
+v1_place_id = ChIJLbwuI7HHwoARhhe5DftG-ss
+v1_street_number = 725
+v1_street_name = South Figueroa Street
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 17.0 mi
+v1_duration = 30 mins
+PREDICT: [ACTION] {} on {}? [PARAM] Ernst & Young [PARAM] South Figueroa Street
+PREDICT: [ACTION] It is {} away. [PARAM] 30 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = does
+u2_1 = it
+u2_2 = locate
+u2_3 = in
+u2_4 = downtown
+u2_5 = LA
+u2_6 = ?
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+u3_4 = ?
+PREDICT: [ACTION] It is {} away. [PARAM] 17.0 mi
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = ok
+u4_1 = ,
+u4_2 = sound
+u4_3 = good
+u4_4 = ,
+u4_5 = let
+u4_6 = 's
+u4_7 = go
+u4_8 = now
+PREDICT: [ACTION] start_driving [PARAM] 34.0494257 [PARAM] -118.2607293

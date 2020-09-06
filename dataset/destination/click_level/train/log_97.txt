@@ -1,0 +1,37 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = trader
+u1_1 = joe
+u1_2 = 's
+PREDICT: find_place
+PREDICT: trader joe 's
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 4675 Admiralty Way, Marina Del Rey, CA 90292, United States
+v1_name = Trader Joe's
+v1_latitude = 33.9795712
+v1_longitude = -118.4415715
+v1_place_id = ChIJ-zVf6C-7woARkbu5eaoX2Bs
+v1_street_number = 4675
+v1_street_name = Admiralty Way
+v1_locality = Marina del Rey
+v1_distance = 0.3 mi
+v1_duration = 3 mins
+PREDICT: How about one on {}? It is {} away.
+PREDICT: Admiralty Way
+PREDICT: 3 mins
+PREDICT: wait_for_user
+u2_0 = admiralty
+u2_1 = and
+u2_2 = mindanao
+u2_3 = ?
+PREDICT: Yes.
+PREDICT: wait_for_user
+u3_0 = sure
+u3_1 = !
+PREDICT: Great, we are going to {}.
+PREDICT: Trader Joe's
+PREDICT: start_driving
+PREDICT: 33.9795712
+PREDICT: -118.4415715

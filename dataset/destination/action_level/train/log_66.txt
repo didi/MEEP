@@ -1,0 +1,189 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+PREDICT: [ACTION] Where are we going today ?
+PREDICT: [ACTION] wait_for_user
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = an
+u1_7 = LA
+u1_8 = Fitness
+u1_9 = gym
+u1_10 = .
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] LA Fitness gym [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 5570 Lincoln Blvd, Playa Vista, CA 90094, United States
+v1_name = LA Fitness
+v1_latitude = 33.9727964
+v1_longitude = -118.42991
+v1_place_id = ChIJ08bO34e6woARwPVQPGaQPlo
+v1_street_number = 5570
+v1_street_name = Lincoln Boulevard
+v1_neighborhood = Playa Vista
+v1_locality = Los Angeles
+v1_distance = 1.3 mi
+v1_duration = 6 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] LA Fitness [PARAM] Lincoln Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 6 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Actually
+u2_1 = ,
+u2_2 = is
+u2_3 = there
+u2_4 = one
+u2_5 = closer
+u2_6 = to
+u2_7 = Sawtelle
+u2_8 = ?
+u2_9 = I
+u2_10 = think
+u2_11 = it
+u2_12 = 's
+u2_13 = on
+u2_14 = Olympic
+u2_15 = .
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] LA Fitness Sawtelle Olympic [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = 1914 S Bundy Dr, Los Angeles, CA 90025, United States
+v2_name = LA Fitness
+v2_latitude = 34.0348269
+v2_longitude = -118.4560567
+v2_place_id = ChIJGSZtRhO7woAR3OAfz9Ub3_U
+v2_street_number = 1914
+v2_street_name = South Bundy Drive
+v2_neighborhood = West Los Angeles
+v2_locality = Los Angeles
+v2_distance = 7.9 mi
+v2_duration = 16 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] LA Fitness [PARAM] South Bundy Drive
+PREDICT: [ACTION] It is {} away. [PARAM] 16 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Hmmm
+u3_1 = ,
+u3_2 = that
+u3_3 = does
+u3_4 = n't
+u3_5 = sound
+u3_6 = right
+u3_7 = .
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] wait_for_user
+u4_0 = Is
+u4_1 = there
+u4_2 = one
+u4_3 = close
+u4_4 = to
+u4_5 = the
+u4_6 = Nijiya
+u4_7 = Market
+u4_8 = ,
+u4_9 = near
+u4_10 = Sawtelle
+u4_11 = ?
+PREDICT: [ACTION] find_place [PARAM] Nijiya Market Sawtelle [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_address = 2130 Sawtelle Blvd # 105, Los Angeles, CA 90025, United States
+v3_name = Nijiya Market
+v3_latitude = 34.0390757
+v3_longitude = -118.4414691
+v3_place_id = ChIJnZ7NM3W7woARFcg5m8vyxLA
+v3_street_number = 2130
+v3_street_name = Sawtelle Boulevard
+v3_neighborhood = West Los Angeles
+v3_locality = Los Angeles
+v3_distance = 7.2 mi
+v3_duration = 17 mins
+PREDICT: [ACTION] places_nearby [PARAM] LA Fitness [PARAM] 34.0390757 [PARAM] -118.4414691
+v4_0_name = LA Fitness
+v4_0_rating = 3.4
+v4_0_is_open = True
+v4_0_place_id = ChIJGSZtRhO7woAR3OAfz9Ub3_U
+v4_0_types = ['gym', 'spa', 'health', 'point_of_interest', 'establishment']
+v4_0_latitude = 34.0348269
+v4_0_longitude = -118.4560567
+v4_0_address = 1914 S Bundy Dr, Los Angeles, CA 90025, USA
+v4_0_street_number = 1914
+v4_0_street_name = South Bundy Drive
+v4_0_neighborhood = West Los Angeles
+v4_0_locality = Los Angeles
+v4_1_name = LA Fitness
+v4_1_rating = 3.5
+v4_1_is_open = True
+v4_1_place_id = ChIJIwA4-4G8woARKkrwmSTO8DU
+v4_1_types = ['gym', 'spa', 'health', 'point_of_interest', 'establishment']
+v4_1_latitude = 34.0590006
+v4_1_longitude = -118.4449171
+v4_1_address = 10921 Wilshire Blvd, Los Angeles, CA 90024, USA
+v4_1_street_number = 10921
+v4_1_street_name = Wilshire Boulevard
+v4_1_neighborhood = Westwood
+v4_1_locality = Los Angeles
+v4_2_name = LA Fitness
+v4_2_rating = 3.5
+v4_2_is_open = True
+v4_2_place_id = ChIJz6OYaTC6woAR4O50qPMlDDo
+v4_2_types = ['gym', 'spa', 'health', 'point_of_interest', 'establishment']
+v4_2_latitude = 34.0174078
+v4_2_longitude = -118.407091
+v4_2_address = 3827 Overland Ave, Culver City, CA 90232, USA
+v4_2_street_number = 3827
+v4_2_street_name = Overland Avenue
+v4_2_neighborhood = Washington Culver
+v4_2_locality = Culver City
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] South Bundy Drive [PARAM] Wilshire Boulevard [PARAM] Overland Avenue
+PREDICT: [ACTION] Is it one of those?
+PREDICT: [ACTION] wait_for_user
+u5_0 = Ah
+u5_1 = okay
+u5_2 = ,
+u5_3 = I
+u5_4 = must
+u5_5 = have
+u5_6 = mis-remembered
+u5_7 = the
+u5_8 = locations
+u5_9 = .
+u5_10 = Let
+u5_11 = 's
+u5_12 = go
+u5_13 = to
+u5_14 = the
+u5_15 = one
+u5_16 = on
+u5_17 = Wilshire
+u5_18 = ,
+u5_19 = it
+u5_20 = is
+u5_21 = near
+u5_22 = UCLA
+u5_23 = right
+u5_24 = ?
+PREDICT: [ACTION] Let me check that for you. 
+PREDICT: [ACTION] find_place [PARAM] UCLA [PARAM] 33.9816425 [PARAM] -118.4409761
+v5_address = Los Angeles, CA 90095, United States
+v5_name = University of California, Los Angeles
+v5_latitude = 34.068921
+v5_longitude = -118.4451811
+v5_place_id = ChIJZQ9c8IW8woARN0gTXFiTqSU
+v5_locality = Los Angeles
+v5_neighborhood = Westwood
+v5_distance = 9.9 mi
+v5_duration = 22 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 34.068921 [PARAM] -118.4451811 [PARAM] 34.0590006 [PARAM] -118.4449171
+v6_distance = 1.0 mi
+v6_duration = 6 mins
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u6_0 = Great
+u6_1 = ,
+u6_2 = let
+u6_3 = 's
+u6_4 = go
+u6_5 = !
+PREDICT: [ACTION] Going to {} in {}. [PARAM] LA Fitness [PARAM] Wilshire Boulevard
+PREDICT: [ACTION] start_driving [PARAM] 34.0590006 [PARAM] -118.4449171

@@ -1,0 +1,53 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = yy
+u1_1 = ;
+u2_0 = yyz
+PREDICT: find_place
+PREDICT: yyz
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v1_name = Toronto Pearson International Airport
+v1_address = 6301 Silver Dart Dr, Mississauga, ON L5P 1B2, Canada
+v1_rating = 3.6
+v1_is_open = True
+v1_latitude = 43.67771760000001
+v1_longitude = -79.6248197
+v1_street_number = 6301
+v1_street_name = Silver Dart Drive
+v1_locality = Mississauga
+v1_distance = 19.5 mi
+v1_duration = 39 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Toronto Pearson International Airport
+PREDICT: Silver Dart Drive
+PREDICT: wait_for_user
+u3_0 = yes
+u3_1 = please
+u4_0 = terminal
+u4_1 = 3
+PREDICT: find_place
+PREDICT: terminal 3
+PREDICT: 43.67771760000001
+PREDICT: -79.6248197
+v2_name = Pearson Airport Terminal 3
+v2_address = Mississauga, ON L4W 1S9, Canada
+v2_rating = 3.9
+v2_latitude = 43.6859708
+v2_longitude = -79.62022
+v2_locality = Mississauga
+v2_distance = 6.6 mi
+v2_duration = 17 mins
+PREDICT: {} is {} away.
+PREDICT: Pearson Airport Terminal 3
+PREDICT: 17 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u5_0 = let
+u5_1 = 's
+u5_2 = leave
+u5_3 = now
+PREDICT: start_driving
+PREDICT: 43.6859708
+PREDICT: -79.62022

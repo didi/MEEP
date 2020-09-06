@@ -1,0 +1,97 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Somewhere
+u1_1 = that
+u1_2 = can
+u1_3 = take
+u1_4 = my
+u1_5 = cat
+u1_6 = .
+u1_7 = I
+u1_8 = 'm
+u1_9 = going
+u1_10 = on
+u1_11 = a
+u1_12 = trip
+u1_13 = .
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: take cat trip
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: find_place
+PREDICT: take cat
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: find_place
+PREDICT: Somewhere take my cat trip
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: I can't find any places for your request, can you give me more information?
+PREDICT: places_nearby
+PREDICT: cat
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_0_name = T.H.E. Cat Hospital
+v4_0_rating = 4.7
+v4_0_is_open = True
+v4_0_types_0 = veterinary care
+v4_0_types_1 = point of interest
+v4_0_types_2 = store
+v4_0_types_3 = establishment
+v4_0_latitude = 33.980644
+v4_0_longitude = -118.437579
+v4_0_address_simple = 4716B Lincoln Boulevard, Marina del Rey
+v4_0_street_number = 4716B
+v4_0_street_name = Lincoln Boulevard
+v4_0_locality = Marina del Rey
+v4_0_distance = 0.3 mi
+v4_0_duration = 3 mins
+v4_1_name = CATS ALL THAT
+v4_1_rating = 0
+v4_1_types_0 = point of interest
+v4_1_types_1 = establishment
+v4_1_latitude = 33.9861894
+v4_1_longitude = -118.4403144
+v4_1_address_simple = 13428 Maxella Avenue, Marina del Rey
+v4_1_street_number = 13428
+v4_1_street_name = Maxella Avenue
+v4_1_locality = Marina del Rey
+v4_1_distance = 0.8 mi
+v4_1_duration = 7 mins
+v4_2_name = Bruno's Dog & Cat Boutique
+v4_2_rating = 4.9
+v4_2_is_open = True
+v4_2_types_0 = pet store
+v4_2_types_1 = point of interest
+v4_2_types_2 = store
+v4_2_types_3 = establishment
+v4_2_latitude = 33.9955898
+v4_2_longitude = -118.4554719
+v4_2_address_simple = 2012 Lincoln Boulevard, Venice
+v4_2_street_number = 2012
+v4_2_street_name = Lincoln Boulevard
+v4_2_neighborhood = Venice
+v4_2_locality = Los Angeles
+v4_2_distance = 1.4 mi
+v4_2_duration = 7 mins
+PREDICT: wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = ok
+u2_3 = .
+u3_0 = bye
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: T.H.E. Cat Hospital
+PREDICT: CATS ALL THAT
+PREDICT: Bruno's Dog & Cat Boutique
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u4_0 = Bruno
+u4_1 = 's
+PREDICT: Great, we are going to {}.
+PREDICT: Bruno's Dog & Cat Boutique
+PREDICT: start_driving
+PREDICT: 33.9955898
+PREDICT: -118.4554719

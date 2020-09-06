@@ -1,0 +1,77 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = griffith
+u1_1 = park
+PREDICT: find_place
+PREDICT: griffith park
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Griffith Park
+v1_address = 4730 Crystal Springs Dr, Los Angeles, CA 90027, United States
+v1_latitude = 34.13655440000001
+v1_longitude = -118.2942
+v1_types_0 = park
+v1_types_1 = tourist attraction
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 4730 Crystal Springs Drive, Los Angeles
+v1_street_number = 4730
+v1_street_name = Crystal Springs Drive
+v1_locality = Los Angeles
+v1_distance = 27.9 mi
+v1_duration = 42 mins
+PREDICT: {} is {} away.
+PREDICT: Griffith Park
+PREDICT: 27.9 mi
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = can
+u2_1 = we
+u2_2 = go
+u2_3 = to
+u2_4 = the
+u2_5 = merry
+u2_6 = go
+u2_7 = round
+u2_8 = entrance
+u2_9 = ?
+PREDICT: find_place
+PREDICT: merry go round entrance
+PREDICT: 34.13655440000001
+PREDICT: -118.2942
+v2_name = Griffith Park Merry-Go-Round
+v2_address = 4730 Crystal Springs Dr, Los Angeles, CA 90027, United States
+v2_latitude = 34.1326929
+v2_longitude = -118.2837747
+v2_types_0 = tourist attraction
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 4.6
+v2_is_open = False
+v2_address_simple = 4730 Crystal Springs Drive, Los Angeles
+v2_street_number = 4730
+v2_street_name = Crystal Springs Drive
+v2_locality = Los Angeles
+v2_distance = 1.9 mi
+v2_duration = 7 mins
+PREDICT: distance_matrix
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: 34.1326929
+PREDICT: -118.2837747
+v3_distance = 25.1 mi
+v3_duration = 41 mins
+PREDICT: {} is {} away from {}.
+PREDICT: Griffith Park Merry-Go-Round
+PREDICT: 25.1 mi
+PREDICT: 4640 Admiralty Way, Marina del Rey
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = please
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 34.1326929
+PREDICT: -118.2837747

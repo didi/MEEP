@@ -1,0 +1,104 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = really
+u1_8 = touristy
+u1_9 = sourdough
+u1_10 = bakery
+PREDICT: [ACTION] find_place [PARAM] touristy sourdough bakery [PARAM] 37.760 [PARAM] -122.429
+v1_name = Boudin Bakery Cafe
+v1_address = Baker's Hall, 160 Jefferson St, San Francisco, CA 94133, United States
+v1_latitude = 37.808507
+v1_longitude = -122.4149153
+v1_price_level = 2
+v1_types_0 = bakery
+v1_types_1 = cafe
+v1_types_2 = restaurant
+v1_types_3 = food
+v1_types_4 = point of interest
+v1_types_5 = store
+v1_types_6 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = Baker's Hall, 160 Jefferson Street, San Francisco
+v1_establishment = Baker's Hall
+v1_street_number = 160
+v1_street_name = Jefferson Street
+v1_neighborhood = North Beach
+v1_locality = San Francisco
+v1_distance = 4.1 mi
+v1_duration = 24 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Boudin Bakery Cafe
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = but
+u2_2 = there
+u2_3 = are
+u2_4 = a
+u2_5 = few
+u2_6 = I
+u2_7 = think
+u2_8 = ,
+u2_9 = can
+u2_10 = we
+u2_11 = go
+u2_12 = to
+u2_13 = the
+u2_14 = one
+u2_15 = near
+u2_16 = Fisherman
+u2_17 = 's
+u2_18 = Wharf
+u2_19 = ?
+PREDICT: [ACTION] find_place [PARAM] Fisherman 's Wharf [PARAM] 37.760 [PARAM] -122.429
+v2_name = Fisherman's Wharf
+v2_address = Fisherman's Wharf, San Francisco, CA, USA
+v2_latitude = 37.8079996
+v2_longitude = -122.4177434
+v2_types_0 = neighborhood
+v2_types_1 = political
+v2_address_simple = San Francisco
+v2_neighborhood = Fisherman's Wharf
+v2_locality = San Francisco
+v2_distance = 4.0 mi
+v2_duration = 24 mins
+PREDICT: [ACTION] find_place [PARAM] Boudin Bakery Cafe [PARAM] 37.8079996 [PARAM] -122.4177434
+v3_name = Boudin Bakery Cafe
+v3_address = Baker's Hall, 160 Jefferson St, San Francisco, CA 94133, United States
+v3_latitude = 37.808507
+v3_longitude = -122.4149153
+v3_price_level = 2
+v3_types_0 = bakery
+v3_types_1 = cafe
+v3_types_2 = restaurant
+v3_types_3 = food
+v3_types_4 = point of interest
+v3_types_5 = store
+v3_types_6 = establishment
+v3_rating = 4.4
+v3_is_open = True
+v3_address_simple = Baker's Hall, 160 Jefferson Street, San Francisco
+v3_establishment = Baker's Hall
+v3_street_number = 160
+v3_street_name = Jefferson Street
+v3_neighborhood = North Beach
+v3_locality = San Francisco
+v3_distance = 0.2 mi
+v3_duration = 2 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Boudin Bakery Cafe [PARAM] 0.2 mi [PARAM] Fisherman's Wharf
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 37.808507 [PARAM] -122.4149153

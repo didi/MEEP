@@ -1,0 +1,78 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = play
+u1_4 = golf
+PREDICT: [ACTION] places_nearby [PARAM] golf [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = WEST REY GOLF CLUB
+v1_0_rating = 0
+v1_0_place_id = ChIJJf2WmGawwoARaIiWMAPFHcI
+v1_0_types = ['point_of_interest', 'establishment']
+v1_0_latitude = 33.9603238
+v1_0_longitude = -118.4470342
+v1_0_address = 327 Culver Blvd Unit # 2, Playa Del Rey, CA 90293, USA
+v1_0_street_number = 327
+v1_0_street_name = Culver Boulevard
+v1_0_neighborhood = Playa del Rey
+v1_0_locality = Los Angeles
+v1_1_name = Penmar Golf Course
+v1_1_rating = 4.2
+v1_1_is_open = True
+v1_1_place_id = ChIJK1R9Cee6woARmyCQbQRwzYo
+v1_1_types = ['point_of_interest', 'establishment']
+v1_1_latitude = 34.0064241
+v1_1_longitude = -118.4591831
+v1_1_address = 1233 Rose Ave, Venice, CA 90291, USA
+v1_1_street_number = 1233
+v1_1_street_name = Rose Avenue
+v1_1_neighborhood = Venice
+v1_1_locality = Los Angeles
+v1_2_name = Municipal Golf Association at Los Angeles City
+v1_2_rating = 0
+v1_2_place_id = ChIJ8d5L9ua6woARM-4YQUa5kTU
+v1_2_types = ['point_of_interest', 'establishment']
+v1_2_latitude = 34.0064241
+v1_2_longitude = -118.4591831
+v1_2_address = 1233 Rose Ave, Venice, CA 90292, USA
+v1_2_street_number = 1233
+v1_2_street_name = Rose Avenue
+v1_2_neighborhood = Venice
+v1_2_locality = Los Angeles
+u2_0 = any
+u2_1 = recommendation
+u2_2 = place
+u2_3 = ?
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] WEST REY GOLF CLUB [PARAM] Penmar Golf Course [PARAM] Municipal Golf Association at Los Angeles City
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u3_0 = which
+u3_1 = has
+u3_2 = the
+u3_3 = best
+u3_4 = rating
+u3_5 = ?
+PREDICT: [ACTION] {}. [PARAM] Penmar Golf Course
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.2
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = how
+u4_1 = far
+u4_2 = is
+u4_3 = it
+u4_4 = ?
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 34.0064241 [PARAM] -118.4591831
+v2_distance = 2.4 mi
+v2_duration = 11 mins
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 2.4 mi [PARAM] 11 mins
+PREDICT: [ACTION] wait_for_user
+u5_0 = sounds
+u5_1 = good
+u5_2 = ,
+u5_3 = let
+u5_4 = 's
+u5_5 = go
+u5_6 = now
+PREDICT: [ACTION] start_driving [PARAM] 34.0064241 [PARAM] -118.4591831

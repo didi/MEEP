@@ -1,0 +1,142 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hi
+u1_1 = ,
+u1_2 = i
+u1_3 = want
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = whole
+u1_8 = foods
+PREDICT: find_place
+PREDICT: whole foods
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Whole Foods Market
+v1_address = 12746 W Jefferson Blvd, Playa Vista, CA 90094, United States
+v1_latitude = 33.9767818
+v1_longitude = -118.4180924
+v1_price_level = 3
+v1_types_0 = Grocery or supermarket
+v1_types_1 = Supermarket
+v1_types_2 = Food
+v1_types_3 = Health
+v1_types_4 = Point of interest
+v1_types_5 = Store
+v1_types_6 = Establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 12746 West Jefferson Boulevard, Playa Vista
+v1_street_number = 12746
+v1_street_name = West Jefferson Boulevard
+v1_neighborhood = Playa Vista
+v1_locality = Los Angeles
+v1_distance = 1.7 mi
+v1_duration = 6 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Whole Foods Market
+PREDICT: West Jefferson Boulevard
+PREDICT: It is {} and {} away.
+PREDICT: 1.7 mi
+PREDICT: 6 mins
+PREDICT: wait_for_user
+u2_0 = no
+u2_1 = ,
+u2_2 = i
+u2_3 = want
+u2_4 = the
+u2_5 = one
+u2_6 = on
+u2_7 = lincoln
+u2_8 = and
+u2_9 = rose
+PREDICT: find_place
+PREDICT: lincoln and rose
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Lincoln SB & Rose FS
+v2_address = Los Angeles, CA 90291, United States
+v2_latitude = 34.001139
+v2_longitude = -118.467519
+v2_types_0 = Transit station
+v2_types_1 = Point of interest
+v2_types_2 = Establishment
+v2_rating = 5
+v2_address_simple = United States
+v2_neighborhood = Oakwood
+v2_locality = Los Angeles
+v2_distance = 2.2 mi
+v2_duration = 10 mins
+PREDICT: find_place
+PREDICT: whole foods
+PREDICT: 34.001139
+PREDICT: -118.467519
+v3_name = Whole Foods Market
+v3_address = 225 Lincoln Blvd, Venice, CA 90291, United States
+v3_latitude = 34.0011613
+v3_longitude = -118.4698813
+v3_price_level = 3
+v3_types_0 = Grocery or supermarket
+v3_types_1 = Supermarket
+v3_types_2 = Food
+v3_types_3 = Health
+v3_types_4 = Point of interest
+v3_types_5 = Store
+v3_types_6 = Establishment
+v3_rating = 4.4
+v3_is_open = True
+v3_address_simple = 225 Lincoln Boulevard, Venice
+v3_street_number = 225
+v3_street_name = Lincoln Boulevard
+v3_neighborhood = Venice
+v3_locality = Los Angeles
+v3_distance = 0.1 mi
+v3_duration = 1 min
+PREDICT: distance_matrix
+PREDICT: 34.0011613
+PREDICT: -118.4698813
+PREDICT: 34.001139
+PREDICT: -118.467519
+v4_distance = 0.2 mi
+v4_duration = 1 min
+PREDICT: There is a {} in {}.
+PREDICT: Whole Foods Market
+PREDICT: Venice
+PREDICT: It is on {}.
+PREDICT: Lincoln Boulevard
+PREDICT: It is {} and {} away.
+PREDICT: 0.1 mi
+PREDICT: 1 min
+PREDICT: wait_for_user
+u3_0 = i
+u3_1 = do
+u3_2 = n't
+u3_3 = think
+u3_4 = it
+u3_5 = 's
+u3_6 = 1
+u3_7 = minute
+u3_8 = away
+PREDICT: The address is {}.
+PREDICT: 225 Lincoln Blvd, Venice, CA 90291, United States
+PREDICT: {} is {} away from {}.
+PREDICT: 225 Lincoln Blvd, Venice, CA 90291, United States
+PREDICT: 1 min
+PREDICT: Lincoln SB & Rose FS
+PREDICT: wait_for_user
+u4_0 = yes
+u4_1 = ,
+u4_2 = it
+u4_3 = 's
+u4_4 = right
+u4_5 = on
+u4_6 = the
+u4_7 = corner
+u4_8 = .
+u4_9 = thanks
+u4_10 = .
+PREDICT: start_driving
+PREDICT: 34.0011613
+PREDICT: -118.4698813

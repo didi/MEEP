@@ -1,0 +1,50 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = Hi
+u1_1 = I
+u1_2 = 'd
+u1_3 = like
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = York
+PREDICT: [ACTION] find_place [PARAM] York [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = York University
+v1_address = 4700 Keele St, Toronto, ON M3J 1P3, Canada
+v1_rating = 3.7
+v1_latitude = 43.7734535
+v1_longitude = -79.50186839999999
+v1_street_number = 4700
+v1_street_name = Keele Street
+v1_locality = Toronto
+v1_distance = 11.4 mi
+v1_duration = 35 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] York University
+PREDICT: [ACTION] wait_for_user
+u2_0 = oops
+u2_1 = I
+u2_2 = meant
+u2_3 = fort
+u2_4 = york
+PREDICT: [ACTION] find_place [PARAM] fort york [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v2_name = Fort York National Historic Site
+v2_address = 250 Fort York Blvd, Toronto, ON M5V 3K9, Canada
+v2_rating = 4.5
+v2_is_open = False
+v2_latitude = 43.6374082
+v2_longitude = -79.4066461
+v2_street_number = 250
+v2_street_name = Fort York Boulevard
+v2_locality = Toronto
+v2_distance = 2.7 mi
+v2_duration = 15 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Fort York National Historic Site [PARAM] Fort York Boulevard
+PREDICT: [ACTION] wait_for_user
+u3_0 = yup
+u3_1 = thanks
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+u4_1 = please
+PREDICT: [ACTION] start_driving [PARAM] 43.6374082 [PARAM] -79.4066461

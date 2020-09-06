@@ -1,0 +1,33 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Scarborough
+u1_8 = Bluffs
+PREDICT: find_place
+PREDICT: Scarborough Bluffs
+PREDICT: 43.657
+PREDICT: -79.401
+v1_name = Scarborough Bluffs Park
+v1_address = Scarborough Bluffs Park, Scarborough, ON M1M 3W3, Canada
+v1_latitude = 43.7060208
+v1_longitude = -79.2316341
+v1_locality = Toronto
+v1_distance = 12.8 mi
+v1_duration = 40 mins
+PREDICT: Do you mean {}?
+PREDICT: Scarborough Bluffs Park
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = yes
+PREDICT: start_driving
+PREDICT: 43.7060208
+PREDICT: -79.2316341

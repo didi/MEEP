@@ -1,0 +1,83 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+PREDICT: [ACTION] Please let me know where you would like to go now. 
+PREDICT: [ACTION] wait_for_user
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = natural
+u1_7 = history
+u1_8 = museum
+u1_9 = .
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] natural history museum [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 900 W Exposition Blvd, Los Angeles, CA 90007, United States
+v1_name = Natural History Museum of Los Angeles County (NHM)
+v1_latitude = 34.0169567
+v1_longitude = -118.2887703
+v1_place_id = ChIJXzARBf3HwoARJyT7uZSV-G4
+v1_street_number = 900
+v1_street_name = West Exposition Boulevard
+v1_neighborhood = South Los Angeles
+v1_locality = Los Angeles
+v1_distance = 10.3 mi
+v1_duration = 29 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Natural History Museum of Los Angeles County (NHM)
+PREDICT: [ACTION] It is {} away. [PARAM] 29 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = actually
+u2_3 = kind
+u2_4 = of
+u2_5 = far
+u2_6 = ,
+u2_7 = can
+u2_8 = you
+u2_9 = check
+u2_10 = how
+u2_11 = far
+u2_12 = we
+u2_13 = are
+u2_14 = from
+u2_15 = LACMA
+u2_16 = instead
+u2_17 = ?
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] LACMA [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = 5905 Wilshire Blvd, Los Angeles, CA 90036, United States
+v2_name = Los Angeles County Museum of Art
+v2_latitude = 34.0639323
+v2_longitude = -118.3592293
+v2_place_id = ChIJsXqcyjy5woARNz6sOh0ZmwA
+v2_street_number = 5905
+v2_street_name = Wilshire Boulevard
+v2_neighborhood = Central LA
+v2_locality = Los Angeles
+v2_distance = 12.3 mi
+v2_duration = 27 mins
+PREDICT: [ACTION] {} is at {}. [PARAM] Los Angeles County Museum of Art [PARAM] Wilshire Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 27 mins
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u3_0 = Wow
+u3_1 = they
+u3_2 = are
+u3_3 = both
+u3_4 = far
+u3_5 = ,
+u3_6 = let
+u3_7 = 's
+u3_8 = go
+u3_9 = to
+u3_10 = the
+u3_11 = natural
+u3_12 = history
+u3_13 = museum
+u3_14 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Natural History Museum of Los Angeles County (NHM)
+PREDICT: [ACTION] start_driving [PARAM] 34.0169567 [PARAM] -118.2887703

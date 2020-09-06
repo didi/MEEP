@@ -1,0 +1,56 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = library
+u1_8 = in
+u1_9 = Georgetown
+u1_10 = .
+PREDICT: find_place
+PREDICT: library Georgetown
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v1_name = Georgetown University Library
+v1_address = 3700 O St NW, Washington, DC 20057, United States
+v1_latitude = 38.9064828
+v1_longitude = -77.07219409999999
+v1_types_0 = library
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = 3700 O Street Northwest, Washington
+v1_street_number = 3700
+v1_street_name = O Street Northwest
+v1_neighborhood = Northwest Washington
+v1_locality = Washington
+v1_distance = 4.4 mi
+v1_duration = 20 mins
+PREDICT: I found {} in {}.
+PREDICT: Georgetown University Library
+PREDICT: Northwest Washington
+PREDICT: It is {} away.
+PREDICT: 20 mins
+PREDICT: wait_for_user
+u2_0 = Is
+u2_1 = it
+u2_2 = open
+u2_3 = now
+u2_4 = ?
+PREDICT: Yes.
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = Yes
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go1
+PREDICT: start_driving
+PREDICT: 38.9064828
+PREDICT: -77.07219409999999

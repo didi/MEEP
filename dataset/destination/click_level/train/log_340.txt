@@ -1,0 +1,142 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = hotel
+u1_7 = in
+u1_8 = Hermosa
+u1_9 = Beach
+u1_10 = .
+u1_11 = Something
+u1_12 = nice
+u1_13 = .
+PREDICT: places_nearby
+PREDICT: hotel in Hermosa Beach
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Embassy Suites by Hilton Los Angeles International Airport South
+v1_0_rating = 4.2
+v1_0_is_open = True
+v1_0_types_0 = lodging
+v1_0_types_1 = point of interest
+v1_0_types_2 = establishment
+v1_0_latitude = 33.9305155
+v1_0_longitude = -118.4007083
+v1_0_address_simple = 1440 East Imperial Avenue, El Segundo
+v1_0_street_number = 1440
+v1_0_street_name = East Imperial Avenue
+v1_0_locality = El Segundo
+v1_0_distance = 5.6 mi
+v1_0_duration = 14 mins
+v1_1_name = AC Hotel by Marriott Los Angeles South Bay
+v1_1_rating = 4.6
+v1_1_is_open = True
+v1_1_types_0 = lodging
+v1_1_types_1 = point of interest
+v1_1_types_2 = establishment
+v1_1_latitude = 33.92665
+v1_1_longitude = -118.386406
+v1_1_address_simple = 2130 East Maple Avenue, El Segundo
+v1_1_street_number = 2130
+v1_1_street_name = East Maple Avenue
+v1_1_locality = El Segundo
+v1_1_distance = 5.8 mi
+v1_1_duration = 15 mins
+v1_2_name = The Belamar Hotel
+v1_2_rating = 4.3
+v1_2_is_open = True
+v1_2_types_0 = lodging
+v1_2_types_1 = point of interest
+v1_2_types_2 = establishment
+v1_2_latitude = 33.9006264
+v1_2_longitude = -118.3967649
+v1_2_address_simple = 3501 North Sepulveda Boulevard, Manhattan Beach
+v1_2_street_number = 3501
+v1_2_street_name = North Sepulveda Boulevard
+v1_2_locality = Manhattan Beach
+v1_2_distance = 7.2 mi
+v1_2_duration = 19 mins
+PREDICT: find_place
+PREDICT: Hermosa Beach
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Hermosa Beach
+v2_address = Hermosa Beach, CA 90254, USA
+v2_latitude = 33.8622366
+v2_longitude = -118.3995194
+v2_types_0 = locality
+v2_types_1 = political
+v2_address_simple = Hermosa Beach
+v2_locality = Hermosa Beach
+v2_distance = 10.3 mi
+v2_duration = 29 mins
+PREDICT: places_nearby
+PREDICT: hotel
+PREDICT: 33.8622366
+PREDICT: -118.3995194
+v3_0_name = Surf City Hostel
+v3_0_rating = 4.2
+v3_0_is_open = True
+v3_0_types_0 = lodging
+v3_0_types_1 = point of interest
+v3_0_types_2 = establishment
+v3_0_latitude = 33.8617666
+v3_0_longitude = -118.4011188
+v3_0_address_simple = 26 Pier Avenue, Hermosa Beach
+v3_0_street_number = 26
+v3_0_street_name = Pier Avenue
+v3_0_locality = Hermosa Beach
+v3_0_distance = 0.2 mi
+v3_0_duration = 3 mins
+v3_1_name = Beach House
+v3_1_rating = 4.6
+v3_1_types_0 = lodging
+v3_1_types_1 = point of interest
+v3_1_types_2 = establishment
+v3_1_latitude = 33.8631576
+v3_1_longitude = -118.4019451
+v3_1_address_simple = 1300 The Strand, Hermosa Beach
+v3_1_street_number = 1300
+v3_1_street_name = The Strand
+v3_1_locality = Hermosa Beach
+v3_1_distance = 0.3 mi
+v3_1_duration = 3 mins
+v3_2_name = Hotel Hermosa
+v3_2_rating = 4.3
+v3_2_is_open = True
+v3_2_types_0 = lodging
+v3_2_types_1 = point of interest
+v3_2_types_2 = establishment
+v3_2_latitude = 33.8724164
+v3_2_longitude = -118.3956692
+v3_2_address_simple = 2515 Pacific Coast Highway, Hermosa Beach
+v3_2_street_number = 2515
+v3_2_street_name = Pacific Coast Highway
+v3_2_locality = Hermosa Beach
+v3_2_distance = 1.4 mi
+v3_2_duration = 6 mins
+PREDICT: places_nearby
+PREDICT: nice hotel
+PREDICT: 33.8622366
+PREDICT: -118.3995194
+PREDICT: I found two places: {} and {}.
+PREDICT: Beach House
+PREDICT: Hotel Hermosa
+PREDICT: Their ratings are {} and {} respectively.
+PREDICT: 4.6
+PREDICT: 4.3
+PREDICT: wait_for_user
+u2_0 = To
+u2_1 = the
+u2_2 = Beach
+u2_3 = House
+u2_4 = ,
+u2_5 = then
+PREDICT: start_driving
+PREDICT: 33.8631576
+PREDICT: -118.4019451

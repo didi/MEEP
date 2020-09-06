@@ -1,0 +1,143 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = the
+u1_6 = boxing
+u1_7 = match
+u1_8 = ,
+u1_9 = it
+u1_10 = 's
+u1_11 = at
+u1_12 = a
+u1_13 = large
+u1_14 = venue
+u1_15 = ,
+u1_16 = not
+u1_17 = Staples
+u1_18 = Center
+u1_19 = .
+u2_0 = Actually
+u2_1 = before
+u2_2 = that
+u2_3 = ,
+u2_4 = I
+u2_5 = 'd
+u2_6 = like
+u2_7 = to
+u2_8 = get
+u2_9 = a
+u2_10 = haircut
+u2_11 = nearby
+PREDICT: [ACTION] find_place [PARAM] haircut [PARAM] 38.93199660000001 [PARAM] -77.0373439
+PREDICT: [ACTION] places_nearby [PARAM] haircut [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v2_0_name = Melissa Hair Salon Unisex
+v2_0_rating = 4.6
+v2_0_is_open = False
+v2_0_types_0 = hair care
+v2_0_types_1 = point of interest
+v2_0_types_2 = establishment
+v2_0_latitude = 38.930945
+v2_0_longitude = -77.03800989999999
+v2_0_address_simple = 3171 Mount Pleasant Street Northwest, Washington
+v2_0_street_number = 3171
+v2_0_street_name = Mount Pleasant Street Northwest
+v2_0_neighborhood = Northwest Washington
+v2_0_locality = Washington
+v2_0_distance = 0.2 mi
+v2_0_duration = 1 min
+v2_1_name = Alex's Unisex Hair Salon
+v2_1_rating = 4.3
+v2_1_is_open = True
+v2_1_types_0 = hair care
+v2_1_types_1 = health
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 38.9306913
+v2_1_longitude = -77.0379383
+v2_1_address_simple = 3163 Mount Pleasant Street Northwest, Washington
+v2_1_street_number = 3163
+v2_1_street_name = Mount Pleasant Street Northwest
+v2_1_neighborhood = Northwest Washington
+v2_1_locality = Washington
+v2_1_distance = 0.2 mi
+v2_1_duration = 2 mins
+v2_2_name = DMC Beauty Salon/Barber Shop
+v2_2_rating = 5
+v2_2_is_open = True
+v2_2_types_0 = beauty salon
+v2_2_types_1 = hair care
+v2_2_types_2 = point of interest
+v2_2_types_3 = establishment
+v2_2_latitude = 38.9307912
+v2_2_longitude = -77.0344755
+v2_2_address_simple = 1456 Park Road Northwest, Washington
+v2_2_street_number = 1456
+v2_2_street_name = Park Road Northwest
+v2_2_neighborhood = Northwest Washington
+v2_2_locality = Washington
+v2_2_distance = 0.7 mi
+v2_2_duration = 6 mins
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Melissa Hair Salon Unisex [PARAM] Alex's Unisex Hair Salon [PARAM] DMC Beauty Salon/Barber Shop
+PREDICT: [ACTION] They are all in {} [PARAM] Northwest Washington
+PREDICT: [ACTION] {} is closest. [PARAM] Melissa Hair Salon Unisex
+PREDICT: [ACTION] {} is {} away. [PARAM] Alex's Unisex Hair Salon [PARAM] 2 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Sure
+u3_1 = ,
+u3_2 = do
+u3_3 = you
+u3_4 = have
+u3_5 = any
+u3_6 = idea
+u3_7 = the
+u3_8 = price
+u3_9 = range
+u3_10 = ?
+u3_11 = I
+u3_12 = want
+u3_13 = something
+u3_14 = inexpensive
+u3_15 = ,
+u3_16 = and
+u3_17 = open
+u3_18 = now
+u3_19 = .
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] {} on {} is open. [PARAM] Alex's Unisex Hair Salon [PARAM] Mount Pleasant Street Northwest
+PREDICT: [ACTION] wait_for_user
+u4_0 = Do
+u4_1 = you
+u4_2 = know
+u4_3 = how
+u4_4 = many
+u4_5 = dollar
+u4_6 = signs
+u4_7 = it
+u4_8 = is
+u4_9 = ?
+PREDICT: [ACTION] I am sorry I am unable to find that information
+PREDICT: [ACTION] wait_for_user
+u5_0 = That
+u5_1 = 's
+u5_2 = okay
+u5_3 = ,
+u5_4 = it
+u5_5 = 's
+u5_6 = close
+u5_7 = enough
+u5_8 = ,
+u5_9 = let
+u5_10 = 's
+u5_11 = go
+u5_12 = to
+u5_13 = Alex
+u5_14 = 's
+u5_15 = .
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 38.9306913 [PARAM] -77.0379383

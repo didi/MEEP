@@ -1,0 +1,93 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Is
+u1_1 = the
+u1_2 = Hearst
+u1_3 = Castle
+u1_4 = far
+u1_5 = ?
+PREDICT: [ACTION] find_place [PARAM] Hearst Castle [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Hearst Castle
+v1_address = 750 Hearst Castle Rd, San Simeon, CA 93452, United States
+v1_latitude = 35.6852076
+v1_longitude = -121.1682251
+v1_types_0 = tourist attraction
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.6
+v1_is_open = False
+v1_address_simple = 750 Hearst Castle Road, San Simeon
+v1_street_number = 750
+v1_street_name = Hearst Castle Road
+v1_locality = San Simeon
+v1_distance = 235 mi
+v1_duration = 4 hours 9 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Hearst Castle [PARAM] 4 hours 9 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = ok
+u2_1 = ,
+u2_2 = no
+u2_3 = way
+PREDICT: [ACTION] Is there anything else you want me to look up?
+PREDICT: [ACTION] wait_for_user
+u3_0 = is
+u3_1 = there
+u3_2 = any
+u3_3 = cool
+u3_4 = architecture
+u3_5 = to
+u3_6 = see
+u3_7 = in
+u3_8 = LA
+u3_9 = ?
+PREDICT: [ACTION] find_place [PARAM] cool architecture [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Martin Fenlon Architecture
+v2_address = 5526 Monterey Rd, Los Angeles, CA 90042, United States
+v2_latitude = 34.1020082
+v2_longitude = -118.1864334
+v2_types_0 = point of interest
+v2_types_1 = establishment
+v2_rating = 5
+v2_address_simple = 5526 Monterey Road, Los Angeles
+v2_street_number = 5526
+v2_street_name = Monterey Road
+v2_neighborhood = Northeast Los Angeles
+v2_locality = Los Angeles
+v2_distance = 23.0 mi
+v2_duration = 36 mins
+PREDICT: [ACTION] places_nearby [PARAM] cool architecture [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] Can you be more specific?
+PREDICT: [ACTION] wait_for_user
+u4_0 = like
+u4_1 = bulidings
+PREDICT: [ACTION] find_place [PARAM] cool architecture bulidings [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = The Broad
+v4_address = 221 S Grand Ave, Los Angeles, CA 90012, United States
+v4_latitude = 34.0541572
+v4_longitude = -118.2505099
+v4_types_0 = art gallery
+v4_types_1 = tourist attraction
+v4_types_2 = museum
+v4_types_3 = point of interest
+v4_types_4 = establishment
+v4_rating = 4.6
+v4_is_open = True
+v4_address_simple = 221 South Grand Avenue, Los Angeles
+v4_street_number = 221
+v4_street_name = South Grand Avenue
+v4_neighborhood = Downtown Los Angeles
+v4_locality = Los Angeles
+v4_distance = 17.9 mi
+v4_duration = 30 mins
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] tourist attraction [PARAM] The Broad [PARAM] South Grand Avenue [PARAM] Downtown Los Angeles
+PREDICT: [ACTION] wait_for_user
+u5_0 = ok
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = try
+u5_5 = it
+u5_6 = .
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 30 mins
+PREDICT: [ACTION] start_driving [PARAM] 34.0541572 [PARAM] -118.2505099

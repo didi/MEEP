@@ -1,0 +1,73 @@
+.messageWrapper {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.message {
+    font-size: 20px;
+    padding: 10px 12px;
+    max-width: 65%;
+    white-space: pre-line;
+}
+
+.me {
+    background-color: lightblue;
+    border-radius: 10px;
+    border-radius: 10px 10px 0 10px;
+    float: right;
+}
+
+.queue {
+    background-color: lightgray;
+    border-radius: 10px;
+    border-radius: 10px 10px 0 10px;
+    float: right;
+}
+
+.them {
+    background-color: lightgreen;
+    border-radius: 10px 10px 10px 0;
+    float: left;
+}
+
+.system {
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin: 0 15% 4px 15%;
+    max-width: unset;
+}
+
+.dropdown1 {
+    font-size: 16px;
+    background-color: thistle;
+    border-radius: 1px 1px 1px 0;
+    float: left;
+    margin-left: 20px;
+}
+
+.dropdown2 {
+    font-size: 16px;
+    background-color: beige;
+    border-radius: 1px 1px 1px 0;
+    float: left;
+    margin-left: 40px;
+}
+
+.dropdown3 {
+    font-size: 16px;
+    background-color: thistle;
+    border-radius: 1px 1px 1px 0;
+    float: right;
+    margin-right: 0px;
+}
+
+.dropdown4 {
+    font-size: 16px;
+    background-color: beige;
+    border-radius: 1px 1px 1px 0;
+    float: right;
+    margin-right: 0px;
+}

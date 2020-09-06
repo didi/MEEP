@@ -1,0 +1,66 @@
+source_address = Marina Del Rey, CA 90292, USA
+source_latitude = 33.9802893
+source_longitude = -118.4517449
+u1_0 = how
+u1_1 = long
+u1_2 = would
+u1_3 = it
+u1_4 = take
+u1_5 = to
+u1_6 = get
+u1_7 = to
+u1_8 = the
+u1_9 = golden
+u1_10 = gate
+u1_11 = bakery
+PREDICT: [ACTION] find_place [PARAM] golden gate bakery [PARAM] 33.9802893 [PARAM] -118.4517449
+v1_name = Golden Gate Bakery
+v1_address = 1029 Grant Ave, San Francisco, CA 94133, United States
+v1_price_level = 1
+v1_rating = 4.2
+v1_is_open = True
+v1_latitude = 37.7964182
+v1_longitude = -122.4068852
+v1_street_number = 1029
+v1_street_name = Grant Avenue
+v1_neighborhood = Chinatown
+v1_locality = San Francisco
+v1_distance = 385 mi
+v1_duration = 6 hours 6 mins
+PREDICT: [ACTION] {} in {}? [PARAM] Golden Gate Bakery [PARAM] San Francisco
+PREDICT: [ACTION] It is {} away. [PARAM] 6 hours 6 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = is
+u2_1 = that
+u2_2 = with
+u2_3 = traffic
+u2_4 = ?
+u3_0 = is
+u3_1 = that
+u3_2 = with
+u3_3 = traffic
+u3_4 = ?
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u4_0 = ok.
+u4_1 = thanks
+u4_2 = .
+u4_3 = I
+u4_4 = was
+u4_5 = just
+u4_6 = curious
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = no
+u5_1 = ,
+u5_2 = I
+u5_3 = was
+u5_4 = just
+u5_5 = curious
+u5_6 = .
+u5_7 = thanks
+u5_8 = for
+u5_9 = the
+u5_10 = info
+u5_11 = .
+PREDICT: [ACTION] start_driving [PARAM] 37.7964182 [PARAM] -122.4068852

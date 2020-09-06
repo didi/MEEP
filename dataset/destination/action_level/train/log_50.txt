@@ -1,0 +1,41 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = LACMA
+u1_7 = .
+PREDICT: [ACTION] find_place [PARAM] LACMA [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 5905 Wilshire Blvd, Los Angeles, CA 90036, United States
+v1_name = Los Angeles County Museum of Art
+v1_latitude = 34.0639323
+v1_longitude = -118.3592293
+v1_place_id = ChIJsXqcyjy5woARNz6sOh0ZmwA
+v1_street_number = 5905
+v1_street_name = Wilshire Boulevard
+v1_neighborhood = Central LA
+v1_locality = Los Angeles
+v1_distance = 12.3 mi
+v1_duration = 27 mins
+PREDICT: [ACTION] It is {} away. [PARAM] 12.3 mi
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = How
+u2_1 = many
+u2_2 = minutes
+u2_3 = ?
+PREDICT: [ACTION] It is {} away. [PARAM] 27 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Not
+u3_1 = bad
+u3_2 = ,
+u3_3 = let
+u3_4 = 's
+u3_5 = go
+u3_6 = !
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Los Angeles County Museum of Art
+PREDICT: [ACTION] start_driving [PARAM] 34.0639323 [PARAM] -118.3592293

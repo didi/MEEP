@@ -1,0 +1,45 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = see
+u1_6 = a
+u1_7 = movie
+PREDICT: [ACTION] find_place [PARAM] movie [PARAM] 43.848 [PARAM] -79.525
+v1_name = Cineplex Cinemas Vaughan
+v1_address = RioCan Colossus Centre, 3555 Hwy 7 W, Woodbridge, ON L4L 6B1, Canada
+v1_rating = 4.3
+v1_latitude = 43.7886391
+v1_longitude = -79.5428428
+v1_establishment = RioCan Colossus Centre
+v1_street_number = 3555
+v1_street_name = Highway 7 West
+v1_neighborhood = Woodbridge
+v1_locality = Vaughan
+v1_distance = 5.9 mi
+v1_duration = 11 mins
+PREDICT: [ACTION] There is a {} on {}. [PARAM] Cineplex Cinemas Vaughan [PARAM] Highway 7 West
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u2_0 = How
+u2_1 = long
+u2_2 = will
+u2_3 = it
+u2_4 = take
+u2_5 = to
+u2_6 = get
+u2_7 = there
+u2_8 = ?
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 11 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Sure
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 43.7886391 [PARAM] -79.5428428

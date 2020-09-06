@@ -1,0 +1,42 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = Google
+u1_7 = office
+PREDICT: [ACTION] find_place [PARAM] Google office [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Google India
+v1_address = 4th Floor, Tower E, RMZ Infinity, No. 3, Swamy Vivekananda Rd, Sadanandanagar, Bennigana Halli, Bengaluru, Karnataka 560016, India
+v1_rating = 4.6
+v1_is_open = False
+v1_latitude = 12.993646
+v1_longitude = 77.660197
+v1_street_number = No. 3
+v1_street_name = Swamy Vivekananda Road
+v1_locality = Bengaluru
+v1_distance = 8.3 mi
+v1_duration = 41 mins
+PREDICT: [ACTION] {} in {}? [PARAM] Google India [PARAM] Bengaluru
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+u3_0 = do
+u3_1 = you
+u3_2 = know
+u3_3 = what
+u3_4 = is
+u3_5 = the
+u3_6 = address
+u3_7 = ?
+PREDICT: [ACTION] It is on {}. [PARAM] 4th Floor, Tower E, RMZ Infinity, No. 3, Swamy Vivekananda Rd, Sadanandanagar, Bennigana Halli, Bengaluru, Karnataka 560016, India
+PREDICT: [ACTION] wait_for_user
+u4_0 = sure
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+PREDICT: [ACTION] start_driving [PARAM] 12.993646 [PARAM] 77.660197

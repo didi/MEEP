@@ -1,0 +1,96 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Mississauga
+u1_8 = campus
+u1_9 = of
+u1_10 = the
+u1_11 = university
+u1_12 = of
+u1_13 = Toronto
+PREDICT: find_place
+PREDICT: Mississauga campus university of Toronto
+PREDICT: 43.657
+PREDICT: -79.401
+v1_name = University of Toronto - St. George Campus
+v1_address = 27 King's College Cir, Toronto, ON M5S, Canada
+v1_rating = 4.3
+v1_latitude = 43.6628917
+v1_longitude = -79.39565640000001
+v1_street_number = 27
+v1_street_name = King's College Circle
+v1_locality = Toronto
+v1_distance = 0.9 mi
+v1_duration = 6 mins
+PREDICT: Do you mean {}?
+PREDICT: University of Toronto - St. George Campus
+PREDICT: wait_for_user
+u2_0 = No
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = downtown
+u2_5 = .
+u2_6 = There
+u2_7 = should
+u2_8 = be
+u2_9 = a
+u2_10 = campus
+u2_11 = in
+u2_12 = Mississauga
+PREDICT: find_place
+PREDICT: Mississauga
+PREDICT: 43.657
+PREDICT: -79.401
+v2_name = Mississauga
+v2_address = Mississauga, ON, Canada
+v2_latitude = 43.5890452
+v2_longitude = -79.6441198
+v2_locality = Mississauga
+v2_distance = 17.2 mi
+v2_duration = 37 mins
+PREDICT: places_nearby
+PREDICT: campus university of Toronto
+PREDICT: 43.5890452
+PREDICT: -79.6441198
+v3_0_name = University of Toronto Mississauga
+v3_0_rating = 4.3
+v3_0_types = ['university', 'point_of_interest', 'establishment']
+v3_0_latitude = 43.5487269
+v3_0_longitude = -79.6629276
+v3_0_address = 3359 Mississauga Rd, Mississauga, ON L5L 1C6, Canada
+v3_0_street_number = 3359
+v3_0_street_name = Mississauga Road
+v3_0_locality = Mississauga
+v3_0_distance = 4.2 mi
+v3_0_duration = 13 mins
+v3_1_name = University of Toronto - St. George Campus
+v3_1_rating = 4.3
+v3_1_types = ['university', 'point_of_interest', 'establishment']
+v3_1_latitude = 43.6628917
+v3_1_longitude = -79.39565640000001
+v3_1_address = 27 King's College Cir, Toronto, ON M5S, Canada
+v3_1_street_number = 27
+v3_1_street_name = King's College Circle
+v3_1_locality = Toronto
+v3_1_distance = 18.6 mi
+v3_1_duration = 41 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: University of Toronto Mississauga
+PREDICT: Mississauga Road
+PREDICT: wait_for_user
+u3_0 = yes
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: start_driving
+PREDICT: 43.5487269
+PREDICT: -79.6629276

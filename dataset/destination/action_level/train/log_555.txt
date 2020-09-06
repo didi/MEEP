@@ -1,0 +1,57 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = take
+u1_1 = me
+u1_2 = to
+u1_3 = the
+u1_4 = MUJI
+u1_5 = in
+u1_6 = Venice
+PREDICT: [ACTION] find_place [PARAM] MUJI Venice [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = MUJI Santa Monica
+v1_address = 2936 Main St, Santa Monica, CA 90405, United States
+v1_latitude = 33.9986662
+v1_longitude = -118.480641
+v1_types_0 = clothing store
+v1_types_1 = home goods store
+v1_types_2 = point of interest
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 2936 Main Street, Santa Monica
+v1_street_number = 2936
+v1_street_name = Main Street
+v1_neighborhood = Ocean Park
+v1_locality = Santa Monica
+v1_distance = 3.1 mi
+v1_duration = 12 mins
+PREDICT: [ACTION] Shall we go to {} on {}? [PARAM] MUJI Santa Monica [PARAM] Main Street
+PREDICT: [ACTION] wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = the
+u2_3 = one
+u2_4 = that
+u2_5 = 's
+u2_6 = not
+u2_7 = in
+u2_8 = the
+u2_9 = Santa
+u2_10 = Monica
+u2_11 = Promenade
+u2_12 = ,
+u2_13 = right
+u2_14 = ?
+PREDICT: [ACTION] No.
+PREDICT: [ACTION] {} is on {}. [PARAM] MUJI Santa Monica [PARAM] Main Street
+PREDICT: [ACTION] wait_for_user
+u3_0 = Ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = .
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 33.9986662 [PARAM] -118.480641

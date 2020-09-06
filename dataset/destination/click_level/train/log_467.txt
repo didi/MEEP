@@ -1,0 +1,46 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = district
+u1_1 = commons
+u1_2 = please
+PREDICT: find_place
+PREDICT: district commons
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v1_name = District Commons
+v1_address = The Avenue, 2200 Pennsylvania Ave NW, Washington, DC 20037, United States
+v1_latitude = 38.9020276
+v1_longitude = -77.0493576
+v1_price_level = 2
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = The Avenue, 2200 Pennsylvania Avenue Northwest, Washington
+v1_street_number = 2200
+v1_street_name = Pennsylvania Avenue Northwest
+v1_neighborhood = Northwest Washington
+v1_locality = Washington
+v1_distance = 4.5 mi
+v1_duration = 14 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: District Commons
+PREDICT: Pennsylvania Avenue Northwest
+PREDICT: wait_for_user
+u2_0 = yep
+u2_1 = thats
+u2_2 = the
+u2_3 = place
+PREDICT: It is {} and {} away.
+PREDICT: 4.5 mi
+PREDICT: 14 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = please
+PREDICT: start_driving
+PREDICT: 38.9020276
+PREDICT: -77.0493576

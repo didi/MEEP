@@ -1,0 +1,57 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = an
+u1_6 = Italian
+u1_7 = restaurant
+u1_8 = in
+u1_9 = Sausalito
+PREDICT: find_place
+PREDICT: Italian restaurant in Sausalito
+PREDICT: 37.760
+PREDICT: -122.429
+v1_name = Angelino Restaurant
+v1_address = 621 Bridgeway, Sausalito, CA 94965, United States
+v1_latitude = 37.854608
+v1_longitude = -122.479051
+v1_price_level = 2
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.3
+v1_is_open = False
+v1_address_simple = 621 Bridgeway, Sausalito
+v1_street_number = 621
+v1_street_name = Bridgeway
+v1_locality = Sausalito
+v1_distance = 9.7 mi
+v1_duration = 29 mins
+PREDICT: I found {} in {}.
+PREDICT: Angelino Restaurant
+PREDICT: Sausalito
+PREDICT: wait_for_user
+u2_0 = What
+u2_1 = is
+u2_2 = its
+u2_3 = rating
+u2_4 = ?
+PREDICT: It has a rating of {}.
+PREDICT: 4.3
+PREDICT: wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = .
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 37.854608
+PREDICT: -122.479051

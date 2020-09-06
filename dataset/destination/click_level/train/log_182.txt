@@ -1,0 +1,91 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = greek
+u1_7 = restaurant
+u1_8 = on
+u1_9 = Broadway
+u1_10 = ..
+u1_11 = forget
+u1_12 = its
+u1_13 = name
+PREDICT: places_nearby
+PREDICT: greek restaurant Broadway
+PREDICT: 32.225
+PREDICT: -110.861
+v1_0_name = Shish Kebab House of Tucson
+v1_0_rating = 4.5
+v1_0_is_open = True
+v1_0_price_level = 2
+v1_0_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_0_latitude = 32.2222627
+v1_0_longitude = -110.8667103
+v1_0_address = 5855 E Broadway Blvd, Tucson, AZ 85711, USA
+v1_0_street_number = 5855
+v1_0_street_name = East Broadway Boulevard
+v1_0_neighborhood = Sewell
+v1_0_locality = Tucson
+v1_0_distance = 0.9 mi
+v1_0_duration = 4 mins
+v1_1_name = Pita Jungle - Tucson Broadway
+v1_1_rating = 4.2
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_1_latitude = 32.2209075
+v1_1_longitude = -110.8789629
+v1_1_address = 5340 E Broadway Blvd, Tucson, AZ 85711, USA
+v1_1_street_number = 5340
+v1_1_street_name = East Broadway Boulevard
+v1_1_locality = Tucson
+v1_1_distance = 1.7 mi
+v1_1_duration = 7 mins
+v1_2_name = Opa's Best Greek American Cuisine
+v1_2_rating = 4.6
+v1_2_is_open = True
+v1_2_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_2_latitude = 32.2211714
+v1_2_longitude = -110.8947905
+v1_2_address = 4590 E Broadway Blvd, Tucson, AZ 85711, USA
+v1_2_street_number = 4590
+v1_2_street_name = East Broadway Boulevard
+v1_2_locality = Tucson
+v1_2_distance = 2.6 mi
+v1_2_duration = 9 mins
+PREDICT: There is {} on {}
+PREDICT: Opa's Best Greek American Cuisine
+PREDICT: East Broadway Boulevard
+PREDICT: wait_for_user
+u2_0 = yes
+u2_1 = that
+u2_2 = is
+u2_3 = correct
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = how
+u3_1 = long
+u3_2 = does
+u3_3 = it
+u3_4 = take
+u3_5 = to
+u3_6 = get
+u3_7 = there
+u3_8 = ?
+PREDICT: It is {} and {} away.
+PREDICT: 9 mins
+PREDICT: 2.6 mi
+PREDICT: wait_for_user
+u4_0 = great
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+PREDICT: start_driving
+PREDICT: 32.2211714
+PREDICT: -110.8947905

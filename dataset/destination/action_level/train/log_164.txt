@@ -1,0 +1,38 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = hi
+u1_1 = i
+u1_2 = 'd
+u1_3 = like
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = the
+u1_8 = science
+u1_9 = centre
+PREDICT: [ACTION] find_place [PARAM] science centre [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Ontario Science Centre
+v1_address = 770 Don Mills Rd, North York, ON M3C 1T3, Canada
+v1_rating = 4.4
+v1_is_open = False
+v1_latitude = 43.7164914
+v1_longitude = -79.3390141
+v1_street_number = 770
+v1_street_name = Don Mills Road
+v1_locality = Toronto
+v1_distance = 7.1 mi
+v1_duration = 21 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Ontario Science Centre [PARAM] Don Mills Road
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 7.1 mi [PARAM] 21 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = yup
+u2_1 = that
+u2_2 = 's
+u2_3 = the
+u2_4 = one
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+u3_1 = please
+PREDICT: [ACTION] start_driving [PARAM] 43.7164914 [PARAM] -79.3390141

@@ -1,0 +1,82 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Powell
+u1_7 = Library
+u1_8 = ,
+u1_9 = at
+u1_10 = UCLA
+u1_11 = .
+PREDICT: find_place
+PREDICT: Powell Library at UCLA
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 10740 Dickson Ct, Los Angeles, CA 90095, United States
+v1_name = Powell Library
+v1_latitude = 34.07161260000001
+v1_longitude = -118.4421809
+v1_place_id = ChIJp1ceUYi8woARdkPvBsrSG90
+v1_street_number = 10740
+v1_street_name = Dickson Court
+v1_neighborhood = Westwood
+v1_locality = Los Angeles
+v1_distance = 10.3 mi
+v1_duration = 24 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Powell Library
+PREDICT: Dickson Court
+PREDICT: It is {} and {} away.
+PREDICT: 10.3 mi
+PREDICT: 24 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = the
+u2_3 = one
+u2_4 = near
+u2_5 = UCLA
+u2_6 = right
+u2_7 = ?
+PREDICT: find_place
+PREDICT: UCLA
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = Los Angeles, CA 90095, United States
+v2_name = University of California, Los Angeles
+v2_latitude = 34.068921
+v2_longitude = -118.4451811
+v2_place_id = ChIJZQ9c8IW8woARN0gTXFiTqSU
+v2_locality = Los Angeles
+v2_neighborhood = Westwood
+v2_distance = 9.9 mi
+v2_duration = 22 mins
+PREDICT: distance_matrix
+PREDICT: 34.07161260000001
+PREDICT: -118.4421809
+PREDICT: 34.068921
+PREDICT: -118.4451811
+v3_distance = 1.1 mi
+v3_duration = 8 mins
+PREDICT: {} is {} away from {}.
+PREDICT: Powell Library
+PREDICT: 1.1 mi
+PREDICT: University of California, Los Angeles
+PREDICT: wait_for_user
+u3_0 = Okay
+u3_1 = ,
+u3_2 = great
+u3_3 = !
+u3_4 = Let
+u3_5 = 's
+u3_6 = go
+u3_7 = !
+PREDICT: start_driving
+PREDICT: 34.07161260000001
+PREDICT: -118.4421809

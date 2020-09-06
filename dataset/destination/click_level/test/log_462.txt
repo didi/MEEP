@@ -1,0 +1,46 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = Spanish
+u1_7 = food
+u1_8 = store
+u1_9 = called
+u1_10 = La
+u1_11 = Espanola
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: find_place
+PREDICT: La Espanola Spanish food store
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = La Española Meats, Inc
+v1_address = 25020 Doble Ave, Harbor City, CA 90710, United States
+v1_latitude = 33.797118
+v1_longitude = -118.29154
+v1_types_0 = food
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.8
+v1_is_open = True
+v1_address_simple = 25020 Doble Avenue, Harbor City
+v1_street_number = 25020
+v1_street_name = Doble Avenue
+v1_neighborhood = Harbor City
+v1_locality = Los Angeles
+v1_distance = 20.1 mi
+v1_duration = 27 mins
+PREDICT: Do you mean {}?
+PREDICT: La Española Meats, Inc
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: It is {} away.
+PREDICT: 27 mins
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 33.797118
+PREDICT: -118.29154

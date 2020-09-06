@@ -1,0 +1,46 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = rooftop
+u1_7 = bar
+PREDICT: find_place
+PREDICT: rooftop bar
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 1697 Pacific Ave, Venice, CA 90291, United States
+v1_name = High Rooftop Lounge
+v1_latitude = 33.9871171
+v1_longitude = -118.4720732
+v1_place_id = ChIJ2y1Dpbm6woARwhg7smrwT7M
+v1_street_number = 1697
+v1_street_name = Pacific Avenue
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 2.4 mi
+v1_duration = 10 mins
+PREDICT: How about {}?
+PREDICT: High Rooftop Lounge
+PREDICT: It is on {}.
+PREDICT: Pacific Avenue
+PREDICT: You will reach there in {}.
+PREDICT: 10 mins
+PREDICT: wait_for_user
+u2_0 = yes
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = a
+u2_5 = good
+u2_6 = one
+u2_7 = .
+PREDICT: Great, we are going to {}.
+PREDICT: High Rooftop Lounge
+PREDICT: start_driving
+PREDICT: 33.9871171
+PREDICT: -118.4720732

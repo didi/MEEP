@@ -1,0 +1,110 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 've
+u1_2 = heard
+u1_3 = there
+u1_4 = 's
+u1_5 = a
+u1_6 = campground
+u1_7 = in
+u1_8 = Malibu
+u1_9 = ,
+u1_10 = can
+u1_11 = you
+u1_12 = take
+u1_13 = me
+u1_14 = there
+u1_15 = ?
+PREDICT: [ACTION] find_place [PARAM] campground in Malibu [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Malibu Beach RV Park
+v1_address = 25801 Pacific Coast Hwy, Malibu, CA 90265, United States
+v1_latitude = 34.034433
+v1_longitude = -118.737998
+v1_types_0 = rv park
+v1_types_1 = lodging
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.1
+v1_address_simple = 25801 Pacific Coast Highway, Malibu
+v1_street_number = 25801
+v1_street_name = Pacific Coast Highway
+v1_neighborhood = Central Malibu
+v1_locality = Malibu
+v1_distance = 19.4 mi
+v1_duration = 43 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Malibu Beach RV Park [PARAM] Central Malibu
+PREDICT: [ACTION] wait_for_user
+u2_0 = Is
+u2_1 = that
+u2_2 = close
+u2_3 = to
+u2_4 = the
+u2_5 = water
+u2_6 = ?
+PREDICT: [ACTION] find_place [PARAM] water [PARAM] 34.034433 [PARAM] -118.737998
+v2_name = Tapia Water Reclamation Facility
+v2_address = 731 Malibu Canyon Rd, Agoura Hills, CA 91301, United States
+v2_latitude = 34.0802239
+v2_longitude = -118.7036788
+v2_types_0 = point of interest
+v2_types_1 = establishment
+v2_rating = 5
+v2_address_simple = 731 Malibu Canyon Road, Agoura Hills
+v2_street_number = 731
+v2_street_name = Malibu Canyon Road
+v2_locality = Agoura Hills
+v2_distance = 6.7 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Malibu Beach RV Park [PARAM] 6.7 mi [PARAM] Tapia Water Reclamation Facility
+PREDICT: [ACTION] wait_for_user
+u3_0 = That
+u3_1 = is
+u3_2 = n't
+u3_3 = helpful
+u4_0 = how
+u4_1 = far
+u4_2 = is
+u4_3 = it
+u4_4 = from
+u4_5 = the
+u4_6 = Malibu
+u4_7 = pier
+u4_8 = ?
+PREDICT: [ACTION] find_place [PARAM] Malibu pier [PARAM] 34.034433 [PARAM] -118.737998
+v3_name = Malibu Pier
+v3_address = 23000 Pacific Coast Hwy, Malibu, CA 90265, United States
+v3_latitude = 34.0365277
+v3_longitude = -118.6761657
+v3_types_0 = tourist attraction
+v3_types_1 = point of interest
+v3_types_2 = establishment
+v3_rating = 4.5
+v3_address_simple = 23000 Pacific Coast Highway, Malibu
+v3_street_number = 23000
+v3_street_name = Pacific Coast Highway
+v3_locality = Malibu
+v3_distance = 3.9 mi
+v3_duration = 8 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Malibu Beach RV Park [PARAM] 3.9 mi [PARAM] Malibu Pier
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = What
+u5_1 = street
+u5_2 = is
+u5_3 = it
+u5_4 = on
+u5_5 = ?
+PREDICT: [ACTION] It is on {}. [PARAM] Pacific Coast Highway
+PREDICT: [ACTION] wait_for_user
+u6_0 = Perfect
+u6_1 = ,
+u6_2 = let
+u6_3 = 's
+u6_4 = go
+u6_5 = .
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 34.034433 [PARAM] -118.737998

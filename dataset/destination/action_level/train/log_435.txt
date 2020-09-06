@@ -1,0 +1,64 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = donuts
+u1_3 = .
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] donuts [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Wendy's Donuts
+v1_address = 4000 Lincoln Blvd, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9904901
+v1_longitude = -118.4473324
+v1_price_level = 1
+v1_types_0 = bakery
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 4000 Lincoln Boulevard, Marina del Rey
+v1_street_number = 4000
+v1_street_name = Lincoln Boulevard
+v1_neighborhood = Venice
+v1_locality = Marina del Rey
+v1_distance = 0.9 mi
+v1_duration = 5 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Wendy's Donuts [PARAM] Marina del Rey
+PREDICT: [ACTION] It is {} away. [PARAM] 5 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = wendy
+u2_1 = 's
+u2_2 = ,
+u2_3 = is
+u2_4 = that
+u2_5 = on
+u2_6 = washington
+u2_7 = and
+u2_8 = lincoln
+u2_9 = ?
+PREDICT: [ACTION] find_place [PARAM] washington and lincoln [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Lincoln Blvd/Washington Blvd
+v2_address = Los Angeles, CA 90291, United States
+v2_latitude = 33.990842
+v2_longitude = -118.447982
+v2_types_0 = transit station
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 1
+v2_address_simple = United States
+v2_neighborhood = Venice
+v2_locality = Los Angeles
+v2_distance = 0.9 mi
+v2_duration = 5 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 33.990842 [PARAM] -118.447982 [PARAM] 33.9904901 [PARAM] -118.4473324
+v3_distance = 348 ft
+v3_duration = 1 min
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Wendy's Donuts
+PREDICT: [ACTION] start_driving [PARAM] 33.9904901 [PARAM] -118.4473324

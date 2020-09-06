@@ -1,0 +1,56 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = need
+u1_2 = to
+u1_3 = buy
+u1_4 = art
+u1_5 = supplies
+PREDICT: find_place
+PREDICT: art supplies
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Mittel's Art & Frame Center
+v1_address = 2499 Lincoln Blvd, Venice, CA 90291, United States
+v1_latitude = 33.9922975
+v1_longitude = -118.4497343
+v1_types_0 = point of interest
+v1_types_1 = store
+v1_types_2 = establishment
+v1_rating = 4.9
+v1_is_open = True
+v1_address_simple = 2499 Lincoln Boulevard, Venice
+v1_street_number = 2499
+v1_street_name = Lincoln Boulevard
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 1.0 mi
+v1_duration = 6 mins
+u2_0 = but
+u2_1 = not
+u2_2 = sure
+u2_3 = where
+u2_4 = the
+u2_5 = nearest
+u2_6 = art
+u2_7 = supply
+u2_8 = store
+u2_9 = is
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: art supplies
+PREDICT: Mittel's Art & Frame Center
+PREDICT: Lincoln Boulevard
+PREDICT: Venice
+PREDICT: It is {} away.
+PREDICT: 6 mins
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u3_0 = yes
+u3_1 = thank
+u3_2 = you
+PREDICT: Great, we are going to {}.
+PREDICT: Mittel's Art & Frame Center
+PREDICT: start_driving
+PREDICT: 33.9922975
+PREDICT: -118.4497343

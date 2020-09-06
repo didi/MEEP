@@ -1,0 +1,41 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = ice
+u1_5 = skating
+u2_0 = where
+u2_1 = 's
+u2_2 = the
+u2_3 = nearest
+u2_4 = rink
+u2_5 = ?
+PREDICT: [ACTION] find_place [PARAM] ice skating [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Ice at Santa Monica
+v1_address = 1324 5th St, Santa Monica, CA 90401, United States
+v1_latitude = 34.017976
+v1_longitude = -118.495662
+v1_types_0 = tourist attraction
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.5
+v1_is_open = False
+v1_address_simple = 1324 5th Street, Santa Monica
+v1_street_number = 1324
+v1_street_name = 5th Street
+v1_neighborhood = Downtown
+v1_locality = Santa Monica
+v1_distance = 4.5 mi
+v1_duration = 21 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Ice at Santa Monica [PARAM] Santa Monica
+PREDICT: [ACTION] It is {} away. [PARAM] 21 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = great
+u3_1 = ,
+u3_2 = lets
+u3_3 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.017976 [PARAM] -118.495662

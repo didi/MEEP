@@ -1,0 +1,105 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = need
+u1_2 = a
+u1_3 = haircut
+u1_4 = .
+PREDICT: find_place
+PREDICT: haircut
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Supercuts
+v1_address = 4371 Glencoe Ave, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.984689
+v1_longitude = -118.439732
+v1_types_0 = Beauty salon
+v1_types_1 = Hair care
+v1_types_2 = Health
+v1_types_3 = Point of interest
+v1_types_4 = Establishment
+v1_rating = 3.7
+v1_is_open = True
+v1_address_simple = 4371 Glencoe Avenue, Marina del Rey
+v1_street_number = 4371
+v1_street_name = Glencoe Avenue
+v1_locality = Marina del Rey
+v1_distance = 0.7 mi
+v1_duration = 6 mins
+PREDICT: There is a {} on {}.
+PREDICT: Supercuts
+PREDICT: Glencoe Avenue
+PREDICT: It has a rating of {}.
+PREDICT: 3.7
+PREDICT: wait_for_user
+u2_0 = Something
+u2_1 = more
+u2_2 = sophisticated
+u2_3 = ?
+PREDICT: places_nearby
+PREDICT: haircut
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Carlton Hair Salons
+v2_0_rating = 3.7
+v2_0_is_open = True
+v2_0_types_0 = Hair care
+v2_0_types_1 = Health
+v2_0_types_2 = Point of interest
+v2_0_types_3 = Establishment
+v2_0_latitude = 33.9795368
+v2_0_longitude = -118.4386116
+v2_0_address_simple = 4708 Admiralty Way, Marina del Rey
+v2_0_street_number = 4708
+v2_0_street_name = Admiralty Way
+v2_0_locality = Marina del Rey
+v2_0_distance = 0.3 mi
+v2_0_duration = 3 mins
+v2_1_name = Supercuts
+v2_1_rating = 3.7
+v2_1_is_open = True
+v2_1_types_0 = Beauty salon
+v2_1_types_1 = Hair care
+v2_1_types_2 = Health
+v2_1_types_3 = Point of interest
+v2_1_types_4 = Establishment
+v2_1_latitude = 33.984689
+v2_1_longitude = -118.439732
+v2_1_address_simple = 4371 Glencoe Avenue, Marina del Rey
+v2_1_street_number = 4371
+v2_1_street_name = Glencoe Avenue
+v2_1_locality = Marina del Rey
+v2_1_distance = 0.7 mi
+v2_1_duration = 6 mins
+v2_2_name = John Peri Hair Designs
+v2_2_rating = 4.7
+v2_2_is_open = True
+v2_2_types_0 = Beauty salon
+v2_2_types_1 = Hair care
+v2_2_types_2 = Point of interest
+v2_2_types_3 = Establishment
+v2_2_latitude = 33.9843068
+v2_2_longitude = -118.4385164
+v2_2_address_simple = 13175 Mindanao Way, Marina del Rey
+v2_2_street_number = 13175
+v2_2_street_name = Mindanao Way
+v2_2_locality = Marina del Rey
+v2_2_distance = 0.5 mi
+v2_2_duration = 5 mins
+PREDICT: I found two places: {} and {}.
+PREDICT: John Peri Hair Designs
+PREDICT: Carlton Hair Salons
+PREDICT: wait_for_user
+u3_0 = The
+u3_1 = closest
+u3_2 = one
+u3_3 = .
+PREDICT: {} is closest.
+PREDICT: Carlton Hair Salons
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = yes
+PREDICT: start_driving
+PREDICT: 33.9795368
+PREDICT: -118.4386116

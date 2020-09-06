@@ -1,0 +1,154 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = Hi
+u1_1 = can
+u1_2 = you
+u1_3 = find
+u1_4 = me
+u1_5 = a
+u1_6 = place
+u1_7 = for
+u1_8 = meatballs
+u1_9 = ?
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: places_nearby
+PREDICT: place for meatballs
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v1_0_name = Fresca Pizza and Pasta
+v1_0_rating = 4.6
+v1_0_is_open = True
+v1_0_price_level = 1
+v1_0_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_0_latitude = 43.6578089
+v1_0_longitude = -79.40172129999999
+v1_0_address = 302 College St, Toronto, ON M5T 1R9, Canada
+v1_0_street_number = 302
+v1_0_street_name = College Street
+v1_0_locality = Toronto
+v1_0_distance = 0.8 mi
+v1_0_duration = 5 mins
+v1_1_name = Pizzeria Via Mercanti
+v1_1_rating = 4.5
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_1_latitude = 43.6540471
+v1_1_longitude = -79.4020113
+v1_1_address = 188 Augusta Ave, Toronto, ON M5T 2L4, Canada
+v1_1_street_number = 188
+v1_1_street_name = Augusta Avenue
+v1_1_locality = Toronto
+v1_1_distance = 1.4 mi
+v1_1_duration = 9 mins
+v1_2_name = My Meatball Place/Roti Express
+v1_2_rating = 4.4
+v1_2_is_open = True
+v1_2_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_2_latitude = 43.6440352
+v1_2_longitude = -79.4009069
+v1_2_address = 617 King St W, Toronto, ON M5V 1M5, Canada
+v1_2_street_number = 617
+v1_2_street_name = King Street West
+v1_2_locality = Toronto
+v1_2_distance = 1.9 mi
+v1_2_duration = 14 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Fresca Pizza and Pasta
+PREDICT: Pizzeria Via Mercanti
+PREDICT: My Meatball Place/Roti Express
+PREDICT: Is it one of those?
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = 'll
+u2_2 = be
+u2_3 = near
+u2_4 = sheppard
+u2_5 = and
+u2_6 = leslie
+u2_7 = ,
+u2_8 = could
+u2_9 = you
+u2_10 = find
+u2_11 = me
+u2_12 = one
+u2_13 = there
+u2_14 = ?
+PREDICT: find_place
+PREDICT: sheppard and leslie
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v2_name = Leslie St & Sheppard Ave E
+v2_address = Leslie St & Sheppard Ave E, Toronto, ON, Canada
+v2_latitude = 43.77157649999999
+v2_longitude = -79.3642524
+v2_locality = Toronto
+v2_distance = 12.6 mi
+v2_duration = 28 mins
+PREDICT: find_place
+PREDICT: place for meatballs
+PREDICT: 43.77157649999999
+PREDICT: -79.3642524
+v3_name = My Meatball Place/Roti Express
+v3_address = 617 King St W, Toronto, ON M5V 1M5, Canada
+v3_rating = 4.4
+v3_is_open = True
+v3_latitude = 43.6440352
+v3_longitude = -79.4009069
+v3_street_number = 617
+v3_street_name = King Street West
+v3_locality = Toronto
+v3_distance = 14.4 mi
+v3_duration = 23 mins
+PREDICT: How about {}?
+PREDICT: My Meatball Place/Roti Express
+PREDICT: distance_matrix
+PREDICT: 43.6440352
+PREDICT: -79.4009069
+PREDICT: 43.77157649999999
+PREDICT: -79.3642524
+v4_distance = 14.7 mi
+v4_duration = 27 mins
+PREDICT: wait_for_user
+u3_0 = actually
+u3_1 = let
+u3_2 = 's
+u3_3 = just
+u3_4 = go
+u3_5 = to
+u3_6 = IKEA
+u4_0 = i
+u4_1 = 'll
+u4_2 = get
+u4_3 = meatballs
+u4_4 = there
+PREDICT: find_place
+PREDICT: IKEA
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v5_name = IKEA North York
+v5_address = 15 Provost Dr, Toronto, ON M2K 2X9, Canada
+v5_rating = 4.2
+v5_is_open = True
+v5_latitude = 43.7672865
+v5_longitude = -79.3687854
+v5_street_number = 15
+v5_street_name = Provost Drive
+v5_locality = Toronto
+v5_distance = 11.8 mi
+v5_duration = 29 mins
+PREDICT: There is a {} on {}.
+PREDICT: IKEA North York
+PREDICT: Provost Drive
+PREDICT: wait_for_user
+u5_0 = let
+u5_1 = 's
+u5_2 = go
+u5_3 = there
+PREDICT: It is {} and {} away.
+PREDICT: 11.8 mi
+PREDICT: 29 mins
+PREDICT: start_driving
+PREDICT: 43.7672865
+PREDICT: -79.3687854

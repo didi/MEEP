@@ -1,0 +1,9 @@
+--- Requesting destination ---
+Let's go to the third one.
+Are there any others?
+Ok let's go.
+Sure. 
+I want to go to the one on {}.
+Yes.
+I'd like to go to {}
+How far is {}?

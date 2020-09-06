@@ -1,0 +1,19 @@
+[
+    {
+        "name": "compare numbers",
+        "endpoint": "/compare_numbers/compare",
+        "params": [
+            {
+                "name": "number1"
+            },
+            {
+                "name": "number2"
+            }
+        ]
+    },
+    {
+        "name": "end dialog",
+        "endpoint": "/end_dialog",
+        "params": []
+    }
+]

@@ -1,0 +1,27 @@
+.variable {
+    user-select: none;
+    display: inline-block;
+    border: solid thin #35b;
+    border-radius: 2px;
+    padding: 5px;
+    min-width: 1.5em;
+    min-height: 1.5em;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.variableIsActive {
+    border: solid 2px #35b;
+}
+
+.variableIsError {
+    border-color: red;
+}
+
+.variableValue {
+    padding: 0;
+}
+
+.variableTypeHint {
+    color: #888;
+}

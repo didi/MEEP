@@ -1,0 +1,67 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = find
+u1_1 = parking
+u1_2 = place
+u1_3 = near
+u1_4 = staples
+u1_5 = center
+PREDICT: [ACTION] find_place [PARAM] staples center [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = STAPLES Center
+v1_address = 1111 S Figueroa St, Los Angeles, CA 90015, United States
+v1_latitude = 34.0430175
+v1_longitude = -118.2672541
+v1_types_0 = Stadium
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.7
+v1_address_simple = 1111 South Figueroa Street, Los Angeles
+v1_street_number = 1111
+v1_street_name = South Figueroa Street
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 16.8 mi
+v1_duration = 29 mins
+PREDICT: [ACTION] places_nearby [PARAM] parking [PARAM] 34.0430175 [PARAM] South Figueroa Street
+PREDICT: [ACTION] find_place [PARAM] parking [PARAM] 34.0430175 [PARAM] -118.2672541
+v3_name = 1101-1199 S Flower St Parking
+v3_address = 1101-1199 S Flower St, Los Angeles, CA 90015, United States
+v3_latitude = 34.0427443
+v3_longitude = -118.2645997
+v3_types_0 = Parking
+v3_types_1 = Point of interest
+v3_types_2 = Establishment
+v3_rating = 5
+v3_address_simple = 1101-1199 S Flower St, Los Angeles
+v3_street_name = 1101-1199 S Flower St
+v3_neighborhood = Downtown Los Angeles
+v3_locality = Los Angeles
+v3_distance = 0.3 mi
+v3_duration = 2 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] 1101-1199 S Flower St Parking [PARAM] 2 mins [PARAM] STAPLES Center
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u2_0 = does
+u2_1 = it
+u2_2 = have
+u2_3 = rating
+u2_4 = info
+u2_5 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 5
+PREDICT: [ACTION] wait_for_user
+u3_0 = wow
+u4_0 = how
+u4_1 = far
+u4_2 = is
+u4_3 = it
+u4_4 = ?
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 34.0427443 [PARAM] -118.2645997
+v4_distance = 16.8 mi
+v4_duration = 28 mins
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 16.8 mi [PARAM] 28 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = yes
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] 1101-1199 S Flower St Parking
+PREDICT: [ACTION] start_driving [PARAM] 34.0427443 [PARAM] -118.2645997

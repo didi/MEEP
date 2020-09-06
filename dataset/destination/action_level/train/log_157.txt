@@ -1,0 +1,34 @@
+source_address = Beacon Hill, Seattle, WA, USA
+source_latitude = 47.552585
+source_longitude = -122.30093699999998
+u1_0 = stumbling
+u1_1 = monk
+u1_2 = please
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] stumbling monk [PARAM] 47.552585 [PARAM] -122.30093699999998
+v1_name = Stumbling Monk
+v1_address = 1635 E Olive Way, Seattle, WA 98102, United States
+v1_price_level = 2
+v1_rating = 4.5
+v1_is_open = False
+v1_latitude = 47.6194156
+v1_longitude = -122.3242283
+v1_street_number = 1635
+v1_street_name = East Olive Way
+v1_neighborhood = Capitol Hill
+v1_locality = Seattle
+v1_distance = 5.3 mi
+v1_duration = 13 mins
+PREDICT: [ACTION] The one on {}? [PARAM] Capitol Hill
+PREDICT: [ACTION] Is the address {}? [PARAM] 1635 E Olive Way, Seattle, WA 98102, United States
+PREDICT: [ACTION] wait_for_user
+u2_0 = yep
+u2_1 = that
+u2_2 = 's
+u2_3 = it
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 5.3 mi [PARAM] 13 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+u3_1 = please
+PREDICT: [ACTION] start_driving [PARAM] 47.6194156 [PARAM] -122.3242283

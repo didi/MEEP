@@ -1,0 +1,33 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = high
+u1_7 = court
+PREDICT: [ACTION] find_place [PARAM] high court [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = High Court of Karnataka
+v1_address = Doctor Ambedkar Veedhi Opp. to Vidhana Soudha, Bengaluru, Karnataka 560001, India
+v1_rating = 4.4
+v1_is_open = False
+v1_latitude = 12.9778739
+v1_longitude = 77.592635
+v1_locality = Bengaluru
+v1_distance = 3.8 mi
+v1_duration = 20 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] High Court of Karnataka
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 3.8 mi [PARAM] 20 mins
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] High Court of Karnataka
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: [ACTION] start_driving [PARAM] 12.9778739 [PARAM] 77.592635

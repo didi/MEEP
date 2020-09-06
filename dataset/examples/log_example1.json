@@ -1,0 +1,260 @@
+{
+    "agent_name": "007",
+    "initial_variables": {
+        "variable_group": "source",
+        "variables": [
+            {
+                "name": "address",
+                "value": "4640 Admiralty Way, Marina del Rey",
+                "full_name": "source_address"
+            },
+            {
+                "name": "latitude",
+                "value": 33.9816425,
+                "full_name": "source_latitude"
+            },
+            {
+                "name": "longitude",
+                "value": -118.4409761,
+                "full_name": "source_longitude"
+            }
+        ]
+    },
+    "interfaces": [
+        "GoogleMapsProvider(api_key=\"<anonymous google maps key>\")"
+    ],
+    "duration": 6734.877534866333,
+    "correct_destination": true,
+    "events": [
+        {
+            "event_type": "user_utterance",
+            "utterance": "let's go to a coffeeshop",
+            "variables": [
+                {
+                    "name": 0,
+                    "value": "let",
+                    "full_name": "u1_0"
+                },
+                {
+                    "name": 1,
+                    "value": "'s",
+                    "full_name": "u1_1"
+                },
+                {
+                    "name": 2,
+                    "value": "go",
+                    "full_name": "u1_2"
+                },
+                {
+                    "name": 3,
+                    "value": "to",
+                    "full_name": "u1_3"
+                },
+                {
+                    "name": 4,
+                    "value": "a",
+                    "full_name": "u1_4"
+                },
+                {
+                    "name": 5,
+                    "value": "coffeeshop",
+                    "full_name": "u1_5"
+                }
+            ],
+            "id": "d2256f5f-ff8d-4024-845d-bfbf85adddc3"
+        },
+        {
+            "event_type": "api_call",
+            "endpoint": "find_place",
+            "params": [
+                {
+                    "param": "query",
+                    "variable_name": "u1_5",
+                    "value": "coffeeshop"
+                },
+                {
+                    "param": "src latitude",
+                    "variable_name": "source_latitude",
+                    "value": 33.9816425
+                },
+                {
+                    "param": "src longitude",
+                    "variable_name": "source_longitude",
+                    "value": -118.4409761
+                }
+            ],
+            "variables": [
+                {
+                    "name": "name",
+                    "value": "Starbucks",
+                    "full_name": "v1_name"
+                },
+                {
+                    "name": "address",
+                    "value": "4700 Admiralty Way, Marina Del Rey, CA 90292, United States",
+                    "full_name": "v1_address"
+                },
+                {
+                    "name": "latitude",
+                    "value": "33.979901",
+                    "full_name": "v1_latitude"
+                },
+                {
+                    "name": "longitude",
+                    "value": "-118.43922",
+                    "full_name": "v1_longitude"
+                },
+                {
+                    "name": "price_level",
+                    "value": "2",
+                    "full_name": "v1_price_level"
+                },
+                {
+                    "name": "types",
+                    "value": [
+                        {
+                            "name": 0,
+                            "value": "cafe",
+                            "full_name": "v1_types_0"
+                        },
+                        {
+                            "name": 1,
+                            "value": "food",
+                            "full_name": "v1_types_1"
+                        },
+                        {
+                            "name": 2,
+                            "value": "point of interest",
+                            "full_name": "v1_types_2"
+                        },
+                        {
+                            "name": 3,
+                            "value": "store",
+                            "full_name": "v1_types_3"
+                        },
+                        {
+                            "name": 4,
+                            "value": "establishment",
+                            "full_name": "v1_types_4"
+                        }
+                    ]
+                },
+                {
+                    "name": "rating",
+                    "value": "1",
+                    "full_name": "v1_rating"
+                },
+                {
+                    "name": "is_open",
+                    "value": "True",
+                    "full_name": "v1_is_open"
+                },
+                {
+                    "name": "address_simple",
+                    "value": "4700 Admiralty Way, Marina del Rey",
+                    "full_name": "v1_address_simple"
+                },
+                {
+                    "name": "street_number",
+                    "value": "4700",
+                    "full_name": "v1_street_number"
+                },
+                {
+                    "name": "street_name",
+                    "value": "Admiralty Way",
+                    "full_name": "v1_street_name"
+                },
+                {
+                    "name": "locality",
+                    "value": "Marina del Rey",
+                    "full_name": "v1_locality"
+                },
+                {
+                    "name": "distance",
+                    "value": "0.2 mi",
+                    "full_name": "v1_distance"
+                },
+                {
+                    "name": "duration",
+                    "value": "3 mins",
+                    "full_name": "v1_duration"
+                },
+                {
+                    "name": "place_id",
+                    "value": "ChIJfXzK41m7woARvDjl9y6ivYE",
+                    "full_name": "v1_place_id"
+                }
+            ]
+        },
+        {
+            "event_type": "agent_utterance",
+            "utterance": "There is a Starbucks on Admiralty Way.",
+            "template": "There is a {} on {}.",
+            "params": [
+                "v1_name",
+                "v1_street_name"
+            ],
+            "id": "69af2983-a572-45cb-a04a-dd274c71d4ec"
+        },
+        {
+            "event_type": "user_utterance",
+            "utterance": "Great let's go",
+            "variables": [
+                {
+                    "name": 0,
+                    "value": "Great",
+                    "full_name": "u2_0"
+                },
+                {
+                    "name": 1,
+                    "value": "let",
+                    "full_name": "u2_1"
+                },
+                {
+                    "name": 2,
+                    "value": "'s",
+                    "full_name": "u2_2"
+                },
+                {
+                    "name": 3,
+                    "value": "go",
+                    "full_name": "u2_3"
+                }
+            ],
+            "id": "bdec37ce-ed68-442a-a14a-f7247da22066"
+        },
+        {
+            "event_type": "api_call",
+            "endpoint": "start_driving",
+            "params": [
+                {
+                    "param": "dest latitude",
+                    "variable_name": "v1_latitude",
+                    "value": "33.979901"
+                },
+                {
+                    "param": "dest longitude",
+                    "variable_name": "v1_longitude",
+                    "value": "-118.43922"
+                },
+                {
+                    "param": "dest id",
+                    "variable_name": "v1_place_id",
+                    "value": "ChIJfXzK41m7woARvDjl9y6ivYE"
+                }
+            ],
+            "variables": [
+                {
+                    "name": "success",
+                    "value": true,
+                    "full_name": "v2_success"
+                }
+            ]
+        },
+        {
+            "event_type": "end_dialog",
+            "success": true,
+            "user_ended_dialog": false
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Japanese
+u1_1 = restaurant
+PREDICT: [ACTION] places_nearby [PARAM] Japanese restaurant [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = Irori Sushi
+v1_0_rating = 4.6
+v1_0_is_open = True
+v1_0_place_id = ChIJx9oYen26woARqFwu0OoUvyc
+v1_0_price_level = 2
+v1_0_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_0_latitude = 33.9844791
+v1_0_longitude = -118.4391498
+v1_0_address = 4371 Glencoe Ave Suite B4, Marina Del Rey, CA 90292, USA
+v1_0_street_number = 4371
+v1_0_street_name = Glencoe Avenue
+v1_0_locality = Marina del Rey
+v1_1_name = SUGARFISH by sushi nozawa
+v1_1_rating = 4.5
+v1_1_is_open = True
+v1_1_place_id = ChIJoQYoin-6woARD9eSq3OWN8w
+v1_1_price_level = 3
+v1_1_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_1_latitude = 33.9789747
+v1_1_longitude = -118.4379886
+v1_1_address = 4722 Admiralty Way, Marina Del Rey, CA 90292, USA
+v1_1_street_number = 4722
+v1_1_street_name = Admiralty Way
+v1_1_locality = Marina del Rey
+v1_2_name = Kaya Sushi
+v1_2_rating = 4.2
+v1_2_is_open = True
+v1_2_place_id = ChIJ-fqzWom6woARK-55_q6qE9s
+v1_2_price_level = 3
+v1_2_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v1_2_latitude = 33.9913721
+v1_2_longitude = -118.4446183
+v1_2_address = 13400 Washington Blvd #102, Marina Del Rey, CA 90292, USA
+v1_2_street_number = 13400
+v1_2_street_name = Washington Boulevard
+v1_2_locality = Marina del Rey
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Irori Sushi [PARAM] SUGARFISH by sushi nozawa [PARAM] Kaya Sushi
+PREDICT: [ACTION] Is it one of those?
+PREDICT: [ACTION] wait_for_user
+u2_0 = which
+u2_1 = has
+u2_2 = the
+u2_3 = best
+u2_4 = rating
+u2_5 = ?
+PREDICT: [ACTION] It's called {}. [PARAM] Irori Sushi
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.6
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+u3_1 = that
+u3_2 = one
+PREDICT: [ACTION] Going to {} in {}. [PARAM] Irori Sushi [PARAM] Marina del Rey
+PREDICT: [ACTION] start_driving [PARAM] 33.9844791 [PARAM] -118.4391498

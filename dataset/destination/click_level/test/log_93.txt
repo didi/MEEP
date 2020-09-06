@@ -1,0 +1,56 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = need
+u1_2 = to
+u1_3 = hire
+u1_4 = an
+u1_5 = architect
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: architect hire
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 13432 Beach Ave, Marina Del Rey, CA 90292, United States
+v1_name = DNA Architecture + Design, Inc.
+v1_latitude = 33.9907152
+v1_longitude = -118.4449034
+v1_place_id = ChIJV3rfN4m6woARb3pG-BB4EzE
+v1_street_number = 13432
+v1_street_name = Beach Avenue
+v1_locality = Marina del Rey
+v1_distance = 1.0 mi
+v1_duration = 6 mins
+PREDICT: There is a {} on {}.
+PREDICT: DNA Architecture + Design, Inc.
+PREDICT: Beach Avenue
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = where
+u2_1 = is
+u2_2 = that
+u2_3 = ?
+u2_4 = how
+u2_5 = far
+u2_6 = away
+u2_7 = ?
+PREDICT: {} is at {}.
+PREDICT: DNA Architecture + Design, Inc.
+PREDICT: 13432 Beach Ave, Marina Del Rey, CA 90292, United States
+PREDICT: It is {} away.
+PREDICT: 6 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = six
+u3_1 = minutes
+u3_2 = ,
+u3_3 = ok
+u3_4 = ,
+u3_5 = sounds
+u3_6 = good
+PREDICT: Great, we are going to {}.
+PREDICT: DNA Architecture + Design, Inc.
+PREDICT: start_driving
+PREDICT: 33.9907152
+PREDICT: -118.4449034

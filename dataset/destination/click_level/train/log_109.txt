@@ -1,0 +1,43 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Manhattan
+u1_1 = Beach
+u1_2 = pier
+PREDICT: find_place
+PREDICT: Manhattan Beach pier
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 2 Manhattan Beach Blvd, Manhattan Beach, CA 90266, United States
+v1_name = Manhattan Beach Pier
+v1_latitude = 33.8843096
+v1_longitude = -118.4119731
+v1_place_id = ChIJ7U-BHeuzwoARAvYAqFtEc2A
+v1_street_number = 2
+v1_street_name = Manhattan Beach Boulevard
+v1_locality = Manhattan Beach
+v1_distance = 8.1 mi
+v1_duration = 22 mins
+PREDICT: It is {} and {} away.
+PREDICT: 8.1 mi
+PREDICT: 22 mins
+PREDICT: wait_for_user
+u2_0 = can
+u2_1 = you
+u2_2 = drop
+u2_3 = me
+u2_4 = right
+u2_5 = at
+u2_6 = the
+u2_7 = pier
+u2_8 = ?
+PREDICT: Yes.
+PREDICT: wait_for_user
+u3_0 = great
+u3_1 = !
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: start_driving
+PREDICT: 33.8843096
+PREDICT: -118.4119731

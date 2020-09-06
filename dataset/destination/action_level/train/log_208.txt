@@ -1,0 +1,55 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = middle
+u1_7 = eastern
+u1_8 = grocery
+u1_9 = store
+u1_10 = ..
+u1_11 = the
+u1_12 = one
+u1_13 = on
+u1_14 = Speedway
+PREDICT: [ACTION] places_nearby [PARAM] middle eastern grocery store Speedway [PARAM] 32.225 [PARAM] -110.861
+v1_0_name = Babylon Market
+v1_0_rating = 4.4
+v1_0_is_open = True
+v1_0_types = ['grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment']
+v1_0_latitude = 32.2358842
+v1_0_longitude = -110.907886
+v1_0_address = 3954 E Speedway Blvd, Tucson, AZ 85712, USA
+v1_0_street_number = 3954
+v1_0_street_name = East Speedway Boulevard
+v1_0_neighborhood = Peter Howell
+v1_0_locality = Tucson
+v1_0_distance = 4.5 mi
+v1_0_duration = 12 mins
+v1_1_name = Nur Import Market
+v1_1_rating = 4.5
+v1_1_is_open = True
+v1_1_types = ['restaurant', 'food', 'health', 'point_of_interest', 'store', 'establishment']
+v1_1_latitude = 32.2363715
+v1_1_longitude = -110.9162411
+v1_1_address = 3565 E Speedway Blvd #171, Tucson, AZ 85716, USA
+v1_1_street_number = 3565
+v1_1_street_name = East Speedway Boulevard
+v1_1_neighborhood = Palo Verde
+v1_1_locality = Tucson
+v1_1_distance = 4.5 mi
+v1_1_duration = 12 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Babylon Market [PARAM] East Speedway Boulevard [PARAM] Nur Import Market
+PREDICT: [ACTION] wait_for_user
+u2_0 = Babylon
+u2_1 = is
+u2_2 = the
+u2_3 = one
+u3_0 = lets
+u3_1 = go
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Babylon Market
+PREDICT: [ACTION] start_driving [PARAM] 32.2358842 [PARAM] -110.907886

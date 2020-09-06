@@ -1,0 +1,50 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = post
+u1_7 = office
+PREDICT: [ACTION] find_place [PARAM] post [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Basavanagudi Head Post Office With ATM
+v1_address = 61, Krishna Rajendra Rd, Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004, India
+v1_rating = 3.3
+v1_is_open = False
+v1_latitude = 12.9448275
+v1_longitude = 77.574079
+v1_street_number = 61
+v1_street_name = Krishna Rajendra Road
+v1_locality = Bengaluru
+v1_distance = 0.9 mi
+v1_duration = 4 mins
+PREDICT: [ACTION] How about {}? [PARAM] Basavanagudi Head Post Office With ATM
+PREDICT: [ACTION] It is {} away. [PARAM] 4 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = actually
+u2_1 = I
+u2_2 = want
+u2_3 = to
+u2_4 = go
+u2_5 = the
+u2_6 = Bangalore
+u2_7 = main
+u2_8 = post
+u2_9 = office
+PREDICT: [ACTION] find_place [PARAM] Bangalore main post office [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v2_name = Bengaluru General Post Office
+v2_address = Raj Bhavan Road, Ambedkar Veedhi, Bengaluru, Karnataka 560001, India
+v2_rating = 3.9
+v2_is_open = False
+v2_latitude = 12.9812201
+v2_longitude = 77.59506929999999
+v2_locality = Bengaluru
+v2_distance = 3.8 mi
+v2_duration = 20 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Bengaluru General Post Office
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 12.9812201 [PARAM] 77.59506929999999

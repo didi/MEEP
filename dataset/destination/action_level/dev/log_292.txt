@@ -1,0 +1,106 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = buy
+u1_4 = a
+u1_5 = grill
+u1_6 = .
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] grill [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Sharky's Woodfired Mexican Grill
+v1_address = 4371 Glencoe Ave, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9844833
+v1_longitude = -118.4392825
+v1_price_level = 2
+v1_types_0 = Restaurant
+v1_types_1 = Food
+v1_types_2 = Point of interest
+v1_types_3 = Establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 4371 Glencoe Avenue, Marina del Rey
+v1_street_number = 4371
+v1_street_name = Glencoe Avenue
+v1_locality = Marina del Rey
+v1_distance = 0.6 mi
+v1_duration = 6 mins
+PREDICT: [ACTION] find_place [PARAM] buy a grill [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Barbeques Galore
+v2_address = 11021 W Pico Blvd, Los Angeles, CA 90064, United States
+v2_latitude = 34.0380749
+v2_longitude = -118.4332308
+v2_types_0 = Furniture store
+v2_types_1 = Home goods store
+v2_types_2 = Restaurant
+v2_types_3 = Food
+v2_types_4 = Point of interest
+v2_types_5 = Store
+v2_types_6 = Establishment
+v2_rating = 4.3
+v2_is_open = True
+v2_address_simple = 11021 West Pico Boulevard, Los Angeles
+v2_street_number = 11021
+v2_street_name = West Pico Boulevard
+v2_neighborhood = West Los Angeles
+v2_locality = Los Angeles
+v2_distance = 6.9 mi
+v2_duration = 16 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Sharky's Woodfired Mexican Grill [PARAM] Glencoe Avenue
+PREDICT: [ACTION] wait_for_user
+u2_0 = no
+u2_1 = ,
+u2_2 = i
+u2_3 = do
+u2_4 = n't
+u2_5 = want
+u2_6 = to
+u2_7 = eat
+u2_8 = .
+u2_9 = I
+u2_10 = want
+u2_11 = to
+u2_12 = go
+u2_13 = to
+u2_14 = a
+u2_15 = place
+u2_16 = that
+u2_17 = sells
+u2_18 = grills
+u2_19 = and
+u2_20 = grilling
+u2_21 = supplies
+u2_22 = .
+PREDICT: [ACTION] find_place [PARAM] grilling supplies [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_name = Barbeques Galore
+v3_address = 11021 W Pico Blvd, Los Angeles, CA 90064, United States
+v3_latitude = 34.0380749
+v3_longitude = -118.4332308
+v3_types_0 = Furniture store
+v3_types_1 = Home goods store
+v3_types_2 = Restaurant
+v3_types_3 = Food
+v3_types_4 = Point of interest
+v3_types_5 = Store
+v3_types_6 = Establishment
+v3_rating = 4.3
+v3_is_open = True
+v3_address_simple = 11021 West Pico Boulevard, Los Angeles
+v3_street_number = 11021
+v3_street_name = West Pico Boulevard
+v3_neighborhood = West Los Angeles
+v3_locality = Los Angeles
+v3_distance = 6.9 mi
+v3_duration = 16 mins
+PREDICT: [ACTION] How about {}? [PARAM] Barbeques Galore
+PREDICT: [ACTION] It is on {}. [PARAM] West Pico Boulevard
+PREDICT: [ACTION] wait_for_user
+u3_0 = perfect
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 6.9 mi [PARAM] 16 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = Ready
+u4_1 = .
+PREDICT: [ACTION] start_driving [PARAM] 34.0380749 [PARAM] -118.4332308

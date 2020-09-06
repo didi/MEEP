@@ -1,0 +1,68 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = nearest
+u1_8 = Muji
+u1_9 = .
+PREDICT: [ACTION] places_nearby [PARAM] Muji [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = MUJI Santa Monica
+v1_0_rating = 4.5
+v1_0_is_open = True
+v1_0_place_id = ChIJvzYDAtK6woAR9qCvQXlVGiE
+v1_0_types = ['clothing_store', 'home_goods_store', 'point_of_interest', 'store', 'establishment']
+v1_0_latitude = 33.9986662
+v1_0_longitude = -118.480641
+v1_0_address = 2936 Main St, Santa Monica, CA 90405, USA
+v1_0_street_number = 2936
+v1_0_street_name = Main Street
+v1_0_neighborhood = Ocean Park
+v1_0_locality = Santa Monica
+v1_1_name = MUJI Third Street Promenade
+v1_1_rating = 4.4
+v1_1_is_open = True
+v1_1_place_id = ChIJ2fusCxKlwoARwY7LXIExVw0
+v1_1_types = ['department_store', 'home_goods_store', 'point_of_interest', 'store', 'establishment']
+v1_1_latitude = 34.0163658
+v1_1_longitude = -118.4963965
+v1_1_address = 1345 3rd Street Promenade, Santa Monica, CA 90401, USA
+v1_1_street_number = 1345
+v1_1_street_name = 3rd Street Promenade
+v1_1_neighborhood = Downtown
+v1_1_locality = Santa Monica
+v1_2_name = MUJI
+v1_2_rating = 4.5
+v1_2_is_open = True
+v1_2_place_id = ChIJgxLgoofAwoARJxCnuHScelU
+v1_2_price_level = 2
+v1_2_types = ['department_store', 'furniture_store', 'home_goods_store', 'point_of_interest', 'clothing_store', 'store', 'establishment']
+v1_2_latitude = 34.1021896
+v1_2_longitude = -118.3429738
+v1_2_address = 7021 Hollywood Blvd, Los Angeles, CA 90028, USA
+v1_2_street_number = 7021
+v1_2_street_name = Hollywood Boulevard
+v1_2_neighborhood = Central LA
+v1_2_locality = Los Angeles
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 33.9986662 [PARAM] -118.480641
+v2_distance = 3.1 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] The closest {} is {} away. [PARAM] Muji [PARAM] 3.1 mi
+PREDICT: [ACTION] It is on {}. [PARAM] Main Street
+PREDICT: [ACTION] It is in {} [PARAM] Ocean Park
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = great
+u2_3 = ,
+u2_4 = let
+u2_5 = 's
+u2_6 = go
+u2_7 = !
+PREDICT: [ACTION] start_driving [PARAM] 33.9986662 [PARAM] -118.480641

@@ -1,0 +1,146 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = shopping
+u1_6 = at
+u1_7 = some
+u1_8 = outlets
+u1_9 = outside
+u1_10 = of
+u1_11 = LA
+u1_12 = .
+PREDICT: [ACTION] find_place [PARAM] shopping outlets outside of LA [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = L A Outlet Inc
+v1_address = 401 E 11th St, Los Angeles, CA 90015, United States
+v1_latitude = 34.037228
+v1_longitude = -118.2548887
+v1_types_0 = shopping mall
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.3
+v1_address_simple = 401 East 11th Street, Los Angeles
+v1_street_number = 401
+v1_street_name = East 11th Street
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 17.0 mi
+v1_duration = 28 mins
+PREDICT: [ACTION] find_place [PARAM] shopping outlets [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Waterside, Marina del Rey
+v2_address = 4700 Admiralty Way, Marina Del Rey, CA 90292, United States
+v2_latitude = 33.9794574
+v2_longitude = -118.438763
+v2_types_0 = shopping mall
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 4.4
+v2_is_open = True
+v2_address_simple = 4700 Admiralty Way, Marina del Rey
+v2_street_number = 4700
+v2_street_name = Admiralty Way
+v2_locality = Marina del Rey
+v2_distance = 0.3 mi
+v2_duration = 3 mins
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] shopping mall [PARAM] L A Outlet Inc [PARAM] East 11th Street [PARAM] Downtown Los Angeles
+PREDICT: [ACTION] wait_for_user
+u2_0 = No
+u2_1 = ,
+u2_2 = I
+u2_3 = mean
+u2_4 = like
+u2_5 = an
+u2_6 = outlet
+u2_7 = center
+u2_8 = ,
+u2_9 = like
+u2_10 = the
+u2_11 = one
+u2_12 = past
+u2_13 = the
+u2_14 = grapevine
+u2_15 = ,
+u2_16 = on
+u2_17 = the
+u2_18 = 5
+u2_19 = freeway
+u2_20 = .
+PREDICT: [ACTION] find_place [PARAM] outlet center past the grapevine [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_name = Outlets at Tejon
+v3_address = 5701 Outlets at Tejon Pkwy #170, Arvin, CA 93203, United States
+v3_latitude = 34.9851612
+v3_longitude = -118.9417594
+v3_types_0 = shoe store
+v3_types_1 = jewelry store
+v3_types_2 = point of interest
+v3_types_3 = clothing store
+v3_types_4 = store
+v3_types_5 = establishment
+v3_rating = 4.3
+v3_is_open = True
+v3_address_simple = 5701 Outlets at Tejon Parkway #170, Arvin
+v3_street_number = 5701
+v3_street_name = Outlets at Tejon Parkway
+v3_locality = Arvin
+v3_distance = 86.6 mi
+v3_duration = 1 hour 30 mins
+PREDICT: [ACTION] How about {}? [PARAM] Outlets at Tejon
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 86.6 mi [PARAM] 1 hour 30 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = That
+u3_1 = 's
+u3_2 = not
+u3_3 = bad
+u3_4 = ,
+u3_5 = do
+u3_6 = you
+u3_7 = know
+u3_8 = the
+u3_9 = city
+u3_10 = ?
+PREDICT: [ACTION] It is in {}. [PARAM] Arvin
+PREDICT: [ACTION] wait_for_user
+u4_0 = uhhh
+u4_1 = ,
+u4_2 = how
+u4_3 = far
+u4_4 = is
+u4_5 = that
+u4_6 = from
+u4_7 = bakersfield
+u4_8 = ?
+PREDICT: [ACTION] find_place [PARAM] bakersfield [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = Bakersfield
+v4_address = Bakersfield, CA, USA
+v4_latitude = 35.3732921
+v4_longitude = -119.0187125
+v4_types_0 = locality
+v4_types_1 = political
+v4_address_simple = Bakersfield
+v4_locality = Bakersfield
+v4_distance = 114 mi
+v4_duration = 1 hour 56 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 35.3732921 [PARAM] -119.0187125 [PARAM] 34.9851612 [PARAM] -118.9417594
+v5_distance = 30.2 mi
+v5_duration = 33 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Outlets at Tejon [PARAM] 30.2 mi [PARAM] Bakersfield
+PREDICT: [ACTION] wait_for_user
+u5_0 = oh
+u5_1 = great
+u5_2 = ,
+u5_3 = that
+u5_4 = 's
+u5_5 = the
+u5_6 = general
+u5_7 = direction
+u5_8 = i
+u5_9 = want
+u6_0 = that
+u6_1 = sounds
+u6_2 = good
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Outlets at Tejon
+PREDICT: [ACTION] start_driving [PARAM] 34.9851612 [PARAM] -118.9417594

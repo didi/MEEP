@@ -1,0 +1,35 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = nearest
+u1_7 = subway
+u1_8 = station
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] nearest subway station [PARAM] 43.848 [PARAM] -79.525
+v1_name = Vaughan Metropolitan Centre
+v1_address = 3150 Hwy 7, Vaughan, ON L4K 4R6, Canada
+v1_rating = 4.1
+v1_latitude = 43.7942439
+v1_longitude = -79.5274867
+v1_street_number = 3150
+v1_street_name = Highway 7
+v1_neighborhood = Concord
+v1_locality = Vaughan
+v1_distance = 4.3 mi
+v1_duration = 13 mins
+PREDICT: [ACTION] There is a {} on {}. [PARAM] Vaughan Metropolitan Centre [PARAM] Highway 7
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 43.7942439 [PARAM] -79.5274867

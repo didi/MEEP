@@ -1,0 +1,44 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = bike
+u1_1 = shop
+u1_2 = please
+u1_3 = .
+u1_4 = I
+u1_5 = need
+u1_6 = a
+u1_7 = water
+u1_8 = bottle
+PREDICT: [ACTION] find_place [PARAM] bike shop [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Helen's Cycles: Marina Del Rey
+v1_address = 2472 S Lincoln Blvd, Venice, CA 90291, United States
+v1_latitude = 33.9930419
+v1_longitude = -118.4502988
+v1_types_0 = bicycle store
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 4.8
+v1_is_open = True
+v1_address_simple = 2472 South Lincoln Boulevard, Venice
+v1_street_number = 2472
+v1_street_name = South Lincoln Boulevard
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 1.1 mi
+v1_duration = 6 mins
+PREDICT: [ACTION] How about {}? [PARAM] Helen's Cycles: Marina Del Rey
+PREDICT: [ACTION] wait_for_user
+u2_0 = oh
+u2_1 = yeah
+u2_2 = that
+u2_3 = place
+u2_4 = is
+u2_5 = nice
+u2_6 = .
+u2_7 = let
+u2_8 = 's
+u2_9 = do
+u2_10 = it
+PREDICT: [ACTION] start_driving [PARAM] 33.9930419 [PARAM] -118.4502988

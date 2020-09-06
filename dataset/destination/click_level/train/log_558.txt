@@ -1,0 +1,107 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = Soulcycle
+PREDICT: find_place
+PREDICT: Soulcycle
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = SoulCycle
+v1_address = 120 Wilshire Blvd, Santa Monica, CA 90401, United States
+v1_latitude = 34.0172829
+v1_longitude = -118.5000922
+v1_types_0 = gym
+v1_types_1 = health
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 120 Wilshire Boulevard, Santa Monica
+v1_street_number = 120
+v1_street_name = Wilshire Boulevard
+v1_locality = Santa Monica
+v1_distance = 5.0 mi
+v1_duration = 21 mins
+PREDICT: There is a {} on {}.
+PREDICT: SoulCycle
+PREDICT: Wilshire Boulevard
+PREDICT: It is {} away.
+PREDICT: 5.0 mi
+PREDICT: wait_for_user
+u2_0 = Are
+u2_1 = there
+u2_2 = any
+u2_3 = closer
+u2_4 = ?
+PREDICT: places_nearby
+PREDICT: Soulcycle
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = L.A. Soul Warehouse
+v2_0_rating = 0
+v2_0_types_0 = health
+v2_0_types_1 = point of interest
+v2_0_types_2 = establishment
+v2_0_latitude = 34.0416754
+v2_0_longitude = -118.4403316
+v2_0_address_simple = 2037 Pontius Avenue, Los Angeles
+v2_0_street_number = 2037
+v2_0_street_name = Pontius Avenue
+v2_0_neighborhood = West Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 8.3 mi
+v2_0_duration = 17 mins
+v2_1_name = SoulCycle
+v2_1_rating = 4.4
+v2_1_is_open = True
+v2_1_types_0 = gym
+v2_1_types_1 = health
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 34.0172829
+v2_1_longitude = -118.5000922
+v2_1_address_simple = 120 Wilshire Boulevard, Santa Monica
+v2_1_street_number = 120
+v2_1_street_name = Wilshire Boulevard
+v2_1_locality = Santa Monica
+v2_1_distance = 5.0 mi
+v2_1_duration = 21 mins
+v2_2_name = SoulCycle
+v2_2_rating = 4.7
+v2_2_is_open = True
+v2_2_types_0 = gym
+v2_2_types_1 = health
+v2_2_types_2 = point of interest
+v2_2_types_3 = establishment
+v2_2_latitude = 34.0274607
+v2_2_longitude = -118.3869594
+v2_2_address_simple = 8820 Washington Boulevard, Culver City
+v2_2_street_number = 8820
+v2_2_street_name = Washington Boulevard
+v2_2_neighborhood = Lucerne - Higuera
+v2_2_locality = Culver City
+v2_2_distance = 6.3 mi
+v2_2_duration = 17 mins
+PREDICT: I could not find a {} closer than that.
+PREDICT: SoulCycle
+PREDICT: wait_for_user
+u3_0 = Ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = there
+u3_6 = then
+u3_7 = .
+PREDICT: Great, we are going to {}.
+PREDICT: Santa Monica
+PREDICT: start_driving
+PREDICT: 34.0172829
+PREDICT: -118.5000922

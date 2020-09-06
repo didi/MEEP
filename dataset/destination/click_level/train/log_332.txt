@@ -1,0 +1,59 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = REI
+u1_6 = .
+u1_7 = Down
+u1_8 = south
+u1_9 = ,
+u1_10 = like
+u1_11 = Hawthorne
+u1_12 = or
+u1_13 = somewhere
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: REI Hawthorne
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = REI
+v1_address = 1800 Rosecrans Ave Ste E, Manhattan Beach, CA 90266, United States
+v1_latitude = 33.900527
+v1_longitude = -118.379719
+v1_types_0 = shoe store
+v1_types_1 = bicycle store
+v1_types_2 = point of interest
+v1_types_3 = clothing store
+v1_types_4 = store
+v1_types_5 = establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 1800 Rosecrans Avenue Ste E, Manhattan Beach
+v1_street_number = 1800
+v1_street_name = Rosecrans Avenue
+v1_locality = Manhattan Beach
+v1_distance = 10.1 mi
+v1_duration = 16 mins
+PREDICT: There is a {} in {}.
+PREDICT: REI
+PREDICT: Manhattan Beach
+PREDICT: It is {} away.
+PREDICT: 16 mins
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = it
+u2_3 = ,
+u2_4 = you
+u2_5 = got
+u2_6 = it
+u2_7 = .
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 33.900527
+PREDICT: -118.379719

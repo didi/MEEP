@@ -1,0 +1,73 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = get
+u1_7 = soul
+u1_8 = food
+PREDICT: [ACTION] places_nearby [PARAM] soul food [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = The Serving Spoon
+v1_0_rating = 4.6
+v1_0_is_open = True
+v1_0_price_level = 2
+v1_0_types_0 = restaurant
+v1_0_types_1 = food
+v1_0_types_2 = point of interest
+v1_0_types_3 = establishment
+v1_0_latitude = 33.9762859
+v1_0_longitude = -118.3634243
+v1_0_address_simple = 1403 Centinela Avenue, Inglewood
+v1_0_street_number = 1403
+v1_0_street_name = Centinela Avenue
+v1_0_locality = Inglewood
+v1_0_distance = 5.4 mi
+v1_0_duration = 13 mins
+v1_1_name = Dulan's Soul Food Kitchen
+v1_1_rating = 4.4
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types_0 = restaurant
+v1_1_types_1 = food
+v1_1_types_2 = point of interest
+v1_1_types_3 = establishment
+v1_1_latitude = 33.9615771
+v1_1_longitude = -118.353089
+v1_1_address_simple = 202 East Manchester Boulevard, Inglewood
+v1_1_street_number = 202
+v1_1_street_name = East Manchester Boulevard
+v1_1_locality = Inglewood
+v1_1_distance = 6.5 mi
+v1_1_duration = 14 mins
+v1_2_name = African Soul Food Restaurant
+v1_2_rating = 0
+v1_2_types_0 = restaurant
+v1_2_types_1 = food
+v1_2_types_2 = point of interest
+v1_2_types_3 = establishment
+v1_2_latitude = 33.9475519
+v1_2_longitude = -118.3524176
+v1_2_address_simple = 1176 South La Brea Avenue, Inglewood
+v1_2_street_number = 1176
+v1_2_street_name = South La Brea Avenue
+v1_2_locality = Inglewood
+v1_2_distance = 7.6 mi
+v1_2_duration = 16 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] The Serving Spoon [PARAM] Dulan's Soul Food Kitchen [PARAM] African Soul Food Restaurant
+PREDICT: [ACTION] They are all on {}. [PARAM] Inglewood
+PREDICT: [ACTION] They are all in {} [PARAM] Inglewood
+PREDICT: [ACTION] wait_for_user
+u2_0 = Cool
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+u2_5 = to
+u2_6 = Dulan
+u2_7 = 's
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Dulan's Soul Food Kitchen
+PREDICT: [ACTION] start_driving [PARAM] 33.9615771 [PARAM] -118.353089

@@ -1,0 +1,35 @@
+source_address = 4035 Grand View Blvd, Los Angeles, CA 90066, United States
+source_latitude = 33.999
+source_longitude = -118.427
+u1_0 = leos
+u1_1 = tacos
+u1_2 = please
+PREDICT: find_place
+PREDICT: leos tacos
+PREDICT: 33.999
+PREDICT: -118.427
+v1_name = Leo's Tacos Truck
+v1_address = 1515 South La Brea Ave, Los Angeles, CA 90019, United States
+v1_latitude = 34.0463592
+v1_longitude = -118.3458036
+v1_price_level = 1
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.6
+v1_is_open = True
+v1_address_simple = 1515 South La Brea Avenue, Los Angeles
+v1_street_number = 1515
+v1_street_name = South La Brea Avenue
+v1_neighborhood = Mid City
+v1_locality = Los Angeles
+v1_distance = 8.8 mi
+v1_duration = 18 mins
+PREDICT: I found {} in {}.
+PREDICT: Leo's Tacos Truck
+PREDICT: Mid City
+PREDICT: Shall we go?
+PREDICT: start_driving
+PREDICT: 34.0463592
+PREDICT: -118.3458036

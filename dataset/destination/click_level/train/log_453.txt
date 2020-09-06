@@ -1,0 +1,136 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.678
+source_longitude = -122.307
+u1_0 = fish
+u1_1 = ladder
+u1_2 = please
+PREDICT: find_place
+PREDICT: fish ladder
+PREDICT: 47.678
+PREDICT: -122.307
+v1_name = Ballard (Hiram M. Chittenden) Locks
+v1_address = 3015 NW 54th St, Seattle, WA 98107, United States
+v1_latitude = 47.66550429999999
+v1_longitude = -122.3971838
+v1_types_0 = museum
+v1_types_1 = travel agency
+v1_types_2 = park
+v1_types_3 = point of interest
+v1_types_4 = establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 3015 Northwest 54th Street, Seattle
+v1_street_number = 3015
+v1_street_name = Northwest 54th Street
+v1_neighborhood = Old Ballard
+v1_locality = Seattle
+v1_distance = 6.7 mi
+v1_duration = 23 mins
+PREDICT: Do you mean {}?
+PREDICT: Ballard (Hiram M. Chittenden) Locks
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = so
+u2_3 = ?
+u2_4 = is
+u2_5 = there
+u2_6 = a
+u2_7 = fish
+u2_8 = ladder
+u2_9 = there
+u2_10 = ?
+u2_11 = or
+u2_12 = fish
+u2_13 = locks
+u2_14 = ?
+u3_0 = I
+u3_1 = 'm
+u3_2 = not
+u3_3 = sure
+u3_4 = what
+u3_5 = it
+u3_6 = 's
+u3_7 = called
+u3_8 = but
+u3_9 = there
+u3_10 = are
+u3_11 = salmon
+u3_12 = there
+PREDICT: places_nearby
+PREDICT: fish ladder locks salmon
+PREDICT: 47.678
+PREDICT: -122.307
+v2_0_name = Ballard (Hiram M. Chittenden) Locks
+v2_0_rating = 4.7
+v2_0_is_open = True
+v2_0_types_0 = museum
+v2_0_types_1 = travel agency
+v2_0_types_2 = park
+v2_0_types_3 = point of interest
+v2_0_types_4 = establishment
+v2_0_latitude = 47.66550429999999
+v2_0_longitude = -122.3971838
+v2_0_address_simple = 3015 Northwest 54th Street, Seattle
+v2_0_street_number = 3015
+v2_0_street_name = Northwest 54th Street
+v2_0_neighborhood = Old Ballard
+v2_0_locality = Seattle
+v2_0_distance = 6.7 mi
+v2_0_duration = 23 mins
+u4_0 = it
+u4_1 = 's
+u4_2 = on
+u4_3 = the
+u4_4 = opposite
+u4_5 = side
+u4_6 = of
+u4_7 = the
+u4_8 = dam/lock
+u4_9 = thing
+u4_10 = from
+u4_11 = Ballard
+PREDICT: places_nearby
+PREDICT: fish ladder dam/lock
+PREDICT: 47.678
+PREDICT: -122.307
+v3_0_name = Ballard (Hiram M. Chittenden) Locks
+v3_0_rating = 4.7
+v3_0_is_open = True
+v3_0_types_0 = museum
+v3_0_types_1 = travel agency
+v3_0_types_2 = park
+v3_0_types_3 = point of interest
+v3_0_types_4 = establishment
+v3_0_latitude = 47.66550429999999
+v3_0_longitude = -122.3971838
+v3_0_address_simple = 3015 Northwest 54th Street, Seattle
+v3_0_street_number = 3015
+v3_0_street_name = Northwest 54th Street
+v3_0_neighborhood = Old Ballard
+v3_0_locality = Seattle
+v3_0_distance = 6.7 mi
+v3_0_duration = 23 mins
+v3_1_name = Ballard Locks Fish Ladder
+v3_1_rating = 4.8
+v3_1_types_0 = tourist attraction
+v3_1_types_1 = point of interest
+v3_1_types_2 = establishment
+v3_1_latitude = 47.6646806
+v3_1_longitude = -122.3975822
+v3_1_address_simple = 2930 West Commodore Way, Seattle
+v3_1_street_number = 2930
+v3_1_street_name = West Commodore Way
+v3_1_locality = Seattle
+v3_1_distance = 6.7 mi
+v3_1_duration = 23 mins
+PREDICT: How about {}?
+PREDICT: Ballard Locks Fish Ladder
+PREDICT: It is on {}.
+PREDICT: West Commodore Way
+PREDICT: wait_for_user
+u5_0 = exactly
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 47.6646806
+PREDICT: -122.3975822

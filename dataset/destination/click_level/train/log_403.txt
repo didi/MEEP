@@ -1,0 +1,47 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = buy
+u1_4 = a
+u1_5 = wetsuit
+PREDICT: find_place
+PREDICT: wetsuit
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Rip Curl
+v1_address = 1451 3rd Street Promenade, Santa Monica, CA 90401, United States
+v1_latitude = 34.0148155
+v1_longitude = -118.4947587
+v1_price_level = 2
+v1_types_0 = point of interest
+v1_types_1 = clothing store
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 1451 3rd Street Promenade, Santa Monica
+v1_street_number = 1451
+v1_street_name = 3rd Street Promenade
+v1_neighborhood = Downtown
+v1_locality = Santa Monica
+v1_distance = 4.3 mi
+v1_duration = 20 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: clothing store
+PREDICT: Rip Curl
+PREDICT: 3rd Street Promenade
+PREDICT: Santa Monica
+PREDICT: wait_for_user
+u2_0 = sure
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: You will reach there in {}.
+PREDICT: 20 mins
+PREDICT: start_driving
+PREDICT: 34.0148155
+PREDICT: -118.4947587

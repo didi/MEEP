@@ -1,0 +1,88 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = the
+u1_1 = ACC
+PREDICT: find_place
+PREDICT: ACC
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v1_name = Scotiabank Arena
+v1_address = 40 Bay St, Toronto, ON M5J 2X2, Canada
+v1_rating = 4.5
+v1_latitude = 43.6434661
+v1_longitude = -79.3790989
+v1_street_number = 40
+v1_street_name = Bay Street
+v1_locality = Toronto
+v1_distance = 3.4 mi
+v1_duration = 18 mins
+PREDICT: Do you mean {}?
+PREDICT: Scotiabank Arena
+PREDICT: wait_for_user
+u2_0 = i
+u2_1 = guess
+u3_0 = can
+u3_1 = you
+u3_2 = find
+u3_3 = me
+u3_4 = shawarma
+u3_5 = nearby/
+PREDICT: places_nearby
+PREDICT: shawarma
+PREDICT: 43.6434661
+PREDICT: -79.3790989
+v2_0_name = Pita & Grill
+v2_0_rating = 3.6
+v2_0_is_open = True
+v2_0_price_level = 1
+v2_0_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v2_0_latitude = 43.6423636
+v2_0_longitude = -79.38334800000001
+v2_0_address = 131 Bremner Blvd, Toronto, ON M5J 3A7, Canada
+v2_0_street_number = 131
+v2_0_street_name = Bremner Boulevard
+v2_0_locality = Toronto
+v2_0_distance = 1.4 mi
+v2_0_duration = 6 mins
+v2_1_name = Shawarma's King
+v2_1_rating = 2.8
+v2_1_is_open = True
+v2_1_price_level = 1
+v2_1_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v2_1_latitude = 43.64735779999999
+v2_1_longitude = -79.3870747
+v2_1_address = 214 King St W, Toronto, ON M5H 3S6, Canada
+v2_1_street_number = 214
+v2_1_street_name = King Street West
+v2_1_locality = Toronto
+v2_1_distance = 1.6 mi
+v2_1_duration = 8 mins
+v2_2_name = Big Pita
+v2_2_rating = 4.6
+v2_2_is_open = True
+v2_2_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v2_2_latitude = 43.6494453
+v2_2_longitude = -79.3707587
+v2_2_address = 115 Front St E, Toronto, ON M5A 4S5, Canada
+v2_2_street_number = 115
+v2_2_street_name = Front Street East
+v2_2_locality = Toronto
+v2_2_distance = 2.7 mi
+v2_2_duration = 8 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Pita & Grill
+PREDICT: Shawarma's King
+PREDICT: Big Pita
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u4_0 = first
+u4_1 = one
+PREDICT: It is {} away.
+PREDICT: 1.4 mi
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u5_0 = yup
+PREDICT: start_driving
+PREDICT: 43.6423636
+PREDICT: -79.38334800000001

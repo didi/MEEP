@@ -1,0 +1,33 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = RVCE
+PREDICT: find_place
+PREDICT: RVCE
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v1_name = RV College of Engineering®
+v1_address = Mysore Rd, RV Vidyaniketan, Post, Bengaluru, Karnataka 560059, India
+v1_rating = 4.3
+v1_is_open = False
+v1_latitude = 12.9237228
+v1_longitude = 77.4987012
+v1_street_name = Mysore Road
+v1_locality = Bengaluru
+v1_distance = 6.7 mi
+v1_duration = 29 mins
+PREDICT: {} on {}?
+PREDICT: RV College of Engineering®
+PREDICT: Mysore Road
+PREDICT: wait_for_user
+u2_0 = yes
+u3_0 = lets
+u3_1 = go
+PREDICT: start_driving
+PREDICT: 12.9237228
+PREDICT: 77.4987012

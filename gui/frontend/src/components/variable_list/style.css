@@ -1,0 +1,32 @@
+.groupVariables:empty::before {
+    content: "No variables returned by API call."
+}
+
+.typeStyle {
+    margin-bottom: 5px !important;
+}
+.typeStyle li {
+    display: inline-block;
+}
+.utterance_variables {
+    display: inline-block;
+    margin: 3px 1px;
+}
+.variable-widget {
+    flex: 1 1 100%;
+}
+.variable-widget ul {
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+.variable-widget ul li {
+    margin-bottom: 5px;
+    position: relative;
+}
+.variable-widget h4 {
+    margin: 5px;
+}
+.variable-widget h5 {
+    margin: 3px;
+}
+

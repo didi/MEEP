@@ -1,0 +1,181 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = an
+u1_7 = event
+u1_8 = venue
+u1_9 = in
+u1_10 = Arts
+u1_11 = District
+u1_12 = .
+u2_0 = it
+u2_1 = also
+u2_2 = doubles
+u2_3 = as
+u2_4 = a
+u2_5 = nursery
+PREDICT: find_place
+PREDICT: Arts District
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Arts District
+v1_address = Arts District, Los Angeles, CA, USA
+v1_latitude = 34.0418947
+v1_longitude = -118.2326448
+v1_types_0 = Neighborhood
+v1_types_1 = Political
+v1_address_simple = Los Angeles
+v1_neighborhood = Arts District
+v1_locality = Los Angeles
+v1_distance = 19.5 mi
+v1_duration = 31 mins
+PREDICT: places_nearby
+PREDICT: event venue
+PREDICT: 34.0418947
+PREDICT: -118.2326448
+v2_0_name = Stendhal
+v2_0_rating = 0
+v2_0_is_open = True
+v2_0_types_0 = Point of interest
+v2_0_types_1 = Establishment
+v2_0_latitude = 34.042641
+v2_0_longitude = -118.234891
+v2_0_address_simple = 962B E 4th St entrance is in the alley adjacent to 428, South Hewitt Street, Los Angeles
+v2_0_street_name = South Hewitt Street
+v2_0_neighborhood = Downtown Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 0.4 mi
+v2_0_duration = 3 mins
+v2_1_name = 440 Seaton
+v2_1_rating = 4.3
+v2_1_types_0 = Point of interest
+v2_1_types_1 = Establishment
+v2_1_latitude = 34.04234539999999
+v2_1_longitude = -118.2373663
+v2_1_address_simple = 440 Seaton Street, Los Angeles
+v2_1_street_number = 440
+v2_1_street_name = Seaton Street
+v2_1_neighborhood = Downtown Los Angeles
+v2_1_locality = Los Angeles
+v2_1_distance = 0.5 mi
+v2_1_duration = 3 mins
+v2_2_name = Millwick
+v2_2_rating = 4.7
+v2_2_is_open = True
+v2_2_types_0 = Point of interest
+v2_2_types_1 = Establishment
+v2_2_latitude = 34.044192
+v2_2_longitude = -118.236809
+v2_2_address_simple = 800 East 4th Place, Los Angeles
+v2_2_street_number = 800
+v2_2_street_name = East 4th Place
+v2_2_neighborhood = Downtown Los Angeles
+v2_2_locality = Los Angeles
+v2_2_distance = 0.5 mi
+v2_2_duration = 2 mins
+PREDICT: find_place
+PREDICT: event venue nursery
+PREDICT: 34.0418947
+PREDICT: -118.2326448
+v3_name = Big Red Sun
+v3_address = 560 Rose Ave, Venice, CA 90291, United States
+v3_latitude = 33.9988087
+v3_longitude = -118.4721501
+v3_types_0 = Home goods store
+v3_types_1 = General contractor
+v3_types_2 = Point of interest
+v3_types_3 = Store
+v3_types_4 = Establishment
+v3_rating = 4.3
+v3_is_open = True
+v3_address_simple = 560 Rose Avenue, Venice
+v3_street_number = 560
+v3_street_name = Rose Avenue
+v3_neighborhood = Venice
+v3_locality = Los Angeles
+v3_distance = 18.3 mi
+v3_duration = 30 mins
+PREDICT: places_nearby
+PREDICT: event venue nursery
+PREDICT: 34.0418947
+PREDICT: -118.2326448
+v4_0_name = Millwick
+v4_0_rating = 4.7
+v4_0_is_open = True
+v4_0_types_0 = Point of interest
+v4_0_types_1 = Establishment
+v4_0_latitude = 34.044192
+v4_0_longitude = -118.236809
+v4_0_address_simple = 800 East 4th Place, Los Angeles
+v4_0_street_number = 800
+v4_0_street_name = East 4th Place
+v4_0_neighborhood = Downtown Los Angeles
+v4_0_locality = Los Angeles
+v4_0_distance = 0.5 mi
+v4_0_duration = 2 mins
+v4_1_name = Rolling Greens Downtown Los Angeles
+v4_1_rating = 4.8
+v4_1_is_open = True
+v4_1_types_0 = Point of interest
+v4_1_types_1 = Store
+v4_1_types_2 = Establishment
+v4_1_latitude = 34.0313899
+v4_1_longitude = -118.2323713
+v4_1_address_simple = 1005 Mateo Street, Los Angeles
+v4_1_street_number = 1005
+v4_1_street_name = Mateo Street
+v4_1_neighborhood = Downtown Los Angeles
+v4_1_locality = Los Angeles
+v4_1_distance = 0.8 mi
+v4_1_duration = 3 mins
+v4_2_name = Fig Earth Supply
+v4_2_rating = 4.3
+v4_2_is_open = True
+v4_2_types_0 = Furniture store
+v4_2_types_1 = Home goods store
+v4_2_types_2 = Point of interest
+v4_2_types_3 = Store
+v4_2_types_4 = Establishment
+v4_2_latitude = 34.089996
+v4_2_longitude = -118.2135763
+v4_2_address_simple = 3577 North Figueroa Street, Los Angeles
+v4_2_street_number = 3577
+v4_2_street_name = North Figueroa Street
+v4_2_neighborhood = Northeast Los Angeles
+v4_2_locality = Los Angeles
+v4_2_distance = 4.7 mi
+v4_2_duration = 11 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Millwick
+PREDICT: Rolling Greens Downtown Los Angeles
+PREDICT: Fig Earth Supply
+PREDICT: Is it one of those?
+PREDICT: wait_for_user
+u3_0 = The
+u3_1 = second
+u3_2 = one
+u3_3 = .
+u3_4 = How
+u3_5 = is
+u3_6 = it
+u3_7 = rated
+u3_8 = ?
+PREDICT: {} has a rating of {}.
+PREDICT: Rolling Greens Downtown Los Angeles
+PREDICT: 4.8
+PREDICT: wait_for_user
+u4_0 = Awesome
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = .
+PREDICT: start_driving
+PREDICT: 34.0313899
+PREDICT: -118.2323713

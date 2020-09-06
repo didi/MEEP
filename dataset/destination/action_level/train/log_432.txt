@@ -1,0 +1,120 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = qin
+u1_1 = west
+u1_2 = noodle
+u1_3 = please
+PREDICT: [ACTION] find_place [PARAM] qin west noodle [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Qin West Noodle
+v1_address = 1767 Westwood Blvd, Los Angeles, CA 90024, United States
+v1_latitude = 34.050555
+v1_longitude = -118.4382297
+v1_price_level = 1
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.3
+v1_is_open = False
+v1_address_simple = 1767 Westwood Boulevard, Los Angeles
+v1_street_number = 1767
+v1_street_name = Westwood Boulevard
+v1_neighborhood = Westwood
+v1_locality = Los Angeles
+v1_distance = 8.4 mi
+v1_duration = 18 mins
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] restaurant [PARAM] Qin West Noodle [PARAM] Westwood Boulevard [PARAM] Westwood
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 8.4 mi [PARAM] 18 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = i
+u2_1 = remember
+u2_2 = there
+u2_3 = are
+u2_4 = more
+u2_5 = than
+u2_6 = one
+u2_7 = qin
+u2_8 = west
+u2_9 = ,
+u2_10 = is
+u2_11 = this
+u2_12 = the
+u2_13 = closest
+u2_14 = ?
+u3_0 = i
+u3_1 = want
+u3_2 = to
+u3_3 = go
+u3_4 = to
+u3_5 = the
+u3_6 = closest
+u3_7 = one
+u3_8 = .
+PREDICT: [ACTION] places_nearby [PARAM] qin west noodle [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = Qin West Noodle
+v2_0_rating = 4.3
+v2_0_is_open = False
+v2_0_price_level = 1
+v2_0_types_0 = restaurant
+v2_0_types_1 = food
+v2_0_types_2 = point of interest
+v2_0_types_3 = establishment
+v2_0_latitude = 34.050555
+v2_0_longitude = -118.4382297
+v2_0_address_simple = 1767 Westwood Boulevard, Los Angeles
+v2_0_street_number = 1767
+v2_0_street_name = Westwood Boulevard
+v2_0_neighborhood = Westwood
+v2_0_locality = Los Angeles
+v2_0_distance = 8.4 mi
+v2_0_duration = 18 mins
+v2_1_name = Qin West Noodle
+v2_1_rating = 4.2
+v2_1_is_open = False
+v2_1_price_level = 1
+v2_1_types_0 = restaurant
+v2_1_types_1 = food
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 34.028471
+v2_1_longitude = -118.2751366
+v2_1_address_simple = 2520 South Figueroa Street, Los Angeles
+v2_1_street_number = 2520
+v2_1_street_name = South Figueroa Street
+v2_1_neighborhood = South Los Angeles
+v2_1_locality = Los Angeles
+v2_1_distance = 16.0 mi
+v2_1_duration = 26 mins
+v2_2_name = Qin West Noodle
+v2_2_rating = 4.2
+v2_2_is_open = False
+v2_2_price_level = 1
+v2_2_types_0 = restaurant
+v2_2_types_1 = food
+v2_2_types_2 = point of interest
+v2_2_types_3 = establishment
+v2_2_latitude = 34.06126
+v2_2_longitude = -118.239478
+v2_2_address_simple = 727 North Broadway #111, Los Angeles
+v2_2_street_number = 727
+v2_2_street_name = North Broadway
+v2_2_neighborhood = Central LA
+v2_2_locality = Los Angeles
+v2_2_distance = 19.1 mi
+v2_2_duration = 32 mins
+PREDICT: [ACTION] I found two places: {} and {}. [PARAM] 2520 South Figueroa Street, Los Angeles [PARAM] 727 North Broadway #111, Los Angeles
+PREDICT: [ACTION] {} is closest. [PARAM] Westwood Boulevard
+PREDICT: [ACTION] wait_for_user
+u4_0 = what
+u4_1 = 's
+u4_2 = rating
+u4_3 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.3
+PREDICT: [ACTION] wait_for_user
+u5_0 = ok
+u5_1 = ,
+u5_2 = sounds
+u5_3 = good
+PREDICT: [ACTION] start_driving [PARAM] 34.050555 [PARAM] -118.4382297

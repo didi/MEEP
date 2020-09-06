@@ -1,0 +1,123 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = get
+u1_4 = breakfast
+u1_5 = burritos
+u1_6 = at
+u1_7 = Lucky
+u1_8 = Boy
+u1_9 = .
+PREDICT: find_place
+PREDICT: Lucky Boy
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Lucky Boy
+v1_address = 640 S Arroyo Pkwy, Pasadena, CA 91105, United States
+v1_latitude = 34.1346349
+v1_longitude = -118.1470559
+v1_types_0 = Meal takeaway
+v1_types_1 = Restaurant
+v1_types_2 = Food
+v1_types_3 = Point of interest
+v1_types_4 = Establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 640 South Arroyo Parkway, Pasadena
+v1_street_number = 640
+v1_street_name = South Arroyo Parkway
+v1_locality = Pasadena
+v1_distance = 26.5 mi
+v1_duration = 40 mins
+PREDICT: There is a {} in {}.
+PREDICT: Lucky Boy
+PREDICT: Pasadena
+PREDICT: Are you okay with that one?
+PREDICT: It has a rating of {}.
+PREDICT: 4.5
+PREDICT: wait_for_user
+u2_0 = Wait
+u2_1 = ,
+u2_2 = are
+u2_3 = n't
+u2_4 = there
+u2_5 = 2
+u2_6 = Lucky
+u2_7 = Boy
+u2_8 = locations
+u2_9 = in
+u2_10 = Pasadena
+u2_11 = ?
+u3_0 = Or
+u3_1 = just
+u3_2 = one
+u3_3 = ?
+PREDICT: places_nearby
+PREDICT: Lucky Boy
+PREDICT: 34.1346349
+PREDICT: -118.1470559
+v2_0_name = Lucky Boy
+v2_0_rating = 4.5
+v2_0_is_open = True
+v2_0_types_0 = Meal takeaway
+v2_0_types_1 = Restaurant
+v2_0_types_2 = Food
+v2_0_types_3 = Point of interest
+v2_0_types_4 = Establishment
+v2_0_latitude = 34.1346349
+v2_0_longitude = -118.1470559
+v2_0_address_simple = 640 South Arroyo Parkway, Pasadena
+v2_0_street_number = 640
+v2_0_street_name = South Arroyo Parkway
+v2_0_locality = Pasadena
+v2_0_distance = 1 ft
+v2_0_duration = 1 min
+v2_1_name = Lucky Boy Drive-In at Walnut
+v2_1_rating = 4.4
+v2_1_is_open = True
+v2_1_price_level = 1
+v2_1_types_0 = Restaurant
+v2_1_types_1 = Food
+v2_1_types_2 = Point of interest
+v2_1_types_3 = Establishment
+v2_1_latitude = 34.149743
+v2_1_longitude = -118.139737
+v2_1_address_simple = 531 East Walnut Street, Pasadena
+v2_1_street_number = 531
+v2_1_street_name = East Walnut Street
+v2_1_locality = Pasadena
+v2_1_distance = 1.5 mi
+v2_1_duration = 7 mins
+PREDICT: I found two places: {} and {}.
+PREDICT: South Arroyo Parkway
+PREDICT: East Walnut Street
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u4_0 = Which
+u4_1 = one
+u4_2 = has
+u4_3 = a
+u4_4 = higher
+u4_5 = rating
+u4_6 = ?
+PREDICT: All are rated {}.
+PREDICT: 4.5
+PREDICT: How about one on {}? It is {} away.
+PREDICT: South Arroyo Parkway
+PREDICT: 40 mins
+PREDICT: wait_for_user
+u5_0 = Sure
+u5_1 = that
+u5_2 = works
+u5_3 = .
+u5_4 = Let
+u5_5 = 's
+u5_6 = go
+u5_7 = .
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.1346349
+PREDICT: -118.1470559

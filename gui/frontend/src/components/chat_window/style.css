@@ -1,0 +1,31 @@
+.chatWindow {
+    display: block;
+    flex: 1 1 auto;
+    min-height: 50%;
+    height: 700px; /* Arbitrarily large height that will be shrunk by flexbox to fix Safari bug */
+}
+
+.chatMessages {
+    border: thin solid grey;
+    border-bottom: none;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 4px 4px 0 0;
+    height: 100%;
+    max-height: 1000px;
+    list-style: none;
+    overflow: auto;
+    margin: 0 0 10px 0;
+}
+
+.confirmButton {
+    border-radius: 10px;
+    display: inline-block;
+    height: 2em;
+    width: 30%;
+    background: #ddd;
+    line-height: 2em;
+    text-align: center;
+    margin: 5px 10px 0;
+    cursor: pointer;
+}

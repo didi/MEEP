@@ -1,0 +1,58 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = shoe
+u1_8 = store
+PREDICT: find_place
+PREDICT: shoe store
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = DSW Designer Shoe Warehouse
+v1_address = 13450 Maxella Ave, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.986249
+v1_longitude = -118.441318
+v1_price_level = 2
+v1_types_0 = shoe store
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 4.1
+v1_is_open = True
+v1_address_simple = 13450 Maxella Avenue, Marina del Rey
+v1_street_number = 13450
+v1_street_name = Maxella Avenue
+v1_locality = Marina del Rey
+v1_distance = 0.7 mi
+v1_duration = 5 mins
+PREDICT: I found {} in {}.
+PREDICT: DSW Designer Shoe Warehouse
+PREDICT: Marina del Rey
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = Sounds
+u2_1 = great
+u2_2 = ,
+u2_3 = how
+u2_4 = far
+u2_5 = is
+u2_6 = it
+u2_7 = ?
+PREDICT: It is {} away.
+PREDICT: 0.7 mi
+PREDICT: wait_for_user
+u3_0 = Ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.986249
+PREDICT: -118.441318

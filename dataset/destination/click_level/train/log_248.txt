@@ -1,0 +1,209 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = an
+u1_7 = REI
+u1_8 = ,
+u1_9 = there
+u1_10 = 's
+u1_11 = a
+u1_12 = really
+u1_13 = big
+u1_14 = one
+u1_15 = ,
+u1_16 = it
+u1_17 = 's
+u1_18 = near
+u1_19 = Pasadena
+u1_20 = area
+u1_21 = .
+PREDICT: find_place
+PREDICT: REI near Pasadena
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = REI
+v1_address = 214 N Santa Anita Ave, Arcadia, CA 91006, United States
+v1_latitude = 34.142576
+v1_longitude = -118.031048
+v1_types_0 = Shoe store
+v1_types_1 = Bicycle store
+v1_types_2 = Point of interest
+v1_types_3 = Clothing store
+v1_types_4 = Store
+v1_types_5 = Establishment
+v1_rating = 4.6
+v1_is_open = True
+v1_address_simple = 214 North Santa Anita Avenue, Arcadia
+v1_street_number = 214
+v1_street_name = North Santa Anita Avenue
+v1_locality = Arcadia
+v1_distance = 37.2 mi
+v1_duration = 50 mins
+PREDICT: There is a {} in {}.
+PREDICT: REI
+PREDICT: Arcadia
+PREDICT: It is {} away.
+PREDICT: 37.2 mi
+PREDICT: wait_for_user
+u2_0 = Nah
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = not
+u2_5 = the
+u2_6 = one
+u2_7 = .
+u2_8 = It
+u2_9 = 's
+u2_10 = in
+u2_11 = a
+u2_12 = different
+u2_13 = city
+u2_14 = .
+PREDICT: find_place
+PREDICT: Pasadena
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Pasadena
+v2_address = Pasadena, CA, USA
+v2_latitude = 34.1477849
+v2_longitude = -118.1445155
+v2_types_0 = Locality
+v2_types_1 = Political
+v2_address_simple = Pasadena
+v2_locality = Pasadena
+v2_distance = 27.5 mi
+v2_duration = 45 mins
+PREDICT: distance_matrix
+PREDICT: 34.1477849
+PREDICT: -118.1445155
+PREDICT: 34.142576
+PREDICT: -118.031048
+v3_distance = 7.4 mi
+v3_duration = 10 mins
+PREDICT: {} is {} away from {}.
+PREDICT: REI
+PREDICT: 7.4 mi
+PREDICT: Pasadena
+PREDICT: wait_for_user
+u3_0 = No
+u3_1 = I
+u3_2 = mean
+u3_3 = it
+u3_4 = 's
+u3_5 = not
+u3_6 = in
+u3_7 = Arcadia
+u3_8 = .
+u4_0 = That
+u4_1 = one
+u4_2 = is
+u4_3 = small
+u4_4 = ,
+u4_5 = I
+u4_6 = 'm
+u4_7 = thinking
+u4_8 = of
+u4_9 = a
+u4_10 = different
+u4_11 = location
+u4_12 = .
+u5_0 = Can
+u5_1 = you
+u5_2 = tell
+u5_3 = me
+u5_4 = which
+u5_5 = locations
+u5_6 = are
+u5_7 = closest
+u5_8 = to
+u5_9 = Pasadena
+u5_10 = ?
+PREDICT: places_nearby
+PREDICT: REI
+PREDICT: 34.1477849
+PREDICT: -118.1445155
+v4_0_name = REI
+v4_0_rating = 4.6
+v4_0_is_open = True
+v4_0_types_0 = Shoe store
+v4_0_types_1 = Bicycle store
+v4_0_types_2 = Point of interest
+v4_0_types_3 = Clothing store
+v4_0_types_4 = Store
+v4_0_types_5 = Establishment
+v4_0_latitude = 34.142576
+v4_0_longitude = -118.031048
+v4_0_address_simple = 214 North Santa Anita Avenue, Arcadia
+v4_0_street_number = 214
+v4_0_street_name = North Santa Anita Avenue
+v4_0_locality = Arcadia
+v4_0_distance = 7.4 mi
+v4_0_duration = 10 mins
+v4_1_name = REI
+v4_1_rating = 4.6
+v4_1_is_open = True
+v4_1_types_0 = Shoe store
+v4_1_types_1 = Bicycle store
+v4_1_types_2 = Point of interest
+v4_1_types_3 = Clothing store
+v4_1_types_4 = Store
+v4_1_types_5 = Establishment
+v4_1_latitude = 34.191391
+v4_1_longitude = -118.3324057
+v4_1_address_simple = 1900 Empire Avenue, Burbank
+v4_1_street_number = 1900
+v4_1_street_name = Empire Avenue
+v4_1_locality = Burbank
+v4_1_distance = 13.7 mi
+v4_1_duration = 20 mins
+v4_2_name = REI
+v4_2_rating = 4.7
+v4_2_is_open = True
+v4_2_types_0 = Shoe store
+v4_2_types_1 = Bicycle store
+v4_2_types_2 = Point of interest
+v4_2_types_3 = Clothing store
+v4_2_types_4 = Store
+v4_2_types_5 = Establishment
+v4_2_latitude = 33.900527
+v4_2_longitude = -118.379719
+v4_2_address_simple = 1800 Rosecrans Avenue Ste E, Manhattan Beach
+v4_2_street_number = 1800
+v4_2_street_name = Rosecrans Avenue
+v4_2_locality = Manhattan Beach
+v4_2_distance = 27.4 mi
+v4_2_duration = 39 mins
+PREDICT: There is a {} in {}.
+PREDICT: REI
+PREDICT: Burbank
+PREDICT: There is a {} in {}.
+PREDICT: REI
+PREDICT: Manhattan Beach
+PREDICT: Which would you like to go to? 
+PREDICT: wait_for_user
+u6_0 = You
+u6_1 = got
+u6_2 = it
+u6_3 = ,
+u6_4 = let
+u6_5 = 's
+u6_6 = go
+u6_7 = to
+u6_8 = the
+u6_9 = one
+u6_10 = in
+u6_11 = Burbank
+u6_12 = .
+PREDICT: Going to {} in {}.
+PREDICT: REI
+PREDICT: Burbank
+PREDICT: start_driving
+PREDICT: 34.191391
+PREDICT: -118.3324057

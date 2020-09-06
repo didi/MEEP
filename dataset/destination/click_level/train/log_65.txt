@@ -1,0 +1,82 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Exposition
+u1_7 = Park
+u1_8 = .
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: Exposition Park
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 700 Exposition Park Dr, Los Angeles, CA 90037, United States
+v1_name = Exposition Park
+v1_latitude = 34.0149382
+v1_longitude = -118.2861984
+v1_place_id = ChIJOe8VwQnIwoARB-EGOd2XBfY
+v1_street_number = 700
+v1_street_name = Exposition Park Drive
+v1_neighborhood = South Los Angeles
+v1_locality = Los Angeles
+v1_distance = 19.1 mi
+v1_duration = 29 mins
+PREDICT: There is a {} on {}.
+PREDICT: Exposition Park
+PREDICT: Exposition Park Drive
+PREDICT: It is {} away.
+PREDICT: 19.1 mi
+PREDICT: wait_for_user
+u2_0 = That
+u2_1 = should
+u2_2 = be
+u2_3 = it
+u2_4 = ,
+u2_5 = how
+u2_6 = far
+u2_7 = is
+u2_8 = it
+u2_9 = from
+u2_10 = USC
+u2_11 = ?
+PREDICT: find_place
+PREDICT: USC
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = Los Angeles, CA 90007, United States
+v2_name = University of Southern California
+v2_latitude = 34.0223519
+v2_longitude = -118.285117
+v2_place_id = ChIJ7aVxnOTHwoARxKIntFtakKo
+v2_locality = Los Angeles
+v2_neighborhood = South Los Angeles
+v2_distance = 15.7 mi
+v2_duration = 28 mins
+PREDICT: distance_matrix
+PREDICT: 34.0149382
+PREDICT: -118.2861984
+PREDICT: 34.0223519
+PREDICT: -118.285117
+v3_distance = 1.5 mi
+v3_duration = 8 mins
+PREDICT: It is {} away.
+PREDICT: 1.5 mi
+PREDICT: wait_for_user
+u3_0 = Okay
+u3_1 = ,
+u3_2 = that
+u3_3 = sounds
+u3_4 = right
+u3_5 = ,
+u3_6 = let
+u3_7 = 's
+u3_8 = go
+u3_9 = !
+PREDICT: start_driving
+PREDICT: 34.0149382
+PREDICT: -118.2861984

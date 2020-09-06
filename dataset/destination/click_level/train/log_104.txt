@@ -1,0 +1,33 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = the
+u1_1 = zoo
+PREDICT: find_place
+PREDICT: the zoo
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 5333 Zoo Dr, Los Angeles, CA 90027, United States
+v1_name = Los Angeles Zoo
+v1_latitude = 34.1483445
+v1_longitude = -118.2841086
+v1_place_id = ChIJ1cdRl2XAwoAR_WUoKRXLQTY
+v1_street_number = 5333
+v1_street_name = Zoo Drive
+v1_locality = Los Angeles
+v1_distance = 27.4 mi
+v1_duration = 40 mins
+PREDICT: There is a {} in {}.
+PREDICT: Los Angeles Zoo
+PREDICT: Los Angeles
+PREDICT: It is {} away.
+PREDICT: 40 mins
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = sure
+u2_1 = ,
+u2_2 = yes
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.1483445
+PREDICT: -118.2841086

@@ -1,0 +1,61 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = chinese
+u1_8 = grocery
+u1_9 = store
+PREDICT: [ACTION] places_nearby [PARAM] chinese grocery store [PARAM] 43.657 [PARAM] -79.401
+v1_0_name = Hua Sheng Supermarket
+v1_0_rating = 3.7
+v1_0_is_open = True
+v1_0_types = ['supermarket', 'grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment']
+v1_0_latitude = 43.653557
+v1_0_longitude = -79.398
+v1_0_address = 299 Spadina Ave, Toronto, ON M5T 2E6, Canada
+v1_0_street_number = 299
+v1_0_street_name = Spadina Avenue
+v1_0_locality = Toronto
+v1_0_distance = 0.8 mi
+v1_0_duration = 5 mins
+v1_1_name = Kai Wei Supermarket
+v1_1_rating = 3.9
+v1_1_is_open = True
+v1_1_types = ['supermarket', 'grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment']
+v1_1_latitude = 43.6520507
+v1_1_longitude = -79.3974021
+v1_1_address = 253 Spadina Ave, Toronto, ON M5T 2E3, Canada
+v1_1_street_number = 253
+v1_1_street_name = Spadina Avenue
+v1_1_locality = Toronto
+v1_1_distance = 1.0 mi
+v1_1_duration = 7 mins
+v1_2_name = Lucky Moose Food Mart
+v1_2_rating = 4.1
+v1_2_is_open = True
+v1_2_types = ['supermarket', 'grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment']
+v1_2_latitude = 43.653565
+v1_2_longitude = -79.3942758
+v1_2_address = 393 Dundas St W, Toronto, ON M5T 1G6, Canada
+v1_2_street_number = 393
+v1_2_street_name = Dundas Street West
+v1_2_locality = Toronto
+v1_2_distance = 0.6 mi
+v1_2_duration = 5 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Hua Sheng Supermarket [PARAM] Kai Wei Supermarket [PARAM] Lucky Moose Food Mart
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Let
+u2_1 = 's
+u2_2 = do
+u2_3 = Lucky
+u2_4 = Moose
+u2_5 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Lucky Moose Food Mart
+PREDICT: [ACTION] start_driving [PARAM] 43.653565 [PARAM] -79.3942758

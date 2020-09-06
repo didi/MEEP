@@ -1,0 +1,157 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = go
+u1_4 = to
+u1_5 = on
+u1_6 = a
+u1_7 = hike
+u1_8 = in
+u1_9 = Topanga
+u1_10 = ,
+u1_11 = are
+u1_12 = there
+u1_13 = any
+u1_14 = trails
+u1_15 = around
+u1_16 = there
+u1_17 = ?
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: Topanga
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = Topanga, CA, USA
+v1_name = Topanga
+v1_latitude = 34.0919452
+v1_longitude = -118.6021321
+v1_place_id = ChIJ4d7gcdyhwoARTf9E9wDtgdU
+v1_locality = Topanga
+v1_distance = 14.4 mi
+v1_duration = 35 mins
+PREDICT: places_nearby
+PREDICT: hike trails
+PREDICT: 34.0919452
+PREDICT: -118.6021321
+v2_0_name = Backbone Trail Head Old Topanga
+v2_0_rating = 3
+v2_0_place_id = ChIJ2dVS9tuhwoARivBP1mC1c1Y
+v2_0_types = ['park', 'point_of_interest', 'establishment']
+v2_0_latitude = 34.0930147
+v2_0_longitude = -118.6089814
+v2_0_address = 454-476 Old Topanga Canyon Rd, Topanga, CA 90290, USA
+v2_0_street_number = 454-476
+v2_0_street_name = Old Topanga Canyon Road
+v2_0_locality = Topanga
+v2_1_name = Trippet Ranch
+v2_1_rating = 4.6
+v2_1_is_open = True
+v2_1_place_id = ChIJu9U-iPChwoARagEy-c4EBuQ
+v2_1_types = ['tourist_attraction', 'park', 'point_of_interest', 'establishment']
+v2_1_latitude = 34.0932462
+v2_1_longitude = -118.5884911
+v2_1_address = 20828 Entrada Rd, Topanga, CA 90290, USA
+v2_1_street_number = 20828
+v2_1_street_name = Entrada Road
+v2_1_locality = Topanga
+v2_2_name = Topanga State Park
+v2_2_rating = 4.7
+v2_2_is_open = True
+v2_2_place_id = ChIJ80VgrkaiwoARpSSTW7vH0tM
+v2_2_types = ['tourist_attraction', 'park', 'point_of_interest', 'establishment']
+v2_2_latitude = 34.0931823
+v2_2_longitude = -118.5873146
+v2_2_address = 20828 Entrada Rd, Topanga, CA 90290, USA
+v2_2_street_number = 20828
+v2_2_street_name = Entrada Road
+v2_2_locality = Topanga
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Backbone Trail Head Old Topanga
+PREDICT: Trippet Ranch
+PREDICT: Topanga State Park
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u2_0 = Great
+u2_1 = ,
+u2_2 = I
+u2_3 = was
+u2_4 = thinking
+u2_5 = of
+u2_6 = Topanga
+u2_7 = State
+u2_8 = Park
+u2_9 = ,
+u2_10 = how
+u2_11 = far
+u2_12 = away
+u2_13 = is
+u2_14 = it
+u2_15 = ?
+PREDICT: find_place
+PREDICT: Topanga State Park
+PREDICT: 34.0931823
+PREDICT: -118.5873146
+v3_address = 20828 Entrada Rd, Topanga, CA 90290, United States
+v3_name = Topanga State Park
+v3_latitude = 34.0931823
+v3_longitude = -118.5873146
+v3_place_id = ChIJ80VgrkaiwoARpSSTW7vH0tM
+v3_street_number = 20828
+v3_street_name = Entrada Road
+v3_locality = Topanga
+v3_distance = 1 ft
+v3_duration = 1 min
+PREDICT: find_place
+PREDICT: Topanga State Park
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_address = 20828 Entrada Rd, Topanga, CA 90290, United States
+v4_name = Topanga State Park
+v4_latitude = 34.0931823
+v4_longitude = -118.5873146
+v4_place_id = ChIJ80VgrkaiwoARpSSTW7vH0tM
+v4_street_number = 20828
+v4_street_name = Entrada Road
+v4_locality = Topanga
+v4_distance = 15.7 mi
+v4_duration = 40 mins
+PREDICT: It is {} and {} away.
+PREDICT: 15.7 mi
+PREDICT: 40 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = Is
+u3_1 = the
+u3_2 = destination
+u3_3 = north
+u3_4 = up
+u3_5 = Topanga
+u3_6 = Canyon
+u3_7 = Road
+u3_8 = ?
+PREDICT: find_place
+PREDICT: Topanga Canyon Road
+PREDICT: 34.0931823
+PREDICT: -118.5873146
+v5_address = CA-27, California, USA
+v5_name = CA-27
+v5_latitude = 34.0919071
+v5_longitude = -118.60173
+v5_place_id = ChIJA9EfvcaewoARytBIf-b1B80
+v5_street_name = California 27
+v5_distance = 1.4 mi
+v5_duration = 6 mins
+PREDICT: Yes.
+PREDICT: wait_for_user
+u4_0 = Perfect
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = !
+PREDICT: start_driving
+PREDICT: 34.0931823
+PREDICT: -118.5873146

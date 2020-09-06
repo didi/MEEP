@@ -1,0 +1,42 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Is
+u1_1 = there
+u1_2 = a
+u1_3 = chess
+u1_4 = club
+u1_5 = nearby
+u1_6 = ?
+PREDICT: find_place
+PREDICT: chess club
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Los Angeles Chess Club
+v1_address = 11514 Santa Monica Blvd 2nd floor, Los Angeles, CA 90025, United States
+v1_latitude = 34.0452335
+v1_longitude = -118.4520607
+v1_types_0 = school
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 5
+v1_is_open = False
+v1_address_simple = 11514 Santa Monica Boulevard 2nd floor, Los Angeles
+v1_street_number = 11514
+v1_street_name = Santa Monica Boulevard
+v1_neighborhood = West Los Angeles
+v1_locality = Los Angeles
+v1_distance = 8.0 mi
+v1_duration = 16 mins
+PREDICT: I found {} in {}.
+PREDICT: Los Angeles Chess Club
+PREDICT: West Los Angeles
+PREDICT: It is {} and {} away.
+PREDICT: 8.0 mi
+PREDICT: 16 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: start_driving
+PREDICT: 34.0452335
+PREDICT: -118.4520607

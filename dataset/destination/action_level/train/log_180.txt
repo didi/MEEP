@@ -1,0 +1,44 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = hey
+u1_1 = ,
+u1_2 = can
+u1_3 = you
+u1_4 = find
+u1_5 = me
+u1_6 = a
+u1_7 = good
+u1_8 = restaurant
+u1_9 = in
+u1_10 = greektown
+u1_11 = ?
+PREDICT: [ACTION] find_place [PARAM] restaurant greektown [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Mezes
+v1_address = 456 Danforth Ave, Toronto, ON M4K 1P3, Canada
+v1_price_level = 2
+v1_rating = 4.5
+v1_is_open = True
+v1_latitude = 43.6780661
+v1_longitude = -79.35026979999999
+v1_street_number = 456
+v1_street_name = Danforth Avenue
+v1_locality = Toronto
+v1_distance = 3.0 mi
+v1_duration = 15 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Mezes [PARAM] Danforth Avenue
+PREDICT: [ACTION] wait_for_user
+u2_0 = what
+u2_1 = 's
+u2_2 = the
+u2_3 = rating
+u2_4 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.5
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = great
+u3_1 = let
+u3_2 = 's
+u3_3 = go
+u3_4 = there
+PREDICT: [ACTION] start_driving [PARAM] 43.6780661 [PARAM] -79.35026979999999

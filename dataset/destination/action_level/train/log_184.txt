@@ -1,0 +1,33 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = old
+u1_5 = main
+u1_6 = in
+u1_7 = univ
+u1_8 = of
+u1_9 = Arizona
+PREDICT: [ACTION] places_nearby [PARAM] old main univ of Arizona [PARAM] 32.225 [PARAM] -110.861
+v1_0_name = Old Main Building
+v1_0_types = ['premise']
+v1_0_latitude = 32.2318671
+v1_0_longitude = -110.9534181
+v1_0_address = Old Main Building, Tucson, AZ 85721, USA
+v1_0_locality = Tucson
+v1_0_distance = 7.1 mi
+v1_0_duration = 21 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Old Main Building
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] It is {} away. [PARAM] 21 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = sure
+u3_1 = ..
+u3_2 = lets
+u3_3 = go
+PREDICT: [ACTION] start_driving [PARAM] 32.2318671 [PARAM] -110.9534181

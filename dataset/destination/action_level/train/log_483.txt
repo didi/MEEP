@@ -1,0 +1,118 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = westfield
+PREDICT: [ACTION] find_place [PARAM] westfield [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Westfield Culver City
+v1_address = 6000 Sepulveda Blvd, Culver City, CA 90230, United States
+v1_latitude = 33.9863172
+v1_longitude = -118.3917359
+v1_types_0 = shopping mall
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 6000 Sepulveda Boulevard, Culver City
+v1_street_number = 6000
+v1_street_name = Sepulveda Boulevard
+v1_neighborhood = Fox Hills
+v1_locality = Culver City
+v1_distance = 3.7 mi
+v1_duration = 9 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Westfield Culver City
+PREDICT: [ACTION] places_nearby [PARAM] westfield [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = Nordstrom Rack Westfield Culver City
+v2_0_rating = 4.2
+v2_0_is_open = True
+v2_0_types_0 = department store
+v2_0_types_1 = shoe store
+v2_0_types_2 = point of interest
+v2_0_types_3 = clothing store
+v2_0_types_4 = store
+v2_0_types_5 = establishment
+v2_0_latitude = 33.98656
+v2_0_longitude = -118.3926191
+v2_0_address_simple = 6000 Sepulveda Boulevard, Culver City
+v2_0_street_number = 6000
+v2_0_street_name = Sepulveda Boulevard
+v2_0_neighborhood = Fox Hills
+v2_0_locality = Culver City
+v2_0_distance = 3.7 mi
+v2_0_duration = 9 mins
+v2_1_name = Westfield Dining Terrace
+v2_1_rating = 3.5
+v2_1_types_0 = restaurant
+v2_1_types_1 = food
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 33.9853575
+v2_1_longitude = -118.3923328
+v2_1_address_simple = Fox Hills Drive, Culver City
+v2_1_street_name = Fox Hills Drive
+v2_1_neighborhood = Fox Hills
+v2_1_locality = Culver City
+v2_1_distance = 3.9 mi
+v2_1_duration = 10 mins
+v2_2_name = Westfield Culver City
+v2_2_rating = 4.4
+v2_2_is_open = True
+v2_2_types_0 = shopping mall
+v2_2_types_1 = point of interest
+v2_2_types_2 = establishment
+v2_2_latitude = 33.9863172
+v2_2_longitude = -118.3917359
+v2_2_address_simple = 6000 Sepulveda Boulevard, Culver City
+v2_2_street_number = 6000
+v2_2_street_name = Sepulveda Boulevard
+v2_2_neighborhood = Fox Hills
+v2_2_locality = Culver City
+v2_2_distance = 3.7 mi
+v2_2_duration = 9 mins
+PREDICT: [ACTION] It is {} away. [PARAM] 9 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = i
+u2_1 = want
+u2_2 = to
+u2_3 = go
+u2_4 = to
+u2_5 = the
+u2_6 = one
+u2_7 = with
+u2_8 = mei
+u2_9 = zhou
+u2_10 = dong
+u2_11 = po
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] mei zhou dong westfield [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_name = Meizhou Dongpo Restaurant
+v3_address = 10250 Santa Monica Blvd, Los Angeles, CA 90067, United States
+v3_latitude = 34.0578823
+v3_longitude = -118.41906
+v3_price_level = 2
+v3_types_0 = restaurant
+v3_types_1 = food
+v3_types_2 = point of interest
+v3_types_3 = establishment
+v3_rating = 3.6
+v3_is_open = False
+v3_address_simple = 10250 Santa Monica Boulevard, Los Angeles
+v3_street_number = 10250
+v3_street_name = Santa Monica Boulevard
+v3_neighborhood = Century City
+v3_locality = Los Angeles
+v3_distance = 9.5 mi
+v3_duration = 21 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Meizhou Dongpo Restaurant [PARAM] Century City
+PREDICT: [ACTION] It is on {}. [PARAM] Santa Monica Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 21 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+PREDICT: [ACTION] It is {} away. [PARAM] 9.5 mi
+PREDICT: [ACTION] wait_for_user
+u4_0 = ok
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.0578823 [PARAM] -118.41906

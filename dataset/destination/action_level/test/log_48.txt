@@ -1,0 +1,47 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = rock
+u1_8 = climbing
+u1_9 = gym
+u1_10 = in
+u1_11 = Hollywood
+u1_12 = ,
+u1_13 = I
+u1_14 = forget
+u1_15 = the
+u1_16 = name
+u1_17 = .
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] rock climbing in Hollywood [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 1107 N Bronson Ave, Los Angeles, CA 90038, United States
+v1_name = Hollywood Boulders
+v1_latitude = 34.0912218
+v1_longitude = -118.318296
+v1_place_id = ChIJD-zMRku_woARZ0UneILkymE
+v1_street_number = 1107
+v1_street_name = North Bronson Avenue
+v1_neighborhood = Central LA
+v1_locality = Los Angeles
+v1_distance = 17.1 mi
+v1_duration = 36 mins
+PREDICT: [ACTION] There is a {} on {}. [PARAM] Hollywood Boulders [PARAM] North Bronson Avenue
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 17.1 mi [PARAM] 36 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = the
+u2_3 = one
+u2_4 = ,
+u2_5 = let
+u2_6 = 's
+u2_7 = go
+u2_8 = !
+PREDICT: [ACTION] start_driving [PARAM] 34.0912218 [PARAM] -118.318296

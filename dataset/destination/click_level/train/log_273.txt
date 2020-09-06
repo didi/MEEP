@@ -1,0 +1,63 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Upahara
+u1_6 = darshini
+PREDICT: find_place
+PREDICT: Upahara darshini
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v1_name = Upahara Darshini
+v1_address = DVG Road, Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004, India
+v1_latitude = 12.939296
+v1_longitude = 77.57134219999999
+v1_price_level = 2
+v1_types_0 = Cafe
+v1_types_1 = Restaurant
+v1_types_2 = Food
+v1_types_3 = Point of interest
+v1_types_4 = Store
+v1_types_5 = Establishment
+v1_rating = 4.2
+v1_is_open = False
+v1_address_simple = DV Gundappa Road, Gandhi Bazaar, Basavanagudi, Bengaluru
+v1_street_name = DV Gundappa Road
+v1_locality = Bengaluru
+v1_distance = 0.1 mi
+v1_duration = 1 min
+PREDICT: {} in {}?
+PREDICT: Upahara Darshini
+PREDICT: DV Gundappa Road, Gandhi Bazaar, Basavanagudi, Bengaluru
+PREDICT: wait_for_user
+u2_0 = yes
+u2_1 = that
+u2_2 = 's
+u2_3 = the
+u2_4 = one
+PREDICT: It is {} and {} away.
+PREDICT: 0.1 mi
+PREDICT: 1 min
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = do
+u3_1 = you
+u3_2 = happen
+u3_3 = to
+u3_4 = know
+u3_5 = its
+u3_6 = rating
+u3_7 = ?
+PREDICT: It has a rating of {}.
+PREDICT: 4.2
+PREDICT: wait_for_user
+u4_0 = great
+u4_1 = lets
+u4_2 = go
+PREDICT: start_driving
+PREDICT: 12.939296
+PREDICT: 77.57134219999999

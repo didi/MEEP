@@ -1,0 +1,79 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = Hello
+u1_1 = ,
+u1_2 = I
+u1_3 = would
+u1_4 = like
+u1_5 = to
+u1_6 = go
+u1_7 = to
+u1_8 = Fitness
+u1_9 = SF
+PREDICT: [ACTION] find_place [PARAM] Fitness SF [PARAM] 37.760 [PARAM] -122.429
+v1_name = FITNESS SF - Castro
+v1_address = 2301 Market St, San Francisco, CA 94114, United States
+v1_latitude = 37.7637248
+v1_longitude = -122.4333972
+v1_types_0 = gym
+v1_types_1 = health
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.1
+v1_is_open = True
+v1_address_simple = 2301 Market Street, San Francisco
+v1_street_number = 2301
+v1_street_name = Market Street
+v1_neighborhood = Eureka Valley
+v1_locality = San Francisco
+v1_distance = 0.6 mi
+v1_duration = 5 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] FITNESS SF - Castro [PARAM] San Francisco
+PREDICT: [ACTION] wait_for_user
+u2_0 = Great
+u2_1 = ,
+u2_2 = it
+u2_3 = 's
+u2_4 = at
+u2_5 = Castro
+u2_6 = and
+u2_7 = Mission
+u2_8 = right
+u2_9 = ?
+PREDICT: [ACTION] find_place [PARAM] Castro and Mission [PARAM] 37.760 [PARAM] -122.429
+v2_name = The Castro
+v2_address = The Castro, San Francisco, CA, USA
+v2_latitude = 37.7609082
+v2_longitude = -122.4350043
+v2_types_0 = neighborhood
+v2_types_1 = political
+v2_address_simple = San Francisco
+v2_neighborhood = The Castro
+v2_locality = San Francisco
+v2_distance = 0.3 mi
+v2_duration = 2 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 37.7609082 [PARAM] -122.4350043 [PARAM] 37.7637248 [PARAM] -122.4333972
+v3_distance = 0.3 mi
+v3_duration = 3 mins
+PREDICT: [ACTION] find_place [PARAM] Castro and Mission [PARAM] 37.760 [PARAM] -122.429
+v4_name = The Castro
+v4_address = The Castro, San Francisco, CA, USA
+v4_latitude = 37.7609082
+v4_longitude = -122.4350043
+v4_types_0 = neighborhood
+v4_types_1 = political
+v4_address_simple = San Francisco
+v4_neighborhood = The Castro
+v4_locality = San Francisco
+v4_distance = 0.3 mi
+v4_duration = 2 mins
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] FITNESS SF - Castro
+PREDICT: [ACTION] start_driving [PARAM] 37.7637248 [PARAM] -122.4333972

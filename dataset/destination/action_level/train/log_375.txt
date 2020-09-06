@@ -1,0 +1,44 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Chinatown
+PREDICT: [ACTION] find_place [PARAM] Chinatown [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Chinatown
+v1_address = Chinatown, Los Angeles, CA, USA
+v1_latitude = 34.0623339
+v1_longitude = -118.2383309
+v1_types_0 = neighborhood
+v1_types_1 = political
+v1_address_simple = Los Angeles
+v1_neighborhood = Chinatown
+v1_locality = Los Angeles
+v1_distance = 19.0 mi
+v1_duration = 32 mins
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 19.0 mi [PARAM] 32 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Downtown
+u2_1 = ,
+u2_2 = right
+u2_3 = ?
+PREDICT: [ACTION] find_place [PARAM] Downtown [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Downtown Los Angeles
+v2_address = Downtown Los Angeles, Los Angeles, CA, USA
+v2_latitude = 34.040713
+v2_longitude = -118.2467693
+v2_types_0 = neighborhood
+v2_types_1 = political
+v2_address_simple = Los Angeles
+v2_neighborhood = Downtown Los Angeles
+v2_locality = Los Angeles
+v2_distance = 18.1 mi
+v2_duration = 30 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 34.040713 [PARAM] -118.2467693 [PARAM] 34.0623339 [PARAM] -118.2383309
+v3_distance = 1.9 mi
+v3_duration = 10 mins
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] wait_for_user
+u3_0 = OK
+PREDICT: [ACTION] It is {} away from {}. [PARAM] 10 mins [PARAM] Downtown Los Angeles
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.0623339 [PARAM] -118.2383309

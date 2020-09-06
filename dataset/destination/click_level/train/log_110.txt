@@ -1,0 +1,245 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = coffee
+u1_3 = but
+u1_4 = not
+u1_5 = at
+u1_6 = starbucks
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: places_nearby
+PREDICT: coffee not starbucks
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Starbucks
+v1_0_rating = 3.9
+v1_0_is_open = True
+v1_0_place_id = ChIJHYIQ-oa6woARtDKWzAiUJ0M
+v1_0_price_level = 2
+v1_0_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v1_0_latitude = 33.9843078
+v1_0_longitude = -118.4430027
+v1_0_address = 4311 Lincoln Blvd, Marina Del Rey, CA 90292, USA
+v1_0_street_number = 4311
+v1_0_street_name = Lincoln Boulevard
+v1_0_neighborhood = Venice
+v1_0_locality = Marina del Rey
+v1_1_name = Starbucks
+v1_1_rating = 4.1
+v1_1_is_open = True
+v1_1_place_id = ChIJiW1nhn26woARxPfG8ghvEwg
+v1_1_price_level = 2
+v1_1_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v1_1_latitude = 33.985106
+v1_1_longitude = -118.43958
+v1_1_address = 4365 Glencoe Ave, Marina Del Rey, CA 90292, USA
+v1_1_street_number = 4365
+v1_1_street_name = Glencoe Avenue
+v1_1_locality = Marina del Rey
+v1_2_name = Starbucks
+v1_2_rating = 4.1
+v1_2_is_open = True
+v1_2_place_id = ChIJ0XoH3H-6woARABGggUIPBPQ
+v1_2_price_level = 2
+v1_2_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v1_2_latitude = 33.978721
+v1_2_longitude = -118.437827
+v1_2_address = 4724 1/2 Admiralty Way Space A-22, Marina Del Rey, CA 90292, USA
+v1_2_street_number = 4724 1/2
+v1_2_street_name = Admiralty Way
+v1_2_locality = Marina del Rey
+PREDICT: places_nearby
+PREDICT: coffee
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = McDonald's
+v2_0_rating = 3.6
+v2_0_is_open = True
+v2_0_place_id = ChIJsWoNelHBwoARe6bLvFbnMDI
+v2_0_price_level = 1
+v2_0_types = ['cafe', 'restaurant', 'food', 'point_of_interest', 'store', 'establishment']
+v2_0_latitude = 33.9812233
+v2_0_longitude = -118.4393401
+v2_0_address = 4680 Lincoln Blvd, Marina Del Rey, CA 90292, USA
+v2_0_street_number = 4680
+v2_0_street_name = Lincoln Boulevard
+v2_0_locality = Marina del Rey
+v2_1_name = Starbucks
+v2_1_rating = 1
+v2_1_is_open = True
+v2_1_place_id = ChIJfXzK41m7woARvDjl9y6ivYE
+v2_1_price_level = 2
+v2_1_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v2_1_latitude = 33.979901
+v2_1_longitude = -118.43922
+v2_1_address = 4700 Admiralty Way, Marina Del Rey, CA 90292, USA
+v2_1_street_number = 4700
+v2_1_street_name = Admiralty Way
+v2_1_locality = Marina del Rey
+v2_2_name = Peet's Coffee
+v2_2_rating = 4.6
+v2_2_is_open = True
+v2_2_place_id = ChIJnzGFzn-6woARiYtrAME2KJE
+v2_2_price_level = 1
+v2_2_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v2_2_latitude = 33.9807954
+v2_2_longitude = -118.4378483
+v2_2_address = 4706 Lincoln Blvd, Marina Del Rey, CA 90292, USA
+v2_2_street_number = 4706
+v2_2_street_name = Lincoln Boulevard
+v2_2_locality = Marina del Rey
+PREDICT: There is {} on {}
+PREDICT: Peet's Coffee
+PREDICT: Lincoln Boulevard
+PREDICT: distance_matrix
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: 33.9807954
+PREDICT: -118.4378483
+v3_distance = 0.3 mi
+v3_duration = 3 mins
+PREDICT: wait_for_user
+u2_0 = i
+u2_1 = go
+u2_2 = there
+u2_3 = all
+u2_4 = the
+u2_5 = time
+u2_6 = .
+u2_7 = someplace
+u2_8 = a
+u2_9 = little
+u2_10 = further
+PREDICT: places_nearby
+PREDICT: Peet's Coffee
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_0_name = Peet's Coffee
+v4_0_rating = 4.6
+v4_0_is_open = True
+v4_0_place_id = ChIJnzGFzn-6woARiYtrAME2KJE
+v4_0_price_level = 1
+v4_0_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v4_0_latitude = 33.9807954
+v4_0_longitude = -118.4378483
+v4_0_address = 4706 Lincoln Blvd, Marina Del Rey, CA 90292, USA
+v4_0_street_number = 4706
+v4_0_street_name = Lincoln Boulevard
+v4_0_locality = Marina del Rey
+v4_1_name = Peet's Coffee
+v4_1_rating = 2.7
+v4_1_place_id = ChIJWUspYtiwwoAR6fJmzMx-W3g
+v4_1_price_level = 1
+v4_1_types = ['cafe', 'food', 'point_of_interest', 'establishment']
+v4_1_latitude = 33.9460039
+v4_1_longitude = -118.407392
+v4_1_address = 300 World Way, Los Angeles, CA 90045, USA
+v4_1_street_number = 300
+v4_1_street_name = World Way
+v4_1_locality = Los Angeles
+v4_2_name = Peet's Coffee & Tea
+v4_2_rating = 3.4
+v4_2_is_open = True
+v4_2_place_id = ChIJbU5XKi-xwoAR4HdQWpwO_No
+v4_2_price_level = 1
+v4_2_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v4_2_latitude = 33.9411495
+v4_2_longitude = -118.4018455
+v4_2_address = Terminal 6, 600 World Way, Los Angeles, CA 90045, USA
+v4_2_street_number = 600
+v4_2_street_name = World Way
+v4_2_locality = Los Angeles
+PREDICT: There is a {} in {}.
+PREDICT: Peet's Coffee & Tea
+PREDICT: World Way
+PREDICT: wait_for_user
+u3_0 = world
+u3_1 = way
+u3_2 = is
+u3_3 = probably
+u3_4 = inside
+u3_5 = the
+u3_6 = airport
+PREDICT: Yes.
+PREDICT: places_nearby
+PREDICT: coffee further
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v5_0_name = Tanner's Coffee Co
+v5_0_rating = 4.5
+v5_0_is_open = True
+v5_0_place_id = ChIJG4tFWBa6woARIRW1qb9BIN8
+v5_0_price_level = 1
+v5_0_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v5_0_latitude = 34.0040417
+v5_0_longitude = -118.4083338
+v5_0_address = 4342 Sepulveda Blvd, Culver City, CA 90230, USA
+v5_0_street_number = 4342
+v5_0_street_name = Sepulveda Boulevard
+v5_0_neighborhood = Park West
+v5_0_locality = Culver City
+v5_1_name = The Conservatory for Coffee, Tea & Cocoa
+v5_1_rating = 4.8
+v5_1_is_open = True
+v5_1_place_id = ChIJIT-KMC-6woARiA7LLbQRvOY
+v5_1_price_level = 1
+v5_1_types = ['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment']
+v5_1_latitude = 34.0206238
+v5_1_longitude = -118.3994964
+v5_1_address = 10117 Washington Blvd, Culver City, CA 90232, USA
+v5_1_street_number = 10117
+v5_1_street_name = Washington Boulevard
+v5_1_neighborhood = Washington Culver
+v5_1_locality = Culver City
+v5_2_name = Starbucks
+v5_2_rating = 4.2
+v5_2_is_open = True
+v5_2_place_id = ChIJ5QYeAim6woARE2My7LscV78
+v5_2_price_level = 2
+v5_2_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v5_2_latitude = 34.0223022
+v5_2_longitude = -118.3960999
+v5_2_address = 9718 Washington Blvd, Culver City, CA 90232, USA
+v5_2_street_number = 9718
+v5_2_street_name = Washington Boulevard
+v5_2_neighborhood = Downtown
+v5_2_locality = Culver City
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Tanner's Coffee Co
+PREDICT: The Conservatory for Coffee, Tea & Cocoa
+PREDICT: Peet's Coffee
+PREDICT: wait_for_user
+u4_0 = the
+u4_1 = conservatory
+u4_2 = sounds
+u4_3 = nice
+u4_4 = .
+u4_5 = where
+u4_6 = is
+u4_7 = it
+u4_8 = ?
+PREDICT: {} is at {}.
+PREDICT: The Conservatory for Coffee, Tea & Cocoa
+PREDICT: Washington Boulevard
+PREDICT: distance_matrix
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: 34.0206238
+PREDICT: -118.3994964
+v6_distance = 5.6 mi
+v6_duration = 14 mins
+PREDICT: You will reach there in {}.
+PREDICT: 14 mins
+PREDICT: wait_for_user
+u5_0 = ok
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = do
+u5_5 = it
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.0206238
+PREDICT: -118.3994964

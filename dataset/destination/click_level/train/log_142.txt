@@ -1,0 +1,76 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = Russian
+u1_8 = grocery
+u1_9 = store
+u1_10 = in
+u1_11 = Richmond
+u1_12 = hill
+PREDICT: find_place
+PREDICT: Russian grocery store Richmond hill
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Richmond Hill Deli
+v1_address = 9631 Yonge St, Richmond Hill, ON L4C 0M5, Canada
+v1_rating = 4.4
+v1_is_open = True
+v1_latitude = 43.8625902
+v1_longitude = -79.4345319
+v1_street_number = 9631
+v1_street_name = Yonge Street
+v1_locality = Richmond Hill
+v1_distance = 5.5 mi
+v1_duration = 15 mins
+PREDICT: There is {} on {}
+PREDICT: Richmond Hill Deli
+PREDICT: Yonge Street
+PREDICT: You will reach there in {}.
+PREDICT: 15 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = Is
+u2_1 = there
+u2_2 = a
+u2_3 = yummy
+u2_4 = market
+u2_5 = ?
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: yummy market Richmond hill
+PREDICT: 43.848
+PREDICT: -79.525
+v2_name = Yummy Market
+v2_address = 1390 Major MacKenzie Dr W, Maple, ON L6A 4H6, Canada
+v2_rating = 4.5
+v2_is_open = True
+v2_latitude = 43.86349
+v2_longitude = -79.48390599999999
+v2_street_number = 1390
+v2_street_name = Major Mackenzie Drive West
+v2_neighborhood = Maple
+v2_locality = Vaughan
+v2_distance = 2.8 mi
+v2_duration = 9 mins
+PREDICT: There is a {} on {}.
+PREDICT: Yummy Market
+PREDICT: Major Mackenzie Drive West
+PREDICT: wait_for_user
+u3_0 = perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: It is {} away.
+PREDICT: 9 mins
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 43.86349
+PREDICT: -79.48390599999999

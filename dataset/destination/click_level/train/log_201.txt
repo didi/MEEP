@@ -1,0 +1,36 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = airport
+PREDICT: find_place
+PREDICT: airport
+PREDICT: 32.225
+PREDICT: -110.861
+v1_name = Tucson International Airport
+v1_address = 7250 S Tucson Blvd, Tucson, AZ 85756, United States
+v1_rating = 4.3
+v1_is_open = True
+v1_latitude = 32.1145102
+v1_longitude = -110.9392269
+v1_street_number = 7250
+v1_street_name = South Tucson Boulevard
+v1_locality = Tucson
+v1_distance = 15.1 mi
+v1_duration = 29 mins
+PREDICT: Do you mean {}?
+PREDICT: Tucson International Airport
+PREDICT: It will take us {} to get there.
+PREDICT: 29 mins
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: Great, we are going to {}.
+PREDICT: Tucson International Airport
+PREDICT: start_driving
+PREDICT: 32.1145102
+PREDICT: -110.9392269

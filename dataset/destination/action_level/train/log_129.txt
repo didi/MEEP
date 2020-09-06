@@ -1,0 +1,64 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = hockey
+u1_7 = store
+PREDICT: [ACTION] places_nearby [PARAM] hockey store [PARAM] 43.657 [PARAM] -79.401
+v1_0_name = Sport Chek
+v1_0_rating = 3.4
+v1_0_is_open = True
+v1_0_types = ['shoe_store', 'bicycle_store', 'electronics_store', 'point_of_interest', 'clothing_store', 'store', 'establishment']
+v1_0_latitude = 43.6548717
+v1_0_longitude = -79.3807169
+v1_0_address = 218 Yonge St, Toronto, ON M5B 2H6, Canada
+v1_0_street_number = 218
+v1_0_street_name = Yonge Street
+v1_0_locality = Toronto
+v1_0_distance = 1.4 mi
+v1_0_duration = 10 mins
+v1_1_name = Bill Bolton Arena Pro Shop
+v1_1_rating = 5
+v1_1_is_open = True
+v1_1_types = ['point_of_interest', 'store', 'establishment']
+v1_1_latitude = 43.6711589
+v1_1_longitude = -79.4152647
+v1_1_address = 40 Rossmore Rd, Toronto, ON M6G 2M7, Canada
+v1_1_street_number = 40
+v1_1_street_name = Rossmore Road
+v1_1_locality = Toronto
+v1_1_distance = 1.5 mi
+v1_1_duration = 8 mins
+v1_2_name = Spirit of Hockey
+v1_2_rating = 4.6
+v1_2_is_open = False
+v1_2_types = ['point_of_interest', 'clothing_store', 'store', 'establishment']
+v1_2_latitude = 43.6467992
+v1_2_longitude = -79.3775756
+v1_2_address = 30 Yonge St, Toronto, ON M5E 1X8, Canada
+v1_2_street_number = 30
+v1_2_street_name = Yonge Street
+v1_2_locality = Toronto
+v1_2_distance = 2.0 mi
+v1_2_duration = 13 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Sport Chek [PARAM] Bill Bolton Arena Pro Shop [PARAM] Spirit of Hockey
+PREDICT: [ACTION] wait_for_user
+u2_0 = Where
+u2_1 = is
+u2_2 = the
+u2_3 = Sport
+u2_4 = Chek
+u2_5 = ?
+PREDICT: [ACTION] It is on {}. [PARAM] 218 Yonge St, Toronto, ON M5B 2H6, Canada
+PREDICT: [ACTION] wait_for_user
+u3_0 = Ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: [ACTION] start_driving [PARAM] 43.6548717 [PARAM] -79.3807169

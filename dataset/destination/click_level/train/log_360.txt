@@ -1,0 +1,42 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Google
+u1_7 = 's
+u1_8 = headquarters
+PREDICT: places_nearby
+PREDICT: Google headquarters
+PREDICT: 37.760
+PREDICT: -122.429
+v1_0_name = Googleplex
+v1_0_rating = 4.3
+v1_0_types_0 = point of interest
+v1_0_types_1 = establishment
+v1_0_latitude = 37.4219999
+v1_0_longitude = -122.0840575
+v1_0_address_simple = 1600 Amphitheatre Parkway, Mountain View
+v1_0_street_number = 1600
+v1_0_street_name = Amphitheatre Parkway
+v1_0_locality = Mountain View
+v1_0_distance = 36.4 mi
+v1_0_duration = 46 mins
+PREDICT: {} is in {}.
+PREDICT: Googleplex
+PREDICT: Mountain View
+PREDICT: It will take us {} to get there.
+PREDICT: 46 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = please
+u2_2 = .
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 37.4219999
+PREDICT: -122.0840575

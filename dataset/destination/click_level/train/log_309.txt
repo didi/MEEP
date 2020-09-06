@@ -1,0 +1,99 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = need
+u1_2 = to
+u1_3 = buy
+u1_4 = Stan
+u1_5 = Smith
+u1_6 = shoes
+u1_7 = .
+PREDICT: places_nearby
+PREDICT: Stan Smith shoes
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = DSW Designer Shoe Warehouse
+v1_0_rating = 4.1
+v1_0_is_open = True
+v1_0_price_level = 2
+v1_0_types_0 = Shoe store
+v1_0_types_1 = Point of interest
+v1_0_types_2 = Store
+v1_0_types_3 = Establishment
+v1_0_latitude = 33.986249
+v1_0_longitude = -118.441318
+v1_0_address_simple = 13450 Maxella Avenue, Marina del Rey
+v1_0_street_number = 13450
+v1_0_street_name = Maxella Avenue
+v1_0_locality = Marina del Rey
+v1_0_distance = 0.7 mi
+v1_0_duration = 5 mins
+v1_1_name = Lady Foot Locker
+v1_1_rating = 4.3
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types_0 = Shoe store
+v1_1_types_1 = Point of interest
+v1_1_types_2 = Clothing store
+v1_1_types_3 = Store
+v1_1_types_4 = Establishment
+v1_1_latitude = 33.9854146
+v1_1_longitude = -118.3933069
+v1_1_address_simple = 6000 Sepulveda Boulevard, Culver City
+v1_1_street_number = 6000
+v1_1_street_name = Sepulveda Boulevard
+v1_1_neighborhood = Fox Hills
+v1_1_locality = Culver City
+v1_1_distance = 3.9 mi
+v1_1_duration = 10 mins
+v1_2_name = adidas Store Los Angeles
+v1_2_rating = 4
+v1_2_is_open = True
+v1_2_types_0 = Shoe store
+v1_2_types_1 = Point of interest
+v1_2_types_2 = Clothing store
+v1_2_types_3 = Store
+v1_2_types_4 = Establishment
+v1_2_latitude = 34.0587113
+v1_2_longitude = -118.4178679
+v1_2_address_simple = 10250 Santa Monica Boulevard Suite 2510, Los Angeles
+v1_2_street_number = 10250
+v1_2_street_name = Santa Monica Boulevard
+v1_2_neighborhood = Century City
+v1_2_locality = Los Angeles
+v1_2_distance = 9.7 mi
+v1_2_duration = 22 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: DSW Designer Shoe Warehouse
+PREDICT: Lady Foot Locker
+PREDICT: adidas Store Los Angeles
+PREDICT: wait_for_user
+u2_0 = Oh
+u2_1 = ,
+u2_2 = Adidas
+u2_3 = store
+u2_4 = would
+u2_5 = be
+u2_6 = great
+u2_7 = .
+u2_8 = Is
+u2_9 = it
+u2_10 = far
+u2_11 = ?
+PREDICT: It is {} and {} away.
+PREDICT: 9.7 mi
+PREDICT: 22 mins
+PREDICT: It's called {}.
+PREDICT: Century City
+PREDICT: It is in {}.
+PREDICT: Century City
+PREDICT: wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = that
+u3_3 = works
+u3_4 = .
+PREDICT: start_driving
+PREDICT: 34.0587113
+PREDICT: -118.4178679

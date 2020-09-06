@@ -1,0 +1,103 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = German
+u1_8 = restaurant
+u1_9 = in
+u1_10 = Silver
+u1_11 = Lake
+u1_12 = ,
+u1_13 = I
+u1_14 = forget
+u1_15 = the
+u1_16 = nam.e
+PREDICT: [ACTION] find_place [PARAM] German restaurant Silver Lake [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = The Red Lion Tavern
+v1_address = 2366 Glendale Blvd, Los Angeles, CA 90039, United States
+v1_latitude = 34.099212
+v1_longitude = -118.2589234
+v1_price_level = 2
+v1_types_0 = Bar
+v1_types_1 = Restaurant
+v1_types_2 = Food
+v1_types_3 = Point of interest
+v1_types_4 = Establishment
+v1_rating = 4.5
+v1_is_open = False
+v1_address_simple = 2366 Glendale Boulevard, Los Angeles
+v1_street_number = 2366
+v1_street_name = Glendale Boulevard
+v1_neighborhood = Silver Lake
+v1_locality = Los Angeles
+v1_distance = 20.5 mi
+v1_duration = 37 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] The Red Lion Tavern [PARAM] Glendale Boulevard
+PREDICT: [ACTION] It is in {}. [PARAM] Silver Lake
+PREDICT: [ACTION] wait_for_user
+u2_0 = Perfect
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = the
+u2_5 = one
+u2_6 = !
+u2_7 = Are
+u2_8 = they
+u2_9 = open
+u2_10 = now
+u2_11 = though
+u2_12 = ?
+PREDICT: [ACTION] It is not open.
+PREDICT: [ACTION] wait_for_user
+u3_0 = Oh
+u3_1 = ,
+u3_2 = hmm
+u3_3 = ,
+u3_4 = in
+u3_5 = that
+u3_6 = case
+u3_7 = I
+u3_8 = 'd
+u3_9 = like
+u3_10 = to
+u3_11 = go
+u3_12 = get
+u3_13 = lunch
+u3_14 = at
+u3_15 = Taste
+u3_16 = of
+u3_17 = Tehran
+u3_18 = .
+PREDICT: [ACTION] find_place [PARAM] Taste of Tehran [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Taste of Tehran Restaurant
+v2_address = 1915 Westwood Blvd, Los Angeles, CA 90025, United States
+v2_latitude = 34.0477204
+v2_longitude = -118.4352526
+v2_price_level = 2
+v2_types_0 = Restaurant
+v2_types_1 = Food
+v2_types_2 = Point of interest
+v2_types_3 = Establishment
+v2_rating = 4.3
+v2_is_open = True
+v2_address_simple = 1915 Westwood Boulevard, Los Angeles
+v2_street_number = 1915
+v2_street_name = Westwood Boulevard
+v2_neighborhood = West Los Angeles
+v2_locality = Los Angeles
+v2_distance = 8.4 mi
+v2_duration = 18 mins
+PREDICT: [ACTION] {} on {} is open. [PARAM] Taste of Tehran Restaurant [PARAM] Westwood Boulevard
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = Let
+u4_1 = 's
+u4_2 = go1
+PREDICT: [ACTION] start_driving [PARAM] 34.0477204 [PARAM] -118.4352526

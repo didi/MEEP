@@ -1,0 +1,90 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = cruise
+u1_1 = to
+u1_2 = catalina
+u1_3 = island
+PREDICT: find_place
+PREDICT: cruise to catalina island
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 205 Crescent Ave, Avalon, CA 90704, United States
+v1_name = Catalina Tours
+v1_latitude = 33.3455783
+v1_longitude = -118.3253249
+v1_place_id = ChIJA8PupJhy3YARGpqHlS5UJBo
+v1_street_number = 205
+v1_street_name = Crescent Avenue
+v1_locality = Avalon
+PREDICT: There is a {} in {}.
+PREDICT: Catalina Tours
+PREDICT: Avalon
+PREDICT: wait_for_user
+u2_0 = avalon
+u2_1 = is
+u2_2 = on
+u2_3 = the
+u2_4 = island
+u3_0 = where
+u3_1 = can
+u3_2 = i
+u3_3 = find
+u3_4 = a
+u3_5 = boat
+u3_6 = to
+u3_7 = take
+u3_8 = me
+u3_9 = to
+u3_10 = catalina
+u3_11 = ?
+PREDICT: places_nearby
+PREDICT: boat to catalina
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Catalina Yacht Anchorage
+v2_0_rating = 4.7
+v2_0_place_id = ChIJCSOWJIG6woARaROsiD2HU6k
+v2_0_types = ['point_of_interest', 'establishment']
+v2_0_latitude = 33.9816881
+v2_0_longitude = -118.4431975
+v2_0_address = 13505 Bali Way, Marina Del Rey, CA 90292, USA
+v2_0_street_number = 13505
+v2_0_street_name = Bali Way
+v2_0_locality = Marina del Rey
+v2_1_name = Catalina Yacht Charter
+v2_1_rating = 0
+v2_1_is_open = True
+v2_1_place_id = ChIJSzrCeZC6woARC8cQJcR4kyg
+v2_1_types = ['point_of_interest', 'establishment']
+v2_1_latitude = 33.9849237
+v2_1_longitude = -118.4536117
+v2_1_address = 4333 Admiralty Way, Marina Del Rey, CA 90292, USA
+v2_1_street_number = 4333
+v2_1_street_name = Admiralty Way
+v2_1_locality = Marina del Rey
+v2_2_name = Catalina Express
+v2_2_rating = 4.6
+v2_2_is_open = True
+v2_2_place_id = ChIJ_fuoXkA23YAR-XzdgaffYww
+v2_2_types = ['point_of_interest', 'establishment']
+v2_2_latitude = 33.7496285
+v2_2_longitude = -118.2746043
+v2_2_address = 95 Berth, San Pedro, CA 90731, USA
+v2_2_street_number = 95
+v2_2_street_name = Berth
+v2_2_neighborhood = San Pedro
+v2_2_locality = Los Angeles
+PREDICT: There is a {} in {}.
+PREDICT: Catalina Yacht Charter
+PREDICT: Marina del Rey
+PREDICT: wait_for_user
+u4_0 = great
+u4_1 = ,
+u4_2 = take
+u4_3 = me
+u4_4 = please
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.9849237
+PREDICT: -118.4536117

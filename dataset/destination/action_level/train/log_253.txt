@@ -1,0 +1,133 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = 99
+u1_1 = ranch
+u1_2 = market
+u1_3 = please
+PREDICT: [ACTION] find_place [PARAM] 99 ranch market [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = 99 Ranch Market
+v1_address = Gateway Center, 1340 Artesia Blvd, Gardena, CA 90248, United States
+v1_latitude = 33.872055
+v1_longitude = -118.2971515
+v1_types_0 = Supermarket
+v1_types_1 = Grocery or supermarket
+v1_types_2 = Food
+v1_types_3 = Point of interest
+v1_types_4 = Store
+v1_types_5 = Establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = Gateway Center, 1340 Artesia Boulevard, Gardena
+v1_establishment = Gateway Center
+v1_street_number = 1340
+v1_street_name = Artesia Boulevard
+v1_locality = Gardena
+v1_distance = 16.0 mi
+v1_duration = 24 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] 99 Ranch Market [PARAM] Gardena
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] places_nearby [PARAM] 99 ranch market [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = 99 Ranch Market
+v2_0_rating = 4.3
+v2_0_is_open = True
+v2_0_types_0 = Supermarket
+v2_0_types_1 = Grocery or supermarket
+v2_0_types_2 = Food
+v2_0_types_3 = Point of interest
+v2_0_types_4 = Store
+v2_0_types_5 = Establishment
+v2_0_latitude = 33.872055
+v2_0_longitude = -118.2971515
+v2_0_address_simple = Gateway Center, 1340 Artesia Boulevard, Gardena
+v2_0_establishment = Gateway Center
+v2_0_street_number = 1340
+v2_0_street_name = Artesia Boulevard
+v2_0_locality = Gardena
+v2_0_distance = 16.0 mi
+v2_0_duration = 24 mins
+v2_1_name = 99 Ranch Market
+v2_1_rating = 4.2
+v2_1_is_open = True
+v2_1_types_0 = Supermarket
+v2_1_types_1 = Grocery or supermarket
+v2_1_types_2 = Food
+v2_1_types_3 = Point of interest
+v2_1_types_4 = Store
+v2_1_types_5 = Establishment
+v2_1_latitude = 34.1880542
+v2_1_longitude = -118.465273
+v2_1_address_simple = 6450 Sepulveda Boulevard, Van Nuys
+v2_1_street_number = 6450
+v2_1_street_name = Sepulveda Boulevard
+v2_1_neighborhood = Van Nuys
+v2_1_locality = Los Angeles
+v2_1_distance = 18.9 mi
+v2_1_duration = 28 mins
+v2_2_name = 99 Ranch Market
+v2_2_rating = 3.9
+v2_2_is_open = True
+v2_2_types_0 = Supermarket
+v2_2_types_1 = Grocery or supermarket
+v2_2_types_2 = Food
+v2_2_types_3 = Point of interest
+v2_2_types_4 = Store
+v2_2_types_5 = Establishment
+v2_2_latitude = 34.063653
+v2_2_longitude = -118.1337348
+v2_2_address_simple = 771 West Garvey Avenue, Monterey Park
+v2_2_street_number = 771
+v2_2_street_name = West Garvey Avenue
+v2_2_locality = Monterey Park
+v2_2_distance = 25.9 mi
+v2_2_duration = 36 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = how
+u2_1 = far
+u2_2 = is
+u2_3 = it
+u2_4 = ?
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 16.0 mi [PARAM] 24 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = no
+u3_1 = ,
+u3_2 = the
+u3_3 = one
+u3_4 = i
+u3_5 = am
+u3_6 = looking
+u3_7 = is
+u3_8 = at
+u3_9 = north
+u3_10 = of
+u3_11 = getty
+u3_12 = center
+u3_13 = .
+PREDICT: [ACTION] places_nearby [PARAM] 99 ranch market north getty center [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_0_name = 99 Ranch Market
+v3_0_rating = 4.2
+v3_0_is_open = True
+v3_0_types_0 = Supermarket
+v3_0_types_1 = Grocery or supermarket
+v3_0_types_2 = Food
+v3_0_types_3 = Point of interest
+v3_0_types_4 = Store
+v3_0_types_5 = Establishment
+v3_0_latitude = 34.1880542
+v3_0_longitude = -118.465273
+v3_0_address_simple = 6450 Sepulveda Boulevard, Van Nuys
+v3_0_street_number = 6450
+v3_0_street_name = Sepulveda Boulevard
+v3_0_neighborhood = Van Nuys
+v3_0_locality = Los Angeles
+v3_0_distance = 18.9 mi
+v3_0_duration = 28 mins
+PREDICT: [ACTION] {} in {}? [PARAM] 99 Ranch Market [PARAM] Van Nuys
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 18.9 mi [PARAM] 28 mins
+PREDICT: [ACTION] wait_for_user
+u4_0 = right
+u5_0 = let
+u5_1 = 's
+u5_2 = go
+PREDICT: [ACTION] Going to {} in {}. [PARAM] 99 Ranch Market [PARAM] Van Nuys
+PREDICT: [ACTION] start_driving [PARAM] 34.1880542 [PARAM] -118.465273

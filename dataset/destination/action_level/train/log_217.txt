@@ -1,0 +1,44 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = union
+PREDICT: [ACTION] find_place [PARAM] union [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Union
+v1_address = 72 Ossington Ave, Toronto, ON M6J 2Y7, Canada
+v1_price_level = 3
+v1_rating = 4.5
+v1_is_open = True
+v1_latitude = 43.6458179
+v1_longitude = -79.4195744
+v1_street_number = 72
+v1_street_name = Ossington Avenue
+v1_locality = Toronto
+v1_distance = 2.4 mi
+v1_duration = 13 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Union [PARAM] Ossington Avenue
+PREDICT: [ACTION] wait_for_user
+u2_0 = no
+u2_1 = ,
+u2_2 = the
+u2_3 = subway
+PREDICT: [ACTION] find_place [PARAM] union subway [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v2_name = Union Station
+v2_address = 55 Front St W, Toronto, ON M5J 1E6, Canada
+v2_rating = 4.1
+v2_latitude = 43.6452202
+v2_longitude = -79.3805981
+v2_street_number = 55
+v2_street_name = Front Street West
+v2_locality = Toronto
+v2_distance = 2.2 mi
+v2_duration = 13 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Union Station
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 13 mins [PARAM] 2.2 mi
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+u3_1 = of
+u3_2 = course
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yup
+PREDICT: [ACTION] start_driving [PARAM] 43.6452202 [PARAM] -79.3805981

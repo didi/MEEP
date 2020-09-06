@@ -1,0 +1,89 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = wholefoods
+PREDICT: [ACTION] find_place [PARAM] wholefoods [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Whole Foods Market
+v1_address = 12746 W Jefferson Blvd, Playa Vista, CA 90094, United States
+v1_latitude = 33.9767818
+v1_longitude = -118.4180924
+v1_price_level = 3
+v1_types_0 = grocery or supermarket
+v1_types_1 = supermarket
+v1_types_2 = food
+v1_types_3 = health
+v1_types_4 = point of interest
+v1_types_5 = store
+v1_types_6 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 12746 West Jefferson Boulevard, Playa Vista
+v1_street_number = 12746
+v1_street_name = West Jefferson Boulevard
+v1_neighborhood = Playa Vista
+v1_locality = Los Angeles
+v1_distance = 1.7 mi
+v1_duration = 6 mins
+PREDICT: [ACTION] There is a {} on {}. [PARAM] Whole Foods Market [PARAM] West Jefferson Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 6 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = no
+u2_1 = ,
+u2_2 = i
+u2_3 = want
+u2_4 = to
+u2_5 = go
+u2_6 = the
+u2_7 = one
+u2_8 = near
+u2_9 = ucla
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] ucla [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = University of California, Los Angeles
+v2_address = Los Angeles, CA 90095, United States
+v2_latitude = 34.068921
+v2_longitude = -118.4451811
+v2_types_0 = university
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 4.5
+v2_address_simple = Los Angeles
+v2_locality = Los Angeles
+v2_neighborhood = Westwood
+v2_distance = 9.9 mi
+v2_duration = 22 mins
+PREDICT: [ACTION] find_place [PARAM] wholefoods [PARAM] 34.068921 [PARAM] -118.4451811
+v3_name = Whole Foods Market
+v3_address = 1050 Gayley Ave, Los Angeles, CA 90024, United States
+v3_latitude = 34.0612618
+v3_longitude = -118.4471828
+v3_price_level = 3
+v3_types_0 = grocery or supermarket
+v3_types_1 = supermarket
+v3_types_2 = food
+v3_types_3 = health
+v3_types_4 = point of interest
+v3_types_5 = store
+v3_types_6 = establishment
+v3_rating = 4.3
+v3_is_open = True
+v3_address_simple = 1050 Gayley Avenue, Los Angeles
+v3_street_number = 1050
+v3_street_name = Gayley Avenue
+v3_neighborhood = Westwood
+v3_locality = Los Angeles
+v3_distance = 0.8 mi
+v3_duration = 4 mins
+PREDICT: [ACTION] There is a {} on {}. [PARAM] Whole Foods Market [PARAM] Gayley Avenue
+PREDICT: [ACTION] distance_matrix [PARAM] 34.0612618 [PARAM] -118.4471828 [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_distance = 9.2 mi
+v4_duration = 15 mins
+PREDICT: [ACTION] It is {} away. [PARAM] 15 mins
+PREDICT: [ACTION] It is {} away from {}. [PARAM] 4 mins [PARAM] University of California, Los Angeles
+PREDICT: [ACTION] wait_for_user
+u3_0 = cool
+u4_0 = sounds
+u4_1 = good
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.0612618 [PARAM] -118.4471828

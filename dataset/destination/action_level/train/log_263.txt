@@ -1,0 +1,49 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = would
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = cricket
+u1_7 = stadium
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] cricket stadium [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = M Chinnaswamy Stadium
+v1_address = Cubbon Rd, Shivaji Nagar, Bengaluru, Karnataka 560001, India
+v1_latitude = 12.9787937
+v1_longitude = 77.59981549999999
+v1_types_0 = Stadium
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.5
+v1_is_open = False
+v1_address_simple = Cubbon Road, Bengaluru
+v1_street_name = Cubbon Road
+v1_locality = Bengaluru
+v1_distance = 3.5 mi
+v1_duration = 19 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] M Chinnaswamy Stadium [PARAM] Cubbon Road, Bengaluru
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+u3_0 = how
+u3_1 = long
+u3_2 = does
+u3_3 = it
+u3_4 = take
+u3_5 = to
+u3_6 = get
+u3_7 = there
+u3_8 = ?
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 3.5 mi [PARAM] 19 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = great
+u4_1 = .
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+PREDICT: [ACTION] start_driving [PARAM] 12.9787937 [PARAM] 77.59981549999999

@@ -1,0 +1,51 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Fairmont
+PREDICT: [ACTION] find_place [PARAM] Fairmont [PARAM] 37.760 [PARAM] -122.429
+v1_name = Fairmont San Francisco
+v1_address = 950 Mason St, San Francisco, CA 94108, United States
+v1_latitude = 37.7923897
+v1_longitude = -122.4104443
+v1_types_0 = lodging
+v1_types_1 = restaurant
+v1_types_2 = food
+v1_types_3 = point of interest
+v1_types_4 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 950 Mason Street, San Francisco
+v1_street_number = 950
+v1_street_name = Mason Street
+v1_neighborhood = Nob Hill
+v1_locality = San Francisco
+v1_distance = 3.2 mi
+v1_duration = 19 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Fairmont San Francisco [PARAM] Nob Hill
+PREDICT: [ACTION] wait_for_user
+u2_0 = That
+u2_1 = sounds
+u2_2 = right
+u2_3 = ,
+u2_4 = how
+u2_5 = far
+u2_6 = is
+u2_7 = it
+u2_8 = ?
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 3.2 mi [PARAM] 19 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Sounds
+u3_1 = good
+u3_2 = ,
+u3_3 = let
+u3_4 = 's
+u3_5 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 37.7923897 [PARAM] -122.4104443

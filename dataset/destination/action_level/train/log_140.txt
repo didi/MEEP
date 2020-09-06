@@ -1,0 +1,36 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = Russian
+u1_8 = grocery
+u1_9 = store
+PREDICT: [ACTION] find_place [PARAM] Russian grocery store [PARAM] 43.848 [PARAM] -79.525
+v1_name = Yummy Market
+v1_address = 4400 Dufferin St, North York, ON M3H 6A8, Canada
+v1_rating = 4.5
+v1_is_open = True
+v1_latitude = 43.764577
+v1_longitude = -79.4679471
+v1_street_number = 4400
+v1_street_name = Dufferin Street
+v1_locality = Toronto
+v1_distance = 11.7 mi
+v1_duration = 23 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] Yummy Market [PARAM] Dufferin Street
+PREDICT: [ACTION] It is {} away. [PARAM] 23 mins
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Yummy Market
+PREDICT: [ACTION] start_driving [PARAM] 43.764577 [PARAM] -79.4679471

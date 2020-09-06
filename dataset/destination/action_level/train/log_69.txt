@@ -1,0 +1,118 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Google
+u1_8 = Los
+u1_9 = Angeles
+u1_10 = office
+u1_11 = .
+PREDICT: [ACTION] find_place [PARAM] Google Los Angeles office [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 340 Main St, Venice, CA 90291, United States
+v1_name = Google LAX BIN1
+v1_latitude = 33.9954898
+v1_longitude = -118.476659
+v1_place_id = ChIJZVvuIs-6woARs1S7H3RlxJU
+v1_street_number = 340
+v1_street_name = Main Street
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 2.8 mi
+v1_duration = 11 mins
+PREDICT: [ACTION] places_nearby [PARAM] Google Los Angeles [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = Google LAX BIN1
+v2_0_rating = 4.2
+v2_0_place_id = ChIJZVvuIs-6woARs1S7H3RlxJU
+v2_0_types = ['point_of_interest', 'establishment']
+v2_0_latitude = 33.9954898
+v2_0_longitude = -118.476659
+v2_0_address = 340 Main St, Venice, CA 90291, USA
+v2_0_street_number = 340
+v2_0_street_name = Main Street
+v2_0_neighborhood = Venice
+v2_0_locality = Los Angeles
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Google LAX BIN1 [PARAM] Main Street
+PREDICT: [ACTION] The neighborhood is {}. [PARAM] Venice
+PREDICT: [ACTION] wait_for_user
+u2_0 = Oh
+u2_1 = ,
+u2_2 = I
+u2_3 = was
+u2_4 = thinking
+u2_5 = of
+u2_6 = the
+u2_7 = other
+u2_8 = office
+u2_9 = nearby
+u2_10 = ,
+u2_11 = I
+u2_12 = think
+u2_13 = it
+u2_14 = 's
+u2_15 = in
+u2_16 = Playa
+u2_17 = Vista
+u2_18 = .
+PREDICT: [ACTION] find_place [PARAM] Playa Vista [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_address = Playa Vista, Los Angeles, CA, USA
+v3_name = Playa Vista
+v3_latitude = 33.9753949
+v3_longitude = -118.4192311
+v3_place_id = ChIJZ8sJQpqwwoAR2nfkAOI8LbQ
+v3_neighborhood = Playa Vista
+v3_locality = Los Angeles
+v3_distance = 1.8 mi
+v3_duration = 7 mins
+PREDICT: [ACTION] places_nearby [PARAM] Google office [PARAM] 33.9753949 [PARAM] -118.4192311
+v4_0_name = Google H21
+v4_0_rating = 0
+v4_0_place_id = ChIJT8dqYaOwwoARTeu4t93sUJ0
+v4_0_types = ['point_of_interest', 'establishment']
+v4_0_latitude = 33.9764881
+v4_0_longitude = -118.4107363
+v4_0_address = 12475 Bluff Creek Dr Building 21, Playa Vista, CA 90094, USA
+v4_0_street_number = 12475
+v4_0_street_name = Bluff Creek Drive
+v4_0_neighborhood = Playa Vista
+v4_0_locality = Los Angeles
+v4_1_name = Spruce Goose Hangar
+v4_1_rating = 4.8
+v4_1_place_id = ChIJyworA6WwwoARwXN9frh5mXQ
+v4_1_types = ['point_of_interest', 'establishment']
+v4_1_latitude = 33.9774826
+v4_1_longitude = -118.4073589
+v4_1_address = 16 S Campus Center Dr, Los Angeles, CA 90094, USA
+v4_1_street_number = 16
+v4_1_street_name = South Campus Center Drive
+v4_1_neighborhood = Westchester
+v4_1_locality = Los Angeles
+v4_2_name = Google LAX BIN1
+v4_2_rating = 4.2
+v4_2_place_id = ChIJZVvuIs-6woARs1S7H3RlxJU
+v4_2_types = ['point_of_interest', 'establishment']
+v4_2_latitude = 33.9954898
+v4_2_longitude = -118.476659
+v4_2_address = 340 Main St, Venice, CA 90291, USA
+v4_2_street_number = 340
+v4_2_street_name = Main Street
+v4_2_neighborhood = Venice
+v4_2_locality = Los Angeles
+PREDICT: [ACTION] I found {} on {} in {}, does that sound right? [PARAM] Google H21 [PARAM] Bluff Creek Drive [PARAM] Playa Vista
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 33.9764881 [PARAM] -118.4107363
+v5_distance = 2.4 mi
+v5_duration = 9 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Yes
+u3_1 = !
+u3_2 = Let
+u3_3 = 's
+u3_4 = go
+u3_5 = !
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 2.4 mi [PARAM] 9 mins
+PREDICT: [ACTION] start_driving [PARAM] 33.9764881 [PARAM] -118.4107363

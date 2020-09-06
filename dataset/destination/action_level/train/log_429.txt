@@ -1,0 +1,125 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hi
+u1_1 = I
+u1_2 = need
+u1_3 = to
+u1_4 = get
+u1_5 = a
+u1_6 = key
+u1_7 = copied
+PREDICT: [ACTION] find_place [PARAM] key copied [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = KeyMe
+v1_address = 4311 Lincoln Blvd, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9841848
+v1_longitude = -118.4437632
+v1_types_0 = locksmith
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.5
+v1_is_open = False
+v1_address_simple = 4311 Lincoln Boulevard, Marina del Rey
+v1_street_number = 4311
+v1_street_name = Lincoln Boulevard
+v1_neighborhood = Venice
+v1_locality = Marina del Rey
+v1_distance = 0.8 mi
+v1_duration = 7 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] KeyMe [PARAM] Venice
+PREDICT: [ACTION] wait_for_user
+u2_0 = Venice
+u2_1 = sounds
+u2_2 = far
+u2_3 = .
+u2_4 = is
+u2_5 = there
+u2_6 = a
+u2_7 = closer
+u2_8 = locksmith
+u2_9 = or
+u2_10 = hardware
+u2_11 = store
+u2_12 = ?
+PREDICT: [ACTION] places_nearby [PARAM] locksmith [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = Locksmith And Car Keys Marina Del Rey
+v2_0_rating = 0
+v2_0_is_open = True
+v2_0_types_0 = locksmith
+v2_0_types_1 = point of interest
+v2_0_types_2 = establishment
+v2_0_latitude = 33.9816425
+v2_0_longitude = -118.4409761
+v2_0_address_simple = 4640 Admiralty Way, Marina del Rey
+v2_0_street_number = 4640
+v2_0_street_name = Admiralty Way
+v2_0_locality = Marina del Rey
+v2_0_distance = 1 ft
+v2_0_duration = 1 min
+v2_1_name = KeyMe
+v2_1_rating = 5
+v2_1_is_open = True
+v2_1_types_0 = locksmith
+v2_1_types_1 = point of interest
+v2_1_types_2 = establishment
+v2_1_latitude = 33.9797422
+v2_1_longitude = -118.4389303
+v2_1_address_simple = 4700 Admiralty Way, Marina del Rey
+v2_1_street_number = 4700
+v2_1_street_name = Admiralty Way
+v2_1_locality = Marina del Rey
+v2_1_distance = 0.3 mi
+v2_1_duration = 3 mins
+v2_2_name = KeyMe
+v2_2_rating = 4.5
+v2_2_is_open = False
+v2_2_types_0 = locksmith
+v2_2_types_1 = point of interest
+v2_2_types_2 = establishment
+v2_2_latitude = 33.9841848
+v2_2_longitude = -118.4437632
+v2_2_address_simple = 4311 Lincoln Boulevard, Marina del Rey
+v2_2_street_number = 4311
+v2_2_street_name = Lincoln Boulevard
+v2_2_neighborhood = Venice
+v2_2_locality = Marina del Rey
+v2_2_distance = 0.8 mi
+v2_2_duration = 7 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] KeyMe [PARAM] Marina del Rey
+PREDICT: [ACTION] It is {} away. [PARAM] 0.3 mi
+PREDICT: [ACTION] wait_for_user
+u3_0 = whats
+u3_1 = the
+u3_2 = address
+u3_3 = ?
+PREDICT: [ACTION] {}. [PARAM] 4311 Lincoln Boulevard, Marina del Rey
+PREDICT: [ACTION] wait_for_user
+u4_0 = I
+u4_1 = 'm
+u4_2 = pretty
+u4_3 = sure
+u4_4 = there
+u4_5 = 's
+u4_6 = a
+u4_7 = hardware
+u4_8 = store
+u4_9 = on
+u4_10 = Venice
+u4_11 = and
+u4_12 = Grand
+u4_13 = View
+u4_14 = that
+u4_15 = does
+u4_16 = keys
+u5_0 = but
+u5_1 = ok
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+u5_5 = to
+u5_6 = the
+u5_7 = one
+u5_8 = you
+u5_9 = suggested
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] KeyMe
+PREDICT: [ACTION] start_driving [PARAM] 33.9797422 [PARAM] -118.4389303

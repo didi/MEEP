@@ -1,0 +1,171 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = need
+u1_2 = billiard
+u1_3 = supplies
+u1_4 = .
+u1_5 = there
+u1_6 = 's
+u1_7 = a
+u1_8 = place
+u1_9 = on
+u1_10 = ventura
+u1_11 = boulevard
+PREDICT: find_place
+PREDICT: billiard supplies ventura boulevard
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = BA Pool Tables Sales Services Movers Supplies
+v1_address = 4843 Laurel Canyon Blvd, Valley Village, CA 91607, United States
+v1_latitude = 34.1589542
+v1_longitude = -118.3967679
+v1_types_0 = moving company
+v1_types_1 = storage
+v1_types_2 = point of interest
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.8
+v1_is_open = True
+v1_address_simple = 4843 Laurel Canyon Boulevard, Valley Village
+v1_street_number = 4843
+v1_street_name = Laurel Canyon Boulevard
+v1_neighborhood = Valley Village
+v1_locality = Los Angeles
+v1_distance = 20.7 mi
+v1_duration = 30 mins
+PREDICT: find_place
+PREDICT: ventura boulevard
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Ventura Blvd
+v2_address = Ventura Blvd, Los Angeles, CA, USA
+v2_latitude = 34.1588264
+v2_longitude = -118.4992693
+v2_types_0 = route
+v2_address_simple = Los Angeles
+v2_street_name = Ventura Boulevard
+v2_locality = Los Angeles
+v2_distance = 18.8 mi
+v2_duration = 27 mins
+PREDICT: find_place
+PREDICT: billiard supplies
+PREDICT: 34.1588264
+PREDICT: -118.4992693
+v3_name = Hollywood Pool Table Outlet & Service & Movers
+v3_address = Pool Table & Game Room Outlet Store, 12547 Sherman Way Unit B, North Hollywood, CA 91605, United States
+v3_latitude = 34.2017894
+v3_longitude = -118.4069541
+v3_types_0 = moving company
+v3_types_1 = point of interest
+v3_types_2 = store
+v3_types_3 = establishment
+v3_rating = 4.7
+v3_is_open = True
+v3_address_simple = Pool Table & Game Room Outlet Store, 12547 Sherman Way Unit B, North Hollywood
+v3_establishment = Pool Table & Game Room Outlet Store
+v3_street_number = 12547
+v3_street_name = Sherman Way
+v3_neighborhood = North Hollywood
+v3_locality = Los Angeles
+v3_distance = 9.2 mi
+v3_duration = 20 mins
+PREDICT: places_nearby
+PREDICT: billiard supplies
+PREDICT: 34.1588264
+PREDICT: -118.4992693
+v4_0_name = BA Pool Tables Sales Services Movers Supplies
+v4_0_rating = 4.8
+v4_0_is_open = True
+v4_0_types_0 = moving company
+v4_0_types_1 = storage
+v4_0_types_2 = point of interest
+v4_0_types_3 = store
+v4_0_types_4 = establishment
+v4_0_latitude = 34.1589542
+v4_0_longitude = -118.3967679
+v4_0_address_simple = 4843 Laurel Canyon Boulevard, Valley Village
+v4_0_street_number = 4843
+v4_0_street_name = Laurel Canyon Boulevard
+v4_0_neighborhood = Valley Village
+v4_0_locality = Los Angeles
+v4_0_distance = 7.0 mi
+v4_0_duration = 13 mins
+v4_1_name = Hollywood Pool Table Outlet & Service & Movers
+v4_1_rating = 4.7
+v4_1_is_open = True
+v4_1_types_0 = moving company
+v4_1_types_1 = point of interest
+v4_1_types_2 = store
+v4_1_types_3 = establishment
+v4_1_latitude = 34.2017894
+v4_1_longitude = -118.4069541
+v4_1_address_simple = Pool Table & Game Room Outlet Store, 12547 Sherman Way Unit B, North Hollywood
+v4_1_establishment = Pool Table & Game Room Outlet Store
+v4_1_street_number = 12547
+v4_1_street_name = Sherman Way
+v4_1_neighborhood = North Hollywood
+v4_1_locality = Los Angeles
+v4_1_distance = 9.2 mi
+v4_1_duration = 20 mins
+v4_2_name = Valley Pool Table
+v4_2_rating = 4.1
+v4_2_is_open = True
+v4_2_types_0 = point of interest
+v4_2_types_1 = store
+v4_2_types_2 = establishment
+v4_2_latitude = 34.2160509
+v4_2_longitude = -118.5978619
+v4_2_address_simple = 8001 Canoga Avenue, Canoga Park
+v4_2_street_number = 8001
+v4_2_street_name = Canoga Avenue
+v4_2_neighborhood = Canoga Park
+v4_2_locality = Los Angeles
+v4_2_distance = 9.8 mi
+v4_2_duration = 19 mins
+PREDICT: I could not find {} on {}.
+PREDICT: billiard supplies
+PREDICT: ventura boulevard
+PREDICT: wait_for_user
+u2_0 = hmm
+u2_1 = ,
+u2_2 = ok.
+u2_3 = somewhere
+u2_4 = in
+u2_5 = the
+u2_6 = valley
+u2_7 = .
+u2_8 = maybe
+u2_9 = studio
+u2_10 = city
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: store
+PREDICT: BA Pool Tables Sales Services Movers Supplies
+PREDICT: Laurel Canyon Boulevard
+PREDICT: Valley Village
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: store
+PREDICT: Valley Pool Table
+PREDICT: Canoga Avenue
+PREDICT: Canoga Park
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u3_0 = the
+u3_1 = canoga
+u3_2 = park
+u3_3 = one
+u3_4 = .
+u4_0 = thanks
+PREDICT: distance_matrix
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: 34.2160509
+PREDICT: -118.5978619
+v5_distance = 27.3 mi
+v5_duration = 40 mins
+PREDICT: You will reach there in {}.
+PREDICT: 40 mins
+PREDICT: start_driving
+PREDICT: 34.2160509
+PREDICT: -118.5978619

@@ -1,0 +1,102 @@
+source_address = 3507 Vía Dolce, Marina Del Rey, CA 90292, United States
+source_latitude = 33.979
+source_longitude = -118.460
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = taco
+u1_8 = truck
+PREDICT: places_nearby
+PREDICT: taco truck
+PREDICT: 33.979
+PREDICT: -118.460
+v1_0_name = Silly Pappas
+v1_0_rating = 3.8
+v1_0_is_open = False
+v1_0_types_0 = restaurant
+v1_0_types_1 = food
+v1_0_types_2 = point of interest
+v1_0_types_3 = establishment
+v1_0_latitude = 33.9882896
+v1_0_longitude = -118.4718527
+v1_0_address_simple = 121 Windward Avenue, Venice
+v1_0_street_number = 121
+v1_0_street_name = Windward Avenue
+v1_0_neighborhood = Venice
+v1_0_locality = Los Angeles
+v1_0_distance = 1.2 mi
+v1_0_duration = 7 mins
+v1_1_name = Tacos Por Favor
+v1_1_rating = 4.4
+v1_1_is_open = True
+v1_1_price_level = 1
+v1_1_types_0 = restaurant
+v1_1_types_1 = food
+v1_1_types_2 = point of interest
+v1_1_types_3 = establishment
+v1_1_latitude = 33.993172
+v1_1_longitude = -118.47338
+v1_1_address_simple = 826 Hampton Drive, Venice
+v1_1_street_number = 826
+v1_1_street_name = Hampton Drive
+v1_1_neighborhood = Venice
+v1_1_locality = Los Angeles
+v1_1_distance = 1.6 mi
+v1_1_duration = 8 mins
+v1_2_name = Food Truck - EL Primo Taco
+v1_2_rating = 4.9
+v1_2_types_0 = restaurant
+v1_2_types_1 = food
+v1_2_types_2 = point of interest
+v1_2_types_3 = establishment
+v1_2_latitude = 33.9985965
+v1_2_longitude = -118.4625107
+v1_2_address_simple = 845 Lincoln Boulevard, Venice
+v1_2_street_number = 845
+v1_2_street_name = Lincoln Boulevard
+v1_2_neighborhood = Venice
+v1_2_locality = Los Angeles
+v1_2_distance = 2.2 mi
+v1_2_duration = 9 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Silly Pappas
+PREDICT: Tacos Por Favor
+PREDICT: Food Truck - EL Primo Taco
+PREDICT: Is it one of those?
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = do
+u2_2 = n't
+u2_3 = know
+u2_4 = any
+u2_5 = of
+u2_6 = them
+u2_7 = ,
+u2_8 = what
+u2_9 = are
+u2_10 = the
+u2_11 = ratings
+u2_12 = ?
+PREDICT: Their ratings are {}, {} and {} respectively.
+PREDICT: 3.8
+PREDICT: 4.4
+PREDICT: 4.9
+PREDICT: wait_for_user
+u3_0 = The
+u3_1 = last
+u3_2 = one
+u3_3 = sounds
+u3_4 = good
+u3_5 = ,
+u3_6 = let
+u3_7 = 's
+u3_8 = go
+u3_9 = there
+u3_10 = .
+PREDICT: start_driving
+PREDICT: 33.9985965
+PREDICT: -118.4625107

@@ -1,0 +1,75 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = the
+u1_1 = Chart
+u1_2 = House
+PREDICT: find_place
+PREDICT: Chart House the
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 13950 Panay Way, Marina Del Rey, CA 90292, United States
+v1_name = Chart House
+v1_latitude = 33.9786922
+v1_longitude = -118.4533319
+v1_place_id = ChIJXQFlkZy6woARy_jhu25F2Fo
+v1_street_number = 13950
+v1_street_name = Panay Way
+v1_locality = Marina del Rey
+v1_distance = 1.9 mi
+v1_duration = 7 mins
+PREDICT: There is a {} on {}.
+PREDICT: Chart House
+PREDICT: Panay Way
+PREDICT: Shall we go?
+PREDICT: It is {} away.
+PREDICT: 7 mins
+PREDICT: wait_for_user
+u2_0 = is
+u2_1 = the
+u2_2 = one
+u2_3 = close
+u2_4 = to
+u2_5 = the
+u2_6 = cheescake
+u2_7 = factory
+u2_8 = ?
+PREDICT: find_place
+PREDICT: cheescake factory
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = 4142 Vía Marina, Marina Del Rey, CA 90292, United States
+v2_name = The Cheesecake Factory
+v2_latitude = 33.9798862
+v2_longitude = -118.4585969
+v2_place_id = ChIJp6SyFJm6woAR8P9VHRGsqlQ
+v2_street_number = 4142
+v2_street_name = Vía Marina
+v2_locality = Marina del Rey
+v2_distance = 1.5 mi
+v2_duration = 6 mins
+PREDICT: Sure, give me a moment.
+PREDICT: distance_matrix
+PREDICT: 33.9786922
+PREDICT: -118.4533319
+PREDICT: 33.9798862
+PREDICT: -118.4585969
+v3_distance = 0.6 mi
+v3_duration = 5 mins
+PREDICT: {} is {} away from {}.
+PREDICT: Chart House
+PREDICT: 5 mins
+PREDICT: The Cheesecake Factory
+PREDICT: wait_for_user
+u3_0 = that
+u3_1 = 's
+u3_2 = good
+u3_3 = ,
+u3_4 = let
+u3_5 = 's
+u3_6 = go
+PREDICT: Great, we are going to {}.
+PREDICT: Chart House
+PREDICT: start_driving
+PREDICT: 33.9786922
+PREDICT: -118.4533319

@@ -1,0 +1,101 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = There
+u1_1 = 's
+u1_2 = a
+u1_3 = nice
+u1_4 = Thai
+u1_5 = restaurant
+u1_6 = in
+u1_7 = Hollywood
+u1_8 = ,
+u1_9 = I
+u1_10 = believe
+u1_11 = it
+u1_12 = 's
+u1_13 = called
+u1_14 = Northern
+u1_15 = Thai
+u1_16 = Cafe
+u1_17 = ,
+u1_18 = but
+u1_19 = I
+u1_20 = 'm
+u1_21 = not
+u1_22 = positive
+u1_23 = .
+PREDICT: find_place
+PREDICT: Hollywood
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Hollywood
+v1_address = Hollywood, Los Angeles, CA, USA
+v1_latitude = 34.0928092
+v1_longitude = -118.3286614
+v1_types_0 = Neighborhood
+v1_types_1 = Political
+v1_address_simple = Los Angeles
+v1_neighborhood = Hollywood
+v1_locality = Los Angeles
+v1_distance = 16.0 mi
+v1_duration = 36 mins
+PREDICT: find_place
+PREDICT: Northern Thai Cafe
+PREDICT: 34.0928092
+PREDICT: -118.3286614
+v2_name = Northern Thai Food
+v2_address = 5301 Sunset Blvd #11, Los Angeles, CA 90027, United States
+v2_latitude = 34.0982664
+v2_longitude = -118.3061455
+v2_price_level = 1
+v2_types_0 = Restaurant
+v2_types_1 = Food
+v2_types_2 = Point of interest
+v2_types_3 = Establishment
+v2_rating = 4.9
+v2_is_open = True
+v2_address_simple = 5301 Sunset Boulevard #11, Los Angeles
+v2_street_number = 5301
+v2_street_name = Sunset Boulevard
+v2_neighborhood = East Hollywood
+v2_locality = Los Angeles
+v2_distance = 1.7 mi
+v2_duration = 8 mins
+PREDICT: There is {} on {}
+PREDICT: Northern Thai Food
+PREDICT: Sunset Boulevard
+PREDICT: It is in {}.
+PREDICT: East Hollywood
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = yes
+u2_2 = ,
+u2_3 = I
+u2_4 = think
+u2_5 = that
+u2_6 = 's
+u2_7 = it
+u2_8 = .
+u2_9 = How
+u2_10 = 's
+u2_11 = traffic
+u2_12 = ?
+PREDICT: distance_matrix
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: 34.0982664
+PREDICT: -118.3061455
+v3_distance = 23.1 mi
+v3_duration = 39 mins
+PREDICT: It will take us {} to get there.
+PREDICT: 39 mins
+PREDICT: wait_for_user
+u3_0 = Okay
+u3_1 = let
+u3_2 = 's
+u3_3 = go
+u3_4 = .
+PREDICT: start_driving
+PREDICT: 34.0982664
+PREDICT: -118.3061455

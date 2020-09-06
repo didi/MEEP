@@ -1,0 +1,117 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = buy
+u1_4 = a
+u1_5 = fancy
+u1_6 = watch
+u1_7 = .
+PREDICT: [ACTION] find_place [PARAM] buy a fancy watch [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Tourneau at Bloomingdale's Century City
+v1_address = 10250 Santa Monica Blvd, Los Angeles, CA 90067, United States
+v1_latitude = 34.0588893
+v1_longitude = -118.4192442
+v1_types_0 = Point of interest
+v1_types_1 = Store
+v1_types_2 = Establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 10250 Santa Monica Boulevard, Los Angeles
+v1_street_number = 10250
+v1_street_name = Santa Monica Boulevard
+v1_neighborhood = Century City
+v1_locality = Los Angeles
+v1_distance = 9.5 mi
+v1_duration = 21 mins
+PREDICT: [ACTION] How about {}? [PARAM] Tourneau at Bloomingdale's Century City
+PREDICT: [ACTION] wait_for_user
+u2_0 = Sounds
+u2_1 = okay
+u2_2 = .
+u2_3 = Are
+u2_4 = there
+u2_5 = other
+u2_6 = places
+u2_7 = ?
+PREDICT: [ACTION] places_nearby [PARAM] buy a fancy watch [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = Shinola Venice Store
+v2_0_rating = 4.6
+v2_0_is_open = True
+v2_0_types_0 = Jewelry store
+v2_0_types_1 = Bicycle store
+v2_0_types_2 = Electronics store
+v2_0_types_3 = Point of interest
+v2_0_types_4 = Store
+v2_0_types_5 = Establishment
+v2_0_latitude = 33.9898404
+v2_0_longitude = -118.4633237
+v2_0_address_simple = 1623 Abbot Kinney Boulevard, Venice
+v2_0_street_number = 1623
+v2_0_street_name = Abbot Kinney Boulevard
+v2_0_neighborhood = Venice
+v2_0_locality = Los Angeles
+v2_0_distance = 2.4 mi
+v2_0_duration = 8 mins
+v2_1_name = Macy's
+v2_1_rating = 4.2
+v2_1_is_open = True
+v2_1_price_level = 2
+v2_1_types_0 = Department store
+v2_1_types_1 = Shoe store
+v2_1_types_2 = Jewelry store
+v2_1_types_3 = Furniture store
+v2_1_types_4 = Home goods store
+v2_1_types_5 = Point of interest
+v2_1_types_6 = Clothing store
+v2_1_types_7 = Store
+v2_1_types_8 = Establishment
+v2_1_latitude = 33.9864867
+v2_1_longitude = -118.3934995
+v2_1_address_simple = 6200 West Slauson Avenue, Culver City
+v2_1_street_number = 6200
+v2_1_street_name = West Slauson Avenue
+v2_1_neighborhood = Fox Hills
+v2_1_locality = Culver City
+v2_1_distance = 3.8 mi
+v2_1_duration = 10 mins
+v2_2_name = Best Buy
+v2_2_rating = 4.1
+v2_2_is_open = True
+v2_2_price_level = 2
+v2_2_types_0 = Electronics store
+v2_2_types_1 = Home goods store
+v2_2_types_2 = Point of interest
+v2_2_types_3 = Store
+v2_2_types_4 = Establishment
+v2_2_latitude = 33.9854146
+v2_2_longitude = -118.3933069
+v2_2_address_simple = 6000 Sepulveda Boulevard Ste 1240, Culver City
+v2_2_street_number = 6000
+v2_2_street_name = Sepulveda Boulevard
+v2_2_neighborhood = Fox Hills
+v2_2_locality = Culver City
+v2_2_distance = 3.9 mi
+v2_2_duration = 10 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Shinola Venice Store [PARAM] Abbot Kinney Boulevard
+PREDICT: [ACTION] wait_for_user
+u3_0 = Does
+u3_1 = it
+u3_2 = have
+u3_3 = a
+u3_4 = good
+u3_5 = rating
+u3_6 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.6
+PREDICT: [ACTION] wait_for_user
+u4_0 = Let
+u4_1 = 's
+u4_2 = give
+u4_3 = it
+u4_4 = a
+u4_5 = try
+u4_6 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Shinola Venice Store
+PREDICT: [ACTION] start_driving [PARAM] 33.9898404 [PARAM] -118.4633237

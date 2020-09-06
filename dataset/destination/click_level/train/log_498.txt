@@ -1,0 +1,180 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = 5.10
+u1_8 = outlet
+u1_9 = .
+PREDICT: find_place
+PREDICT: 5.10 outlet
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Five Ten
+v1_address = 1411 W State St, Redlands, CA 92373, United States
+v1_latitude = 34.0552639
+v1_longitude = -117.2047498
+v1_types_0 = shoe store
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 5
+v1_is_open = True
+v1_address_simple = 1411 West State Street, Redlands
+v1_street_number = 1411
+v1_street_name = West State Street
+v1_neighborhood = West Redlands
+v1_locality = Redlands
+v1_distance = 80.9 mi
+v1_duration = 1 hour 29 mins
+PREDICT: There is a {} in {}.
+PREDICT: Five Ten
+PREDICT: Redlands
+PREDICT: It is {} and {} away.
+PREDICT: 80.9 mi
+PREDICT: 1 hour 29 mins
+PREDICT: wait_for_user
+u2_0 = Is
+u2_1 = it
+u2_2 = an
+u2_3 = outlet
+u2_4 = ?
+u2_5 = Anything
+u2_6 = closer
+u2_7 = ?
+PREDICT: places_nearby
+PREDICT: 5.10 outlet
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: find_place
+PREDICT: 5.10
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_name = Joy Bargain 5.10
+v3_address = 7914 Avalon Blvd, Los Angeles, CA 90003, United States
+v3_latitude = 33.9668459
+v3_longitude = -118.2650023
+v3_types_0 = point of interest
+v3_types_1 = store
+v3_types_2 = establishment
+v3_rating = 4.3
+v3_is_open = True
+v3_address_simple = 7914 Avalon Boulevard, Los Angeles
+v3_street_number = 7914
+v3_street_name = Avalon Boulevard
+v3_neighborhood = South Los Angeles
+v3_locality = Los Angeles
+v3_distance = 16.3 mi
+v3_duration = 24 mins
+PREDICT: places_nearby
+PREDICT: 5.10
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Joy Bargain 5.10
+PREDICT: Avalon Boulevard
+PREDICT: wait_for_user
+u3_0 = No
+u3_1 = ,
+u3_2 = I
+u3_3 = want
+u3_4 = Five
+u3_5 = Ten
+u3_6 = ,
+u3_7 = the
+u3_8 = climbing
+u3_9 = shoe
+u3_10 = brand
+u3_11 = .
+PREDICT: find_place
+PREDICT: Five Ten outlet
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v5_name = REI
+v5_address = 1900 Empire Ave, Burbank, CA 91504, United States
+v5_latitude = 34.191391
+v5_longitude = -118.3324057
+v5_types_0 = shoe store
+v5_types_1 = bicycle store
+v5_types_2 = point of interest
+v5_types_3 = clothing store
+v5_types_4 = store
+v5_types_5 = establishment
+v5_rating = 4.6
+v5_is_open = True
+v5_address_simple = 1900 Empire Avenue, Burbank
+v5_street_number = 1900
+v5_street_name = Empire Avenue
+v5_locality = Burbank
+v5_distance = 34.3 mi
+v5_duration = 40 mins
+PREDICT: I found {} in {}.
+PREDICT: REI
+PREDICT: Burbank
+PREDICT: find_place
+PREDICT: Five Ten climbing shoe outlet
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v6_name = REI
+v6_address = 402 Santa Monica Blvd, Santa Monica, CA 90401, United States
+v6_latitude = 34.016428
+v6_longitude = -118.494671
+v6_types_0 = shoe store
+v6_types_1 = bicycle store
+v6_types_2 = point of interest
+v6_types_3 = clothing store
+v6_types_4 = store
+v6_types_5 = establishment
+v6_rating = 4.4
+v6_is_open = True
+v6_address_simple = 402 Santa Monica Boulevard, Santa Monica
+v6_street_number = 402
+v6_street_name = Santa Monica Boulevard
+v6_neighborhood = Downtown
+v6_locality = Santa Monica
+v6_distance = 4.4 mi
+v6_duration = 19 mins
+PREDICT: find_place
+PREDICT: Five Ten
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v7_name = REI
+v7_address = 402 Santa Monica Blvd, Santa Monica, CA 90401, United States
+v7_latitude = 34.016428
+v7_longitude = -118.494671
+v7_types_0 = shoe store
+v7_types_1 = bicycle store
+v7_types_2 = point of interest
+v7_types_3 = clothing store
+v7_types_4 = store
+v7_types_5 = establishment
+v7_rating = 4.4
+v7_is_open = True
+v7_address_simple = 402 Santa Monica Boulevard, Santa Monica
+v7_street_number = 402
+v7_street_name = Santa Monica Boulevard
+v7_neighborhood = Downtown
+v7_locality = Santa Monica
+v7_distance = 4.4 mi
+v7_duration = 19 mins
+PREDICT: wait_for_user
+u4_0 = Hm
+u4_1 = ,
+u4_2 = okay
+u4_3 = ,
+u4_4 = let
+u4_5 = 's
+u4_6 = just
+u4_7 = go
+u4_8 = to
+u4_9 = Redlands
+u4_10 = .
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.0552639
+PREDICT: -117.2047498

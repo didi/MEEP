@@ -1,0 +1,121 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+PREDICT: Where are we going today ?
+PREDICT: wait_for_user
+u1_0 = Let
+u1_1 = 's
+u1_2 = go
+u1_3 = to
+u1_4 = Botanica
+u1_5 = .
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: Botanica
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 304 S Market St, Inglewood, CA 90301, United States
+v1_name = Botanica La Milagrosa
+v1_latitude = 33.9603037
+v1_longitude = -118.3516965
+v1_place_id = ChIJUxPV9AG3woARdylDhk0NgjE
+v1_street_number = 304
+v1_street_name = South Market Street
+v1_locality = Inglewood
+v1_distance = 6.6 mi
+v1_duration = 15 mins
+PREDICT: Do you mean {}?
+PREDICT: Botanica La Milagrosa
+PREDICT: It is on {}.
+PREDICT: South Market Street
+PREDICT: wait_for_user
+u2_0 = Do
+u2_1 = you
+u2_2 = know
+u2_3 = the
+u2_4 = city
+u2_5 = ?
+u2_6 = It
+u2_7 = should
+u2_8 = be
+u2_9 = in
+u2_10 = Silver
+u2_11 = Lake
+u2_12 = .
+PREDICT: It is on {}.
+PREDICT: Inglewood
+PREDICT: wait_for_user
+u3_0 = That
+u3_1 = does
+u3_2 = n't
+u3_3 = sound
+u3_4 = right
+u3_5 = .
+u3_6 = I
+u3_7 = 'm
+u3_8 = looking
+u3_9 = for
+u3_10 = a
+u3_11 = restaurant
+u3_12 = in
+u3_13 = Silver
+u3_14 = Lake
+u3_15 = ,
+u3_16 = I
+u3_17 = think
+u3_18 = it
+u3_19 = 's
+u3_20 = called
+u3_21 = Botanica
+u3_22 = ,
+u3_23 = maybe
+u3_24 = Botanica
+u3_25 = Foods
+u3_26 = .
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: find_place
+PREDICT: Silver Lake Botanica Foods restaurant
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_address = 1620 Silver Lake Blvd, Los Angeles, CA 90026, United States
+v2_name = Botanica Restaurant and Market
+v2_latitude = 34.0884683
+v2_longitude = -118.2688424
+v2_place_id = ChIJ8xKS6jvHwoARo41lbuBLB0k
+v2_street_number = 1620
+v2_street_name = Silver Lake Boulevard
+v2_neighborhood = Silver Lake
+v2_locality = Los Angeles
+v2_distance = 21.0 mi
+v2_duration = 36 mins
+PREDICT: There is a {} on {}.
+PREDICT: Botanica Restaurant and Market
+PREDICT: Silver Lake Boulevard
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = Perfect
+u4_1 = ,
+u4_2 = that
+u4_3 = 's
+u4_4 = the
+u4_5 = one
+u4_6 = !
+u4_7 = How
+u4_8 = long
+u4_9 = will
+u4_10 = it
+u4_11 = take
+u4_12 = ?
+PREDICT: You will reach there in {}.
+PREDICT: 36 mins
+PREDICT: You are all set!
+PREDICT: wait_for_user
+u5_0 = Great
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+u5_5 = !
+PREDICT: start_driving
+PREDICT: 34.0884683
+PREDICT: -118.2688424

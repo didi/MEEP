@@ -1,0 +1,103 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = get
+u1_5 = bubble
+u1_6 = tea
+u1_7 = on
+u1_8 = Spadina
+PREDICT: find_place
+PREDICT: Spadina
+PREDICT: 43.657
+PREDICT: -79.401
+v1_name = Spadina Ave
+v1_address = Spadina Ave, Toronto, ON, Canada
+v1_latitude = 43.6527581
+v1_longitude = -79.39808699999999
+v1_street_name = Spadina Avenue
+v1_locality = Toronto
+v1_distance = 0.5 mi
+v1_duration = 4 mins
+PREDICT: places_nearby
+PREDICT: bubble tea
+PREDICT: 43.6527581
+PREDICT: -79.39808699999999
+v2_0_name = Royaltea (Chinatown)
+v2_0_rating = 3.9
+v2_0_is_open = True
+v2_0_types = ['cafe', 'food', 'point_of_interest', 'establishment']
+v2_0_latitude = 43.6529213
+v2_0_longitude = -79.39744879999999
+v2_0_address = 491A Dundas St W, Toronto, ON M5T 1H1, Canada
+v2_0_street_number = 491A
+v2_0_street_name = Dundas Street West
+v2_0_locality = Toronto
+v2_0_distance = 0.6 mi
+v2_0_duration = 4 mins
+v2_1_name = Kung Fu Tea on Spadina
+v2_1_rating = 4.3
+v2_1_is_open = True
+v2_1_price_level = 1
+v2_1_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v2_1_latitude = 43.6521065
+v2_1_longitude = -79.39797109999999
+v2_1_address = 264 Spadina Ave, Toronto, ON M5T 2E4, Canada
+v2_1_street_number = 264
+v2_1_street_name = Spadina Avenue
+v2_1_locality = Toronto
+v2_1_distance = 236 ft
+v2_1_duration = 1 min
+v2_2_name = Ten Ren's Tea
+v2_2_rating = 3.8
+v2_2_is_open = True
+v2_2_types = ['cafe', 'food', 'point_of_interest', 'store', 'establishment']
+v2_2_latitude = 43.653409
+v2_2_longitude = -79.39634400000001
+v2_2_address = 454 Dundas St W, Toronto, ON M5T 1G9, Canada
+v2_2_street_number = 454
+v2_2_street_name = Dundas Street West
+v2_2_locality = Toronto
+v2_2_distance = 0.7 mi
+v2_2_duration = 5 mins
+PREDICT: There is a {} on {}.
+PREDICT: Kung Fu Tea on Spadina
+PREDICT: Spadina Avenue
+PREDICT: wait_for_user
+u2_0 = Cool
+u2_1 = ,
+u2_2 = what
+u2_3 = is
+u2_4 = its
+u2_5 = rating
+u2_6 = ?
+PREDICT: It has a rating of {}.
+PREDICT: 4.3
+PREDICT: wait_for_user
+u3_0 = How
+u3_1 = far
+u3_2 = is
+u3_3 = it
+u3_4 = ?
+PREDICT: distance_matrix
+PREDICT: 43.6521065
+PREDICT: -79.39797109999999
+PREDICT: 43.657
+PREDICT: -79.401
+v3_distance = 1.0 mi
+v3_duration = 7 mins
+PREDICT: It is {} away.
+PREDICT: 1.0 mi
+PREDICT: wait_for_user
+u4_0 = Great
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = .
+PREDICT: start_driving
+PREDICT: 43.6521065
+PREDICT: -79.39797109999999

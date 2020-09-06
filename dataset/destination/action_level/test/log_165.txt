@@ -1,0 +1,31 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = park
+PREDICT: [ACTION] find_place [PARAM] park [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = M.N. Krishna Rao Park
+v1_address = Dewan Madhava Rao Rd, Basavanagudi, Bengaluru, Karnataka 560004, India
+v1_rating = 4.5
+v1_is_open = False
+v1_latitude = 12.9418183
+v1_longitude = 77.5752478
+v1_street_name = Dewan Madhava Rao Road
+v1_locality = Bengaluru
+v1_distance = 0.2 mi
+v1_duration = 1 min
+PREDICT: [ACTION] There is {} on {} [PARAM] M.N. Krishna Rao Park [PARAM] Dewan Madhava Rao Road
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 0.2 mi [PARAM] 1 min
+PREDICT: [ACTION] wait_for_user
+u2_0 = sure
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 12.9418183 [PARAM] 77.5752478

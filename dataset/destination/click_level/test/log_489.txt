@@ -1,0 +1,178 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = find
+u1_1 = place
+u1_2 = for
+u1_3 = ktv
+PREDICT: find_place
+PREDICT: ktv
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = K Republic Karaoke KTV
+v1_address = 111 N Atlantic Blvd #118, Monterey Park, CA 91754, United States
+v1_latitude = 34.0629513
+v1_longitude = -118.1348684
+v1_types_0 = point of interest
+v1_types_1 = establishment
+v1_rating = 3.9
+v1_is_open = False
+v1_address_simple = 111 North Atlantic Boulevard #118, Monterey Park
+v1_street_number = 111
+v1_street_name = North Atlantic Boulevard
+v1_locality = Monterey Park
+v1_distance = 25.5 mi
+v1_duration = 37 mins
+PREDICT: Do you mean {}?
+PREDICT: K Republic Karaoke KTV
+PREDICT: places_nearby
+PREDICT: ktv
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Max Karaoke Studio
+v2_0_rating = 4.2
+v2_0_is_open = False
+v2_0_price_level = 1
+v2_0_types_0 = night club
+v2_0_types_1 = bar
+v2_0_types_2 = point of interest
+v2_0_types_3 = establishment
+v2_0_latitude = 34.0389897
+v2_0_longitude = -118.4416011
+v2_0_address_simple = 2130 Sawtelle Boulevard #101, Los Angeles
+v2_0_street_number = 2130
+v2_0_street_name = Sawtelle Boulevard
+v2_0_neighborhood = West Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 7.2 mi
+v2_0_duration = 17 mins
+v2_1_name = Karaoke Bleu
+v2_1_rating = 4
+v2_1_is_open = False
+v2_1_types_0 = night club
+v2_1_types_1 = bar
+v2_1_types_2 = point of interest
+v2_1_types_3 = establishment
+v2_1_latitude = 34.0398199
+v2_1_longitude = -118.4424672
+v2_1_address_simple = 2064 Sawtelle Boulevard, Los Angeles
+v2_1_street_number = 2064
+v2_1_street_name = Sawtelle Boulevard
+v2_1_neighborhood = West Los Angeles
+v2_1_locality = Los Angeles
+v2_1_distance = 7.2 mi
+v2_1_duration = 17 mins
+v2_2_name = Palm Tree LA - Karaoke
+v2_2_rating = 3.9
+v2_2_is_open = False
+v2_2_types_0 = night club
+v2_2_types_1 = bar
+v2_2_types_2 = point of interest
+v2_2_types_3 = establishment
+v2_2_latitude = 34.052853
+v2_2_longitude = -118.3034973
+v2_2_address_simple = 3109 West Olympic Boulevard, Los Angeles
+v2_2_street_number = 3109
+v2_2_street_name = West Olympic Boulevard
+v2_2_neighborhood = Mid City
+v2_2_locality = Los Angeles
+v2_2_distance = 14.9 mi
+v2_2_duration = 28 mins
+PREDICT: wait_for_user
+u2_0 = any
+u2_1 = Karaoke
+u2_2 = place
+u2_3 = is
+u2_4 = fine
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+PREDICT: {} is {} away.
+PREDICT: K Republic Karaoke KTV
+PREDICT: 37 mins
+PREDICT: places_nearby
+PREDICT: Karaoke
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_0_name = Prince O' Whales
+v3_0_rating = 4.5
+v3_0_is_open = True
+v3_0_price_level = 1
+v3_0_types_0 = bar
+v3_0_types_1 = point of interest
+v3_0_types_2 = establishment
+v3_0_latitude = 33.960427
+v3_0_longitude = -118.4468467
+v3_0_address_simple = 335 Culver Boulevard, Playa del Rey
+v3_0_street_number = 335
+v3_0_street_name = Culver Boulevard
+v3_0_neighborhood = Playa del Rey
+v3_0_locality = Los Angeles
+v3_0_distance = 2.2 mi
+v3_0_duration = 7 mins
+v3_1_name = Donyae Nava
+v3_1_rating = 1
+v3_1_is_open = True
+v3_1_types_0 = point of interest
+v3_1_types_1 = establishment
+v3_1_latitude = 34.0018468
+v3_1_longitude = -118.4155799
+v3_1_address_simple = 11444 West Washington Boulevard Suite A, Los Angeles
+v3_1_street_number = 11444
+v3_1_street_name = West Washington Boulevard
+v3_1_neighborhood = McLaughlin
+v3_1_locality = Los Angeles
+v3_1_distance = 2.7 mi
+v3_1_duration = 10 mins
+v3_2_name = Karaoke DJ
+v3_2_rating = 0
+v3_2_is_open = True
+v3_2_types_0 = point of interest
+v3_2_types_1 = establishment
+v3_2_latitude = 33.9976476
+v3_2_longitude = -118.4084374
+v3_2_address_simple = 4722 Berryman Avenue, Culver City
+v3_2_street_number = 4722
+v3_2_street_name = Berryman Avenue
+v3_2_locality = Culver City
+v3_2_distance = 2.8 mi
+v3_2_duration = 10 mins
+PREDICT: wait_for_user
+u4_0 = any
+u4_1 = closer
+u4_2 = one
+u4_3 = ?
+PREDICT: I also found {} and {}.
+PREDICT: Max Karaoke Studio
+PREDICT: Karaoke Bleu
+PREDICT: {} is {} away.
+PREDICT: Max Karaoke Studio
+PREDICT: 17 mins
+PREDICT: {} is {} away.
+PREDICT: Karaoke Bleu
+PREDICT: 17 mins
+PREDICT: wait_for_user
+u5_0 = how
+u5_1 = about
+u5_2 = rating
+u5_3 = score
+u5_4 = ?
+PREDICT: Their ratings are {} and {} respectively.
+PREDICT: 4.2
+PREDICT: 4
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u6_0 = the
+u6_1 = one
+u6_2 = with
+u6_3 = higher
+u6_4 = ratings
+u6_5 = please
+PREDICT: Great, we are going to {}.
+PREDICT: Max Karaoke Studio
+PREDICT: You will reach there in {}.
+PREDICT: 17 mins
+PREDICT: start_driving
+PREDICT: 34.0389897
+PREDICT: -118.4416011

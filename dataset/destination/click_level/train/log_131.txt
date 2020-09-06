@@ -1,0 +1,98 @@
+source_address = Calton Hill, Edinburgh EH7 5AA, UK
+source_latitude = 55.9550465
+source_longitude = -3.182740899999999
+u1_0 = the
+u1_1 = waitrose
+u1_2 = past
+u1_3 = the
+u1_4 = meadows
+u1_5 = please
+PREDICT: find_place
+PREDICT: waitrose past the meadows
+PREDICT: 55.9550465
+PREDICT: -3.182740899999999
+PREDICT: find_place
+PREDICT: waitrose
+PREDICT: 55.9550465
+PREDICT: -3.182740899999999
+v2_name = Waitrose & Partners Comely Bank
+v2_address = 38 Comely Bank Rd, Edinburgh EH4 1AW, United Kingdom
+v2_price_level = 2
+v2_rating = 4.1
+v2_is_open = False
+v2_latitude = 55.9591033
+v2_longitude = -3.2239757
+v2_street_number = 38
+v2_street_name = Comely Bank Road
+v2_distance = 2.0 mi
+v2_duration = 11 mins
+PREDICT: Do you mean {}?
+PREDICT: Waitrose & Partners Comely Bank
+PREDICT: find_place
+PREDICT: meadows
+PREDICT: 55.9550465
+PREDICT: -3.182740899999999
+v3_name = The Meadows
+v3_address = Melville Dr, Edinburgh EH9 1ND, United Kingdom
+v3_rating = 4.7
+v3_is_open = True
+v3_latitude = 55.9413041
+v3_longitude = -3.1918722
+v3_street_name = Melville Drive
+v3_distance = 1.6 mi
+v3_duration = 12 mins
+PREDICT: find_place
+PREDICT: waitrose
+PREDICT: 55.9413041
+PREDICT: -3.1918722
+v4_name = Waitrose & Partners Morningside
+v4_address = 145 Morningside Rd, Edinburgh EH10 4AX, United Kingdom
+v4_price_level = 2
+v4_rating = 4.1
+v4_is_open = False
+v4_latitude = 55.92974359999999
+v4_longitude = -3.2088745
+v4_street_number = 145
+v4_street_name = Morningside Road
+v4_distance = 1.5 mi
+v4_duration = 7 mins
+PREDICT: wait_for_user
+u2_0 = right
+u2_1 = store
+u2_2 = ,
+u2_3 = wrong
+u2_4 = place
+u2_5 = .
+u2_6 = comely
+u2_7 = bank
+u2_8 = is
+u2_9 = north
+u2_10 = .
+u2_11 = I
+u2_12 = 'm
+u2_13 = talking
+u2_14 = about
+u2_15 = the
+u2_16 = one
+u2_17 = in
+u2_18 = morningside
+u2_19 = ?
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Waitrose & Partners Morningside
+PREDICT: Morningside Road
+PREDICT: It is {} and {} away.
+PREDICT: 1.5 mi
+PREDICT: 7 mins
+PREDICT: wait_for_user
+u3_0 = exactly
+u3_1 = that
+u3_2 = 's
+u3_3 = the
+u3_4 = one
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = please
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 55.92974359999999
+PREDICT: -3.2088745

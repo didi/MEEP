@@ -1,0 +1,61 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = target
+PREDICT: [ACTION] find_place [PARAM] target [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 6000 Sepulveda Blvd suite 2250, Culver City, CA 90230, United States
+v1_name = Target
+v1_latitude = 33.984155
+v1_longitude = -118.3944285
+v1_place_id = ChIJUyoBEauwwoARk4IrBMQKYHo
+v1_street_number = 6000
+v1_street_name = Sepulveda Boulevard
+v1_neighborhood = Fox Hills
+v1_locality = Culver City
+v1_distance = 4.2 mi
+v1_duration = 10 mins
+u2_0 = i
+u2_1 = remember
+u2_2 = there
+u2_3 = is
+u2_4 = a
+u2_5 = macy
+u2_6 = 's
+u2_7 = next
+u2_8 = to
+u2_9 = it
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Target [PARAM] Culver City
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 4.2 mi [PARAM] 10 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = can
+u3_1 = you
+u3_2 = help
+u3_3 = me
+u3_4 = find
+u3_5 = it
+u3_6 = ?
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u4_0 = what
+u4_1 = 's
+u4_2 = the
+u4_3 = address
+u4_4 = of
+u4_5 = it
+u4_6 = ?
+PREDICT: [ACTION] It is on {}. [PARAM] 6000 Sepulveda Blvd suite 2250, Culver City, CA 90230, United States
+PREDICT: [ACTION] wait_for_user
+u5_0 = that
+u5_1 = sounds
+u5_2 = correct
+u6_0 = let
+u6_1 = 's
+u6_2 = go
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Target
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 33.984155 [PARAM] -118.3944285

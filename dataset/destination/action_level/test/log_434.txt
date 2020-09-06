@@ -1,0 +1,50 @@
+source_address = 4035 Grand View Blvd, Los Angeles, CA 90066, United States
+source_latitude = 33.999
+source_longitude = -118.427
+u1_0 = hi
+u1_1 = I
+u1_2 = need
+u1_3 = to
+u1_4 = buy
+u1_5 = socks
+u2_0 = this
+u2_1 = is
+u2_2 = urgent
+PREDICT: [ACTION] find_place [PARAM] buy socks [PARAM] 33.999 [PARAM] -118.427
+v1_name = Happy Socks
+v1_address = 1410 Abbot Kinney Blvd, Venice, CA 90291, United States
+v1_latitude = 33.9903263
+v1_longitude = -118.4657295
+v1_types_0 = clothing store
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 1410 Abbot Kinney Boulevard, Venice
+v1_street_number = 1410
+v1_street_name = Abbot Kinney Boulevard
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 2.5 mi
+v1_duration = 10 mins
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] clothing store [PARAM] Happy Socks [PARAM] Abbot Kinney Boulevard [PARAM] Venice
+PREDICT: [ACTION] wait_for_user
+u3_0 = will
+u3_1 = it
+u3_2 = take
+u3_3 = long
+u3_4 = to
+u3_5 = get
+u3_6 = there
+u4_0 = pretty
+u4_1 = desperate
+PREDICT: [ACTION] It is {} away. [PARAM] 10 mins
+PREDICT: [ACTION] wait_for_user
+u5_0 = go
+u5_1 = go
+u5_2 = go
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Happy Socks
+PREDICT: [ACTION] start_driving [PARAM] 33.9903263 [PARAM] -118.4657295
+PREDICT: [ACTION] start_driving [PARAM] 33.9903263 [PARAM] -118.4657295

@@ -1,0 +1,44 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = McMichael
+PREDICT: [ACTION] find_place [PARAM] McMichael [PARAM] 43.848 [PARAM] -79.525
+v1_name = McMichael Canadian Art Collection
+v1_address = 10365 Islington Ave, Kleinburg, ON L0J 1C0, Canada
+v1_rating = 4.6
+v1_is_open = False
+v1_latitude = 43.8435235
+v1_longitude = -79.61646069999999
+v1_street_number = 10365
+v1_street_name = Islington Avenue
+v1_locality = Vaughan
+v1_distance = 6.1 mi
+v1_duration = 17 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] McMichael Canadian Art Collection
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = right
+u2_5 = .
+u2_6 = How
+u2_7 = far
+u2_8 = is
+u2_9 = it
+u2_10 = ?
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 6.1 mi [PARAM] 17 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] McMichael Canadian Art Collection
+PREDICT: [ACTION] start_driving [PARAM] 43.8435235 [PARAM] -79.61646069999999

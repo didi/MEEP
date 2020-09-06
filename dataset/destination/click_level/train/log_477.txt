@@ -1,0 +1,6 @@
+source_address = 4035 Grand View Blvd, Los Angeles, CA 90066, United States
+source_latitude = 33.999
+source_longitude = -118.427
+PREDICT: start_driving
+PREDICT: 34.09071
+PREDICT: -118.3378059

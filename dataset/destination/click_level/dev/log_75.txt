@@ -1,0 +1,37 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: Dogtown Coffee
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 2003 Main St, Santa Monica, CA 90405, United States
+v1_name = Dogtown Coffee
+v1_latitude = 34.0071502
+v1_longitude = -118.4886947
+v1_place_id = ChIJTxsfZdWkwoAR92nS1bSTBpg
+v1_street_number = 2003
+v1_street_name = Main Street
+v1_neighborhood = Ocean Park
+v1_locality = Santa Monica
+v1_distance = 3.9 mi
+v1_duration = 15 mins
+PREDICT: There is a {} in {}.
+PREDICT: Dogtown Coffee
+PREDICT: Santa Monica
+PREDICT: wait_for_user
+u1_0 = yes
+u1_1 = ,
+u1_2 = that
+u1_3 = 's
+u1_4 = it
+PREDICT: It is {} away.
+PREDICT: 15 mins
+PREDICT: You are all set!
+PREDICT: wait_for_user
+u2_0 = thanks
+u2_1 = !
+PREDICT: start_driving
+PREDICT: 34.0071502
+PREDICT: -118.4886947

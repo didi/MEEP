@@ -1,0 +1,43 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Hyatt
+u1_8 = hotel
+u1_9 = downtown
+PREDICT: [ACTION] find_place [PARAM] Hyatt hotel downtown [PARAM] 37.760 [PARAM] -122.429
+v1_name = Hyatt Regency San Francisco
+v1_address = 5 Embarcadero Center, San Francisco, CA 94111, United States
+v1_latitude = 37.7942169
+v1_longitude = -122.3956663
+v1_types_0 = lodging
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 5 Embarcadero Center, San Francisco
+v1_street_number = 5
+v1_street_name = Embarcadero Center
+v1_neighborhood = Financial District
+v1_locality = San Francisco
+v1_distance = 4.5 mi
+v1_duration = 19 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Hyatt Regency San Francisco [PARAM] Financial District
+PREDICT: [ACTION] wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = the
+u2_3 = one
+u2_4 = ,
+u2_5 = let
+u2_6 = 's
+u2_7 = go
+u2_8 = !
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Financial District
+PREDICT: [ACTION] start_driving [PARAM] 37.7942169 [PARAM] -122.3956663

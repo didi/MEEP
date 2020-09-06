@@ -1,0 +1,118 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = find
+u1_4 = a
+u1_5 = place
+u1_6 = can
+u1_7 = play
+u1_8 = karting
+u1_9 = car
+u2_0 = any
+u2_1 = recommendation
+u2_2 = ?
+PREDICT: [ACTION] find_place [PARAM] karting [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = K1 Speed - Indoor Go Karts, Corporate Event Venue, Team Building Activities
+v1_address = 19038 S Vermont Ave, Gardena, CA 90248, United States
+v1_latitude = 33.8574888
+v1_longitude = -118.2888454
+v1_types_0 = Tourist attraction
+v1_types_1 = Restaurant
+v1_types_2 = Food
+v1_types_3 = Point of interest
+v1_types_4 = Establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 19038 South Vermont Avenue, Gardena
+v1_street_number = 19038
+v1_street_name = South Vermont Avenue
+v1_locality = Gardena
+v1_distance = 16.2 mi
+v1_duration = 23 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] K1 Speed - Indoor Go Karts, Corporate Event Venue, Team Building Activities [PARAM] Gardena
+PREDICT: [ACTION] wait_for_user
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+u3_4 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.4
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 23 mins [PARAM] 16.2 mi
+PREDICT: [ACTION] wait_for_user
+u4_0 = emm
+u4_1 = ,
+u4_2 = is
+u4_3 = there
+u4_4 = any
+u4_5 = closer
+u4_6 = option
+u4_7 = ?
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] places_nearby [PARAM] karting [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = GOGOGO
+v2_0_rating = 5
+v2_0_types_0 = Car rental
+v2_0_types_1 = Point of interest
+v2_0_types_2 = Establishment
+v2_0_latitude = 34.0096468
+v2_0_longitude = -118.4935182
+v2_0_address_simple = 2 Pacific Terrace, Santa Monica
+v2_0_street_number = 2
+v2_0_street_name = Pacific Terrace
+v2_0_locality = Santa Monica
+v2_0_distance = 4.2 mi
+v2_0_duration = 17 mins
+v2_1_name = Kaddy Karts
+v2_1_rating = 5
+v2_1_types_0 = Car repair
+v2_1_types_1 = Point of interest
+v2_1_types_2 = Store
+v2_1_types_3 = Establishment
+v2_1_latitude = 34.047802
+v2_1_longitude = -118.323118
+v2_1_address_simple = 4007 West Pico Boulevard, Los Angeles
+v2_1_street_number = 4007
+v2_1_street_name = West Pico Boulevard
+v2_1_neighborhood = Mid City
+v2_1_locality = Los Angeles
+v2_1_distance = 13.3 mi
+v2_1_duration = 24 mins
+v2_2_name = SMALL ENGINE CAMS
+v2_2_rating = 4.8
+v2_2_is_open = True
+v2_2_types_0 = Point of interest
+v2_2_types_1 = Establishment
+v2_2_latitude = 33.8860183
+v2_2_longitude = -118.2777859
+v2_2_address_simple = 145 West Alondra Boulevard, Gardena
+v2_2_street_number = 145
+v2_2_street_name = West Alondra Boulevard
+v2_2_locality = Gardena
+v2_2_distance = 16.1 mi
+v2_2_duration = 22 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] Kaddy Karts [PARAM] West Pico Boulevard
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 24 mins [PARAM] 13.3 mi
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u5_0 = let
+u5_1 = 's
+u5_2 = do
+u5_3 = the
+u5_4 = second
+u5_5 = one
+u5_6 = .
+PREDICT: [ACTION] No.
+PREDICT: [ACTION] It is not open.
+PREDICT: [ACTION] How about {}? [PARAM] K1 Speed - Indoor Go Karts, Corporate Event Venue, Team Building Activities
+PREDICT: [ACTION] wait_for_user
+u6_0 = sure
+u6_1 = ,
+u6_2 = let
+u6_3 = 's
+u6_4 = go
+u6_5 = please
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] K1 Speed - Indoor Go Karts, Corporate Event Venue, Team Building Activities
+PREDICT: [ACTION] start_driving [PARAM] 33.8574888 [PARAM] -118.2888454

@@ -1,0 +1,44 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Grand
+u1_1 = Park
+u1_2 = ,
+u1_3 = please
+PREDICT: [ACTION] find_place [PARAM] Grand Park [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Grand Park
+v1_address = 200 N Grand Ave, Los Angeles, CA 90012, United States
+v1_latitude = 34.0555837
+v1_longitude = -118.2457138
+v1_types_0 = park
+v1_types_1 = tourist attraction
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 200 North Grand Avenue, Los Angeles
+v1_street_number = 200
+v1_street_name = North Grand Avenue
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 18.4 mi
+v1_duration = 32 mins
+PREDICT: [ACTION] There is {} on {}. [PARAM] Grand Park [PARAM] North Grand Avenue
+PREDICT: [ACTION] It is {} away. [PARAM] 32 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = What
+u2_1 = part
+u2_2 = of
+u2_3 = town
+u2_4 = ?
+PREDICT: [ACTION] It is in {}. [PARAM] Downtown Los Angeles
+PREDICT: [ACTION] wait_for_user
+u3_0 = Yes
+u3_1 = ,
+u3_2 = that
+u3_3 = 's
+u3_4 = right
+u3_5 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Grand Park
+PREDICT: [ACTION] start_driving [PARAM] 34.0555837 [PARAM] -118.2457138

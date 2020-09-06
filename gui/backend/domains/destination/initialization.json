@@ -1,0 +1,25 @@
+{
+  "initial_message": {
+        "body": "Hello! Where would you like to go today?",
+        "template": "Hello! Where would you like to go today?",
+        "variables": [],
+        "sender": "agent"
+    },
+  "initial_variables": {
+    "variable_group": "source",
+    "variables": [
+      {
+        "name": "address",
+        "value": "4640 Admiralty Way, Marina del Rey"
+      },
+      {
+        "name": "latitude",
+        "value": 33.9816425
+      },
+      {
+        "name": "longitude",
+        "value": -118.4409761
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Please
+u1_1 = take
+u1_2 = me
+u1_3 = to
+u1_4 = IdeaLab
+u1_5 = .
+PREDICT: [ACTION] find_place [PARAM] IdeaLab [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Idealab
+v1_address = 130 W Union St, Pasadena, CA 91103, United States
+v1_latitude = 34.146436
+v1_longitude = -118.153136
+v1_types_0 = Point of interest
+v1_types_1 = Establishment
+v1_rating = 4.6
+v1_is_open = True
+v1_address_simple = 130 West Union Street, Pasadena
+v1_street_number = 130
+v1_street_name = West Union Street
+v1_neighborhood = Old Pasadena
+v1_locality = Pasadena
+v1_distance = 27.0 mi
+v1_duration = 45 mins
+PREDICT: [ACTION] {} in {}? [PARAM] Idealab [PARAM] Pasadena
+PREDICT: [ACTION] wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = it
+u2_3 = .
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.146436 [PARAM] -118.153136

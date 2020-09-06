@@ -1,0 +1,32 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Bestia
+u1_1 = restaurant
+PREDICT: [ACTION] find_place [PARAM] Bestia restaurant [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Bestia
+v1_address = 2121 E 7th Pl, Los Angeles, CA 90021, United States
+v1_latitude = 34.0338216
+v1_longitude = -118.2293285
+v1_price_level = 2
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.6
+v1_is_open = False
+v1_address_simple = 2121 East 7th Place, Los Angeles
+v1_street_number = 2121
+v1_street_name = East 7th Place
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 18.9 mi
+v1_duration = 30 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Bestia [PARAM] Downtown Los Angeles
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 30 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Great
+u2_1 = !
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 34.0338216 [PARAM] -118.2293285

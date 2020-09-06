@@ -1,0 +1,119 @@
+source_address = 301 College St, Toronto, ON M5T 1S2
+source_latitude = 43.657
+source_longitude = -79.401
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = mall
+u1_8 = in
+u1_9 = downtown
+u1_10 = Scarborough
+PREDICT: [ACTION] find_place [PARAM] mall downtown Scarborough [PARAM] 43.657 [PARAM] -79.401
+v1_name = Parkway Mall
+v1_address = 85 Ellesmere Rd, Scarborough, ON M1R 4B9, Canada
+v1_rating = 3.6
+v1_is_open = True
+v1_latitude = 43.7575186
+v1_longitude = -79.3125201
+v1_street_number = 85
+v1_street_name = Ellesmere Road
+v1_locality = Toronto
+v1_distance = 11.9 mi
+v1_duration = 30 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] Parkway Mall [PARAM] 85 Ellesmere Rd, Scarborough, ON M1R 4B9, Canada
+PREDICT: [ACTION] wait_for_user
+u2_0 = Is
+u2_1 = that
+u2_2 = near
+u2_3 = the
+u2_4 = Scarborough
+u2_5 = Civic
+u2_6 = Centre
+u2_7 = ?
+PREDICT: [ACTION] find_place [PARAM] Scarborough Civic Centre [PARAM] 43.657 [PARAM] -79.401
+v2_name = Scarborough Civic Centre
+v2_address = 150 Borough Dr, Scarborough, ON M1P 4N7, Canada
+v2_rating = 4.2
+v2_is_open = True
+v2_latitude = 43.7728978
+v2_longitude = -79.2576797
+v2_street_number = 150
+v2_street_name = Borough Drive
+v2_locality = Toronto
+v2_distance = 15.6 mi
+v2_duration = 32 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 43.7575186 [PARAM] -79.3125201 [PARAM] 43.7728978 [PARAM] -79.2576797
+v3_distance = 3.1 mi
+v3_duration = 11 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Parkway Mall [PARAM] 3.1 mi [PARAM] Scarborough Civic Centre
+PREDICT: [ACTION] wait_for_user
+u3_0 = I
+u3_1 = think
+u3_2 = the
+u3_3 = mall
+u3_4 = I
+u3_5 = 'm
+u3_6 = thinking
+u3_7 = of
+u3_8 = is
+u3_9 = right
+u3_10 = across
+u3_11 = the
+u3_12 = street
+u3_13 = from
+u3_14 = the
+u3_15 = civic
+u3_16 = centre
+PREDICT: [ACTION] places_nearby [PARAM] mall [PARAM] 43.7728978 [PARAM] -79.2576797
+v4_0_name = Scarborough Town Centre
+v4_0_rating = 4.3
+v4_0_is_open = True
+v4_0_types = ['shopping_mall', 'department_store', 'furniture_store', 'home_goods_store', 'restaurant', 'food', 'point_of_interest', 'store', 'establishment']
+v4_0_latitude = 43.7756054
+v4_0_longitude = -79.2578685
+v4_0_address = 300 Borough Dr, Toronto, ON M1P 4P5, Canada
+v4_0_street_number = 300
+v4_0_street_name = Borough Drive
+v4_0_locality = Toronto
+v4_0_distance = 0.5 mi
+v4_0_duration = 3 mins
+v4_1_name = Mac cosmetics
+v4_1_rating = 0
+v4_1_types = ['shopping_mall', 'point_of_interest', 'establishment']
+v4_1_latitude = 43.7743311
+v4_1_longitude = -79.2536188
+v4_1_address = Town Centre Court, Toronto, ON M1P 4Z7, Canada
+v4_1_street_name = Town Centre Court
+v4_1_locality = Toronto
+v4_1_distance = 0.8 mi
+v4_1_duration = 5 mins
+v4_2_name = Progress Park Centre
+v4_2_rating = 4.4
+v4_2_types = ['shopping_mall', 'point_of_interest', 'establishment']
+v4_2_latitude = 43.7715284
+v4_2_longitude = -79.25284479999999
+v4_2_address = 1575-1601 Ellesmere Rd, Scarborough, ON M1P 2Y3, Canada
+v4_2_street_number = 1575-1601
+v4_2_street_name = Ellesmere Road
+v4_2_locality = Toronto
+v4_2_distance = 0.5 mi
+v4_2_duration = 3 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Scarborough Town Centre
+PREDICT: [ACTION] wait_for_user
+u4_0 = Yes
+u4_1 = ,
+u4_2 = that
+u4_3 = 's
+u4_4 = it
+u4_5 = !
+u4_6 = Let
+u4_7 = 's
+u4_8 = go
+u4_9 = .
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Scarborough Town Centre [PARAM] 0.5 mi [PARAM] Scarborough Civic Centre
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 43.7715284 [PARAM] -79.256442

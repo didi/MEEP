@@ -1,0 +1,136 @@
+source_address = City Hall MRT, Singapore
+source_latitude = 1.2924789
+source_longitude = 103.85233199999993
+u1_0 = I
+u1_1 = need
+u1_2 = instagram
+u1_3 = photos
+u1_4 = .
+u1_5 = Can
+u1_6 = we
+u1_7 = go
+u1_8 = to
+u1_9 = that
+u1_10 = flower
+u1_11 = garden
+u1_12 = with
+u1_13 = the
+u1_14 = fake
+u1_15 = trees
+u1_16 = ?
+PREDICT: find_place
+PREDICT: flower garden with the fake trees
+PREDICT: 1.2924789
+PREDICT: 103.85233199999993
+v1_name = Vanda Win
+v1_address = 11 Tanjong Katong Rd, #03 - 25 / 26 / 27, Singapore 437157
+v1_latitude = 1.314845
+v1_longitude = 103.8947241
+v1_types_0 = florist
+v1_types_1 = point of interest
+v1_types_2 = store
+v1_types_3 = establishment
+v1_rating = 3.6
+v1_is_open = False
+v1_address_simple = 11 Tanjong Katong Road, #03 - 25 / 26 / 27
+v1_street_number = 11
+v1_street_name = Tanjong Katong Road
+v1_neighborhood = Geylang
+v1_locality = Singapura
+v1_distance = 4.2 mi
+v1_duration = 15 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Vanda Win
+PREDICT: Tanjong Katong Road
+PREDICT: wait_for_user
+u2_0 = no
+u2_1 = that
+u2_2 = 's
+u2_3 = not
+u2_4 = it
+u2_5 = ,
+u2_6 = it
+u2_7 = should
+u2_8 = be
+u2_9 = in
+u2_10 = downtown
+PREDICT: find_place
+PREDICT: downtown
+PREDICT: 1.2924789
+PREDICT: 103.85233199999993
+v2_name = Downtown
+v2_address = 018969, 15 Central Blvd, Singapore
+v2_latitude = 1.2794576
+v2_longitude = 103.8528128
+v2_types_0 = subway station
+v2_types_1 = transit station
+v2_types_2 = point of interest
+v2_types_3 = establishment
+v2_rating = 4.2
+v2_address_simple = 018969, 15 Central Boulevard
+v2_street_number = 15
+v2_street_name = Central Boulevard
+v2_neighborhood = Downtown Core
+v2_locality = Singapore
+v2_distance = 1.4 mi
+v2_duration = 8 mins
+PREDICT: places_nearby
+PREDICT: flower garden with the fake trees
+PREDICT: 1.2794576
+PREDICT: 103.8528128
+v3_0_name = Vanda Win
+v3_0_rating = 3.6
+v3_0_is_open = False
+v3_0_types_0 = florist
+v3_0_types_1 = point of interest
+v3_0_types_2 = store
+v3_0_types_3 = establishment
+v3_0_latitude = 1.314845
+v3_0_longitude = 103.8947241
+v3_0_address_simple = 11 Tanjong Katong Road, #03 - 25 / 26 / 27
+v3_0_street_number = 11
+v3_0_street_name = Tanjong Katong Road
+v3_0_neighborhood = Geylang
+v3_0_locality = Singapura
+v3_0_distance = 6.0 mi
+v3_0_duration = 17 mins
+PREDICT: find_place
+PREDICT: flower garden
+PREDICT: 1.2794576
+PREDICT: 103.8528128
+v4_name = Flower Dome
+v4_address = 18 Marina Gardens Dr, Singapore 018953
+v4_latitude = 1.2846292
+v4_longitude = 103.8646975
+v4_types_0 = tourist attraction
+v4_types_1 = park
+v4_types_2 = point of interest
+v4_types_3 = establishment
+v4_rating = 4.7
+v4_is_open = False
+v4_address_simple = 18 Marina Gardens Dr, Singapore
+v4_street_number = 18
+v4_street_name = Marina Gardens Dr
+v4_neighborhood = Marina South
+v4_locality = Singapore
+v4_distance = 1.8 mi
+v4_duration = 8 mins
+PREDICT: How about {}?
+PREDICT: Flower Dome
+PREDICT: wait_for_user
+u3_0 = yeah
+u3_1 = that
+u3_2 = 's
+u3_3 = the
+u3_4 = one
+u4_0 = let
+u4_1 = 's
+u4_2 = go
+u4_3 = please
+PREDICT: It is {} and {} away.
+PREDICT: 1.8 mi
+PREDICT: 8 mins
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 1.2846292
+PREDICT: 103.8646975

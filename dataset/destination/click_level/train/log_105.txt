@@ -1,0 +1,43 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = for
+u1_5 = sushi
+u1_6 = in
+u1_7 = Manhattan
+u1_8 = Beach
+PREDICT: find_place
+PREDICT: sushi Manhattan Beach
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 1133 Highland Ave, Manhattan Beach, CA 90266, United States
+v1_name = The IZAKA-YA by KATSU-YA Manhattan Beach
+v1_latitude = 33.8853333
+v1_longitude = -118.4100248
+v1_place_id = ChIJXVWlh-yzwoAR00a54Y-G4MM
+v1_street_number = 1133
+v1_street_name = Highland Avenue
+v1_locality = Manhattan Beach
+v1_distance = 7.9 mi
+v1_duration = 21 mins
+PREDICT: There is {} on {}
+PREDICT: The IZAKA-YA by KATSU-YA Manhattan Beach
+PREDICT: Highland Avenue
+PREDICT: It is {} away.
+PREDICT: 21 mins
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = katsu-ya
+u2_1 = is
+u2_2 = expensive
+u2_3 = !
+u2_4 = but
+u2_5 = ok
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.8853333
+PREDICT: -118.4100248

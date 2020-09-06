@@ -1,0 +1,84 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hey
+u1_1 = i
+u1_2 = want
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = outlets
+u1_7 = .
+PREDICT: [ACTION] find_place [PARAM] outlets [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 100 Citadel Dr, Commerce, CA 90040, United States
+v1_name = Citadel Outlets
+v1_latitude = 34.0060247
+v1_longitude = -118.1525318
+v1_place_id = ChIJVVWVWVPOwoAR2DYSu7-_cks
+v1_street_number = 100
+v1_street_name = Citadel Drive
+v1_neighborhood = South Montebello
+v1_locality = Commerce
+v1_distance = 23.5 mi
+v1_duration = 36 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Citadel Outlets [PARAM] Citadel Drive
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 23.5 mi [PARAM] 36 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = is
+u2_1 = there
+u2_2 = any
+u2_3 = options
+u2_4 = i
+u2_5 = can
+u2_6 = consider
+u2_7 = ?
+PREDICT: [ACTION] places_nearby [PARAM] outlets [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = Waterside, Marina del Rey
+v2_0_rating = 4.4
+v2_0_is_open = True
+v2_0_place_id = ChIJa0Rfd4C6woAR-w6iLNTg0mw
+v2_0_types = ['shopping_mall', 'point_of_interest', 'establishment']
+v2_0_latitude = 33.978876
+v2_0_longitude = -118.438423
+v2_0_address = 4700 Admiralty Way, Marina Del Rey, CA 90292, USA
+v2_0_street_number = 4700
+v2_0_street_name = Admiralty Way
+v2_0_locality = Marina del Rey
+v2_1_name = Villa Marina Marketplace Mall
+v2_1_rating = 4.4
+v2_1_is_open = True
+v2_1_place_id = ChIJtYPIwIe6woARN0PeWxNgtSM
+v2_1_types = ['shopping_mall', 'point_of_interest', 'establishment']
+v2_1_latitude = 33.98570060000001
+v2_1_longitude = -118.4405204
+v2_1_address = 13450 Maxella Ave, Marina Del Rey, CA 90292, USA
+v2_1_street_number = 13450
+v2_1_street_name = Maxella Avenue
+v2_1_locality = Marina del Rey
+v2_2_name = Westchester Village
+v2_2_rating = 4.3
+v2_2_is_open = True
+v2_2_place_id = ChIJ5cFuZNKwwoARwfGSBvoRPCQ
+v2_2_types = ['shopping_mall', 'point_of_interest', 'establishment']
+v2_2_latitude = 33.9562754
+v2_2_longitude = -118.3972205
+v2_2_address = S Sepulveda Blvd, Los Angeles, CA 90045, USA
+v2_2_street_name = South Sepulveda Boulevard
+v2_2_neighborhood = Westchester
+v2_2_locality = Los Angeles
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Waterside, Marina del Rey [PARAM] Villa Marina Marketplace Mall [PARAM] Westchester Village
+PREDICT: [ACTION] wait_for_user
+u3_0 = emmm
+u3_1 = ,
+u3_2 = i
+u3_3 = will
+u3_4 = still
+u3_5 = do
+u3_6 = Citadel
+u3_7 = Outlets
+u3_8 = .
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 23.5 mi [PARAM] 36 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+PREDICT: [ACTION] start_driving [PARAM] 34.0060247 [PARAM] -118.1525318

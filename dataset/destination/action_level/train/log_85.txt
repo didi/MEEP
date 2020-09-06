@@ -1,0 +1,62 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = find
+u1_1 = a
+u1_2 = LA
+u1_3 = fitness
+u1_4 = near
+u1_5 = LAX
+PREDICT: [ACTION] find_place [PARAM] LAX [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 1 World Way, Los Angeles, CA 90045, United States
+v1_name = Los Angeles International Airport
+v1_latitude = 33.9415889
+v1_longitude = -118.40853
+v1_place_id = ChIJtU-yE9KwwoAR8a2LaVd7qHc
+v1_street_number = 1
+v1_street_name = World Way
+v1_locality = Los Angeles
+v1_distance = 4.7 mi
+v1_duration = 17 mins
+PREDICT: [ACTION] start_driving [PARAM] 33.9415889 [PARAM] -118.40853
+PREDICT: [ACTION] find_place [PARAM] LA fitness [PARAM] 33.9415889 [PARAM] -118.40853
+v2_address = 8601 Lincoln Blvd, Westchester, CA 90045, United States
+v2_name = LA Fitness
+v2_latitude = 33.9591966
+v2_longitude = -118.4206003
+v2_place_id = ChIJm-61rOuwwoARY25-1TokkVY
+v2_street_number = 8601
+v2_street_name = Lincoln Boulevard
+v2_neighborhood = Westchester
+v2_locality = Los Angeles
+v2_distance = 3.0 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] LA Fitness [PARAM] Lincoln Boulevard
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] LA Fitness [PARAM] 12 mins [PARAM] Los Angeles International Airport
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = not
+u2_1 = too
+u2_2 = bad
+u2_3 = ,
+u2_4 = how
+u2_5 = long
+u2_6 = will
+u2_7 = it
+u2_8 = take
+u2_9 = to
+u2_10 = go
+u2_11 = there
+u2_12 = ?
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 33.9591966 [PARAM] -118.4206003
+v3_distance = 2.1 mi
+v3_duration = 7 mins
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 2.1 mi [PARAM] 7 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = now
+PREDICT: [ACTION] start_driving [PARAM] 33.9591966 [PARAM] -118.4206003

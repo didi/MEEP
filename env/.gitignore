@@ -1,0 +1,7 @@
+# This folder is reserved for your python virtualenv.
+
+# Ignore all files in this dir...
+*
+
+# ... except for this one.
+!.gitignore

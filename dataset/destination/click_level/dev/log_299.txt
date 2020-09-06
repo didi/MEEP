@@ -1,0 +1,163 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = get
+u1_4 = my
+u1_5 = nails
+u1_6 = done
+u1_7 = .
+u1_8 = Is
+u1_9 = there
+u1_10 = a
+u1_11 = place
+u1_12 = with
+u1_13 = a
+u1_14 = good
+u1_15 = rating
+u1_16 = nearby
+u1_17 = ?
+PREDICT: find_place
+PREDICT: get my nails done
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Nails Done By Lynn
+v1_address = 6845 La Tijera Blvd, Los Angeles, CA 90045, United States
+v1_latitude = 33.9767152
+v1_longitude = -118.3733475
+v1_types_0 = Beauty salon
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4
+v1_is_open = True
+v1_address_simple = 6845 La Tijera Boulevard, Los Angeles
+v1_street_number = 6845
+v1_street_name = La Tijera Boulevard
+v1_locality = Los Angeles
+v1_distance = 4.9 mi
+v1_duration = 11 mins
+PREDICT: find_place
+PREDICT: nails
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Nails By Olivia
+v2_address = 4371 Glencoe Ave # B8, Marina Del Rey, CA 90292, United States
+v2_latitude = 33.9845069
+v2_longitude = -118.4395902
+v2_types_0 = Beauty salon
+v2_types_1 = Point of interest
+v2_types_2 = Establishment
+v2_rating = 3.5
+v2_is_open = True
+v2_address_simple = 4371 Glencoe Avenue # B8, Marina del Rey
+v2_street_number = 4371
+v2_street_name = Glencoe Avenue
+v2_locality = Marina del Rey
+v2_distance = 0.7 mi
+v2_duration = 5 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: Beauty salon
+PREDICT: Nails By Olivia
+PREDICT: Glencoe Avenue
+PREDICT: Marina del Rey
+PREDICT: find_place
+PREDICT: Beauty salon
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_name = Aveda Azure Lifestyle Salon
+v3_address = 13161 Mindanao Way #D-6A, D6A, Marina Del Rey, CA 90292, United States
+v3_latitude = 33.9850762
+v3_longitude = -118.4378959
+v3_types_0 = Beauty salon
+v3_types_1 = Hair care
+v3_types_2 = Point of interest
+v3_types_3 = Establishment
+v3_rating = 4
+v3_is_open = True
+v3_address_simple = 13161 Mindanao Way #D-6A, D6A, Marina del Rey
+v3_locality = Marina del Rey
+v3_distance = 0.5 mi
+v3_duration = 5 mins
+PREDICT: It has a rating of {}.
+PREDICT: 3.5
+PREDICT: wait_for_user
+u2_0 = can
+u2_1 = we
+u2_2 = find
+u2_3 = one
+u2_4 = with
+u2_5 = a
+u2_6 = better
+u2_7 = rating
+u2_8 = ?
+PREDICT: places_nearby
+PREDICT: Beauty salon
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_0_name = Drybar Marina del Rey
+v4_0_rating = 3.9
+v4_0_is_open = True
+v4_0_types_0 = Beauty salon
+v4_0_types_1 = Hair care
+v4_0_types_2 = Point of interest
+v4_0_types_3 = Establishment
+v4_0_latitude = 33.9793436
+v4_0_longitude = -118.4384217
+v4_0_address_simple = 4712 Admiralty Way, Marina del Rey
+v4_0_street_number = 4712
+v4_0_street_name = Admiralty Way
+v4_0_locality = Marina del Rey
+v4_0_distance = 0.3 mi
+v4_0_duration = 3 mins
+v4_1_name = Supercuts
+v4_1_rating = 3.7
+v4_1_is_open = True
+v4_1_types_0 = Beauty salon
+v4_1_types_1 = Hair care
+v4_1_types_2 = Health
+v4_1_types_3 = Point of interest
+v4_1_types_4 = Establishment
+v4_1_latitude = 33.984689
+v4_1_longitude = -118.439732
+v4_1_address_simple = 4371 Glencoe Avenue, Marina del Rey
+v4_1_street_number = 4371
+v4_1_street_name = Glencoe Avenue
+v4_1_locality = Marina del Rey
+v4_1_distance = 0.7 mi
+v4_1_duration = 6 mins
+v4_2_name = John Peri Hair Designs
+v4_2_rating = 4.7
+v4_2_is_open = True
+v4_2_types_0 = Beauty salon
+v4_2_types_1 = Hair care
+v4_2_types_2 = Point of interest
+v4_2_types_3 = Establishment
+v4_2_latitude = 33.9843068
+v4_2_longitude = -118.4385164
+v4_2_address_simple = 13175 Mindanao Way, Marina del Rey
+v4_2_street_number = 13175
+v4_2_street_name = Mindanao Way
+v4_2_locality = Marina del Rey
+v4_2_distance = 0.5 mi
+v4_2_duration = 5 mins
+PREDICT: I found {} in {}.
+PREDICT: Aveda Azure Lifestyle Salon
+PREDICT: Marina del Rey
+PREDICT: It has a rating of {}.
+PREDICT: 4
+PREDICT: wait_for_user
+u3_0 = Ha
+u3_1 = ,
+u3_2 = okay
+u3_3 = ,
+u3_4 = let
+u3_5 = 's
+u3_6 = go
+u3_7 = there
+u3_8 = .
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.9850762
+PREDICT: -118.4378959

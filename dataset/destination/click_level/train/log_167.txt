@@ -1,0 +1,83 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = hi
+u1_1 = i
+u1_2 = 'd
+u1_3 = like
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = the
+u1_8 = bank
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: bank
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v1_name = BMO Bank of Montreal
+v1_address = 242 Bloor St W, Toronto, ON M5S 1T8, Canada
+v1_rating = 4.4
+v1_is_open = True
+v1_latitude = 43.6682368
+v1_longitude = -79.39718630000002
+v1_street_number = 242
+v1_street_name = Bloor Street West
+v1_locality = Toronto
+v1_distance = 0.5 mi
+v1_duration = 3 mins
+PREDICT: How about {}?
+PREDICT: BMO Bank of Montreal
+PREDICT: It is on {}.
+PREDICT: Bloor Street West
+PREDICT: wait_for_user
+u2_0 = no
+u2_1 = I
+u2_2 = bank
+u2_3 = with
+u2_4 = scotia
+PREDICT: find_place
+PREDICT: bank with scotia
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v2_name = Scotiabank
+v2_address = 332 Bloor St W, Toronto, ON M5S 1W6, Canada
+v2_rating = 2.3
+v2_is_open = True
+v2_latitude = 43.6669472
+v2_longitude = -79.40371080000001
+v2_street_number = 332
+v2_street_name = Bloor Street West
+v2_locality = Toronto
+v2_distance = 0.1 mi
+v2_duration = 1 min
+PREDICT: Do you mean {}?
+PREDICT: Scotiabank
+PREDICT: There is a {} on {}.
+PREDICT: Scotiabank
+PREDICT: Bloor Street West
+PREDICT: wait_for_user
+u3_0 = Sounds
+u3_1 = good
+u3_2 = ,
+u3_3 = how
+u3_4 = long
+u3_5 = will
+u3_6 = it
+u3_7 = take
+u3_8 = to
+u3_9 = get
+u3_10 = there
+u3_11 = ?
+PREDICT: You will reach there in {}.
+PREDICT: 1 min
+PREDICT: wait_for_user
+u4_0 = Ok
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = .
+PREDICT: start_driving
+PREDICT: 43.6669472
+PREDICT: -79.40371080000001

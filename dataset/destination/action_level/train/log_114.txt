@@ -1,0 +1,86 @@
+source_address = Edinburgh, UK
+source_latitude = 55.953252
+source_longitude = -3.188266999999996
+u1_0 = hi
+u1_1 = --
+u1_2 = to
+u1_3 = the
+u1_4 = bow
+u1_5 = bar
+u1_6 = ,
+u1_7 = please
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] bow bar [PARAM] 55.953252 [PARAM] -3.188266999999996
+v1_name = The Bow Bar
+v1_address = 80 W Bow, Edinburgh EH1 2HH, United Kingdom
+v1_price_level = 2
+v1_rating = 4.6
+v1_is_open = True
+v1_latitude = 55.9484338
+v1_longitude = -3.1941839
+v1_street_number = 80
+v1_street_name = West Bow
+v1_distance = 0.8 mi
+v1_duration = 7 mins
+PREDICT: [ACTION] The one on {}? [PARAM] West Bow
+PREDICT: [ACTION] wait_for_user
+u2_0 = not
+u2_1 = sure
+u2_2 = ,
+u2_3 = but
+u2_4 = I
+u2_5 = think
+u2_6 = it
+u2_7 = 's
+u2_8 = by
+u2_9 = George
+u2_10 = iv
+u2_11 = bridge
+PREDICT: [ACTION] find_place [PARAM] George iv bridge [PARAM] 55.9484338 [PARAM] -3.1941839
+v2_name = George IV Bridge
+v2_address = George IV Bridge, Edinburgh, UK
+v2_latitude = 55.9477473
+v2_longitude = -3.1916784
+v2_street_name = George IV Bridge
+v2_distance = 0.2 mi
+v2_duration = 1 min
+PREDICT: [ACTION] distance_matrix [PARAM] 55.9484338 [PARAM] -3.1941839 [PARAM] 55.9477473 [PARAM] -3.1916784
+v3_distance = 0.2 mi
+v3_duration = 1 min
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] The Bow Bar [PARAM] 0.2 mi [PARAM] George IV Bridge
+PREDICT: [ACTION] wait_for_user
+u3_0 = perfect
+u3_1 = ,
+u3_2 = that
+u3_3 = 's
+u3_4 = the
+u3_5 = one
+u3_6 = .
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = how
+u4_1 = long
+u4_2 = will
+u4_3 = it
+u4_4 = take
+u4_5 = to
+u4_6 = get
+u4_7 = there
+u4_8 = ?
+u5_0 = and
+u5_1 = where
+u5_2 = am
+u5_3 = I
+u5_4 = now
+u5_5 = ?
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 7 mins
+PREDICT: [ACTION] you current address is {}. [PARAM] Edinburgh, UK
+PREDICT: [ACTION] wait_for_user
+u6_0 = off
+u6_1 = we
+u6_2 = go
+u6_3 = ,
+u6_4 = then
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 55.9484338 [PARAM] -3.1941839

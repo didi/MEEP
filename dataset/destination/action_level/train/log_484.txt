@@ -1,0 +1,103 @@
+source_address = City Hall MRT, Singapore
+source_latitude = 1.2924789
+source_longitude = 103.85233199999993
+u1_0 = Hi
+u1_1 = ,
+u1_2 = can
+u1_3 = you
+u1_4 = find
+u1_5 = me
+u1_6 = a
+u1_7 = nearby
+u1_8 = hawker
+u1_9 = centre
+u1_10 = ?
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] hawker centre [PARAM] 33.979 [PARAM] -118.460
+PREDICT: [ACTION] find_place [PARAM] hawker centre [PARAM] 33.979 [PARAM] -118.460
+PREDICT: [ACTION] places_nearby [PARAM] hawker centre [PARAM] 33.979 [PARAM] -118.460
+PREDICT: [ACTION] find_place [PARAM] hawker [PARAM] 33.979 [PARAM] -118.460
+v4_name = Hawker Pacific Aerospace
+v4_address = 11240 Sherman Way, Sun Valley, CA 91352, United States
+v4_latitude = 34.2008605
+v4_longitude = -118.3762652
+v4_types_0 = point of interest
+v4_types_1 = store
+v4_types_2 = establishment
+v4_rating = 4.4
+v4_address_simple = 11240 Sherman Way, Sun Valley
+v4_street_number = 11240
+v4_street_name = Sherman Way
+v4_neighborhood = Sun Valley
+v4_locality = Los Angeles
+v4_distance = 26.2 mi
+v4_duration = 46 mins
+PREDICT: [ACTION] wait_for_user
+u1_0 = Hi
+u1_1 = ,
+u1_2 = I
+u1_3 = 'd
+u1_4 = like
+u1_5 = to
+u1_6 = go
+u1_7 = to
+u1_8 = a
+u1_9 = nearby
+u1_10 = hawker
+u1_11 = center
+PREDICT: [ACTION] find_place [PARAM] hawker [PARAM] 1.2924789 [PARAM] 103.85233199999993
+v1_name = Hong Lim Market & Food Centre
+v1_address = 531A Upper Cross St, Singapore 051531
+v1_latitude = 1.2854139
+v1_longitude = 103.845807
+v1_price_level = 1
+v1_types_0 = tourist attraction
+v1_types_1 = restaurant
+v1_types_2 = food
+v1_types_3 = point of interest
+v1_types_4 = establishment
+v1_rating = 4.2
+v1_is_open = False
+v1_address_simple = 531A Upper Cross Street
+v1_street_number = 531A
+v1_street_name = Upper Cross Street
+v1_neighborhood = Outram
+v1_locality = Singapore
+v1_distance = 0.8 mi
+v1_duration = 5 mins
+PREDICT: [ACTION] find_place [PARAM] hawker center [PARAM] 1.2924789 [PARAM] 103.85233199999993
+v2_name = Market Street Interim Food Centre
+v2_address = 5 Cross St, Singapore 048418
+v2_latitude = 1.281587
+v2_longitude = 103.8488513
+v2_price_level = 1
+v2_types_0 = restaurant
+v2_types_1 = food
+v2_types_2 = point of interest
+v2_types_3 = establishment
+v2_rating = 4.2
+v2_is_open = False
+v2_address_simple = 5 Cross Street, Singapore
+v2_street_number = 5
+v2_street_name = Cross Street
+v2_neighborhood = Outram
+v2_locality = Singapore
+v2_distance = 1.1 mi
+v2_duration = 8 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Market Street Interim Food Centre
+PREDICT: [ACTION] wait_for_user
+u2_0 = What
+u2_1 = 's
+u2_2 = the
+u2_3 = rating
+u2_4 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.2
+PREDICT: [ACTION] wait_for_user
+u3_0 = OK
+u3_1 = great
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = there
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Market Street Interim Food Centre
+PREDICT: [ACTION] start_driving [PARAM] 1.281587 [PARAM] 103.8488513

@@ -1,0 +1,59 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = There
+u1_1 = 's
+u1_2 = a
+u1_3 = really
+u1_4 = good
+u1_5 = hotpot
+u1_6 = place
+u1_7 = called
+u1_8 = HaiDiLao
+u1_9 = ,
+u1_10 = I
+u1_11 = think
+u1_12 = it
+u1_13 = 's
+u1_14 = in
+u1_15 = Arcadia
+u1_16 = .
+PREDICT: find_place
+PREDICT: HaiDiLao in Arcadia
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = HaiDiLao Hotpot
+v1_address = 400 S Baldwin Ave Suite 2015, Arcadia, CA 91007, United States
+v1_latitude = 34.1333726
+v1_longitude = -118.0529968
+v1_price_level = 3
+v1_types_0 = Restaurant
+v1_types_1 = Food
+v1_types_2 = Point of interest
+v1_types_3 = Establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 400 South Baldwin Avenue Suite 2015, Arcadia
+v1_street_number = 400
+v1_street_name = South Baldwin Avenue
+v1_locality = Arcadia
+v1_distance = 34.7 mi
+v1_duration = 52 mins
+PREDICT: There is a {} in {}.
+PREDICT: HaiDiLao Hotpot
+PREDICT: Arcadia
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = Ah
+u2_1 = yes
+u2_2 = ,
+u2_3 = easy
+u2_4 = .
+u3_0 = Let
+u3_1 = 's
+u3_2 = go
+u3_3 = !
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 34.1333726
+PREDICT: -118.0529968

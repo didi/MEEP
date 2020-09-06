@@ -1,0 +1,168 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = What
+u1_1 = 's
+u1_2 = the
+u1_3 = closest
+u1_4 = Cajun
+u1_5 = place
+u1_6 = ?
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: Cajun place
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = The Kickin' Crab Los Angeles
+v1_address = 3767 Santa Rosalia Dr, Los Angeles, CA 90008, United States
+v1_latitude = 34.0093255
+v1_longitude = -118.3387758
+v1_price_level = 2
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4
+v1_is_open = True
+v1_address_simple = 3767 Santa Rosalia Drive, Los Angeles
+v1_street_number = 3767
+v1_street_name = Santa Rosalia Drive
+v1_neighborhood = South Los Angeles
+v1_locality = Los Angeles
+v1_distance = 7.6 mi
+v1_duration = 17 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: restaurant
+PREDICT: The Kickin' Crab Los Angeles
+PREDICT: 3767 Santa Rosalia Drive, Los Angeles
+PREDICT: South Los Angeles
+PREDICT: Are you okay with that one?
+PREDICT: wait_for_user
+u2_0 = Sounds
+u2_1 = good
+u2_2 = ,
+u2_3 = but
+u2_4 = it
+u2_5 = seems
+u2_6 = far
+u2_7 = .
+u2_8 = Anything
+u2_9 = closer
+u2_10 = ?
+u3_0 = Any
+u3_1 = Louisiana
+u3_2 = ,
+u3_3 = Cajun
+u3_4 = ,
+u3_5 = New
+u3_6 = Orleans
+u3_7 = type
+PREDICT: places_nearby
+PREDICT: Cajun place
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: find_place
+PREDICT: Louisiana Cajun New Orleans type
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_name = The Little Jewel of New Orleans
+v3_address = 207 Ord St, Los Angeles, CA 90012, United States
+v3_latitude = 34.0601021
+v3_longitude = -118.2382035
+v3_price_level = 2
+v3_types_0 = grocery or supermarket
+v3_types_1 = cafe
+v3_types_2 = restaurant
+v3_types_3 = food
+v3_types_4 = point of interest
+v3_types_5 = store
+v3_types_6 = establishment
+v3_rating = 4.5
+v3_is_open = False
+v3_address_simple = 207 Ord Street, Los Angeles
+v3_street_number = 207
+v3_street_name = Ord Street
+v3_neighborhood = Central LA
+v3_locality = Los Angeles
+v3_distance = 18.7 mi
+v3_duration = 33 mins
+PREDICT: places_nearby
+PREDICT: Louisiana Cajun New Orleans type
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: places_nearby
+PREDICT: Louisiana Cajun
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v5_0_name = louisiana fried chicken, Louisiana Famous Fried Chicken
+v5_0_rating = 3
+v5_0_price_level = 1
+v5_0_types_0 = restaurant
+v5_0_types_1 = food
+v5_0_types_2 = point of interest
+v5_0_types_3 = establishment
+v5_0_latitude = 34.0008882
+v5_0_longitude = -118.4678369
+v5_0_address_simple = 317 Lincoln Boulevard, Venice
+v5_0_street_number = 317
+v5_0_street_name = Lincoln Boulevard
+v5_0_neighborhood = Venice
+v5_0_locality = Los Angeles
+v5_0_distance = 2.2 mi
+v5_0_duration = 10 mins
+v5_1_name = Bayou Grille
+v5_1_rating = 4.4
+v5_1_is_open = True
+v5_1_price_level = 2
+v5_1_types_0 = restaurant
+v5_1_types_1 = food
+v5_1_types_2 = point of interest
+v5_1_types_3 = establishment
+v5_1_latitude = 33.9803043
+v5_1_longitude = -118.3580095
+v5_1_address_simple = 1400 North La Brea Avenue, Inglewood
+v5_1_street_number = 1400
+v5_1_street_name = North La Brea Avenue
+v5_1_locality = Inglewood
+v5_1_distance = 5.5 mi
+v5_1_duration = 14 mins
+v5_2_name = Popeyes Louisiana Kitchen
+v5_2_rating = 3.9
+v5_2_is_open = True
+v5_2_price_level = 1
+v5_2_types_0 = restaurant
+v5_2_types_1 = food
+v5_2_types_2 = point of interest
+v5_2_types_3 = establishment
+v5_2_latitude = 33.9760373
+v5_2_longitude = -118.3580197
+v5_2_address_simple = 957 North La Brea Avenue, Inglewood
+v5_2_street_number = 957
+v5_2_street_name = North La Brea Avenue
+v5_2_locality = Inglewood
+v5_2_distance = 5.7 mi
+v5_2_duration = 14 mins
+PREDICT: How about one on {}? It is {} away.
+PREDICT: louisiana fried chicken, Louisiana Famous Fried Chicken
+PREDICT: 2.2 mi
+PREDICT: It is on {}.
+PREDICT: Lincoln Boulevard
+PREDICT: wait_for_user
+u4_0 = How
+u4_1 = long
+u4_2 = to
+u4_3 = get
+u4_4 = there
+u4_5 = ?
+PREDICT: {}.
+PREDICT: 10 mins
+PREDICT: wait_for_user
+u5_0 = ok
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+u5_5 = !
+PREDICT: start_driving
+PREDICT: 34.0008882
+PREDICT: -118.4678369

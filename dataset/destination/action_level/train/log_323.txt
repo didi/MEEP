@@ -1,0 +1,40 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Rosedale
+u1_1 = cemetary
+PREDICT: [ACTION] find_place [PARAM] Rosedale cemetary [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Rosedale Cemetery
+v1_address = 1831 W Washington Blvd, Los Angeles, CA 90007, United States
+v1_latitude = 34.0424188
+v1_longitude = -118.2972428
+v1_types_0 = cemetery
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 3.9
+v1_is_open = True
+v1_address_simple = 1831 West Washington Boulevard, Los Angeles
+v1_street_number = 1831
+v1_street_name = West Washington Boulevard
+v1_neighborhood = Mid City
+v1_locality = Los Angeles
+v1_distance = 14.6 mi
+v1_duration = 25 mins
+PREDICT: [ACTION] The one on {}? [PARAM] West Washington Boulevard
+PREDICT: [ACTION] It is {} away. [PARAM] 25 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = I
+u2_1 = 'm
+u2_2 = not
+u2_3 = sure
+u2_4 = ,
+u2_5 = what
+u2_6 = part
+u2_7 = of
+u2_8 = town
+u2_9 = ?
+PREDICT: [ACTION] It is in {}. [PARAM] Mid City
+PREDICT: [ACTION] wait_for_user
+u3_0 = OK
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.0424188 [PARAM] -118.2972428

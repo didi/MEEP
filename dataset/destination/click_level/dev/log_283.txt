@@ -1,0 +1,126 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = please
+u1_1 = take
+u1_2 = me
+u1_3 = to
+u1_4 = a
+u1_5 = coffee
+u1_6 = shop
+u1_7 = that
+u1_8 = 's
+u1_9 = not
+u1_10 = starbucks
+PREDICT: Sure, give me a moment.
+PREDICT: places_nearby
+PREDICT: coffee shop
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Starbucks
+v1_0_rating = 1
+v1_0_is_open = True
+v1_0_price_level = 2
+v1_0_types_0 = Cafe
+v1_0_types_1 = Food
+v1_0_types_2 = Point of interest
+v1_0_types_3 = Store
+v1_0_types_4 = Establishment
+v1_0_latitude = 33.979901
+v1_0_longitude = -118.43922
+v1_0_address_simple = 4700 Admiralty Way, Marina del Rey
+v1_0_street_number = 4700
+v1_0_street_name = Admiralty Way
+v1_0_locality = Marina del Rey
+v1_0_distance = 0.2 mi
+v1_0_duration = 3 mins
+v1_1_name = Peet's Coffee
+v1_1_rating = 4.6
+v1_1_is_open = True
+v1_1_price_level = 1
+v1_1_types_0 = Cafe
+v1_1_types_1 = Food
+v1_1_types_2 = Point of interest
+v1_1_types_3 = Store
+v1_1_types_4 = Establishment
+v1_1_latitude = 33.9807954
+v1_1_longitude = -118.4378483
+v1_1_address_simple = 4706 Lincoln Boulevard, Marina del Rey
+v1_1_street_number = 4706
+v1_1_street_name = Lincoln Boulevard
+v1_1_locality = Marina del Rey
+v1_1_distance = 0.3 mi
+v1_1_duration = 3 mins
+v1_2_name = Starbucks
+v1_2_rating = 3.9
+v1_2_is_open = True
+v1_2_price_level = 2
+v1_2_types_0 = Cafe
+v1_2_types_1 = Food
+v1_2_types_2 = Point of interest
+v1_2_types_3 = Store
+v1_2_types_4 = Establishment
+v1_2_latitude = 33.9843078
+v1_2_longitude = -118.4430027
+v1_2_address_simple = 4311 Lincoln Boulevard, Marina del Rey
+v1_2_street_number = 4311
+v1_2_street_name = Lincoln Boulevard
+v1_2_neighborhood = Venice
+v1_2_locality = Marina del Rey
+v1_2_distance = 0.7 mi
+v1_2_duration = 6 mins
+PREDICT: How about {}?
+PREDICT: Peet's Coffee
+PREDICT: It is on {}.
+PREDICT: Lincoln Boulevard
+PREDICT: wait_for_user
+u2_0 = it
+u2_1 = 's
+u2_2 = too
+u2_3 = close
+PREDICT: places_nearby
+PREDICT: coffee shop not starbucks
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: I can't find any places for your request, can you give me more information?
+PREDICT: wait_for_user
+u3_0 = how
+u3_1 = about
+u3_2 = alana
+u3_3 = 's
+u3_4 = ?
+PREDICT: find_place
+PREDICT: alana 's
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_name = Alana's Coffee Roasters
+v3_address = 12511 Venice Blvd, Los Angeles, CA 90066, United States
+v3_latitude = 34.0033116
+v3_longitude = -118.434969
+v3_types_0 = Cafe
+v3_types_1 = Food
+v3_types_2 = Point of interest
+v3_types_3 = Establishment
+v3_rating = 4.7
+v3_is_open = True
+v3_address_simple = 12511 Venice Boulevard, Los Angeles
+v3_street_number = 12511
+v3_street_name = Venice Boulevard
+v3_neighborhood = Mar Vista
+v3_locality = Los Angeles
+v3_distance = 2.4 mi
+v3_duration = 12 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Alana's Coffee Roasters
+PREDICT: Venice Boulevard
+PREDICT: It is {} and {} away.
+PREDICT: 2.4 mi
+PREDICT: 12 mins
+PREDICT: wait_for_user
+u4_0 = yes
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u5_0 = great
+PREDICT: start_driving
+PREDICT: 34.0033116
+PREDICT: -118.434969

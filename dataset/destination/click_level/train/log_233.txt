@@ -1,0 +1,153 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = a
+u1_6 = nursery
+u1_7 = on
+u1_8 = Sawtelle
+u1_9 = .
+u2_0 = Actually
+u2_1 = ,
+u2_2 = it
+u2_3 = 's
+u2_4 = near
+u2_5 = Sawtelle
+u2_6 = .
+u3_0 = Not
+u3_1 = sure
+u3_2 = if
+u3_3 = it
+u3_4 = 's
+u3_5 = on
+u3_6 = Sawtelle
+u3_7 = .
+PREDICT: find_place
+PREDICT: nursery near Sawtelle
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Hashimoto Nursery
+v1_address = 1935 Sawtelle Blvd, Los Angeles, CA 90025, United States
+v1_latitude = 34.0413546
+v1_longitude = -118.4445525
+v1_types_0 = Point of interest
+v1_types_1 = Store
+v1_types_2 = Establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 1935 Sawtelle Boulevard, Los Angeles
+v1_street_number = 1935
+v1_street_name = Sawtelle Boulevard
+v1_neighborhood = West Los Angeles
+v1_locality = Los Angeles
+v1_distance = 8.2 mi
+v1_duration = 17 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Hashimoto Nursery
+PREDICT: Sawtelle Boulevard
+PREDICT: wait_for_user
+u4_0 = Ah
+u4_1 = ,
+u4_2 = is
+u4_3 = n't
+u4_4 = there
+u4_5 = another
+u4_6 = one
+u4_7 = nearby
+u4_8 = ?
+PREDICT: places_nearby
+PREDICT: nursery near Sawtelle
+PREDICT: 34.0413546
+PREDICT: -118.4445525
+v2_0_name = Hashimoto Nursery
+v2_0_rating = 4.5
+v2_0_is_open = True
+v2_0_types_0 = Point of interest
+v2_0_types_1 = Store
+v2_0_types_2 = Establishment
+v2_0_latitude = 34.0413546
+v2_0_longitude = -118.4445525
+v2_0_address_simple = 1935 Sawtelle Boulevard, Los Angeles
+v2_0_street_number = 1935
+v2_0_street_name = Sawtelle Boulevard
+v2_0_neighborhood = West Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 1 ft
+v2_0_duration = 1 min
+v2_1_name = Yamaguchi Bonsai Nursery
+v2_1_rating = 4
+v2_1_is_open = True
+v2_1_types_0 = Point of interest
+v2_1_types_1 = Store
+v2_1_types_2 = Establishment
+v2_1_latitude = 34.0421469
+v2_1_longitude = -118.4449391
+v2_1_address_simple = 1905 Sawtelle Boulevard, Los Angeles
+v2_1_street_number = 1905
+v2_1_street_name = Sawtelle Boulevard
+v2_1_neighborhood = West Los Angeles
+v2_1_locality = Los Angeles
+v2_1_distance = 302 ft
+v2_1_duration = 1 min
+v2_2_name = Tabuchi Nursery
+v2_2_rating = 4.3
+v2_2_types_0 = Point of interest
+v2_2_types_1 = Establishment
+v2_2_latitude = 34.04071
+v2_2_longitude = -118.443822
+v2_2_address_simple = 2001 Sawtelle Boulevard, Los Angeles
+v2_2_street_number = 2001
+v2_2_street_name = Sawtelle Boulevard
+v2_2_neighborhood = West Los Angeles
+v2_2_locality = Los Angeles
+v2_2_distance = 351 ft
+v2_2_duration = 1 min
+PREDICT: I found two places: {} and {}.
+PREDICT: Yamaguchi Bonsai Nursery
+PREDICT: Tabuchi Nursery
+PREDICT: wait_for_user
+u5_0 = Yamaguchi
+u5_1 = is
+u5_2 = the
+u5_3 = one
+u5_4 = .
+u5_5 = Is
+u5_6 = it
+u5_7 = open
+u5_8 = ?
+PREDICT: {} on {} is open.
+PREDICT: Yamaguchi Bonsai Nursery
+PREDICT: Sawtelle Boulevard
+PREDICT: wait_for_user
+u6_0 = Perfect
+u6_1 = ,
+u6_2 = how
+u6_3 = far
+u6_4 = is
+u6_5 = the
+u6_6 = drive
+u6_7 = ?
+PREDICT: distance_matrix
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: 34.0421469
+PREDICT: -118.4449391
+v3_distance = 8.2 mi
+v3_duration = 17 mins
+PREDICT: It is {} and {} away.
+PREDICT: 8.2 mi
+PREDICT: 17 mins
+PREDICT: wait_for_user
+u7_0 = Okay
+u7_1 = let
+u7_2 = 's
+u7_3 = go
+u7_4 = .
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.0421469
+PREDICT: -118.4449391

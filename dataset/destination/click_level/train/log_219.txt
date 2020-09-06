@@ -1,0 +1,60 @@
+source_address = Dongcheng, China
+source_latitude = 39.920093
+source_longitude = 116.39686499999993
+u1_0 = xier
+u1_1 = qi
+u1_2 = please
+PREDICT: find_place
+PREDICT: xier qi
+PREDICT: 39.920093
+PREDICT: 116.39686499999993
+v1_name = Nantong Fischer Instrumentation Co.,Ltd.
+v1_address = 71 Majiapu E Rd, Fengtai, Beijing, China
+v1_rating = 0
+v1_latitude = 39.8518912
+v1_longitude = 116.3864675
+v1_street_number = 71
+v1_street_name = Majiapu East Road
+v1_distance = 5.8 mi
+v1_duration = 33 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Nantong Fischer Instrumentation Co.,Ltd.
+PREDICT: Majiapu East Road
+PREDICT: wait_for_user
+u2_0 = sorry
+u2_1 = ,
+u2_2 = should
+u2_3 = be
+u2_4 = Xi'erqi
+PREDICT: find_place
+PREDICT: Xi'erqi
+PREDICT: 39.920093
+PREDICT: 116.39686499999993
+v2_name = Xi'erqi
+v2_address = Haidian, Beijing, China
+v2_rating = 3.3
+v2_latitude = 40.053062
+v2_longitude = 116.30601
+v2_distance = 12.6 mi
+v2_duration = 35 mins
+PREDICT: {} in {}?
+PREDICT: Xi'erqi
+PREDICT: Haidian, Beijing, China
+PREDICT: wait_for_user
+u3_0 = yes
+u3_1 = ,
+u3_2 = how
+u3_3 = far
+u3_4 = is
+u3_5 = it
+PREDICT: It is {} and {} away.
+PREDICT: 12.6 mi
+PREDICT: 35 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = let
+u4_1 = 's
+u4_2 = go
+PREDICT: start_driving
+PREDICT: 40.053062
+PREDICT: 116.30601

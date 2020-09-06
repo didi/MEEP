@@ -1,0 +1,127 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = Are
+u1_1 = there
+u1_2 = any
+u1_3 = tours
+u1_4 = around
+u1_5 = the
+u1_6 = Potomac
+u1_7 = ?
+PREDICT: [ACTION] find_place [PARAM] tours Potomac [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v1_name = 59th Potomac Country House Tour
+v1_address = 10033 River Rd, Potomac, MD 20854, United States
+v1_latitude = 39.0175093
+v1_longitude = -77.2070154
+v1_types_0 = point of interest
+v1_types_1 = establishment
+v1_rating = 0
+v1_address_simple = 10033 River Road, Potomac
+v1_street_number = 10033
+v1_street_name = River Road
+v1_locality = Potomac
+v1_distance = 11.8 mi
+v1_duration = 32 mins
+u2_0 = Like
+u2_1 = ,
+u2_2 = something
+u2_3 = on
+u2_4 = a
+u2_5 = boat
+u2_6 = .
+PREDICT: [ACTION] find_place [PARAM] Potomac boat tours [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v2_name = Potomac Riverboat Co
+v2_address = 5 Cameron St, Alexandria, VA 22314, United States
+v2_latitude = 38.8055568
+v2_longitude = -77.03922039999999
+v2_types_0 = travel agency
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 4.2
+v2_is_open = True
+v2_address_simple = 5 Cameron Street, Alexandria
+v2_street_number = 5
+v2_street_name = Cameron Street
+v2_neighborhood = Alexandria Historical District
+v2_locality = Alexandria
+v2_distance = 12.4 mi
+v2_duration = 29 mins
+PREDICT: [ACTION] places_nearby [PARAM] Potomac boat tours [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v3_0_name = Boomerang Tours, Inc.
+v3_0_rating = 3.4
+v3_0_is_open = True
+v3_0_types_0 = travel agency
+v3_0_types_1 = point of interest
+v3_0_types_2 = establishment
+v3_0_latitude = 38.9049508
+v3_0_longitude = -77.061309
+v3_0_address_simple = 3100 K Street Northwest, Washington
+v3_0_street_number = 3100
+v3_0_street_name = K Street Northwest
+v3_0_neighborhood = Northwest Washington
+v3_0_locality = Washington
+v3_0_distance = 4.5 mi
+v3_0_duration = 14 mins
+v3_1_name = DC Duck Tours Administration Office
+v3_1_rating = 4.3
+v3_1_types_0 = travel agency
+v3_1_types_1 = point of interest
+v3_1_types_2 = establishment
+v3_1_latitude = 38.924078
+v3_1_longitude = -76.99423399999999
+v3_1_address_simple = 2640 Reed Street Northeast, Washington
+v3_1_street_number = 2640
+v3_1_street_name = Reed Street Northeast
+v3_1_neighborhood = Northeast Washington
+v3_1_locality = Washington
+v3_1_distance = 3.1 mi
+v3_1_duration = 18 mins
+v3_2_name = Capitol River Cruises
+v3_2_rating = 0
+v3_2_types_0 = travel agency
+v3_2_types_1 = point of interest
+v3_2_types_2 = establishment
+v3_2_latitude = 38.9020797
+v3_2_longitude = -77.0607409
+v3_2_address_simple = 3050 K Street Northwest, Washington
+v3_2_street_number = 3050
+v3_2_street_name = K Street Northwest
+v3_2_neighborhood = Northwest Washington
+v3_2_locality = Washington
+v3_2_distance = 4.3 mi
+v3_2_duration = 13 mins
+PREDICT: [ACTION] I found two places: {} and {}. [PARAM] Capitol River Cruises [PARAM] Potomac Riverboat Co
+PREDICT: [ACTION] {} is closest. [PARAM] Capitol River Cruises
+PREDICT: [ACTION] wait_for_user
+u3_0 = Okay
+u3_1 = ,
+u3_2 = good
+u3_3 = to
+u3_4 = know
+u3_5 = .
+u3_6 = But
+u3_7 = let
+u3_8 = 's
+u3_9 = go
+u3_10 = to
+u3_11 = whichever
+u3_12 = is
+u3_13 = highest
+u3_14 = rated
+u3_15 = .
+PREDICT: [ACTION] {} has a rating of {}. [PARAM] Capitol River Cruises [PARAM] 0
+PREDICT: [ACTION] {} has a rating of {}. [PARAM] Potomac Riverboat Co [PARAM] 4.2
+PREDICT: [ACTION] wait_for_user
+u4_0 = Let
+u4_1 = 's
+u4_2 = do
+u4_3 = Potomac
+u4_4 = then
+u4_5 = .
+PREDICT: [ACTION] {} is {} away. [PARAM] Potomac Riverboat Co [PARAM] 29 mins
+PREDICT: [ACTION] It is in {}. [PARAM] Alexandria
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = Yup
+PREDICT: [ACTION] start_driving [PARAM] 38.8055568 [PARAM] -77.03922039999999

@@ -1,0 +1,37 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = TD
+u1_8 = bank
+PREDICT: [ACTION] find_place [PARAM] TD bank [PARAM] 43.848 [PARAM] -79.525
+v1_name = TD Canada Trust Branch and ATM
+v1_address = 2933 Major MacKenzie Dr W, Maple, ON L6A 3N9, Canada
+v1_rating = 2.6
+v1_is_open = True
+v1_latitude = 43.8495851
+v1_longitude = -79.53505729999999
+v1_street_number = 2933
+v1_street_name = Major Mackenzie Drive West
+v1_neighborhood = Maple
+v1_locality = Vaughan
+v1_distance = 0.9 mi
+v1_duration = 4 mins
+PREDICT: [ACTION] There is a {} on {}. [PARAM] TD Canada Trust Branch and ATM [PARAM] Major Mackenzie Drive West
+PREDICT: [ACTION] It is {} away. [PARAM] 4 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Perfect
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+u2_5 = there
+u2_6 = .
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 43.8495851 [PARAM] -79.53505729999999

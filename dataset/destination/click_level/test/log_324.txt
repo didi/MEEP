@@ -1,0 +1,46 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = would
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Dolores
+u1_7 = Park
+PREDICT: find_place
+PREDICT: Dolores Park
+PREDICT: 37.760
+PREDICT: -122.429
+v1_name = Mission Dolores Park
+v1_address = Dolores St &, 19th St, San Francisco, CA 94114, United States
+v1_latitude = 37.7596168
+v1_longitude = -122.4269038
+v1_types_0 = park
+v1_types_1 = tourist attraction
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = Dolores St &, 19th Street, San Francisco
+v1_street_name = 19th Street
+v1_neighborhood = Mission District
+v1_locality = San Francisco
+v1_distance = 0.3 mi
+v1_duration = 2 mins
+PREDICT: I found {} in {}.
+PREDICT: Mission Dolores Park
+PREDICT: Mission District
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: Great, we are going to {}.
+PREDICT: Mission Dolores Park
+PREDICT: start_driving
+PREDICT: 37.7596168
+PREDICT: -122.4269038

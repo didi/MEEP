@@ -1,0 +1,33 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = castellammare
+u1_1 = dr
+PREDICT: find_place
+PREDICT: castellammare dr
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Castellammare Dr
+v1_address = Castellammare Dr, Los Angeles, CA 90272, USA
+v1_latitude = 34.0405696
+v1_longitude = -118.5603869
+v1_types_0 = route
+v1_address_simple = Los Angeles
+v1_street_name = Castellammare Drive
+v1_locality = Los Angeles
+v1_distance = 8.9 mi
+v1_duration = 26 mins
+PREDICT: Do you mean {}?
+PREDICT: Castellammare Drive
+PREDICT: It is {} away.
+PREDICT: 26 mins
+PREDICT: wait_for_user
+u2_0 = yes
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = yes
+u3_1 = please
+u3_2 = !
+PREDICT: start_driving
+PREDICT: 34.0405696
+PREDICT: -118.5603869

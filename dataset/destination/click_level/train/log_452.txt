@@ -1,0 +1,113 @@
+source_address = 4035 Grand View Blvd, Los Angeles, CA 90066, United States
+source_latitude = 33.999
+source_longitude = -118.427
+u1_0 = sprouts
+u1_1 = please
+PREDICT: find_place
+PREDICT: sprouts
+PREDICT: 33.999
+PREDICT: -118.427
+v1_name = Sprouts Farmers Market
+v1_address = 5660 Sepulveda Blvd, Culver City, CA 90230, United States
+v1_latitude = 33.9892508
+v1_longitude = -118.3940389
+v1_types_0 = grocery or supermarket
+v1_types_1 = supermarket
+v1_types_2 = food
+v1_types_3 = health
+v1_types_4 = point of interest
+v1_types_5 = store
+v1_types_6 = establishment
+v1_rating = 4.1
+v1_is_open = True
+v1_address_simple = 5660 Sepulveda Boulevard, Culver City
+v1_street_number = 5660
+v1_street_name = Sepulveda Boulevard
+v1_neighborhood = Fox Hills
+v1_locality = Culver City
+v1_distance = 3.4 mi
+v1_duration = 10 mins
+PREDICT: I found {} in {}.
+PREDICT: Sprouts Farmers Market
+PREDICT: Culver City
+PREDICT: It is {} away.
+PREDICT: 3.4 mi
+PREDICT: wait_for_user
+u2_0 = what
+u2_1 = street
+u2_2 = is
+u2_3 = it
+u2_4 = on
+PREDICT: It is on {}.
+PREDICT: Sepulveda Boulevard
+PREDICT: wait_for_user
+u3_0 = oh
+u3_1 = not
+u3_2 = that
+u3_3 = one
+u3_4 = parking
+u3_5 = sucks
+u4_0 = the
+u4_1 = one
+u4_2 = on
+u4_3 = venice
+PREDICT: find_place
+PREDICT: sprouts on venice
+PREDICT: 33.999
+PREDICT: -118.427
+v2_name = Sprouts Farmers Market
+v2_address = 8985 Venice Blvd Ste B, Los Angeles, CA 90034, United States
+v2_latitude = 34.027763
+v2_longitude = -118.3937446
+v2_types_0 = grocery or supermarket
+v2_types_1 = supermarket
+v2_types_2 = food
+v2_types_3 = health
+v2_types_4 = point of interest
+v2_types_5 = store
+v2_types_6 = establishment
+v2_rating = 4.3
+v2_is_open = True
+v2_address_simple = 8985 Venice Boulevard Ste B, Los Angeles
+v2_street_number = 8985
+v2_street_name = Venice Boulevard
+v2_neighborhood = Palms
+v2_locality = Los Angeles
+v2_distance = 3.1 mi
+v2_duration = 12 mins
+PREDICT: It is {} away.
+PREDICT: 3.1 mi
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u5_0 = what
+u5_1 = is
+u5_2 = 3.1
+u5_3 = miles
+u5_4 = away
+PREDICT: {} on {}?
+PREDICT: Sprouts Farmers Market
+PREDICT: Venice Boulevard
+PREDICT: wait_for_user
+u6_0 = ok
+u6_1 = I
+u6_2 = was
+u6_3 = n't
+u6_4 = sure
+u6_5 = what
+u6_6 = you
+u6_7 = were
+u6_8 = talking
+u6_9 = about
+u7_0 = yes
+u7_1 = that
+u7_2 = one
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u8_0 = yes
+u8_1 = please
+PREDICT: start_driving
+PREDICT: 34.027763
+PREDICT: -118.3937446
+PREDICT: start_driving
+PREDICT: 34.027763
+PREDICT: -118.3937446

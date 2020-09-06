@@ -1,0 +1,51 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = Could
+u1_1 = you
+u1_2 = take
+u1_3 = me
+u1_4 = to
+u1_5 = forest
+u1_6 = hill
+u1_7 = ?
+PREDICT: [ACTION] find_place [PARAM] forest hill [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Forest Hill North
+v1_address = Forest Hill North, Toronto, ON, Canada
+v1_latitude = 43.7052493
+v1_longitude = -79.4263764
+v1_neighborhood = Forest Hill North
+v1_locality = Toronto
+v1_distance = 3.3 mi
+v1_duration = 14 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Forest Hill North [PARAM] 3.3 mi
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = no
+u2_1 = I
+u2_2 = meant
+u2_3 = the
+u2_4 = school
+PREDICT: [ACTION] find_place [PARAM] forest hill school [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v2_name = Forest Hill Junior and Senior Public School
+v2_address = 78 Dunloe Rd, Toronto, ON M5P 2T6, Canada
+v2_rating = 3.9
+v2_latitude = 43.6955213
+v2_longitude = -79.4139356
+v2_street_number = 78
+v2_street_name = Dunloe Road
+v2_locality = Toronto
+v2_distance = 2.5 mi
+v2_duration = 12 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Forest Hill Junior and Senior Public School
+PREDICT: [ACTION] It is on {}. [PARAM] Dunloe Road
+PREDICT: [ACTION] wait_for_user
+u3_0 = yeah
+u3_1 = that
+u3_2 = 's
+u3_3 = it
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+u4_1 = please
+PREDICT: [ACTION] start_driving [PARAM] 43.6955213 [PARAM] -79.4139356

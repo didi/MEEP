@@ -1,0 +1,55 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = see
+u1_4 = a
+u1_5 = show
+u1_6 = at
+u1_7 = the
+u1_8 = Wiltern
+u1_9 = .
+u2_0 = Can
+u2_1 = you
+u2_2 = take
+u2_3 = me
+u2_4 = ?
+PREDICT: Please wait a minute, while I quickly look up this information.
+PREDICT: find_place
+PREDICT: the Wiltern
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 3790 Wilshire Blvd, Los Angeles, CA 90010, United States
+v1_name = The Wiltern
+v1_latitude = 34.0611383
+v1_longitude = -118.3084781
+v1_place_id = ChIJo4G0L4W4woARbz4mhiS79jk
+v1_street_number = 3790
+v1_street_name = Wilshire Boulevard
+v1_neighborhood = Koreatown
+v1_locality = Los Angeles
+v1_distance = 15.2 mi
+v1_duration = 29 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: The Wiltern
+PREDICT: Wilshire Boulevard
+PREDICT: It is {} and {} away.
+PREDICT: 15.2 mi
+PREDICT: 29 mins
+PREDICT: wait_for_user
+u3_0 = Yes
+u3_1 = ,
+u3_2 = that
+u3_3 = 's
+u3_4 = the
+u3_5 = one
+u3_6 = ,
+u3_7 = let
+u3_8 = 's
+u3_9 = go
+u3_10 = !
+PREDICT: start_driving
+PREDICT: 34.0611383
+PREDICT: -118.3084781

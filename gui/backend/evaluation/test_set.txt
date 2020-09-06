@@ -1,0 +1,47 @@
+4640 Admiralty Way, Marina del Rey	I'd like to go to a rock climbing gym in Hollywood, I forget the name.	Hollywood Boulders on North Bronson Avenue
+4640 Admiralty Way, Marina del Rey	I'd like to get some lunch at Urth Cafe.	Urth Caffe Santa Monica, or any other around 15 minutes away
+4640 Admiralty Way, Marina del Rey	I'd like to go to a gallery at Bergamot Station.	Art gallery less than 5 minutes from Bergamot Station
+4640 Admiralty Way, Marina del Rey	I'd like to go to a Banana Republic.	Banana republic in Century city
+4640 Admiralty Way, Marina del Rey	hey i wanna go to costco near LA downtown.	Costco Wholesale up to 30 minutes from downtown
+4640 Admiralty Way, Marina del Rey	hi i want to go to ernst & young	Ernst & Young office in downtown LA, less than 40 minutes and 20 miles away
+4640 Admiralty Way, Marina del Rey	i need to hire an architect	Architecture/design company office less than 10 minutes away
+121 Avro Rd, Maple, ON, Canada	I'd like to go skiing at horseshoe  Horseshoe Resort, up to 1 hour away
+Marina Del Rey, CA 90292, USA	how long would it take to get to the golden gate bakery	Golden Gate Bakery in San Francisco, 6 or so hours away
+15 Brunswick Ave, Toronto, Canada	I'd like to go to the Scarborough Bluffs	Scarborough Bluffs Park
+15 Brunswick Ave, Toronto, Canada	There's a vegetarian chinese restaurant in Kensington Market, can we go there?	King's Cafe on Augusta Avenue
+Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004	I want to go to a park	Any park, less than 5 minutes away
+371 Bloor St W, Toronto, ON M5S 2R7, Canada	hi, can you find me the movie theatre with the big cube on top	Cineplex Cinemas on Richmond Street West, ~10-15 minutes minutes away
+Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004	I want to go to IISc	Indian Institute of Science, ~35 minutes away
+Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004	I want to go to North side hospital	Manipal Hospital
+Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004	I want to go Kote Anjaneya temple	Kote Ananeya Swami Temple, close to KR market
+4640 Admiralty Way, Marina del Rey	gas station near UCLA please	Gas station within 5-10 minutes from UCLA, low rating is ok
+4640 Admiralty Way, Marina del Rey	i'd to go to library in SMC	Library close to Santa Monica College, ~15-20 minutes away from source
+4640 Admiralty Way, Marina del Rey	I'd like to go to a YogaWorks studio, close to my home on Pico and Beverly Glen.	Yogaworks Westwood, on Westwood Boulevard, close to the Rancho Park Golf Course
+4640 Admiralty Way, Marina del Rey	There's a nice Thai restaurant in Hollywood, I believe it's called Northern Thai Cafe, but I'm not positive.	Northern Thai Food on Sunset Boulevard, ~40 minutes away
+4640 Admiralty Way, Marina del Rey	I need to get my Audi fixed.	Audi dealership or service centre, within 20 minutes
+4640 Admiralty Way, Marina del Rey	Let's go to Snap headquarters.	Snap Inc. office on Donald Douglas Loop in Santa Monica
+Mission Dolores Park, San Francisco, CA, USA	I would like to go to Dolores Park	Mission Dolores Park
+Mission Dolores Park, San Francisco, CA, USA	I want to go to a pharmacy	Any nearby pharmacy, <1 mile away, such as CVS or Walgreens
+Mission Dolores Park, San Francisco, CA, USA	I'd like to get bubble tea!	Bubble tea place, but not Qualitea
+4640 Admiralty Way, Marina del Rey	donuts please	Donut store <10 minutes away
+4640 Admiralty Way, Marina del Rey	let's get Ethiopian for lunch	Ethiopian restaurant, but Cafe Buna nearby is acceptable
+4040 Grand View Blvd, Los Angeles, CA 90066, USA	hi I need to buy socks	Sock store, such as Happy socks, less than 15 minutes away
+4640 Admiralty Way, Marina Del Rey, CA 90292, USA	i need billiard supplies.  there's a place on ventura boulevard	Valley Pool Table in Canoga Park, near studio city, about 40 minutes away
+Holyoke, MA, USA	is there a climbing gym around here	Central Rock Gym, in Hadley
+4640 Admiralty Way, Marina del Rey	I'm going to a meeting in Culver City.  Is there a smoothie place there?	Smoothie place in culver city, less than 20 minutes away
+4640 Admiralty Way, Marina Del Rey, CA 90292, USA	I want to go to where all the art museums are, on Wilshire.	Los Angeles County Museum of Art, on Wilshire
+4640 Admiralty Way, Marina del Rey	is there any place that specializes in old books?	Small book store, not Barnes & Noble and not Dreamworld Comics, within 30 minutes
+4640 Admiralty Way, Marina del Rey	I want to go to a Spanish food store called La Espanola	La Espanola Meats, Inc, 27 minutes away, at (33° 47' 49.6242", -118° 17' 29.5434")
+4640 Admiralty Way, Marina del Rey	Where can I get lawn furniture?	Any home improvement store, but preferably Lowe's, less than 30 minutes away
+6504 20th Ave NE, Seattle, WA 98115, USA	the Queen Anne overlook place, please	Kerry Park in Lower Queen Anne
+4040 Grand View Blvd, Los Angeles, CA 90066, USA	hi where are the nearest donuts	Yum Yum Donuts, 0.4 miles away
+6517 Ravenna Ave NE, Seattle, WA, USA	the zoo please	Woodland Park Zoo, 10-15 minutes away
+4640 Admiralty Way, Marina Del Rey, CA 90292, USA	find place for ktv	Any karaoke studio, preferably with a higher rating
+Park Rd NW, Washington, DC, USA	I'd like to go to a library in Georgetown.	Georgetown University Library, verify that it is open. If not, another nearby.
+4640 Admiralty Way, Marina Del Rey, CA 90292, USA	Is there an REI on the way to San Gabriel?	REI in Arcadia
+4640 Admiralty Way, Marina del Rey	I'd like to go to equinox	Equinox Marina del Rey
+4640 Admiralty Way, Marina del Rey	I'd like to go to a comic book store	Comic book store within 3 miles, such as Dreamworld Comics
+4640 Admiralty Way, Marina del Rey	I'd like to go to a beach where I can make a bonfire	Dockweiler Beach
+4640 Admiralty Way, Marina del Rey	Is there a WeWork nearby?	WeWork playa vista, or any others <15 minutes away
+4640 Admiralty Way, Marina del Rey	I'd like to go to the Venice canals	Venice canals, less than 2 miles away, (33° 59' 0.6102", -118° 28' 3.648")
+4640 Admiralty Way, Marina del Rey	I'd like to go to the new mall in Playa Vista	Runway mall on West Jefferson

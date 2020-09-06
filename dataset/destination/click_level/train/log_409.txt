@@ -1,0 +1,39 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = need
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = ucsd
+PREDICT: find_place
+PREDICT: ucsd
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = University of California San Diego
+v1_address = 9500 Gilman Dr, La Jolla, CA 92093, United States
+v1_latitude = 32.8800604
+v1_longitude = -117.2340135
+v1_types_0 = university
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.4
+v1_address_simple = 9500 Gilman Drive, La Jolla
+v1_street_number = 9500
+v1_street_name = Gilman Drive
+v1_neighborhood = La Jolla
+v1_locality = La Jolla
+v1_distance = 117 mi
+v1_duration = 1 hour 53 mins
+PREDICT: Do you mean {}?
+PREDICT: University of California San Diego
+PREDICT: You will reach there in {}.
+PREDICT: 1 hour 53 mins
+PREDICT: wait_for_user
+u2_0 = yes
+u2_1 = !
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 32.8800604
+PREDICT: -117.2340135

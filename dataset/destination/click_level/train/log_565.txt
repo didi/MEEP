@@ -1,0 +1,107 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = rooftop
+u1_8 = bar
+u1_9 = downtown
+PREDICT: find_place
+PREDICT: rooftop bar downtown
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Rooftop Bar
+v1_address = 452 S Hill St, Los Angeles, CA 90013, United States
+v1_latitude = 34.0488535
+v1_longitude = -118.2515363
+v1_types_0 = bar
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.5
+v1_address_simple = 452 South Hill Street, Los Angeles
+v1_street_number = 452
+v1_street_name = South Hill Street
+v1_neighborhood = Downtown Los Angeles
+v1_locality = Los Angeles
+v1_distance = 17.7 mi
+v1_duration = 30 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: rooftop bar
+PREDICT: Rooftop Bar
+PREDICT: South Hill Street
+PREDICT: Downtown Los Angeles
+PREDICT: Shall we go?
+PREDICT: It will take us {} to get there.
+PREDICT: 30 mins
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = have
+u2_2 = n't
+u2_3 = heard
+u2_4 = of
+u2_5 = that
+u2_6 = one
+u2_7 = ,
+u2_8 = let
+u2_9 = 's
+u2_10 = go
+u2_11 = to
+u2_12 = the
+u2_13 = one
+u2_14 = called
+u2_15 = Perch
+PREDICT: find_place
+PREDICT: Perch
+PREDICT: 34.0488535
+PREDICT: -118.2515363
+v2_name = Perch
+v2_address = 448 S Hill St, Los Angeles, CA 90013, United States
+v2_latitude = 34.0490017
+v2_longitude = -118.251408
+v2_price_level = 3
+v2_types_0 = bar
+v2_types_1 = restaurant
+v2_types_2 = food
+v2_types_3 = point of interest
+v2_types_4 = establishment
+v2_rating = 4.5
+v2_is_open = False
+v2_address_simple = 448 South Hill Street, Los Angeles
+v2_street_number = 448
+v2_street_name = South Hill Street
+v2_neighborhood = Downtown Los Angeles
+v2_locality = Los Angeles
+v2_distance = 69 ft
+v2_duration = 1 min
+PREDICT: {} is {} away from {}.
+PREDICT: Perch
+PREDICT: 69 ft
+PREDICT: Rooftop Bar
+PREDICT: wait_for_user
+u3_0 = Ok
+u3_1 = ,
+u3_2 = maybe
+u3_3 = they
+u3_4 = 're
+u3_5 = the
+u3_6 = same
+u3_7 = place
+u3_8 = even
+u3_9 = .
+u3_10 = Let
+u3_11 = 's
+u3_12 = go
+u3_13 = .
+PREDICT: Shall we go to {} on {}?
+PREDICT: Perch
+PREDICT: South Hill Street
+PREDICT: Great, we are going to {}.
+PREDICT: Perch
+PREDICT: start_driving
+PREDICT: 34.0490017
+PREDICT: -118.251408

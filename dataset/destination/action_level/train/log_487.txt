@@ -1,0 +1,74 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = poke
+u1_1 = bowl
+u1_2 = place
+PREDICT: [ACTION] places_nearby [PARAM] poke bowl [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_0_name = Mainland Poke Shop
+v1_0_rating = 4.5
+v1_0_is_open = True
+v1_0_price_level = 1
+v1_0_types_0 = restaurant
+v1_0_types_1 = food
+v1_0_types_2 = point of interest
+v1_0_types_3 = establishment
+v1_0_latitude = 33.9793897
+v1_0_longitude = -118.4385888
+v1_0_address_simple = 4710 Admiralty Way, Marina del Rey
+v1_0_street_number = 4710
+v1_0_street_name = Admiralty Way
+v1_0_locality = Marina del Rey
+v1_0_distance = 0.3 mi
+v1_0_duration = 3 mins
+v1_1_name = Da Kikokiko
+v1_1_rating = 4.2
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types_0 = restaurant
+v1_1_types_1 = food
+v1_1_types_2 = point of interest
+v1_1_types_3 = establishment
+v1_1_latitude = 33.9763089
+v1_1_longitude = -118.4178902
+v1_1_address_simple = 12746 West Jefferson Boulevard, Playa Vista
+v1_1_street_number = 12746
+v1_1_street_name = West Jefferson Boulevard
+v1_1_neighborhood = Playa Vista
+v1_1_locality = Los Angeles
+v1_1_distance = 1.8 mi
+v1_1_duration = 7 mins
+v1_2_name = Poke Bar/Cherry On Top
+v1_2_rating = 4.4
+v1_2_is_open = True
+v1_2_price_level = 1
+v1_2_types_0 = restaurant
+v1_2_types_1 = food
+v1_2_types_2 = point of interest
+v1_2_types_3 = store
+v1_2_types_4 = establishment
+v1_2_latitude = 33.9993379
+v1_2_longitude = -118.4299709
+v1_2_address_simple = 12350 Washington Place, Los Angeles
+v1_2_street_number = 12350
+v1_2_street_name = Washington Place
+v1_2_neighborhood = Culver - West
+v1_2_locality = Los Angeles
+v1_2_distance = 2.0 mi
+v1_2_duration = 11 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Mainland Poke Shop [PARAM] Da Kikokiko [PARAM] Poke Bar/Cherry On Top
+PREDICT: [ACTION] Their ratings are {}, {} and {} respectively. [PARAM] 4.5 [PARAM] 4.2 [PARAM] 4.4
+PREDICT: [ACTION] wait_for_user
+u2_0 = which
+u2_1 = is
+u2_2 = the
+u2_3 = closest
+u2_4 = ?
+PREDICT: [ACTION] {} is closest. [PARAM] Mainland Poke Shop
+PREDICT: [ACTION] It is {} away. [PARAM] 3 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = please
+PREDICT: [ACTION] start_driving [PARAM] 33.9793897 [PARAM] -118.4385888

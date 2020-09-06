@@ -1,0 +1,105 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = big
+u1_8 = climbing
+u1_9 = gym
+u1_10 = in
+u1_11 = Burbank
+u1_12 = .
+PREDICT: [ACTION] find_place [PARAM] Burbank [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Burbank
+v1_address = Burbank, CA, USA
+v1_latitude = 34.1808392
+v1_longitude = -118.3089661
+v1_types_0 = Locality
+v1_types_1 = Political
+v1_address_simple = Burbank
+v1_locality = Burbank
+v1_distance = 26.8 mi
+v1_duration = 42 mins
+PREDICT: [ACTION] find_place [PARAM] big climbing gym [PARAM] 34.1808392 [PARAM] -118.3089661
+v2_name = Hollywood Boulders
+v2_address = 1107 N Bronson Ave, Los Angeles, CA 90038, United States
+v2_latitude = 34.0912218
+v2_longitude = -118.318296
+v2_types_0 = Point of interest
+v2_types_1 = Establishment
+v2_rating = 4.8
+v2_is_open = True
+v2_address_simple = 1107 North Bronson Avenue, Los Angeles
+v2_street_number = 1107
+v2_street_name = North Bronson Avenue
+v2_neighborhood = Central LA
+v2_locality = Los Angeles
+v2_distance = 8.7 mi
+v2_duration = 21 mins
+PREDICT: [ACTION] places_nearby [PARAM] climbing gym [PARAM] 34.1808392 [PARAM] -118.3089661
+v3_0_name = Verdigo Boulders
+v3_0_rating = 4.8
+v3_0_is_open = True
+v3_0_types_0 = Point of interest
+v3_0_types_1 = Establishment
+v3_0_latitude = 34.1836665
+v3_0_longitude = -118.3105994
+v3_0_address_simple = 266 East Magnolia Boulevard, Burbank
+v3_0_street_number = 266
+v3_0_street_name = East Magnolia Boulevard
+v3_0_locality = Burbank
+v3_0_distance = 0.3 mi
+v3_0_duration = 3 mins
+v3_1_name = Hollywood Boulders
+v3_1_rating = 4.8
+v3_1_is_open = True
+v3_1_types_0 = Point of interest
+v3_1_types_1 = Establishment
+v3_1_latitude = 34.0912218
+v3_1_longitude = -118.318296
+v3_1_address_simple = 1107 North Bronson Avenue, Los Angeles
+v3_1_street_number = 1107
+v3_1_street_name = North Bronson Avenue
+v3_1_neighborhood = Central LA
+v3_1_locality = Los Angeles
+v3_1_distance = 8.7 mi
+v3_1_duration = 21 mins
+v3_2_name = The Stronghold Climbing Gym
+v3_2_rating = 4.7
+v3_2_is_open = True
+v3_2_types_0 = Gym
+v3_2_types_1 = Health
+v3_2_types_2 = Point of interest
+v3_2_types_3 = Establishment
+v3_2_latitude = 34.0636509
+v3_2_longitude = -118.2169742
+v3_2_address_simple = 650 South Avenue 21, Los Angeles
+v3_2_street_number = 650
+v3_2_street_name = South Avenue 21
+v3_2_neighborhood = Lincoln Heights
+v3_2_locality = Los Angeles
+v3_2_distance = 10.5 mi
+v3_2_duration = 17 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Verdigo Boulders
+PREDICT: [ACTION] It is in {}. [PARAM] Burbank
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = is
+u2_3 = it
+u2_4 = open
+u2_5 = ?
+PREDICT: [ACTION] {} on {} is open. [PARAM] Verdigo Boulders [PARAM] East Magnolia Boulevard
+PREDICT: [ACTION] wait_for_user
+u3_0 = Great
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = .
+PREDICT: [ACTION] start_driving [PARAM] 34.1836665 [PARAM] -118.3105994

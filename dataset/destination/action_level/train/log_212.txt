@@ -1,0 +1,45 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = Shankari
+u1_5 = apartments
+PREDICT: [ACTION] find_place [PARAM] Shankari apartments [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Shankari Apartments
+v1_address = Shankari Apartments, 3rd Main Rd, Ittamadu, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085, India
+v1_latitude = 12.9268165
+v1_longitude = 77.5456109
+v1_street_name = 3rd Main Road
+v1_locality = Bengaluru
+v1_distance = 2.4 mi
+v1_duration = 14 mins
+PREDICT: [ACTION] The one on {}? [PARAM] 3rd Main Road
+PREDICT: [ACTION] wait_for_user
+u2_0 = is
+u2_1 = it
+u2_2 = close
+u2_3 = to
+u2_4 = Big
+u2_5 = bazaar
+u2_6 = ?
+PREDICT: [ACTION] find_place [PARAM] Big bazaar [PARAM] 12.9268165 [PARAM] 77.5456109
+v2_name = Big Bazaar
+v2_address = Promende Bmp Khat No. 92/9, Kathreguppe, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085, India
+v2_rating = 4
+v2_is_open = False
+v2_latitude = 12.9264752
+v2_longitude = 77.5508957
+v2_locality = Bengaluru
+v2_distance = 0.9 mi
+v2_duration = 6 mins
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 0.9 mi [PARAM] 6 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = great
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: [ACTION] start_driving [PARAM] 12.9268165 [PARAM] 77.5456109

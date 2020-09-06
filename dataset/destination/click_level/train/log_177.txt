@@ -1,0 +1,81 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = White
+u1_6 = sands
+PREDICT: find_place
+PREDICT: White sands
+PREDICT: 32.225
+PREDICT: -110.861
+v4_name = White Sands National Monument
+v4_address = New Mexico, United States
+v4_rating = 4.8
+v4_is_open = True
+v4_latitude = 32.7872403
+v4_longitude = -106.3256816
+PREDICT: Do you mean {}?
+PREDICT: White Sands National Monument
+PREDICT: wait_for_user
+u2_0 = yes
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+u3_4 = ?
+PREDICT: distance_matrix
+PREDICT: 32.225
+PREDICT: -110.861
+PREDICT: 32.7872403
+PREDICT: -106.3256816
+PREDICT: distance_matrix
+PREDICT: 32.225
+PREDICT: -110.861
+PREDICT: 32.7872403
+PREDICT: -106.3256816
+PREDICT: places_nearby
+PREDICT: White Sands National Monument
+PREDICT: 32.7872403
+PREDICT: -106.3256816
+v7_0_name = White Sands National Monument
+v7_0_rating = 4.8
+v7_0_is_open = True
+v7_0_types = ['tourist_attraction', 'park', 'point_of_interest', 'establishment']
+v7_0_latitude = 32.7872403
+v7_0_longitude = -106.3256816
+v7_0_address = New Mexico, USA
+PREDICT: places_nearby
+PREDICT: White sands
+PREDICT: 32.7872403
+PREDICT: -106.3256816
+v8_0_name = White Sands National Monument
+v8_0_rating = 4.8
+v8_0_is_open = True
+v8_0_types = ['tourist_attraction', 'park', 'point_of_interest', 'establishment']
+v8_0_latitude = 32.7872403
+v8_0_longitude = -106.3256816
+v8_0_address = New Mexico, USA
+PREDICT: I don't know.
+PREDICT: It is on {}.
+PREDICT: New Mexico, USA
+PREDICT: wait_for_user
+u4_0 = sure
+u4_1 = ..
+u4_2 = I
+u4_3 = know
+u4_4 = its
+u4_5 = quite
+u4_6 = far
+u5_0 = lets
+u5_1 = go
+u5_2 = there
+PREDICT: We are going to the {} in {}.
+PREDICT: White Sands National Monument
+PREDICT: New Mexico, USA
+PREDICT: start_driving
+PREDICT: 32.7872403
+PREDICT: -106.3256816

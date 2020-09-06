@@ -1,0 +1,64 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+PREDICT: Where are we going today ?
+PREDICT: wait_for_user
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = Peruvian
+u1_8 = restaurant
+u1_9 = ,
+u1_10 = it
+u1_11 = 's
+u1_12 = near
+u1_13 = the
+u1_14 = Venice
+u1_15 = boardwalk
+u1_16 = .
+u2_0 = I
+u2_1 = forget
+u2_2 = the
+u2_3 = name
+u2_4 = .
+PREDICT: Let me check that for you. 
+PREDICT: find_place
+PREDICT: Peruvian restaurant Venice boardwalk
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 1301 Ocean Front Walk, Venice, CA 90291, United States
+v1_name = El Huarique Venice
+v1_latitude = 33.988404
+v1_longitude = -118.474965
+v1_place_id = ChIJVyP89Le6woARpojYG5O96Ok
+v1_street_number = 1301
+v1_street_name = Ocean Front Walk
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 2.9 mi
+v1_duration = 14 mins
+PREDICT: It's called {}.
+PREDICT: El Huarique Venice
+PREDICT: It is on {}.
+PREDICT: Ocean Front Walk
+PREDICT: It is {} away.
+PREDICT: 14 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = Ah
+u3_1 = yes
+u3_2 = ,
+u3_3 = correct
+u3_4 = !
+u4_0 = Let
+u4_1 = 's
+u4_2 = go
+u4_3 = !
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 33.988404
+PREDICT: -118.474965

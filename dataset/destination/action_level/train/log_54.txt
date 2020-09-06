@@ -1,0 +1,87 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Let
+u1_1 = 's
+u1_2 = go
+u1_3 = to
+u1_4 = the
+u1_5 = office
+u1_6 = of
+u1_7 = Didi
+u1_8 = Research
+u1_9 = America
+u1_10 = ,
+u1_11 = in
+u1_12 = Marina
+u1_13 = Del
+u1_14 = Rey
+u1_15 = .
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] Marina Del Rey [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = Marina Del Rey, CA 90292, USA
+v1_name = Marina Del Rey
+v1_latitude = 33.9802893
+v1_longitude = -118.4517449
+v1_place_id = ChIJLbMF8IqwwoARns4Lm7HaVpc
+v1_locality = Marina del Rey
+v1_distance = 2.0 mi
+v1_duration = 7 mins
+PREDICT: [ACTION] find_place [PARAM] Didi Research America office [PARAM] 33.9802893 [PARAM] -118.4517449
+PREDICT: [ACTION] places_nearby [PARAM] Didi Research America [PARAM] 33.9802893 [PARAM] -118.4517449
+PREDICT: [ACTION] find_place [PARAM] Didi Research America [PARAM] 33.9802893 [PARAM] -118.4517449
+v4_address = 450 National Ave, Mountain View, CA 94043, United States
+v4_name = DiDi Labs
+v4_latitude = 37.4017263
+v4_longitude = -122.0530465
+v4_place_id = ChIJIVH_yBO3j4ARpfWV_b6DiAg
+v4_street_number = 450
+v4_street_name = National Avenue
+v4_locality = Mountain View
+v4_distance = 355 mi
+v4_duration = 5 hours 36 mins
+PREDICT: [ACTION] I am sorry I am unable to find the place.
+PREDICT: [ACTION] There is {} on {} [PARAM] DiDi Labs [PARAM] Mountain View
+PREDICT: [ACTION] wait_for_user
+u2_0 = I
+u2_1 = see
+u2_2 = ,
+u2_3 = can
+u2_4 = you
+u2_5 = find
+u2_6 = me
+u2_7 = ISI
+u2_8 = Research
+u2_9 = Institute
+u2_10 = instead
+u2_11 = ?
+u2_12 = It
+u2_13 = should
+u2_14 = also
+u2_15 = be
+u2_16 = in
+u2_17 = Marina
+u2_18 = del
+u2_19 = Rey
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] ISI Research Institute [PARAM] 33.9802893 [PARAM] -118.4517449
+v5_address = 1670 Mindanao Way, Marina Del Rey, CA 90292, United States
+v5_name = ISI USC (SERC)
+v5_latitude = 33.9800519
+v5_longitude = -118.4400597
+v5_place_id = ChIJe0bYe4C6woARJm3JKEiCYwM
+v5_street_number = 1670
+v5_street_name = Mindanao Way
+v5_locality = Marina del Rey
+v5_distance = 2.1 mi
+v5_duration = 9 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] ISI USC (SERC) [PARAM] Mindanao Way
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 2.1 mi [PARAM] 9 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = !
+PREDICT: [ACTION] start_driving [PARAM] 33.9800519 [PARAM] -118.4400597

@@ -1,0 +1,51 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = I
+u1_1 = need
+u1_2 = a
+u1_3 = ride
+u1_4 = to
+u1_5 = WRI
+PREDICT: find_place
+PREDICT: WRI
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v1_name = World Resources Institute
+v1_address = 10 G St NE #800, Washington, DC 20002, United States
+v1_latitude = 38.8991228
+v1_longitude = -77.00815109999999
+v1_types_0 = point of interest
+v1_types_1 = establishment
+v1_rating = 4.9
+v1_address_simple = 10 G Street Northeast #800, Washington
+v1_street_number = 10
+v1_street_name = G Street Northeast
+v1_neighborhood = Northeast Washington
+v1_locality = Washington
+v1_distance = 4.0 mi
+v1_duration = 21 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: World Resources Institute
+PREDICT: G Street Northeast
+PREDICT: wait_for_user
+u2_0 = yeah
+u2_1 = that
+u2_2 = 's
+u2_3 = it
+u3_0 = how
+u3_1 = far
+u3_2 = away
+u3_3 = ?
+PREDICT: It is {} away.
+PREDICT: 21 mins
+PREDICT: wait_for_user
+u4_0 = kk
+u4_1 = let
+u4_2 = 's
+u4_3 = go
+u4_4 = now
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 38.8991228
+PREDICT: -77.00815109999999

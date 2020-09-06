@@ -1,0 +1,81 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = need
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Blick
+u1_6 = .
+PREDICT: find_place
+PREDICT: Blick
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Blick Art Materials
+v1_address = 2602 Lincoln Blvd, Santa Monica, CA 90405, United States
+v1_latitude = 34.0066141
+v1_longitude = -118.4763619
+v1_types_0 = Point of interest
+v1_types_1 = Store
+v1_types_2 = Establishment
+v1_rating = 4.6
+v1_is_open = True
+v1_address_simple = 2602 Lincoln Boulevard, Santa Monica
+v1_street_number = 2602
+v1_street_name = Lincoln Boulevard
+v1_neighborhood = Ocean Park
+v1_locality = Santa Monica
+v1_distance = 2.9 mi
+v1_duration = 12 mins
+PREDICT: {} is {} away.
+PREDICT: Blick Art Materials
+PREDICT: 12 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = On
+u2_1 = the
+u2_2 = corner
+u2_3 = of
+u2_4 = Lincoln
+u2_5 = and
+u2_6 = Ocean
+u2_7 = Park
+u2_8 = ?
+PREDICT: find_place
+PREDICT: Lincoln and Ocean Park
+PREDICT: 34.0066141
+PREDICT: -118.4763619
+v2_name = Lincoln NB & Ocean Park NS
+v2_address = Santa Monica, CA 90405, United States
+v2_latitude = 34.006933
+v2_longitude = -118.476192
+v2_types_0 = Transit station
+v2_types_1 = Point of interest
+v2_types_2 = Establishment
+v2_rating = 0
+v2_address_simple = United States
+v2_neighborhood = Ocean Park
+v2_locality = Santa Monica
+v2_distance = 348 ft
+v2_duration = 1 min
+PREDICT: {} is {} away from {}.
+PREDICT: Lincoln NB & Ocean Park NS
+PREDICT: 348 ft
+PREDICT: Blick Art Materials
+PREDICT: wait_for_user
+u3_0 = Hmm
+PREDICT: {} is on {}
+PREDICT: Blick Art Materials
+PREDICT: Lincoln Boulevard
+PREDICT: It is in {}.
+PREDICT: Santa Monica
+PREDICT: wait_for_user
+u4_0 = that
+u4_1 = 's
+u4_2 = it
+u4_3 = !
+PREDICT: Shall we go?
+PREDICT: start_driving
+PREDICT: 34.0066141
+PREDICT: -118.4763619

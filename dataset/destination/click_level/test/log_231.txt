@@ -1,0 +1,102 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = 'd
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = library
+u1_6 = in
+u1_7 = SMC
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: library in SMC
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Library
+v1_address = 1900 Pico Blvd, Santa Monica, CA 90405, United States
+v1_latitude = 34.0161061
+v1_longitude = -118.4700706
+v1_types_0 = Library
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 3.6
+v1_is_open = True
+v1_address_simple = 1900 Pico Boulevard, Santa Monica
+v1_street_number = 1900
+v1_street_name = Pico Boulevard
+v1_neighborhood = Sunset Park
+v1_locality = Santa Monica
+v1_distance = 3.7 mi
+v1_duration = 16 mins
+PREDICT: There is a {} on {}.
+PREDICT: Library
+PREDICT: Pico Boulevard
+PREDICT: It is {} away.
+PREDICT: 16 mins
+PREDICT: find_place
+PREDICT: SMC
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Santa Monica College
+v2_address = 1900 Pico Blvd, Santa Monica, CA 90405, United States
+v2_latitude = 34.0165568
+v2_longitude = -118.4703948
+v2_types_0 = University
+v2_types_1 = Point of interest
+v2_types_2 = Establishment
+v2_rating = 4.3
+v2_address_simple = 1900 Pico Boulevard, Santa Monica
+v2_street_number = 1900
+v2_street_name = Pico Boulevard
+v2_neighborhood = Sunset Park
+v2_locality = Santa Monica
+v2_distance = 3.8 mi
+v2_duration = 16 mins
+PREDICT: wait_for_user
+u2_0 = what
+u2_1 = 's
+u2_2 = name
+u2_3 = ?
+PREDICT: {}.
+PREDICT: Library
+PREDICT: Do you mean {}?
+PREDICT: Santa Monica College
+PREDICT: wait_for_user
+u3_0 = yes
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = is
+u4_1 = the
+u4_2 = Library
+u4_3 = you
+u4_4 = just
+u4_5 = provide
+u4_6 = in
+u4_7 = SMC
+u4_8 = campus
+u4_9 = ?
+PREDICT: Yes.
+PREDICT: distance_matrix
+PREDICT: 34.0165568
+PREDICT: -118.4703948
+PREDICT: 34.0161061
+PREDICT: -118.4700706
+v3_distance = 148 ft
+v3_duration = 1 min
+PREDICT: wait_for_user
+u5_0 = ok
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+u5_5 = there
+u5_6 = .
+PREDICT: You are all set!
+PREDICT: Going to {} in {}.
+PREDICT: Library
+PREDICT: Santa Monica
+PREDICT: start_driving
+PREDICT: 34.0161061
+PREDICT: -118.4700706

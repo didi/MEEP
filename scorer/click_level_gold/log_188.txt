@@ -1,0 +1,73 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = hi
+u1_1 = ,
+u1_2 = can
+u1_3 = you
+u1_4 = find
+u1_5 = me
+u1_6 = the
+u1_7 = movie
+u1_8 = theatre
+u1_9 = with
+u1_10 = the
+u1_11 = big
+u1_12 = cube
+u1_13 = on
+u1_14 = top
+PREDICT: find_place
+PREDICT: movie theatre with the big cube on top
+PREDICT: 43.6665705
+PREDICT: -79.40243049999998
+v1_name = Cineplex Cinemas
+v1_address = 259 Richmond St W, Toronto, ON M5V 3M6, Canada
+v1_rating = 4.4
+v1_latitude = 43.6489106
+v1_longitude = -79.3912347
+v1_street_number = 259
+v1_street_name = Richmond Street West
+v1_locality = Toronto
+v1_distance = 1.5 mi
+v1_duration = 9 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Cineplex Cinemas
+PREDICT: Richmond Street West
+PREDICT: [ACTION] wait_for_user
+u2_0 = that
+u2_1 = 's
+u2_2 = near
+u2_3 = mec
+u2_4 = right
+u2_5 = ?
+PREDICT: find_place
+PREDICT: mec
+PREDICT: 43.6489106
+PREDICT: -79.3912347
+v2_name = MEC Toronto
+v2_address = 300 Queen St W, Toronto, ON M5V 2A2, Canada
+v2_rating = 4.5
+v2_is_open = True
+v2_latitude = 43.64951440000001
+v2_longitude = -79.3938587
+v2_street_number = 300
+v2_street_name = Queen Street West
+v2_locality = Toronto
+v2_distance = 0.2 mi
+v2_duration = 2 mins
+PREDICT: It is {} away.
+PREDICT: 2 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = yup
+u3_1 = ,
+u3_2 = that
+u3_3 = 's
+u3_4 = the
+u3_5 = one
+PREDICT: Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+u4_1 = please
+PREDICT: start_driving
+PREDICT: 43.6489106
+PREDICT: -79.3912347

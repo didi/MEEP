@@ -1,0 +1,47 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = yunan
+u1_1 = restaurant
+PREDICT: [ACTION] find_place [PARAM] yunan restaurant [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Yunnan Restaurant
+v1_address = 301 N Garfield Ave D, Monterey Park, CA 91754, United States
+v1_latitude = 34.065081
+v1_longitude = -118.123182
+v1_price_level = 2
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 3.8
+v1_is_open = False
+v1_address_simple = 301 North Garfield Avenue D, Monterey Park
+v1_street_number = 301
+v1_street_name = North Garfield Avenue
+v1_locality = Monterey Park
+v1_distance = 26.5 mi
+v1_duration = 37 mins
+PREDICT: [ACTION] There is {} on {}. [PARAM] Yunnan Restaurant [PARAM] North Garfield Avenue
+PREDICT: [ACTION] It is not open.
+PREDICT: [ACTION] wait_for_user
+u2_0 = do
+u2_1 = you
+u2_2 = know
+u2_3 = when
+u2_4 = will
+u2_5 = it
+u2_6 = open
+u2_7 = ?
+PREDICT: [ACTION] I don't know.
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = never
+u3_3 = mind
+u4_0 = just
+u4_1 = take
+u4_2 = me
+u4_3 = there
+u4_4 = please
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.065081 [PARAM] -118.123182

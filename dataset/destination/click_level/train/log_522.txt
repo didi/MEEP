@@ -1,0 +1,65 @@
+source_address = City Hall MRT, Singapore
+source_latitude = 1.2924789
+source_longitude = 103.85233199999993
+u1_0 = could
+u1_1 = I
+u1_2 = go
+u1_3 = to
+u1_4 = Malaysia
+u1_5 = ?
+PREDICT: find_place
+PREDICT: Malaysia
+PREDICT: 1.2924789
+PREDICT: 103.85233199999993
+v1_name = Malaysia
+v1_address = Malaysia
+v1_latitude = 4.210484
+v1_longitude = 101.975766
+v1_types_0 = country
+v1_types_1 = political
+v1_distance = 331 mi
+v1_duration = 6 hours 28 mins
+PREDICT: It is {} and {} away.
+PREDICT: 331 mi
+PREDICT: 6 hours 28 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = just
+u2_1 = to
+u2_2 = the
+u2_3 = border
+PREDICT: find_place
+PREDICT: Malaysia border
+PREDICT: 1.2924789
+PREDICT: 103.85233199999993
+v2_name = Johor Bahru - Woodlands
+v2_address = Malaysia, Johor Bahru, Singapore, Johor, Malaysia
+v2_latitude = 1.4544496
+v2_longitude = 103.7686
+v2_types_0 = point of interest
+v2_types_1 = establishment
+v2_rating = 3.3
+v2_address_simple = Malaysia, Johor Bahru, Singapore
+v2_locality = Singapore
+v2_distance = 17.6 mi
+v2_duration = 31 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Johor Bahru - Woodlands
+PREDICT: Malaysia, Johor Bahru, Singapore
+PREDICT: wait_for_user
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+u3_4 = ?
+PREDICT: It is {} and {} away.
+PREDICT: 17.6 mi
+PREDICT: 31 mins
+PREDICT: wait_for_user
+u4_0 = great
+u4_1 = let
+u4_2 = 's
+u4_3 = go
+PREDICT: start_driving
+PREDICT: 1.4544496
+PREDICT: 103.7686

@@ -1,0 +1,28 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = airport
+PREDICT: [ACTION] find_place [PARAM] airport [PARAM] 32.225 [PARAM] -110.861
+v1_name = Tucson International Airport
+v1_address = 7250 S Tucson Blvd, Tucson, AZ 85756, United States
+v1_rating = 4.3
+v1_is_open = True
+v1_latitude = 32.1145102
+v1_longitude = -110.9392269
+v1_street_number = 7250
+v1_street_name = South Tucson Boulevard
+v1_locality = Tucson
+v1_distance = 15.1 mi
+v1_duration = 29 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Tucson International Airport
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 29 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Tucson International Airport
+PREDICT: [ACTION] start_driving [PARAM] 32.1145102 [PARAM] -110.9392269

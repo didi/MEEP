@@ -1,0 +1,104 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = let
+u1_1 = 's
+u1_2 = get
+u1_3 = Ethiopian
+u1_4 = for
+u1_5 = lunch
+PREDICT: places_nearby
+PREDICT: Ethiopian lunch
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Salt
+v1_0_rating = 4.3
+v1_0_is_open = True
+v1_0_price_level = 3
+v1_0_types_0 = bar
+v1_0_types_1 = restaurant
+v1_0_types_2 = food
+v1_0_types_3 = point of interest
+v1_0_types_4 = establishment
+v1_0_latitude = 33.9801042
+v1_0_longitude = -118.446049
+v1_0_address_simple = 13534 Bali Way, Marina del Rey
+v1_0_street_number = 13534
+v1_0_street_name = Bali Way
+v1_0_locality = Marina del Rey
+v1_0_distance = 0.4 mi
+v1_0_duration = 3 mins
+v1_1_name = Beachside
+v1_1_rating = 4.3
+v1_1_is_open = True
+v1_1_price_level = 2
+v1_1_types_0 = bar
+v1_1_types_1 = restaurant
+v1_1_types_2 = food
+v1_1_types_3 = point of interest
+v1_1_types_4 = establishment
+v1_1_latitude = 33.982643
+v1_1_longitude = -118.457681
+v1_1_address_simple = 4175 Admiralty Way, Marina del Rey
+v1_1_street_number = 4175
+v1_1_street_name = Admiralty Way
+v1_1_locality = Marina del Rey
+v1_1_distance = 1.2 mi
+v1_1_duration = 4 mins
+v1_2_name = Cafe Buna
+v1_2_rating = 4.3
+v1_2_is_open = True
+v1_2_price_level = 2
+v1_2_types_0 = cafe
+v1_2_types_1 = restaurant
+v1_2_types_2 = food
+v1_2_types_3 = point of interest
+v1_2_types_4 = store
+v1_2_types_5 = establishment
+v1_2_latitude = 33.9832143
+v1_2_longitude = -118.4596121
+v1_2_address_simple = 552 Washington Boulevard, Marina del Rey
+v1_2_street_number = 552
+v1_2_street_name = Washington Boulevard
+v1_2_locality = Marina del Rey
+v1_2_distance = 1.5 mi
+v1_2_duration = 5 mins
+PREDICT: places_nearby
+PREDICT: Ethiopian
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: How about {}?
+PREDICT: Cafe Buna
+PREDICT: wait_for_user
+u2_0 = maybe
+u2_1 = .
+u2_2 = is
+u2_3 = it
+u2_4 = well
+u2_5 = rated
+u2_6 = ?
+u2_7 = and
+u2_8 = how
+u2_9 = far
+u2_10 = away
+u2_11 = is
+u2_12 = it
+u2_13 = ?
+PREDICT: It has a rating of {}.
+PREDICT: 4.3
+PREDICT: It is {} and {} away.
+PREDICT: 1.5 mi
+PREDICT: 5 mins
+PREDICT: wait_for_user
+u3_0 = oh
+u3_1 = that
+u3_2 = 's
+u3_3 = close
+u3_4 = .
+u3_5 = let
+u3_6 = 's
+u3_7 = try
+u3_8 = it
+PREDICT: start_driving
+PREDICT: 33.9832143
+PREDICT: -118.4596121

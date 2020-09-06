@@ -1,0 +1,46 @@
+source_address = Dongcheng, China
+source_latitude = 39.920093
+source_longitude = 116.39686499999993
+u1_0 = xier
+u1_1 = qi
+u1_2 = please
+PREDICT: [ACTION] find_place [PARAM] xier qi [PARAM] 39.920093 [PARAM] 116.39686499999993
+v1_name = Nantong Fischer Instrumentation Co.,Ltd.
+v1_address = 71 Majiapu E Rd, Fengtai, Beijing, China
+v1_rating = 0
+v1_latitude = 39.8518912
+v1_longitude = 116.3864675
+v1_street_number = 71
+v1_street_name = Majiapu East Road
+v1_distance = 5.8 mi
+v1_duration = 33 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Nantong Fischer Instrumentation Co.,Ltd. [PARAM] Majiapu East Road
+PREDICT: [ACTION] wait_for_user
+u2_0 = sorry
+u2_1 = ,
+u2_2 = should
+u2_3 = be
+u2_4 = Xi'erqi
+PREDICT: [ACTION] find_place [PARAM] Xi'erqi [PARAM] 39.920093 [PARAM] 116.39686499999993
+v2_name = Xi'erqi
+v2_address = Haidian, Beijing, China
+v2_rating = 3.3
+v2_latitude = 40.053062
+v2_longitude = 116.30601
+v2_distance = 12.6 mi
+v2_duration = 35 mins
+PREDICT: [ACTION] {} in {}? [PARAM] Xi'erqi [PARAM] Haidian, Beijing, China
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+u3_1 = ,
+u3_2 = how
+u3_3 = far
+u3_4 = is
+u3_5 = it
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 12.6 mi [PARAM] 35 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = let
+u4_1 = 's
+u4_2 = go
+PREDICT: [ACTION] start_driving [PARAM] 40.053062 [PARAM] 116.30601

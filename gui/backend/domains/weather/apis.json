@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Find place",
+        "endpoint": "/maps/find_latlon",
+        "params": [
+            {
+                "name": "query"
+            },
+            {
+                "name": "src lat/long"
+            }
+        ]
+    },
+    {
+        "name": "Current weather",
+        "endpoint": "/weather/current",
+        "params": [
+            {
+                "name": "lat/long"
+            }
+        ]
+    },
+    {
+        "name": "Weather at a time",
+        "endpoint": "/weather/at_time",
+        "params": [
+            {
+                "name": "lat/long"
+            },
+            {
+                "name": "time query"
+            }
+        ]
+    },
+    {
+        "name": "Rate satisfaction",
+        "endpoint": "/rate_satisfaction",
+        "params": []
+    }
+]

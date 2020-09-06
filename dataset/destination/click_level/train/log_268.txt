@@ -1,0 +1,115 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = would
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = Venkateshwara
+u1_7 = sweets
+u1_8 = in
+u1_9 = KR
+u1_10 = market
+PREDICT: find_place
+PREDICT: Venkateshwara sweets in KR market
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v1_name = Sri Venkateshwara Sweet-Meat Stall
+v1_address = Door No. 114, 1, Gandhi Bazaar Main Rd, near Anikar Textiles Silks And Sarees, Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004, India
+v1_latitude = 12.9459296
+v1_longitude = 77.5708221
+v1_types_0 = Food
+v1_types_1 = Point of interest
+v1_types_2 = Store
+v1_types_3 = Establishment
+v1_rating = 4.2
+v1_is_open = False
+v1_address_simple = Door No. 114, near Anikar Textiles Silks And Sarees, 1, Gandhi Bazaar Main Road, Gandhi Bazaar, Basavanagudi, Bengaluru
+v1_street_number = 1
+v1_street_name = Gandhi Bazaar Main Road
+v1_locality = Bengaluru
+v1_distance = 0.5 mi
+v1_duration = 3 mins
+PREDICT: Do you mean {}?
+PREDICT: Sri Venkateshwara Sweet-Meat Stall
+PREDICT: wait_for_user
+u2_0 = yes
+u2_1 = ,
+u2_2 = could
+u2_3 = you
+u2_4 = confirm
+u2_5 = the
+u2_6 = address
+u2_7 = for
+u2_8 = me
+u2_9 = please
+u2_10 = ?
+PREDICT: {} is in {}.
+PREDICT: Sri Venkateshwara Sweet-Meat Stall
+PREDICT: Door No. 114, near Anikar Textiles Silks And Sarees, 1, Gandhi Bazaar Main Road, Gandhi Bazaar, Basavanagudi, Bengaluru
+PREDICT: It is {} and {} away.
+PREDICT: 0.5 mi
+PREDICT: 3 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = can
+u3_1 = you
+u3_2 = find
+u3_3 = one
+u3_4 = close
+u3_5 = to
+u3_6 = majestic
+u3_7 = ?
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: majestic
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v2_name = Majestic
+v2_address = Majestic, Bengaluru, Karnataka, India
+v2_latitude = 12.9766637
+v2_longitude = 77.5712556
+v2_types_0 = Sublocality level 1
+v2_types_1 = Sublocality
+v2_types_2 = Political
+v2_address_simple = Majestic
+v2_locality = Bengaluru
+v2_distance = 4.0 mi
+v2_duration = 23 mins
+PREDICT: find_place
+PREDICT: Venkateshwara sweets
+PREDICT: 12.9766637
+PREDICT: 77.5712556
+v3_name = Sri Venkateshwara Sweetmeat Stall
+v3_address = No. 181, Balepete Main Rd, near Upparpet Police Station, Balepete, Chickpet, Bengaluru, Karnataka 560053, India
+v3_latitude = 12.9731319
+v3_longitude = 77.5748155
+v3_types_0 = Bakery
+v3_types_1 = Food
+v3_types_2 = Point of interest
+v3_types_3 = Store
+v3_types_4 = Establishment
+v3_rating = 4.2
+v3_is_open = False
+v3_address_simple = near Upparpet Police Station, No. 181, Balepete Main Road, Balepete, Chickpet, Bengaluru
+v3_street_number = No. 181
+v3_street_name = Balepete Main Road
+v3_locality = Bengaluru
+v3_distance = 2.2 mi
+v3_duration = 13 mins
+PREDICT: There is {} on {}
+PREDICT: Sri Venkateshwara Sweetmeat Stall
+PREDICT: near Upparpet Police Station, No. 181, Balepete Main Road, Balepete, Chickpet, Bengaluru
+PREDICT: wait_for_user
+u4_0 = yes
+u4_1 = that
+u4_2 = 's
+u4_3 = the
+u4_4 = one
+u5_0 = lets
+u5_1 = go
+PREDICT: start_driving
+PREDICT: 12.9731319
+PREDICT: 77.5748155

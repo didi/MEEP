@@ -1,0 +1,44 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = buy
+u1_4 = ugg
+u1_5 = shoes
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] ugg shoes [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = UGG
+v1_address = 189 The Grove Dr Space F72, Los Angeles, CA 90036, United States
+v1_latitude = 34.0725623
+v1_longitude = -118.3584991
+v1_types_0 = shoe store
+v1_types_1 = point of interest
+v1_types_2 = clothing store
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.1
+v1_is_open = True
+v1_address_simple = 189 The Grove Drive Space F72, Los Angeles
+v1_street_number = 189
+v1_street_name = The Grove Drive
+v1_neighborhood = Fairfax
+v1_locality = Los Angeles
+v1_distance = 12.8 mi
+v1_duration = 30 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] UGG [PARAM] The Grove Drive
+PREDICT: [ACTION] It is in {}. [PARAM] Fairfax
+PREDICT: [ACTION] It is {} away. [PARAM] 12.8 mi
+PREDICT: [ACTION] wait_for_user
+u2_0 = how
+u2_1 = long
+u2_2 = to
+u2_3 = go
+u2_4 = there
+u2_5 = ?
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 30 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = ok
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.0725623 [PARAM] -118.3584991

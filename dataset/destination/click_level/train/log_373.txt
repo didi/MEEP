@@ -1,0 +1,83 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = Golden
+u1_8 = State
+u1_9 = Warriors
+u1_10 = game
+PREDICT: find_place
+PREDICT: Golden State Warriors game
+PREDICT: 37.760
+PREDICT: -122.429
+v1_name = Golden State Warriors Ticketing System
+v1_address = 7000 Coliseum Way, Oakland, CA 94621, United States
+v1_latitude = 37.7502264
+v1_longitude = -122.2030001
+v1_types_0 = subpremise
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 7000 Coliseum Way, Oakland
+v1_street_number = 7000
+v1_street_name = Coliseum Way
+v1_neighborhood = Coliseum Industrial
+v1_locality = Oakland
+v1_distance = 20.2 mi
+v1_duration = 31 mins
+PREDICT: {} on {} is open.
+PREDICT: Golden State Warriors Ticketing System
+PREDICT: Coliseum Way
+PREDICT: find_place
+PREDICT: Golden State Warriors
+PREDICT: 37.7502264
+PREDICT: -122.429
+v2_name = Golden State Warriors
+v2_address = 1011 Broadway, Oakland, CA 94607, United States
+v2_latitude = 37.80232590000001
+v2_longitude = -122.2737563
+v2_types_0 = point of interest
+v2_types_1 = establishment
+v2_rating = 4.5
+v2_is_open = True
+v2_address_simple = 1011 Broadway, Oakland
+v2_street_number = 1011
+v2_street_name = Broadway
+v2_neighborhood = Downtown Oakland
+v2_locality = Oakland
+v2_distance = 14.5 mi
+v2_duration = 25 mins
+PREDICT: wait_for_user
+u2_0 = Ok
+u2_1 = ,
+u2_2 = how
+u2_3 = long
+u2_4 = will
+u2_5 = it
+u2_6 = take
+u2_7 = us
+u2_8 = to
+u2_9 = get
+u2_10 = there
+u2_11 = ?
+PREDICT: It will take us {} to get there.
+PREDICT: 31 mins
+PREDICT: wait_for_user
+u3_0 = Ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: Going to {} in {}.
+PREDICT: Coliseum Way
+PREDICT: Oakland
+PREDICT: start_driving
+PREDICT: 37.7502264
+PREDICT: -122.2030001

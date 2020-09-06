@@ -1,0 +1,57 @@
+source_address = 150 North Bridge Road, Singapore 179100
+source_latitude = 1.293076
+source_longitude = 103.85206770000002
+u1_0 = could
+u1_1 = you
+u1_2 = get
+u1_3 = me
+u1_4 = to
+u1_5 = Changi
+PREDICT: [ACTION] find_place [PARAM] Changi [PARAM] 1.293076 [PARAM] 103.85206770000002
+v1_name = Changi
+v1_address = Changi, Singapore
+v1_latitude = 1.3450101
+v1_longitude = 103.9832089
+v1_types_0 = neighborhood
+v1_types_1 = political
+v1_address_simple = Singapore
+v1_neighborhood = Changi
+v1_locality = Singapore
+v1_distance = 11.1 mi
+v1_duration = 19 mins
+PREDICT: [ACTION] {} is a {}. [PARAM] Changi [PARAM] neighborhood
+PREDICT: [ACTION] It is {} away. [PARAM] 19 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = the
+u2_1 = airport
+PREDICT: [ACTION] It is {} away. [PARAM] 19 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = thanks
+u4_0 = i
+u4_1 = 'm
+u4_2 = taking
+u4_3 = tiger
+u4_4 = airways
+PREDICT: [ACTION] find_place [PARAM] Changi airport [PARAM] 1.293076 [PARAM] 103.85206770000002
+v2_name = Singapore Changi Airport
+v2_address = Airport Blvd, Singapore
+v2_latitude = 1.3644202
+v2_longitude = 103.9915308
+v2_types_0 = airport
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 4.7
+v2_is_open = True
+v2_address_simple = Airport Boulevard
+v2_street_name = Airport Boulevard
+v2_neighborhood = Changi
+v2_locality = Singapore
+v2_distance = 12.4 mi
+v2_duration = 23 mins
+PREDICT: [ACTION] {} is {} away. [PARAM] Singapore Changi Airport [PARAM] 23 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = yes
+u5_1 = please
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Singapore Changi Airport
+PREDICT: [ACTION] start_driving [PARAM] 1.3644202 [PARAM] 103.9915308

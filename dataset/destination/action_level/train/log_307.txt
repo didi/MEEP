@@ -1,0 +1,34 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = need
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Santa
+u1_6 = Monica
+u1_7 = College
+u1_8 = .
+PREDICT: [ACTION] find_place [PARAM] Santa Monica College [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Santa Monica College
+v1_address = 1900 Pico Blvd, Santa Monica, CA 90405, United States
+v1_latitude = 34.0165568
+v1_longitude = -118.4703948
+v1_types_0 = University
+v1_types_1 = Point of interest
+v1_types_2 = Establishment
+v1_rating = 4.3
+v1_address_simple = 1900 Pico Boulevard, Santa Monica
+v1_street_number = 1900
+v1_street_name = Pico Boulevard
+v1_neighborhood = Sunset Park
+v1_locality = Santa Monica
+v1_distance = 3.8 mi
+v1_duration = 16 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Santa Monica College [PARAM] Pico Boulevard
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 3.8 mi [PARAM] 16 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Santa Monica College
+PREDICT: [ACTION] start_driving [PARAM] 34.0165568 [PARAM] -118.4703948

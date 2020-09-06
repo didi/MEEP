@@ -1,0 +1,56 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Raptors
+u1_8 = game
+PREDICT: find_place
+PREDICT: Raptors game
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Scotiabank Arena
+v1_address = 40 Bay St, Toronto, ON M5J 2X2, Canada
+v1_rating = 4.5
+v1_latitude = 43.6434661
+v1_longitude = -79.3790989
+v1_street_number = 40
+v1_street_name = Bay Street
+v1_locality = Toronto
+v1_distance = 32.4 mi
+v1_duration = 37 mins
+PREDICT: Do you mean {}?
+PREDICT: Scotiabank Arena
+PREDICT: wait_for_user
+u2_0 = Right
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = the
+u2_5 = name
+u2_6 = .
+u2_7 = How
+u2_8 = far
+u2_9 = away
+u2_10 = is
+u2_11 = it
+u2_12 = ?
+PREDICT: It will take us {} to get there.
+PREDICT: 37 mins
+PREDICT: wait_for_user
+u3_0 = Ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = !
+PREDICT: Shall we go?
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 43.6434661
+PREDICT: -79.3790989

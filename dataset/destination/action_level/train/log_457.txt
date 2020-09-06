@@ -1,0 +1,102 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = vivace
+u1_1 = please
+PREDICT: [ACTION] find_place [PARAM] vivace [PARAM] 47.676 [PARAM] -122.306
+v1_name = Espresso Vivace
+v1_address = 532 Broadway E, Seattle, WA 98102, United States
+v1_latitude = 47.6237849
+v1_longitude = -122.3206273
+v1_price_level = 1
+v1_types_0 = cafe
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 4.6
+v1_is_open = True
+v1_address_simple = 532 Broadway East, Seattle
+v1_street_number = 532
+v1_street_name = Broadway East
+v1_neighborhood = Capitol Hill
+v1_locality = Seattle
+v1_distance = 4.6 mi
+v1_duration = 13 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Espresso Vivace [PARAM] Broadway East
+PREDICT: [ACTION] wait_for_user
+u2_0 = thats
+u2_1 = the
+u2_2 = right
+u2_3 = chain
+u2_4 = ,
+u2_5 = but
+u2_6 = that
+u2_7 = one
+u2_8 = is
+u2_9 = on
+u2_10 = Capitol
+u2_11 = Hill
+u2_12 = .
+u2_13 = I
+u2_14 = 'd
+u2_15 = like
+u2_16 = the
+u2_17 = one
+u2_18 = across
+u2_19 = from
+u2_20 = REI
+PREDICT: [ACTION] find_place [PARAM] REI [PARAM] 47.676 [PARAM] -122.306
+v2_name = REI
+v2_address = 222 Yale Ave N, Seattle, WA 98109, United States
+v2_latitude = 47.6203442
+v2_longitude = -122.3297537
+v2_price_level = 3
+v2_types_0 = shoe store
+v2_types_1 = bicycle store
+v2_types_2 = point of interest
+v2_types_3 = clothing store
+v2_types_4 = store
+v2_types_5 = establishment
+v2_rating = 4.7
+v2_is_open = True
+v2_address_simple = 222 Yale Avenue North, Seattle
+v2_street_number = 222
+v2_street_name = Yale Avenue North
+v2_neighborhood = South Lake Union
+v2_locality = Seattle
+v2_distance = 4.8 mi
+v2_duration = 10 mins
+PREDICT: [ACTION] find_place [PARAM] vivace [PARAM] 47.6203442 [PARAM] -122.3297537
+v3_name = Espresso Vivace
+v3_address = 227 Yale Ave N, Seattle, WA 98109, United States
+v3_latitude = 47.6201875
+v3_longitude = -122.3306459
+v3_price_level = 2
+v3_types_0 = cafe
+v3_types_1 = food
+v3_types_2 = point of interest
+v3_types_3 = store
+v3_types_4 = establishment
+v3_rating = 4.6
+v3_is_open = True
+v3_address_simple = 227 Yale Avenue North, Seattle
+v3_street_number = 227
+v3_street_name = Yale Avenue North
+v3_neighborhood = South Lake Union
+v3_locality = Seattle
+v3_distance = 135 ft
+v3_duration = 1 min
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Espresso Vivace [PARAM] South Lake Union
+PREDICT: [ACTION] The address is {}. [PARAM] 227 Yale Avenue North, Seattle
+PREDICT: [ACTION] wait_for_user
+u3_0 = that
+u3_1 = sounds
+u3_2 = about
+u3_3 = right
+u3_4 = .
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+u4_1 = please
+PREDICT: [ACTION] start_driving [PARAM] 47.6201875 [PARAM] -122.3306459

@@ -1,0 +1,122 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = need
+u1_2 = to
+u1_3 = get
+u1_4 = my
+u1_5 = Audi
+u1_6 = fixed
+u1_7 = .
+PREDICT: [ACTION] find_place [PARAM] get my Audi fixed [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] find_place [PARAM] Audi fixed [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_name = Audi Calabasas
+v2_address = 24650 Calabasas Rd, Calabasas, CA 91302, United States
+v2_latitude = 34.1492129
+v2_longitude = -118.6624984
+v2_types_0 = Car dealer
+v2_types_1 = Point of interest
+v2_types_2 = Store
+v2_types_3 = Establishment
+v2_rating = 4.2
+v2_is_open = True
+v2_address_simple = 24650 Calabasas Road, Calabasas
+v2_street_number = 24650
+v2_street_name = Calabasas Road
+v2_locality = Calabasas
+v2_distance = 28.3 mi
+v2_duration = 37 mins
+PREDICT: [ACTION] places_nearby [PARAM] Audi fixed [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] places_nearby [PARAM] Audi [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_0_name = Santa Monica Audi Parts Department
+v4_0_rating = 0
+v4_0_is_open = True
+v4_0_types_0 = Car repair
+v4_0_types_1 = Point of interest
+v4_0_types_2 = Store
+v4_0_types_3 = Establishment
+v4_0_latitude = 34.0211713
+v4_0_longitude = -118.4884776
+v4_0_address_simple = 1020 Santa Monica Boulevard, Santa Monica
+v4_0_street_number = 1020
+v4_0_street_name = Santa Monica Boulevard
+v4_0_neighborhood = Downtown
+v4_0_locality = Santa Monica
+v4_0_distance = 4.2 mi
+v4_0_duration = 17 mins
+v4_1_name = Santa Monica Audi
+v4_1_rating = 4.4
+v4_1_is_open = True
+v4_1_types_0 = Car dealer
+v4_1_types_1 = Car repair
+v4_1_types_2 = Point of interest
+v4_1_types_3 = Store
+v4_1_types_4 = Establishment
+v4_1_latitude = 34.0212193
+v4_1_longitude = -118.4885404
+v4_1_address_simple = 1020 Santa Monica Boulevard, Santa Monica
+v4_1_street_number = 1020
+v4_1_street_name = Santa Monica Boulevard
+v4_1_neighborhood = Downtown
+v4_1_locality = Santa Monica
+v4_1_distance = 4.2 mi
+v4_1_duration = 17 mins
+v4_2_name = Santa Monica Audi Pre-Owned Center
+v4_2_rating = 3.5
+v4_2_is_open = True
+v4_2_types_0 = Car dealer
+v4_2_types_1 = Point of interest
+v4_2_types_2 = Store
+v4_2_types_3 = Establishment
+v4_2_latitude = 34.020312
+v4_2_longitude = -118.489923
+v4_2_address_simple = 900 Santa Monica Boulevard, Santa Monica
+v4_2_street_number = 900
+v4_2_street_name = Santa Monica Boulevard
+v4_2_neighborhood = Downtown
+v4_2_locality = Santa Monica
+v4_2_distance = 4.2 mi
+v4_2_duration = 18 mins
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Santa Monica Audi Parts Department [PARAM] Santa Monica Audi [PARAM] Santa Monica Audi Pre-Owned Center
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Santa
+u2_1 = Monica
+u2_2 = is
+u2_3 = good
+u2_4 = .
+u2_5 = Wherever
+u2_6 = their
+u2_7 = service
+u2_8 = department
+u2_9 = is
+u2_10 = .
+PREDICT: [ACTION] find_place [PARAM] Audi service department [PARAM] 33.9816425 [PARAM] -118.4409761
+v5_name = Santa Monica Audi
+v5_address = 1020 Santa Monica Blvd, Santa Monica, CA 90401, United States
+v5_latitude = 34.0212193
+v5_longitude = -118.4885404
+v5_types_0 = Car dealer
+v5_types_1 = Car repair
+v5_types_2 = Point of interest
+v5_types_3 = Store
+v5_types_4 = Establishment
+v5_rating = 4.4
+v5_is_open = True
+v5_address_simple = 1020 Santa Monica Boulevard, Santa Monica
+v5_street_number = 1020
+v5_street_name = Santa Monica Boulevard
+v5_neighborhood = Downtown
+v5_locality = Santa Monica
+v5_distance = 4.2 mi
+v5_duration = 17 mins
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Santa Monica Audi
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 17 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = yes
+u3_1 = ,
+u3_2 = thank
+u3_3 = you
+PREDICT: [ACTION] start_driving [PARAM] 34.0212193 [PARAM] -118.4885404

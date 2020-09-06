@@ -1,0 +1,404 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = buy
+u1_4 = fresh
+u1_5 = pasta
+u1_6 = .
+PREDICT: places_nearby
+PREDICT: buy fresh pasta
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Trader Joe's
+v1_0_rating = 4.7
+v1_0_is_open = True
+v1_0_types_0 = Grocery or supermarket
+v1_0_types_1 = Florist
+v1_0_types_2 = Supermarket
+v1_0_types_3 = Liquor store
+v1_0_types_4 = Food
+v1_0_types_5 = Health
+v1_0_types_6 = Point of interest
+v1_0_types_7 = Store
+v1_0_types_8 = Establishment
+v1_0_latitude = 33.9795712
+v1_0_longitude = -118.4415715
+v1_0_address_simple = 4675 Admiralty Way, Marina del Rey
+v1_0_street_number = 4675
+v1_0_street_name = Admiralty Way
+v1_0_locality = Marina del Rey
+v1_0_distance = 0.3 mi
+v1_0_duration = 3 mins
+v1_1_name = Pizzarito N.Y. Pizza By The Slice
+v1_1_rating = 4.1
+v1_1_is_open = True
+v1_1_price_level = 1
+v1_1_types_0 = Meal delivery
+v1_1_types_1 = Meal takeaway
+v1_1_types_2 = Restaurant
+v1_1_types_3 = Food
+v1_1_types_4 = Point of interest
+v1_1_types_5 = Establishment
+v1_1_latitude = 33.9844559
+v1_1_longitude = -118.4395073
+v1_1_address_simple = 4371 Glencoe Avenue B7, Marina del Rey
+v1_1_street_number = 4371
+v1_1_street_name = Glencoe Avenue
+v1_1_locality = Marina del Rey
+v1_1_distance = 0.6 mi
+v1_1_duration = 5 mins
+v1_2_name = Locanda Positano
+v1_2_rating = 4.5
+v1_2_is_open = False
+v1_2_price_level = 3
+v1_2_types_0 = Bar
+v1_2_types_1 = Restaurant
+v1_2_types_2 = Food
+v1_2_types_3 = Point of interest
+v1_2_types_4 = Establishment
+v1_2_latitude = 33.9888747
+v1_2_longitude = -118.4465198
+v1_2_address_simple = 4059 Lincoln Boulevard, Marina del Rey
+v1_2_street_number = 4059
+v1_2_street_name = Lincoln Boulevard
+v1_2_neighborhood = Venice
+v1_2_locality = Marina del Rey
+v1_2_distance = 0.7 mi
+v1_2_duration = 4 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Trader Joe's
+PREDICT: Pizzarito N.Y. Pizza By The Slice
+PREDICT: Locanda Positano
+PREDICT: Is it one of those?
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = do
+u2_2 = n't
+u2_3 = want
+u2_4 = a
+u2_5 = restaurant
+u2_6 = .
+u2_7 = Not
+u2_8 = sure
+u2_9 = if
+u2_10 = Trader
+u2_11 = Joe
+u2_12 = 's
+u2_13 = has
+u2_14 = fresh
+u2_15 = pasta
+u2_16 = .
+PREDICT: places_nearby
+PREDICT: fresh pasta
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = California Fresh
+v2_0_rating = 4.5
+v2_0_is_open = True
+v2_0_price_level = 1
+v2_0_types_0 = Restaurant
+v2_0_types_1 = Food
+v2_0_types_2 = Point of interest
+v2_0_types_3 = Establishment
+v2_0_latitude = 34.0466623
+v2_0_longitude = -118.4338574
+v2_0_address_simple = 2000 Westwood Boulevard, Los Angeles
+v2_0_street_number = 2000
+v2_0_street_name = Westwood Boulevard
+v2_0_neighborhood = West Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 8.5 mi
+v2_0_duration = 19 mins
+v2_1_name = Pasta Sisters
+v2_1_rating = 4.5
+v2_1_is_open = False
+v2_1_price_level = 2
+v2_1_types_0 = Grocery or supermarket
+v2_1_types_1 = Restaurant
+v2_1_types_2 = Food
+v2_1_types_3 = Point of interest
+v2_1_types_4 = Store
+v2_1_types_5 = Establishment
+v2_1_latitude = 34.0299742
+v2_1_longitude = -118.3838703
+v2_1_address_simple = 3280 Helms Avenue, Culver City
+v2_1_street_number = 3280
+v2_1_street_name = Helms Avenue
+v2_1_neighborhood = Art District
+v2_1_locality = Culver City
+v2_1_distance = 10.1 mi
+v2_1_duration = 18 mins
+v2_2_name = Florentyna's Fresh Pasta Factory
+v2_2_rating = 5
+v2_2_types_0 = Point of interest
+v2_2_types_1 = Establishment
+v2_2_latitude = 33.970457
+v2_2_longitude = -118.349658
+v2_2_address_simple = 400 Warren Lane, Inglewood
+v2_2_street_number = 400
+v2_2_street_name = Warren Lane
+v2_2_locality = Inglewood
+v2_2_distance = 6.6 mi
+v2_2_duration = 15 mins
+PREDICT: I can't find any places for your request, can you give me more information?
+PREDICT: wait_for_user
+u3_0 = Maybe
+u3_1 = an
+u3_2 = Italian
+u3_3 = food
+u3_4 = store
+u3_5 = ?
+PREDICT: places_nearby
+PREDICT: Italian food store
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_0_name = Trader Joe's
+v3_0_rating = 4.7
+v3_0_is_open = True
+v3_0_types_0 = Grocery or supermarket
+v3_0_types_1 = Florist
+v3_0_types_2 = Supermarket
+v3_0_types_3 = Liquor store
+v3_0_types_4 = Food
+v3_0_types_5 = Health
+v3_0_types_6 = Point of interest
+v3_0_types_7 = Store
+v3_0_types_8 = Establishment
+v3_0_latitude = 33.9795712
+v3_0_longitude = -118.4415715
+v3_0_address_simple = 4675 Admiralty Way, Marina del Rey
+v3_0_street_number = 4675
+v3_0_street_name = Admiralty Way
+v3_0_locality = Marina del Rey
+v3_0_distance = 0.3 mi
+v3_0_duration = 3 mins
+v3_1_name = Barbianca
+v3_1_rating = 4.4
+v3_1_is_open = True
+v3_1_types_0 = Bar
+v3_1_types_1 = Restaurant
+v3_1_types_2 = Food
+v3_1_types_3 = Point of interest
+v3_1_types_4 = Establishment
+v3_1_latitude = 33.98516
+v3_1_longitude = -118.4407393
+v3_1_address_simple = 13480 Maxella Avenue, Marina del Rey
+v3_1_street_number = 13480
+v3_1_street_name = Maxella Avenue
+v3_1_locality = Marina del Rey
+v3_1_distance = 0.7 mi
+v3_1_duration = 6 mins
+v3_2_name = Locanda Positano
+v3_2_rating = 4.5
+v3_2_is_open = False
+v3_2_price_level = 3
+v3_2_types_0 = Bar
+v3_2_types_1 = Restaurant
+v3_2_types_2 = Food
+v3_2_types_3 = Point of interest
+v3_2_types_4 = Establishment
+v3_2_latitude = 33.9888747
+v3_2_longitude = -118.4465198
+v3_2_address_simple = 4059 Lincoln Boulevard, Marina del Rey
+v3_2_street_number = 4059
+v3_2_street_name = Lincoln Boulevard
+v3_2_neighborhood = Venice
+v3_2_locality = Marina del Rey
+v3_2_distance = 0.7 mi
+v3_2_duration = 4 mins
+PREDICT: I can't find any places for your request, can you give me more information?
+PREDICT: Can you be more specific?
+PREDICT: wait_for_user
+u4_0 = Is
+u4_1 = there
+u4_2 = an
+u4_3 = Italian
+u4_4 = food
+u4_5 = supply
+u4_6 = store
+u4_7 = in
+u4_8 = Santa
+u4_9 = Monica
+u4_10 = ,
+u4_11 = on
+u4_12 = Lincoln
+u4_13 = Boulevard
+u4_14 = ?
+PREDICT: places_nearby
+PREDICT: Italian food supply store Santa
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_0_name = Guidi Marcello Co Ltd
+v4_0_rating = 4.8
+v4_0_is_open = True
+v4_0_types_0 = Point of interest
+v4_0_types_1 = Establishment
+v4_0_latitude = 34.0174571
+v4_0_longitude = -118.4848224
+v4_0_address_simple = 1649 10th Street, Santa Monica
+v4_0_street_number = 1649
+v4_0_street_name = 10th Street
+v4_0_locality = Santa Monica
+v4_0_distance = 3.9 mi
+v4_0_duration = 16 mins
+v4_1_name = Bay Cities Italian Deli & Bakery
+v4_1_rating = 4.6
+v4_1_is_open = False
+v4_1_price_level = 2
+v4_1_types_0 = Bakery
+v4_1_types_1 = Grocery or supermarket
+v4_1_types_2 = Restaurant
+v4_1_types_3 = Food
+v4_1_types_4 = Point of interest
+v4_1_types_5 = Store
+v4_1_types_6 = Establishment
+v4_1_latitude = 34.0179684
+v4_1_longitude = -118.4892028
+v4_1_address_simple = 1517 Lincoln Boulevard, Santa Monica
+v4_1_street_number = 1517
+v4_1_street_name = Lincoln Boulevard
+v4_1_neighborhood = Downtown
+v4_1_locality = Santa Monica
+v4_1_distance = 3.9 mi
+v4_1_duration = 17 mins
+v4_2_name = Rosti Tuscan Kitchen - Santa Monica
+v4_2_rating = 4.3
+v4_2_is_open = False
+v4_2_price_level = 2
+v4_2_types_0 = Meal takeaway
+v4_2_types_1 = Restaurant
+v4_2_types_2 = Food
+v4_2_types_3 = Point of interest
+v4_2_types_4 = Store
+v4_2_types_5 = Establishment
+v4_2_latitude = 34.0291747
+v4_2_longitude = -118.4992497
+v4_2_address_simple = 931 Montana Avenue, Santa Monica
+v4_2_street_number = 931
+v4_2_street_name = Montana Avenue
+v4_2_neighborhood = North of Montana
+v4_2_locality = Santa Monica
+v4_2_distance = 5.1 mi
+v4_2_duration = 21 mins
+PREDICT: I found two places: {} and {}.
+PREDICT: Guidi Marcello Co Ltd
+PREDICT: Bay Cities Italian Deli & Bakery
+PREDICT: Is it one of those?
+PREDICT: wait_for_user
+u5_0 = Where
+u5_1 = is
+u5_2 = Bay
+u5_3 = Cities
+u5_4 = ?
+PREDICT: It is on {} in {}.
+PREDICT: 10th Street
+PREDICT: Santa Monica
+PREDICT: wait_for_user
+u6_0 = Nothing
+u6_1 = on
+u6_2 = Lincoln
+u6_3 = ?
+u6_4 = Near
+u6_5 = Wilshire
+PREDICT: find_place
+PREDICT: Lincoln Wilshire
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v5_name = Lincoln SB & Wilshire NS
+v5_address = Santa Monica, CA 90403, United States
+v5_latitude = 34.022401
+v5_longitude = -118.49474
+v5_types_0 = Transit station
+v5_types_1 = Point of interest
+v5_types_2 = Establishment
+v5_rating = 0
+v5_address_simple = United States
+v5_neighborhood = Wilshire Montana
+v5_locality = Santa Monica
+v5_distance = 4.4 mi
+v5_duration = 19 mins
+PREDICT: places_nearby
+PREDICT: Italian food supply store
+PREDICT: 34.022401
+PREDICT: -118.49474
+v6_0_name = Sur La Table
+v6_0_rating = 4.4
+v6_0_is_open = True
+v6_0_types_0 = Furniture store
+v6_0_types_1 = Home goods store
+v6_0_types_2 = Food
+v6_0_types_3 = Point of interest
+v6_0_types_4 = Store
+v6_0_types_5 = Establishment
+v6_0_latitude = 34.0186934
+v6_0_longitude = -118.4992872
+v6_0_address_simple = 301 Wilshire Boulevard, Santa Monica
+v6_0_street_number = 301
+v6_0_street_name = Wilshire Boulevard
+v6_0_neighborhood = Wilshire Montana
+v6_0_locality = Santa Monica
+v6_0_distance = 0.4 mi
+v6_0_duration = 3 mins
+v6_1_name = Guidi Marcello Co Ltd
+v6_1_rating = 4.8
+v6_1_is_open = True
+v6_1_types_0 = Point of interest
+v6_1_types_1 = Establishment
+v6_1_latitude = 34.0174571
+v6_1_longitude = -118.4848224
+v6_1_address_simple = 1649 10th Street, Santa Monica
+v6_1_street_number = 1649
+v6_1_street_name = 10th Street
+v6_1_locality = Santa Monica
+v6_1_distance = 0.9 mi
+v6_1_duration = 4 mins
+v6_2_name = Burrata House
+v6_2_rating = 4.8
+v6_2_is_open = True
+v6_2_types_0 = Restaurant
+v6_2_types_1 = Grocery or supermarket
+v6_2_types_2 = Food
+v6_2_types_3 = Point of interest
+v6_2_types_4 = Store
+v6_2_types_5 = Establishment
+v6_2_latitude = 34.0298228
+v6_2_longitude = -118.4106966
+v6_2_address_simple = 3272 Motor Ave A Unit A, Los Angeles
+v6_2_locality = Los Angeles
+v6_2_neighborhood = Palms
+v6_2_distance = 5.5 mi
+v6_2_duration = 12 mins
+PREDICT: {} is on {}
+PREDICT: Bay Cities Italian Deli & Bakery
+PREDICT: Lincoln Boulevard
+PREDICT: distance_matrix
+PREDICT: 34.0179684
+PREDICT: -118.4892028
+PREDICT: 34.022401
+PREDICT: -118.49474
+v7_distance = 0.5 mi
+v7_duration = 5 mins
+PREDICT: wait_for_user
+u7_0 = That
+u7_1 = 's
+u7_2 = what
+u7_3 = I
+u7_4 = thought
+u7_5 = .
+u7_6 = That
+u7_7 = 's
+u7_8 = it
+u7_9 = .
+PREDICT: {} is {} away from {}.
+PREDICT: Lincoln SB & Wilshire NS
+PREDICT: 0.5 mi
+PREDICT: Bay Cities Italian Deli & Bakery
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u8_0 = yes
+PREDICT: start_driving
+PREDICT: 34.0179684
+PREDICT: -118.4892028

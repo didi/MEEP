@@ -1,0 +1,46 @@
+source_address = 79 Avro Rd, Maple, ON L6A 1Y3
+source_latitude = 43.848
+source_longitude = -79.525
+u1_0 = Take
+u1_1 = me
+u1_2 = to
+u1_3 = Canada
+u1_4 = 's
+u1_5 = Wonderland
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: Canada 's Wonderland
+PREDICT: 43.848
+PREDICT: -79.525
+v1_name = Canada's Wonderland
+v1_address = 1 Canada's Wonderland Drive, Vaughan, ON L6A 1S6, Canada
+v1_rating = 4.5
+v1_latitude = 43.8430176
+v1_longitude = -79.5394625
+v1_street_number = 1
+v1_street_name = Canada's Wonderland Drive
+v1_neighborhood = Maple
+v1_locality = Vaughan
+v1_distance = 1.6 mi
+v1_duration = 8 mins
+PREDICT: There is a {} in {}.
+PREDICT: Canada's Wonderland
+PREDICT: Maple
+PREDICT: It is {} away.
+PREDICT: 8 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = the
+u2_3 = one
+u2_4 = .
+u2_5 = Let
+u2_6 = 's
+u2_7 = go
+u2_8 = !
+PREDICT: Great, we are going to {}.
+PREDICT: Canada's Wonderland
+PREDICT: start_driving
+PREDICT: 43.8430176
+PREDICT: -79.5394625

@@ -1,0 +1,152 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Let
+u1_1 = 's
+u1_2 = go
+u1_3 = to
+u1_4 = a
+u1_5 = fish
+u1_6 = store
+u1_7 = .
+u1_8 = I
+u1_9 = need
+u1_10 = fish
+u1_11 = for
+u1_12 = my
+u1_13 = aquarium
+u1_14 = .
+PREDICT: find_place
+PREDICT: aquarium fish store
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = LAX Aquarium
+v1_address = 5310 W Century Blvd, Los Angeles, CA 90045, United States
+v1_latitude = 33.944989
+v1_longitude = -118.372999
+v1_types_0 = Pet store
+v1_types_1 = Point of interest
+v1_types_2 = Store
+v1_types_3 = Establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 5310 West Century Boulevard, Los Angeles
+v1_street_number = 5310
+v1_street_name = West Century Boulevard
+v1_locality = Los Angeles
+v1_distance = 6.9 mi
+v1_duration = 13 mins
+PREDICT: places_nearby
+PREDICT: fish store
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Rubens Aquarium Co
+v2_0_rating = 4
+v2_0_is_open = False
+v2_0_types_0 = Pet store
+v2_0_types_1 = Point of interest
+v2_0_types_2 = Store
+v2_0_types_3 = Establishment
+v2_0_latitude = 33.994883
+v2_0_longitude = -118.395754
+v2_0_address_simple = 5403 Sepulveda Boulevard, Culver City
+v2_0_street_number = 5403
+v2_0_street_name = Sepulveda Boulevard
+v2_0_neighborhood = Sunkist Park
+v2_0_locality = Culver City
+v2_0_distance = 4.1 mi
+v2_0_duration = 11 mins
+v2_1_name = The Aquarium
+v2_1_rating = 4.1
+v2_1_is_open = False
+v2_1_types_0 = Pet store
+v2_1_types_1 = Point of interest
+v2_1_types_2 = Store
+v2_1_types_3 = Establishment
+v2_1_latitude = 33.9948728
+v2_1_longitude = -118.3957495
+v2_1_address_simple = 5403 Sepulveda Boulevard, Culver City
+v2_1_street_number = 5403
+v2_1_street_name = Sepulveda Boulevard
+v2_1_neighborhood = Sunkist Park
+v2_1_locality = Culver City
+v2_1_distance = 4.1 mi
+v2_1_duration = 11 mins
+v2_2_name = Allan's Pet Center
+v2_2_rating = 4.6
+v2_2_is_open = True
+v2_2_types_0 = Pet store
+v2_2_types_1 = Food
+v2_2_types_2 = Point of interest
+v2_2_types_3 = Store
+v2_2_types_4 = Establishment
+v2_2_latitude = 34.0300066
+v2_2_longitude = -118.4494868
+v2_2_address_simple = 12003 West Pico Boulevard, Los Angeles
+v2_2_street_number = 12003
+v2_2_street_name = West Pico Boulevard
+v2_2_neighborhood = West Los Angeles
+v2_2_locality = Los Angeles
+v2_2_distance = 7.4 mi
+v2_2_duration = 14 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Rubens Aquarium Co
+PREDICT: The Aquarium
+PREDICT: LAX Aquarium
+PREDICT: wait_for_user
+u2_0 = No
+u2_1 = ,
+u2_2 = I
+u2_3 = do
+u2_4 = n't
+u2_5 = want
+u2_6 = to
+u2_7 = go
+u2_8 = to
+u2_9 = an
+u2_10 = aquarium
+u2_11 = .
+PREDICT: find_place
+PREDICT: fish store
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_name = The Aquarium
+v3_address = 5403 Sepulveda Blvd, Culver City, CA 90230, United States
+v3_latitude = 33.9948728
+v3_longitude = -118.3957495
+v3_types_0 = Pet store
+v3_types_1 = Point of interest
+v3_types_2 = Store
+v3_types_3 = Establishment
+v3_rating = 4.1
+v3_is_open = False
+v3_address_simple = 5403 Sepulveda Boulevard, Culver City
+v3_street_number = 5403
+v3_street_name = Sepulveda Boulevard
+v3_neighborhood = Sunkist Park
+v3_locality = Culver City
+v3_distance = 4.1 mi
+v3_duration = 11 mins
+PREDICT: {} has {} category.
+PREDICT: The Aquarium
+PREDICT: Pet store
+PREDICT: {} has {} category.
+PREDICT: Rubens Aquarium Co
+PREDICT: Pet store
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u3_0 = The
+u3_1 = closest
+u3_2 = one
+u3_3 = .
+PREDICT: Great, we are going to {}.
+PREDICT: The Aquarium
+PREDICT: It is {} and {} away.
+PREDICT: 4.1 mi
+PREDICT: 11 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = yes
+PREDICT: start_driving
+PREDICT: 33.9948728
+PREDICT: -118.3957495

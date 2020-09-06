@@ -1,0 +1,42 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = would
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = the
+u1_7 = Marina
+u1_8 = Pier
+PREDICT: find_place
+PREDICT: Marina Pier
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Pier 44 Marina
+v1_address = 4637 Admiralty Way, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9799656
+v1_longitude = -118.4406865
+v1_types_0 = Point of interest
+v1_types_1 = Establishment
+v1_rating = 4.7
+v1_address_simple = 4637 Admiralty Way, Marina del Rey
+v1_street_number = 4637
+v1_street_name = Admiralty Way
+v1_locality = Marina del Rey
+v1_distance = 0.1 mi
+v1_duration = 2 mins
+PREDICT: {} is {} away.
+PREDICT: Pier 44 Marina
+PREDICT: 2 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = let
+u2_3 = 's
+u2_4 = go
+PREDICT: start_driving
+PREDICT: 33.9799656
+PREDICT: -118.4406865

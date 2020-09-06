@@ -1,0 +1,70 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = gallery
+u1_8 = at
+u1_9 = Bergamot
+u1_10 = Station
+u1_11 = .
+PREDICT: [ACTION] find_place [PARAM] Bergamot Station [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 2525 Michigan Ave, Santa Monica, CA 90404, United States
+v1_name = Bergamot Station
+v1_latitude = 34.0283148
+v1_longitude = -118.4676457
+v1_place_id = ChIJozuAqD67woARWJaOazqKvgY
+v1_street_number = 2525
+v1_street_name = Michigan Avenue
+v1_neighborhood = Pico
+v1_locality = Santa Monica
+v1_distance = 8.8 mi
+v1_duration = 17 mins
+PREDICT: [ACTION] find_place [PARAM] gallery [PARAM] 34.0283148 [PARAM] -118.4676457
+v2_address = 2525 Michigan Ave #A2, Santa Monica, CA 90404, United States
+v2_name = bG Gallery
+v2_latitude = 34.0283148
+v2_longitude = -118.4676457
+v2_place_id = ChIJMzrcFNCkwoARPwNjC_jn2_8
+v2_street_number = 2525
+v2_street_name = Michigan Avenue
+v2_neighborhood = Pico
+v2_locality = Santa Monica
+v2_distance = 1 ft
+v2_duration = 1 min
+PREDICT: [ACTION] How about {}? [PARAM] bG Gallery
+PREDICT: [ACTION] It is in {} [PARAM] Santa Monica
+PREDICT: [ACTION] wait_for_user
+u2_0 = Okay
+u2_1 = ,
+u2_2 = just
+u2_3 = to
+u2_4 = double-check
+u2_5 = ,
+u2_6 = how
+u2_7 = far
+u2_8 = away
+u2_9 = is
+u2_10 = it
+u2_11 = from
+u2_12 = Bergamot
+u2_13 = Station
+u2_14 = ?
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] bG Gallery [PARAM] 1 min [PARAM] Bergamot Station
+PREDICT: [ACTION] wait_for_user
+u3_0 = Okay
+u3_1 = ,
+u3_2 = that
+u3_3 = works
+u3_4 = !
+u3_5 = Let
+u3_6 = 's
+u3_7 = go
+u3_8 = !
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 34.0283148 [PARAM] -118.4676457

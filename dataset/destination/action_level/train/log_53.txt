@@ -1,0 +1,92 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = get
+u1_5 = some
+u1_6 = Thai
+u1_7 = food
+u1_8 = at
+u1_9 = Hoy-Ka
+u1_10 = .
+PREDICT: [ACTION] find_place [PARAM] Thai food Hoy-Ka [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 5908 Sunset Blvd, Los Angeles, CA 90028, United States
+v1_name = The Original Hoy-Ka Thai Noodle
+v1_latitude = 34.097832
+v1_longitude = -118.3183757
+v1_place_id = ChIJ92lOKka_woAR4rx2fnKC2Tw
+v1_street_number = 5908
+v1_street_name = Sunset Boulevard
+v1_neighborhood = Central LA
+v1_locality = Los Angeles
+v1_distance = 17.5 mi
+v1_duration = 39 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] The Original Hoy-Ka Thai Noodle
+PREDICT: [ACTION] It is on {}. [PARAM] Sunset Boulevard
+PREDICT: [ACTION] places_nearby [PARAM] Hoy-Ka [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_0_name = The Original Hoy-Ka Thai Noodle
+v2_0_rating = 4.5
+v2_0_is_open = True
+v2_0_place_id = ChIJ92lOKka_woAR4rx2fnKC2Tw
+v2_0_price_level = 1
+v2_0_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v2_0_latitude = 34.097832
+v2_0_longitude = -118.3183757
+v2_0_address = 5908 Sunset Blvd, Los Angeles, CA 90028, USA
+v2_0_street_number = 5908
+v2_0_street_name = Sunset Boulevard
+v2_0_neighborhood = Central LA
+v2_0_locality = Los Angeles
+PREDICT: [ACTION] wait_for_user
+u2_0 = Yes
+u2_1 = ,
+u2_2 = that
+u2_3 = 's
+u2_4 = the
+u2_5 = one
+u2_6 = .
+u2_7 = How
+u2_8 = far
+u2_9 = away
+u2_10 = is
+u2_11 = it
+u2_12 = ?
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 17.5 mi [PARAM] 39 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = To
+u3_1 = double-check
+u3_2 = ,
+u3_3 = this
+u3_4 = is
+u3_5 = the
+u3_6 = one
+u3_7 = in
+u3_8 = Hollywood
+u3_9 = right
+u3_10 = ?
+PREDICT: [ACTION] The neighborhood is {}. [PARAM] Central LA
+PREDICT: [ACTION] places_nearby [PARAM] Hollywood [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_0_name = Hollywood
+v3_0_place_id = ChIJv3lSBAe_woAR5Pq9l2eaevY
+v3_0_types = ['neighborhood', 'political']
+v3_0_latitude = 34.0928092
+v3_0_longitude = -118.3286614
+v3_0_address = Hollywood, Los Angeles, CA, USA
+v3_0_neighborhood = Hollywood
+v3_0_locality = Los Angeles
+PREDICT: [ACTION] distance_matrix [PARAM] 34.0928092 [PARAM] -118.3286614 [PARAM] 34.097832 [PARAM] -118.3183757
+v4_distance = 1.0 mi
+v4_duration = 5 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] The Original Hoy-Ka Thai Noodle [PARAM] 5 mins [PARAM] Hollywood
+PREDICT: [ACTION] wait_for_user
+u4_0 = Perfect
+u4_1 = !
+u4_2 = Let
+u4_3 = 's
+u4_4 = go
+u4_5 = !
+PREDICT: [ACTION] start_driving [PARAM] 34.097832 [PARAM] -118.3183757

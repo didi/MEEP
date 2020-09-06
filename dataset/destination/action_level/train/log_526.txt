@@ -1,0 +1,128 @@
+source_address = City Hall MRT, Singapore
+source_latitude = 1.2924789
+source_longitude = 103.85233199999993
+u1_0 = back
+u1_1 = to
+u1_2 = school
+u1_3 = .
+u1_4 = nus
+u1_5 = please
+PREDICT: [ACTION] find_place [PARAM] school [PARAM] 1.2924789 [PARAM] 103.85233199999993
+v1_name = Sat Preparatory Schools
+v1_address = 111 North Bridge Rd, Singapore 179098
+v1_latitude = 1.2923057
+v1_longitude = 103.8508325
+v1_types_0 = school
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 0
+v1_address_simple = 111 North Bridge Road
+v1_street_number = 111
+v1_street_name = North Bridge Road
+v1_neighborhood = Downtown Core
+v1_locality = Singapore
+v1_distance = 0.2 mi
+v1_duration = 2 mins
+PREDICT: [ACTION] find_place [PARAM] school [PARAM] 1.2924789 [PARAM] 103.85233199999993
+v2_name = Sat Preparatory Schools
+v2_address = 111 North Bridge Rd, Singapore 179098
+v2_latitude = 1.2923057
+v2_longitude = 103.8508325
+v2_types_0 = school
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 0
+v2_address_simple = 111 North Bridge Road
+v2_street_number = 111
+v2_street_name = North Bridge Road
+v2_neighborhood = Downtown Core
+v2_locality = Singapore
+v2_distance = 0.2 mi
+v2_duration = 2 mins
+PREDICT: [ACTION] find_place [PARAM] school nus [PARAM] 1.2924789 [PARAM] 103.85233199999993
+v3_name = Duke-NUS Medical School
+v3_address = 8 College Rd, Singapore 169857
+v3_latitude = 1.2812205
+v3_longitude = 103.8341298
+v3_types_0 = university
+v3_types_1 = health
+v3_types_2 = point of interest
+v3_types_3 = establishment
+v3_rating = 4.7
+v3_is_open = False
+v3_address_simple = 8 College Road
+v3_street_number = 8
+v3_street_name = College Road
+v3_neighborhood = Bukit Merah
+v3_locality = Singapore
+v3_distance = 1.9 mi
+v3_duration = 8 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Duke-NUS Medical School
+PREDICT: [ACTION] wait_for_user
+u2_0 = the
+u2_1 = library
+u2_2 = close
+u2_3 = to
+u2_4 = there
+PREDICT: [ACTION] find_place [PARAM] library [PARAM] 1.2812205 [PARAM] 103.8341298
+v4_name = library@chinatown
+v4_address = 133 New Bridge Rd, #04-12 Chinatown Point, Singapore 059413
+v4_latitude = 1.2852093
+v4_longitude = 103.8447228
+v4_types_0 = library
+v4_types_1 = point of interest
+v4_types_2 = establishment
+v4_rating = 3.9
+v4_is_open = False
+v4_address_simple = 133 New Bridge Road, #04-12 Chinatown Point
+v4_street_number = 133
+v4_street_name = New Bridge Road
+v4_neighborhood = Outram
+v4_locality = Singapore
+v4_distance = 2.5 mi
+v4_duration = 7 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] library@chinatown [PARAM] New Bridge Road
+PREDICT: [ACTION] wait_for_user
+u3_0 = no
+u4_0 = library
+u4_1 = in
+u4_2 = NUS
+PREDICT: [ACTION] find_place [PARAM] library in NUS [PARAM] 1.2812205 [PARAM] 103.8341298
+v5_name = C J Koh Law Library
+v5_address = 469D Bukit Timah Rd, Singapore 259773
+v5_latitude = 1.3187434
+v5_longitude = 103.8181627
+v5_types_0 = library
+v5_types_1 = point of interest
+v5_types_2 = establishment
+v5_rating = 4.3
+v5_is_open = False
+v5_address_simple = 469D Bukit Timah Rd
+v5_street_number = 469D
+v5_street_name = Bukit Timah Rd
+v5_neighborhood = Tanglin
+v5_locality = Singapore
+v5_distance = 5.8 mi
+v5_duration = 17 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] C J Koh Law Library
+PREDICT: [ACTION] find_place [PARAM] library in NUS [PARAM] 1.2924789 [PARAM] 103.85233199999993
+v6_name = C J Koh Law Library
+v6_address = 469D Bukit Timah Rd, Singapore 259773
+v6_latitude = 1.3187434
+v6_longitude = 103.8181627
+v6_types_0 = library
+v6_types_1 = point of interest
+v6_types_2 = establishment
+v6_rating = 4.3
+v6_is_open = False
+v6_address_simple = 469D Bukit Timah Rd
+v6_street_number = 469D
+v6_street_name = Bukit Timah Rd
+v6_neighborhood = Tanglin
+v6_locality = Singapore
+v6_distance = 4.3 mi
+v6_duration = 15 mins
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 4.3 mi [PARAM] 15 mins
+PREDICT: [ACTION] wait_for_user
+u5_0 = sure
+PREDICT: [ACTION] start_driving [PARAM] 1.3187434 [PARAM] 103.8181627

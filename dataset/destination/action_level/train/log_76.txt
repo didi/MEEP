@@ -1,0 +1,75 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Brentwood
+u1_6 = .
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] Brentwood [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = Brentwood, Los Angeles, CA 90049, USA
+v1_name = Brentwood
+v1_latitude = 34.0521011
+v1_longitude = -118.4732464
+v1_place_id = ChIJwVQiWiqjwoARzHKhv3c0aqo
+v1_neighborhood = Brentwood
+v1_locality = Los Angeles
+v1_distance = 10.3 mi
+v1_duration = 22 mins
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 10.3 mi [PARAM] 22 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = the
+u2_1 = school
+u2_2 = right
+u2_3 = ?
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] Brentwood school [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = 100 S Barrington Pl, Los Angeles, CA 90049, United States
+v2_name = Brentwood School, East Campus
+v2_latitude = 34.067168
+v2_longitude = -118.468795
+v2_place_id = ChIJwQQVCLy8woARkb4t177eZyM
+v2_street_number = 100
+v2_street_name = South Barrington Place
+v2_locality = Los Angeles
+v2_distance = 10.8 mi
+v2_duration = 21 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Brentwood School, East Campus [PARAM] South Barrington Place
+PREDICT: [ACTION] wait_for_user
+u3_0 = I
+u3_1 = 'm
+u3_2 = not
+u3_3 = sure
+u3_4 = .
+u4_0 = it
+u4_1 = 's
+u4_2 = a
+u4_3 = private
+u4_4 = high
+u4_5 = school
+u4_6 = in
+u4_7 = LA
+PREDICT: [ACTION] It is on {}. [PARAM] South Barrington Place
+PREDICT: [ACTION] find_place [PARAM] Brentwood private high school [PARAM] 33.9816425 [PARAM] -118.4409761
+v3_address = 100 S Barrington Pl, Los Angeles, CA 90049, United States
+v3_name = Brentwood School, East Campus
+v3_latitude = 34.067168
+v3_longitude = -118.468795
+v3_place_id = ChIJwQQVCLy8woARkb4t177eZyM
+v3_street_number = 100
+v3_street_name = South Barrington Place
+v3_locality = Los Angeles
+v3_distance = 10.8 mi
+v3_duration = 21 mins
+PREDICT: [ACTION] wait_for_user
+u5_0 = ok
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.067168 [PARAM] -118.468795

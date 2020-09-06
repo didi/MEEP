@@ -1,0 +1,91 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = UMD
+u1_1 = in
+u1_2 = college
+u1_3 = park
+u1_4 = please
+PREDICT: find_place
+PREDICT: college park
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v1_name = College Park
+v1_address = College Park, MD, USA
+v1_latitude = 38.9896967
+v1_longitude = -76.93776
+v1_types_0 = locality
+v1_types_1 = political
+v1_address_simple = College Park
+v1_locality = College Park
+v1_distance = 9.0 mi
+v1_duration = 33 mins
+PREDICT: find_place
+PREDICT: UMD
+PREDICT: 38.9896967
+PREDICT: -76.93776
+v2_name = UMD
+v2_address = College Park, MD 20742, United States
+v2_latitude = 38.9853283
+v2_longitude = -76.94943479999999
+v2_types_0 = university
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 3.5
+v2_address_simple = College Park
+v2_locality = College Park
+v2_distance = 1.0 mi
+v2_duration = 6 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: UMD
+PREDICT: College Park
+PREDICT: The address is {}.
+PREDICT: College Park, MD 20742, United States
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = that
+u2_1 = 's
+u2_2 = the
+u2_3 = place
+u2_4 = .
+u2_5 = can
+u2_6 = you
+u2_7 = find
+u2_8 = the
+u2_9 = UMIACS
+u2_10 = building
+u2_11 = ?
+PREDICT: find_place
+PREDICT: UMIACS building
+PREDICT: 38.93199660000001
+PREDICT: -77.0373439
+v3_name = UMIACS
+v3_address = 8125 Paint Branch Dr, College Park, MD 20740, United States
+v3_latitude = 38.9890953
+v3_longitude = -76.9365146
+v3_types_0 = university
+v3_types_1 = point of interest
+v3_types_2 = establishment
+v3_rating = 4.8
+v3_is_open = False
+v3_address_simple = 8125 Paint Branch Drive, College Park
+v3_street_number = 8125
+v3_street_name = Paint Branch Drive
+v3_locality = College Park
+v3_distance = 9.0 mi
+v3_duration = 33 mins
+PREDICT: {} is in {}.
+PREDICT: UMIACS
+PREDICT: 8125 Paint Branch Drive, College Park
+PREDICT: wait_for_user
+u3_0 = yep
+u4_0 = there
+u4_1 = please
+PREDICT: Great, we are going to {}.
+PREDICT: UMIACS
+PREDICT: start_driving
+PREDICT: 38.9890953
+PREDICT: -76.9365146
+PREDICT: start_driving
+PREDICT: 38.9890953
+PREDICT: -76.9365146

@@ -1,0 +1,186 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = need
+u1_2 = to
+u1_3 = buy
+u1_4 = dog
+u1_5 = food
+PREDICT: find_place
+PREDICT: dog food
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Unleashed by Petco
+v1_address = 13411 Washington Blvd, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9923006
+v1_longitude = -118.4447426
+v1_price_level = 2
+v1_types_0 = Point of interest
+v1_types_1 = Store
+v1_types_2 = Establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 13411 Washington Boulevard, Marina del Rey
+v1_street_number = 13411
+v1_street_name = Washington Boulevard
+v1_neighborhood = Culver - West
+v1_locality = Marina del Rey
+v1_distance = 1.1 mi
+v1_duration = 7 mins
+PREDICT: places_nearby
+PREDICT: dog food
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Healthy Spot
+v2_0_rating = 4.5
+v2_0_is_open = True
+v2_0_types_0 = Point of interest
+v2_0_types_1 = Store
+v2_0_types_2 = Establishment
+v2_0_latitude = 33.9804054
+v2_0_longitude = -118.4376945
+v2_0_address_simple = 4718 Lincoln Boulevard, Marina del Rey
+v2_0_street_number = 4718
+v2_0_street_name = Lincoln Boulevard
+v2_0_locality = Marina del Rey
+v2_0_distance = 0.3 mi
+v2_0_duration = 4 mins
+v2_1_name = Unleashed by Petco
+v2_1_rating = 4.4
+v2_1_is_open = True
+v2_1_price_level = 2
+v2_1_types_0 = Point of interest
+v2_1_types_1 = Store
+v2_1_types_2 = Establishment
+v2_1_latitude = 33.9923006
+v2_1_longitude = -118.4447426
+v2_1_address_simple = 13411 Washington Boulevard, Marina del Rey
+v2_1_street_number = 13411
+v2_1_street_name = Washington Boulevard
+v2_1_neighborhood = Culver - West
+v2_1_locality = Marina del Rey
+v2_1_distance = 1.1 mi
+v2_1_duration = 7 mins
+v2_2_name = Bruno's Dog & Cat Boutique
+v2_2_rating = 4.9
+v2_2_is_open = True
+v2_2_types_0 = Pet store
+v2_2_types_1 = Point of interest
+v2_2_types_2 = Store
+v2_2_types_3 = Establishment
+v2_2_latitude = 33.9955898
+v2_2_longitude = -118.4554719
+v2_2_address_simple = 2012 Lincoln Boulevard, Venice
+v2_2_street_number = 2012
+v2_2_street_name = Lincoln Boulevard
+v2_2_neighborhood = Venice
+v2_2_locality = Los Angeles
+v2_2_distance = 1.4 mi
+v2_2_duration = 7 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Healthy Spot
+PREDICT: Unleashed by Petco
+PREDICT: Bruno's Dog & Cat Boutique
+PREDICT: They are {}, {}, {} away respectively
+PREDICT: 4 mins
+PREDICT: 7 mins
+PREDICT: 7 mins
+PREDICT: Their ratings are {}, {} and {} respectively
+PREDICT: 4.5
+PREDICT: 4.4
+PREDICT: 4.9
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u2_0 = i
+u2_1 = just
+u2_2 = need
+u2_3 = a
+u2_4 = pet
+u2_5 = supply
+u2_6 = place
+u2_7 = .
+PREDICT: find_place
+PREDICT: pet supply place
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_name = My Pet’s Place
+v3_address = 5275 W Olympic Blvd, Los Angeles, CA 90036, United States
+v3_latitude = 34.0575585
+v3_longitude = -118.3453274
+v3_types_0 = Point of interest
+v3_types_1 = Store
+v3_types_2 = Establishment
+v3_rating = 4.8
+v3_is_open = True
+v3_address_simple = 5275 West Olympic Boulevard, Los Angeles
+v3_street_number = 5275
+v3_street_name = West Olympic Boulevard
+v3_neighborhood = Central LA
+v3_locality = Los Angeles
+v3_distance = 13.0 mi
+v3_duration = 25 mins
+PREDICT: places_nearby
+PREDICT: pet supply
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_0_name = Healthy Spot
+v4_0_rating = 4.5
+v4_0_is_open = True
+v4_0_types_0 = Point of interest
+v4_0_types_1 = Store
+v4_0_types_2 = Establishment
+v4_0_latitude = 33.9804054
+v4_0_longitude = -118.4376945
+v4_0_address_simple = 4718 Lincoln Boulevard, Marina del Rey
+v4_0_street_number = 4718
+v4_0_street_name = Lincoln Boulevard
+v4_0_locality = Marina del Rey
+v4_0_distance = 0.3 mi
+v4_0_duration = 4 mins
+v4_1_name = Just Food For Dogs
+v4_1_rating = 0
+v4_1_is_open = True
+v4_1_types_0 = Pet store
+v4_1_types_1 = Point of interest
+v4_1_types_2 = Store
+v4_1_types_3 = Establishment
+v4_1_latitude = 33.9919688
+v4_1_longitude = -118.4449282
+v4_1_address_simple = Inside Petco, 13411 Washington Boulevard, Marina del Rey
+v4_1_establishment = Inside Petco
+v4_1_street_number = 13411
+v4_1_street_name = Washington Boulevard
+v4_1_neighborhood = Culver - West
+v4_1_locality = Marina del Rey
+v4_1_distance = 1.1 mi
+v4_1_duration = 7 mins
+v4_2_name = Unleashed by Petco
+v4_2_rating = 4.4
+v4_2_is_open = True
+v4_2_price_level = 2
+v4_2_types_0 = Point of interest
+v4_2_types_1 = Store
+v4_2_types_2 = Establishment
+v4_2_latitude = 33.9923006
+v4_2_longitude = -118.4447426
+v4_2_address_simple = 13411 Washington Boulevard, Marina del Rey
+v4_2_street_number = 13411
+v4_2_street_name = Washington Boulevard
+v4_2_neighborhood = Culver - West
+v4_2_locality = Marina del Rey
+v4_2_distance = 1.1 mi
+v4_2_duration = 7 mins
+PREDICT: {} is a {}.
+PREDICT: Healthy Spot
+PREDICT: pet supply place
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: start_driving
+PREDICT: 33.9804054
+PREDICT: -118.4376945

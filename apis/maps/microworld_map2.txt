@@ -1,0 +1,26 @@
+# Microworld v.2.0
+# Values are: lat, lng, name, rating, price, types
+1, 2, Gap-MDR, 2, 2, clothes, gap
+1, 7, Boiling Crab, 5, 4, seafood, shrimp, food, restaurant
+2, 1, Starbucks, 3, 3, cafe, coffee, tea
+2, 2, In-n-out, 4, 2, burger, in-n-out, food, restaurant
+2, 3, Fatburger, 4, 1, burger, fatburger, food, restaurant
+2, 6, Zoo, 3, 2, animals, tourist
+2, 9, Trim, 4, 4, haircut, trim, hair, haircut, salon
+3, 4, Starbucks, 2, 3, cafe, coffee, tea
+3, 8, Levi's, 2, 2, clothes, jeans
+4, 10, Starbucks, 3, 4, cafe, coffee, tea
+4, 6, Gap-Santa Monica, 3, 2, clothes, gap
+4, 8, In-n-out, 3, 2, burger, subl, food, restaurant
+5, 6, Dogtown, 5, 2, cafe, dogtown, coffee, tea
+6, 2, Coffee Connection, 5, 2, cafe, coffee, connection, tea
+6, 10, CVS, 1, 2, pharmacy, drugstore, prescription
+7, 1, Museum, 5, 2, museum, dinosaurs, tourist
+7, 9, Boiling Crab, 4, 4, seafood, shrimp, food, restaurant
+7, 10, Killer Shrimp, 3, 3, seafood, shrimp, food, restaurant
+8, 5, Gap-Culver City, 3, 2, clothes, gap
+8, 5, Starbucks Deluxe, 4, 5, cafe, coffee, deluxe, tea
+8, 7, Ubercuts, 2, 2, haircut, supercuts, hair, haircut, salon
+9, 3, Starbucks, 2, 3, cafe, coffee, tea
+10, 3, Microworld Boulders, 4, 4, gym, climbing, exercise
+10, 4, In-n-out, 4, 2, burger, in-n-out, food, restaurant

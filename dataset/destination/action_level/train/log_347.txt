@@ -1,0 +1,49 @@
+source_address = Mission Dolores Park, San Francisco, CA 94114, United States
+source_latitude = 37.760
+source_longitude = -122.429
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = restaurant
+u1_8 = called
+u1_9 = Shalimar
+u1_10 = ,
+u1_11 = it
+u1_12 = 's
+u1_13 = in
+u1_14 = the
+u1_15 = Tenderloin
+PREDICT: [ACTION] places_nearby [PARAM] Shalimar restaurant Tenderloin [PARAM] 37.760 [PARAM] -122.429
+v1_0_name = Shalimar Restaurant
+v1_0_rating = 4
+v1_0_is_open = True
+v1_0_price_level = 1
+v1_0_types_0 = restaurant
+v1_0_types_1 = food
+v1_0_types_2 = point of interest
+v1_0_types_3 = establishment
+v1_0_latitude = 37.7862487
+v1_0_longitude = -122.4129478
+v1_0_address_simple = 532 Jones Street #2008, San Francisco
+v1_0_street_number = 532
+v1_0_street_name = Jones Street
+v1_0_neighborhood = Tenderloin
+v1_0_locality = San Francisco
+v1_0_distance = 2.8 mi
+v1_0_duration = 17 mins
+PREDICT: [ACTION] It is on {} in {}. [PARAM] Jones Street [PARAM] Tenderloin
+PREDICT: [ACTION] {} is {} away. [PARAM] Shalimar Restaurant [PARAM] 17 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = Sounds
+u2_1 = good
+u2_2 = !
+u2_3 = Let
+u2_4 = 's
+u2_5 = go
+u2_6 = .
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 37.7862487 [PARAM] -122.4129478

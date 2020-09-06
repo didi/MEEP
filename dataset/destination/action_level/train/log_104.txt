@@ -1,0 +1,25 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = the
+u1_1 = zoo
+PREDICT: [ACTION] find_place [PARAM] the zoo [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 5333 Zoo Dr, Los Angeles, CA 90027, United States
+v1_name = Los Angeles Zoo
+v1_latitude = 34.1483445
+v1_longitude = -118.2841086
+v1_place_id = ChIJ1cdRl2XAwoAR_WUoKRXLQTY
+v1_street_number = 5333
+v1_street_name = Zoo Drive
+v1_locality = Los Angeles
+v1_distance = 27.4 mi
+v1_duration = 40 mins
+PREDICT: [ACTION] There is a {} in {}. [PARAM] Los Angeles Zoo [PARAM] Los Angeles
+PREDICT: [ACTION] It is {} away. [PARAM] 40 mins
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u2_0 = sure
+u2_1 = ,
+u2_2 = yes
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 34.1483445 [PARAM] -118.2841086

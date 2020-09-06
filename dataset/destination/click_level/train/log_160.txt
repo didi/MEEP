@@ -1,0 +1,59 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Majestic
+PREDICT: find_place
+PREDICT: Majestic
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v1_name = Majestic
+v1_address = Majestic, Bengaluru, Karnataka, India
+v1_latitude = 12.9766637
+v1_longitude = 77.5712556
+v1_locality = Bengaluru
+v1_distance = 4.0 mi
+v1_duration = 23 mins
+PREDICT: {} in {}?
+PREDICT: Majestic
+PREDICT: Bengaluru
+PREDICT: wait_for_user
+u2_0 = that
+u2_1 = 's
+u2_2 = right
+u2_3 = ..
+u2_4 = its
+u2_5 = a
+u2_6 = bus
+u2_7 = terminus
+PREDICT: find_place
+PREDICT: Majestic bus terminus
+PREDICT: 12.9401979
+PREDICT: 77.57327759999998
+v2_name = Majestic Bus Terminus
+v2_address = Gubbi Thotadappa Rd, Kempegowda, Gandhi Nagar, Bengaluru, Karnataka 560009, India
+v2_rating = 4
+v2_latitude = 12.975746
+v2_longitude = 77.57274600000001
+v2_street_name = Gubbi Thotadappa Road
+v2_locality = Bengaluru
+v2_distance = 3.6 mi
+v2_duration = 20 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Majestic Bus Terminus
+PREDICT: Gubbi Thotadappa Road
+PREDICT: It is {} and {} away.
+PREDICT: 3.6 mi
+PREDICT: 20 mins
+PREDICT: wait_for_user
+u3_0 = sure
+u3_1 = ,
+u3_2 = lets
+u3_3 = go
+PREDICT: start_driving
+PREDICT: 12.975746
+PREDICT: 77.57274600000001

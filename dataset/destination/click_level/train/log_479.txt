@@ -1,0 +1,171 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = outdoors
+u1_1 = shop
+u1_2 = in
+u1_3 = south
+u1_4 = lake
+u1_5 = union
+u1_6 = please
+PREDICT: find_place
+PREDICT: outdoors shop south lake union
+PREDICT: 47.676
+PREDICT: -122.306
+v1_name = REI
+v1_address = 222 Yale Ave N, Seattle, WA 98109, United States
+v1_latitude = 47.6203442
+v1_longitude = -122.3297537
+v1_price_level = 3
+v1_types_0 = shoe store
+v1_types_1 = bicycle store
+v1_types_2 = point of interest
+v1_types_3 = clothing store
+v1_types_4 = store
+v1_types_5 = establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 222 Yale Avenue North, Seattle
+v1_street_number = 222
+v1_street_name = Yale Avenue North
+v1_neighborhood = South Lake Union
+v1_locality = Seattle
+v1_distance = 4.8 mi
+v1_duration = 10 mins
+PREDICT: There is a {} in {}.
+PREDICT: REI
+PREDICT: South Lake Union
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = no
+u2_1 = ,
+u2_2 = the
+u2_3 = other
+u2_4 = shop
+u2_5 = ,
+u2_6 = the
+u2_7 = small
+u2_8 = one
+u2_9 = .
+u2_10 = somewhere
+u2_11 = around
+u2_12 = there
+PREDICT: places_nearby
+PREDICT: outdoors shop south lake union
+PREDICT: 47.676
+PREDICT: -122.306
+v2_0_name = Pro Mountain Sports
+v2_0_rating = 3.9
+v2_0_is_open = True
+v2_0_types_0 = point of interest
+v2_0_types_1 = store
+v2_0_types_2 = establishment
+v2_0_latitude = 47.6701718
+v2_0_longitude = -122.313312
+v2_0_address_simple = 5625 University Way, Seattle
+v2_0_street_number = 5625
+v2_0_street_name = University Way
+v2_0_neighborhood = Northeast Seattle
+v2_0_locality = Seattle
+v2_0_distance = 0.7 mi
+v2_0_duration = 3 mins
+v2_1_name = Title Nine
+v2_1_rating = 4.4
+v2_1_is_open = True
+v2_1_types_0 = point of interest
+v2_1_types_1 = clothing store
+v2_1_types_2 = store
+v2_1_types_3 = establishment
+v2_1_latitude = 47.6791766
+v2_1_longitude = -122.3245579
+v2_1_address_simple = 7000 Woodlawn Avenue Northeast, Seattle
+v2_1_street_number = 7000
+v2_1_street_name = Woodlawn Avenue Northeast
+v2_1_neighborhood = Northwest Seattle
+v2_1_locality = Seattle
+v2_1_distance = 1.0 mi
+v2_1_duration = 5 mins
+v2_2_name = The North Face
+v2_2_rating = 4.3
+v2_2_is_open = True
+v2_2_types_0 = point of interest
+v2_2_types_1 = clothing store
+v2_2_types_2 = store
+v2_2_types_3 = establishment
+v2_2_latitude = 47.662498
+v2_2_longitude = -122.2982532
+v2_2_address_simple = 2682 Northeast University Village Street Unit 199, Seattle
+v2_2_street_number = 2682
+v2_2_street_name = Northeast University Village Street
+v2_2_neighborhood = Northeast Seattle
+v2_2_locality = Seattle
+v2_2_distance = 1.4 mi
+v2_2_duration = 7 mins
+u3_0 = ``
+u3_1 = friends
+u3_2 = ''
+u3_3 = I
+u3_4 = think
+u3_5 = .
+u3_6 = between
+u3_7 = the
+u3_8 = REI
+u3_9 = and
+u3_10 = the
+u3_11 = Vivace
+PREDICT: I found two places: {} and {}.
+PREDICT: Title Nine
+PREDICT: Pro Mountain Sports
+PREDICT: wait_for_user
+u4_0 = no
+u4_1 = its
+u4_2 = not
+u4_3 = either
+u4_4 = of
+u4_5 = those
+u5_0 = feather
+u5_1 = friends
+u5_2 = maybe
+u5_3 = ?
+PREDICT: find_place
+PREDICT: friends outdoors
+PREDICT: 47.6203442
+PREDICT: -122.3297537
+v3_name = Feathered Friends
+v3_address = 263 Yale Ave N, Seattle, WA 98109, United States
+v3_latitude = 47.6206514
+v3_longitude = -122.3307362
+v3_types_0 = point of interest
+v3_types_1 = store
+v3_types_2 = establishment
+v3_rating = 4.6
+v3_is_open = True
+v3_address_simple = 263 Yale Avenue North, Seattle
+v3_street_number = 263
+v3_street_name = Yale Avenue North
+v3_neighborhood = South Lake Union
+v3_locality = Seattle
+v3_distance = 236 ft
+v3_duration = 1 min
+PREDICT: I found {} in {}.
+PREDICT: Feathered Friends
+PREDICT: South Lake Union
+PREDICT: wait_for_user
+u6_0 = if
+u6_1 = not
+u6_2 = just
+u6_3 = drop
+u6_4 = me
+u6_5 = off
+u6_6 = at
+u6_7 = the
+u6_8 = REI
+u6_9 = and
+u6_10 = I
+u6_11 = 'll
+u6_12 = walk
+u7_0 = yes
+u7_1 = there
+PREDICT: start_driving
+PREDICT: 47.6206514
+PREDICT: -122.3307362

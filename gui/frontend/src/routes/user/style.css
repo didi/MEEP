@@ -1,0 +1,50 @@
+.home {
+	padding: 0 20px;
+	width: 100%;
+}
+
+.chatWrapper {
+    flex: 1 1 33%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.configGroup button {
+    height: 3em;
+    font-size: 16px;
+    margin: 20px 2%;
+    width: 46%;
+    background: #dddddd;
+    border: solid thin lightgrey;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#sourceSearch {
+    margin-left: 0px;
+    font-size: 1em;
+    width: 300px;
+}
+
+.configGroup {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.configHeader {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.configPanel {
+    float: left;
+    margin-right: 10px;
+}
+
+label {
+    margin-left: 3px;
+}

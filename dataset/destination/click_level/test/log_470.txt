@@ -1,0 +1,83 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = the
+u1_1 = Queen
+u1_2 = Anne
+u1_3 = overlook
+u1_4 = place
+u1_5 = ,
+u1_6 = please
+u2_0 = whatever
+u2_1 = the
+u2_2 = park
+u2_3 = is
+u2_4 = called
+PREDICT: find_place
+PREDICT: Queen Anne overlook park
+PREDICT: 47.676
+PREDICT: -122.306
+v1_name = Kerry Park
+v1_address = 211 W Highland Dr, Seattle, WA 98119, United States
+v1_latitude = 47.6294692
+v1_longitude = -122.3599224
+v1_types_0 = park
+v1_types_1 = tourist attraction
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.7
+v1_is_open = True
+v1_address_simple = 211 West Highland Drive, Seattle
+v1_street_number = 211
+v1_street_name = West Highland Drive
+v1_neighborhood = Lower Queen Anne
+v1_locality = Seattle
+v1_distance = 6.1 mi
+v1_duration = 17 mins
+PREDICT: Do you mean {}?
+PREDICT: Kerry Park
+PREDICT: wait_for_user
+u3_0 = I
+u3_1 = dont
+u3_2 = know
+u3_3 = .
+u3_4 = is
+u3_5 = it
+u3_6 = the
+u3_7 = one
+u3_8 = on
+u3_9 = Queen
+u3_10 = Anne
+u3_11 = hill
+u3_12 = ?
+PREDICT: find_place
+PREDICT: Queen Anne hill
+PREDICT: 47.6294692
+PREDICT: -122.3599224
+v2_name = Queen Anne
+v2_address = Queen Anne, Seattle, WA, USA
+v2_latitude = 47.6323268
+v2_longitude = -122.3568641
+v2_types_0 = neighborhood
+v2_types_1 = political
+v2_address_simple = Seattle
+v2_neighborhood = Queen Anne
+v2_locality = Seattle
+v2_distance = 0.3 mi
+v2_duration = 2 mins
+PREDICT: It is in {}.
+PREDICT: Lower Queen Anne
+PREDICT: wait_for_user
+u4_0 = sure
+u4_1 = how
+u4_2 = many
+u4_3 = parks
+u4_4 = can
+u4_5 = there
+u4_6 = be
+PREDICT: You are all set!
+PREDICT: wait_for_user
+u5_0 = thanks
+PREDICT: start_driving
+PREDICT: 47.6294692
+PREDICT: -122.3599224

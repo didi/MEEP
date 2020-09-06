@@ -1,0 +1,208 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = lumberyard
+u1_1 = please
+PREDICT: find_place
+PREDICT: lumberyard
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Indoor Lumber Yard
+v1_address = Baldwin Park Towne Center, Baldwin Park, CA 91706, United States
+v1_latitude = 34.07141319999999
+v1_longitude = -117.9581006
+v1_types_0 = point of interest
+v1_types_1 = store
+v1_types_2 = establishment
+v1_rating = 0
+v1_address_simple = Baldwin Park Towne Center, Baldwin Park
+v1_street_name = Baldwin Park Towne Center
+v1_locality = Baldwin Park
+v1_distance = 36.3 mi
+v1_duration = 48 mins
+PREDICT: places_nearby
+PREDICT: lumberyard
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Woodtrends
+v2_0_rating = 0
+v2_0_types_0 = point of interest
+v2_0_types_1 = store
+v2_0_types_2 = establishment
+v2_0_latitude = 34.0335673
+v2_0_longitude = -118.4459208
+v2_0_address_simple = 2251 Barry Avenue, Los Angeles
+v2_0_street_number = 2251
+v2_0_street_name = Barry Avenue
+v2_0_neighborhood = West Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 8.1 mi
+v2_0_duration = 17 mins
+v2_1_name = Fisher Hardware & Lumber
+v2_1_rating = 4.5
+v2_1_is_open = True
+v2_1_types_0 = hardware store
+v2_1_types_1 = point of interest
+v2_1_types_2 = store
+v2_1_types_3 = establishment
+v2_1_latitude = 34.016411
+v2_1_longitude = -118.488159
+v2_1_address_simple = 1600 Lincoln Boulevard, Santa Monica
+v2_1_street_number = 1600
+v2_1_street_name = Lincoln Boulevard
+v2_1_locality = Santa Monica
+v2_1_distance = 3.8 mi
+v2_1_duration = 16 mins
+v2_2_name = Davasson Lumber & Construction
+v2_2_rating = 0
+v2_2_types_0 = general contractor
+v2_2_types_1 = point of interest
+v2_2_types_2 = store
+v2_2_types_3 = establishment
+v2_2_latitude = 34.0280996
+v2_2_longitude = -118.4711418
+v2_2_address_simple = 2425 Olympic Boulevard, Santa Monica
+v2_2_street_number = 2425
+v2_2_street_name = Olympic Boulevard
+v2_2_locality = Santa Monica
+v2_2_distance = 8.8 mi
+v2_2_duration = 17 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Woodtrends
+PREDICT: Fisher Hardware & Lumber
+PREDICT: Davasson Lumber & Construction
+PREDICT: wait_for_user
+u2_0 = hm
+u2_1 = is
+u2_2 = n't
+u2_3 = there
+u2_4 = some
+u2_5 = place
+u2_6 = on
+u2_7 = like
+u2_8 = Sepulveda
+u2_9 = or
+u2_10 = something
+PREDICT: They are {}, {}, {} away respectively.
+PREDICT: 17 mins
+PREDICT: 16 mins
+PREDICT: 17 mins
+PREDICT: places_nearby
+PREDICT: lumberyard Sepulveda
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_0_name = Anderson Plywood Sales
+v3_0_rating = 4.6
+v3_0_is_open = True
+v3_0_types_0 = hardware store
+v3_0_types_1 = general contractor
+v3_0_types_2 = point of interest
+v3_0_types_3 = store
+v3_0_types_4 = establishment
+v3_0_latitude = 34.0082802
+v3_0_longitude = -118.4133854
+v3_0_address_simple = 4020 Sepulveda Boulevard, Culver City
+v3_0_street_number = 4020
+v3_0_street_name = Sepulveda Boulevard
+v3_0_neighborhood = Clarkdale
+v3_0_locality = Culver City
+v3_0_distance = 4.9 mi
+v3_0_duration = 11 mins
+v3_1_name = Fisher Hardware & Lumber
+v3_1_rating = 4.5
+v3_1_is_open = True
+v3_1_types_0 = hardware store
+v3_1_types_1 = point of interest
+v3_1_types_2 = store
+v3_1_types_3 = establishment
+v3_1_latitude = 34.016411
+v3_1_longitude = -118.488159
+v3_1_address_simple = 1600 Lincoln Boulevard, Santa Monica
+v3_1_street_number = 1600
+v3_1_street_name = Lincoln Boulevard
+v3_1_locality = Santa Monica
+v3_1_distance = 3.8 mi
+v3_1_duration = 16 mins
+v3_2_name = Seers Lumber Co Inc
+v3_2_rating = 4.8
+v3_2_is_open = True
+v3_2_types_0 = hardware store
+v3_2_types_1 = home goods store
+v3_2_types_2 = point of interest
+v3_2_types_3 = store
+v3_2_types_4 = establishment
+v3_2_latitude = 33.9160841
+v3_2_longitude = -118.3414497
+v3_2_address_simple = 3856 West El Segundo Boulevard, Hawthorne
+v3_2_street_number = 3856
+v3_2_street_name = West El Segundo Boulevard
+v3_2_locality = Hawthorne
+v3_2_distance = 10.3 mi
+v3_2_duration = 18 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: lumberyard
+PREDICT: Anderson Plywood Sales
+PREDICT: Sepulveda Boulevard
+PREDICT: Culver City
+PREDICT: It is {} and {} away.
+PREDICT: 4.9 mi
+PREDICT: 11 mins
+PREDICT: wait_for_user
+u3_0 = hrm
+u3_1 = .
+u3_2 = that
+u3_3 = 's
+u3_4 = closer
+u3_5 = ,
+u3_6 = but
+u3_7 = I
+u3_8 = thought
+u3_9 = there
+u3_10 = was
+u3_11 = another
+u3_12 = wood
+u3_13 = place
+u3_14 = even
+u3_15 = closer
+u3_16 = .
+u3_17 = called
+u3_18 = Anna
+u3_19 = or
+u3_20 = something
+PREDICT: places_nearby
+PREDICT: Anna lumberyard
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+PREDICT: places_nearby
+PREDICT: Anna wood
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v5_0_name = Anna Yaralyan, PsyD
+v5_0_rating = 0
+v5_0_types_0 = doctor
+v5_0_types_1 = health
+v5_0_types_2 = point of interest
+v5_0_types_3 = establishment
+v5_0_latitude = 34.0611135
+v5_0_longitude = -118.3028146
+v5_0_address_simple = 3580 Wilshire Boulevard, Los Angeles
+v5_0_street_number = 3580
+v5_0_street_name = Wilshire Boulevard
+v5_0_neighborhood = Koreatown
+v5_0_locality = Los Angeles
+v5_0_distance = 15.5 mi
+v5_0_duration = 30 mins
+PREDICT: I am sorry I am unable to find the place.
+PREDICT: Can you be more specific?
+PREDICT: wait_for_user
+u4_0 = nah
+u4_1 = let
+u4_2 = 's
+u4_3 = just
+u4_4 = go
+u4_5 = to
+u4_6 = Anderson
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 34.0082802
+PREDICT: -118.4133854

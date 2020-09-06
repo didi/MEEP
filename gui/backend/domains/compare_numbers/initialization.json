@@ -1,0 +1,12 @@
+{
+  "initial_message": {
+        "body": "Hello! Try giving me two float/integer numbers to compare!",
+        "template": "",
+        "variables": [],
+        "sender": "agent"
+    },
+  "initial_variables": {
+    "variable_group": "initial",
+    "variables": []
+  }
+}

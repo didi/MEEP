@@ -1,0 +1,41 @@
+source_address = City Hall MRT, Singapore
+source_latitude = 1.2924789
+source_longitude = 103.85233199999993
+u1_0 = karaoke
+u1_1 = please
+PREDICT: [ACTION] find_place [PARAM] karaoke [PARAM] 1.2924789 [PARAM] 103.85233199999993
+v1_name = MANEKINEKO Marina Square
+v1_address = 6 Raffles Boulevard, 209 Marina Square, #03-208, Singapore 039594
+v1_latitude = 1.2913027
+v1_longitude = 103.8577068
+v1_price_level = 2
+v1_types_0 = night club
+v1_types_1 = bar
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.1
+v1_is_open = False
+v1_address_simple = 6 Raffles Boulevard, 209 Marina Square, #03-208, Singapore
+v1_street_number = 209
+v1_street_name = Marina Square
+v1_neighborhood = Downtown Core
+v1_locality = Singapore
+v1_distance = 0.7 mi
+v1_duration = 5 mins
+PREDICT: [ACTION] How about one on {}? It is {} away. [PARAM] MANEKINEKO Marina Square [PARAM] 0.7 mi
+PREDICT: [ACTION] wait_for_user
+u2_0 = what
+u2_1 = 's
+u2_2 = the
+u2_3 = rating
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.1
+PREDICT: [ACTION] wait_for_user
+u3_0 = that
+u3_1 = sounds
+u3_2 = pretty
+u3_3 = good
+u4_0 = let
+u4_1 = 's
+u4_2 = go
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 1.2913027 [PARAM] 103.8577068

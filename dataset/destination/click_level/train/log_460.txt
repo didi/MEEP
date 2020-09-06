@@ -1,0 +1,53 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Ranch
+u1_6 = 99
+PREDICT: find_place
+PREDICT: Ranch 99
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = 99 Ranch Market
+v1_address = Gateway Center, 1340 Artesia Blvd, Gardena, CA 90248, United States
+v1_latitude = 33.872055
+v1_longitude = -118.2971515
+v1_types_0 = supermarket
+v1_types_1 = grocery or supermarket
+v1_types_2 = food
+v1_types_3 = point of interest
+v1_types_4 = store
+v1_types_5 = establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = Gateway Center, 1340 Artesia Boulevard, Gardena
+v1_establishment = Gateway Center
+v1_street_number = 1340
+v1_street_name = Artesia Boulevard
+v1_locality = Gardena
+v1_distance = 16.0 mi
+v1_duration = 24 mins
+PREDICT: I found {} in {}.
+PREDICT: 99 Ranch Market
+PREDICT: Gardena
+PREDICT: It will take us {} to get there.
+PREDICT: 24 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u2_0 = in
+u2_1 = Gardena
+u2_2 = ,
+u2_3 = really
+u2_4 = ?
+u2_5 = cool
+u2_6 = ,
+u2_7 = let
+u2_8 = 's
+u2_9 = go
+PREDICT: start_driving
+PREDICT: 33.872055
+PREDICT: -118.2971515

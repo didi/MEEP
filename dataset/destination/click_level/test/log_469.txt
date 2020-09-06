@@ -1,0 +1,118 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Where
+u1_1 = can
+u1_2 = I
+u1_3 = get
+u1_4 = lawn
+u1_5 = furniture
+u1_6 = ?
+PREDICT: places_nearby
+PREDICT: lawn furniture
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Pier 1 - In
+v1_0_rating = 4.3
+v1_0_is_open = True
+v1_0_price_level = 2
+v1_0_types_0 = home goods store
+v1_0_types_1 = furniture store
+v1_0_types_2 = point of interest
+v1_0_types_3 = clothing store
+v1_0_types_4 = store
+v1_0_types_5 = establishment
+v1_0_latitude = 33.9871082
+v1_0_longitude = -118.4410145
+v1_0_address_simple = 13455 Maxella Avenue #180, Marina del Rey
+v1_0_street_number = 13455
+v1_0_street_name = Maxella Avenue
+v1_0_locality = Marina del Rey
+v1_0_distance = 0.6 mi
+v1_0_duration = 4 mins
+v1_1_name = Garden Center at The Home Depot
+v1_1_rating = 3.7
+v1_1_is_open = True
+v1_1_price_level = 1
+v1_1_types_0 = furniture store
+v1_1_types_1 = home goods store
+v1_1_types_2 = general contractor
+v1_1_types_3 = food
+v1_1_types_4 = point of interest
+v1_1_types_5 = store
+v1_1_types_6 = establishment
+v1_1_latitude = 33.9765484
+v1_1_longitude = -118.424025
+v1_1_address_simple = 12975 West Jefferson Boulevard, Los Angeles
+v1_1_street_number = 12975
+v1_1_street_name = West Jefferson Boulevard
+v1_1_neighborhood = Playa Vista
+v1_1_locality = Los Angeles
+v1_1_distance = 1.5 mi
+v1_1_duration = 6 mins
+v1_2_name = The Home Depot
+v1_2_rating = 3.9
+v1_2_is_open = True
+v1_2_price_level = 1
+v1_2_types_0 = hardware store
+v1_2_types_1 = home goods store
+v1_2_types_2 = point of interest
+v1_2_types_3 = store
+v1_2_types_4 = establishment
+v1_2_latitude = 33.9767558
+v1_2_longitude = -118.4236815
+v1_2_address_simple = 12975 West Jefferson Boulevard, Los Angeles
+v1_2_street_number = 12975
+v1_2_street_name = West Jefferson Boulevard
+v1_2_neighborhood = Playa Vista
+v1_2_locality = Los Angeles
+v1_2_distance = 1.5 mi
+v1_2_duration = 7 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Pier 1 - In
+PREDICT: Garden Center at The Home Depot
+PREDICT: The Home Depot
+PREDICT: Is it one of those?
+PREDICT: Which would you like to go to? 
+PREDICT: wait_for_user
+u2_0 = how
+u2_1 = about
+u2_2 = lowe
+u2_3 = 's
+PREDICT: Sure, give me a moment.
+PREDICT: find_place
+PREDICT: lowe 's
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Lowe's Home Improvement
+v2_address = 4550 W Pico Blvd Unit D-101, Los Angeles, CA 90019, United States
+v2_latitude = 34.0476369
+v2_longitude = -118.3354676
+v2_price_level = 1
+v2_types_0 = hardware store
+v2_types_1 = furniture store
+v2_types_2 = home goods store
+v2_types_3 = point of interest
+v2_types_4 = store
+v2_types_5 = establishment
+v2_rating = 3.9
+v2_is_open = True
+v2_address_simple = 4550 West Pico Boulevard Unit D-101, Los Angeles
+v2_street_number = 4550
+v2_street_name = West Pico Boulevard
+v2_neighborhood = Mid City
+v2_locality = Los Angeles
+v2_distance = 13.4 mi
+v2_duration = 25 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Lowe's Home Improvement
+PREDICT: West Pico Boulevard
+PREDICT: It is {} away.
+PREDICT: 25 mins
+PREDICT: wait_for_user
+u3_0 = ok
+PREDICT: Great, we are going to {}.
+PREDICT: Lowe's Home Improvement
+PREDICT: start_driving
+PREDICT: 34.0476369
+PREDICT: -118.3354676

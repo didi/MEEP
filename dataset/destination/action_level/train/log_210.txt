@@ -1,0 +1,42 @@
+source_address = 371 Bloor St W, Toronto, ON M5S 2R7, Canada
+source_latitude = 43.6665705
+source_longitude = -79.40243049999998
+u1_0 = square
+u1_1 = one
+PREDICT: [ACTION] find_place [PARAM] square one [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v1_name = Square One Shopping Centre
+v1_address = 100 City Centre Dr, Mississauga, ON L5B 2C9, Canada
+v1_rating = 4.5
+v1_is_open = True
+v1_latitude = 43.5930881
+v1_longitude = -79.6422712
+v1_street_number = 100
+v1_street_name = City Centre Drive
+v1_locality = Mississauga
+v1_distance = 17.7 mi
+v1_duration = 40 mins
+PREDICT: [ACTION] find_place [PARAM] square one [PARAM] 43.6665705 [PARAM] -79.40243049999998
+v2_name = Square One Shopping Centre
+v2_address = 100 City Centre Dr, Mississauga, ON L5B 2C9, Canada
+v2_rating = 4.5
+v2_is_open = True
+v2_latitude = 43.5930881
+v2_longitude = -79.6422712
+v2_street_number = 100
+v2_street_name = City Centre Drive
+v2_locality = Mississauga
+v2_distance = 17.7 mi
+v2_duration = 40 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] Square One Shopping Centre
+PREDICT: [ACTION] wait_for_user
+u2_0 = in
+u2_1 = mississauga
+u2_2 = ?
+PREDICT: [ACTION] Yes.
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = thanks
+u3_1 = let
+u3_2 = 's
+u3_3 = go
+PREDICT: [ACTION] start_driving [PARAM] 43.5930881 [PARAM] -79.6422712

@@ -1,0 +1,84 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = lumberyard
+u1_1 = on
+u1_2 = pico
+u1_3 = please
+PREDICT: places_nearby
+PREDICT: lumberyard on pico
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = Anawalt Lumber
+v1_0_rating = 4.2
+v1_0_is_open = True
+v1_0_types_0 = home goods store
+v1_0_types_1 = point of interest
+v1_0_types_2 = store
+v1_0_types_3 = establishment
+v1_0_latitude = 34.036758
+v1_0_longitude = -118.434098
+v1_0_address_simple = 11060 West Pico Boulevard, Los Angeles
+v1_0_street_number = 11060
+v1_0_street_name = West Pico Boulevard
+v1_0_neighborhood = West Los Angeles
+v1_0_locality = Los Angeles
+v1_0_distance = 6.8 mi
+v1_0_duration = 15 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: Anawalt Lumber
+PREDICT: West Pico Boulevard
+PREDICT: wait_for_user
+u2_0 = what
+u2_1 = 's
+u2_2 = the
+u2_3 = other
+u2_4 = cross
+u2_5 = street
+u2_6 = by
+u2_7 = it
+u2_8 = ?
+PREDICT: I am sorry I am unable to find that information
+PREDICT: wait_for_user
+u3_0 = is
+u3_1 = that
+u3_2 = the
+u3_3 = one
+u3_4 = by
+u3_5 = Sepulveda
+u3_6 = ?
+PREDICT: find_place
+PREDICT: pico Sepulveda
+PREDICT: 34.036758
+PREDICT: -118.434098
+v2_name = Sepulveda Blvd/Pico Blvd (Expo)
+v2_address = Los Angeles, CA 90064, United States
+v2_latitude = 34.036626
+v2_longitude = -118.435006
+v2_types_0 = transit station
+v2_types_1 = point of interest
+v2_types_2 = establishment
+v2_rating = 3
+v2_address_simple = United States
+v2_neighborhood = West Los Angeles
+v2_locality = Los Angeles
+v2_distance = 377 ft
+v2_duration = 1 min
+PREDICT: Yes.
+PREDICT: wait_for_user
+u4_0 = ah
+u4_1 = I
+u4_2 = thought
+u4_3 = so
+u4_4 = .
+u4_5 = let
+u4_6 = 's
+u4_7 = go
+PREDICT: {} is {} away from {}.
+PREDICT: Sepulveda Blvd/Pico Blvd (Expo)
+PREDICT: 1 min
+PREDICT: Anawalt Lumber
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 34.036758
+PREDICT: -118.434098

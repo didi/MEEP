@@ -1,0 +1,82 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = float
+u1_8 = studio
+u1_9 = .
+u2_0 = For
+u2_1 = sensory
+u2_2 = deprivation
+PREDICT: find_place
+PREDICT: float studio sensory deprivation
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Float Lab - Venice
+v1_address = 801 Ocean Front Walk #5, Venice, CA 90291, United States
+v1_latitude = 33.991099
+v1_longitude = -118.477097
+v1_types_0 = spa
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.4
+v1_is_open = True
+v1_address_simple = 801 Ocean Front Walk #5, Venice
+v1_street_number = 801
+v1_street_name = Ocean Front Walk
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 2.7 mi
+v1_duration = 12 mins
+PREDICT: How about {}?
+PREDICT: Float Lab - Venice
+PREDICT: wait_for_user
+u3_0 = That
+u3_1 = 's
+u3_2 = the
+u3_3 = one
+u3_4 = on
+u3_5 = Washington
+u3_6 = ,
+u3_7 = right
+u3_8 = ?
+PREDICT: It has a rating of {}.
+PREDICT: 4.4
+PREDICT: It is on {}.
+PREDICT: Ocean Front Walk
+PREDICT: wait_for_user
+u4_0 = Huh
+u4_1 = ,
+u4_2 = cool
+u4_3 = ,
+u4_4 = did
+u4_5 = n't
+u4_6 = know
+u4_7 = there
+u4_8 = was
+u4_9 = one
+u4_10 = there
+u4_11 = .
+u4_12 = How
+u4_13 = far
+u4_14 = is
+u4_15 = it
+u4_16 = ?
+PREDICT: It is {} away.
+PREDICT: 12 mins
+PREDICT: wait_for_user
+u5_0 = Ok
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+u5_5 = .
+PREDICT: start_driving
+PREDICT: 33.991099
+PREDICT: -118.477097

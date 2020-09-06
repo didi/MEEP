@@ -1,0 +1,2 @@
+2, 3, Starbucks, 2, 3, cafe, starbucks, coffee
+-1, 4, Gap, 3, 2, clothes, gap

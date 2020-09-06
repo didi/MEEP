@@ -1,0 +1,108 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = the
+u1_6 = IBM
+u1_7 = office
+u1_8 = on
+u1_9 = outer
+u1_10 = ring
+u1_11 = road
+PREDICT: [ACTION] find_place [PARAM] outer ring road [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Outer Ring Rd
+v1_address = Outer Ring Rd, Bengaluru, Karnataka, India
+v1_latitude = 13.0277782
+v1_longitude = 77.6324487
+v1_types_0 = Route
+v1_address_simple = Bengaluru
+v1_street_name = Outer Ring Road
+v1_locality = Bengaluru
+v1_distance = 9.0 mi
+v1_duration = 46 mins
+PREDICT: [ACTION] find_place [PARAM] IBM office [PARAM] 13.0277782 [PARAM] 77.6324487
+v2_name = IBM
+v2_address = Embassy Golf Links Road, Embassy Golf Links Business Park, Domlur, Bengaluru, Karnataka 560071, India
+v2_latitude = 12.9529516
+v2_longitude = 77.6439398
+v2_types_0 = Point of interest
+v2_types_1 = Establishment
+v2_rating = 4.4
+v2_is_open = True
+v2_address_simple = Embassy Golf Links Road, Embassy Golf Links Business Park, Domlur, Bengaluru
+v2_street_name = Embassy Golf Links Road
+v2_locality = Bengaluru
+v2_distance = 9.3 mi
+v2_duration = 41 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] IBM [PARAM] Embassy Golf Links Road, Embassy Golf Links Business Park, Domlur, Bengaluru
+PREDICT: [ACTION] wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = there
+u2_3 = is
+u2_4 = one
+u2_5 = in
+u2_6 = Nagawara
+u3_0 = is
+u3_1 = it
+u3_2 = the
+u3_3 = same
+u3_4 = one
+u3_5 = ?
+u3_6 = or
+u3_7 = can
+u3_8 = you
+u3_9 = give
+u3_10 = me
+u3_11 = the
+u3_12 = address
+u3_13 = of
+u3_14 = the
+u3_15 = Nagawara
+u3_16 = one
+PREDICT: [ACTION] Please wait a minute, while I quickly look up this information.
+PREDICT: [ACTION] find_place [PARAM] IBM office Nagawara [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v3_name = IBM
+v3_address = Manyata Embassy Business Park, 8th Floor, G2, Outer Ring Road, Rachenahalli And Nagawara Villages, Bengaluru, Karnataka 560045, India
+v3_latitude = 13.0483302
+v3_longitude = 77.622181
+v3_types_0 = Point of interest
+v3_types_1 = Establishment
+v3_rating = 4.4
+v3_is_open = True
+v3_address_simple = Manyata Embassy Business Park, 8th Floor, G2, Outer Ring Road, Rachenahalli And Nagawara Villages, Bengaluru
+v3_locality = Bengaluru
+v3_distance = 11.0 mi
+v3_duration = 42 mins
+PREDICT: [ACTION] The address is {}. [PARAM] Manyata Embassy Business Park, 8th Floor, G2, Outer Ring Road, Rachenahalli And Nagawara Villages, Bengaluru, Karnataka 560045, India
+PREDICT: [ACTION] Which one would you like to go to?
+PREDICT: [ACTION] wait_for_user
+u4_0 = yes
+u4_1 = ,
+u4_2 = that
+u4_3 = is
+u4_4 = the
+u4_5 = right
+u4_6 = address
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u5_0 = how
+u5_1 = long
+u5_2 = does
+u5_3 = it
+u5_4 = take
+u5_5 = to
+u5_6 = get
+u5_7 = there
+u5_8 = ?
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 11.0 mi [PARAM] 42 mins
+PREDICT: [ACTION] wait_for_user
+u6_0 = great
+u6_1 = lets
+u6_2 = go
+u6_3 = !
+PREDICT: [ACTION] start_driving [PARAM] 13.0483302 [PARAM] 77.622181

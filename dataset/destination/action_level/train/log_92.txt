@@ -1,0 +1,67 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hi
+u1_1 = ,
+u1_2 = i
+u1_3 = want
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = dodger
+u1_8 = satdium
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] wait_for_user
+u2_0 = *stadium
+PREDICT: [ACTION] find_place [PARAM] dodger satdium [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 1000 Vin Scully Ave, Los Angeles, CA 90012, United States
+v1_name = Dodger Stadium
+v1_latitude = 34.073851
+v1_longitude = -118.2399583
+v1_place_id = ChIJdVYAVPnGwoAR3wmcg09VlJ4
+v1_street_number = 1000
+v1_street_name = Vin Scully Ave
+v1_neighborhood = Echo Park
+v1_locality = Los Angeles
+v1_distance = 19.4 mi
+v1_duration = 36 mins
+PREDICT: [ACTION] {} in {}? [PARAM] Dodger Stadium [PARAM] Echo Park
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 19.4 mi [PARAM] 36 mins
+PREDICT: [ACTION] wait_for_user
+u3_0 = is
+u3_1 = it
+u3_2 = near
+u3_3 = LA
+u3_4 = downtown
+u3_5 = ?
+PREDICT: [ACTION] find_place [PARAM] LA downtown [PARAM] 34.073851 [PARAM] -118.2399583
+v2_address = Downtown Los Angeles, Los Angeles, CA, USA
+v2_name = Downtown Los Angeles
+v2_latitude = 34.040713
+v2_longitude = -118.2467693
+v2_place_id = ChIJAf09JTTGwoARIKmlGd9S_iY
+v2_neighborhood = Downtown Los Angeles
+v2_locality = Los Angeles
+v2_distance = 3.3 mi
+v2_duration = 13 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Downtown Los Angeles [PARAM] 3.3 mi [PARAM] Dodger Stadium
+PREDICT: [ACTION] wait_for_user
+u4_0 = how
+u4_1 = far
+u4_2 = is
+u4_3 = it
+u4_4 = from
+u4_5 = here
+u4_6 = ?
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Dodger Stadium [PARAM] 19.4 mi [PARAM] 4640 Admiralty Way, Marina del Rey
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 36 mins
+PREDICT: [ACTION] wait_for_user
+u5_0 = ok
+u5_1 = ,
+u5_2 = let
+u5_3 = 's
+u5_4 = go
+u5_5 = there
+u5_6 = !
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 34.073851 [PARAM] -118.2399583

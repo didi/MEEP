@@ -1,0 +1,121 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = I
+u1_1 = need
+u1_2 = to
+u1_3 = get
+u1_4 = to
+u1_5 = an
+u1_6 = Amtrak
+u1_7 = Station
+PREDICT: [ACTION] find_place [PARAM] Amtrak Station [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v1_name = Union Station
+v1_address = 50 Massachusetts Ave NE, Washington, DC 20002, United States
+v1_latitude = 38.8986425
+v1_longitude = -77.0058145
+v1_types_0 = train station
+v1_types_1 = transit station
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.3
+v1_is_open = True
+v1_address_simple = 50 Massachusetts Avenue Northeast, Washington
+v1_street_number = 50
+v1_street_name = Massachusetts Avenue Northeast
+v1_neighborhood = Northeast Washington
+v1_locality = Washington
+v1_distance = 4.0 mi
+v1_duration = 24 mins
+PREDICT: [ACTION] I found {} on {}, is that ok? [PARAM] Union Station [PARAM] Massachusetts Avenue Northeast
+PREDICT: [ACTION] wait_for_user
+u2_0 = Is
+u2_1 = it
+u2_2 = far
+u2_3 = ?
+u3_0 = is
+u3_1 = it
+u3_2 = opeN
+u3_3 = ?
+PREDICT: [ACTION] It is open.
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 24 mins
+PREDICT: [ACTION] wait_for_user
+u4_0 = wow
+u4_1 = that
+u4_2 = 's
+u4_3 = far
+u4_4 = ,
+u4_5 = is
+u4_6 = there
+u4_7 = nothing
+u4_8 = closer
+u4_9 = ?
+PREDICT: [ACTION] places_nearby [PARAM] Amtrak [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v2_0_name = Amtrak auto train
+v2_0_rating = 0
+v2_0_types_0 = point of interest
+v2_0_types_1 = establishment
+v2_0_latitude = 38.9071923
+v2_0_longitude = -77.0368707
+v2_0_address_simple = 1301 Bataan Street Northwest, Washington
+v2_0_street_number = 1301
+v2_0_street_name = Bataan Street Northwest
+v2_0_neighborhood = Northwest Washington
+v2_0_locality = Washington
+v2_0_distance = 1.9 mi
+v2_0_duration = 10 mins
+v2_1_name = Amtrak Coach Yard
+v2_1_rating = 4.8
+v2_1_types_0 = point of interest
+v2_1_types_1 = establishment
+v2_1_latitude = 38.9129782
+v2_1_longitude = -76.9973565
+v2_1_address_simple = 1801 9th Street Northeast, Washington
+v2_1_street_number = 1801
+v2_1_street_name = 9th Street Northeast
+v2_1_neighborhood = Northeast Washington
+v2_1_locality = Washington
+v2_1_distance = 4.7 mi
+v2_1_duration = 25 mins
+v2_2_name = Amtrak
+v2_2_rating = 4
+v2_2_types_0 = point of interest
+v2_2_types_1 = establishment
+v2_2_latitude = 38.8991184
+v2_2_longitude = -77.0081182
+v2_2_address_simple = 10 G Street Northeast, Washington
+v2_2_street_number = 10
+v2_2_street_name = G Street Northeast
+v2_2_neighborhood = Northeast Washington
+v2_2_locality = Washington
+v2_2_distance = 4.0 mi
+v2_2_duration = 21 mins
+PREDICT: [ACTION] I found a {} called {} on {} in {}. [PARAM] establishment [PARAM] Amtrak auto train [PARAM] Bataan Street Northwest [PARAM] Northwest Washington
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 0
+PREDICT: [ACTION] Shall we go to {} on {}? [PARAM] Union Station [PARAM] Massachusetts Avenue Northeast
+PREDICT: [ACTION] wait_for_user
+u5_0 = Yeah
+u5_1 = auto
+u5_2 = train
+u5_3 = does
+u5_4 = n't
+u5_5 = sound
+u5_6 = right
+u5_7 = .
+u6_0 = Just
+u6_1 = surprising
+u6_2 = that
+u6_3 = the
+u6_4 = closest
+u6_5 = station
+u6_6 = is
+u6_7 = so
+u6_8 = far
+u6_9 = .
+u7_0 = Okay
+u7_1 = let
+u7_2 = 's
+u7_3 = go
+u7_4 = .
+PREDICT: [ACTION] Great, we are going to {}. [PARAM] Union Station
+PREDICT: [ACTION] start_driving [PARAM] 38.8986425 [PARAM] -77.0058145

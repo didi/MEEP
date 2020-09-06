@@ -1,0 +1,6 @@
+.variable-container {
+    user-select: none;
+    line-height: 1.5em;
+    margin-top: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,155 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = get
+u1_5 = some
+u1_6 = boba
+u1_7 = on
+u1_8 = sawtelle
+PREDICT: find_place
+PREDICT: boba on sawtelle
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Volcano Tea House
+v1_address = 2111 Sawtelle Blvd, Los Angeles, CA 90025, United States
+v1_latitude = 34.0390798
+v1_longitude = -118.4425965
+v1_price_level = 1
+v1_types_0 = cafe
+v1_types_1 = restaurant
+v1_types_2 = food
+v1_types_3 = point of interest
+v1_types_4 = store
+v1_types_5 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 2111 Sawtelle Boulevard, Los Angeles
+v1_street_number = 2111
+v1_street_name = Sawtelle Boulevard
+v1_neighborhood = West Los Angeles
+v1_locality = Los Angeles
+v1_distance = 7.3 mi
+v1_duration = 18 mins
+PREDICT: There is {} on {}.
+PREDICT: Volcano Tea House
+PREDICT: Sawtelle Boulevard
+PREDICT: wait_for_user
+u2_0 = That
+u2_1 = place
+u2_2 = is
+u2_3 = too
+u2_4 = sugary
+u2_5 = for
+u2_6 = me
+u2_7 = .
+u2_8 = Was
+u2_9 = n't
+u2_10 = there
+u2_11 = another
+u2_12 = place
+u2_13 = that
+u2_14 = gave
+u2_15 = you
+u2_16 = more
+u2_17 = customization
+u2_18 = ?
+PREDICT: places_nearby
+PREDICT: boba on sawtelle
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Coco Fresh Tea & Juice
+v2_0_rating = 4
+v2_0_is_open = False
+v2_0_price_level = 1
+v2_0_types_0 = cafe
+v2_0_types_1 = food
+v2_0_types_2 = point of interest
+v2_0_types_3 = establishment
+v2_0_latitude = 34.03855720000001
+v2_0_longitude = -118.4418166
+v2_0_address_simple = 11301 West Olympic Boulevard, Los Angeles
+v2_0_street_number = 11301
+v2_0_street_name = West Olympic Boulevard
+v2_0_neighborhood = West Los Angeles
+v2_0_locality = Los Angeles
+v2_0_distance = 7.1 mi
+v2_0_duration = 17 mins
+v2_1_name = Volcano Tea House
+v2_1_rating = 4.5
+v2_1_is_open = True
+v2_1_price_level = 1
+v2_1_types_0 = cafe
+v2_1_types_1 = restaurant
+v2_1_types_2 = food
+v2_1_types_3 = point of interest
+v2_1_types_4 = store
+v2_1_types_5 = establishment
+v2_1_latitude = 34.0390798
+v2_1_longitude = -118.4425965
+v2_1_address_simple = 2111 Sawtelle Boulevard, Los Angeles
+v2_1_street_number = 2111
+v2_1_street_name = Sawtelle Boulevard
+v2_1_neighborhood = West Los Angeles
+v2_1_locality = Los Angeles
+v2_1_distance = 7.3 mi
+v2_1_duration = 18 mins
+v2_2_name = Noble Tea
+v2_2_rating = 3.9
+v2_2_is_open = False
+v2_2_types_0 = cafe
+v2_2_types_1 = food
+v2_2_types_2 = point of interest
+v2_2_types_3 = establishment
+v2_2_latitude = 34.0394917
+v2_2_longitude = -118.4427844
+v2_2_address_simple = 11307 Mississippi Avenue, Los Angeles
+v2_2_street_number = 11307
+v2_2_street_name = Mississippi Avenue
+v2_2_neighborhood = West Los Angeles
+v2_2_locality = Los Angeles
+v2_2_distance = 7.2 mi
+v2_2_duration = 17 mins
+PREDICT: I found two places: {} and {}.
+PREDICT: Coco Fresh Tea & Juice
+PREDICT: Noble Tea
+PREDICT: wait_for_user
+u3_0 = Ohh
+u3_1 = ,
+u3_2 = I
+u3_3 = have
+u3_4 = n't
+u3_5 = heard
+u3_6 = of
+u3_7 = Noble
+u3_8 = .
+u3_9 = What
+u3_10 = is
+u3_11 = its
+u3_12 = rateing
+u3_13 = ?
+PREDICT: It has a rating of {}.
+PREDICT: 3.9
+PREDICT: wait_for_user
+u4_0 = Okay
+u4_1 = ,
+u4_2 = I
+u4_3 = 'll
+u4_4 = take
+u4_5 = a
+u4_6 = chance
+u4_7 = on
+u4_8 = Noble
+u4_9 = ,
+u4_10 = I
+u4_11 = 'm
+u4_12 = curious
+u4_13 = !
+PREDICT: Great, we are going to {}.
+PREDICT: Noble Tea
+PREDICT: start_driving
+PREDICT: 34.0394917
+PREDICT: -118.4427844

@@ -1,0 +1,50 @@
+source_address = 326 N Wilmot Rd, Tucson, AZ 85711, United States
+source_latitude = 32.225
+source_longitude = -110.861
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = Gould
+u1_6 = Simpson
+u1_7 = blooding
+u2_0 = I
+u2_1 = meant
+u2_2 = building
+PREDICT: places_nearby
+PREDICT: Gould Simpson building
+PREDICT: 32.225
+PREDICT: -110.861
+v1_0_name = Gould-Simpson
+v1_0_rating = 4.5
+v1_0_types = ['university', 'point_of_interest', 'establishment']
+v1_0_latitude = 32.229805
+v1_0_longitude = -110.9550234
+v1_0_address = 1040 E 4th St, Tucson, AZ 85719, USA
+v1_0_street_number = 1040
+v1_0_street_name = East 4th Street
+v1_0_locality = Tucson
+v1_0_distance = 6.9 mi
+v1_0_duration = 19 mins
+PREDICT: {} is at {}.
+PREDICT: Gould-Simpson
+PREDICT: East 4th Street
+PREDICT: wait_for_user
+u3_0 = yes
+u3_1 = .
+u3_2 = that
+u3_3 = 's
+u3_4 = the
+u3_5 = one
+PREDICT: Shall we go to {} on {}?
+PREDICT: Gould-Simpson
+PREDICT: East 4th Street
+PREDICT: wait_for_user
+u4_0 = yes
+u4_1 = ,
+u4_2 = please
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 32.229805
+PREDICT: -110.9550234

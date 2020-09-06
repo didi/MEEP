@@ -1,0 +1,55 @@
+source_address = 6535 Ravenna Ave NE, Seattle, WA 98115, United States
+source_latitude = 47.676
+source_longitude = -122.306
+u1_0 = take
+u1_1 = me
+u1_2 = to
+u1_3 = the
+u1_4 = climbing
+u1_5 = shop
+u1_6 = on
+u1_7 = the
+u1_8 = Ave
+u1_9 = please
+PREDICT: [ACTION] Sure, give me a moment.
+PREDICT: [ACTION] find_place [PARAM] the Ave [PARAM] 47.676 [PARAM] -122.306
+v1_name = The Ave
+v1_address = The Ave, Seattle, WA 98105, USA
+v1_latitude = 47.6627422
+v1_longitude = -122.3131099
+v1_types_0 = route
+v1_address_simple = Seattle
+v1_street_name = The Ave
+v1_neighborhood = Northeast Seattle
+v1_locality = Seattle
+v1_distance = 1.2 mi
+v1_duration = 5 mins
+PREDICT: [ACTION] find_place [PARAM] climbing shop [PARAM] 47.6627422 [PARAM] -122.3131099
+v2_name = Pro Mountain Sports
+v2_address = 5625 University Way, Seattle, WA 98105, United States
+v2_latitude = 47.6701718
+v2_longitude = -122.313312
+v2_types_0 = point of interest
+v2_types_1 = store
+v2_types_2 = establishment
+v2_rating = 3.9
+v2_is_open = True
+v2_address_simple = 5625 University Way, Seattle
+v2_street_number = 5625
+v2_street_name = University Way
+v2_neighborhood = Northeast Seattle
+v2_locality = Seattle
+v2_distance = 0.5 mi
+v2_duration = 4 mins
+PREDICT: [ACTION] How about {}? [PARAM] Pro Mountain Sports
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 0.5 mi [PARAM] 4 mins
+PREDICT: [ACTION] wait_for_user
+u2_0 = yeah
+u2_1 = that
+u2_2 = 's
+u2_3 = the
+u2_4 = place
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = please
+PREDICT: [ACTION] start_driving [PARAM] 47.6701718 [PARAM] -122.313312

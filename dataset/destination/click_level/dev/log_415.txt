@@ -1,0 +1,134 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = walk
+u1_1 = of
+u1_2 = fame
+u1_3 = ,
+u1_4 = hollywood
+PREDICT: find_place
+PREDICT: walk of fame hollywood
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Hollywood Walk-of-Fame Modern Suite
+v1_address = Lanewood Ave &, N La Brea Ave, Los Angeles, CA 90028, United States
+v1_latitude = 34.099542
+v1_longitude = -118.342986
+v1_types_0 = tourist attraction
+v1_types_1 = lodging
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4
+v1_is_open = True
+v1_address_simple = Lanewood Ave &, North La Brea Avenue, Los Angeles
+v1_street_name = North La Brea Avenue
+v1_neighborhood = Central LA
+v1_locality = Los Angeles
+v1_distance = 16.0 mi
+v1_duration = 38 mins
+PREDICT: find_place
+PREDICT: hollywood
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_name = Hollywood
+v2_address = Hollywood, Los Angeles, CA, USA
+v2_latitude = 34.0928092
+v2_longitude = -118.3286614
+v2_types_0 = neighborhood
+v2_types_1 = political
+v2_address_simple = Los Angeles
+v2_neighborhood = Hollywood
+v2_locality = Los Angeles
+v2_distance = 16.0 mi
+v2_duration = 36 mins
+PREDICT: places_nearby
+PREDICT: walk of fame
+PREDICT: 34.0928092
+PREDICT: -118.3286614
+v3_0_name = Hollywood Walk-of-Fame Modern Suite
+v3_0_rating = 4
+v3_0_is_open = True
+v3_0_types_0 = tourist attraction
+v3_0_types_1 = lodging
+v3_0_types_2 = point of interest
+v3_0_types_3 = establishment
+v3_0_latitude = 34.099542
+v3_0_longitude = -118.342986
+v3_0_address_simple = Lanewood Ave &, North La Brea Avenue, Los Angeles
+v3_0_street_name = North La Brea Avenue
+v3_0_neighborhood = Central LA
+v3_0_locality = Los Angeles
+v3_0_distance = 1.2 mi
+v3_0_duration = 7 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: tourist attraction
+PREDICT: Hollywood Walk-of-Fame Modern Suite
+PREDICT: North La Brea Avenue
+PREDICT: Central LA
+PREDICT: It is {} away from {}.
+PREDICT: 1.2 mi
+PREDICT: Hollywood
+PREDICT: wait_for_user
+u2_0 = that
+u2_1 = seems
+u2_2 = too
+u2_3 = far
+u3_0 = hollywood
+u3_1 = and
+u3_2 = vine
+PREDICT: find_place
+PREDICT: hollywood and vine
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_name = Hollywood & Vine
+v4_address = Hollywood Blvd, Los Angeles, CA 90028, United States
+v4_latitude = 34.1020737
+v4_longitude = -118.326463
+v4_types_0 = point of interest
+v4_types_1 = establishment
+v4_rating = 4.5
+v4_is_open = True
+v4_address_simple = Hollywood Boulevard, Los Angeles
+v4_street_name = Hollywood Boulevard
+v4_neighborhood = Central LA
+v4_locality = Los Angeles
+v4_distance = 26.3 mi
+v4_duration = 37 mins
+PREDICT: distance_matrix
+PREDICT: 34.1020737
+PREDICT: -118.326463
+PREDICT: 34.099542
+PREDICT: -118.342986
+v5_distance = 1.3 mi
+v5_duration = 8 mins
+PREDICT: places_nearby
+PREDICT: walk of fame
+PREDICT: 34.1020737
+PREDICT: -118.326463
+v6_0_name = Hollywood Walk-of-Fame Modern Suite
+v6_0_rating = 4
+v6_0_is_open = True
+v6_0_types_0 = tourist attraction
+v6_0_types_1 = lodging
+v6_0_types_2 = point of interest
+v6_0_types_3 = establishment
+v6_0_latitude = 34.099542
+v6_0_longitude = -118.342986
+v6_0_address_simple = Lanewood Ave &, North La Brea Avenue, Los Angeles
+v6_0_street_name = North La Brea Avenue
+v6_0_neighborhood = Central LA
+v6_0_locality = Los Angeles
+v6_0_distance = 1.3 mi
+v6_0_duration = 8 mins
+PREDICT: {} is {} away.
+PREDICT: Hollywood & Vine
+PREDICT: 37 mins
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u4_0 = yes
+u4_1 = ,
+u4_2 = sounds
+u4_3 = great
+PREDICT: start_driving
+PREDICT: 34.1020737
+PREDICT: -118.326463

@@ -1,0 +1,458 @@
+source_address = 990 N Pleasant St, Amherst, MA 01002, United States
+source_latitude = 42.403
+source_longitude = -72.533
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = an
+u1_6 = Asian
+u1_7 = grocery
+u1_8 = store
+u1_9 = ..
+u1_10 = I
+u1_11 = think
+u1_12 = its
+u1_13 = in
+u1_14 = Springfield
+PREDICT: find_place
+PREDICT: Springfield
+PREDICT: 42.403
+PREDICT: -72.533
+v1_name = Springfield Armory National Historic Site
+v1_address = 1 Armory St Suite 2, Springfield, MA 01105, United States
+v1_latitude = 42.1072695
+v1_longitude = -72.58157380000002
+v1_types_0 = Museum
+v1_types_1 = Tourist attraction
+v1_types_2 = Park
+v1_types_3 = Point of interest
+v1_types_4 = Establishment
+v1_rating = 4.7
+v1_is_open = False
+v1_address_simple = 1 Armory Street Suite 2, Springfield
+v1_street_number = 1
+v1_street_name = Armory Street
+v1_neighborhood = Metro Center
+v1_locality = Springfield
+v1_distance = 29.5 mi
+v1_duration = 42 mins
+PREDICT: places_nearby
+PREDICT: Asian grocery store
+PREDICT: 42.1072695
+PREDICT: -72.58157380000002
+v2_0_name = Global Super Market LLC
+v2_0_rating = 3.8
+v2_0_is_open = True
+v2_0_types_0 = Grocery or supermarket
+v2_0_types_1 = Food
+v2_0_types_2 = Point of interest
+v2_0_types_3 = Store
+v2_0_types_4 = Establishment
+v2_0_latitude = 42.0990647
+v2_0_longitude = -72.6036512
+v2_0_address_simple = 907 Main Street, West Springfield
+v2_0_street_number = 907
+v2_0_street_name = Main Street
+v2_0_locality = West Springfield
+v2_0_distance = 2.4 mi
+v2_0_duration = 10 mins
+v2_1_name = Imperial Super Grocery
+v2_1_rating = 4.5
+v2_1_is_open = True
+v2_1_types_0 = Grocery or supermarket
+v2_1_types_1 = Restaurant
+v2_1_types_2 = Food
+v2_1_types_3 = Point of interest
+v2_1_types_4 = Store
+v2_1_types_5 = Establishment
+v2_1_latitude = 42.114638
+v2_1_longitude = -72.555534
+v2_1_address_simple = 1072 State Street #3130, Springfield
+v2_1_street_number = 1072
+v2_1_street_name = State Street
+v2_1_neighborhood = Bay
+v2_1_locality = Springfield
+v2_1_distance = 1.7 mi
+v2_1_duration = 8 mins
+v2_2_name = Shangri-la Grocery
+v2_2_rating = 5
+v2_2_is_open = True
+v2_2_types_0 = Grocery or supermarket
+v2_2_types_1 = Food
+v2_2_types_2 = Point of interest
+v2_2_types_3 = Store
+v2_2_types_4 = Establishment
+v2_2_latitude = 42.0987991
+v2_2_longitude = -72.60850909999999
+v2_2_address_simple = 753 Union Street, West Springfield
+v2_2_street_number = 753
+v2_2_street_name = Union Street
+v2_2_locality = West Springfield
+v2_2_distance = 2.7 mi
+v2_2_duration = 11 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: Global Super Market LLC
+PREDICT: Imperial Super Grocery
+PREDICT: Shangri-la Grocery
+PREDICT: Which one would you like to go to?
+PREDICT: wait_for_user
+u2_0 = I
+u2_1 = think
+u2_2 = its
+u2_3 = a
+u2_4 = Indian
+u2_5 = grocery
+u2_6 = store
+u2_7 = ..
+u2_8 = it
+u2_9 = has
+u2_10 = spices
+u2_11 = in
+u2_12 = its
+u2_13 = name
+PREDICT: places_nearby
+PREDICT: Indian grocery store spices
+PREDICT: 42.403
+PREDICT: -72.533
+v3_0_name = Cousin's Food Market
+v3_0_rating = 4.3
+v3_0_is_open = True
+v3_0_types_0 = Convenience store
+v3_0_types_1 = Grocery or supermarket
+v3_0_types_2 = Liquor store
+v3_0_types_3 = Food
+v3_0_types_4 = Point of interest
+v3_0_types_5 = Store
+v3_0_types_6 = Establishment
+v3_0_latitude = 42.379369
+v3_0_longitude = -72.518925
+v3_0_address_simple = 11 East Pleasant Street, Amherst
+v3_0_street_number = 11
+v3_0_street_name = East Pleasant Street
+v3_0_neighborhood = Amherst Center
+v3_0_locality = Amherst
+v3_0_distance = 2.0 mi
+v3_0_duration = 8 mins
+v3_1_name = Neighbor Food Mart
+v3_1_rating = 4.6
+v3_1_is_open = True
+v3_1_types_0 = Convenience store
+v3_1_types_1 = Grocery or supermarket
+v3_1_types_2 = Food
+v3_1_types_3 = Point of interest
+v3_1_types_4 = Store
+v3_1_types_5 = Establishment
+v3_1_latitude = 42.3731874
+v3_1_longitude = -72.5029624
+v3_1_address_simple = 324 College Street, Amherst
+v3_1_street_number = 324
+v3_1_street_name = College Street
+v3_1_neighborhood = Amherst Center
+v3_1_locality = Amherst
+v3_1_distance = 3.0 mi
+v3_1_duration = 10 mins
+v3_2_name = Maple Farm Foods
+v3_2_rating = 4.6
+v3_2_is_open = True
+v3_2_types_0 = Supermarket
+v3_2_types_1 = Grocery or supermarket
+v3_2_types_2 = Food
+v3_2_types_3 = Point of interest
+v3_2_types_4 = Store
+v3_2_types_5 = Establishment
+v3_2_latitude = 42.3536622
+v3_2_longitude = -72.5505029
+v3_2_address_simple = 10 South Maple Street, Hadley
+v3_2_street_number = 10
+v3_2_street_name = South Maple Street
+v3_2_locality = Hadley
+v3_2_distance = 5.0 mi
+v3_2_duration = 11 mins
+PREDICT: Sure, give me a moment.
+PREDICT: places_nearby
+PREDICT: Springfield
+PREDICT: 42.403
+PREDICT: -72.533
+v4_0_name = Springfield Armory National Historic Site
+v4_0_rating = 4.7
+v4_0_is_open = False
+v4_0_types_0 = Museum
+v4_0_types_1 = Tourist attraction
+v4_0_types_2 = Park
+v4_0_types_3 = Point of interest
+v4_0_types_4 = Establishment
+v4_0_latitude = 42.1072695
+v4_0_longitude = -72.58157380000002
+v4_0_address_simple = 1 Armory Street Suite 2, Springfield
+v4_0_street_number = 1
+v4_0_street_name = Armory Street
+v4_0_neighborhood = Metro Center
+v4_0_locality = Springfield
+v4_0_distance = 29.5 mi
+v4_0_duration = 42 mins
+PREDICT: find_place
+PREDICT: Springfield
+PREDICT: 42.1072695
+PREDICT: -72.58157380000002
+v5_name = Springfield Armory National Historic Site
+v5_address = 1 Armory St Suite 2, Springfield, MA 01105, United States
+v5_latitude = 42.1072695
+v5_longitude = -72.58157380000002
+v5_types_0 = Museum
+v5_types_1 = Tourist attraction
+v5_types_2 = Park
+v5_types_3 = Point of interest
+v5_types_4 = Establishment
+v5_rating = 4.7
+v5_is_open = False
+v5_address_simple = 1 Armory Street Suite 2, Springfield
+v5_street_number = 1
+v5_street_name = Armory Street
+v5_neighborhood = Metro Center
+v5_locality = Springfield
+v5_distance = 1 ft
+v5_duration = 1 min
+PREDICT: places_nearby
+PREDICT: Springfield
+PREDICT: 42.1072695
+PREDICT: -72.58157380000002
+v6_0_name = Springfield Armory National Historic Site
+v6_0_rating = 4.7
+v6_0_is_open = False
+v6_0_types_0 = Museum
+v6_0_types_1 = Tourist attraction
+v6_0_types_2 = Park
+v6_0_types_3 = Point of interest
+v6_0_types_4 = Establishment
+v6_0_latitude = 42.1072695
+v6_0_longitude = -72.58157380000002
+v6_0_address_simple = 1 Armory Street Suite 2, Springfield
+v6_0_street_number = 1
+v6_0_street_name = Armory Street
+v6_0_neighborhood = Metro Center
+v6_0_locality = Springfield
+v6_0_distance = 1 ft
+v6_0_duration = 1 min
+PREDICT: places_nearby
+PREDICT: Indian grocery store
+PREDICT: 42.1072695
+PREDICT: -72.58157380000002
+v7_0_name = Mom & Rico's Specialty Market
+v7_0_rating = 4.8
+v7_0_types_0 = Grocery or supermarket
+v7_0_types_1 = Food
+v7_0_types_2 = Point of interest
+v7_0_types_3 = Store
+v7_0_types_4 = Establishment
+v7_0_latitude = 42.0981412
+v7_0_longitude = -72.5830519
+v7_0_address_simple = 899 Main Street, Springfield
+v7_0_street_number = 899
+v7_0_street_name = Main Street
+v7_0_neighborhood = South End
+v7_0_locality = Springfield
+v7_0_distance = 1.4 mi
+v7_0_duration = 7 mins
+v7_1_name = America's Food Basket
+v7_1_rating = 3.9
+v7_1_is_open = True
+v7_1_types_0 = Grocery or supermarket
+v7_1_types_1 = Supermarket
+v7_1_types_2 = Food
+v7_1_types_3 = Point of interest
+v7_1_types_4 = Store
+v7_1_types_5 = Establishment
+v7_1_latitude = 42.1119863
+v7_1_longitude = -72.56567849999999
+v7_1_address_simple = 790 State Street, Springfield
+v7_1_street_number = 790
+v7_1_street_name = State Street
+v7_1_neighborhood = McKnight
+v7_1_locality = Springfield
+v7_1_distance = 1.5 mi
+v7_1_duration = 6 mins
+v7_2_name = Brothers
+v7_2_rating = 4.6
+v7_2_is_open = True
+v7_2_types_0 = Grocery or supermarket
+v7_2_types_1 = Food
+v7_2_types_2 = Point of interest
+v7_2_types_3 = Store
+v7_2_types_4 = Establishment
+v7_2_latitude = 42.1171138
+v7_2_longitude = -72.5664307
+v7_2_address_simple = 314 Bay Street, Springfield
+v7_2_street_number = 314
+v7_2_street_name = Bay Street
+v7_2_neighborhood = McKnight
+v7_2_locality = Springfield
+v7_2_distance = 1.5 mi
+v7_2_duration = 6 mins
+PREDICT: places_nearby
+PREDICT: Indian grocery store spices
+PREDICT: 42.1119863
+PREDICT: -72.56567849999999
+v8_0_name = Asian Market
+v8_0_rating = 3.5
+v8_0_is_open = True
+v8_0_types_0 = Supermarket
+v8_0_types_1 = Grocery or supermarket
+v8_0_types_2 = Food
+v8_0_types_3 = Point of interest
+v8_0_types_4 = Store
+v8_0_types_5 = Establishment
+v8_0_latitude = 42.0889141
+v8_0_longitude = -72.5549788
+v8_0_address_simple = 19 Pomona Street, Springfield
+v8_0_street_number = 19
+v8_0_street_name = Pomona Street
+v8_0_neighborhood = Forest Park
+v8_0_locality = Springfield
+v8_0_distance = 2.1 mi
+v8_0_duration = 8 mins
+v8_1_name = INTERSTATE MART
+v8_1_rating = 4.7
+v8_1_is_open = True
+v8_1_types_0 = Convenience store
+v8_1_types_1 = Supermarket
+v8_1_types_2 = Grocery or supermarket
+v8_1_types_3 = Food
+v8_1_types_4 = Point of interest
+v8_1_types_5 = Store
+v8_1_types_6 = Establishment
+v8_1_latitude = 42.0856262
+v8_1_longitude = -72.55876690000001
+v8_1_address_simple = 475 Sumner Avenue, Springfield
+v8_1_street_number = 475
+v8_1_street_name = Sumner Avenue
+v8_1_neighborhood = Forest Park
+v8_1_locality = Springfield
+v8_1_distance = 2.5 mi
+v8_1_duration = 11 mins
+v8_2_name = Asian Bazaar
+v8_2_rating = 5
+v8_2_is_open = True
+v8_2_types_0 = Grocery or supermarket
+v8_2_types_1 = Food
+v8_2_types_2 = Point of interest
+v8_2_types_3 = Store
+v8_2_types_4 = Establishment
+v8_2_latitude = 42.0816819
+v8_2_longitude = -72.5544453
+v8_2_address_simple = 607 Dickinson Street, Springfield
+v8_2_street_number = 607
+v8_2_street_name = Dickinson Street
+v8_2_neighborhood = Forest Park
+v8_2_locality = Springfield
+v8_2_distance = 2.6 mi
+v8_2_duration = 10 mins
+PREDICT: I found two places: {} and {}.
+PREDICT: Asian Bazaar
+PREDICT: Asian Market
+PREDICT: Is it one of those?
+PREDICT: wait_for_user
+u3_0 = no
+u3_1 = ..
+u4_0 = I
+u4_1 = remember
+u4_2 = its
+u4_3 = called
+u4_4 = spices
+u4_5 = of
+u4_6 = asia
+PREDICT: places_nearby
+PREDICT: Indian grocery store Springfield
+PREDICT: 42.0889141
+PREDICT: -72.5549788
+v9_0_name = Asian Market
+v9_0_rating = 3.5
+v9_0_is_open = True
+v9_0_types_0 = Supermarket
+v9_0_types_1 = Grocery or supermarket
+v9_0_types_2 = Food
+v9_0_types_3 = Point of interest
+v9_0_types_4 = Store
+v9_0_types_5 = Establishment
+v9_0_latitude = 42.0889141
+v9_0_longitude = -72.5549788
+v9_0_address_simple = 19 Pomona Street, Springfield
+v9_0_street_number = 19
+v9_0_street_name = Pomona Street
+v9_0_neighborhood = Forest Park
+v9_0_locality = Springfield
+v9_0_distance = 1 ft
+v9_0_duration = 1 min
+v9_1_name = INTERSTATE MART
+v9_1_rating = 4.7
+v9_1_is_open = True
+v9_1_types_0 = Convenience store
+v9_1_types_1 = Supermarket
+v9_1_types_2 = Grocery or supermarket
+v9_1_types_3 = Food
+v9_1_types_4 = Point of interest
+v9_1_types_5 = Store
+v9_1_types_6 = Establishment
+v9_1_latitude = 42.0856262
+v9_1_longitude = -72.55876690000001
+v9_1_address_simple = 475 Sumner Avenue, Springfield
+v9_1_street_number = 475
+v9_1_street_name = Sumner Avenue
+v9_1_neighborhood = Forest Park
+v9_1_locality = Springfield
+v9_1_distance = 0.6 mi
+v9_1_duration = 3 mins
+v9_2_name = Asian Bazaar
+v9_2_rating = 5
+v9_2_is_open = True
+v9_2_types_0 = Grocery or supermarket
+v9_2_types_1 = Food
+v9_2_types_2 = Point of interest
+v9_2_types_3 = Store
+v9_2_types_4 = Establishment
+v9_2_latitude = 42.0816819
+v9_2_longitude = -72.5544453
+v9_2_address_simple = 607 Dickinson Street, Springfield
+v9_2_street_number = 607
+v9_2_street_name = Dickinson Street
+v9_2_neighborhood = Forest Park
+v9_2_locality = Springfield
+v9_2_distance = 0.6 mi
+v9_2_duration = 3 mins
+PREDICT: places_nearby
+PREDICT: spices of asia
+PREDICT: 42.403
+PREDICT: -72.533
+v10_0_name = Spices of Asia
+v10_0_rating = 4.1
+v10_0_is_open = True
+v10_0_types_0 = Grocery or supermarket
+v10_0_types_1 = Food
+v10_0_types_2 = Point of interest
+v10_0_types_3 = Store
+v10_0_types_4 = Establishment
+v10_0_latitude = 42.105631
+v10_0_longitude = -72.6223462
+v10_0_address_simple = 3 Central Street, West Springfield
+v10_0_street_number = 3
+v10_0_street_name = Central Street
+v10_0_locality = West Springfield
+v10_0_distance = 26.7 mi
+v10_0_duration = 40 mins
+PREDICT: It is in {}.
+PREDICT: West Springfield
+PREDICT: It is on {}.
+PREDICT: Central Street
+PREDICT: wait_for_user
+u5_0 = yes
+u5_1 = that
+u5_2 = 's
+u5_3 = the
+u5_4 = one
+u6_0 = lets
+u6_1 = go
+PREDICT: Shall we go?
+PREDICT: start_driving
+PREDICT: 42.105631
+PREDICT: -72.6223462

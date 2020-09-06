@@ -1,0 +1,39 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = equinox
+PREDICT: [ACTION] find_place [PARAM] equinox [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = Equinox Marina Del Rey
+v1_address = 13455 Maxella Ave, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9867942
+v1_longitude = -118.4420484
+v1_types_0 = gym
+v1_types_1 = health
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 3.4
+v1_is_open = True
+v1_address_simple = 13455 Maxella Avenue, Marina del Rey
+v1_street_number = 13455
+v1_street_name = Maxella Avenue
+v1_locality = Marina del Rey
+v1_distance = 0.5 mi
+v1_duration = 4 mins
+PREDICT: [ACTION] {} is on {}. [PARAM] Equinox Marina Del Rey [PARAM] Maxella Avenue
+PREDICT: [ACTION] It is {} away. [PARAM] 4 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Sounds
+u2_1 = good
+u2_2 = ,
+u2_3 = let
+u2_4 = 's
+u2_5 = go
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] start_driving [PARAM] 33.9867942 [PARAM] -118.4420484

@@ -1,0 +1,205 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = LA
+u1_1 = Coliseum
+PREDICT: places_nearby
+PREDICT: LA Coliseum
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_0_name = LA Memorial Coliseum
+v1_0_rating = 4.4
+v1_0_is_open = True
+v1_0_types_0 = stadium
+v1_0_types_1 = point of interest
+v1_0_types_2 = establishment
+v1_0_latitude = 34.0140526
+v1_0_longitude = -118.2878754
+v1_0_address_simple = 3911 South Figueroa Street, Los Angeles
+v1_0_street_number = 3911
+v1_0_street_name = South Figueroa Street
+v1_0_neighborhood = South Los Angeles
+v1_0_locality = Los Angeles
+v1_0_distance = 19.2 mi
+v1_0_duration = 29 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: stadium
+PREDICT: LA Memorial Coliseum
+PREDICT: South Figueroa Street
+PREDICT: South Los Angeles
+PREDICT: It is {} and {} away.
+PREDICT: 19.2 mi
+PREDICT: 29 mins
+PREDICT: wait_for_user
+u2_0 = i
+u2_1 = want
+u2_2 = to
+u2_3 = enter
+u2_4 = through
+u2_5 = south
+u2_6 = gate
+PREDICT: find_place
+PREDICT: south gate
+PREDICT: 34.0140526
+PREDICT: -118.2878754
+v2_name = South Gate
+v2_address = South Gate, CA, USA
+v2_latitude = 33.954737
+v2_longitude = -118.2120161
+v2_types_0 = locality
+v2_types_1 = political
+v2_address_simple = South Gate
+v2_locality = South Gate
+v2_distance = 8.6 mi
+v2_duration = 24 mins
+PREDICT: find_place
+PREDICT: LA Coliseum south gate
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_name = LA Memorial Coliseum
+v3_address = 3911 S Figueroa St, Los Angeles, CA 90037, United States
+v3_latitude = 34.0140526
+v3_longitude = -118.2878754
+v3_types_0 = stadium
+v3_types_1 = point of interest
+v3_types_2 = establishment
+v3_rating = 4.4
+v3_is_open = True
+v3_address_simple = 3911 South Figueroa Street, Los Angeles
+v3_street_number = 3911
+v3_street_name = South Figueroa Street
+v3_neighborhood = South Los Angeles
+v3_locality = Los Angeles
+v3_distance = 19.2 mi
+v3_duration = 29 mins
+PREDICT: find_place
+PREDICT: LA Coliseum south gate
+PREDICT: 34.0140526
+PREDICT: -118.2878754
+v4_name = LA Memorial Coliseum
+v4_address = 3911 S Figueroa St, Los Angeles, CA 90037, United States
+v4_latitude = 34.0140526
+v4_longitude = -118.2878754
+v4_types_0 = stadium
+v4_types_1 = point of interest
+v4_types_2 = establishment
+v4_rating = 4.4
+v4_is_open = True
+v4_address_simple = 3911 South Figueroa Street, Los Angeles
+v4_street_number = 3911
+v4_street_name = South Figueroa Street
+v4_neighborhood = South Los Angeles
+v4_locality = Los Angeles
+v4_distance = 1 ft
+v4_duration = 1 min
+PREDICT: I am sorry I am unable to find the place.
+PREDICT: wait_for_user
+u3_0 = is
+u3_1 = there
+u3_2 = any
+u3_3 = gate
+u3_4 = for
+u3_5 = LA
+u3_6 = colliseum
+u3_7 = ?
+PREDICT: find_place
+PREDICT: gate
+PREDICT: 34.0140526
+PREDICT: -118.2878754
+v5_name = Chevron
+v5_address = 3250 Firestone Blvd, South Gate, CA 90280, United States
+v5_latitude = 33.9545534
+v5_longitude = -118.2119791
+v5_types_0 = gas station
+v5_types_1 = atm
+v5_types_2 = convenience store
+v5_types_3 = finance
+v5_types_4 = car repair
+v5_types_5 = food
+v5_types_6 = point of interest
+v5_types_7 = store
+v5_types_8 = establishment
+v5_rating = 3.2
+v5_is_open = True
+v5_address_simple = 3250 Firestone Boulevard, South Gate
+v5_street_number = 3250
+v5_street_name = Firestone Boulevard
+v5_locality = South Gate
+v5_distance = 8.6 mi
+v5_duration = 24 mins
+PREDICT: places_nearby
+PREDICT: gate
+PREDICT: 34.0140526
+PREDICT: -118.2878754
+v6_0_name = L a Gate
+v6_0_rating = 5
+v6_0_is_open = True
+v6_0_types_0 = point of interest
+v6_0_types_1 = clothing store
+v6_0_types_2 = store
+v6_0_types_3 = establishment
+v6_0_latitude = 34.0334739
+v6_0_longitude = -118.2601084
+v6_0_address_simple = 1437 Santee Street, Los Angeles
+v6_0_street_number = 1437
+v6_0_street_name = Santee Street
+v6_0_neighborhood = Downtown Los Angeles
+v6_0_locality = Los Angeles
+v6_0_distance = 3.5 mi
+v6_0_duration = 11 mins
+v6_1_name = Elite Gates
+v6_1_rating = 3.2
+v6_1_is_open = True
+v6_1_types_0 = general contractor
+v6_1_types_1 = point of interest
+v6_1_types_2 = establishment
+v6_1_latitude = 33.9864323
+v6_1_longitude = -118.3116457
+v6_1_address_simple = 5957 South Saint Andrews Place, Los Angeles
+v6_1_street_number = 5957
+v6_1_street_name = South Saint Andrews Place
+v6_1_neighborhood = South Los Angeles
+v6_1_locality = Los Angeles
+v6_1_distance = 3.5 mi
+v6_1_duration = 13 mins
+v6_2_name = Silver Gate Inc
+v6_2_rating = 0
+v6_2_is_open = True
+v6_2_types_0 = point of interest
+v6_2_types_1 = clothing store
+v6_2_types_2 = store
+v6_2_types_3 = establishment
+v6_2_latitude = 34.0344089
+v6_2_longitude = -118.2518004
+v6_2_address_simple = 1100 San Pedro Street # G2, Los Angeles
+v6_2_street_number = 1100
+v6_2_street_name = San Pedro Street
+v6_2_neighborhood = Downtown Los Angeles
+v6_2_locality = Los Angeles
+v6_2_distance = 4.5 mi
+v6_2_duration = 13 mins
+PREDICT: I could not find a {} close to {}.
+PREDICT: gate
+PREDICT: LA Coliseum
+PREDICT: wait_for_user
+u4_0 = ok
+u4_1 = ,
+u4_2 = then
+u4_3 = just
+u4_4 = take
+u4_5 = me
+u4_6 = to
+u4_7 = la
+u4_8 = Coliseum
+u4_9 = please
+u5_0 = i
+u5_1 = will
+u5_2 = figure
+u5_3 = it
+u5_4 = our
+u6_0 = *out
+PREDICT: You will reach there in {}.
+PREDICT: 29 mins
+PREDICT: start_driving
+PREDICT: 34.0140526
+PREDICT: -118.2878754

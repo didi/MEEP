@@ -1,0 +1,118 @@
+source_address = 4035 Grand View Blvd, Los Angeles, CA 90066, United States
+source_latitude = 33.999
+source_longitude = -118.427
+u1_0 = in
+u1_1 = n
+u1_2 = out
+PREDICT: find_place
+PREDICT: in n out
+PREDICT: 33.999
+PREDICT: -118.427
+v1_name = In-N-Out Burger
+v1_address = 13425 Washington Blvd, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.9916504
+v1_longitude = -118.4462567
+v1_price_level = 1
+v1_types_0 = restaurant
+v1_types_1 = food
+v1_types_2 = point of interest
+v1_types_3 = establishment
+v1_rating = 4.5
+v1_is_open = True
+v1_address_simple = 13425 Washington Boulevard, Marina del Rey
+v1_street_number = 13425
+v1_street_name = Washington Boulevard
+v1_neighborhood = Culver - West
+v1_locality = Marina del Rey
+v1_distance = 1.4 mi
+v1_duration = 7 mins
+PREDICT: There is a {} on {}.
+PREDICT: In-N-Out Burger
+PREDICT: Washington Boulevard
+PREDICT: It is {} away.
+PREDICT: 1.4 mi
+PREDICT: wait_for_user
+u2_0 = sorry
+u2_1 = I
+u2_2 = mean
+u2_3 = by
+u2_4 = the
+u2_5 = airport
+PREDICT: find_place
+PREDICT: in n out by the airport
+PREDICT: 33.999
+PREDICT: -118.427
+v2_name = In-N-Out Burger
+v2_address = 9149 S Sepulveda Blvd, Los Angeles, CA 90045, United States
+v2_latitude = 33.9537068
+v2_longitude = -118.3967825
+v2_price_level = 1
+v2_types_0 = restaurant
+v2_types_1 = food
+v2_types_2 = point of interest
+v2_types_3 = establishment
+v2_rating = 4.6
+v2_is_open = True
+v2_address_simple = 9149 South Sepulveda Boulevard, Los Angeles
+v2_street_number = 9149
+v2_street_name = South Sepulveda Boulevard
+v2_neighborhood = Westchester
+v2_locality = Los Angeles
+v2_distance = 5.9 mi
+v2_duration = 15 mins
+PREDICT: I found {} on {}, is that ok?
+PREDICT: In-N-Out Burger
+PREDICT: South Sepulveda Boulevard
+PREDICT: wait_for_user
+u3_0 = is
+u3_1 = that
+u3_2 = the
+u3_3 = one
+u3_4 = by
+u3_5 = the
+u3_6 = airport
+u3_7 = ?
+u4_0 = Sepulveda
+u4_1 = 's
+u4_2 = kinda
+u4_3 = long
+PREDICT: find_place
+PREDICT: airport
+PREDICT: 33.999
+PREDICT: -118.427
+v3_name = Los Angeles International Airport
+v3_address = 1 World Way, Los Angeles, CA 90045, United States
+v3_latitude = 33.9415889
+v3_longitude = -118.40853
+v3_types_0 = airport
+v3_types_1 = point of interest
+v3_types_2 = establishment
+v3_rating = 3.5
+v3_address_simple = 1 World Way, Los Angeles
+v3_street_number = 1
+v3_street_name = World Way
+v3_locality = Los Angeles
+v3_distance = 7.1 mi
+v3_duration = 21 mins
+PREDICT: distance_matrix
+PREDICT: 33.9415889
+PREDICT: -118.40853
+PREDICT: 33.9537068
+PREDICT: -118.3967825
+v4_distance = 1.8 mi
+v4_duration = 10 mins
+PREDICT: {} is {} away from {}.
+PREDICT: In-N-Out Burger
+PREDICT: 1.8 mi
+PREDICT: Los Angeles International Airport
+PREDICT: wait_for_user
+u5_0 = yeah
+u5_1 = that
+u5_2 = one
+PREDICT: Shall we go?
+PREDICT: wait_for_user
+u6_0 = yes
+PREDICT: You are all set!
+PREDICT: start_driving
+PREDICT: 33.9537068
+PREDICT: -118.3967825

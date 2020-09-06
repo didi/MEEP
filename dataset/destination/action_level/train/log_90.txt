@@ -1,0 +1,96 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = hey
+u1_1 = i
+u1_2 = want
+u1_3 = to
+u1_4 = find
+u1_5 = a
+u1_6 = place
+u1_7 = to
+u1_8 = eat
+u1_9 = hotpot
+u1_10 = in
+u1_11 = Pasadena
+u1_12 = .
+PREDICT: [ACTION] find_place [PARAM] hotpot Pasadena [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_address = 45 S Fair Oaks Ave, Pasadena, CA 91105, United States
+v1_name = Little Sheep Mongolian Hot Pot, Pasadena
+v1_latitude = 34.1449715
+v1_longitude = -118.1506038
+v1_place_id = ChIJlZWIAXHDwoARrZp6PGVLrRc
+v1_street_number = 45
+v1_street_name = South Fair Oaks Avenue
+v1_neighborhood = South Arroyo
+v1_locality = Pasadena
+v1_distance = 27.0 mi
+v1_duration = 44 mins
+PREDICT: [ACTION] find_place [PARAM] Pasadena [PARAM] 33.9816425 [PARAM] -118.4409761
+v2_address = Pasadena, CA, USA
+v2_name = Pasadena
+v2_latitude = 34.1477849
+v2_longitude = -118.1445155
+v2_place_id = ChIJUQszONzCwoARSo_RGhZBKwU
+v2_locality = Pasadena
+v2_distance = 27.5 mi
+v2_duration = 45 mins
+PREDICT: [ACTION] places_nearby [PARAM] hotpot [PARAM] 34.1477849 [PARAM] -118.1445155
+v3_0_name = Little Sheep Mongolian Hot Pot, Pasadena
+v3_0_rating = 4.3
+v3_0_is_open = True
+v3_0_place_id = ChIJlZWIAXHDwoARrZp6PGVLrRc
+v3_0_price_level = 2
+v3_0_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v3_0_latitude = 34.1449715
+v3_0_longitude = -118.1506038
+v3_0_address = 45 S Fair Oaks Ave, Pasadena, CA 91105, USA
+v3_0_street_number = 45
+v3_0_street_name = South Fair Oaks Avenue
+v3_0_neighborhood = South Arroyo
+v3_0_locality = Pasadena
+v3_1_name = Boiling Point Concept
+v3_1_rating = 4.4
+v3_1_is_open = True
+v3_1_place_id = ChIJR75T-nDDwoARv4gE5o54-l8
+v3_1_price_level = 2
+v3_1_types = ['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment']
+v3_1_latitude = 34.1443489
+v3_1_longitude = -118.1508221
+v3_1_address = 18 W Green St, Pasadena, CA 91105, USA
+v3_1_street_number = 18
+v3_1_street_name = West Green Street
+v3_1_neighborhood = South Arroyo
+v3_1_locality = Pasadena
+v3_2_name = Chong Qing YaoMei Hotpot
+v3_2_rating = 4.5
+v3_2_is_open = True
+v3_2_place_id = ChIJtTEoRlrDwoARWq8fn2pFaXU
+v3_2_types = ['restaurant', 'food', 'point_of_interest', 'establishment']
+v3_2_latitude = 34.1447402
+v3_2_longitude = -118.1517196
+v3_2_address = 55 W Green St, Pasadena, CA 91105, USA
+v3_2_street_number = 55
+v3_2_street_name = West Green Street
+v3_2_neighborhood = South Arroyo
+v3_2_locality = Pasadena
+PREDICT: [ACTION] I found three places: {}, {}, and {}. [PARAM] Little Sheep Mongolian Hot Pot, Pasadena [PARAM] Boiling Point Concept [PARAM] Chong Qing YaoMei Hotpot
+PREDICT: [ACTION] wait_for_user
+u2_0 = the
+u2_1 = last
+u2_2 = one
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.5
+PREDICT: [ACTION] distance_matrix [PARAM] 33.9816425 [PARAM] -118.4409761 [PARAM] 34.1447402 [PARAM] -118.1517196
+v4_distance = 27.0 mi
+v4_duration = 44 mins
+PREDICT: [ACTION] It is {} and {} away. [PARAM] 27.0 mi [PARAM] 44 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = sounds
+u3_1 = pretty
+u3_2 = good
+u3_3 = .
+u4_0 = let
+u4_1 = 's
+u4_2 = go
+PREDICT: [ACTION] start_driving [PARAM] 34.1447402 [PARAM] -118.1517196

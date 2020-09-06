@@ -1,0 +1,37 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = caltech
+PREDICT: [ACTION] find_place [PARAM] caltech [PARAM] 33.9816425 [PARAM] -118.4409761
+v1_name = California Institute of Technology
+v1_address = 1200 E California Blvd, Pasadena, CA 91125, United States
+v1_latitude = 34.1376576
+v1_longitude = -118.125269
+v1_types_0 = university
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.6
+v1_address_simple = 1200 East California Boulevard, Pasadena
+v1_street_number = 1200
+v1_street_name = East California Boulevard
+v1_locality = Pasadena
+v1_distance = 28.7 mi
+v1_duration = 49 mins
+PREDICT: [ACTION] Do you mean {}? [PARAM] California Institute of Technology
+PREDICT: [ACTION] wait_for_user
+u2_0 = yes
+PREDICT: [ACTION] You will reach there in {}. [PARAM] 49 mins
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u3_0 = how
+u3_1 = far
+u3_2 = is
+u3_3 = it
+u3_4 = ?
+PREDICT: [ACTION] It is {} away. [PARAM] 28.7 mi
+PREDICT: [ACTION] wait_for_user
+u4_0 = ok
+u4_1 = let
+u4_2 = 's
+u4_3 = go
+PREDICT: [ACTION] start_driving [PARAM] 34.1376576 [PARAM] -118.125269

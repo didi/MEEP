@@ -1,0 +1,265 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = i
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = to
+u1_5 = brunch
+u1_0 = hi
+u1_1 = ,
+u1_2 = i
+u1_3 = want
+u1_4 = to
+u1_5 = go
+u1_6 = to
+u1_7 = brunch
+PREDICT: find_place
+PREDICT: brunch
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Cafe del Rey
+v1_address = 4451 Admiralty Way, Marina Del Rey, CA 90292, United States
+v1_latitude = 33.983621
+v1_longitude = -118.447057
+v1_price_level = 3
+v1_types_0 = Restaurant
+v1_types_1 = Food
+v1_types_2 = Point of interest
+v1_types_3 = Establishment
+v1_rating = 4.4
+v1_is_open = False
+v1_address_simple = 4451 Admiralty Way, Marina del Rey
+v1_street_number = 4451
+v1_street_name = Admiralty Way
+v1_locality = Marina del Rey
+v1_distance = 0.5 mi
+v1_duration = 4 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: Restaurant
+PREDICT: Cafe del Rey
+PREDICT: Admiralty Way
+PREDICT: Marina del Rey
+PREDICT: wait_for_user
+u2_0 = i
+u2_1 = used
+u2_2 = to
+u2_3 = go
+u2_4 = there
+u2_5 = .
+u2_6 = are
+u2_7 = there
+u2_8 = any
+u2_9 = new
+u2_10 = places
+u2_11 = ?
+u2_12 = maybe
+u2_13 = on
+u2_14 = abbot
+u2_15 = kinney
+u2_16 = ?
+PREDICT: places_nearby
+PREDICT: new brunch places on abbot kinney
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v2_0_name = Salt
+v2_0_rating = 4.3
+v2_0_is_open = True
+v2_0_price_level = 3
+v2_0_types_0 = Bar
+v2_0_types_1 = Restaurant
+v2_0_types_2 = Food
+v2_0_types_3 = Point of interest
+v2_0_types_4 = Establishment
+v2_0_latitude = 33.9801042
+v2_0_longitude = -118.446049
+v2_0_address_simple = 13534 Bali Way, Marina del Rey
+v2_0_street_number = 13534
+v2_0_street_name = Bali Way
+v2_0_locality = Marina del Rey
+v2_0_distance = 0.4 mi
+v2_0_duration = 3 mins
+v2_1_name = Le Pain Quotidien
+v2_1_rating = 4.3
+v2_1_is_open = True
+v2_1_price_level = 2
+v2_1_types_0 = Restaurant
+v2_1_types_1 = Bakery
+v2_1_types_2 = Cafe
+v2_1_types_3 = Food
+v2_1_types_4 = Point of interest
+v2_1_types_5 = Store
+v2_1_types_6 = Establishment
+v2_1_latitude = 33.9866984
+v2_1_longitude = -118.4418161
+v2_1_address_simple = 13455 Maxella Avenue, Marina del Rey
+v2_1_street_number = 13455
+v2_1_street_name = Maxella Avenue
+v2_1_locality = Marina del Rey
+v2_1_distance = 0.6 mi
+v2_1_duration = 4 mins
+v2_2_name = 26 Beach
+v2_2_rating = 4.5
+v2_2_is_open = True
+v2_2_price_level = 2
+v2_2_types_0 = Restaurant
+v2_2_types_1 = Food
+v2_2_types_2 = Point of interest
+v2_2_types_3 = Establishment
+v2_2_latitude = 33.989618
+v2_2_longitude = -118.4499345
+v2_2_address_simple = 3100 Washington Boulevard, Venice
+v2_2_street_number = 3100
+v2_2_street_name = Washington Boulevard
+v2_2_neighborhood = Venice
+v2_2_locality = Los Angeles
+v2_2_distance = 1.9 mi
+v2_2_duration = 6 mins
+PREDICT: places_nearby
+PREDICT: brunch on abbot kinney
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v3_0_name = Le Pain Quotidien
+v3_0_rating = 4.3
+v3_0_is_open = True
+v3_0_price_level = 2
+v3_0_types_0 = Restaurant
+v3_0_types_1 = Bakery
+v3_0_types_2 = Cafe
+v3_0_types_3 = Food
+v3_0_types_4 = Point of interest
+v3_0_types_5 = Store
+v3_0_types_6 = Establishment
+v3_0_latitude = 33.9866984
+v3_0_longitude = -118.4418161
+v3_0_address_simple = 13455 Maxella Avenue, Marina del Rey
+v3_0_street_number = 13455
+v3_0_street_name = Maxella Avenue
+v3_0_locality = Marina del Rey
+v3_0_distance = 0.6 mi
+v3_0_duration = 4 mins
+v3_1_name = Cafe del Rey
+v3_1_rating = 4.4
+v3_1_is_open = False
+v3_1_price_level = 3
+v3_1_types_0 = Restaurant
+v3_1_types_1 = Food
+v3_1_types_2 = Point of interest
+v3_1_types_3 = Establishment
+v3_1_latitude = 33.983621
+v3_1_longitude = -118.447057
+v3_1_address_simple = 4451 Admiralty Way, Marina del Rey
+v3_1_street_number = 4451
+v3_1_street_name = Admiralty Way
+v3_1_locality = Marina del Rey
+v3_1_distance = 0.5 mi
+v3_1_duration = 4 mins
+v3_2_name = Tony P's Dockside Grill
+v3_2_rating = 4.4
+v3_2_is_open = False
+v3_2_price_level = 2
+v3_2_types_0 = Bar
+v3_2_types_1 = Restaurant
+v3_2_types_2 = Food
+v3_2_types_3 = Point of interest
+v3_2_types_4 = Establishment
+v3_2_latitude = 33.983671
+v3_2_longitude = -118.44785
+v3_2_address_simple = 4445 Admiralty Way, Marina del Rey
+v3_2_street_number = 4445
+v3_2_street_name = Admiralty Way
+v3_2_locality = Marina del Rey
+v3_2_distance = 0.6 mi
+v3_2_duration = 3 mins
+PREDICT: find_place
+PREDICT: abbot kinney
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v4_name = Abbot Kinney Blvd
+v4_address = Abbot Kinney Blvd, Los Angeles, CA, USA
+v4_latitude = 33.9899135
+v4_longitude = -118.4637973
+v4_types_0 = Route
+v4_address_simple = Los Angeles
+v4_street_name = Abbot Kinney Boulevard
+v4_neighborhood = Venice
+v4_locality = Los Angeles
+v4_distance = 2.4 mi
+v4_duration = 8 mins
+PREDICT: places_nearby
+PREDICT: brunch
+PREDICT: 33.9899135
+PREDICT: -118.4637973
+v5_0_name = The Tasting Kitchen
+v5_0_rating = 4.4
+v5_0_is_open = False
+v5_0_price_level = 3
+v5_0_types_0 = Restaurant
+v5_0_types_1 = Food
+v5_0_types_2 = Point of interest
+v5_0_types_3 = Establishment
+v5_0_latitude = 33.9897644
+v5_0_longitude = -118.4631018
+v5_0_address_simple = 1633 Abbot Kinney Boulevard, Venice
+v5_0_street_number = 1633
+v5_0_street_name = Abbot Kinney Boulevard
+v5_0_neighborhood = Venice
+v5_0_locality = Los Angeles
+v5_0_distance = 0.1 mi
+v5_0_duration = 1 min
+v5_1_name = Greenleaf
+v5_1_rating = 4.4
+v5_1_is_open = True
+v5_1_price_level = 2
+v5_1_types_0 = Bar
+v5_1_types_1 = Restaurant
+v5_1_types_2 = Food
+v5_1_types_3 = Point of interest
+v5_1_types_4 = Establishment
+v5_1_latitude = 33.9914603
+v5_1_longitude = -118.4683135
+v5_1_address_simple = 1239 Abbot Kinney Boulevard, Venice
+v5_1_street_number = 1239
+v5_1_street_name = Abbot Kinney Boulevard
+v5_1_neighborhood = Venice
+v5_1_locality = Los Angeles
+v5_1_distance = 0.3 mi
+v5_1_duration = 2 mins
+v5_2_name = The Butcher's Daughter
+v5_2_rating = 4.4
+v5_2_is_open = True
+v5_2_price_level = 2
+v5_2_types_0 = Restaurant
+v5_2_types_1 = Food
+v5_2_types_2 = Point of interest
+v5_2_types_3 = Establishment
+v5_2_latitude = 33.9916523
+v5_2_longitude = -118.4692039
+v5_2_address_simple = 1205 Abbot Kinney Boulevard, Venice
+v5_2_street_number = 1205
+v5_2_street_name = Abbot Kinney Boulevard
+v5_2_neighborhood = Venice
+v5_2_locality = Los Angeles
+v5_2_distance = 0.3 mi
+v5_2_duration = 2 mins
+PREDICT: I found three places: {}, {}, and {}.
+PREDICT: The Tasting Kitchen
+PREDICT: Greenleaf
+PREDICT: The Butcher's Daughter
+PREDICT: wait_for_user
+u3_0 = ok
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = try
+u3_5 = the
+u3_6 = tasting
+u3_7 = kitchen
+u3_8 = .
+PREDICT: We are going to the {} in {}.
+PREDICT: The Tasting Kitchen
+PREDICT: Venice
+PREDICT: start_driving
+PREDICT: 33.9897644
+PREDICT: -118.4631018

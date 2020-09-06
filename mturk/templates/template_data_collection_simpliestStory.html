@@ -1,0 +1,161 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form>
+    <div>
+        <strong>Introduction</strong><br>
+        You will be having a conversation with an agent to specify a taxi trip destination. You need to first think of a place that you usually go to and talk to a virtual agent to help it locate the place. <br><br>
+        <strong>Instructions: </strong>
+        <p>1. This is our dialog data collection interface you will be using (link is provided at the bottom):</p>
+        <img style="width:600px; display: block" src="https://i.imgur.com/nHbBtor.png"/>
+        <p>2. <b>You MUST first change "Starting address"</b> to the Google address of a landmark in your city (on the left side of the page).</p>
+        <p>3. Pick a place in your city. It should be a destination you might get to by taxi. It could be: <a id='useful-name'></a>
+        <p>4. The task is to talk about it with an virtual agent to call a taxi. <b>DO NOT</b> type the exact address of the destination to the agent or your answer will be rejected.</p>
+        <!--
+        <ul>
+            <li>You could talk about the details of the place to help the virtual agent to locate the destination, e.g. "It's on Commonwealth", "I want to go to the In-n-out near Costco.", etc.</li>
+            <li>You could ask questions about the trip, e.g. distance, rating, travel time, etc.</li>
+            <li><b>DO NOT</b> type the exact address of the destination to the agent or your answer will be rejected.</li>
+        </ul>
+        -->
+        <p>5. At the end, the agent will show you a map. Select whether the destination is correct or not.</p>
+        <p>(IMPORTANT: Please come back to this page and submit the task after you finish the conversation.)</p>
+        <p>(Do not modify anything else in the settings panel: language, input method, etc.)</p>
+        <div>
+            <div>
+                <p><strong>Link to the website (opens in new tab):</strong></p>
+                <!-- Your website URLs will be substituted for the "url" variable when you publish
+                       a batch with an input file containing multiple website URLs -->
+                <a href="${user_interface_url}" target="_blank">${user_interface_url}</a>
+            </div>
+        </div>
+    </div>
+</crowd-form>
+
+<script>
+    function shuffle(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
+    var place_of_interest = [
+        "accounting",
+        "airport",
+        "amusement park",
+        "aquarium",
+        "art gallery",
+        "atm",
+        "bakery",
+        "bank",
+        "bar",
+        "beauty salon",
+        "bicycle store",
+        "book store",
+        "bowling alley",
+        "bus station",
+        "cafe",
+        "campground",
+        "car dealer",
+        "car rental",
+        "car repair",
+        "car wash",
+        "casino",
+        "cemetery",
+        "church",
+        "city hall",
+        "clothing store",
+        "convenience store",
+        "courthouse",
+        "dentist",
+        "department store",
+        "doctor",
+        "drugstored",
+        "electrician",
+        "electronics store",
+        "embassy",
+        "fire station",
+        "florist",
+        "funeral home",
+        "furniture store",
+        "gas station",
+        "grocery or supermarket",
+        "gym",
+        "hair care",
+        "hardware store",
+        "hindu temple",
+        "home goods store",
+        "hospital",
+        "insurance agency",
+        "jewelry store",
+        "laundry",
+        "lawyer",
+        "library",
+        "light rail station",
+        "liquor store",
+        "local government office",
+        "locksmith",
+        "lodging",
+        "meal delivery",
+        "meal takeaway",
+        "mosque",
+        "movie rental",
+        "movie theater",
+        "moving company",
+        "museum",
+        "night club",
+        "painter",
+        "park",
+        "parking",
+        "pet store",
+        "pharmacy",
+        "physiotherapist",
+        "plumber",
+        "police",
+        "post office",
+        "primary school",
+        "real estate agency",
+        "restaurant",
+        "roofing contractor",
+        "rv park",
+        "school",
+        "secondary school",
+        "shoe store",
+        "shopping mall",
+        "spa",
+        "stadium",
+        "storage",
+        "store",
+        "subway station",
+        "supermarket",
+        "synagogue",
+        "taxi stand",
+        "tourist attraction",
+        "train station",
+        "transit station",
+        "travel agency",
+        "university",
+        "veterinary care",
+        "zoo"
+    ];
+    shuffle(place_of_interest);
+    $('#useful-name').text(place_of_interest.slice(0, 5).join(", "));
+</script>

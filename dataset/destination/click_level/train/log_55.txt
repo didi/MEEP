@@ -1,0 +1,81 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = Please
+u1_1 = take
+u1_2 = me
+u1_3 = to
+u1_4 = the
+u1_5 = nearest
+u1_6 = Staples
+u1_7 = .
+PREDICT: find_place
+PREDICT: Staples
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_address = 1501 Lincoln Blvd, Venice, CA 90291, United States
+v1_name = Staples
+v1_latitude = 33.99712
+v1_longitude = -118.459866
+v1_place_id = ChIJbQ6Stuu6woARqQfS2_RgSIA
+v1_street_number = 1501
+v1_street_name = Lincoln Boulevard
+v1_neighborhood = Venice
+v1_locality = Los Angeles
+v1_distance = 1.8 mi
+v1_duration = 9 mins
+PREDICT: How about one on {}? It is {} away.
+PREDICT: Lincoln Boulevard
+PREDICT: 1.8 mi
+PREDICT: wait_for_user
+u2_0 = What
+u2_1 = is
+u2_2 = the
+u2_3 = nearest
+u2_4 = cross
+u2_5 = street
+u2_6 = ?
+PREDICT: find_place
+PREDICT: street
+PREDICT: 33.99712
+PREDICT: -118.459866
+v2_address = 1622-1618 Shell Ave, Venice, CA 90291, United States
+v2_name = Venice Walk Street
+v2_latitude = 33.9917285
+v2_longitude = -118.4617044
+v2_place_id = ChIJLQFFQJW6woARdCRhRB39Iak
+v2_street_number = 1622-1618
+v2_street_name = Shell Avenue
+v2_neighborhood = Venice
+v2_locality = Los Angeles
+v2_distance = 0.5 mi
+v2_duration = 2 mins
+PREDICT: I'm sorry, I can't find cross streets yet. 
+PREDICT: wait_for_user
+u3_0 = No
+u3_1 = problem
+u3_2 = ,
+u3_3 = can
+u3_4 = you
+u3_5 = tell
+u3_6 = me
+u3_7 = what
+u3_8 = city
+u3_9 = it
+u3_10 = is
+u3_11 = in
+u3_12 = ?
+PREDICT: It is in {}
+PREDICT: Venice
+PREDICT: wait_for_user
+u4_0 = Perfect
+u4_1 = ,
+u4_2 = let
+u4_3 = 's
+u4_4 = go
+u4_5 = !
+PREDICT: Great, we are going to {}.
+PREDICT: Staples
+PREDICT: start_driving
+PREDICT: 33.99712
+PREDICT: -118.459866

@@ -1,0 +1,66 @@
+source_address = 4640 Admiralty Way, Marina Del Rey, CA 90292, USA
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = need
+u1_2 = to
+u1_3 = find
+u1_4 = a
+u1_5 = mechanic
+u2_0 = today
+PREDICT: [ACTION] find_place [PARAM] mechanic [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] find_place [PARAM] a mechanic [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] find_place [PARAM] find a mechanic [PARAM] 33.9816425 [PARAM] -118.4409761
+PREDICT: [ACTION] I can't find any places for your request, can you give me more information?
+PREDICT: [ACTION] wait_for_user
+u3_0 = like
+u3_1 = a
+u3_2 = mechanic
+u3_3 = to
+u3_4 = fix
+u3_5 = my
+u3_6 = car
+PREDICT: [ACTION] find_place [PARAM] car mechanic [PARAM] 33.9816425 [PARAM] -118.4409761
+v4_name = Villa Marina Auto Care
+v4_address = 4300 Lincoln Blvd, Marina Del Rey, CA 90292, United States
+v4_latitude = 33.9855133
+v4_longitude = -118.443024
+v4_types_0 = car repair
+v4_types_1 = point of interest
+v4_types_2 = establishment
+v4_rating = 4.9
+v4_is_open = True
+v4_address_simple = 4300 Lincoln Boulevard, Marina del Rey
+v4_street_number = 4300
+v4_street_name = Lincoln Boulevard
+v4_locality = Marina del Rey
+v4_distance = 0.4 mi
+v4_duration = 4 mins
+PREDICT: [ACTION] I found {} in {}. [PARAM] Villa Marina Auto Care [PARAM] Marina del Rey
+PREDICT: [ACTION] wait_for_user
+u4_0 = What
+u4_1 = 's
+u4_2 = it
+u4_3 = 's
+u4_4 = rating
+u4_5 = ?
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.9
+PREDICT: [ACTION] wait_for_user
+u5_0 = oh
+u5_1 = wow
+u5_2 = ,
+u5_3 = okay
+u6_0 = let
+u6_1 = 's
+u6_2 = do
+u6_3 = it
+u6_4 = then
+PREDICT: [ACTION] It is open.
+PREDICT: [ACTION] wait_for_user
+u7_0 = oh
+u7_1 = ,
+u7_2 = that
+u7_3 = helps
+u8_0 = lol
+PREDICT: [ACTION] You are all set!
+PREDICT: [ACTION] start_driving [PARAM] 33.9855133 [PARAM] -118.443024

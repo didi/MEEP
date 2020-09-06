@@ -1,0 +1,76 @@
+source_address = 4640 Admiralty Way, Marina del Rey
+source_latitude = 33.9816425
+source_longitude = -118.4409761
+u1_0 = I
+u1_1 = 'd
+u1_2 = like
+u1_3 = to
+u1_4 = go
+u1_5 = to
+u1_6 = a
+u1_7 = bookstore
+u1_8 = ,
+u1_9 = it
+u1_10 = 's
+u1_11 = called
+u1_12 = Reparations
+u1_13 = Club
+PREDICT: find_place
+PREDICT: Reparations Club
+PREDICT: 33.9816425
+PREDICT: -118.4409761
+v1_name = Reparations Club
+v1_address = 4636 W Washington Blvd, Los Angeles, CA 90016, United States
+v1_latitude = 34.0396586
+v1_longitude = -118.3409593
+v1_types_0 = food
+v1_types_1 = point of interest
+v1_types_2 = clothing store
+v1_types_3 = store
+v1_types_4 = establishment
+v1_rating = 5
+v1_is_open = True
+v1_address_simple = 4636 West Washington Boulevard, Los Angeles
+v1_street_number = 4636
+v1_street_name = West Washington Boulevard
+v1_neighborhood = Mid City
+v1_locality = Los Angeles
+v1_distance = 12.1 mi
+v1_duration = 21 mins
+PREDICT: I found a {} called {} on {} in {}.
+PREDICT: store
+PREDICT: Reparations Club
+PREDICT: West Washington Boulevard
+PREDICT: Los Angeles
+PREDICT: wait_for_user
+u2_0 = That
+u2_1 = 's
+u2_2 = the
+u2_3 = one
+u2_4 = ,
+u2_5 = let
+u2_6 = 's
+u2_7 = go
+u2_8 = !
+u2_9 = It
+u2_10 = should
+u2_11 = be
+u2_12 = about
+u2_13 = 20
+u2_14 = minutes
+u2_15 = away
+u2_16 = ,
+u2_17 = right
+u2_18 = ?
+PREDICT: It is {} away.
+PREDICT: 21 mins
+PREDICT: wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+PREDICT: Pleasure serving you!
+PREDICT: start_driving
+PREDICT: 34.0396586
+PREDICT: -118.3409593

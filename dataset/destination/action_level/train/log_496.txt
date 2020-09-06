@@ -1,0 +1,90 @@
+source_address = Park Rd NW, Washington, DC, USA
+source_latitude = 38.93199660000001
+source_longitude = -77.0373439
+u1_0 = I
+u1_1 = heard
+u1_2 = Adam
+u1_3 = 's
+u1_4 = Morgan
+u1_5 = is
+u1_6 = a
+u1_7 = good
+u1_8 = area
+u1_9 = to
+u1_10 = go
+u1_11 = out
+u1_12 = .
+u1_13 = Can
+u1_14 = you
+u1_15 = take
+u1_16 = me
+u1_17 = to
+u1_18 = a
+u1_19 = highly-rated
+u1_20 = bar
+u1_21 = there
+u1_22 = ?
+PREDICT: [ACTION] find_place [PARAM] bar Adam Morgan [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v1_name = Madam's Organ
+v1_address = 2461 18th St NW, Washington, DC 20009, United States
+v1_latitude = 38.922032
+v1_longitude = -77.0421372
+v1_price_level = 1
+v1_types_0 = bar
+v1_types_1 = point of interest
+v1_types_2 = establishment
+v1_rating = 4.4
+v1_is_open = False
+v1_address_simple = 2461 18th Street Northwest, Washington
+v1_street_number = 2461
+v1_street_name = 18th Street Northwest
+v1_neighborhood = Northwest Washington
+v1_locality = Washington
+v1_distance = 1.3 mi
+v1_duration = 8 mins
+PREDICT: [ACTION] find_place [PARAM] Adam 's Morgan bar [PARAM] 38.93199660000001 [PARAM] -77.0373439
+v2_name = Mellow Mushroom Adams Morgan
+v2_address = 2436 18th St NW, Washington, DC 20009, United States
+v2_latitude = 38.9216023
+v2_longitude = -77.0425092
+v2_price_level = 2
+v2_types_0 = meal takeaway
+v2_types_1 = bar
+v2_types_2 = restaurant
+v2_types_3 = food
+v2_types_4 = point of interest
+v2_types_5 = establishment
+v2_rating = 4.4
+v2_is_open = True
+v2_address_simple = 2436 18th Street Northwest, Washington
+v2_street_number = 2436
+v2_street_name = 18th Street Northwest
+v2_neighborhood = Northwest Washington
+v2_locality = Washington
+v2_distance = 1.0 mi
+v2_duration = 8 mins
+PREDICT: [ACTION] How about {}? [PARAM] Mellow Mushroom Adams Morgan
+PREDICT: [ACTION] It has a rating of {}. [PARAM] 4.4
+PREDICT: [ACTION] Are you okay with that one?
+PREDICT: [ACTION] wait_for_user
+u2_0 = Does
+u2_1 = it
+u2_2 = have
+u2_3 = food
+u2_4 = and
+u2_5 = drinks
+u2_6 = ?
+PREDICT: [ACTION] it is a {}. [PARAM] bar
+PREDICT: [ACTION] it is a {}. [PARAM] restaurant
+PREDICT: [ACTION] wait_for_user
+u3_0 = Perfect
+u3_1 = ,
+u3_2 = let
+u3_3 = 's
+u3_4 = go
+u3_5 = .
+PREDICT: [ACTION] It will take us {} to get there. [PARAM] 8 mins
+PREDICT: [ACTION] Pleasure serving you!
+PREDICT: [ACTION] wait_for_user
+u4_0 = great
+PREDICT: [ACTION] start_driving [PARAM] 38.9216023 [PARAM] -77.0425092

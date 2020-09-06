@@ -1,0 +1,48 @@
+source_address = Nettakallappa Circle, Basavanagudi, Bengaluru, Karnataka 560004
+source_latitude = 12.9401979
+source_longitude = 77.57327759999998
+u1_0 = I
+u1_1 = want
+u1_2 = to
+u1_3 = go
+u1_4 = Kote
+u1_5 = Anjaneya
+u1_6 = temple
+PREDICT: [ACTION] find_place [PARAM] Kote Anjaneya temple [PARAM] 12.9401979 [PARAM] 77.57327759999998
+v1_name = Kote Anjaneya Swami Temple ಕೋಟೆ ಆಂಜನೇಯ ಸ್ವಾಮಿ ಟೆಂಪಲ್
+v1_address = Krishna Rajendra Rd, K. R. Market, Kalasipalya, Bengaluru, Karnataka 560002, India
+v1_rating = 4.8
+v1_is_open = False
+v1_latitude = 12.962539
+v1_longitude = 77.576276
+v1_street_name = Krishna Rajendra Road
+v1_locality = Bengaluru
+v1_distance = 1.6 mi
+v1_duration = 9 mins
+PREDICT: [ACTION] There is {} on {} [PARAM] Kote Anjaneya Swami Temple ಕೋಟೆ ಆಂಜನೇಯ ಸ್ವಾಮಿ ಟೆಂಪಲ್ [PARAM] Krishna Rajendra Road
+PREDICT: [ACTION] Shall we go?
+PREDICT: [ACTION] wait_for_user
+u2_0 = is
+u2_1 = it
+u2_2 = close
+u2_3 = to
+u2_4 = KR
+u2_5 = market
+u2_6 = ?
+PREDICT: [ACTION] find_place [PARAM] KR market [PARAM] 12.962539 [PARAM] 77.576276
+v2_name = KR Market
+v2_address = KR Market, Huriopet, Chickpet, Bengaluru, Karnataka, India
+v2_latitude = 12.9656389
+v2_longitude = 77.57698669999999
+v2_locality = Bengaluru
+v2_distance = 0.2 mi
+v2_duration = 3 mins
+PREDICT: [ACTION] distance_matrix [PARAM] 12.962539 [PARAM] 77.576276 [PARAM] 12.9656389 [PARAM] 77.57698669999999
+v3_distance = 0.2 mi
+v3_duration = 3 mins
+PREDICT: [ACTION] {} is {} away from {}. [PARAM] Kote Anjaneya Swami Temple ಕೋಟೆ ಆಂಜನೇಯ ಸ್ವಾಮಿ ಟೆಂಪಲ್ [PARAM] 0.2 mi [PARAM] KR market
+PREDICT: [ACTION] wait_for_user
+u3_0 = great
+u4_0 = lets
+u4_1 = go
+PREDICT: [ACTION] start_driving [PARAM] 12.962539 [PARAM] 77.576276
