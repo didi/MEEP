@@ -1,3 +1,4 @@
+
 ## Datasets
 #### Chat Interface Dialogs
 Dialogs are collected and self-annotated through the [chat interface](../gui/README.md) and logged in 3 formats:
@@ -46,11 +47,11 @@ until both the agent and the user come to an agreement about where they are driv
 dialog, a map is shown to the user to ascertain whether it was the intended destination or not.
 
 The dialogs are split into train, development and test splits. As mentioned previously, there are
-3 different formats of the dataset. The links to these formats of the dataset are below (TODO: Update these links to a public location)
+3 different formats of the dataset. The links to these formats of the dataset are below
 
-- [action-level](#)
-- [click-level](#)
-- [json](#)
+- [action-level](destination/action_level)
+- [click-level](destination/click_level)
+- [json](destination/json)
 
 The train/dev/test split of the dataset is as follows:
 
