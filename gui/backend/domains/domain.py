@@ -58,8 +58,8 @@ class Domain():
 
     def clone(self, new_interfaces):
         ''' Clone this domain but with new interfaces.  You need separate interfaces for each room '''
-        return Domain(self.name, new_interfaces, self.initialization,
-                      self.agent_templates, self.user_templates, self.apis)
+        return Domain(self.name, new_interfaces, self.initialization, self.apis,
+                      self.agent_templates, self.user_templates)
 
     def load_apis(self):
         # get active api functions.
