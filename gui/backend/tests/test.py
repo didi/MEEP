@@ -335,28 +335,19 @@ class WeatherAgentTests(AgentTests):
         '''
         agent = create_agent(
             'agents.random_agent.RandomClickLevelAgent',
-            None,
-            None,
-            self.interfaces,
-            domain=self.domain,
-            seed=123)
+            None, None, self.interfaces, domain=self.domain, seed=123)
         self.app.rooms['0'].set_agent(agent)
 
         self.socket_client.get_received()
-        self.socket_client.emit(
-            '/message', {'sender': 'user', 'body': 'california', 'roomId': '0'})
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'california', 'roomId': '0'})
         self.assertTrue(self._get_received())
-        self.socket_client.emit(
-            '/message', {'sender': 'user', 'body': 'beijing', 'roomId': '0'})
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'beijing', 'roomId': '0'})
         self.assertTrue(self._get_received())
-        self.socket_client.emit(
-            '/message', {'sender': 'user', 'body': 'will it rain?', 'roomId': '0'})
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'will it rain?', 'roomId': '0'})
         self.assertTrue(self._get_received())
-
-        self.socket_client.emit(
-            '/message', {'sender': 'user', 'body': 'quit', 'roomId': '0'})
-        self.assertEqual(self._get_received()
-                         [-1], 'Goodbye, ending dialog as requested by user')
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'quit', 'roomId': '0'})
+        non_debug_responses = [msg for msg in self._get_received() if not msg.startswith('DEBUG')]
+        self.assertEqual(non_debug_responses[-1], 'Goodbye, ending dialog as requested by user')
 
 
     def test_typed_random_agent(self):
@@ -365,9 +356,7 @@ class WeatherAgentTests(AgentTests):
 
         self.socket_client.get_received()
         self.socket_client.emit('/message', {'sender': 'user', 'body': 'california', 'roomId': '0'})
-        print('received', self._get_received())
         self.socket_client.emit('/message', {'sender': 'user', 'body': 'whats the weather in california', 'roomId': '0'})
-        print('received', self._get_received())
 
 
 class NumberAgentTests(AgentTests):
