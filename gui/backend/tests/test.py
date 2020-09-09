@@ -297,29 +297,22 @@ class MicroworldAgentTests(AgentTests):
         See NumberAgentTests.test_random_agent for implementation notes
         '''
         agent = create_agent(
-            'agents.random_agent.RandomAgent',
-            None,
-            None,
-            self.interfaces,
-            domain=self.domain,
-            seed=123)
+            'agents.random_agent.RandomClickLevelAgent',
+            None, None, self.interfaces, domain=self.domain, seed=123)
         self.app.rooms['0'].set_agent(agent)
 
         self.socket_client.get_received()
-        self.socket_client.emit(
-            '/message', {'sender': 'user', 'body': 'Gap', 'roomId': '0'})
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'Gap', 'roomId': '0'})
         self.assertTrue(self._get_received())
-        self.socket_client.emit(
-            '/message', {'sender': 'user', 'body': 'Starbucks', 'roomId': '0'})
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'Starbucks', 'roomId': '0'})
         self.assertTrue(self._get_received())
-        self.socket_client.emit(
-            '/message', {'sender': 'user', 'body': 'how far is it?', 'roomId': '0'})
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'how far is it?', 'roomId': '0'})
         self.assertTrue(self._get_received())
+        self.socket_client.emit('/message', {'sender': 'user', 'body': 'quit', 'roomId': '0'})
 
-        self.socket_client.emit(
-            '/message', {'sender': 'user', 'body': 'quit', 'roomId': '0'})
-        self.assertEqual(self._get_received()
-                         [-1], 'Goodbye, ending dialog as requested by user')
+        non_debug_responses = [msg for msg in self._get_received() if not msg.startswith('DEBUG')]
+
+        self.assertEqual(non_debug_responses[-1], 'Goodbye, ending dialog as requested by user')
 
 
     def test_typed_random_agent(self):
@@ -328,9 +321,9 @@ class MicroworldAgentTests(AgentTests):
 
         self.socket_client.get_received()
         self.socket_client.emit('/message', {'sender': 'user', 'body': 'starbucks', 'roomId': '0'})
-        print('received', self._get_received())
+        self.assertTrue(self._get_received())
         self.socket_client.emit('/message', {'sender': 'user', 'body': 'how far is it?', 'roomId': '0'})
-        print('received', self._get_received())
+        self.assertTrue(self._get_received())
 
 class WeatherAgentTests(AgentTests):
     def setUp(self):
@@ -342,7 +335,7 @@ class WeatherAgentTests(AgentTests):
         See NumberAgentTests.test_random_agent for implementation notes
         '''
         agent = create_agent(
-            'agents.random_agent.RandomAgent',
+            'agents.random_agent.RandomClickLevelAgent',
             None,
             None,
             self.interfaces,
@@ -413,7 +406,7 @@ class NumberAgentTests(AgentTests):
         Instead, we just check that the response is not empty which relies on the behaviour of the agent to always send a message in response to any user utterance
         '''
         agent = create_agent(
-            'agents.random_agent.RandomAgent',
+            'agents.random_agent.RandomClickLevelAgent',
             None, None, self.interfaces, self.domain, seed=123)
         self.app.rooms['0'].set_agent(agent)
 

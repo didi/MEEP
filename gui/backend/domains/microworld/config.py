@@ -20,10 +20,10 @@ DOMAIN_DIR = REPO_ROOT / "gui/backend/domains/microworld"
 microworld_domai1 = Domain(
     'microworld1',
     interfaces,
-    DOMAIN_DIR / 'initialization1.json',
-    DOMAIN_DIR / 'apis.json',
-    DOMAIN_DIR / 'agent_templates.txt',
-    DOMAIN_DIR / 'user_templates.txt',
+    initialization_file=DOMAIN_DIR / 'initialization1.json',
+    apis_file=DOMAIN_DIR / 'apis.json',
+    agent_templates=DOMAIN_DIR / 'agent_templates.txt',
+    user_templates=DOMAIN_DIR / 'user_templates.txt',
 )
 
 # Microworld v2

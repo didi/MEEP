@@ -50,7 +50,7 @@ class Domain():
         self.apis_file = str(apis_file)
 
         self.api_functions, self.end_dialog = self.load_apis(self.apis_file, self.interfaces)
-        self.agent_templates_list, self.agent_templates_grouped = self.load_templates(self.agent_templates)
+        self.agent_templates_grouped, self.agent_templates_list = self.load_templates(self.agent_templates)
         if user_templates is not None:
             self.user_templates_grouped, self.user_templates_list = self.load_templates(self.user_templates)
         self.initialization = self.load_initialization(self.initialization_file)

@@ -114,8 +114,9 @@ class ClickLevelAgent(Agent):
         super().__init__(agent_shared_state, agent_model_path, interfaces, domain, **kwargs)
 
         self.interfaces = interfaces
-        self.initial_variables = domain.initial_variables
+        self.initial_variables = None # this is in a different format than domain.initial_variables. TODO: change this to match
         self.domain = domain
+
 
         # load templates and apis
         self.templates = [Template(t) for t in domain.agent_templates_list]
@@ -130,7 +131,7 @@ class ClickLevelAgent(Agent):
         '''See base class'''
 
         # prepare variables
-        available_variables = flatten_variables(self.initial_variables['variables'] + [v for e in events if e['event_type'] == 'user_utterance' or e['event_type'] == 'api_call' for v in e['variables']])
+        available_variables = flatten_variables(self.domain.initial_variables['variables'] + [v for e in events if e['event_type'] == 'user_utterance' or e['event_type'] == 'api_call' for v in e['variables']])
         for v in available_variables:
             v['name'] = str(v['name'])
 

@@ -2,7 +2,7 @@ import random
 import re
 from fuzzywuzzy import fuzz
 
-from agents.click_level_agent import ClickLevelAgent
+from agents.click_level_agent import ClickLevelAgent, Template, API, WAIT_FOR_USER
 
 end_words = {'goodbye', 'bye', 'stop', 'quit', 'exit', 'thanks', 'thank', 'ty'}
 
@@ -38,7 +38,6 @@ class RandomClickLevelAgent(ClickLevelAgent):
             return next_action
         elif self.is_end_dialog(message):
             self.next_action = WAIT_FOR_USER
-            import pdb; pdb.set_trace()
             return self.end_dialog
         elif random.random() < 0.5:
             self.next_action = WAIT_FOR_USER

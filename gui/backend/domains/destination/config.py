@@ -19,7 +19,7 @@ destination_domain = Domain(
     'destination',
     interfaces,
     initialization_file='domains/destination/initialization.json',
+    apis_file='domains/destination/apis.json',
     agent_templates='domains/destination/agent_templates.txt',
     user_templates='domains/destination/user_templates.txt',
-    apis_file='domains/destination/apis.json',
 )

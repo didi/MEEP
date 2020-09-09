@@ -17,10 +17,6 @@ class VariableManager():
         # independent initial_variables
         self.initial_variables = copy.deepcopy(initial_variables)
         self.get_destination = get_destination
-        if self.initial_variables:
-            add_full_names(
-                self.initial_variables['variables'],
-                self.initial_variables['variable_group'])
 
         self.apis = []
         self.user = user

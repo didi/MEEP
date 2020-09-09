@@ -20,7 +20,7 @@ interfaces = [
 weather_domain = Domain(
     'weather',
     interfaces,
-    'domains/weather/initialization.json',
-    'domains/weather/apis.json',
-    'domains/weather/agent_templates.txt'
+    initialization_file='domains/weather/initialization.json',
+    apis_file='domains/weather/apis.json',
+    agent_templates='domains/weather/agent_templates.txt'
 )
