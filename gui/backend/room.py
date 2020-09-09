@@ -25,7 +25,6 @@ class Room():
     def __init__(self, room_id, socket, domain, agent_shared_state, agent_class_name=None, agent_model_path=None, user_shared_state=None, user_class_name=None, user_model_path=None, handle_end_dialog=None, log_path='logs', evaluation_file=None, enable_translate=False, starting_evaluation_index=0, user_story=None, generate_destinations=False, purge_logs_every_N=0):
         self.emit_fn = functools.partial(socket.emit, room=room_id)
         self.socket = socket
-        self.domain = domain
 
         self.logger = Logger(
             domain.interfaces,
@@ -61,8 +60,9 @@ class Room():
             new_interface = copy.copy(interface)
             new_interface.manager = self.manager
             self.interfaces.append(new_interface)
+        self.domain = domain.clone(self.interfaces)
         self.agent = create_agent(agent_class_name, agent_shared_state,
-                                  agent_model_path, self.interfaces, domain)
+                                  agent_model_path, self.interfaces, self.domain)
         self.agent.room = self
         self.enable_translate = enable_translate
 

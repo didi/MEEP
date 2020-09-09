@@ -58,8 +58,8 @@ class Domain():
         self.initial_message = self.initialization['initial_message']
 
     def clone(self, new_interfaces):
-        ''' Clone this domain but with new interfaces.  You need separate interfaces for each room '''
-        return Domain(self.name, new_interfaces, self.initialization, self.apis_file,
+        ''' Clone this domain but with new interfaces.  You need separate interfaces for each room beacuse each one has its own manager'''
+        return Domain(self.name + '_clone', new_interfaces, self.initialization_file, self.apis_file,
                       self.agent_templates, self.user_templates)
 
     def load_apis(self, apis_file, interfaces):
@@ -77,10 +77,9 @@ class Domain():
             for attr in dir(interface):
                 function = getattr(interface, attr)
 
-                if hasattr(
-                        function, 'endpoint') and function.endpoint in api_functions:
+                if hasattr(function, 'endpoint') and function.endpoint in api_functions:
                     if hasattr(function, 'completes_dialog'):
-                        assert end_dialog is None, "Found more than on api which ends the dialog"
+                        assert end_dialog is None, "Found more than one api which ends the dialog"
                         end_dialog = api_functions[function.endpoint]
                         end_dialog['function'] = function
                         del api_functions[function.endpoint]

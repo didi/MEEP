@@ -1,5 +1,5 @@
 def create_agent(agent_class_name, agent_shared_state,
-                 agent_model_path, interfaces, domain, **kwargs):
+                 agent_model_path, interfaces, domain=None, **kwargs):
     agent_class_name = agent_class_name if agent_class_name is not None else 'agents.human_agent.HumanAgent'
     module_name, _, class_name = agent_class_name.rpartition('.')
     module = __import__(module_name, fromlist=[class_name])
@@ -17,7 +17,7 @@ def create_agent(agent_class_name, agent_shared_state,
 class Agent():
     def __init__(self, agent_shared_state: dict,
                  agent_model_path: str, interfaces: list,
-                 domain, **kwargs):
+                 domain=None, **kwargs):
         '''
         Args:
             agent_shared_state - Shared state for a single model used across multiple parallel

@@ -224,7 +224,7 @@ class AgentTests(unittest.TestCase):
         self.flask_client, self.socket_client = self.app.create_test_clients()
         self.interfaces = self.app.rooms['0'].interfaces
         self.socket_client.emit('join', {'roomId': '0', 'sender': 'agent'})
-        self.domain = self.app.domain
+        self.domain = self.app.domain.clone(self.interfaces)
 
 
 class DestinationAgentTests(AgentTests):
@@ -386,9 +386,7 @@ class NumberAgentTests(AgentTests):
     def test_compare_agent(self):
         agent = create_agent(
             'agents.compare_numbers_agent.CompareNumbersAgent',
-            None,
-            None,
-            self.interfaces)
+            None, None, self.interfaces)
         self.app.rooms['0'].set_agent(agent)
         self.socket_client.emit('join', {'roomId': '0', 'sender': 'agent'})
 
@@ -416,11 +414,7 @@ class NumberAgentTests(AgentTests):
         '''
         agent = create_agent(
             'agents.random_agent.RandomAgent',
-            None,
-            None,
-            self.interfaces,
-            domain=self.domain,
-            seed=123)
+            None, None, self.interfaces, self.domain, seed=123)
         self.app.rooms['0'].set_agent(agent)
 
         self.socket_client.get_received()
