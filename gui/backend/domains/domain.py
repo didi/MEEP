@@ -46,7 +46,7 @@ class Domain():
         # Once we drop support for that, we can use the paths directly
         self.initialization_file = str(initialization_file)
         self.agent_templates = str(agent_templates)
-        self.user_templates = str(user_templates)
+        self.user_templates = None and str(user_templates)
         self.apis_file = str(apis_file)
 
         self.api_functions, self.end_dialog = self.load_apis(self.apis_file, self.interfaces)

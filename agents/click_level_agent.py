@@ -23,6 +23,7 @@ class Template():
         self.slot_descriptions = re.findall(r'\{([^\}]*)\}', template) # list of slot descriptions
         self.n_slots = len(self.slot_descriptions)
         self.template = re.sub(r'\{[^\}]*\}', '{}', template) # looks like "it is {} minutes away"
+        self.raw_template = template
 
     def fill_slots(self, slot_values: list) -> dict:
         '''Returns a single message'''
@@ -36,6 +37,9 @@ class Template():
             'sender': 'agent'
         }
         return filled_template
+
+    def __str__(self):
+        return '<Template {}>'.format(self.raw_template)
 
 
 class API():
@@ -102,6 +106,9 @@ class API():
 
         return debug_message, new_variables
 
+    def __str__(self):
+        return '<API {}>'.format(self.name)
+
 class ClickLevelAgent(Agent):
     '''
     Base class for agents to support out-of-the-box click-level predictions
@@ -144,10 +151,14 @@ class ClickLevelAgent(Agent):
             if action == WAIT_FOR_USER:
                 break
 
+            # if there aren't enough items to fill the action, choose another action
+            if action.n_slots > len(available_variables):
+                continue
+
             # Fill slots
             selected_variables = []
-            slot_index = len(selected_variables)
-            for i in range(action.n_slots):
+
+            for slot_index in range(action.n_slots):
                 if isinstance(action, API):
                     selected_variable = self.fill_api(message, events, action, slot_index, available_variables, selected_variables)
                 elif isinstance(action, Template):

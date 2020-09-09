@@ -40,7 +40,6 @@ class RandomClickLevelAgent(ClickLevelAgent):
             self.next_action = WAIT_FOR_USER
             return self.end_dialog
         elif random.random() < 0.5:
-            self.next_action = WAIT_FOR_USER
             return random.choice(self.templates)
         else:
             return random.choice(self.api_functions)
@@ -71,6 +70,7 @@ class RandomClickLevelAgent(ClickLevelAgent):
     def on_template_fill(self, template, selected_variables, message):
         # Reset api tries on a successful template fill
         self.api_tries = 0
+        self.next_action = WAIT_FOR_USER
 
     def on_end_dialog(self, messages, available_variables):
         messages.append({

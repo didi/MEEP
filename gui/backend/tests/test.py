@@ -311,7 +311,6 @@ class MicroworldAgentTests(AgentTests):
         self.socket_client.emit('/message', {'sender': 'user', 'body': 'quit', 'roomId': '0'})
 
         non_debug_responses = [msg for msg in self._get_received() if not msg.startswith('DEBUG')]
-
         self.assertEqual(non_debug_responses[-1], 'Goodbye, ending dialog as requested by user')
 
 
@@ -426,8 +425,8 @@ class NumberAgentTests(AgentTests):
 
         self.socket_client.emit(
             '/message', {'sender': 'user', 'body': 'quit', 'roomId': '0'})
-        self.assertEqual(self._get_received()
-                         [-1], 'Goodbye, ending dialog as requested by user')
+        non_debug_responses = [msg for msg in self._get_received() if not msg.startswith('DEBUG')]
+        self.assertEqual(non_debug_responses[-1], 'Goodbye, ending dialog as requested by user')
 
 
 class LogTests(AgentTests):
