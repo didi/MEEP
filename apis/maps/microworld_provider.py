@@ -129,7 +129,7 @@ class MicroworldMapProvider(MapsProvider):
                 'No places could be found matching {}. See {} for a list of places'.format(query, self.places_path))
 
     def places_nearby(self, query, latitude, longitude):
-        query = query.strip()
+        query = query.strip().lower()
         matching_places = self.get_matching_places(query)
 
         if matching_places:
