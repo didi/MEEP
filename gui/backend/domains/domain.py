@@ -10,9 +10,8 @@ from collections import OrderedDict
 import os
 import sys
 sys.path.append(os.path.dirname(__file__))
-
-from utils.utils import add_full_names
-
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+from backend.utils.utils import add_full_names
 
 class Domain():
     '''Config information needed for a new domain '''
