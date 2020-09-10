@@ -25,7 +25,8 @@ class MicroworldMapProvider(MapsProvider):
         lat, lng, name, rating, price, *types = (x.strip() for x in row)
         return Place(lat, lng, name, rating, price, types)
 
-    def _dist(self, src_lat, src_lng, dest_lat, dest_lng):
+    @staticmethod
+    def _dist(src_lat, src_lng, dest_lat, dest_lng):
         return abs(float(src_lat) - float(dest_lat)) + \
             abs(float(src_lng) - float(dest_lng))
 
@@ -52,9 +53,10 @@ class MicroworldMapProvider(MapsProvider):
                     word, p) for word in query.split())]
         return matching_places
 
-    def _place_to_response(self, p: Place, src_lat: str, src_lng: str):
+    @staticmethod
+    def _place_to_response(p: Place, src_lat: str, src_lng: str):
         '''convert a Place, `p`, to the format expected by the api'''
-        dist = self._dist(src_lat, src_lng, p.lat, p.lng)
+        dist = MicroworldMapProvider._dist(src_lat, src_lng, p.lat, p.lng)
 
         if int(p.lat) <= 5 and int(p.lng) <= 5:
             city = 'Marina del Rey'
@@ -142,26 +144,10 @@ class MicroworldMapProvider(MapsProvider):
 
     def generate_place(self, _source_latitude, _source_longitude):
         place = random.choice(self.places)
+        response = self._place_to_response(place, _source_latitude, _source_longitude)
         return {
             "name": "destination",
-            "value": [
-                {
-                    "name": "address",
-                    "value": "{} Main Street".format(place.lng)
-                },
-                {
-                    "name": "name",
-                    "value": place.name
-                },
-                {
-                    "name": "latitude",
-                    "value": place.lat
-                },
-                {
-                    "name": "longitude",
-                    "value": place.lng
-                }
-            ]
+            "value": [ kv for kv in response if kv["name"] in ("address_simple", "name", "latitude", "longitude") ]
         }
 
     def start_driving_no_map(self, latitude, longitude):
@@ -172,9 +158,10 @@ class MicroworldMapProvider(MapsProvider):
 
 
 class MicroworldMapProvider2(MicroworldMapProvider):
-    def _place_to_response(self, p: Place, src_lat: str, src_lng: str):
+    @staticmethod
+    def _place_to_response(p: Place, src_lat: str, src_lng: str):
         '''convert a Place, `p`, to the format expected by the api'''
-        dist = self._dist(src_lat, src_lng, p.lat, p.lng)
+        dist = MicroworldMapProvider2._dist(src_lat, src_lng, p.lat, p.lng)
 
         if float(p.lat) <= 5 and float(p.lng) <= 5:
             city = 'Marina del Rey'
