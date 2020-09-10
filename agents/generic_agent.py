@@ -8,6 +8,7 @@ class GenericAgent(Agent):
     def __init__(self, agent_shared_state,
                  agent_model_path, interfaces, domain, **kwargs):
         super().__init__(agent_shared_state, agent_model_path, interfaces, domain, **kwargs)
+        self.domain = domain.clone(interfaces)
 
         # Load generic params stored in shared state.  Interfaces are not stored in shared state
         # because they have per-agent variable managers attached to them.

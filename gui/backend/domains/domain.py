@@ -45,7 +45,7 @@ class Domain():
         # Once we drop support for that, we can use the paths directly
         self.initialization_file = str(initialization_file)
         self.agent_templates = str(agent_templates)
-        self.user_templates = None and str(user_templates)
+        self.user_templates = str(user_templates) if user_templates else None
         self.apis_file = str(apis_file)
 
         self.api_functions, self.end_dialog = self.load_apis(self.apis_file, self.interfaces)
@@ -58,7 +58,7 @@ class Domain():
 
     def clone(self, new_interfaces):
         ''' Clone this domain but with new interfaces.  You need separate interfaces for each room beacuse each one has its own manager'''
-        return Domain(self.name + '_clone', new_interfaces, self.initialization_file, self.apis_file,
+        return Domain(self.name, new_interfaces, self.initialization_file, self.apis_file,
                       self.agent_templates, self.user_templates)
 
     def load_apis(self, apis_file, interfaces):
