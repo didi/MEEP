@@ -20,8 +20,8 @@ class GPT2Agent(Agent):
     BEAM_SIZE = 5
 
     def __init__(self, agent_shared_state,
-                 agent_model_path, interfaces, **kwargs):
-        super().__init__(agent_shared_state, agent_model_path, interfaces)
+                 agent_model_path, interfaces, domain, **kwargs):
+        super().__init__(agent_shared_state, agent_model_path, interfaces, domain, **kwargs)
         self.api_call_params = {
             'find_place': ('query', 'src latitude', 'src longitude'),
             'places_nearby': ('query', 'src latitude', 'src longitude'),

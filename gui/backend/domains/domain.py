@@ -11,6 +11,8 @@ import os
 import sys
 sys.path.append(os.path.dirname(__file__))
 
+from utils.utils import add_full_names
+
 
 class Domain():
     '''Config information needed for a new domain '''
@@ -35,81 +37,90 @@ class Domain():
 
     Note that this functionality is still experimental and not fully supported.
     '''
-    def __init__(self, name, interfaces, initialization, apis,
-                 agent_templates, user_templates=None):
+    def __init__(self, name: str, interfaces: list, initialization_file: str, apis_file: str,
+                 agent_templates: str, user_templates=None):
         self.name = name
         self.interfaces = interfaces
 
         # Python 3.5 doesn't support open(<PosixPath>)
         # Once we drop support for that, we can use the paths directly
-        self.initialization = str(initialization)
+        self.initialization_file = str(initialization_file)
         self.agent_templates = str(agent_templates)
         self.user_templates = str(user_templates)
-        self.apis = str(apis)
+        self.apis_file = str(apis_file)
 
-        self.load_apis()
-
-        self.agent_templates_grouped, self.agent_templates_list = \
-            load_templates(self.agent_templates)
-
+        self.api_functions, self.end_dialog = self.load_apis(self.apis_file, self.interfaces)
+        self.agent_templates_list, self.agent_templates_grouped = self.load_templates(self.agent_templates)
         if user_templates is not None:
-            self.user_templates_grouped, self.user_templates_list = \
-                load_templates(self.user_templates)
+            self.user_templates_grouped, self.user_templates_list = self.load_templates(self.user_templates)
+        self.initialization = self.load_initialization(self.initialization_file)
+        self.initial_variables = self.initialization['initial_variables']
+        self.initial_message = self.initialization['initial_message']
 
     def clone(self, new_interfaces):
         ''' Clone this domain but with new interfaces.  You need separate interfaces for each room '''
-        return Domain(self.name, new_interfaces, self.initialization, self.apis,
+        return Domain(self.name, new_interfaces, self.initialization, self.apis_file,
                       self.agent_templates, self.user_templates)
 
-    def load_apis(self):
+    def load_apis(self, apis_file, interfaces):
         # get active api functions.
         # `api_functions` looks like the list of objects in apis.json except that each
         #  api also has the key 'function' containing the executable function
         # `end_dialog` is a single instance of that^.
-        with open(self.apis) as f:
+        with open(apis_file) as f:
             # api_functions is similar to a list of dict with keys name,
             # endpoint, params, function
-            self.api_functions = {api['endpoint']: api for api in json.load(f)}
+            api_functions = {api['endpoint']: api for api in json.load(f)}
 
-        self.end_dialog = None
-        for interface in self.interfaces:
+        end_dialog = None
+        for interface in interfaces:
             for attr in dir(interface):
                 function = getattr(interface, attr)
 
                 if hasattr(
-                        function, 'endpoint') and function.endpoint in self.api_functions:
+                        function, 'endpoint') and function.endpoint in api_functions:
                     if hasattr(function, 'completes_dialog'):
-                        assert self.end_dialog is None, "Found more than on api which ends the dialog"
-                        self.end_dialog = self.api_functions[function.endpoint]
-                        self.end_dialog['function'] = function
-                        del self.api_functions[function.endpoint]
+                        assert end_dialog is None, "Found more than on api which ends the dialog"
+                        end_dialog = api_functions[function.endpoint]
+                        end_dialog['function'] = function
+                        del api_functions[function.endpoint]
                     else:
-                        self.api_functions[function.endpoint]['function'] = function
-        if self.end_dialog is None:
+                        api_functions[function.endpoint]['function'] = function
+        if end_dialog is None:
             raise Exception('Could not find an API to end dialog')
 
         # filter out functions not in apis.json
-        self.api_functions = OrderedDict(
-            {k: v for k, v in self.api_functions.items() if 'function' in v})
+        api_functions = OrderedDict(
+            {k: v for k, v in api_functions.items() if 'function' in v})
 
-def load_templates(template_file):
-    templates_grouped = OrderedDict()
-    templates_list = []
-    if template_file is not None:
-        with open(template_file) as f:
-            current_group = None
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                if line.startswith("---") or line.startswith("****"):
-                    current_group = line
-                else:
-                    if current_group not in templates_grouped:
-                        templates_grouped[current_group] = []
-                    templates_grouped[current_group].append(line)
-                    templates_list.append(line)
-    return templates_grouped, templates_list
+        return api_functions, end_dialog
+
+    def load_initialization(self, initialization_file):
+        with open(initialization_file) as f:
+            initialization = json.load(f)
+
+        # Augment every object with full_names
+        add_full_names(initialization['initial_variables']['variables'], initialization['initial_variables']['variable_group'])
+        return initialization
+
+    def load_templates(self, template_file):
+        templates_grouped = OrderedDict()
+        templates_list = []
+        if template_file is not None:
+            with open(template_file) as f:
+                current_group = None
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    if line.startswith("---") or line.startswith("****"):
+                        current_group = line
+                    else:
+                        if current_group not in templates_grouped:
+                            templates_grouped[current_group] = []
+                        templates_grouped[current_group].append(line)
+                        templates_list.append(line)
+        return templates_grouped, templates_list
 
 
 def load_domain(domain_name: str) -> Domain:

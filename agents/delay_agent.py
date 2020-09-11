@@ -8,8 +8,8 @@ class DelayAgent(Agent):
     '''
 
     def __init__(self, agent_shared_state,
-                 agent_model_path, interfaces, **kwargs):
-        super().__init__(agent_shared_state, agent_model_path, interfaces)
+                 agent_model_path, interfaces, domain, **kwargs):
+        super().__init__(agent_shared_state, agent_model_path, interfaces, domain, **kwargs)
         delay = 5
         if agent_model_path:
             with open(agent_model_path) as f:

@@ -6,10 +6,10 @@ class CompareNumbersAgent(Agent):
     """Simple rule-based agent to compare 2 numbers"""
 
     def __init__(self, _agent_shared_state, _agent_model_path,
-                 interfaces: list, **kwargs):
+                 interfaces: list, domain, **kwargs):
         # This agent is stateless, so we don't need a shared state
         # It doesn't need to load a model file, so we don't need model_path
-        super().__init__(_agent_shared_state, None, interfaces)
+        super().__init__(_agent_shared_state, None, interfaces, domain, **kwargs)
 
         [self.compare_interface, ] = self.interfaces
 

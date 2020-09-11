@@ -30,8 +30,8 @@ microworld_domai1 = Domain(
 microworld_domain2 = Domain(
     'microworld2',
     [MapInterface('microworld', map_path='microworld_map2.txt')],
-    DOMAIN_DIR / 'initialization2.json',
-    DOMAIN_DIR / 'apis.json',
-    DOMAIN_DIR / 'agent_templates.txt',
-    DOMAIN_DIR / 'user_templates.txt',
+    initialization_file=DOMAIN_DIR / 'initialization2.json',
+    apis_file=DOMAIN_DIR / 'apis.json',
+    agent_templates=DOMAIN_DIR / 'agent_templates.txt',
+    user_templates=DOMAIN_DIR / 'user_templates.txt',
 )

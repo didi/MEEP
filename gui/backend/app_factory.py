@@ -128,11 +128,6 @@ class AppFactory():
         def handle_message(msg, methods=['GET', 'POST']):
             room_id = msg['roomId']
             room = self.rooms[room_id]
-
-            # TODO: Using get_initial_variables here means that agent logs that use initial variables are not executable because they don't track
-            # the variable_group of initial_variables
-            # Fixing this will require changing all the agents so make it a
-            # separate commit
             room.message_interface.handle_message(msg)
 
         @self.socket.on('/restart_dialog')
@@ -150,7 +145,6 @@ class AppFactory():
         room = self.rooms[room_id]
         filename = room.logger.save_logs(
             correct,
-            room.manager.initial_variables,
             room.agent.name,
             room.user_story) if self.save_logs else 'dummy'
         self.socket.emit('/end_dialog_confirm',
@@ -209,7 +203,7 @@ class AppFactory():
 
         @self.flask_app.route('/apis')
         def apis():
-            with current_app.open_resource(self.domain.apis, 'r') as f:
+            with current_app.open_resource(self.domain.apis_file, 'r') as f:
                 api_list = json.load(f)
             return jsonify(api_list)
 

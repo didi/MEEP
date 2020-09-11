@@ -1,5 +1,5 @@
 def create_agent(agent_class_name, agent_shared_state,
-                 agent_model_path, interfaces, **kwargs):
+                 agent_model_path, interfaces, domain, **kwargs):
     agent_class_name = agent_class_name if agent_class_name is not None else 'agents.human_agent.HumanAgent'
     module_name, _, class_name = agent_class_name.rpartition('.')
     module = __import__(module_name, fromlist=[class_name])
@@ -8,6 +8,7 @@ def create_agent(agent_class_name, agent_shared_state,
         agent_shared_state,
         agent_model_path,
         interfaces,
+        domain,
         **kwargs)
     agent.class_name = agent_class_name
     return agent
@@ -15,7 +16,8 @@ def create_agent(agent_class_name, agent_shared_state,
 
 class Agent():
     def __init__(self, agent_shared_state: dict,
-                 agent_model_path: str, interfaces: list, **kwargs):
+                 agent_model_path: str, interfaces: list,
+                 domain, **kwargs):
         '''
         Args:
             agent_shared_state - Shared state for a single model used across multiple parallel
@@ -24,6 +26,7 @@ class Agent():
                                Some agents like the rule-based model may not require a model file
             interfaces - Interfaces from different domains like "maps" or "weather" that specify which
                          which APIs and NLG templates are loaded
+            domain - Instance of domains.Domain
             **kwargs - Additional parameters from app_factory or room. Constant parameters should be provided in the model file instead
         '''
         self.agent_shared_state = agent_shared_state

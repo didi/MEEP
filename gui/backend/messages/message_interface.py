@@ -236,10 +236,13 @@ class MessageInterface():
         if initial_alternate_events is not None:
             agent_response = self.agent.on_message_with_alternate_events(
                 tuple([e.toJSON() for e in self.logger.all_events]),
-                initial_alternate_events)
+                initial_alternate_events
+            )
         else:
-            agent_response = self.agent.on_message(message, tuple(
-                [e.toJSON() for e in self.logger.all_events]))
+            agent_response = self.agent.on_message(
+                message,
+                tuple([e.toJSON() for e in self.logger.all_events])
+            )
 
         if not agent_response:
             if any(isinstance(e, EndDialogEvent)

@@ -25,10 +25,12 @@ class Room():
     def __init__(self, room_id, socket, domain, agent_shared_state, agent_class_name=None, agent_model_path=None, user_shared_state=None, user_class_name=None, user_model_path=None, handle_end_dialog=None, log_path='logs', evaluation_file=None, enable_translate=False, starting_evaluation_index=0, user_story=None, generate_destinations=False, purge_logs_every_N=0):
         self.emit_fn = functools.partial(socket.emit, room=room_id)
         self.socket = socket
+        self.domain = domain
 
         self.logger = Logger(
             domain.interfaces,
             room_id=room_id,
+            initial_variables=domain.initial_variables,
             log_path=log_path,
             purge_every_N=purge_logs_every_N)
 
@@ -45,13 +47,11 @@ class Room():
         self.user_name = user_class_name
         self.user.room = self
 
-        with open(domain.initialization) as fh:
-            self.initialization = json.load(fh)
 
         self.manager = VariableManager(
             self.emit_fn,
             self.logger,
-            self.initialization['initial_variables'],
+            domain.initial_variables,
             get_user_destination,
             handle_end_dialog,
             self.user)
@@ -62,14 +62,13 @@ class Room():
             new_interface.manager = self.manager
             self.interfaces.append(new_interface)
         self.agent = create_agent(agent_class_name, agent_shared_state,
-                                  agent_model_path, self.interfaces, domain=domain)
+                                  agent_model_path, self.interfaces, domain)
         self.agent.room = self
-
         self.enable_translate = enable_translate
 
         self.message_interface = MessageInterface(
             self.agent, self.user, socket, self.emit_fn, self.logger,
-            initial_message=self.initialization['initial_message'],
+            initial_message=domain.initial_message,
             enable_translate=enable_translate
         )
 
@@ -111,7 +110,7 @@ class Room():
             self.socket,
             self.emit_fn,
             self.logger,
-            initial_message=self.initialization['initial_message'],
+            initial_message=self.domain.initial_message,
             enable_translate=self.enable_translate)
         self.logger.agent_name = agent.name
         self.complete_dialog(completed=False)

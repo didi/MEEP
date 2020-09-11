@@ -7,8 +7,8 @@ class APITestAgent(Agent):
     '''
 
     def __init__(self, agent_shared_state, agent_model_path,
-                 api_interfaces, **kwargs):
-        super().__init__(agent_shared_state, agent_model_path, api_interfaces)
+                 api_interfaces, domain, **kwargs):
+        super().__init__(agent_shared_state, agent_model_path, api_interfaces, domain, **kwargs)
         self.num_turns = 0
         self.MAX_TURNS = 3  # number of turns that should be tested
 

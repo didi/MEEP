@@ -18,8 +18,8 @@ interfaces = [
 destination_domain = Domain(
     'destination',
     interfaces,
-    'domains/destination/initialization.json',
-    'domains/destination/apis.json',
-    'domains/destination/agent_templates.txt',
-    'domains/destination/user_templates.txt'
+    initialization_file='domains/destination/initialization.json',
+    agent_templates='domains/destination/agent_templates.txt',
+    user_templates='domains/destination/user_templates.txt',
+    apis_file='domains/destination/apis.json',
 )

@@ -18,9 +18,10 @@ def format_variable(v):
 
 
 class Logger():
-    def __init__(self, interfaces, room_id, log_path='logs', agent_name=None, purge_every_N=0):
+    def __init__(self, interfaces, room_id, initial_variables, log_path='logs', agent_name=None, purge_every_N=0):
         self.all_events = []
         self.interfaces = interfaces
+        self.initial_variables = initial_variables
         self.log_path = log_path
         self.agent_name = agent_name if agent_name is not None else '007'
         self.start_time = None
@@ -84,7 +85,7 @@ class Logger():
                 pass
         return filename
 
-    def save_logs(self, correct, initial_variables, agent_name, user_story):
+    def save_logs(self, correct, agent_name, user_story):
         if not any(isinstance(event, EndDialogEvent)
                    for event in reversed(self.all_events)):
             if len(self.all_events) == 0:
@@ -105,7 +106,7 @@ class Logger():
         duration = time.time() - self.start_time
         dialog_event = DialogEvent(
             self.interfaces,
-            initial_variables,
+            self.initial_variables,
             self.all_events,
             agent_name,
             duration,

@@ -6,9 +6,16 @@ from agents.agent import Agent
 
 class GenericAgent(Agent):
     def __init__(self, agent_shared_state,
-                 agent_model_path, interfaces, domain):
-        super().__init__(agent_shared_state, agent_model_path, interfaces)
-        self.domain = domain.clone(interfaces)
+                 agent_model_path, interfaces, domain, **kwargs):
+        super().__init__(agent_shared_state, agent_model_path, interfaces, domain, **kwargs)
+
+        # Load generic params stored in shared state.  Interfaces are not stored in shared state
+        # because they have per-agent variable managers attached to them.
+        if "generic_agent_params" in agent_shared_state:
+            return
+
+        shared_params = dict()
+        agent_shared_state["generic_agent_params"] = shared_params
 
     def initial_message(self):
         return {

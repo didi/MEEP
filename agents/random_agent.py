@@ -22,48 +22,21 @@ class RandomAgent(Agent):
     '''Agent that randomly picks actions'''
 
     def __init__(self, _agent_shared_state, agent_model_path,
-                 interfaces, *, domain=None, seed=None, **kwargs):
-        super().__init__(_agent_shared_state, agent_model_path, interfaces)
+                 interfaces, domain, *, seed=None, **kwargs):
+        super().__init__(_agent_shared_state, agent_model_path, interfaces, domain, **kwargs)
 
         self.interfaces = interfaces
+        self.initial_variables = domain.initial_variables
         self.domain = domain
+
+        # load templates. we don't care about grouping, so just load raw text
+        self.templates = domain.agent_templates_list
+        self.api_functions = domain.api_functions
+        self.end_dialog = domain.end_dialog
 
         if seed is not None:
             random.seed(seed)
 
-        # load templates. we don't care about grouping, so just load raw text
-        # from file
-        with open(self.domain.agent_templates) as f:
-            self.templates = [line.strip() for line in f if not line.startswith(
-                '---') and not line.isspace()]
-
-        # get active api functions.
-        # `api_functions` looks like the list of objects in apis.json except that each api also has the key 'function' containing the executable function
-        # `end_dialog` is a single instance of that^. Assume that there is only one function that can end the dialog, otherwise take the first one
-        with open(self.domain.apis) as f:
-            # api_functions is similar to a list of dict with keys name,
-            # endpoint, params, function
-            self.api_functions = {api['endpoint']: api for api in json.load(f)}
-        self.end_dialog = None
-
-        for interface in self.interfaces:
-            for attr in dir(interface):
-                function = getattr(interface, attr)
-
-                if hasattr(
-                        function, 'endpoint') and function.endpoint in self.api_functions:
-                    if hasattr(function, 'completes_dialog'):
-                        self.end_dialog = self.api_functions[function.endpoint]
-                        self.end_dialog['function'] = function
-                        del self.api_functions[function.endpoint]
-                    else:
-                        self.api_functions[function.endpoint]['function'] = function
-        # filter out functions not in apis.json
-        self.api_functions = {
-            k: v for k,
-            v in self.api_functions.items() if 'function' in v}
-        if self.end_dialog is None:
-            raise Exception('Could not find an API to end dialog')
 
     def initial_message(self):
         return {
@@ -187,25 +160,9 @@ class RandomAgent(Agent):
         '''
 
         # Gather variables
-
-        # Initial variables is passed as key-value pairs instead of objects with keys name, full_name and value
-        # Convert to the latter format
-        # TODO: See comment at app_factory.py:handle_message to pass the
-        # original get_initial_variables object
-        initial_variables = [
-            {
-                'name': k,
-                'full_name': k,
-                'value': v,
-            } for k, v in self.initial_variables.items()
-        ]
-
-        variables = initial_variables + [v for e in events if e['event_type'] ==
-                                         'user_utterance' or e['event_type'] == 'api_call' for v in e['variables']]
-        variables = flatten_variables(variables)
-
-        # test if the message contains a string like "goodbye", and end the
-        # dialog if so
+        variables = flatten_variables(self.initial_variables['variables'] + [v for e in events if e['event_type'] == 'user_utterance' or e['event_type'] == 'api_call' for v in e['variables']])
+        for v in variables:
+            v['name'] = str(v['name'])
 
         if self.is_end_dialog(message):
             debug_messages = self._make_api_call(self.end_dialog, variables)

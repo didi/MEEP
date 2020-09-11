@@ -22,7 +22,7 @@ domain_dir = pathlib.Path(__file__).resolve().parents[0]
 compare_numbers_domain = Domain(
     'compare_numbers',
     interfaces,
-    domain_dir / 'initialization.json',
-    domain_dir / 'apis.json',
-    domain_dir / 'agent_templates.txt'
+    initialization_file=domain_dir / 'initialization.json',
+    apis_file=domain_dir / 'apis.json',
+    agent_templates=domain_dir / 'agent_templates.txt',
 )

@@ -52,9 +52,9 @@ class RuleBasedAgent(Agent):
     '''
 
     def __init__(self, agent_shared_state,
-                 _agent_model_path, interfaces, **kwargs):
+                 _agent_model_path, interfaces, domain, **kwargs):
         ''' _agent_model_path arg is unused for rule based agent. '''
-        super().__init__(agent_shared_state, None, interfaces)
+        super().__init__(agent_shared_state, None, interfaces, domain, **kwargs)
         self.map_api_interface = self.interfaces[0]
 
         if not 'stop_words' in agent_shared_state:
